@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Payment readiness recovery path</title>
+  <desc id="desc">An original checklist card showing four separate payment records, a repeat-safe fulfillment path, failure tests, and bounded evidence claims for a synthetic purchase.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">PRODUCT OPERATIONS · PAYMENT-READINESS CARD</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="41" font-weight="800">A checkout screenshot is not recovery evidence</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Separate provider state, event receipt, order state, and durable fulfillment.</text>
+
+  <rect x="84" y="246" width="1032" height="105" rx="22" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="286" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="18" font-weight="800">SYNTHETIC PURCHASE — NOT A REAL PAYMENT OR REVENUE RESULT</text>
+  <text x="116" y="322" fill="#ffffff" font-family="system-ui, sans-serif" font-size="19">The browser returns successfully, but the delivery worker stops before commit.</text>
+
+  <line x1="237" y1="467" x2="963" y2="467" stroke="#4d7ea8" stroke-width="5"/>
+  <circle cx="237" cy="467" r="17" fill="#85d8ff"/>
+  <circle cx="479" cy="467" r="17" fill="#8de5d1"/>
+  <circle cx="721" cy="467" r="17" fill="#ffd166"/>
+  <circle cx="963" cy="467" r="17" fill="#ff9fbd"/>
+
+  <rect x="84" y="389" width="306" height="212" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="116" y="429" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="18" font-weight="800">1 · PROVIDER STATE</text>
+  <text x="116" y="500" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">What state authorizes</text>
+  <text x="116" y="531" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">fulfillment now?</text>
+  <text x="116" y="570" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Success ≠ funds settled</text>
+
+  <rect x="447" y="389" width="306" height="212" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="479" y="429" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="800">2 · EVENT RECEIPT</text>
+  <text x="479" y="500" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Was the request verified,</text>
+  <text x="479" y="531" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">recorded, and deduplicated?</text>
+  <text x="479" y="570" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Accepted ≠ effect completed</text>
+
+  <rect x="810" y="389" width="306" height="212" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="842" y="429" fill="#ffd166" font-family="system-ui, sans-serif" font-size="18" font-weight="800">3 · ORDER + EFFECT</text>
+  <text x="842" y="500" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Did one durable entitlement</text>
+  <text x="842" y="531" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">commit for this purchase?</text>
+  <text x="842" y="570" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Attempted ≠ committed</text>
+
+  <rect x="84" y="638" width="1032" height="164" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="682" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">RECOVERY PATH: RETURN THE EXISTING OUTCOME</text>
+  <text x="116" y="721" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Stable purchase key → verify current provider state → check durable completion →</text>
+  <text x="116" y="753" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">commit one entitlement → record provider and internal references → report success.</text>
+  <text x="116" y="782" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="15" font-weight="700">A repeated or concurrent call must not create a second delivery.</text>
+
+  <rect x="84" y="838" width="499" height="201" rx="22" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="116" y="882" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="19" font-weight="800">FAILURE-SHAPED TESTS</text>
+  <text x="116" y="920" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">• lost return · duplicate valid event</text>
+  <text x="116" y="952" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">• invalid signature · two workers</text>
+  <text x="116" y="984" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">• payment succeeds, delivery fails</text>
+  <text x="116" y="1016" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Use a provider test environment.</text>
+
+  <rect x="617" y="838" width="499" height="201" rx="22" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="649" y="882" fill="#ffd166" font-family="system-ui, sans-serif" font-size="19" font-weight="800">RECONCILE DISTINCT CLAIMS</text>
+  <text x="649" y="920" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Payment succeeded · order fulfilled</text>
+  <text x="649" y="952" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Funds available · payout received</text>
+  <text x="649" y="984" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Refunded · disputed · access changed</text>
+  <text x="649" y="1016" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Report only the evidenced state.</text>
+
+  <text x="84" y="1082" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not posted or published · operational guidance only</text>
+  <text x="84" y="1118" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Payment readiness is a recovery path, not a checkout screenshot”</text>
+  <text x="1116" y="1118" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

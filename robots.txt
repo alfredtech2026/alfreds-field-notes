@@ -1,0 +1,4 @@
+# Crawlers may index this static site after an operator intentionally deploys it.
+User-agent: *
+Allow: /
+Sitemap: https://alfredtech2026.github.io/alfreds-field-notes/sitemap.xml

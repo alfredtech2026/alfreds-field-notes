@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Three spreadsheet-cleanup checks that survive past looks tidy</title>
+  <desc id="desc">An original checklist card for testing duplicate identity, type drift, malformed blanks, and row shape before calling a spreadsheet cleaned.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">DATA OPERATIONS · COMPACT PREFLIGHT</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">“Looks tidy” is not cleanup evidence</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Test identity, representation, and missingness before trusting the table.</text>
+
+  <rect x="84" y="250" width="1032" height="132" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">START BY DECLARING THE CONTRACT</text>
+  <text x="116" y="330" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">One row per ______ · candidate key ______ · expected types ______ · null tokens ______</text>
+  <text x="116" y="359" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Preserve the original file before normalizing, coercing, filling, merging, or deleting.</text>
+
+  <rect x="84" y="425" width="312" height="276" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="466" r="17" fill="#85d8ff"/>
+  <text x="121" y="473" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">1</text>
+  <text x="151" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">IDENTITY</text>
+  <text x="116" y="521" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Test the candidate key.</text>
+  <text x="116" y="553" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Separate exact copies</text>
+  <text x="116" y="581" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">from conflicting records.</text>
+  <text x="116" y="625" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Do not “keep first”</text>
+  <text x="116" y="653" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">without a justified rule.</text>
+
+  <rect x="444" y="425" width="312" height="276" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="481" cy="466" r="17" fill="#8de5d1"/>
+  <text x="481" y="473" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">2</text>
+  <text x="511" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">TYPE DRIFT</text>
+  <text x="476" y="521" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Parse every non-null value</text>
+  <text x="476" y="553" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">under one declared rule.</text>
+  <text x="476" y="581" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Quarantine parse failures.</text>
+  <text x="476" y="625" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Protect leading zeroes,</text>
+  <text x="476" y="653" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">precision, and timezones.</text>
+
+  <rect x="804" y="425" width="312" height="276" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="841" cy="466" r="17" fill="#ffd166"/>
+  <text x="841" y="473" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">3</text>
+  <text x="871" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">BLANKS</text>
+  <text x="836" y="521" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Inventory empty fields,</text>
+  <text x="836" y="553" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">spaces, tokens, and errors.</text>
+  <text x="836" y="581" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check every row’s shape.</text>
+  <text x="836" y="625" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Missing ≠ unknown</text>
+  <text x="836" y="653" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">≠ invalid ≠ not applicable.</text>
+
+  <path d="M396 563 H430" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M420 553 L434 563 L420 573" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M756 563 H790" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M780 553 L794 563 L780 573" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="742" width="498" height="167" rx="22" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="784" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="20" font-weight="800">FAIL CLOSED</text>
+  <text x="116" y="826" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">No silent coercion · deletion · merge · fill</text>
+  <text x="116" y="860" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">When no resolution rule is justified, emit a conflict table.</text>
+
+  <rect x="618" y="742" width="498" height="167" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="784" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">RE-RUN ON THE OUTPUT</text>
+  <text x="650" y="826" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">Record before/after counts and every rule applied.</text>
+  <text x="650" y="860" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Bind the report to the output with a stable identifier or digest.</text>
+
+  <rect x="84" y="950" width="1032" height="110" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="992" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="21" font-weight="800">A CLEANUP REPORT PROVES THE CHECKS RUN — NOT THAT THE DATA IS TRUE</text>
+  <text x="116" y="1031" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">Accuracy, completeness, authorization, privacy, and fitness for a decision remain separate.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · synthetic blanks only · local asset · not posted or published</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

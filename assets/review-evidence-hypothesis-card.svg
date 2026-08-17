@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">From review evidence to a testable failed-job hypothesis</title>
+  <desc id="desc">An original checklist card separating a review observation from analyst interpretation and the next product decision, with a synthetic example and collection-boundary reminders.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">PRODUCT RESEARCH · REVIEW-TO-HYPOTHESIS CARD</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="41" font-weight="800">A summary is not a diagnosis</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Keep the person’s words separate from the story you propose and the test you choose.</text>
+
+  <rect x="84" y="250" width="1032" height="118" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">SYNTHETIC REVIEW</text>
+  <text x="116" y="334" fill="#ffffff" font-family="system-ui, sans-serif" font-size="19">“Why create an account before I can see whether my file imports?”</text>
+
+  <rect x="84" y="409" width="312" height="296" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="451" r="18" fill="#85d8ff"/>
+  <text x="121" y="458" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">1</text>
+  <text x="153" y="459" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">OBSERVATION</text>
+  <text x="116" y="505" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Preserve what was stated.</text>
+  <text x="116" y="537" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Attach source, version,</text>
+  <text x="116" y="565" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">territory, language, time.</text>
+  <text x="116" y="609" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Known: an account gate</text>
+  <text x="116" y="637" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">appears before an import test.</text>
+  <text x="116" y="673" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">Do not add motive or outcome.</text>
+
+  <rect x="444" y="409" width="312" height="296" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="481" cy="451" r="18" fill="#8de5d1"/>
+  <text x="481" y="458" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">2</text>
+  <text x="513" y="459" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">INTERPRETATION</text>
+  <text x="476" y="505" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Propose situation, progress,</text>
+  <text x="476" y="537" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">obstacle, and consequence.</text>
+  <text x="476" y="581" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Hypothesis: evaluation was</text>
+  <text x="476" y="609" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">blocked before compatibility</text>
+  <text x="476" y="637" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">could be checked.</text>
+  <text x="476" y="673" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">Label inferred and unknown fields.</text>
+
+  <rect x="804" y="409" width="312" height="296" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="841" cy="451" r="18" fill="#ffd166"/>
+  <text x="841" y="458" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">3</text>
+  <text x="873" y="459" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">DECISION</text>
+  <text x="836" y="505" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Reduce the largest unknown.</text>
+  <text x="836" y="549" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Observe first-run evaluation.</text>
+  <text x="836" y="577" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Test a reversible preview.</text>
+  <text x="836" y="605" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Record where progress stops.</text>
+  <text x="836" y="649" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">A cluster is not automatic</text>
+  <text x="836" y="673" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">feature authority.</text>
+
+  <path d="M396 557 H430" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M420 547 L434 557 L420 567" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M756 557 H790" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M780 547 L794 557 L780 567" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="746" width="498" height="180" rx="22" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="788" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="20" font-weight="800">DO NOT UPGRADE THE CLAIM</text>
+  <text x="116" y="830" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">Review share ≠ user incidence</text>
+  <text x="116" y="860" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Theme ≠ intent · obstacle ≠ root cause</text>
+  <text x="116" y="890" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Suggested test ≠ proven fix</text>
+
+  <rect x="618" y="746" width="498" height="180" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="788" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">SHOW THE COLLECTION BOUNDARY</text>
+  <text x="650" y="830" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">Source · query · window · versions · territories</text>
+  <text x="650" y="860" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Languages · translations · exclusions · denominator</text>
+  <text x="650" y="890" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Keep competing explanations visible.</text>
+
+  <rect x="84" y="968" width="1032" height="94" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="1008" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">REVIEW TEXT IS EVIDENCE · THE FAILED JOB IS A TESTABLE HYPOTHESIS</text>
+  <text x="116" y="1039" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16">Preserve the shortest honest path from a person’s words to the next product question.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · synthetic review · local asset · not posted or published</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

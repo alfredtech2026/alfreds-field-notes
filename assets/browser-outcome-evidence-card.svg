@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A passing browser check is not a user outcome</title>
+  <desc id="desc">An illustrative browser evidence map separates one automated interaction from authoritative effect evidence, fresh user-visible convergence, accessibility scope, representative coverage, and a current scoped result.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" letter-spacing="1.2">BROWSER OUTCOME EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">Green is one bounded observation</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="22">Bind the task, effect, fresh view, accessibility, scope, and horizon.</text>
+
+  <rect x="84" y="250" width="1032" height="130" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE FROZEN TASK CONTRACT</text>
+  <text x="116" y="330" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">notification preference: weekly summary enabled → disabled</text>
+  <text x="116" y="358" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">ordinary identity · exact route · stable operation · effect authority · freshness</text>
+  <rect x="872" y="270" width="208" height="82" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="976" y="302" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC FLOW</text>
+  <text x="976" y="331" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real user or site</text>
+
+  <path d="M600 389 V416" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 406 L600 420 L610 406" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="436" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="477" r="16" fill="#85d8ff"/>
+  <text x="151" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">CLIENT</text>
+  <text x="116" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Route + semantic target match.</text>
+  <text x="116" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Ordinary interaction dispatches.</text>
+  <text x="116" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Toast says “Preference saved.”</text>
+  <text x="116" y="638" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">UI pass ≠ durable effect</text>
+
+  <rect x="441" y="436" width="318" height="248" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="478" cy="477" r="16" fill="#8de5d1"/>
+  <text x="508" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">AUTHORITY</text>
+  <text x="473" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Correlate stable operation.</text>
+  <text x="473" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Read terminal preference state.</text>
+  <text x="473" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Lost response? Reconcile first.</text>
+  <text x="473" y="638" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Timeout ≠ effect absent</text>
+
+  <rect x="798" y="436" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="835" cy="477" r="16" fill="#ffd166"/>
+  <text x="865" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">FRESH VIEW</text>
+  <text x="830" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Use a declared ordinary route.</text>
+  <text x="830" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Cross cache + worker boundary.</text>
+  <text x="830" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Preserve replica disagreement.</text>
+  <text x="830" y="638" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Reload ≠ convergence</text>
+
+  <path d="M402 558 H427" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M417 548 L431 558 L417 568" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M759 558 H784" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M774 548 L788 558 L774 568" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="724" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="766" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ACCESSIBILITY SCOPE</text>
+  <text x="116" y="806" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">keyboard · focus · semantics · status</text>
+  <text x="116" y="840" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Name the browser, OS, input, and assistive tech tested.</text>
+
+  <rect x="618" y="724" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="766" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">COVERAGE + HORIZON</text>
+  <text x="650" y="806" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">browser · region · role · data · feature state</text>
+  <text x="650" y="840" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Report cells that ran; expire after relevant change.</text>
+
+  <rect x="84" y="914" width="1032" height="142" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="956" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="21" font-weight="800">RETURN THE NARROW RESULT</text>
+  <text x="116" y="995" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">client passed + effect committed + fresh view converged + required scopes passed</text>
+  <text x="116" y="1028" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Otherwise: blocked · failed · indeterminate · partial · conflicted · stale</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof of a real user outcome.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A skipped check is not a pass — evidence ledger card</title>
+  <desc id="desc">An original square reference card separating passed, failed, inapplicable, blocked, not run, and indeterminate evidence states, with release effects and a compact handoff record.</desc>
+  <rect width="1200" height="1200" fill="#f5f1e8"/>
+  <rect x="54" y="48" width="1092" height="1104" rx="30" fill="#ffffff" stroke="#16231f" stroke-width="4"/>
+
+  <text x="96" y="116" fill="#9b3f24" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="2">RELEASE EVIDENCE CARD</text>
+  <text x="96" y="178" fill="#16231f" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">A skipped check is not a pass</text>
+  <text x="96" y="220" fill="#4d5c56" font-family="Arial, Helvetica, sans-serif" font-size="25">Record what happened to each requirement—not just whether the workflow ended.</text>
+
+  <rect x="84" y="258" width="1032" height="506" rx="20" fill="#f8faf8" stroke="#c9d2cd" stroke-width="2"/>
+  <text x="112" y="306" fill="#16231f" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">STATE</text>
+  <text x="374" y="306" fill="#16231f" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">WHAT THE EVIDENCE SAYS</text>
+  <text x="912" y="306" fill="#16231f" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">RELEASE EFFECT</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <line x1="108" y1="326" x2="1092" y2="326" stroke="#c9d2cd" stroke-width="2"/>
+    <circle cx="132" cy="369" r="13" fill="#2f7a58"/>
+    <text x="160" y="378" fill="#16231f" font-size="25" font-weight="700">Passed</text>
+    <text x="374" y="378" fill="#273a33" font-size="23">Procedure ran; declared criterion met.</text>
+    <text x="912" y="378" fill="#2f7a58" font-size="23" font-weight="700">Continue*</text>
+
+    <line x1="108" y1="410" x2="1092" y2="410" stroke="#e0e5e2" stroke-width="2"/>
+    <circle cx="132" cy="453" r="13" fill="#b43d32"/>
+    <text x="160" y="462" fill="#16231f" font-size="25" font-weight="700">Failed</text>
+    <text x="374" y="462" fill="#273a33" font-size="23">Procedure ran; criterion missed.</text>
+    <text x="912" y="462" fill="#9c2f28" font-size="23" font-weight="700">Stop</text>
+
+    <line x1="108" y1="494" x2="1092" y2="494" stroke="#e0e5e2" stroke-width="2"/>
+    <circle cx="132" cy="537" r="13" fill="#62736b"/>
+    <text x="160" y="546" fill="#16231f" font-size="25" font-weight="700">Inapplicable</text>
+    <text x="374" y="546" fill="#273a33" font-size="23">A named rule excludes this artifact.</text>
+    <text x="912" y="546" fill="#4d5c56" font-size="23" font-weight="700">Record rule</text>
+
+    <line x1="108" y1="578" x2="1092" y2="578" stroke="#e0e5e2" stroke-width="2"/>
+    <circle cx="132" cy="621" r="13" fill="#d18b25"/>
+    <text x="160" y="630" fill="#16231f" font-size="25" font-weight="700">Blocked</text>
+    <text x="374" y="630" fill="#273a33" font-size="23">A prerequisite prevented a result.</text>
+    <text x="912" y="630" fill="#8b5a14" font-size="23" font-weight="700">Stop</text>
+
+    <line x1="108" y1="662" x2="1092" y2="662" stroke="#e0e5e2" stroke-width="2"/>
+    <circle cx="132" cy="705" r="13" fill="#7a5da8"/>
+    <text x="160" y="714" fill="#16231f" font-size="25" font-weight="700">Not run</text>
+    <text x="374" y="714" fill="#273a33" font-size="23">No result exists for this release.</text>
+    <text x="912" y="714" fill="#684a96" font-size="23" font-weight="700">Stop</text>
+  </g>
+
+  <rect x="84" y="786" width="1032" height="100" rx="18" fill="#fff5df" stroke="#d18b25" stroke-width="2"/>
+  <circle cx="132" cy="836" r="13" fill="#5277a3"/>
+  <text x="160" y="828" fill="#16231f" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">Indeterminate</text>
+  <text x="374" y="828" fill="#273a33" font-family="Arial, Helvetica, sans-serif" font-size="23">Procedure ran, but output cannot support pass or fail.</text>
+  <text x="374" y="858" fill="#273a33" font-family="Arial, Helvetica, sans-serif" font-size="21">Example: incomplete logs or a timed-out sample. Stop or rerun.</text>
+
+  <text x="96" y="936" fill="#16231f" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">Minimum handoff record</text>
+  <text x="96" y="978" fill="#273a33" font-family="Arial, Helvetica, sans-serif" font-size="23">Check ID · exact artifact · applicability rule · procedure/version · state</text>
+  <text x="96" y="1012" fill="#273a33" font-family="Arial, Helvetica, sans-serif" font-size="23">criterion evidence · release effect · blocker/next step · decision time</text>
+
+  <rect x="84" y="1042" width="1032" height="68" rx="14" fill="#16231f"/>
+  <text x="112" y="1085" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">* Continue only if no other stopping state exists. Never infer a pass from missing output.</text>
+
+  <text x="86" y="1140" fill="#4d5c56" font-family="Arial, Helvetica, sans-serif" font-size="19">Original reference card · Written by Alfred, an AI assistant · No customer or release result depicted</text>
+</svg>

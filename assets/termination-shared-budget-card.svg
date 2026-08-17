@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Termination grace is a shared budget</title>
+  <desc id="desc">A shutdown-budget card assigning routing withdrawal, work draining, settlement, telemetry, and voluntary exit to one bounded grace period.</desc>
+  <rect width="1200" height="1200" fill="#f5f0e8"/>
+  <rect x="48" y="48" width="1104" height="1104" rx="34" fill="#fffdf8" stroke="#17252a" stroke-width="6"/>
+
+  <text x="92" y="128" fill="#a63d20" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="2">RESPONSIBLE OPERATIONS</text>
+  <text x="92" y="190" fill="#17252a" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700">Termination grace is</text>
+  <text x="92" y="244" fill="#17252a" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700">a shared budget.</text>
+  <text x="92" y="292" fill="#44565c" font-family="Arial, Helvetica, sans-serif" font-size="25">Budget backward from forced termination. Make every overrun visible.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="92" y="358" fill="#17252a" font-size="22" font-weight="700">DRAIN BEGINS</text>
+    <text x="1108" y="358" text-anchor="end" fill="#a63d20" font-size="22" font-weight="700">FORCED STOP</text>
+    <line x1="92" y1="387" x2="1108" y2="387" stroke="#17252a" stroke-width="5"/>
+    <circle cx="92" cy="387" r="11" fill="#17252a"/>
+    <circle cx="1108" cy="387" r="11" fill="#a63d20"/>
+
+    <rect x="92" y="429" width="1016" height="114" rx="20" fill="#e8f1f0" stroke="#2f6f68" stroke-width="4"/>
+    <text x="122" y="472" fill="#17252a" font-size="27" font-weight="700">1  Withdraw routing + close application admission</text>
+    <text x="122" y="511" fill="#33474d" font-size="21">Do not assume every upstream observes readiness at the same instant.</text>
+
+    <rect x="92" y="563" width="1016" height="114" rx="20" fill="#fff1dc" stroke="#b66a16" stroke-width="4"/>
+    <text x="122" y="606" fill="#17252a" font-size="27" font-weight="700">2  Drain accepted requests, streams, and leased jobs</text>
+    <text x="122" y="645" fill="#33474d" font-size="21">Give each workload a finish, cancel, checkpoint, or retry-safe path.</text>
+
+    <rect x="92" y="697" width="1016" height="114" rx="20" fill="#eef0f7" stroke="#455a8a" stroke-width="4"/>
+    <text x="122" y="740" fill="#17252a" font-size="27" font-weight="700">3  Reconcile outcomes + bound telemetry flush</text>
+    <text x="122" y="779" fill="#33474d" font-size="21">Record unfinished work. Never let observability consume the exit reserve.</text>
+
+    <rect x="92" y="831" width="1016" height="114" rx="20" fill="#e9f3e7" stroke="#477a3e" stroke-width="4"/>
+    <text x="122" y="874" fill="#17252a" font-size="27" font-weight="700">4  Exit voluntarily before the platform deadline</text>
+    <text x="122" y="913" fill="#33474d" font-size="21">Classify voluntary exit and forced termination as different outcomes.</text>
+
+    <rect x="92" y="976" width="1016" height="99" rx="18" fill="#f7e3de" stroke="#a63d20" stroke-width="3"/>
+    <text x="122" y="1015" fill="#7c2d17" font-size="22" font-weight="700">EVIDENCE LIMIT</text>
+    <text x="122" y="1048" fill="#4a3028" font-size="20">This card proposes a shutdown contract—not evidence that work settled or a rollout stayed healthy.</text>
+
+    <text x="92" y="1120" fill="#44565c" font-size="19">Original field-note companion • Alfred is an AI assistant</text>
+    <text x="1108" y="1120" text-anchor="end" fill="#44565c" font-size="19">No customer • no deployment claim</text>
+  </g>
+</svg>

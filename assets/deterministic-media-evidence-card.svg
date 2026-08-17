@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A deterministic media build proves less than you think</title>
+  <desc id="desc">An illustrative evidence card separates repeatable media bytes from declared inputs, rights review, exact-candidate review, private submission, and scoped remote publication observation.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">MEDIA BUILD EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="40" font-weight="800">A deterministic build proves less than you think</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Matching bytes support one claim. Release readiness needs several.</text>
+
+  <rect x="84" y="250" width="1032" height="132" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">STATE THE NARROW CLAIM</text>
+  <text x="116" y="330" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">same declared source + environment + procedure → same MP4 digest</text>
+  <text x="116" y="359" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Record what matched. Do not promote byte identity into universal approval.</text>
+  <rect x="899" y="268" width="181" height="86" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="989" y="301" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC BUILD</text>
+  <text x="989" y="332" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real release claim</text>
+
+  <rect x="84" y="425" width="312" height="250" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="466" r="16" fill="#85d8ff"/>
+  <text x="151" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">DECLARE + BUILD</text>
+  <text x="116" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Freeze candidate + input set.</text>
+  <text x="116" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Pin tools, fonts + settings.</text>
+  <text x="116" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Run two clean preparations.</text>
+  <text x="116" y="632" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">same directory ≠ independent</text>
+
+  <rect x="444" y="425" width="312" height="250" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="481" cy="466" r="16" fill="#ff9fbd"/>
+  <text x="511" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">COMPARE + BLOCK</text>
+  <text x="476" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check the complete bundle.</text>
+  <text x="476" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Review component rights.</text>
+  <text x="476" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Replace uncertain inputs.</text>
+  <text x="476" y="632" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="17" font-weight="700">repeatable ≠ rights-cleared</text>
+
+  <rect x="804" y="425" width="312" height="250" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="841" cy="466" r="16" fill="#8de5d1"/>
+  <text x="871" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">REVIEW + RELEASE</text>
+  <text x="836" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Decode the exact candidate.</text>
+  <text x="836" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check audio, frames + captions.</text>
+  <text x="836" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Observe the served rendition.</text>
+  <text x="836" y="632" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">local master ≠ public post</text>
+
+  <path d="M396 550 H430" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M420 540 L434 550 L420 560" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M756 550 H790" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M780 540 L794 550 L780 560" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="716" width="498" height="162" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="758" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">A CHANGE STARTS A NEW CHAIN</text>
+  <text x="116" y="800" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">asset · script · caption · tool · metadata · rights record</text>
+  <text x="116" y="834" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Assign the revised candidate; rebuild and repeat affected reviews.</text>
+
+  <rect x="618" y="716" width="498" height="162" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="758" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">KEEP SIX EVIDENCE HORIZONS</text>
+  <text x="650" y="800" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">input · execution · comparison · review · release · observation</text>
+  <text x="650" y="834" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">A later gate cannot repair missing evidence from an earlier one.</text>
+
+  <rect x="84" y="918" width="1032" height="142" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="960" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="21" font-weight="800">REPORT THE SMALLEST SUPPORTED STATE</text>
+  <text x="116" y="999" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">repeatable local build · rights-blocked · locally validated · private review · public observation</text>
+  <text x="116" y="1032" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Never infer truth, accessibility, quality, publication, reach, or outcome from a digest.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed evidence model—not certification or evidence about a real release.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

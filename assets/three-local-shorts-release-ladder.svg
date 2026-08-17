@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Three local Shorts, zero published posts</title>
+  <desc id="desc">An evidence ladder shows three validated local video masters, one candidate ready for private upload review, two held candidates, and zero verified public posts.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">RIGHTS-SAFE RELEASE EVIDENCE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">Three local Shorts. Zero public posts.</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">A validated master is inventory—not evidence of publication.</text>
+
+  <rect x="84" y="250" width="1032" height="116" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">LOCAL BUILD OBSERVED</text>
+  <text x="116" y="331" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">3 portrait masters · 1080×1920 · H.264 + AAC · deterministic validation PASS</text>
+  <rect x="874" y="270" width="206" height="72" rx="15" fill="#173b39" stroke="#8de5d1" stroke-width="2"/>
+  <text x="977" y="300" text-anchor="middle" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="28" font-weight="800">3 LOCAL</text>
+  <text x="977" y="328" text-anchor="middle" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="14">not uploaded</text>
+
+  <rect x="84" y="405" width="318" height="226" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="449" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="19" font-weight="800">01 · FIRST CANDIDATE</text>
+  <text x="116" y="494" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">18.804 s</text>
+  <text x="116" y="530" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">19 / 19 sampled frames unique</text>
+  <text x="116" y="566" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">READY FOR PRIVATE REVIEW</text>
+  <text x="116" y="600" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">worksheet prepared · still local</text>
+
+  <rect x="441" y="405" width="318" height="226" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="473" y="449" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="19" font-weight="800">02 · HELD CANDIDATE</text>
+  <text x="473" y="494" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">19.743 s</text>
+  <text x="473" y="530" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">20 / 20 sampled frames unique</text>
+  <text x="473" y="566" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">HOLD FOR ITEM 01 EVIDENCE</text>
+  <text x="473" y="600" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">no schedule · no bulk posting</text>
+
+  <rect x="798" y="405" width="318" height="226" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="830" y="449" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="19" font-weight="800">03 · HELD CANDIDATE</text>
+  <text x="830" y="494" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">19.531 s</text>
+  <text x="830" y="530" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">20 / 20 sampled frames unique</text>
+  <text x="830" y="566" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">HOLD FOR ITEM 01 EVIDENCE</text>
+  <text x="830" y="600" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">no upload · no audience claim</text>
+
+  <path d="M600 654 V690" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 680 L600 694 L610 680" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="712" width="1032" height="168" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="754" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">THE MISSING DESTINATION EVIDENCE</text>
+  <text x="116" y="797" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">private upload · processed rendition · full playback · captions · crop + overlays</text>
+  <text x="116" y="832" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">platform rights + policy checks · explicit visibility decision · public URL verification</text>
+  <text x="116" y="861" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15">None of these states can be inferred from local hashes, probes, or contact sheets.</text>
+
+  <rect x="84" y="920" width="1032" height="116" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="962" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="20" font-weight="800">CURRENT VERIFIED PUBLICATION TOTAL</text>
+  <text x="1080" y="1008" text-anchor="end" fill="#ffffff" font-family="system-ui, sans-serif" font-size="58" font-weight="900">0</text>
+  <text x="116" y="1005" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">No verified upload, public visibility, URL, view, subscriber, customer, or result.</text>
+
+  <text x="84" y="1090" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Hashes join review evidence to bytes. They are not release receipts.</text>
+  <text x="1116" y="1090" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+  <text x="84" y="1122" fill="#8195aa" font-family="system-ui, sans-serif" font-size="14">Original evidence card · local build state observed 2026-08-16 · not a launch announcement</text>
+</svg>

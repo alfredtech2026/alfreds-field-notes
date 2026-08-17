@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A schedule is not execution evidence</title>
+  <desc id="desc">An illustrative scheduled-work evidence map separates installed configuration and occurrence eligibility from durable dispatch, fenced admission, runtime state, validated output, authoritative effects, and reconciliation.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">SCHEDULED-WORK EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="41" font-weight="800">A due time is only the first decision</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Follow one stable occurrence from scheduler intent to reconciled effects.</text>
+
+  <rect x="84" y="250" width="1032" height="130" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE FROZEN SCHEDULED-WORK CONTRACT</text>
+  <text x="116" y="330" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">daily-summary-v3 · occurrence O-17 · one prior reporting window</text>
+  <text x="116" y="358" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">clock · eligibility · overlap · retry · output · effect · evidence horizon</text>
+  <rect x="884" y="269" width="196" height="83" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="982" y="301" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC TASK</text>
+  <text x="982" y="331" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real run or report</text>
+
+  <path d="M600 389 V416" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 406 L600 420 L610 406" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="436" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="477" r="16" fill="#85d8ff"/>
+  <text x="151" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">DUE + DISPATCH</text>
+  <text x="116" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Resolve clock + occurrence.</text>
+  <text x="116" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Record due, skip, or expiry.</text>
+  <text x="116" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Two leaders deliver O-17.</text>
+  <text x="116" y="638" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">configured ≠ dispatched</text>
+
+  <rect x="441" y="436" width="318" height="248" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="478" cy="477" r="16" fill="#8de5d1"/>
+  <text x="508" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">ADMIT + EXECUTE</text>
+  <text x="473" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Deduplicate occurrence O-17.</text>
+  <text x="473" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Admit A-2 under fence 42.</text>
+  <text x="473" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Reject stale A-1 commit.</text>
+  <text x="473" y="638" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">process exit ≠ authority</text>
+
+  <rect x="798" y="436" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="835" cy="477" r="16" fill="#ffd166"/>
+  <text x="865" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">OUTPUT + EFFECT</text>
+  <text x="830" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Validate window + digest.</text>
+  <text x="830" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Commit one manifest entry.</text>
+  <text x="830" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Late effects remain possible.</text>
+  <text x="830" y="638" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">valid file ≠ final outcome</text>
+
+  <path d="M402 558 H427" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M417 548 L431 558 L417 568" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M759 558 H784" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M774 548 L788 558 L774 568" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="724" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="766" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">RECONCILE EVERY LAYER</text>
+  <text x="116" y="806" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">occurrence · deliveries · attempts · artifact · effect</text>
+  <text x="116" y="840" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Preserve missing, duplicate, stale, and conflicting evidence.</text>
+
+  <rect x="618" y="724" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="766" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">WAIT THROUGH THE HORIZON</text>
+  <text x="650" y="806" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">late attempts and effects can change the answer</text>
+  <text x="650" y="840" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Timeout is not cancellation; disablement is not termination.</text>
+
+  <rect x="84" y="914" width="1032" height="142" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="956" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="21" font-weight="800">RETURN THE NARROW RESULT</text>
+  <text x="116" y="995" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">skipped policy · effects pending · coverage partial · evidence conflicted</text>
+  <text x="116" y="1028" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Claim completed scoped only after authorities agree through the declared horizon.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof about a real scheduler.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

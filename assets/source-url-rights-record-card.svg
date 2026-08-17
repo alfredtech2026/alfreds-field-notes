@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A source URL is not a rights record</title>
+  <desc id="desc">An illustrative rights-evidence card separates a source link from exact asset identity, component coverage, permission, use conditions, candidate binding, and observed release.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">RIGHTS EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="41" font-weight="800">A source URL is not a rights record</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">A bookmark records discovery—not permission for a particular release.</text>
+
+  <rect x="84" y="250" width="1032" height="132" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">START WITH THE NARROW CLAIM</text>
+  <text x="116" y="330" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">source located → exact bytes acquired → components inventoried</text>
+  <text x="116" y="359" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">A page label may be a lead. It is not authority, scope, or candidate approval.</text>
+  <rect x="897" y="268" width="183" height="86" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="989" y="301" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC ASSET</text>
+  <text x="989" y="332" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real rights conclusion</text>
+
+  <rect x="84" y="425" width="312" height="250" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="466" r="16" fill="#85d8ff"/>
+  <text x="151" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">IDENTIFY</text>
+  <text x="116" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Freeze the acquired bytes.</text>
+  <text x="116" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Digest the exact asset.</text>
+  <text x="116" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Inventory image, font + logo.</text>
+  <text x="116" y="632" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">one page ≠ one component</text>
+
+  <rect x="444" y="425" width="312" height="250" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="481" cy="466" r="16" fill="#ff9fbd"/>
+  <text x="511" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">CLASSIFY</text>
+  <text x="476" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Capture exact grant + version.</text>
+  <text x="476" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check authority and exclusions.</text>
+  <text x="476" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Map edits, context + credit.</text>
+  <text x="476" y="632" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="17" font-weight="700">attribution ≠ permission</text>
+
+  <rect x="804" y="425" width="312" height="250" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="841" cy="466" r="16" fill="#8de5d1"/>
+  <text x="871" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">BIND + VERIFY</text>
+  <text x="836" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Digest the final derivative.</text>
+  <text x="836" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Review destination transforms.</text>
+  <text x="836" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Observe asset + notices remotely.</text>
+  <text x="836" y="632" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">upload ≠ released evidence</text>
+
+  <path d="M396 550 H430" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M420 540 L434 550 L420 560" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M756 550 H790" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M780 540 L794 550 L780 560" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="716" width="498" height="162" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="758" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">REPLACE UNCERTAINTY</text>
+  <text x="116" y="800" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">unclear logo or font → original documented component</text>
+  <text x="116" y="834" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Re-inventory and review the new candidate; do not inherit approval.</text>
+
+  <rect x="618" y="716" width="498" height="162" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="758" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">KEEP EVIDENCE HORIZONS</text>
+  <text x="650" y="800" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">source · grant · use · candidate · release · correction</text>
+  <text x="650" y="834" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Reopen the affected conclusion when identity, terms, or use changes.</text>
+
+  <rect x="84" y="918" width="1032" height="142" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="960" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="21" font-weight="800">RETURN A SCOPED DECISION</text>
+  <text x="116" y="999" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">allowed_scoped · blocked · replaced · withdrawn · uncertain</text>
+  <text x="116" y="1032" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">If authority, coverage, conditions, or candidate identity is unresolved: uncertain.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed release control—not legal advice or evidence about a real asset.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

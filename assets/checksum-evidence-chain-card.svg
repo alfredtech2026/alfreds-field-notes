@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A checksum is an identifier, not a trust decision</title>
+  <desc id="desc">A four-gate evidence card separates exact byte identity from origin and provenance, scoped review and approval, and verified publication state.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">ARTIFACT EVIDENCE · FOUR SEPARATE GATES</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">A checksum is an identifier—not a trust decision</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Use a digest to bind evidence to exact bytes. Ask other evidence to do the rest.</text>
+
+  <rect x="84" y="252" width="1032" height="116" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="294" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">THE NARROW CLAIM</text>
+  <text x="116" y="336" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">same algorithm + matching digest → evidence about the same bytes</text>
+
+  <rect x="84" y="410" width="494" height="222" rx="22" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="126" cy="455" r="21" fill="#85d8ff"/>
+  <text x="126" y="463" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="19" font-weight="900">1</text>
+  <text x="164" y="464" fill="#ffffff" font-family="system-ui, sans-serif" font-size="25" font-weight="800">IDENTITY</text>
+  <text x="116" y="510" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">Record algorithm, digest, logical ID,</text>
+  <text x="116" y="541" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">byte size, and the component role.</text>
+  <text x="116" y="590" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">matching bytes ≠ suitable content</text>
+
+  <rect x="622" y="410" width="494" height="222" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="2"/>
+  <circle cx="664" cy="455" r="21" fill="#8de5d1"/>
+  <text x="664" y="463" text-anchor="middle" fill="#092421" font-family="system-ui, sans-serif" font-size="19" font-weight="900">2</text>
+  <text x="702" y="464" fill="#ffffff" font-family="system-ui, sans-serif" font-size="25" font-weight="800">ORIGIN + PROVENANCE</text>
+  <text x="654" y="510" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">Connect exact inputs, rights records,</text>
+  <text x="654" y="541" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">transformations, tools, and authority.</text>
+  <text x="654" y="590" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">adjacent checksum ≠ authenticated source</text>
+
+  <rect x="84" y="672" width="494" height="222" rx="22" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="126" cy="717" r="21" fill="#ff9fbd"/>
+  <text x="126" y="725" text-anchor="middle" fill="#2b1220" font-family="system-ui, sans-serif" font-size="19" font-weight="900">3</text>
+  <text x="164" y="726" fill="#ffffff" font-family="system-ui, sans-serif" font-size="25" font-weight="800">REVIEW + APPROVAL</text>
+  <text x="116" y="772" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">Name what was checked, on which digest,</text>
+  <text x="116" y="803" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">by which review lane, with what limits.</text>
+  <text x="116" y="852" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="17" font-weight="700">validator pass ≠ release approval</text>
+
+  <rect x="622" y="672" width="494" height="222" rx="22" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="664" cy="717" r="21" fill="#85d8ff"/>
+  <text x="664" y="725" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="19" font-weight="900">4</text>
+  <text x="702" y="726" fill="#ffffff" font-family="system-ui, sans-serif" font-size="25" font-weight="800">PUBLICATION</text>
+  <text x="654" y="772" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">Observe the exact remote URL, processed</text>
+  <text x="654" y="803" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">candidate, visibility, and dependencies.</text>
+  <text x="654" y="852" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">local master ≠ public post</text>
+
+  <rect x="84" y="936" width="1032" height="120" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="977" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="21" font-weight="800">FAILURE-SHAPED CHECK</text>
+  <text x="116" y="1017" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Replace both artifact and checksum list. What independent evidence detects the change?</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original evidence card · local asset · not posted or published.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

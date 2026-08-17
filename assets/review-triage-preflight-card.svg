@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Customer-review triage preflight checklist</title>
+  <desc id="desc">An original checklist card for automating review-queue organization without automating verdicts, with six release gates and explicit evidence boundaries.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">PRODUCT OPERATIONS · REVIEW-TRIAGE PREFLIGHT</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="41" font-weight="800">Automate the queue, not the verdict</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Organize bounded evidence for a reviewer. Do not manufacture product truth.</text>
+
+  <rect x="84" y="250" width="1032" height="104" rx="22" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="292" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="20" font-weight="800">STOP IF THE DOWNSTREAM DECISION IS UNNAMED</text>
+  <text x="116" y="326" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">A label without a defined use invites extra collection, false precision, and silent scope creep.</text>
+
+  <rect x="84" y="390" width="320" height="218" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="433" r="18" fill="#85d8ff"/>
+  <text x="121" y="440" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">1</text>
+  <text x="153" y="441" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">BOUND THE INPUT</text>
+  <text x="116" y="486" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Source · permission · query</text>
+  <text x="116" y="516" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Window · filters · pagination</text>
+  <text x="116" y="546" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Failures · updates · denominator</text>
+  <text x="116" y="580" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">API response ≠ complete history</text>
+
+  <rect x="440" y="390" width="320" height="218" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="477" cy="433" r="18" fill="#8de5d1"/>
+  <text x="477" y="440" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">2</text>
+  <text x="509" y="441" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">SEPARATE LAYERS</text>
+  <text x="472" y="486" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Keep source text unchanged.</text>
+  <text x="472" y="516" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Store labels, confidence, model,</text>
+  <text x="472" y="546" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">run, correction, and route apart.</text>
+  <text x="472" y="580" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Generated label ≠ reviewer statement</text>
+
+  <rect x="796" y="390" width="320" height="218" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="833" cy="433" r="18" fill="#ffd166"/>
+  <text x="833" y="440" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">3</text>
+  <text x="865" y="441" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">MINIMIZE DATA</text>
+  <text x="828" y="486" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Retain only needed fields.</text>
+  <text x="828" y="516" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Restrict access and retention.</text>
+  <text x="828" y="546" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Keep identity out of aggregates.</text>
+  <text x="828" y="580" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Available ≠ necessary</text>
+
+  <rect x="84" y="642" width="320" height="218" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="685" r="18" fill="#85d8ff"/>
+  <text x="121" y="692" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">4</text>
+  <text x="153" y="693" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ALLOW ABSTENTION</text>
+  <text x="116" y="738" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Unknown · multiple topics</text>
+  <text x="116" y="768" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Unsupported language · duplicate</text>
+  <text x="116" y="798" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Manual review by consequence</text>
+  <text x="116" y="832" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Every item need not get one label</text>
+
+  <rect x="440" y="642" width="320" height="218" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="477" cy="685" r="18" fill="#8de5d1"/>
+  <text x="477" y="692" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">5</text>
+  <text x="509" y="693" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">TEST FAILURES</text>
+  <text x="472" y="738" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Negation · mixed issues · edits</text>
+  <text x="472" y="768" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Sarcasm · languages · sensitive text</text>
+  <text x="472" y="798" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Score high-consequence routes alone</text>
+  <text x="472" y="832" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Overall accuracy can hide harm</text>
+
+  <rect x="796" y="642" width="320" height="218" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="833" cy="685" r="18" fill="#ffd166"/>
+  <text x="833" y="692" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">6</text>
+  <text x="865" y="693" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">LIMIT AUTHORITY</text>
+  <text x="828" y="738" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Queue and suggest; do not trigger</text>
+  <text x="828" y="768" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">replies, refunds, account changes,</text>
+  <text x="828" y="798" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">moderation, or roadmap verdicts.</text>
+  <text x="828" y="832" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Triage ≠ action authorization</text>
+
+  <rect x="84" y="902" width="1032" height="116" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="945" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">REOPEN EVALUATION WHEN THE SYSTEM CHANGES</text>
+  <text x="116" y="980" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">Input · schema · taxonomy · rules · prompt · model · translation · threshold</text>
+  <text x="116" y="1007" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">Report review counts with their denominator; use clusters to choose an investigation, not declare a cause.</text>
+
+  <text x="84" y="1070" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not posted or published · no real review or system result</text>
+  <text x="84" y="1107" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Automate the queue, not the verdict”</text>
+  <text x="1116" y="1107" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

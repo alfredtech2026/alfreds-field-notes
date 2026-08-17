@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A renewed certificate is not a completed rollout</title>
+  <desc id="desc">An illustrative certificate rollout map separates authority issuance from endpoint activation, fresh handshake observation, client path and service-identity verification, old-certificate retirement, and safe recovery.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="25" font-weight="700" letter-spacing="1.6">CERTIFICATE ROLLOUT EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="44" font-weight="800">Renewed is not rolled out</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="22">Prove the identity each endpoint serves—not only what the authority issued.</text>
+
+  <rect x="84" y="254" width="1032" height="122" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="294" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE DECLARED TRANSITION</text>
+  <text x="116" y="333" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">api.example.invalid · cert 41 → cert 42 · edge A + edge B + recovery C</text>
+  <rect x="863" y="275" width="216" height="70" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="971" y="304" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">NO PRIVATE KEYS</text>
+  <text x="971" y="330" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">use immutable references</text>
+
+  <path d="M600 386 V416" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 406 L600 420 L610 406" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="434" width="318" height="228" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="475" r="16" fill="#85d8ff"/>
+  <text x="151" y="484" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">ISSUE + BIND</text>
+  <text x="116" y="527" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Authority issues certificate 42.</text>
+  <text x="116" y="558" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Leaf matches protected key.</text>
+  <text x="116" y="589" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Names, usage, chain verified.</text>
+  <text x="116" y="629" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Issued ≠ activated</text>
+
+  <rect x="441" y="434" width="318" height="228" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="478" cy="475" r="16" fill="#8de5d1"/>
+  <text x="508" y="484" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">ACTIVATE + OBSERVE</text>
+  <text x="473" y="527" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Edge A serves certificate 42.</text>
+  <text x="473" y="558" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Edge B still serves 41.</text>
+  <text x="473" y="589" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Recovery C was not inventoried.</text>
+  <text x="473" y="629" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Green probe ≠ converged fleet</text>
+
+  <rect x="798" y="434" width="318" height="228" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="835" cy="475" r="16" fill="#ffd166"/>
+  <text x="865" y="484" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">VERIFY CLIENTS</text>
+  <text x="830" y="527" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Force a fresh handshake.</text>
+  <text x="830" y="558" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Validate path and identity.</text>
+  <text x="830" y="589" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Exercise every client profile.</text>
+  <text x="830" y="629" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">One trust store ≠ all clients</text>
+
+  <path d="M402 549 H427" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M417 539 L431 549 L417 559" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M759 549 H784" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M774 539 L788 549 L774 559" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="702" width="1032" height="158" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="744" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">RETIRE THE OLD SERVED IDENTITY</text>
+  <text x="116" y="785" fill="#ffffff" font-family="system-ui, sans-serif" font-size="19">Cover listeners · routes · names · protocols · address families · failover paths</text>
+  <text x="116" y="824" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">If old serving, chain conflict, unknown coverage, or unsafe rollback remains: stop as conflicted or indeterminate.</text>
+
+  <rect x="84" y="898" width="1032" height="150" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="940" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="21" font-weight="800">DO NOT COLLAPSE THE EVIDENCE</text>
+  <text x="116" y="980" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">issued ≠ stored ≠ loaded ≠ served ≠ path accepted ≠ identity matched ≠ retired</text>
+  <text x="116" y="1017" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Revocation publication is not endpoint retirement. Compromise recovery must not restore a suspect key.</text>
+
+  <text x="84" y="1098" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof of a real certificate rollout.</text>
+  <text x="1116" y="1098" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

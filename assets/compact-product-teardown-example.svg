@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Worked synthetic compact product teardown example</title>
+  <desc id="desc">A filled example that separates an observed form symptom, bounded user cost, possible cause, smallest test, synthetic result, and remaining unknowns.</desc>
+  <rect width="1200" height="1500" fill="#f4f1ea"/>
+  <rect x="54" y="50" width="1092" height="1400" rx="28" fill="#fffdf8" stroke="#17231f" stroke-width="4"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#17231f">
+    <text x="92" y="112" font-size="25" font-weight="700" letter-spacing="2">WORKED SYNTHETIC EXAMPLE</text>
+    <text x="92" y="174" font-size="47" font-weight="750">Compact product teardown</text>
+    <text x="92" y="218" font-size="24" fill="#43534c">A fictional example for learning the evidence lanes — not a customer report.</text>
+
+    <rect x="92" y="252" width="1016" height="92" rx="15" fill="#e7efe9"/>
+    <text x="118" y="287" font-size="20" font-weight="700">BOUNDARY</text>
+    <text x="118" y="319" font-size="22">Synthetic data · proposed test · no real person, product, result, or prevalence claim</text>
+
+    <g transform="translate(92 378)">
+      <rect width="492" height="244" rx="18" fill="#f8e6c7" stroke="#17231f" stroke-width="3"/>
+      <text x="24" y="42" font-size="21" font-weight="750" letter-spacing="1">1  SYMPTOM</text>
+      <text x="24" y="83" font-size="23">
+        <tspan x="24" dy="0">After a synthetic rejected value</tspan>
+        <tspan x="24" dy="34">was submitted by keyboard, the</tspan>
+        <tspan x="24" dy="34">form returned with no visible</tspan>
+        <tspan x="24" dy="34">confirmation. Entered values</tspan>
+        <tspan x="24" dy="34">were no longer present.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(616 378)">
+      <rect width="492" height="244" rx="18" fill="#dcebe9" stroke="#17231f" stroke-width="3"/>
+      <text x="24" y="42" font-size="21" font-weight="750" letter-spacing="1">2  USER COST</text>
+      <text x="24" y="83" font-size="23">
+        <tspan x="24" dy="0" font-weight="700">Observed in this synthetic run:</tspan>
+        <tspan x="24" dy="34">the task could not continue and</tspan>
+        <tspan x="24" dy="34">the entered work would need to</tspan>
+        <tspan x="24" dy="34">be repeated.</tspan>
+        <tspan x="24" dy="42" font-size="20">Wider impact remains unknown.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(92 654)">
+      <rect width="1016" height="218" rx="18" fill="#ece6f2" stroke="#17231f" stroke-width="3"/>
+      <text x="24" y="42" font-size="21" font-weight="750" letter-spacing="1">3  POSSIBLE CAUSE — HYPOTHESIS, NOT FINDING</text>
+      <text x="24" y="83" font-size="23">
+        <tspan x="24" dy="0">When a value is rejected, the interface may render an error outside the visible</tspan>
+        <tspan x="24" dy="34">and announced region. If true, validation evidence should exist while visible</tspan>
+        <tspan x="24" dy="34">context, keyboard focus, or announced text fails to identify the error.</tspan>
+      </text>
+      <text x="24" y="194" font-size="20" fill="#43534c">Alternatives: no validation response · expired state · network interruption</text>
+    </g>
+
+    <g transform="translate(92 904)">
+      <rect width="1016" height="250" rx="18" fill="#dce7f5" stroke="#17231f" stroke-width="3"/>
+      <text x="24" y="42" font-size="21" font-weight="750" letter-spacing="1">4  SMALLEST TEST — PROPOSED</text>
+      <text x="24" y="82" font-size="22">
+        <tspan x="24" dy="0"><tspan font-weight="700">Method:</tspan> submit one synthetic rejected value by keyboard while recording the</tspan>
+        <tspan x="24" dy="32">response, visible error, focus destination, and announced text.</tspan>
+        <tspan x="24" dy="42"><tspan font-weight="700">Supports:</tspan> validation returns, but the error is not exposed in context.</tspan>
+        <tspan x="24" dy="32"><tspan font-weight="700">Weakens:</tspan> no validation returns, or message and focus behave as specified.</tspan>
+        <tspan x="24" dy="32"><tspan font-weight="700">Stop:</tspan> do not use live accounts, personal data, payment data, or production writes.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(92 1186)">
+      <rect width="1016" height="152" rx="18" fill="#f4e3e3" stroke="#17231f" stroke-width="3"/>
+      <text x="24" y="42" font-size="21" font-weight="750" letter-spacing="1">RESULT — NOT RUN</text>
+      <text x="24" y="82" font-size="23">No result is filled in before the test. Record contradicting evidence too.</text>
+      <text x="24" y="117" font-size="21" fill="#43534c">Still unknown: root cause, frequency, affected environments, and wider impact.</text>
+    </g>
+
+    <line x1="92" y1="1376" x2="1108" y2="1376" stroke="#9ba7a1" stroke-width="2"/>
+    <text x="92" y="1414" font-size="20" fill="#43534c">Original rights-safe worksheet example · Written by Alfred, an AI assistant</text>
+  </g>
+</svg>

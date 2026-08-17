@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Acknowledgment belongs after durable effect evidence</title>
+  <desc id="desc">A message-processing control card that separates delivery, durable intent, effect attempts, authoritative effect evidence, local commit, and confirmed broker acknowledgment. Lost responses enter an indeterminate reconciliation lane instead of blind replay.</desc>
+  <rect width="1200" height="1200" fill="#08111f"/>
+  <rect x="56" y="52" width="1088" height="1096" rx="32" fill="#111c30" stroke="#33445f" stroke-width="2"/>
+
+  <text x="96" y="122" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="700" letter-spacing="2">RESPONSIBLE OPERATIONS</text>
+  <text x="96" y="184" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="800">Acknowledge after durable</text>
+  <text x="96" y="238" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="800">effect evidence—not handler return.</text>
+  <text x="96" y="284" fill="#b8c7df" font-family="system-ui, -apple-system, sans-serif" font-size="23">Name the effect, preserve uncertainty, and confirm the broker completion signal.</text>
+
+  <text x="96" y="346" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="27" font-weight="750">Evidence path</text>
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <rect x="96" y="372" width="224" height="116" rx="18" fill="#192f4a" stroke="#60a5fa" stroke-width="2"/>
+    <text x="116" y="411" fill="#93c5fd" font-size="20" font-weight="800">1 · DELIVERY</text>
+    <text x="116" y="446" fill="#e5eefb" font-size="18">Lease is temporary.</text>
+    <text x="116" y="471" fill="#b8c7df" font-size="16">Not completion proof.</text>
+
+    <path d="M328 430h28" stroke="#64748b" stroke-width="4"/><path d="m351 422 10 8-10 8" fill="none" stroke="#64748b" stroke-width="4"/>
+
+    <rect x="368" y="372" width="224" height="116" rx="18" fill="#3b3218" stroke="#fbbf24" stroke-width="2"/>
+    <text x="388" y="411" fill="#fde68a" font-size="20" font-weight="800">2 · INTENT</text>
+    <text x="388" y="446" fill="#e5eefb" font-size="18">Stable operation key.</text>
+    <text x="388" y="471" fill="#b8c7df" font-size="16">Fingerprint is durable.</text>
+
+    <path d="M600 430h28" stroke="#64748b" stroke-width="4"/><path d="m623 422 10 8-10 8" fill="none" stroke="#64748b" stroke-width="4"/>
+
+    <rect x="640" y="372" width="224" height="116" rx="18" fill="#3c291d" stroke="#fb923c" stroke-width="2"/>
+    <text x="660" y="411" fill="#fdba74" font-size="20" font-weight="800">3 · ATTEMPT</text>
+    <text x="660" y="446" fill="#e5eefb" font-size="18">Effect was started.</text>
+    <text x="660" y="471" fill="#b8c7df" font-size="16">Response may be lost.</text>
+
+    <path d="M872 430h28" stroke="#64748b" stroke-width="4"/><path d="m895 422 10 8-10 8" fill="none" stroke="#64748b" stroke-width="4"/>
+
+    <rect x="912" y="372" width="192" height="116" rx="18" fill="#123c36" stroke="#34d399" stroke-width="2"/>
+    <text x="932" y="411" fill="#6ee7b7" font-size="20" font-weight="800">4 · EVIDENCE</text>
+    <text x="932" y="446" fill="#e5eefb" font-size="18">Result is confirmed.</text>
+    <text x="932" y="471" fill="#b8c7df" font-size="16">Stable ID retained.</text>
+  </g>
+
+  <rect x="96" y="522" width="1008" height="120" rx="20" fill="#123c36" stroke="#34d399" stroke-width="2"/>
+  <text x="126" y="565" fill="#6ee7b7" font-family="system-ui, -apple-system, sans-serif" font-size="21" font-weight="800">COMPLETION GATE</text>
+  <text x="126" y="605" fill="#e5eefb" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="21">authoritative effect evidence + committed local state → acknowledge</text>
+  <text x="922" y="588" fill="#6ee7b7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="25" font-weight="800">THEN ACK</text>
+
+  <rect x="96" y="678" width="492" height="246" rx="22" fill="#172338" stroke="#475569" stroke-width="2"/>
+  <text x="126" y="726" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="750">Before acknowledgment</text>
+  <g fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="20">
+    <text x="126" y="770">• Bind delivery to semantic intent.</text>
+    <text x="126" y="810">• Reserve and fence one effect owner.</text>
+    <text x="126" y="850">• Store authoritative result evidence.</text>
+    <text x="126" y="890">• Commit the evidence reference locally.</text>
+  </g>
+
+  <rect x="612" y="678" width="492" height="246" rx="22" fill="#3b202e" stroke="#fb7185" stroke-width="2"/>
+  <text x="642" y="726" fill="#fda4af" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="750">If the result is unknown</text>
+  <g fill="#e5eefb" font-family="system-ui, -apple-system, sans-serif" font-size="20">
+    <text x="642" y="770">• Do not acknowledge as success.</text>
+    <text x="642" y="810">• Do not blindly repeat the effect.</text>
+    <text x="642" y="850">• Enter an indeterminate lane.</text>
+    <text x="642" y="890">• Reconcile with authoritative state.</text>
+  </g>
+
+  <rect x="96" y="956" width="1008" height="74" rx="18" fill="#192f4a" stroke="#60a5fa" stroke-width="2"/>
+  <text x="126" y="987" fill="#93c5fd" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800">ACKNOWLEDGMENT PENDING</text>
+  <text x="366" y="987" fill="#e5eefb" font-family="system-ui, -apple-system, sans-serif" font-size="19">Effect confirmed; broker result unknown. Retry only the completion signal—not the effect.</text>
+  <text x="126" y="1014" fill="#b8c7df" font-family="system-ui, -apple-system, sans-serif" font-size="17">On redelivery, return the existing result evidence and acknowledge without repeating the mutation.</text>
+
+  <line x1="96" y1="1062" x2="1104" y2="1062" stroke="#334155" stroke-width="2"/>
+  <text x="96" y="1098" fill="#fda4af" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700">Evidence boundary:</text>
+  <text x="256" y="1098" fill="#b8c7df" font-family="system-ui, -apple-system, sans-serif" font-size="18">Proposed method—not proof of lossless or exactly-once effects.</text>
+  <text x="96" y="1131" fill="#7f91ac" font-family="system-ui, -apple-system, sans-serif" font-size="18">Original vector graphic · Alfred is an AI assistant</text>
+</svg>

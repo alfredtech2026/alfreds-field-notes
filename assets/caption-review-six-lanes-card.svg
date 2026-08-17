@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A caption file is not a caption review</title>
+  <desc id="desc">A six-lane review card separates caption structure, words and sounds, synchronization, player presentation, muted meaning, and remote-track verification.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">CAPTION REVIEW · SIX SEPARATE LANES</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">A caption file is not a caption review</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">File presence proves inventory. Viewer-ready captions need layered evidence.</text>
+
+  <rect x="84" y="248" width="1032" height="122" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="289" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">FREEZE THE CANDIDATE BEFORE REVIEW</text>
+  <text x="116" y="327" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">video identity + caption identity + language + destination + implementation</text>
+  <text x="116" y="353" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Any media, text, timing, track, or rendering change reopens the affected checks.</text>
+
+  <rect x="84" y="408" width="316" height="208" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="449" r="17" fill="#85d8ff"/>
+  <text x="121" y="456" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">1</text>
+  <text x="151" y="458" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">STRUCTURE</text>
+  <text x="116" y="501" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Parse the complete track.</text>
+  <text x="116" y="532" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check ranges, ordering + duration.</text>
+  <text x="116" y="576" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">valid syntax ≠ accurate captions</text>
+
+  <rect x="442" y="408" width="316" height="208" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="479" cy="449" r="17" fill="#ff9fbd"/>
+  <text x="479" y="456" text-anchor="middle" fill="#2b1220" font-family="system-ui, sans-serif" font-size="17" font-weight="900">2</text>
+  <text x="509" y="458" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">WORDS + SOUNDS</text>
+  <text x="474" y="501" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Compare with final audio.</text>
+  <text x="474" y="532" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Keep meaningful non-speech cues.</text>
+  <text x="474" y="576" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="16" font-weight="700">script match ≠ audio match</text>
+
+  <rect x="800" y="408" width="316" height="208" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="2"/>
+  <circle cx="837" cy="449" r="17" fill="#8de5d1"/>
+  <text x="837" y="456" text-anchor="middle" fill="#092421" font-family="system-ui, sans-serif" font-size="17" font-weight="900">3</text>
+  <text x="867" y="458" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">SYNCHRONIZATION</text>
+  <text x="832" y="501" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Play the whole timeline.</text>
+  <text x="832" y="532" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Inspect cuts + speaker changes.</text>
+  <text x="832" y="576" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="16" font-weight="700">valid times ≠ useful timing</text>
+
+  <rect x="84" y="652" width="316" height="208" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="2"/>
+  <circle cx="121" cy="693" r="17" fill="#8de5d1"/>
+  <text x="121" y="700" text-anchor="middle" fill="#092421" font-family="system-ui, sans-serif" font-size="17" font-weight="900">4</text>
+  <text x="151" y="702" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">PRESENTATION</text>
+  <text x="116" y="745" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Use the intended player + crop.</text>
+  <text x="116" y="776" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check wraps, density + collisions.</text>
+  <text x="116" y="820" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="16" font-weight="700">clean text ≠ legible rendering</text>
+
+  <rect x="442" y="652" width="316" height="208" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="479" cy="693" r="17" fill="#85d8ff"/>
+  <text x="479" y="700" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">5</text>
+  <text x="509" y="702" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">MUTED MEANING</text>
+  <text x="474" y="745" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Follow the story without audio.</text>
+  <text x="474" y="776" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check speakers, breaks + context.</text>
+  <text x="474" y="820" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">meaning pass ≠ timing pass</text>
+
+  <rect x="800" y="652" width="316" height="208" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="837" cy="693" r="17" fill="#ff9fbd"/>
+  <text x="837" y="700" text-anchor="middle" fill="#2b1220" font-family="system-ui, sans-serif" font-size="17" font-weight="900">6</text>
+  <text x="867" y="702" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">REMOTE TRACK</text>
+  <text x="832" y="745" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Verify language + availability.</text>
+  <text x="832" y="776" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Sample start, boundaries + end.</text>
+  <text x="832" y="820" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="16" font-weight="700">uploaded ≠ viewer-available</text>
+
+  <rect x="84" y="902" width="1032" height="156" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="944" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="21" font-weight="800">REPORT THE SMALLEST SUPPORTED STATE</text>
+  <text x="116" y="984" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">present · parsed · content-reviewed · synchronized · presentation-reviewed · remotely verified</text>
+  <text x="116" y="1022" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Record the exact track, video, methods, observations, limits, and unresolved failures.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not evidence about a real release.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

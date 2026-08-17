@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A clean frame is not a privacy review</title>
+  <desc id="desc">A six-lane pre-release privacy card separates complete visual review, audio-only listening, caption and transcript reading, metadata decisions, companion-file inspection, and destination-generated surface checks.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">PRIVACY REVIEW · SIX RELEASE SURFACES</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">A clean frame is not a privacy review</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Review the package a viewer can receive—not one reassuring screenshot.</text>
+
+  <rect x="84" y="248" width="1032" height="122" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="289" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">DECLARE PURPOSE + FREEZE THE CANDIDATE</text>
+  <text x="116" y="327" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">audience + excluded data + media + tracks + text + attachments + derivatives</text>
+  <text x="116" y="353" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Bind review to exact files. Prefer synthetic fixtures over hiding real private data.</text>
+
+  <rect x="84" y="408" width="316" height="208" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="449" r="17" fill="#85d8ff"/>
+  <text x="121" y="456" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">1</text>
+  <text x="151" y="458" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">VISIBLE TIMELINE</text>
+  <text x="116" y="501" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Watch first frame to last.</text>
+  <text x="116" y="532" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Seek transitions + brief overlays.</text>
+  <text x="116" y="576" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">sampled frames ≠ full review</text>
+
+  <rect x="442" y="408" width="316" height="208" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="479" cy="449" r="17" fill="#ff9fbd"/>
+  <text x="479" y="456" text-anchor="middle" fill="#2b1220" font-family="system-ui, sans-serif" font-size="17" font-weight="900">2</text>
+  <text x="509" y="458" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">AUDIO ONLY</text>
+  <text x="474" y="501" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Hide the picture; listen fully.</text>
+  <text x="474" y="532" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Inventory every intended channel.</text>
+  <text x="474" y="576" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="16" font-weight="700">clean pixels ≠ clean narration</text>
+
+  <rect x="800" y="408" width="316" height="208" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="2"/>
+  <circle cx="837" cy="449" r="17" fill="#8de5d1"/>
+  <text x="837" y="456" text-anchor="middle" fill="#092421" font-family="system-ui, sans-serif" font-size="17" font-weight="900">3</text>
+  <text x="867" y="458" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">TEXT TRACKS</text>
+  <text x="832" y="501" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Read captions + transcripts.</text>
+  <text x="832" y="532" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check labels, notes + stale text.</text>
+  <text x="832" y="576" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="16" font-weight="700">safe video ≠ safe caption file</text>
+
+  <rect x="84" y="652" width="316" height="208" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="2"/>
+  <circle cx="121" cy="693" r="17" fill="#8de5d1"/>
+  <text x="121" y="700" text-anchor="middle" fill="#092421" font-family="system-ui, sans-serif" font-size="17" font-weight="900">4</text>
+  <text x="151" y="702" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">METADATA</text>
+  <text x="116" y="745" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Inventory fields + assertions.</text>
+  <text x="116" y="776" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Retain, replace, remove, or hold.</text>
+  <text x="116" y="820" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="16" font-weight="700">stripped fields ≠ anonymous</text>
+
+  <rect x="442" y="652" width="316" height="208" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="479" cy="693" r="17" fill="#85d8ff"/>
+  <text x="479" y="700" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">5</text>
+  <text x="509" y="702" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">COMPANION FILES</text>
+  <text x="474" y="745" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Inspect names, paths + reports.</text>
+  <text x="474" y="776" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Review pages, feeds + downloads.</text>
+  <text x="474" y="820" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">safe media ≠ safe package</text>
+
+  <rect x="800" y="652" width="316" height="208" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="837" cy="693" r="17" fill="#ff9fbd"/>
+  <text x="837" y="700" text-anchor="middle" fill="#2b1220" font-family="system-ui, sans-serif" font-size="17" font-weight="900">6</text>
+  <text x="867" y="702" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">SERVED SURFACES</text>
+  <text x="832" y="745" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check thumbnails + transcodes.</text>
+  <text x="832" y="776" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Observe tracks, embeds + links.</text>
+  <text x="832" y="820" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="16" font-weight="700">local approval ≠ served result</text>
+
+  <rect x="84" y="902" width="1032" height="156" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="944" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="21" font-weight="800">FAIL CLOSED, THEN REPORT THE EXACT SCOPE</text>
+  <text x="116" y="984" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">Unknown necessity, authority, identity, or destination behavior → hold the candidate.</text>
+  <text x="116" y="1022" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Any edit creates a new candidate; any reprocess reopens the affected served-surface checks.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not a legal determination or real release result.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">One-writer locks are admission, not completion</title>
+  <desc id="desc">An illustrative stale-writer race separates exclusive admission, private candidate preparation, current commit authority, storage-enforced fencing, live-state reconciliation, and a narrow terminal result.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">ONE-WRITER EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="41" font-weight="800">Admission is not completion</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">A stale writer must lose the ability to commit—not merely its lock marker.</text>
+
+  <rect x="84" y="250" width="1032" height="132" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE FROZEN WORKSPACE CONTRACT</text>
+  <text x="116" y="330" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">scope: page + index + feed · candidates: CA / CB · fence: 41 → 42</text>
+  <text x="116" y="359" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">one authority · private builds · exact manifests · conditional commit · reconciliation</text>
+  <rect x="892" y="268" width="188" height="86" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="986" y="301" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC RACE</text>
+  <text x="986" y="332" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real incident or result</text>
+
+  <rect x="84" y="425" width="312" height="250" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="466" r="16" fill="#85d8ff"/>
+  <text x="151" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">ADMIT A</text>
+  <text x="116" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">A acquires generation 41.</text>
+  <text x="116" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">A prepares candidate CA.</text>
+  <text x="116" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Heartbeat stops; owner uncertain.</text>
+  <text x="116" y="632" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">lock held ≠ work complete</text>
+
+  <rect x="444" y="425" width="312" height="250" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="481" cy="466" r="16" fill="#ff9fbd"/>
+  <text x="511" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">TRANSFER</text>
+  <text x="476" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Recovery precondition is met.</text>
+  <text x="476" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">B receives generation 42.</text>
+  <text x="476" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">A later resumes with 41.</text>
+  <text x="476" y="632" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="17" font-weight="700">marker deletion ≠ termination</text>
+
+  <rect x="804" y="425" width="312" height="250" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="841" cy="466" r="16" fill="#8de5d1"/>
+  <text x="871" y="475" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21" font-weight="800">FENCE + COMMIT</text>
+  <text x="836" y="519" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Storage rejects A / CA / 41.</text>
+  <text x="836" y="551" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Storage accepts B / CB / 42.</text>
+  <text x="836" y="583" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Exact candidate identity required.</text>
+  <text x="836" y="632" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">stale commit changes 0 bytes</text>
+
+  <path d="M396 550 H430" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M420 540 L434 550 L420 560" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M756 550 H790" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M780 540 L794 550 L780 560" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="716" width="498" height="162" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="758" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">RECONCILE THE RELEASE</text>
+  <text x="116" y="800" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">pointer → CB · inventory matches · digests match</text>
+  <text x="116" y="834" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Check page, index, feed, and every discovery surface.</text>
+
+  <rect x="618" y="716" width="498" height="162" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="758" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">PRESERVE THE HORIZONS</text>
+  <text x="650" y="800" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">admission · candidate · commit · recovery</text>
+  <text x="650" y="834" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Keep discovery and investigation evidence separately.</text>
+
+  <rect x="84" y="918" width="1032" height="142" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="960" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="21" font-weight="800">RETURN THE NARROW RESULT</text>
+  <text x="116" y="999" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">busy · invalid · committed · recovered · partial · uncertain</text>
+  <text x="116" y="1032" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Only current authority + exact commit + coherent live state supports completion.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof about a real workspace.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

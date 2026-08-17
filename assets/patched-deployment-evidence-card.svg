@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A patched manifest is not a patched deployment</title>
+  <desc id="desc">An illustrative patch-evidence map follows a synthetic library update from advisory and dependency resolution through attributable artifact, observed runtime coverage, old-copy retirement, exposure checks, behavior checks, and a scoped result.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">PATCH EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="40" font-weight="800">A version edit starts the evidence chain</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Connect advisory scope to what every in-scope runtime can execute.</text>
+
+  <rect x="84" y="250" width="1032" height="132" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE FROZEN REMEDIATION CONTRACT</text>
+  <text x="116" y="330" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">ADV-EXAMPLE rev 4 · parser-lib 4.2.3 · public API + import workers</text>
+  <text x="116" y="359" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">applicability · artifact · rollout · runtime · retirement · outcome horizon</text>
+  <rect x="884" y="268" width="196" height="86" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="982" y="301" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC UPDATE</text>
+  <text x="982" y="331" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real advisory or service</text>
+
+  <path d="M600 391 V418" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 408 L600 422 L610 408" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="438" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="479" r="16" fill="#85d8ff"/>
+  <text x="151" y="488" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">SCOPE + RESOLVE</text>
+  <text x="116" y="531" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Freeze advisory + assumptions.</text>
+  <text x="116" y="562" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Resolve every supported graph.</text>
+  <text x="116" y="593" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Target B still selects 4.1.8.</text>
+  <text x="116" y="640" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">manifest edit ≠ resolution</text>
+
+  <rect x="441" y="438" width="318" height="248" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="478" cy="479" r="16" fill="#8de5d1"/>
+  <text x="508" y="488" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">BUILD + TEST</text>
+  <text x="473" y="531" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Bind candidate digest to inputs.</text>
+  <text x="473" y="562" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Test exposure + behavior.</text>
+  <text x="473" y="593" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Keep test scope explicit.</text>
+  <text x="473" y="640" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">clean artifact ≠ deployment</text>
+
+  <rect x="798" y="438" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="835" cy="479" r="16" fill="#ffd166"/>
+  <text x="865" y="488" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">OBSERVE + RETIRE</text>
+  <text x="830" y="531" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Read loaded runtime identity.</text>
+  <text x="830" y="562" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Reconcile web + queued work.</text>
+  <text x="830" y="593" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Restore revives old digest.</text>
+  <text x="830" y="640" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">rollout done ≠ retirement</text>
+
+  <path d="M402 560 H427" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M417 550 L431 560 L417 570" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M759 560 H784" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M774 550 L788 560 L774 570" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="726" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="768" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">RECONCILE EVERY POPULATION</text>
+  <text x="116" y="808" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">web · worker · schedule · warm pool · rollback · restore</text>
+  <text x="116" y="842" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Desired state cannot substitute for loaded identity.</text>
+
+  <rect x="618" y="726" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="768" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">KEEP TWO OUTCOMES SEPARATE</text>
+  <text x="650" y="808" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">affected path reduced · required behavior preserved</text>
+  <text x="650" y="842" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Either can fail while the other passes.</text>
+
+  <rect x="84" y="916" width="1032" height="142" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="958" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="21" font-weight="800">RETURN THE NARROW RESULT</text>
+  <text x="116" y="997" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">mitigated scoped · coverage partial · evidence conflicted · outcome unknown</text>
+  <text x="116" y="1030" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Use remediated scoped only after old copies cannot return through the horizon.</text>
+
+  <text x="84" y="1106" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof about a real deployment.</text>
+  <text x="1116" y="1106" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

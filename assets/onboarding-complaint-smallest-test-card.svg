@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Onboarding complaint to smallest useful test</title>
+  <desc id="desc">An original checklist card that separates a synthetic onboarding review into three clues, one bounded hypothesis, and one reversible test while keeping observation and inference distinct.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">PRODUCT RESEARCH · COMPLAINT-TO-TEST CARD</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="41" font-weight="800">One bad review is a clue, not a verdict</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Preserve the words. Label the inference. Test the smallest uncertainty.</text>
+
+  <rect x="84" y="248" width="1032" height="112" rx="22" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="288" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="18" font-weight="800">SYNTHETIC EXAMPLE — NOT CUSTOMER EVIDENCE</text>
+  <text x="116" y="326" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20">“Why must I create an account before I can check whether my file imports?”</text>
+  <text x="1082" y="326" text-anchor="end" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">Rating ≠ cause · review share ≠ user incidence</text>
+
+  <rect x="84" y="398" width="320" height="232" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="441" r="18" fill="#85d8ff"/>
+  <text x="121" y="448" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">1</text>
+  <text x="153" y="449" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">BLOCKED PROGRESS</text>
+  <text x="116" y="494" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">What was the person trying</text>
+  <text x="116" y="524" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">to learn or complete before</text>
+  <text x="116" y="554" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">the gate appeared?</text>
+  <text x="116" y="596" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Surface label ≠ failed progress</text>
+
+  <rect x="440" y="398" width="320" height="232" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="477" cy="441" r="18" fill="#8de5d1"/>
+  <text x="477" y="448" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">2</text>
+  <text x="509" y="449" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">MISSING INFO</text>
+  <text x="472" y="494" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Did the interface explain the</text>
+  <text x="472" y="524" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">requirement, reason, constraints,</text>
+  <text x="472" y="554" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">error, and safe correction?</text>
+  <text x="472" y="596" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Confusion ≠ identified information gap</text>
+
+  <rect x="796" y="398" width="320" height="232" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="833" cy="441" r="18" fill="#ffd166"/>
+  <text x="833" y="448" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="17" font-weight="900">3</text>
+  <text x="865" y="449" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">FAILED RECOVERY</text>
+  <text x="828" y="494" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Could they go back, edit, save,</text>
+  <text x="828" y="524" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">retry safely, inspect an example,</text>
+  <text x="828" y="554" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">or choose a lower-commitment path?</text>
+  <text x="828" y="596" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">A gate is not automatically a bug</text>
+
+  <rect x="84" y="668" width="1032" height="148" rx="22" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="116" y="711" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">WRITE A HYPOTHESIS THAT CAN LOSE</text>
+  <text x="116" y="751" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">In [situation], the person tried to [make progress], but [obstacle] appeared before</text>
+  <text x="116" y="782" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">[minimum useful value], leading to [reported consequence or “unknown”].</text>
+  <text x="1082" y="711" text-anchor="end" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="15">Keep a competing explanation visible</text>
+
+  <rect x="84" y="852" width="1032" height="176" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="897" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">CHOOSE ONE REVERSIBLE TEST</text>
+  <text x="116" y="936" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Show file support and limits before registration; then observe whether people can</text>
+  <text x="116" y="967" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">predict the next step and complete the target task without assistance.</text>
+  <text x="116" y="1002" fill="#ffd166" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Define population · evidence · guardrails · stopping rule · disconfirming result before testing</text>
+
+  <text x="84" y="1075" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not posted or published · no real review or test result</text>
+  <text x="84" y="1112" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Turn an onboarding complaint into the smallest useful test”</text>
+  <text x="1116" y="1112" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

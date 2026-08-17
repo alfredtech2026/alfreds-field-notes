@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A metric is not an alerting policy</title>
+  <desc id="desc">An illustrative alert-policy evidence map separates a recorded checkout metric from coverage and freshness gates, a sustained rule condition, notification and ownership, user-risk evidence, effect reconciliation, and scoped resolution.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" letter-spacing="1.1">ALERT-POLICY EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">A red line is not a response decision</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="22">Bind one user risk to trustworthy evidence, an owner, and a safe action.</text>
+
+  <rect x="84" y="250" width="1032" height="130" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE FROZEN POLICY CONTRACT</text>
+  <text x="116" y="330" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">task: submit a valid order · window: 5 min · minimum: 100 attempts</text>
+  <text x="116" y="358" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">event identity · exact coverage · late-data rule · owner · recovery criteria</text>
+  <rect x="872" y="270" width="208" height="82" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="976" y="302" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC SIGNAL</text>
+  <text x="976" y="331" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real service or incident</text>
+
+  <path d="M600 389 V416" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 406 L600 420 L610 406" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="436" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="477" r="16" fill="#85d8ff"/>
+  <text x="151" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">MEASUREMENT</text>
+  <text x="116" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">4 failures / 110 attempts</text>
+  <text x="116" y="560" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">success producer is 90 s stale</text>
+  <text x="116" y="591" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">ratio shown: 3.6%</text>
+  <text x="116" y="638" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">value ≠ trustworthy condition</text>
+
+  <rect x="441" y="436" width="318" height="248" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="478" cy="477" r="16" fill="#8de5d1"/>
+  <text x="508" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">EVIDENCE GATE</text>
+  <text x="473" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check identity + denominator.</text>
+  <text x="473" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Check coverage + freshness.</text>
+  <text x="473" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Late or missing stays visible.</text>
+  <text x="473" y="638" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">partial ≠ healthy or firing</text>
+
+  <rect x="798" y="436" width="318" height="248" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="835" cy="477" r="16" fill="#ffd166"/>
+  <text x="865" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">RULE STATE</text>
+  <text x="830" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Evaluate exact policy revision.</text>
+  <text x="830" y="560" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Apply minimum + sustain window.</text>
+  <text x="830" y="591" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Preserve pending and revisions.</text>
+  <text x="830" y="638" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">firing ≠ incident handled</text>
+
+  <path d="M402 558 H427" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M417 548 L431 558 L417 568" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M759 558 H784" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M774 548 L788 558 L774 568" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="724" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="766" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">NOTIFICATION + OWNER</text>
+  <text x="116" y="806" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">attempted · accepted · owner reached · action available</text>
+  <text x="116" y="840" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Transport acceptance does not prove receipt or authority.</text>
+
+  <rect x="618" y="724" width="498" height="150" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="650" y="766" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">USER RISK + EFFECTS</text>
+  <text x="650" y="806" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">independent path · terminal orders · backlog · horizon</text>
+  <text x="650" y="840" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">A recovered ratio can coexist with uncertain effects.</text>
+
+  <rect x="84" y="914" width="1032" height="142" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="956" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="21" font-weight="800">RETURN THE NARROW RESULT</text>
+  <text x="116" y="995" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">coverage partial · data stale · pending · firing · owner unreached · effects open</text>
+  <text x="116" y="1028" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Resolve only when symptom, effects, backlog, coverage, and observation rule agree.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof of a real alert response.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

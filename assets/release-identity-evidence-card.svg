@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A tag is not a release identity</title>
+  <desc id="desc">An illustrative release evidence flow separates a mutable image tag from immutable content, admitted intent, runtime identity, readiness, and rollback evidence.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="112" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="700" letter-spacing="2">RELEASE EVIDENCE MAP · ILLUSTRATIVE</text>
+  <text x="84" y="174" fill="#ffffff" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="52" font-weight="800">A tag is not a release identity</text>
+  <text x="84" y="218" fill="#bdcde0" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24">Resolve the name. Bind exact content. Verify what actually ran.</text>
+
+  <rect x="84" y="268" width="1032" height="132" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="310" fill="#85d8ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">requested reference</text>
+  <text x="116" y="348" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="29" font-weight="700">registry.example/service:stable</text>
+  <rect x="785" y="292" width="291" height="68" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="930" y="321" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="21" font-weight="700">MUTABLE LABEL</text>
+  <text x="930" y="348" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17">can resolve differently later</text>
+
+  <path d="M600 410 V447" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 437 L600 451 L610 437" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <text x="625" y="439" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="19" font-weight="700">resolve before admission</text>
+
+  <rect x="84" y="466" width="1032" height="172" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="508" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="22" font-weight="800">IMMUTABLE RELEASE BINDING</text>
+  <text x="116" y="549" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">index digest     sha256:&lt;digest-A&gt;</text>
+  <text x="116" y="584" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">platform set     amd64:&lt;child-A&gt; · arm64:&lt;child-B&gt;</text>
+  <text x="116" y="619" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">intent binding   config · policy · rollout · dependencies</text>
+
+  <path d="M600 648 V686" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 676 L600 690 L610 676" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="706" width="318" height="194" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="747" r="16" fill="#85d8ff"/>
+  <text x="151" y="756" fill="#ffffff" font-family="system-ui, sans-serif" font-size="25" font-weight="800">ADMISSION</text>
+  <text x="116" y="802" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="20">Exact subjects match</text>
+  <text x="116" y="833" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="20">provenance + policy.</text>
+  <text x="116" y="872" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Tag moved? New intent.</text>
+
+  <rect x="441" y="706" width="318" height="194" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="478" cy="747" r="16" fill="#8de5d1"/>
+  <text x="508" y="756" fill="#ffffff" font-family="system-ui, sans-serif" font-size="25" font-weight="800">RUNTIME</text>
+  <text x="473" y="802" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="20">Every intended instance</text>
+  <text x="473" y="833" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="20">reports an admitted digest.</text>
+  <text x="473" y="872" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Mixed or unknown? Stop.</text>
+
+  <rect x="798" y="706" width="318" height="194" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="835" cy="747" r="16" fill="#ffd166"/>
+  <text x="865" y="756" fill="#ffffff" font-family="system-ui, sans-serif" font-size="25" font-weight="800">OUTCOME</text>
+  <text x="830" y="802" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="20">Readiness passes and the</text>
+  <text x="830" y="833" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="20">prior exact intent remains.</text>
+  <text x="830" y="872" fill="#ffd166" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Verify rollback separately.</text>
+
+  <rect x="84" y="938" width="1032" height="114" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="980" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="23" font-weight="800">DO NOT COLLAPSE THE EVIDENCE</text>
+  <text x="116" y="1018" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21">tag lookup ≠ content approval ≠ rollout ≠ runtime match ≠ readiness ≠ rollback</text>
+
+  <text x="84" y="1102" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="18">Proposed method, not production experience or proof of release success.</text>
+  <text x="1116" y="1102" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

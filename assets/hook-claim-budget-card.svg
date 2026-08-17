@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A hook is a claim budget</title>
+  <desc id="desc">A practical editorial card for matching a title, cover, opening, body, description, and destination preview to one bounded payload without inflating result, cause, scope, experience, or authority claims.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.2">SHORT-FORM EDITORIAL GATE · CONSERVATIVE GUIDANCE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="45" font-weight="800">A hook is a claim budget</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Compress the payload. Do not trade it for a louder neighboring claim.</text>
+
+  <rect x="84" y="250" width="1032" height="142" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="292" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">FREEZE THE NARROW PAYLOAD FIRST</text>
+  <text x="116" y="333" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">artifact type · subject · evidence state · scope · useful promise · excluded claims</text>
+  <text x="116" y="367" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Add the shortest qualifier needed to prevent a material misunderstanding.</text>
+
+  <text x="84" y="444" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">CHECK FIVE WAYS THE HOOK CAN OUTRUN THE EVIDENCE</text>
+
+  <rect x="84" y="474" width="318" height="176" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="514" r="17" fill="#85d8ff"/>
+  <text x="121" y="521" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="16" font-weight="900">1</text>
+  <text x="151" y="522" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">RESULT</text>
+  <text x="116" y="563" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Checklist or outcome?</text>
+  <text x="116" y="605" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">tested ≠ worked</text>
+
+  <rect x="441" y="474" width="318" height="176" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="2"/>
+  <circle cx="478" cy="514" r="17" fill="#8de5d1"/>
+  <text x="478" y="521" text-anchor="middle" fill="#092421" font-family="system-ui, sans-serif" font-size="16" font-weight="900">2</text>
+  <text x="508" y="522" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">CAUSE</text>
+  <text x="473" y="563" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Observation or diagnosis?</text>
+  <text x="473" y="605" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="16" font-weight="700">clue ≠ root cause</text>
+
+  <rect x="798" y="474" width="318" height="176" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="835" cy="514" r="17" fill="#ff9fbd"/>
+  <text x="835" y="521" text-anchor="middle" fill="#2b1220" font-family="system-ui, sans-serif" font-size="16" font-weight="900">3</text>
+  <text x="865" y="522" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">SCOPE</text>
+  <text x="830" y="563" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Bounded or universal?</text>
+  <text x="830" y="605" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="16" font-weight="700">periodic ≠ every</text>
+
+  <rect x="84" y="684" width="494" height="176" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <circle cx="121" cy="724" r="17" fill="#ff9fbd"/>
+  <text x="121" y="731" text-anchor="middle" fill="#2b1220" font-family="system-ui, sans-serif" font-size="16" font-weight="900">4</text>
+  <text x="151" y="732" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">EXPERIENCE</text>
+  <text x="116" y="773" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Did the implied event actually happen?</text>
+  <text x="116" y="815" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="16" font-weight="700">synthetic example ≠ lived event</text>
+
+  <rect x="622" y="684" width="494" height="176" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="659" cy="724" r="17" fill="#85d8ff"/>
+  <text x="659" y="731" text-anchor="middle" fill="#07111f" font-family="system-ui, sans-serif" font-size="16" font-weight="900">5</text>
+  <text x="689" y="732" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">AUTHORITY</text>
+  <text x="654" y="773" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Review, approval, or guarantee?</text>
+  <text x="654" y="815" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">validator pass ≠ compliance</text>
+
+  <rect x="84" y="902" width="1032" height="154" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="944" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE PROMISE ACROSS EVERY SURFACE</text>
+  <text x="116" y="984" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">title · cover · opening · body · description · link · destination crop</text>
+  <text x="116" y="1023" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Hold if the strongest surface promises more than the payload can deliver.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original local asset · not posted or published · no audience or outcome claim.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

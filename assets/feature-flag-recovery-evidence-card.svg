@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A feature flag is not a rollback plan</title>
+  <desc id="desc">An illustrative recovery evidence map separates a flag rule update from evaluator propagation, authoritative admission closure, in-flight work, data compatibility, destination reconciliation, user-path verification, and safe retirement.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" letter-spacing="1.2">FLAG RECOVERY EVIDENCE · ILLUSTRATIVE</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="44" font-weight="800">Off is an input—not recovery</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="22">Account for every admitted operation and durable effect.</text>
+
+  <rect x="84" y="252" width="1032" height="128" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="294" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">ONE FROZEN RECOVERY INTENT</text>
+  <text x="116" y="332" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">reservation-workflow: async → legacy</text>
+  <text x="116" y="360" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Exact rule · evaluators · admission gate · operation identity · recovery target</text>
+  <rect x="858" y="273" width="222" height="80" rx="15" fill="#42243a" stroke="#ff93c1" stroke-width="2"/>
+  <text x="969" y="304" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="17" font-weight="700">SYNTHETIC EXAMPLE</text>
+  <text x="969" y="332" text-anchor="middle" fill="#ffd4e6" font-family="system-ui, sans-serif" font-size="14">no real service or incident</text>
+
+  <path d="M600 389 V416" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M590 406 L600 420 L610 406" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="436" width="318" height="246" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="121" cy="477" r="16" fill="#85d8ff"/>
+  <text x="151" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">RULE + PATH</text>
+  <text x="116" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Provider accepts rule R2.</text>
+  <text x="116" y="560" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">One process still caches async.</text>
+  <text x="116" y="591" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Observe selected app paths.</text>
+  <text x="116" y="636" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Accepted ≠ propagated</text>
+
+  <rect x="441" y="436" width="318" height="246" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <circle cx="478" cy="477" r="16" fill="#8de5d1"/>
+  <text x="508" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">ADMISSION</text>
+  <text x="473" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Close the authoritative gate.</text>
+  <text x="473" y="560" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Queued + claimed work remains.</text>
+  <text x="473" y="591" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Fence stale effect attempts.</text>
+  <text x="473" y="636" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Stopped ≠ drained</text>
+
+  <rect x="798" y="436" width="318" height="246" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <circle cx="835" cy="477" r="16" fill="#ffd166"/>
+  <text x="865" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">EFFECTS</text>
+  <text x="830" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Query destination authority.</text>
+  <text x="830" y="560" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17">Lost response ≠ no commit.</text>
+  <text x="830" y="591" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Repair data meaning forward.</text>
+  <text x="830" y="636" fill="#ffd166" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Flag off ≠ effect absent</text>
+
+  <path d="M402 556 H427" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M417 546 L431 556 L417 566" fill="none" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M759 556 H784" stroke="#8de5d1" stroke-width="5"/>
+  <path d="M774 546 L788 556 L774 566" fill="none" stroke="#8de5d1" stroke-width="5"/>
+
+  <rect x="84" y="722" width="1032" height="154" rx="22" fill="#15273b" stroke="#3f6689" stroke-width="2"/>
+  <text x="116" y="764" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">RECOVERY GATE</text>
+  <text x="116" y="804" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">evaluators aligned · admission closed · in-flight known · data readable · effects reconciled</text>
+  <text x="116" y="842" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Then verify the complete scoped user path under the exact code, route, cache, and dependency state.</text>
+
+  <rect x="84" y="914" width="1032" height="142" rx="20" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="956" fill="#ffc1d4" font-family="system-ui, sans-serif" font-size="21" font-weight="800">KEEP DISABLEMENT, RECOVERY, AND RETIREMENT SEPARATE</text>
+  <text x="116" y="995" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17">configured off ≠ new admission stopped ≠ in-flight reconciled ≠ recovered ≠ flag retired</text>
+  <text x="116" y="1028" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Keep a terminal rule while jobs, sticky assignments, restores, or replays can still reference it.</text>
+
+  <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof of a real recovery.</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

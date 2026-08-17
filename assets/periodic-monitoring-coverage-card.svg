@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Periodic monitoring coverage ledger</title>
+  <desc id="desc">An original checklist card that separates a configured polling schedule from observed coverage, using a synthetic three-run ledger, overlap, checkpoints, gap handling, and reconciliation.</desc>
+  <rect width="1200" height="1200" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
+
+  <text x="84" y="108" fill="#8de5d1" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="23" font-weight="700" letter-spacing="1.05">MONITORING OPERATIONS · COVERAGE LEDGER</text>
+  <text x="84" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">A schedule is not a coverage result</text>
+  <text x="84" y="211" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="21">Record what each run could inspect, what completed, and which gaps remain.</text>
+
+  <rect x="84" y="246" width="1032" height="104" rx="22" fill="#291f25" stroke="#f28baa" stroke-width="2"/>
+  <text x="116" y="286" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="18" font-weight="800">SYNTHETIC LEDGER — NOT A REAL API, CUSTOMER, OR COVERAGE RESULT</text>
+  <text x="116" y="322" fill="#ffffff" font-family="system-ui, sans-serif" font-size="19">Configured hourly: one complete run, one timeout, one partial page set.</text>
+
+  <line x1="222" y1="447" x2="978" y2="447" stroke="#4d7ea8" stroke-width="5"/>
+  <circle cx="222" cy="447" r="17" fill="#8de5d1"/>
+  <circle cx="600" cy="447" r="17" fill="#ff9fbd"/>
+  <circle cx="978" cy="447" r="17" fill="#ffd166"/>
+
+  <rect x="84" y="384" width="300" height="224" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="116" y="426" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="800">09:00 · COMPLETE</text>
+  <text x="116" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">All intended pages stored</text>
+  <text x="116" y="518" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">before checkpoint advance.</text>
+  <text x="116" y="566" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Declared window covered</text>
+
+  <rect x="450" y="384" width="300" height="224" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="482" y="426" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="18" font-weight="800">10:00 · TIMEOUT</text>
+  <text x="482" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Wait ended; coverage did not.</text>
+  <text x="482" y="518" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Checkpoint stays unchanged.</text>
+  <text x="482" y="566" fill="#ff9fbd" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Gap opened</text>
+
+  <rect x="816" y="384" width="300" height="224" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="848" y="426" fill="#ffd166" font-family="system-ui, sans-serif" font-size="18" font-weight="800">11:00 · PARTIAL</text>
+  <text x="848" y="486" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Page one arrived; later</text>
+  <text x="848" y="518" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">pagination did not finish.</text>
+  <text x="848" y="566" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Gap remains unreconciled</text>
+
+  <rect x="84" y="645" width="1032" height="159" rx="22" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
+  <text x="116" y="688" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">SAFE CHECKPOINT RULE</text>
+  <text x="116" y="728" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">Re-read a justified overlap → deduplicate by stable source identity → process every</text>
+  <text x="116" y="760" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">intended page durably → then advance the checkpoint. Otherwise, preserve the gap.</text>
+  <text x="116" y="787" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Overlap protects boundaries; reconciliation tests whether the polling path stayed complete.</text>
+
+  <rect x="84" y="840" width="499" height="199" rx="22" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="116" y="883" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="19" font-weight="800">RETAIN PER RUN</text>
+  <text x="116" y="921" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">• source + filters · scheduled + attempt time</text>
+  <text x="116" y="953" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">• page/cursor progress · source-time bounds</text>
+  <text x="116" y="985" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">• checkpoint before/after · gap state</text>
+  <text x="116" y="1017" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Minimize personal data.</text>
+
+  <rect x="617" y="840" width="499" height="199" rx="22" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
+  <text x="649" y="883" fill="#ffd166" font-family="system-ui, sans-serif" font-size="19" font-weight="800">REPORT THE NARROW CLAIM</text>
+  <text x="649" y="921" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Scope · observed source-time window</text>
+  <text x="649" y="953" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">records inspected · failures and exclusions</text>
+  <text x="649" y="985" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">complete · best-effort · partial · unreconciled</text>
+  <text x="649" y="1017" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">“Hourly” ≠ “detected within one hour.”</text>
+
+  <text x="84" y="1082" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not posted or published · operational guidance only</text>
+  <text x="84" y="1118" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Periodic monitoring is a coverage claim, not a promise to see everything”</text>
+  <text x="1116" y="1118" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+</svg>

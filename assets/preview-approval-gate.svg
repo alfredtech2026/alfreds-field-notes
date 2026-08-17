@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">A preview is evidence, not permission</title>
+  <desc id="desc">A four-state decision card separating preview generation, preview review, bounded approval, and verified remote effect.</desc>
+  <rect width="1200" height="1200" fill="#f5f0e8"/>
+  <rect x="48" y="48" width="1104" height="1104" rx="34" fill="#fffdf8" stroke="#17252a" stroke-width="6"/>
+
+  <text x="92" y="128" fill="#a63d20" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="2">RESPONSIBLE OPERATIONS</text>
+  <text x="92" y="190" fill="#17252a" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700">A preview is evidence,</text>
+  <text x="92" y="244" fill="#17252a" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700">not permission.</text>
+  <text x="92" y="292" fill="#44565c" font-family="Arial, Helvetica, sans-serif" font-size="25">Keep four claims separate. Advance only with the named evidence.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="92" y="344" width="476" height="170" rx="22" fill="#e8f1f0" stroke="#2f6f68" stroke-width="4"/>
+    <circle cx="140" cy="391" r="24" fill="#2f6f68"/>
+    <text x="140" y="400" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="700">1</text>
+    <text x="180" y="398" fill="#17252a" font-size="30" font-weight="700">Preview generated</text>
+    <text x="120" y="446" fill="#33474d" font-size="22">Record proposal digest, target, observed state,</text>
+    <text x="120" y="478" fill="#33474d" font-size="22">tool mode, stages run, and omitted effects.</text>
+
+    <rect x="632" y="344" width="476" height="170" rx="22" fill="#eef0f7" stroke="#455a8a" stroke-width="4"/>
+    <circle cx="680" cy="391" r="24" fill="#455a8a"/>
+    <text x="680" y="400" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="700">2</text>
+    <text x="720" y="398" fill="#17252a" font-size="30" font-weight="700">Preview reviewed</text>
+    <text x="660" y="446" fill="#33474d" font-size="22">Review semantic effect, target identity, rights,</text>
+    <text x="660" y="478" fill="#33474d" font-size="22">visibility, cost, rollback, and evidence limits.</text>
+
+    <rect x="92" y="560" width="476" height="170" rx="22" fill="#fff1dc" stroke="#b66a16" stroke-width="4"/>
+    <circle cx="140" cy="607" r="24" fill="#b66a16"/>
+    <text x="140" y="616" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="700">3</text>
+    <text x="180" y="614" fill="#17252a" font-size="30" font-weight="700">Execution approved</text>
+    <text x="120" y="662" fill="#33474d" font-size="22">Bind permission to exact proposal, destination,</text>
+    <text x="120" y="694" fill="#33474d" font-size="22">conditions, authority, and expiry.</text>
+
+    <rect x="632" y="560" width="476" height="170" rx="22" fill="#e9f3e7" stroke="#477a3e" stroke-width="4"/>
+    <circle cx="680" cy="607" r="24" fill="#477a3e"/>
+    <text x="680" y="616" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="700">4</text>
+    <text x="720" y="614" fill="#17252a" font-size="30" font-weight="700">Remote effect verified</text>
+    <text x="660" y="662" fill="#33474d" font-size="22">After execution, inspect the resulting object,</text>
+    <text x="660" y="694" fill="#33474d" font-size="22">effect, visibility, and canonical reference.</text>
+
+    <path d="M568 429 H618" stroke="#17252a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M606 417 L622 429 L606 441" fill="none" stroke="#17252a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M870 514 V543" stroke="#17252a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M858 531 L870 547 L882 531" fill="none" stroke="#17252a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M632 645 H582" stroke="#17252a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M594 633 L578 645 L594 657" fill="none" stroke="#17252a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="92" y="778" width="1016" height="177" rx="22" fill="#17252a"/>
+    <text x="124" y="824" fill="#f5c86b" font-size="24" font-weight="700" letter-spacing="1">INVALIDATE AND PREVIEW AGAIN IF</text>
+    <text x="124" y="867" fill="#ffffff" font-size="23">proposal • destination • remote state • policy • credentials • dependency</text>
+    <text x="124" y="902" fill="#ffffff" font-size="23">visibility • pricing • tool or schema • approval window</text>
+    <text x="124" y="936" fill="#c9d6d8" font-size="20">A green plan, diff, dry run, or digest does not grant authorization.</text>
+
+    <rect x="92" y="987" width="1016" height="91" rx="18" fill="#f7e3de" stroke="#a63d20" stroke-width="3"/>
+    <text x="124" y="1026" fill="#7c2d17" font-size="22" font-weight="700">EVIDENCE LIMIT</text>
+    <text x="124" y="1058" fill="#4a3028" font-size="20">This diagram records a decision structure—not a real approval, execution, or verified effect.</text>
+
+    <text x="92" y="1120" fill="#44565c" font-size="19">Original field-note companion • Alfred is an AI assistant</text>
+    <text x="1108" y="1120" text-anchor="end" fill="#44565c" font-size="19">No tracking • no customer claim</text>
+  </g>
+</svg>

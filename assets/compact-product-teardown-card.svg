@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title description">
+  <title id="title">Compact product teardown worksheet</title>
+  <desc id="description">A printable four-part worksheet for recording an observed symptom, bounded user cost, possible cause, and smallest test, followed by a result section and release checks.</desc>
+  <rect width="1200" height="1500" fill="#f6f2e8"/>
+  <rect x="52" y="52" width="1096" height="1396" rx="22" fill="#fffdf7" stroke="#172a3a" stroke-width="4"/>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#172a3a">
+    <text x="92" y="123" font-size="24" font-weight="700" letter-spacing="2">FIELD NOTE WORKSHEET</text>
+    <text x="92" y="185" font-size="48" font-weight="800">Compact product teardown</text>
+    <text x="92" y="229" font-size="23">Keep observation, impact, inference, and testing in separate evidence lanes.</text>
+
+    <g font-size="19">
+      <text x="92" y="282" font-weight="700">Artifact ID</text>
+      <line x1="210" y1="286" x2="535" y2="286" stroke="#708090" stroke-width="2"/>
+      <text x="575" y="282" font-weight="700">Observed at</text>
+      <line x1="700" y1="286" x2="1108" y2="286" stroke="#708090" stroke-width="2"/>
+      <text x="92" y="321" font-weight="700">Evidence source</text>
+      <line x1="255" y1="325" x2="535" y2="325" stroke="#708090" stroke-width="2"/>
+      <text x="575" y="321" font-weight="700">Task / environment</text>
+      <line x1="770" y1="325" x2="1108" y2="325" stroke="#708090" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(92 366)">
+      <rect width="497" height="250" rx="14" fill="#edf6f3" stroke="#2b675c" stroke-width="3"/>
+      <circle cx="43" cy="43" r="22" fill="#2b675c"/>
+      <text x="43" y="51" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">1</text>
+      <text x="78" y="51" font-size="28" font-weight="800">SYMPTOM</text>
+      <text x="26" y="91" font-size="19">What happened? What did not happen?</text>
+      <text x="26" y="120" font-size="18" fill="#38505f">Record an observable event—not motive or blame.</text>
+      <g stroke="#80939d" stroke-width="2">
+        <line x1="26" y1="158" x2="471" y2="158"/>
+        <line x1="26" y1="196" x2="471" y2="196"/>
+        <line x1="26" y1="234" x2="471" y2="234"/>
+      </g>
+    </g>
+
+    <g transform="translate(611 366)">
+      <rect width="497" height="250" rx="14" fill="#fff3df" stroke="#8a5a13" stroke-width="3"/>
+      <circle cx="43" cy="43" r="22" fill="#8a5a13"/>
+      <text x="43" y="51" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">2</text>
+      <text x="78" y="51" font-size="28" font-weight="800">USER COST</text>
+      <text x="26" y="91" font-size="19">Which outcome was blocked or made harder?</text>
+      <text x="26" y="120" font-size="18" fill="#5d4a30">Separate observed cost from potential wider impact.</text>
+      <g stroke="#a08e76" stroke-width="2">
+        <line x1="26" y1="158" x2="471" y2="158"/>
+        <line x1="26" y1="196" x2="471" y2="196"/>
+        <line x1="26" y1="234" x2="471" y2="234"/>
+      </g>
+    </g>
+
+    <g transform="translate(92 640)">
+      <rect width="497" height="310" rx="14" fill="#f1effa" stroke="#544383" stroke-width="3"/>
+      <circle cx="43" cy="43" r="22" fill="#544383"/>
+      <text x="43" y="51" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">3</text>
+      <text x="78" y="51" font-size="28" font-weight="800">POSSIBLE CAUSE</text>
+      <text x="26" y="91" font-size="19">Write one falsifiable hypothesis.</text>
+      <text x="26" y="126" font-size="18" font-weight="700">When</text>
+      <line x1="85" y1="130" x2="471" y2="130" stroke="#8d82aa" stroke-width="2"/>
+      <text x="26" y="165" font-size="18" font-weight="700">the product may</text>
+      <line x1="178" y1="169" x2="471" y2="169" stroke="#8d82aa" stroke-width="2"/>
+      <text x="26" y="204" font-size="18" font-weight="700">causing</text>
+      <line x1="102" y1="208" x2="471" y2="208" stroke="#8d82aa" stroke-width="2"/>
+      <text x="26" y="243" font-size="18" font-weight="700">If true, we expect</text>
+      <line x1="190" y1="247" x2="471" y2="247" stroke="#8d82aa" stroke-width="2"/>
+      <text x="26" y="282" font-size="18" font-weight="700">Alternatives</text>
+      <line x1="134" y1="286" x2="471" y2="286" stroke="#8d82aa" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(611 640)">
+      <rect width="497" height="310" rx="14" fill="#eaf2fb" stroke="#315e88" stroke-width="3"/>
+      <circle cx="43" cy="43" r="22" fill="#315e88"/>
+      <text x="43" y="51" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">4</text>
+      <text x="78" y="51" font-size="28" font-weight="800">SMALLEST TEST</text>
+      <text x="26" y="91" font-size="19">Reduce the largest uncertainty—not the code diff.</text>
+      <text x="26" y="130" font-size="18" font-weight="700">Method</text>
+      <line x1="102" y1="134" x2="471" y2="134" stroke="#829ab1" stroke-width="2"/>
+      <text x="26" y="169" font-size="18" font-weight="700">Data: synthetic / consented / restricted</text>
+      <line x1="26" y1="192" x2="471" y2="192" stroke="#829ab1" stroke-width="2"/>
+      <text x="26" y="227" font-size="18" font-weight="700">Supports if</text>
+      <line x1="132" y1="231" x2="471" y2="231" stroke="#829ab1" stroke-width="2"/>
+      <text x="26" y="266" font-size="18" font-weight="700">Weakens if</text>
+      <line x1="132" y1="270" x2="471" y2="270" stroke="#829ab1" stroke-width="2"/>
+      <text x="26" y="300" font-size="17" fill="#38505f">Define a stopping or safety condition before testing.</text>
+    </g>
+
+    <g transform="translate(92 974)">
+      <rect width="1016" height="210" rx="14" fill="#f7f8f8" stroke="#526674" stroke-width="3"/>
+      <text x="26" y="48" font-size="27" font-weight="800">RESULT — complete only after the test</text>
+      <text x="26" y="89" font-size="18" font-weight="700">Observed evidence</text>
+      <line x1="190" y1="93" x2="990" y2="93" stroke="#87959e" stroke-width="2"/>
+      <text x="26" y="128" font-size="18" font-weight="700">What remains unknown</text>
+      <line x1="225" y1="132" x2="990" y2="132" stroke="#87959e" stroke-width="2"/>
+      <text x="26" y="167" font-size="18" font-weight="700">Next decision</text>
+      <line x1="153" y1="171" x2="990" y2="171" stroke="#87959e" stroke-width="2"/>
+      <text x="26" y="198" font-size="16" fill="#526674">Do not imply that one reproduction proves prevalence or root cause.</text>
+    </g>
+
+    <g transform="translate(92 1212)">
+      <text x="0" y="28" font-size="23" font-weight="800">PUBLIC RELEASE CHECK</text>
+      <g font-size="17">
+        <rect x="0" y="50" width="20" height="20" fill="none" stroke="#172a3a" stroke-width="2"/>
+        <text x="32" y="67">No personal, account, payment, or private operational details</text>
+        <rect x="0" y="85" width="20" height="20" fill="none" stroke="#172a3a" stroke-width="2"/>
+        <text x="32" y="102">Evidence is rights-cleared; hypotheses and potential impacts are labeled</text>
+        <rect x="0" y="120" width="20" height="20" fill="none" stroke="#172a3a" stroke-width="2"/>
+        <text x="32" y="137">Test state is explicit: proposed, completed, or reproduced</text>
+        <rect x="0" y="155" width="20" height="20" fill="none" stroke="#172a3a" stroke-width="2"/>
+        <text x="32" y="172">Contradictory evidence and remaining unknowns are preserved</text>
+      </g>
+    </g>
+
+    <line x1="92" y1="1407" x2="1108" y2="1407" stroke="#b7c0c5" stroke-width="2"/>
+    <text x="92" y="1434" font-size="16" fill="#526674">Original worksheet by Alfred, an AI assistant · No tracking · No customer or product result claimed</text>
+  </g>
+</svg>

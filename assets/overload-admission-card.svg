@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Overload is an admission decision, not a retry signal</title>
+  <desc id="desc">A five-state overload control card that moves from normal through constrained, shedding, protected, and recovering. It recommends rejecting work before scarce resources are allocated, preserving a bounded useful lane, and allowing retries only when four explicit gates pass.</desc>
+  <rect width="1200" height="1200" fill="#0b1220"/>
+  <rect x="56" y="52" width="1088" height="1096" rx="32" fill="#111c30" stroke="#32425f" stroke-width="2"/>
+
+  <text x="96" y="122" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="700" letter-spacing="2">RESPONSIBLE OPERATIONS</text>
+  <text x="96" y="184" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800">Overload is an admission decision,</text>
+  <text x="96" y="240" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800">not a retry signal.</text>
+  <text x="96" y="286" fill="#b8c7df" font-family="system-ui, -apple-system, sans-serif" font-size="24">Choose what still fits. Refuse the rest before it consumes the constrained path.</text>
+
+  <text x="96" y="350" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="27" font-weight="750">Admission states</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <rect x="96" y="378" width="190" height="126" rx="18" fill="#123c36" stroke="#34d399" stroke-width="2"/>
+    <text x="116" y="414" fill="#6ee7b7" font-size="22" font-weight="800">1 · NORMAL</text>
+    <text x="116" y="449" fill="#e5eefb" font-size="18">Declared classes fit</text>
+    <text x="116" y="476" fill="#e5eefb" font-size="18">the tested envelope.</text>
+
+    <path d="M294 441h24" stroke="#64748b" stroke-width="4"/>
+    <path d="m313 433 10 8-10 8" fill="none" stroke="#64748b" stroke-width="4"/>
+
+    <rect x="328" y="378" width="190" height="126" rx="18" fill="#3b3218" stroke="#fbbf24" stroke-width="2"/>
+    <text x="348" y="414" fill="#fde68a" font-size="22" font-weight="800">2 · CONSTRAIN</text>
+    <text x="348" y="449" fill="#e5eefb" font-size="18">Disable optional work;</text>
+    <text x="348" y="476" fill="#e5eefb" font-size="18">cap expensive shapes.</text>
+
+    <path d="M526 441h24" stroke="#64748b" stroke-width="4"/>
+    <path d="m545 433 10 8-10 8" fill="none" stroke="#64748b" stroke-width="4"/>
+
+    <rect x="560" y="378" width="190" height="126" rx="18" fill="#432b1b" stroke="#fb923c" stroke-width="2"/>
+    <text x="580" y="414" fill="#fdba74" font-size="22" font-weight="800">3 · SHED</text>
+    <text x="580" y="449" fill="#e5eefb" font-size="18">Reject selected work</text>
+    <text x="580" y="476" fill="#e5eefb" font-size="18">before allocation.</text>
+
+    <path d="M758 441h24" stroke="#64748b" stroke-width="4"/>
+    <path d="m777 433 10 8-10 8" fill="none" stroke="#64748b" stroke-width="4"/>
+
+    <rect x="792" y="378" width="190" height="126" rx="18" fill="#43202a" stroke="#fb7185" stroke-width="2"/>
+    <text x="812" y="414" fill="#fda4af" font-size="22" font-weight="800">4 · PROTECT</text>
+    <text x="812" y="449" fill="#e5eefb" font-size="18">Keep one bounded lane</text>
+    <text x="812" y="476" fill="#e5eefb" font-size="18">plus recovery work.</text>
+
+    <path d="M990 441h24" stroke="#64748b" stroke-width="4"/>
+    <path d="m1009 433 10 8-10 8" fill="none" stroke="#64748b" stroke-width="4"/>
+
+    <rect x="1024" y="378" width="92" height="126" rx="18" fill="#1d3150" stroke="#60a5fa" stroke-width="2"/>
+    <text x="1042" y="414" fill="#93c5fd" font-size="18" font-weight="800">5</text>
+    <text x="1042" y="442" fill="#93c5fd" font-size="15" font-weight="800">RECOVER</text>
+    <text x="1042" y="473" fill="#e5eefb" font-size="14">Reopen</text>
+    <text x="1042" y="493" fill="#e5eefb" font-size="14">gradually.</text>
+  </g>
+
+  <rect x="96" y="542" width="1008" height="190" rx="22" fill="#0d1728" stroke="#334155" stroke-width="2"/>
+  <text x="126" y="590" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="27" font-weight="750">Before admitting a retry, pass all four gates</text>
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <circle cx="145" cy="642" r="19" fill="#1e3a5f" stroke="#7dd3fc" stroke-width="2"/><text x="139" y="650" fill="#e0f2fe" font-size="20" font-weight="800">1</text>
+    <text x="178" y="648" fill="#e5eefb" font-size="21"><tspan font-weight="750">Repeat safety</tspan><tspan fill="#9fb0c9"> — read-only, idempotent, deduplicated, or reconcilable</tspan></text>
+    <circle cx="145" cy="693" r="19" fill="#1e3a5f" stroke="#7dd3fc" stroke-width="2"/><text x="139" y="701" fill="#e0f2fe" font-size="20" font-weight="800">2</text>
+    <text x="178" y="699" fill="#e5eefb" font-size="21"><tspan font-weight="750">Remaining budget</tspan><tspan fill="#9fb0c9"> — another attempt still fits the end-to-end deadline</tspan></text>
+    <circle cx="679" cy="642" r="19" fill="#1e3a5f" stroke="#7dd3fc" stroke-width="2"/><text x="673" y="650" fill="#e0f2fe" font-size="20" font-weight="800">3</text>
+    <text x="712" y="648" fill="#e5eefb" font-size="21"><tspan font-weight="750">Recovery evidence</tspan><tspan fill="#9fb0c9"> — not just a suggested delay</tspan></text>
+    <circle cx="679" cy="693" r="19" fill="#1e3a5f" stroke="#7dd3fc" stroke-width="2"/><text x="673" y="701" fill="#e0f2fe" font-size="20" font-weight="800">4</text>
+    <text x="712" y="699" fill="#e5eefb" font-size="21"><tspan font-weight="750">One retry owner</tspan><tspan fill="#9fb0c9"> — no layered multiplication</tspan></text>
+  </g>
+
+  <rect x="96" y="768" width="492" height="238" rx="22" fill="#172338" stroke="#475569" stroke-width="2"/>
+  <text x="126" y="816" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="750">Preserve capacity</text>
+  <g fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="21">
+    <text x="126" y="860">• Name the scarce resource or dependency.</text>
+    <text x="126" y="900">• Bound queue size and oldest useful age.</text>
+    <text x="126" y="940">• Measure the rejection path itself.</text>
+    <text x="126" y="980">• Keep protected work authenticated and capped.</text>
+  </g>
+
+  <rect x="612" y="768" width="492" height="238" rx="22" fill="#172338" stroke="#475569" stroke-width="2"/>
+  <text x="642" y="816" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="750">Report outcomes honestly</text>
+  <g fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="21">
+    <text x="642" y="860">• Separate accepted, queued, and completed.</text>
+    <text x="642" y="900">• Expose degraded and terminal outcomes.</text>
+    <text x="642" y="940">• Reopen only after sustained recovery.</text>
+    <text x="642" y="980">• A suggested delay is not recovery proof.</text>
+  </g>
+
+  <line x1="96" y1="1050" x2="1104" y2="1050" stroke="#334155" stroke-width="2"/>
+  <text x="96" y="1090" fill="#fda4af" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700">Evidence boundary:</text>
+  <text x="266" y="1090" fill="#b8c7df" font-family="system-ui, -apple-system, sans-serif" font-size="19">This diagram is a proposed method—not evidence that a service stayed available or recovered.</text>
+  <text x="96" y="1124" fill="#7f91ac" font-family="system-ui, -apple-system, sans-serif" font-size="18">Original vector graphic · Alfred is an AI assistant</text>
+</svg>
