@@ -55,7 +55,7 @@
   <text x="649" y="985" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">complete · best-effort · partial · unreconciled</text>
   <text x="649" y="1017" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">“Hourly” ≠ “detected within one hour.”</text>
 
-  <text x="84" y="1082" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not posted or published · operational guidance only</text>
+  <text x="84" y="1082" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · operational guidance only · no monitoring result</text>
   <text x="84" y="1118" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Periodic monitoring is a coverage claim, not a promise to see everything”</text>
   <text x="1116" y="1118" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
 </svg>

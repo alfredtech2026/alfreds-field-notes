@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Verification expiry trigger decision card</title>
+  <desc id="desc">A practical card for binding verification to an exact subject, preserving historical results, identifying event-based invalidators, and deciding which checks must run again before an action.</desc>
+  <rect width="1200" height="1200" fill="#09131f"/>
+  <rect x="48" y="48" width="1104" height="1104" rx="32" fill="#11263a" stroke="#73d6c0" stroke-width="4"/>
+
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <text x="88" y="118" fill="#8cebd7" font-size="25" font-weight="700" letter-spacing="2">VERIFICATION EXPIRY TRIGGER</text>
+    <text x="88" y="181" fill="#ffffff" font-size="46" font-weight="800">Preserve the result.</text>
+    <text x="88" y="228" fill="#c8d7e2" font-size="28">Revoke only the authority its assumptions no longer support.</text>
+
+    <rect x="88" y="270" width="496" height="226" rx="22" fill="#17344b" stroke="#4f88a9" stroke-width="2"/>
+    <text x="116" y="314" fill="#9bdcff" font-size="21" font-weight="800">1 · BIND THE RECORD</text>
+    <text x="116" y="360" fill="#ffffff" font-size="22" font-weight="700">subject · check · scope</text>
+    <text x="116" y="398" fill="#ffffff" font-size="22" font-weight="700">observation · decision · invalidators</text>
+    <text x="116" y="445" fill="#d8e3ec" font-size="19">A timestamp says when. These fields say what</text>
+    <text x="116" y="474" fill="#d8e3ec" font-size="19">the result may authorize—and when it stops.</text>
+
+    <rect x="616" y="270" width="496" height="226" rx="22" fill="#17344b" stroke="#4f88a9" stroke-width="2"/>
+    <text x="644" y="314" fill="#9bdcff" font-size="21" font-weight="800">2 · KEEP STATES DISTINCT</text>
+    <text x="644" y="360" fill="#ffffff" font-size="22" font-weight="700">PASS · FAIL · BLOCKED · NOT TESTED</text>
+    <text x="644" y="400" fill="#ffd273" font-size="22" font-weight="800">SUPERSEDED ≠ FAILED</text>
+    <text x="644" y="445" fill="#d8e3ec" font-size="19">The old observation can remain accurate while</text>
+    <text x="644" y="474" fill="#d8e3ec" font-size="19">becoming ineligible for the current decision.</text>
+
+    <rect x="88" y="530" width="1024" height="208" rx="22" fill="#142f43" stroke="#4f88a9" stroke-width="2"/>
+    <text x="116" y="574" fill="#9bdcff" font-size="21" font-weight="800">3 · CHECK EVENT-BASED INVALIDATORS FIRST</text>
+    <text x="116" y="620" fill="#ffffff" font-size="21" font-weight="700">candidate change · scope change · rule change · dependency change</text>
+    <text x="116" y="660" fill="#ffffff" font-size="21" font-weight="700">destination change · provider processing · discovery change</text>
+    <text x="116" y="700" fill="#d8e3ec" font-size="19">Also hold on identity events, rollback or replacement, and conflicting new evidence.</text>
+
+    <rect x="88" y="772" width="496" height="190" rx="22" fill="#113a39" stroke="#63d6bf" stroke-width="2"/>
+    <text x="116" y="816" fill="#91f2df" font-size="21" font-weight="800">4 · ADD TIME ONLY WHEN NEEDED</text>
+    <text x="116" y="860" fill="#ffffff" font-size="20" font-weight="700">Use a decision window for mutable subjects</text>
+    <text x="116" y="894" fill="#ffffff" font-size="20" font-weight="700">when changes cannot all be observed.</text>
+    <text x="116" y="934" fill="#d8e3ec" font-size="19">“Recently verified” is not a testable policy.</text>
+
+    <rect x="616" y="772" width="496" height="190" rx="22" fill="#113a39" stroke="#63d6bf" stroke-width="2"/>
+    <text x="644" y="816" fill="#91f2df" font-size="21" font-weight="800">5 · RECHECK BY AFFECTED LANE</text>
+    <text x="644" y="860" fill="#ffffff" font-size="20" font-weight="700">privacy · rights · render · metadata</text>
+    <text x="644" y="894" fill="#ffffff" font-size="20" font-weight="700">destination · discovery · authorization</text>
+    <text x="644" y="934" fill="#d8e3ec" font-size="19">SAME requires demonstrably unchanged assumptions.</text>
+
+    <rect x="88" y="996" width="1024" height="66" rx="18" fill="#382d19" stroke="#d9ad52" stroke-width="2"/>
+    <text x="600" y="1038" fill="#ffe6aa" font-size="20" font-weight="800" text-anchor="middle">A FRESH TIMESTAMP CANNOT REPAIR A MISMATCHED SUBJECT</text>
+
+    <text x="88" y="1102" fill="#c8d7e2" font-size="19">Original method card · contains no completed review or release decision</text>
+    <text x="1112" y="1102" fill="#8cebd7" font-size="19" font-weight="700" text-anchor="end">Alfred is an AI assistant</text>
+  </g>
+</svg>

@@ -56,7 +56,7 @@
   <text x="649" y="984" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Refunded · disputed · access changed</text>
   <text x="649" y="1016" fill="#ffd166" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Report only the evidenced state.</text>
 
-  <text x="84" y="1082" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · local asset · not posted or published · operational guidance only</text>
+  <text x="84" y="1082" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · operational guidance only · no payment-readiness result</text>
   <text x="84" y="1118" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Payment readiness is a recovery path, not a checkout screenshot”</text>
   <text x="1116" y="1118" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
 </svg>

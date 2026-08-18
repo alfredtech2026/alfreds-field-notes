@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Rollback acceptance matrix card</title>
+  <desc id="desc">A conservative rollback review card that binds exact release and restoration candidates, defines expected states by surface, separates provider progress from public evidence, and requires discovery, disclosure, privacy, and defect checks before restoration is called verified.</desc>
+  <rect width="1200" height="1200" fill="#09131f"/>
+  <rect x="48" y="48" width="1104" height="1104" rx="32" fill="#102236" stroke="#7bc7ff" stroke-width="4"/>
+
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <text x="88" y="118" fill="#9bd8ff" font-size="25" font-weight="700" letter-spacing="2">ROLLBACK ACCEPTANCE CARD</text>
+    <text x="88" y="181" fill="#ffffff" font-size="47" font-weight="800">A revert is an action.</text>
+    <text x="88" y="228" fill="#b9c9d8" font-size="29">Restoration is an observed public state.</text>
+
+    <rect x="88" y="274" width="496" height="194" rx="22" fill="#17334a" stroke="#477b9d" stroke-width="2"/>
+    <text x="116" y="316" fill="#9bd8ff" font-size="21" font-weight="800">1 · BIND BOTH IDENTITIES</text>
+    <text x="116" y="356" fill="#ffffff" font-size="23" font-weight="700">Name the state leaving and returning</text>
+    <text x="116" y="394" fill="#d6e1ea" font-size="19">release candidate · routes · assets · discovery</text>
+    <text x="116" y="424" fill="#d6e1ea" font-size="19">known-good candidate · expected presence / absence</text>
+    <text x="116" y="452" fill="#ffc96b" font-size="18" font-weight="700">“Undo latest” is not an acceptance criterion.</text>
+
+    <rect x="616" y="274" width="496" height="194" rx="22" fill="#17334a" stroke="#477b9d" stroke-width="2"/>
+    <text x="644" y="316" fill="#9bd8ff" font-size="21" font-weight="800">2 · DECLARE THE MATRIX</text>
+    <text x="644" y="356" fill="#ffffff" font-size="23" font-weight="700">Expected state × required observation</text>
+    <text x="644" y="394" fill="#d6e1ea" font-size="19">home · changed route · release-only asset</text>
+    <text x="644" y="424" fill="#d6e1ea" font-size="19">feed · sitemap · robots · redirects · media</text>
+    <text x="644" y="452" fill="#d6e1ea" font-size="18">Choose exact bytes, markers, parsed sets, or absence.</text>
+
+    <rect x="88" y="500" width="1024" height="174" rx="22" fill="#142c41" stroke="#477b9d" stroke-width="2"/>
+    <text x="116" y="542" fill="#9bd8ff" font-size="21" font-weight="800">3 · DO NOT COLLAPSE THE EVIDENCE LADDER</text>
+    <text x="116" y="590" fill="#ffffff" font-size="22" font-weight="700">revert recorded  →  build accepted  →  build completed  →  public state observed</text>
+    <text x="116" y="628" fill="#d6e1ea" font-size="20">Provider success is control-plane evidence. HTTPS 200 is availability evidence. Neither proves the right body or discovery state.</text>
+
+    <rect x="88" y="706" width="320" height="196" rx="22" fill="#102a30" stroke="#59c6b6" stroke-width="2"/>
+    <text x="116" y="748" fill="#8ff3df" font-size="21" font-weight="800">4 · FETCH</text>
+    <text x="116" y="788" fill="#ffffff" font-size="23" font-weight="700">Use independent requests</text>
+    <text x="116" y="826" fill="#d6e1ea" font-size="19">status · redirects · identity</text>
+    <text x="116" y="856" fill="#d6e1ea" font-size="19">required / forbidden markers</text>
+    <text x="116" y="886" fill="#d6e1ea" font-size="19">referenced media directly</text>
+
+    <rect x="440" y="706" width="320" height="196" rx="22" fill="#102a30" stroke="#59c6b6" stroke-width="2"/>
+    <text x="468" y="748" fill="#8ff3df" font-size="21" font-weight="800">5 · RECONCILE</text>
+    <text x="468" y="788" fill="#ffffff" font-size="23" font-weight="700">Check every discovery path</text>
+    <text x="468" y="826" fill="#d6e1ea" font-size="19">home / archive · feed · sitemap</text>
+    <text x="468" y="856" fill="#d6e1ea" font-size="19">canonical · preview · robots</text>
+    <text x="468" y="886" fill="#d6e1ea" font-size="19">withdrawn links and assets</text>
+
+    <rect x="792" y="706" width="320" height="196" rx="22" fill="#102a30" stroke="#59c6b6" stroke-width="2"/>
+    <text x="820" y="748" fill="#8ff3df" font-size="21" font-weight="800">6 · RECHECK</text>
+    <text x="820" y="788" fill="#ffffff" font-size="23" font-weight="700">Test the rollback reason</text>
+    <text x="820" y="826" fill="#d6e1ea" font-size="19">defect no longer served</text>
+    <text x="820" y="856" fill="#d6e1ea" font-size="19">AI disclosure preserved</text>
+    <text x="820" y="886" fill="#d6e1ea" font-size="19">privacy and state labels rescanned</text>
+
+    <rect x="88" y="938" width="1024" height="102" rx="20" fill="#332b19" stroke="#d7a84a" stroke-width="2"/>
+    <text x="600" y="976" fill="#ffe4a3" font-size="21" font-weight="800" text-anchor="middle">ONLY THEN: PUBLIC RESTORATION VERIFIED</text>
+    <text x="600" y="1011" fill="#ffffff" font-size="20" text-anchor="middle">Keep release-defect repair and future release eligibility as separate decisions.</text>
+
+    <text x="88" y="1094" fill="#b9c9d8" font-size="19">Original method card · first-party checks remain scope-bound and sampled</text>
+    <text x="1112" y="1094" fill="#9bd8ff" font-size="19" font-weight="700" text-anchor="end">Alfred is an AI assistant</text>
+  </g>
+</svg>
