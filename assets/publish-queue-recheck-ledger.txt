@@ -1,0 +1,306 @@
+PUBLISH-QUEUE RECHECK LEDGER
+
+Status: original local checklist candidate; not posted, queued, uploaded, or published.
+Author disclosure: Created by Alfred, an AI assistant.
+Purpose: bind one release candidate to scoped evidence, invalidation triggers,
+executable holds, and the checks required before its next state transition.
+
+Do not prefill a successful state. Empty evidence is missing evidence, not a pass.
+Duplicate the dependency, hold, and recheck blocks when more than one applies.
+
+======================================================================
+A. CANDIDATE IDENTITY
+======================================================================
+
+candidate ID:
+content revision, immutable revision, or manifest digest:
+identity method used:
+files and release surfaces covered:
+files and release surfaces explicitly excluded:
+intended first-party destination:
+intended destination surface or route:
+current state:
+  [ ] draft
+  [ ] validated local candidate
+  [ ] destination-review candidate
+  [ ] held
+  [ ] queued for an authorized destination
+  [ ] uploaded or processing
+  [ ] publicly verified
+  [ ] withdrawn or superseded
+state evidence:
+recorded at (timestamp + timezone):
+recorded by or process role:
+
+Rule: readiness, upload acceptance, processing, and public verification are
+separate states. A public URL remains empty until independently verified.
+
+======================================================================
+B. EVIDENCE ENVELOPE
+======================================================================
+
+CLAIMS
+claims reviewed:
+claim evidence or source references:
+uncertainties and qualifiers preserved:
+time-sensitive claims:
+claim-review scope and limits:
+claim-review result: PASS / FAIL / BLOCKED / NOT TESTED
+
+SOURCES
+source identity and revision, if available:
+source access time:
+primary or reputable-source basis:
+quoted or transformed material:
+source-review scope and limits:
+source-review result: PASS / FAIL / BLOCKED / NOT TESTED
+
+RIGHTS AND ATTRIBUTION
+asset identity and digest:
+origin or creation record:
+license or permission basis:
+attribution requirement:
+transformations covered:
+destination-rights questions still open:
+rights-review scope and limits:
+rights-review result: PASS / FAIL / BLOCKED / NOT TESTED
+
+PRIVACY AND SECRETS
+text surfaces inspected:
+media surfaces inspected:
+metadata and companion files inspected:
+destination-generated surfaces not yet available:
+scan or review evidence:
+privacy-review scope and limits:
+privacy-review result: PASS / FAIL / BLOCKED / NOT TESTED
+
+DISCLOSURE AND STATE LABELS
+AI-assistant disclosure reviewed:
+synthetic-media label, if required:
+draft, local, queued, upload, and public labels reviewed:
+unsupported experience, customer, metric, or publication claims checked:
+disclosure-review scope and limits:
+disclosure-review result: PASS / FAIL / BLOCKED / NOT TESTED
+
+MEDIA AND RENDERING
+candidate dimensions, duration, format, or encoding:
+local rendering surfaces inspected:
+audio, captions, crop, links, and controls inspected:
+destination processing still unreviewed:
+media-review scope and limits:
+media-review result: PASS / FAIL / BLOCKED / NOT TESTED
+
+LOCAL VALIDATION
+validator identity and revision:
+command or procedure:
+run time (timestamp + timezone):
+exact candidate checked:
+result and evidence reference:
+validation scope and limits:
+local-validation result: PASS / FAIL / BLOCKED / NOT TESTED
+
+======================================================================
+C. FRESHNESS CLOCKS
+======================================================================
+
+CANDIDATE CLOCK
+last identity check:
+change that makes the reviewed identity stale:
+recheck required after that change:
+current freshness result: CURRENT / STALE / BLOCKED / NOT TESTED
+
+SOURCE CLOCK
+last source check:
+claim-specific freshness rule:
+external change that makes the source evidence stale:
+recheck required after that change:
+current freshness result: CURRENT / STALE / BLOCKED / NOT TESTED
+
+RIGHTS CLOCK
+last exact-asset rights check:
+license, permission, attribution, or asset change that reopens review:
+recheck required after that change:
+current freshness result: CURRENT / STALE / BLOCKED / NOT TESTED
+
+DESTINATION CLOCK
+last exact-destination check:
+rendering, policy, visibility, account, or surface change that reopens review:
+recheck required immediately before action:
+current freshness result: CURRENT / STALE / BLOCKED / NOT TESTED
+
+PUBLICATION CLOCK
+last logged-out public observation:
+expected candidate identity and public route:
+change or elapsed period that requires a fresh observation:
+current freshness result: CURRENT / STALE / BLOCKED / NOT TESTED
+
+Rule: do not replace the five clocks with one optimistic approval expiry.
+Refresh only the evidence actually observed.
+
+======================================================================
+D. INVALIDATION MAP
+======================================================================
+
+TRIGGER
+trigger ID:
+observable change:
+  [ ] body, title, description, tags, or on-screen text
+  [ ] captions, transcript, script, audio, image, video, or preview
+  [ ] source, quoted language, factual claim, or access date
+  [ ] license, attribution, provenance record, or asset digest
+  [ ] disclosure, synthetic-media label, or publication-state label
+  [ ] canonical route, redirect, feed, sitemap, or linked download
+  [ ] destination processing, crop, visibility, policy, or account state
+  [ ] validator revision or discovered validator defect
+  [ ] privacy-sensitive field, screenshot, metadata, or attachment
+  [ ] schedule for explicitly time-sensitive content
+  [ ] prerequisite candidate or dependency evidence
+  [ ] other:
+affected review lanes:
+reviews that do not need to reopen, with reason:
+new candidate identity required:
+state transition required:
+owner or permitted process:
+
+Rule: map each trigger to affected evidence. Do not silently keep approval
+attached to changed bytes, and do not repeat unrelated review without cause.
+
+======================================================================
+E. DEPENDENCY EDGE
+======================================================================
+
+dependent candidate ID and exact revision:
+prerequisite candidate ID and exact revision:
+required evidence from prerequisite:
+acceptable result:
+results that are explicitly insufficient:
+where authoritative prerequisite state is recorded:
+what happens if the prerequisite changes:
+dependency result: SATISFIED / UNSATISFIED / BLOCKED / NOT TESTED
+evidence:
+
+Rule: queue order and copied status prose do not establish a dependency pass.
+
+======================================================================
+F. EXECUTABLE HOLD
+======================================================================
+
+hold ID:
+missing evidence or unmet prerequisite:
+why the current state cannot advance:
+actor, session, or process allowed to resolve it:
+exact next action permitted:
+stop conditions:
+  [ ] password or authentication gate
+  [ ] CAPTCHA, passkey, biometric, or one-time code
+  [ ] identity check
+  [ ] payment or spending decision
+  [ ] legal acceptance or unfamiliar sensitive consent
+  [ ] destination, account, visibility, or authority uncertainty
+  [ ] privacy, rights, claim, or rendering uncertainty
+  [ ] other:
+observable pass evidence:
+observable fail evidence:
+reviews reopened on pass:
+reviews reopened on fail:
+state transition allowed after pass:
+state preserved after fail or uncertainty:
+hold result: OPEN / RESOLVED / BLOCKED
+hold evidence:
+
+Rule: a scheduled time does not override an open hold or stop condition.
+
+======================================================================
+G. THREE-MOMENT RECHECK
+======================================================================
+
+1. QUEUE ENTRY
+reviewed at:
+exact candidate frozen:
+all promised surfaces covered:
+claim, source, rights, privacy, disclosure, media, and validation evidence scoped:
+holds and dependency edges recorded:
+invalidation triggers recorded:
+queue-entry result: PASS / FAIL / BLOCKED / NOT TESTED
+evidence and limits:
+
+Queue entry means eligible to wait under recorded conditions, not safe forever.
+
+2. IMMEDIATELY BEFORE DESTINATION ACTION
+reviewed at:
+candidate digest still matches:
+relevant freshness clocks rechecked:
+all holds resolved or preserved:
+complete destination copy and media set inspected together:
+authorized first-party destination confirmed:
+intended visibility confirmed:
+user-presence and sensitive-gate check:
+pre-action result: PASS / FAIL / BLOCKED / NOT TESTED
+evidence and limits:
+
+Do not perform the destination action unless every required lane passes.
+
+3. AFTER DESTINATION PROCESSING OR PUBLICATION
+reviewed at:
+processed text, media, captions, links, crop, and disclosure checked:
+visibility checked independently without privileged session state:
+exact served candidate checked:
+redirects and discovery surfaces checked:
+referenced assets checked:
+second privacy and claim scan completed:
+public URL:
+post-action result: PASS / FAIL / BLOCKED / NOT TESTED
+evidence and limits:
+
+Only a successful independent public observation may support publicly verified.
+An upload response, dashboard state, local build, commit, or planned URL may not.
+
+======================================================================
+H. FINAL DECISION
+======================================================================
+
+exact candidate ID and revision:
+decision time (timestamp + timezone):
+current truthful state:
+next allowed action:
+known blockers:
+rechecks required before that action:
+latest safe release time, if any:
+public URL: leave empty until independently verified
+public verification time:
+public verification evidence:
+withdrawal or supersession evidence:
+decision scope and limits:
+
+DECISION: PASS / FAIL / BLOCKED / NOT TESTED
+
+A PASS applies only to the declared state transition and evidence scope. It does
+not prove accuracy, legality, accessibility, platform acceptance, audience
+response, customer outcome, or permanent availability.
+
+======================================================================
+I. COMPACT AUDIT
+======================================================================
+
+[ ] Exact immutable candidate or complete manifest is identified.
+[ ] Every public surface contributing to the promise is covered.
+[ ] Draft, validated, held, queued, uploaded, and public states are distinct.
+[ ] Claim, source, rights, privacy, disclosure, media, and validation evidence is scoped.
+[ ] Candidate, source, rights, destination, and publication clocks are separate.
+[ ] Each invalidation trigger maps to affected review lanes.
+[ ] Every hold names missing evidence and one permitted next action.
+[ ] Stop conditions preserve authentication, identity, payment, and consent boundaries.
+[ ] Dependency edges point to exact candidates and acceptable evidence.
+[ ] Proposed routes are not represented as verified public URLs.
+[ ] Destination rendering and processing are reviewed only after they exist.
+[ ] Logged-out remote verification is required before publicly verified.
+[ ] A failed or uncertain required lane preserves the hold.
+[ ] Promotion and handoff copy agrees with the authoritative state record.
+
+Overall audit result: PASS / FAIL / BLOCKED / NOT TESTED
+evidence:
+limits:
+recheck triggers:
+
+End of original local checklist candidate by Alfred, an AI assistant.
+This blank record contains no release approval and establishes no publication.

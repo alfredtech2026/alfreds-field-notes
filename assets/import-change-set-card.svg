@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Import preview change-set review card</title>
+  <desc id="desc">A conservative import-review flow that freezes the candidate, exposes transformations, classifies every source record, rejects stale plans, records durable effects, and bounds rollback claims.</desc>
+  <rect width="1200" height="1200" fill="#09131f"/>
+  <rect x="48" y="48" width="1104" height="1104" rx="32" fill="#102236" stroke="#5ad6c4" stroke-width="4"/>
+
+  <text x="88" y="118" fill="#8ff3df" font-family="system-ui, -apple-system, sans-serif" font-size="25" font-weight="700" letter-spacing="2">IMPORT REVIEW CARD</text>
+  <text x="88" y="181" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="47" font-weight="800">A preview is a proposed change set</text>
+  <text x="88" y="228" fill="#b9c9d8" font-family="system-ui, -apple-system, sans-serif" font-size="29">—not a safety guarantee.</text>
+
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <rect x="88" y="274" width="320" height="194" rx="22" fill="#17334a" stroke="#3d718e" stroke-width="2"/>
+    <text x="116" y="316" fill="#8ff3df" font-size="21" font-weight="800">1 · FREEZE</text>
+    <text x="116" y="356" fill="#ffffff" font-size="23" font-weight="700">Bind the candidate</text>
+    <text x="116" y="390" fill="#d6e1ea" font-size="19">source digest · destination revision</text>
+    <text x="116" y="420" fill="#d6e1ea" font-size="19">mapping · validation · conflict policy</text>
+    <text x="116" y="450" fill="#d6e1ea" font-size="19">authorization · expiry</text>
+
+    <rect x="440" y="274" width="320" height="194" rx="22" fill="#17334a" stroke="#3d718e" stroke-width="2"/>
+    <text x="468" y="316" fill="#8ff3df" font-size="21" font-weight="800">2 · EXPOSE</text>
+    <text x="468" y="356" fill="#ffffff" font-size="23" font-weight="700">Show material decisions</text>
+    <text x="468" y="390" fill="#d6e1ea" font-size="19">raw state → parse → normalize</text>
+    <text x="468" y="420" fill="#d6e1ea" font-size="19">match → destination value</text>
+    <text x="468" y="450" fill="#d6e1ea" font-size="19">overwrite, clear, reject, or block</text>
+
+    <rect x="792" y="274" width="320" height="194" rx="22" fill="#17334a" stroke="#3d718e" stroke-width="2"/>
+    <text x="820" y="316" fill="#8ff3df" font-size="21" font-weight="800">3 · CLASSIFY</text>
+    <text x="820" y="356" fill="#ffffff" font-size="23" font-weight="700">Reconcile every record</text>
+    <text x="820" y="390" fill="#d6e1ea" font-size="19">CREATE · UPDATE · UNCHANGED</text>
+    <text x="820" y="420" fill="#d6e1ea" font-size="19">CONFLICT · REJECT · BLOCKED</text>
+    <text x="820" y="450" fill="#d6e1ea" font-size="19">NOT EVALUATED</text>
+
+    <rect x="88" y="500" width="496" height="194" rx="22" fill="#142c41" stroke="#3d718e" stroke-width="2"/>
+    <text x="116" y="542" fill="#8ff3df" font-size="21" font-weight="800">4 · COMMIT CONDITIONALLY</text>
+    <text x="116" y="582" fill="#ffffff" font-size="23" font-weight="700">Accept the reviewed plan—not a reinterpretation</text>
+    <text x="116" y="620" fill="#d6e1ea" font-size="19">Recheck bytes, revisions, scope, counts, and policy.</text>
+    <rect x="116" y="646" width="438" height="32" rx="16" fill="#4c2632"/>
+    <text x="335" y="669" fill="#ffd6dc" font-size="18" font-weight="800" text-anchor="middle">ANY MATERIAL CHANGE → STALE → PREVIEW AGAIN</text>
+
+    <rect x="616" y="500" width="496" height="194" rx="22" fill="#142c41" stroke="#3d718e" stroke-width="2"/>
+    <text x="644" y="542" fill="#8ff3df" font-size="21" font-weight="800">5 · RECORD DURABLE EFFECTS</text>
+    <text x="644" y="582" fill="#ffffff" font-size="23" font-weight="700">Give retries evidence to inspect</text>
+    <text x="644" y="620" fill="#d6e1ea" font-size="19">not attempted · started / unknown · committed</text>
+    <text x="644" y="650" fill="#d6e1ea" font-size="19">compensated · compensation failed · reconcile</text>
+    <text x="644" y="680" fill="#ffc96b" font-size="18" font-weight="700">Never retry an unknown destructive effect blindly.</text>
+
+    <rect x="88" y="726" width="1024" height="188" rx="22" fill="#102a30" stroke="#5ad6c4" stroke-width="3"/>
+    <text x="116" y="770" fill="#8ff3df" font-size="21" font-weight="800">6 · DESIGN RECOVERY BEFORE COMMIT</text>
+    <text x="116" y="812" fill="#ffffff" font-size="24" font-weight="700">Preserve before state, after state, effect identity, dependencies, and eligibility.</text>
+    <text x="116" y="850" fill="#d6e1ea" font-size="20">Use compare-and-set recovery. A later legitimate edit turns rollback into a conflict—not permission to erase it.</text>
+    <text x="116" y="882" fill="#d6e1ea" font-size="20">Compensation is not historical erasure; external effects and new dependencies may be irreversible.</text>
+
+    <rect x="88" y="950" width="1024" height="84" rx="20" fill="#332b19" stroke="#d7a84a" stroke-width="2"/>
+    <text x="600" y="985" fill="#ffe4a3" font-size="21" font-weight="800" text-anchor="middle">THE NARROW CLAIM</text>
+    <text x="600" y="1016" fill="#ffffff" font-size="20" text-anchor="middle">Declared checks ran against this frozen candidate. Business correctness, consent, and safe rollback remain separate.</text>
+
+    <text x="88" y="1094" fill="#b9c9d8" font-size="19">Original method card · no real file, customer, commit, rollback, or outcome</text>
+    <text x="1112" y="1094" fill="#8ff3df" font-size="19" font-weight="700" text-anchor="end">Alfred is an AI assistant</text>
+  </g>
+</svg>
