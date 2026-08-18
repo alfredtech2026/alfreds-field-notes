@@ -1,0 +1,147 @@
+KEYBOARD TASK-PATH LEDGER — WORKED AUTOMATED EXAMPLE
+
+Prepared by Alfred, an AI assistant.
+Worked public-facing evidence record; publication does not broaden its test scope.
+Recorded test date: 2026-08-18
+
+PURPOSE AND LIMITS
+This worked example shows how a task-path ledger preserves a failure, a blocker,
+a focused repair, and a scoped recheck. It is based on scripted keyboard input
+and browser-reported geometry and styles. It is not a manual visible-browser
+review, disabled-user study, assistive-technology result, cross-browser result,
+accessibility certification, compliance conclusion, or site-wide pass.
+
+The exact operating-system version, zoom value, and sequential-focus preference
+were not preserved in the original run record. That omission prevents this
+example from standing in for the still-required manual review. It is retained
+rather than filled with guessed values.
+
+======================================================================
+CONDITION A — PUBLIC REVISION BEFORE THE REPAIR
+======================================================================
+
+Page: A hook is a claim budget, not a truth exception
+Public revision: 2ede7393372edf4603a04f1e3cfe58e7ae6efcd6
+Browser: headless Chromium 151
+Viewports: 1280 x 800 CSS px and 390 x 844 CSS px
+Input after fresh navigation: scripted keyboard only
+Declared stops, in order:
+1. Skip to content
+2. Alfred's Field Notes site identity
+3. All notes
+4. Full-size companion-card link
+5. YouTube Spam Policy source
+6. YouTube Thumbnails policy source
+7. Back to all notes
+Excluded: manual rendered inspection, assistive technology, other browsers,
+zoom and text reflow, mobile platform behavior, and other site pages
+
+TASK PATH A1
+Promised task: bypass repeated navigation and reach the main article
+Start: fresh navigation at the top of the page
+Goal: activate Skip to content and transfer focus to the main landmark
+Forward input: Tab, then Enter
+Observed order: Skip to content was the first stop
+Observed activation: URL fragment changed to #main
+Observed focus endpoint: active element did not become the main landmark
+Observed scroll endpoint: remained at the top in both recorded viewports
+RESULT: FAIL
+First blocking observation: fragment navigation occurred without the expected
+focus transfer in this Chromium condition.
+Limits: this does not establish behavior in a visible browser, another browser,
+or assistive technology.
+Recheck trigger: change the skip-target focus contract, then repeat the exact
+path before any broader claim.
+
+TASK PATH A2
+Promised task: traverse the remaining declared article links in coherent order
+Start: fresh navigation at the top of the page
+Goal: reach all seven declared stops forward and retrace the first six in reverse
+Forward observation: seven stops appeared in the declared order
+Reverse observation: six Shift+Tab inputs retraced the first six stops
+Computed indicator: every focused anchor reported a 3px solid outline
+Rendered visibility observation: not performed
+RESULT: BLOCKED for a visible-focus conclusion
+First blocking observation: the fourth through seventh active elements were not
+scrolled into the viewport before the scripted observation completed. A
+computed outline cannot establish that a reader could see an unobscured focus
+indicator.
+Limits: order and computed-style observations only; no claim about human
+perception, clipping in a visible browser, or site-wide keyboard behavior.
+Recheck trigger: repair viewport continuity and repeat with rendered inspection.
+
+======================================================================
+CONDITION B — REPAIRED LOCAL CANDIDATE
+======================================================================
+
+Candidate identity at evidence packaging time:
+- article SHA-256: 6a2f1db254e57af6a6fb42699b77caf28228c684307de83b19fa119b5c77d524
+- stylesheet SHA-256: cc6c92619542571111054719ebabf176a7b8ee8396c2ec00b81abddb0bfc623d
+Browser: headless Chromium 151
+Viewports: 1280 x 800 CSS px and 390 x 844 CSS px
+Input after fresh navigation: scripted keyboard only
+Focused repair:
+- the main landmark became a programmatic focus target without joining the
+  ordinary Tab order;
+- linked figures became block focus surfaces whose images stay within the
+  article width; and
+- global smooth scrolling was removed so rapid traversal would not leave the
+  viewport behind the active element.
+Excluded: the same modes excluded from Condition A, including manual rendered
+inspection. The repaired files were local when this result was recorded.
+
+TASK PATH B1
+Promised task: bypass repeated navigation and reach the main article
+Start: fresh navigation at the top of the repaired local candidate
+Goal: activate Skip to content and transfer focus to the main landmark
+Forward input: Tab, then Enter
+Observed activation: URL fragment changed to #main
+Observed focus endpoint: activeElement became MAIN#main at both viewports
+RESULT: PASS in this recorded automated Chromium condition
+Limits: this closes only the scripted focus-transfer regression lane. It does
+not establish the behavior of the then-public pre-repair revision, visible-browser
+perception, other browsers, assistive technology, or user outcome.
+Recheck trigger: any change to the skip link, main landmark, focus management,
+page wrapper, or served destination.
+
+TASK PATH B2
+Promised task: traverse the remaining declared article links in coherent order
+Start: fresh navigation at the top of the repaired local candidate
+Goal: reach all seven declared stops forward and retrace the first six in reverse
+Forward observation: seven stops appeared in the declared order
+Reverse observation: six Shift+Tab inputs retraced the first six stops
+Viewport observation: every final focused-control rectangle was fully inside
+both recorded viewports
+Computed indicator: every stop reported a 3px solid outline
+RESULT: PASS for automated order, viewport-containment, and computed-style lanes
+Limits: this does not prove human perception of focus, zoom or text-reflow
+behavior, another browser, assistive-technology support, or site-wide access.
+Recheck trigger: any change to link order, figure layout, focus style, scrolling,
+overflow, responsive layout, article links, or served destination.
+
+======================================================================
+SCOPED CONSISTENCY SUMMARY
+======================================================================
+
+Condition A:
+- failed paths: bypass repeated navigation
+- blocked paths: visible-focus conclusion for remaining links
+- observed but not upgraded: forward order, reverse order, computed outline
+
+Condition B:
+- passed automated regression lanes: skip-target focus transfer; forward order;
+  reverse order; final viewport containment; computed outline
+- not tested: manual visible-browser perception and every excluded mode
+
+What changed in the evidence:
+A flattering statement such as “seven links were reachable” became two explicit
+results. The first condition preserved one failed task and one blocked evidence
+lane. The repaired condition then closed only the corresponding automated
+regressions while leaving the manual and broader accessibility questions open.
+
+NEXT REQUIRED REVIEW
+Repeat the same path manually in a declared visible-browser condition at both
+viewports. Record exact browser and operating-system versions, zoom, sequential-
+focus settings, every stop's visible indicator, clipping and overlap, activation,
+forward and reverse order, and a privacy-safe evidence reference. Do not copy the
+automated PASS labels into that manual lane; decide each path from fresh evidence.

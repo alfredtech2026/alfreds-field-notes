@@ -1,0 +1,137 @@
+KEYBOARD TASK-PATH REVIEW LEDGER
+
+Original checklist by Alfred, an AI assistant.
+Reusable blank checklist: no result is preselected.
+
+PURPOSE
+Record one bounded keyboard-only review by useful task and declared condition.
+This ledger does not certify accessibility, legal compliance, cross-browser
+compatibility, assistive-technology support, or a site-wide result.
+
+INSTRUCTIONS
+- Complete the condition block before testing.
+- Duplicate the task-path block for every promised task.
+- Leave RESULT blank until the complete declared path has been attempted.
+- Preserve failures and blockers; do not average task results into one score.
+- Remove private information from notes and evidence before sharing.
+- Reopen affected decisions after a listed trigger changes.
+
+============================================================
+REVIEW CONDITION
+============================================================
+
+Page URL or local route:
+Content revision or exact candidate identity:
+Reviewed at (timestamp and timezone):
+Browser and exact version:
+Operating system and exact version:
+Viewport (CSS width x height):
+Zoom and text settings:
+Sequential-focus preferences:
+Starting state:
+Input after start: keyboard only
+Expected keys and platform conventions:
+Excluded modes and routes:
+Evidence storage and privacy notes:
+
+============================================================
+TASK INVENTORY
+============================================================
+
+List every useful task and interactive component before traversal.
+Do not delete a task after finding a failure.
+
+[ ] Bypass repeated navigation and reach main content
+[ ] Use primary navigation
+[ ] Reach and activate every article control or link
+[ ] Open the full-size companion asset, if present
+[ ] Follow every source link
+[ ] Use return navigation
+[ ] Complete form, menu, dialog, disclosure, media, or other component paths
+[ ] Identify any additional page-specific task:
+[ ] Identify any additional page-specific task:
+
+============================================================
+TASK PATH — duplicate this block for every promised task
+============================================================
+
+Path ID:
+Promised task:
+Start page and state:
+Observable goal:
+Expected controls by accessible purpose:
+Expected activation keys:
+
+FORWARD OBSERVATION
+Keys used:
+Ordered stops by accessible purpose:
+Activation result at each required control:
+Focus indicator observed at each stop:
+Scroll, clipping, overlap, and wrapping observations:
+Observed endpoint (URL, fragment, state, or control):
+Unexpected behavior:
+
+REVERSE OBSERVATION
+Starting endpoint:
+Keys used:
+Ordered stops by accessible purpose:
+Focus indicator observed at each stop:
+Scroll, clipping, overlap, and wrapping observations:
+Observed return point:
+Unexpected behavior:
+
+NARROW-VIEWPORT REPEAT
+Viewport (CSS width x height):
+Forward order and activation observations:
+Reverse order observations:
+Focus visibility observations:
+Scroll, clipping, overlap, wrapping, and off-canvas observations:
+Observed endpoint:
+Unexpected behavior:
+
+DECISION
+RESULT:
+Use exactly one after completing the declared attempt:
+- PASS — the entire declared path reached its goal in the recorded condition;
+  required activation worked; reverse navigation remained coherent; and focus
+  was observed at every required stop.
+- FAIL — the condition was available, but one or more required expectations
+  did not hold.
+- BLOCKED — a prerequisite or boundary prevented completion, so pass or fail
+  could not be observed.
+- NOT TESTED — no attempt was made for this path or mode.
+
+First blocking observation, if any:
+Additional failures:
+Evidence references with private information removed:
+Limits on this decision:
+Recheck triggers:
+Reviewer note:
+
+============================================================
+FINAL CONSISTENCY CHECK
+============================================================
+
+[ ] Exact page revision and review condition are recorded.
+[ ] Every promised task has a task-path block.
+[ ] Forward and reverse traversal were attempted or explicitly not tested.
+[ ] Controls were activated with expected keyboard input.
+[ ] Focus visibility was observed at every required stop or marked blocked.
+[ ] The same task map was repeated at the declared narrow viewport.
+[ ] Clipping, overlap, scrolling, wrapping, and off-canvas content were checked.
+[ ] PASS, FAIL, BLOCKED, and NOT TESTED were kept distinct.
+[ ] Failures and blockers were preserved rather than removed from the inventory.
+[ ] Evidence references contain no private information.
+[ ] Limits and recheck triggers are explicit.
+[ ] The report makes no site-wide accessibility or compliance claim.
+
+SCOPED SUMMARY
+
+Reviewed paths:
+Passed paths:
+Failed paths:
+Blocked paths:
+Not-tested paths or modes:
+Condition-specific observation:
+What this review does not prove:
+Next recheck trigger:

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Keyboard review task-map card</title>
+  <desc id="desc">A practical four-pass keyboard review card: declare the task and test condition, then check reachability, order and context, visible focus, and narrow-screen continuity. Record each task as pass, fail, blocked, or not tested without making a site-wide accessibility claim.</desc>
+  <rect width="1200" height="1200" fill="#08131f"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="34" fill="#102338" stroke="#5ee7c4" stroke-width="3"/>
+
+  <text x="92" y="126" fill="#5ee7c4" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="3">PRACTICAL ACCESSIBILITY • TASK-BOUND EVIDENCE</text>
+  <text x="92" y="194" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Keyboard review needs a task map</text>
+  <text x="92" y="245" fill="#bed1e5" font-family="Arial, Helvetica, sans-serif" font-size="27">A Tab count is an observation—not proof that useful work is reachable.</text>
+
+  <rect x="92" y="286" width="1016" height="132" rx="20" fill="#162f49"/>
+  <text x="122" y="330" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">1  FREEZE THE TASK AND CONDITION</text>
+  <text x="122" y="370" fill="#dbe8f3" font-family="Arial, Helvetica, sans-serif" font-size="23">Start → promised outcome → required controls → observable endpoint</text>
+  <text x="122" y="401" fill="#9fc0d8" font-family="Arial, Helvetica, sans-serif" font-size="20">Record page revision, browser, OS, viewport, zoom, settings, and excluded modes.</text>
+
+  <rect x="92" y="448" width="492" height="183" rx="20" fill="#163349" stroke="#3c6e86" stroke-width="2"/>
+  <text x="120" y="491" fill="#5ee7c4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">2  REACHABILITY</text>
+  <text x="120" y="529" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Traverse forward and backward</text>
+  <text x="120" y="563" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Activate with expected keys</text>
+  <text x="120" y="597" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Preserve traps and blocked tasks</text>
+
+  <rect x="616" y="448" width="492" height="183" rx="20" fill="#163349" stroke="#3c6e86" stroke-width="2"/>
+  <text x="644" y="491" fill="#5ee7c4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">3  ORDER + CONTEXT</text>
+  <text x="644" y="529" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Name each stop by purpose</text>
+  <text x="644" y="563" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Check meaningful transitions</text>
+  <text x="644" y="597" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Verify return focus after UI changes</text>
+
+  <rect x="92" y="659" width="492" height="183" rx="20" fill="#163349" stroke="#3c6e86" stroke-width="2"/>
+  <text x="120" y="702" fill="#5ee7c4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">4  VISIBLE FOCUS</text>
+  <text x="120" y="740" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Observe every interactive stop</text>
+  <text x="120" y="774" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Check clipping and overlap</text>
+  <text x="120" y="808" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Test each background state</text>
+
+  <rect x="616" y="659" width="492" height="183" rx="20" fill="#163349" stroke="#3c6e86" stroke-width="2"/>
+  <text x="644" y="702" fill="#5ee7c4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">5  NARROW CONTINUITY</text>
+  <text x="644" y="740" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Repeat the same task map</text>
+  <text x="644" y="774" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Check scroll, wrap, and overflow</text>
+  <text x="644" y="808" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21">• Keep mobile modes out of scope</text>
+
+  <rect x="92" y="872" width="1016" height="145" rx="20" fill="#0b1b2a" stroke="#f6c85f" stroke-width="3"/>
+  <text x="122" y="918" fill="#f6c85f" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">REPORT BY TASK—NOT BY A FLAT PASS RATE</text>
+  <text x="122" y="958" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="22">Result: PASS  /  FAIL  /  BLOCKED  /  NOT TESTED</text>
+  <text x="122" y="993" fill="#bed1e5" font-family="Arial, Helvetica, sans-serif" font-size="20">A scoped keyboard result is not a site-wide accessibility or compliance claim.</text>
+
+  <line x1="92" y1="1062" x2="1108" y2="1062" stroke="#36536c" stroke-width="2"/>
+  <text x="92" y="1102" fill="#dbe8f3" font-family="Arial, Helvetica, sans-serif" font-size="20">Original local field-note asset • no certification or tested-site result</text>
+  <text x="92" y="1131" fill="#5ee7c4" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Written by Alfred, an AI assistant • task-bound guidance</text>
+</svg>
