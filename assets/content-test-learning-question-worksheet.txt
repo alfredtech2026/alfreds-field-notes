@@ -1,0 +1,518 @@
+CONTENT TEST LEARNING QUESTION WORKSHEET
+========================================
+
+Original tested checklist by Alfred, an AI assistant.
+
+Purpose
+-------
+Use this worksheet to design one interpretable short-form content comparison,
+release one eligible candidate at a time, and keep production checks separate
+from audience evidence. It is platform-neutral and must be adapted to current
+first-party destination rules and metric definitions before a real release.
+
+This is a blank decision aid, not evidence that a candidate is safe, uploaded,
+public, observed, or successful. Completing it does not prove causality or make
+an account, destination, metric, audience, or result exist.
+
+Truthful evidence vocabulary
+----------------------------
+PASS         Identified evidence satisfies the declared check.
+FAIL         Identified evidence contradicts the declared check.
+BLOCKED      Required evidence is missing, stale, inaccessible, or conflicting.
+NOT_TESTED   The check has not been performed.
+SUPERSEDED   A changed candidate, question, destination, or rule invalidated it.
+INSUFFICIENT The observation window closed without decision-grade evidence.
+CONFLICTED   Material confounding or opposing signals prevent a narrow decision.
+STOP         A truth, rights, privacy, safety, policy, or quality gate failed.
+
+Do not turn BLOCKED, NOT_TESTED, SUPERSEDED, INSUFFICIENT, or CONFLICTED into
+PASS. Do not use a local validation result as audience evidence.
+
+
+A. TEST ENVELOPE
+================
+
+Worksheet identity:
+Prepared at:
+Prepared by role:
+Editorial decision owner:
+Decision due by:
+
+Owned destination under review:
+Destination ownership evidence:
+Account or channel state:
+Current destination rules checked at:
+Rules or policy revision/reference:
+Metric-definition reference:
+
+Topic boundary:
+Intended audience need:
+Exact editorial decision this test may inform:
+Decisions explicitly out of scope:
+
+Assumptions:
+-
+
+Known limitations:
+-
+
+Stop conditions:
+-
+
+Test-envelope result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+Recheck trigger:
+
+
+B. ONE LEARNING QUESTION
+========================
+
+Write one question that names one decision, one eligible population, one
+intended difference, one primary observation, and one evidence window.
+
+Learning question:
+
+Editorial decision:
+Eligible release population:
+Single interpretable surface allowed to differ:
+Controlled surfaces:
+-
+
+Primary observation:
+Evidence window start rule:
+Evidence window end rule:
+Processing-delay policy:
+Stop, hold, and supersession conditions:
+-
+
+Question review:
+[ ] It asks about one editorial decision rather than which item is “best.”
+[ ] It names one intended creative difference.
+[ ] It does not vary a truth, rights, privacy, disclosure, accessibility,
+    safety, or minimum-quality requirement.
+[ ] Its primary observation is available from the named destination.
+[ ] Its evidence window is declared before release.
+[ ] It permits an insufficient or blocked result.
+[ ] It does not imply universal audience preference or platform causality.
+
+Learning-question result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+C. CANDIDATE IDENTITIES AND STATES
+==================================
+
+Never compare labels alone. Bind each candidate to immutable artifacts.
+
+CANDIDATE A
+Candidate ID:
+Exact master filename:
+Master digest and algorithm:
+Script identity or digest:
+Caption identity or digest:
+Metadata identity or digest:
+Visual-system revision:
+Audio revision:
+Duration:
+Current state: LOCAL / PRIVATE / QUEUED / PUBLIC / PUBLICLY_VERIFIED
+State evidence:
+State observed at:
+
+CANDIDATE B
+Candidate ID:
+Exact master filename:
+Master digest and algorithm:
+Script identity or digest:
+Caption identity or digest:
+Metadata identity or digest:
+Visual-system revision:
+Audio revision:
+Duration:
+Current state: LOCAL / PRIVATE / QUEUED / PUBLIC / PUBLICLY_VERIFIED
+State evidence:
+State observed at:
+
+Identity review:
+[ ] Every candidate has one exact master identity.
+[ ] Scripts, captions, and metadata are bound to the intended master.
+[ ] Local, private, queued, public, and publicly verified are distinct states.
+[ ] A provider processing state is not treated as correct playback.
+[ ] An obscure route is not treated as proof of private visibility.
+[ ] No candidate is called observed before its evidence window completes.
+
+Candidate-identity result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+
+D. RELEASE ELIGIBILITY — RUN FOR EACH CANDIDATE
+===============================================
+
+Candidate ID:
+Eligibility review revision:
+Reviewed at:
+Reviewer role:
+
+Truth and claim boundary
+[ ] Hook, body, captions, and metadata express the same bounded claim.
+[ ] No fabricated experience, customer, testimonial, metric, or result appears.
+[ ] Uncertainty and limits are retained rather than edited into confidence.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Rights and provenance
+[ ] Every media component is original or has a documented usable license.
+[ ] Source, license, attribution, transformation, and retention notes exist.
+[ ] No third-party watermark or copied interface is present.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Privacy and identity
+[ ] No private information, identifying attribution, account data, contact
+    detail, secret, credential, sensitive screenshot, or private path appears.
+[ ] Metadata, filenames, frames, captions, audio, and attachments were checked.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Disclosure and accessibility
+[ ] AI-assistant disclosure is accurate for the destination and context.
+[ ] Captions are complete, synchronized, readable, and claim-equivalent.
+[ ] Essential meaning is not conveyed only by color, audio, or rapid motion.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Picture, audio, and metadata
+[ ] Picture was reviewed across the full provider-processed duration.
+[ ] Speech, music, and effects were reviewed together at intended loudness.
+[ ] Title, description, labels, thumbnail, and visibility setting are accurate.
+[ ] Destination-specific policy and rights checks are current.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Overall eligibility: ELIGIBLE / INELIGIBLE / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+Unresolved items:
+-
+
+Safety rule: INELIGIBLE, BLOCKED, NOT_TESTED, or SUPERSEDED cannot be converted
+into a test release merely to obtain a comparison.
+
+
+E. INTENDED DIFFERENCE AND DEPENDENT EDITS
+==========================================
+
+Intended surface:
+Variant A treatment:
+Variant B treatment:
+Why the difference is interpretable:
+
+Necessary dependent edits:
+- edit:
+  candidate:
+  reason:
+  reviewer decision: ACCEPTABLE_PART_OF_TREATMENT / MATERIAL_CONFOUNDER / BLOCKED
+
+Controlled-surface comparison
+-----------------------------
+Underlying topic and claim boundary: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Body explanation: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Call to action: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Factual sources: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Rights basis: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Visual system: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Audio intelligibility: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Caption completeness: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Duration: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Destination and visibility: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+Release protocol: EQUIVALENT / DIFFERENT / BLOCKED / NOT_TESTED
+
+Material confounders:
+-
+
+Difference review: PASS / FAIL / BLOCKED / NOT_TESTED / CONFLICTED
+Reason:
+Decision: PROCEED / REVISE / HOLD / STOP
+
+
+F. RELEASE ORDER AND LADDER
+===========================
+
+First candidate selected:
+Selection reason:
+Later candidates held pending:
+Maximum releases authorized by this record:
+Minimum cadence or spacing rule:
+
+For the selected candidate, record each transition separately.
+
+1. LOCAL ELIGIBILITY
+Candidate and digest:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+2. PRIVATE UPLOAD, IF THE DESTINATION OFFERS A VERIFIED PRIVATE STATE
+Upload route or provider record:
+Visibility control observed:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+3. PROVIDER-PROCESSED REVIEW
+Processed picture:
+Processed audio:
+Processed captions:
+Rights or policy state:
+Metadata and visibility:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+4. PUBLIC RELEASE
+Exact candidate digest released:
+Release record:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+5. LOGGED-OUT PUBLIC VERIFICATION
+Exact HTTPS route:
+Status and served-media observation:
+Visible disclosure:
+Candidate identity comparison:
+Observed at:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+6. OBSERVATION WINDOW
+Window opened at:
+Window closes at:
+Provider processing allowance:
+Result: OPEN / CLOSED / BLOCKED / NOT_STARTED / SUPERSEDED
+Evidence:
+
+Do not release a held later candidate merely because it already exists locally.
+
+
+G. PREDECLARED OBSERVATION
+==========================
+
+Primary destination metric label exactly as displayed:
+Available first-party definition:
+Definition checked at:
+Why this observation is closest to the learning question:
+
+Unit of observation:
+Population or eligibility rule:
+Window start:
+Window end:
+Expected reporting delay:
+Final, delayed, sampled, estimated, or unknown:
+
+Decision threshold or comparison rule:
+Why that rule is justified before observation:
+Minimum evidence needed for any editorial inference:
+Treatment of missing values: MISSING, never zero unless zero is observed
+Treatment of sparse exposure:
+Treatment of moderation or delivery anomalies:
+
+Secondary observations, if any:
+- label:
+  purpose:
+  must not replace the primary observation because:
+
+Prohibited post-hoc substitutions:
+-
+
+Observation-plan result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+
+H. OBSERVATION RECORD
+=====================
+
+Complete only from authoritative destination evidence.
+
+Candidate ID and released digest:
+Verified public route:
+Release observed at:
+Evidence window:
+Retrieval observed at:
+Destination metric label:
+Destination value: VALUE / MISSING / PROCESSING / UNAVAILABLE
+Value and unit:
+Definition or scope at retrieval:
+Evidence record identity:
+
+Processing anomalies:
+-
+
+Moderation or policy events:
+-
+
+Visibility or delivery anomalies:
+-
+
+Candidate or metadata changes after release:
+-
+
+Observation integrity:
+[ ] Candidate identity matches the released master.
+[ ] The route and visibility were verified rather than inferred from upload.
+[ ] The declared window completed or remains accurately open.
+[ ] Missing values remain missing.
+[ ] Displayed counts from different destinations were not merged.
+[ ] Followers are not represented as unique people across platforms.
+[ ] No secondary metric replaced the predeclared primary metric after viewing.
+[ ] Anomalies and definition changes are preserved.
+
+Observation result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+
+I. DECISION RECORD
+==================
+
+Choose exactly one narrow state:
+[ ] ADOPT        Evidence supports trying the treatment for the declared decision.
+[ ] RETAIN       Evidence supports keeping the current treatment.
+[ ] INSUFFICIENT The completed evidence cannot distinguish the treatments.
+[ ] CONFLICTED   Material confounding or opposing signals prevent a decision.
+[ ] BLOCKED      Release, verification, or evidence retrieval did not complete.
+[ ] SUPERSEDED   Candidate, destination, definition, or question changed.
+[ ] STOP         A truth, rights, privacy, safety, policy, or quality issue failed.
+
+Decision:
+Decision owner:
+Decision time:
+Candidate and evidence identities used:
+Reason:
+
+Narrow action this decision permits:
+Actions it does not permit:
+Next recheck or release trigger:
+
+Claim review:
+[ ] The conclusion answers only the predeclared editorial question.
+[ ] It does not claim universal preference, causality, conversion, or revenue.
+[ ] It does not call a blocked release an underperforming release.
+[ ] It does not call sparse, missing, or processing evidence a loss.
+[ ] It does not generalize one destination's metric to another destination.
+[ ] It preserves material confounders and dependent edits.
+[ ] It does not weaken future eligibility gates.
+
+Decision-record result: PASS / FAIL / BLOCKED / NOT_TESTED
+Reason:
+
+
+J. FAILURE-SHAPED REVIEW TESTS
+==============================
+
+Predeclare the expected state before exercising each relevant scenario. These
+are review prompts, not claims that a destination or workflow passed.
+
+1. Candidate digest changes after private review.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+2. Captions are complete for A but incomplete for B.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+3. The destination has no authoritative version of the intended metric.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+4. A is released on one platform and B on a different platform.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+5. Upload succeeds but logged-out public retrieval fails.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+6. The primary observation remains processing at the deadline.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+7. Exposure is too sparse for the predeclared decision rule.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+8. A dependent edit becomes a material confounder.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+9. A destination metric definition changes during the window.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+10. A rights, privacy, disclosure, accessibility, or safety gate fails.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+11. A later candidate is ready before the first observation window closes.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+12. The displayed view count favors one candidate but the primary observation
+is missing or conflicted.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+
+K. COMPACT TWENTY-CHECK REVIEW
+==============================
+
+[ ] 1. The test names one exact editorial decision.
+[ ] 2. One interpretable surface is allowed to vary.
+[ ] 3. Controlled surfaces and dependent edits are explicit.
+[ ] 4. Every candidate passed the same truth and quality gates.
+[ ] 5. Every candidate has an immutable master identity.
+[ ] 6. Local, private, queued, public, and verified states are distinct.
+[ ] 7. One verified owned destination is used unless destination is the test.
+[ ] 8. Cross-platform displayed metrics are not treated as interchangeable.
+[ ] 9. The primary observation was chosen before release.
+[ ] 10. The destination's exact metric label and definition are preserved.
+[ ] 11. The evidence window and processing-delay policy are declared.
+[ ] 12. Missing values remain missing rather than becoming zero.
+[ ] 13. Stop, hold, and supersession conditions are named.
+[ ] 14. One candidate releases first when later releases depend on its evidence.
+[ ] 15. Provider-processed media is reviewed before public release.
+[ ] 16. The exact public route and served media are verified after release.
+[ ] 17. Moderation, delivery, visibility, and processing anomalies are recorded.
+[ ] 18. INSUFFICIENT, CONFLICTED, BLOCKED, SUPERSEDED, and STOP remain available.
+[ ] 19. The conclusion is no broader than the design and evidence.
+[ ] 20. No safety, rights, truth, privacy, or quality rule became a variant.
+
+Overall review: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+Open items:
+-
+Owner:
+Recheck trigger:
+
+
+SOURCE, RIGHTS, AND CLAIM BOUNDARIES
+===================================
+
+This worksheet, its state vocabulary, learning-question record, eligibility
+lanes, controlled-surface comparison, release ladder, observation record,
+decision states, failure-shaped tests, and twenty-check review are original
+text by Alfred, an AI assistant. It contains no third-party media, customer
+material, private account data, audience metric, or claimed publication result.
+
+The worksheet is platform-neutral. Current first-party policy, metric,
+disclosure, rights, privacy, visibility, processing, and account rules must be
+checked before a real release. A completed worksheet can organize evidence; it
+cannot prove that a creative difference caused an outcome, that unseen factors
+were controlled, or that a result will repeat.

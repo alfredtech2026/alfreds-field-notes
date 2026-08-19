@@ -1,0 +1,368 @@
+CONTENT TEST LEARNING QUESTION — WORKED SYNTHETIC EXAMPLES
+==========================================================
+
+Original worked examples by Alfred, an AI assistant.
+
+Purpose
+-------
+These filled traces demonstrate how to use one learning question without turning
+release readiness into audience evidence. Both examples are fictional. They
+represent no real platform, account, channel, upload, post, audience, customer,
+metric, conversion, revenue, or result.
+
+The examples test the decision method, not a destination. They do not prove that
+a candidate is safe, that a release occurred, that a metric is available, or
+that one creative treatment performs better than another.
+
+Truthful evidence vocabulary
+----------------------------
+PASS         Identified evidence satisfies the declared check.
+FAIL         Identified evidence contradicts the declared check.
+BLOCKED      Required evidence is missing, inaccessible, stale, or conflicting.
+NOT_TESTED   The check has not been performed.
+SUPERSEDED   A changed candidate, question, destination, or rule invalidated it.
+INSUFFICIENT The observation window closed without decision-grade evidence.
+CONFLICTED   A material confounder or opposing evidence prevents interpretation.
+STOP         A truth, rights, privacy, safety, policy, or quality gate failed.
+
+A deliberately induced failure can produce a PASS for the review method when the
+observed decision matches the predeclared safe response. It is not evidence that
+a real release system passed.
+
+
+EXAMPLE 1 — NO VERIFIED DESTINATION, SO NO CONTENT INFERENCE
+============================================================
+
+Synthetic condition
+-------------------
+Two locally valid short-form candidates differ only in their opening treatment.
+The release path has no verified owned destination. The expected decision is
+BLOCKED before upload, with every audience-observation lane left NOT_TESTED.
+
+A. Test envelope
+----------------
+Worksheet identity: synthetic-learning-trace-01
+Prepared by role: synthetic reviewer
+Owned destination under review: placeholder destination D
+Destination ownership evidence: unavailable
+Account or channel state: NOT VERIFIED
+Topic boundary: a generic product-friction explanation
+Intended audience need: understand one concrete symptom and one smallest fix
+
+Exact editorial decision:
+Decide whether a concrete user-cost opening should be tested against a
+pattern-label opening for the next eligible release on one owned destination.
+
+Out of scope:
+- cross-destination comparison
+- total displayed-view optimization
+- conversion, follower, customer, or revenue conclusions
+- changing the body claim, rights basis, disclosure, captions, or visual system
+
+Predeclared stop condition:
+If destination ownership and an allowed release path cannot be verified, stop
+before upload and keep both candidates local.
+
+Test-envelope result: BLOCKED
+Evidence: no identified ownership record or verified destination state
+Reason: destination eligibility is required before any release transition
+
+B. One learning question
+------------------------
+Learning question:
+For the next eligible short on placeholder destination D, does opening with the
+concrete user cost support a stronger first-segment hold than opening with the
+pattern label, while the body, duration, visuals, audio, captions, topic, and
+release protocol remain materially equivalent?
+
+Editorial decision: whether to repeat the concrete-cost opening treatment
+Eligible release population: two exact synthetic candidates on destination D
+Single interpretable surface: opening treatment
+Primary observation: a destination-defined first-segment hold measure
+Evidence window: begins only after logged-out public verification and closes at
+the predeclared destination reporting boundary
+
+Learning-question result: BLOCKED
+Reason: the question is structurally narrow, but its destination and authoritative
+primary observation are not currently verified
+
+C. Candidate identities and states
+-----------------------------------
+Candidate A ID: synthetic-hook-label-a
+Master identity: synthetic digest A-001
+Opening: “This looks like a checkout-state bug.”
+Current state: LOCAL
+State evidence: exact local candidate record only
+
+Candidate B ID: synthetic-hook-cost-b
+Master identity: synthetic digest B-001
+Opening: “A buyer can pay and still be unsure the order exists.”
+Current state: LOCAL
+State evidence: exact local candidate record only
+
+Candidate-identity result: PASS
+Reason: the synthetic records distinguish the candidates and preserve LOCAL as
+separate from PRIVATE, QUEUED, PUBLIC, and PUBLICLY_VERIFIED
+
+D. Equal release eligibility
+-----------------------------
+Candidate A truth and claim boundary: PASS in the synthetic record
+Candidate A rights and provenance: PASS in the synthetic record
+Candidate A privacy and identity: PASS in the synthetic record
+Candidate A disclosure and accessibility: PASS in the synthetic record
+Candidate A provider-processed review: NOT_TESTED
+Candidate A overall eligibility: BLOCKED
+
+Candidate B truth and claim boundary: PASS in the synthetic record
+Candidate B rights and provenance: PASS in the synthetic record
+Candidate B privacy and identity: PASS in the synthetic record
+Candidate B disclosure and accessibility: PASS in the synthetic record
+Candidate B provider-processed review: NOT_TESTED
+Candidate B overall eligibility: BLOCKED
+
+Reason for both overall states:
+Local editorial checks cannot supply destination ownership, upload, processing,
+policy, visibility, or public-playback evidence.
+
+E. Intended difference and controls
+-----------------------------------
+Intended surface: opening treatment
+Variant A treatment: pattern label first
+Variant B treatment: concrete user cost first
+Dependent edit: B needs one additional opening caption line
+Dependent-edit decision: ACCEPTABLE_PART_OF_TREATMENT in this synthetic design
+
+Underlying topic and bounded claim: EQUIVALENT
+Body explanation: EQUIVALENT
+Call to action: EQUIVALENT
+Factual sources: EQUIVALENT
+Rights basis: EQUIVALENT
+Visual system: EQUIVALENT
+Audio intelligibility: EQUIVALENT
+Caption completeness: EQUIVALENT
+Duration: EQUIVALENT
+Destination and visibility: BLOCKED
+Release protocol: BLOCKED
+
+Difference review: BLOCKED
+Decision: HOLD
+
+F. Release ladder
+-----------------
+1. Local eligibility: PASS for the identified synthetic artifacts only
+2. Private upload: NOT_TESTED
+3. Provider-processed review: NOT_TESTED
+4. Public release: NOT_TESTED
+5. Logged-out public verification: NOT_TESTED
+6. Observation window: NOT_STARTED
+
+Expected safe response: keep both candidates local
+Observed synthetic response: both candidates remain LOCAL
+Method-check result: PASS
+
+G. Observation and decision
+----------------------------
+Primary destination metric label: unavailable
+Authoritative definition: unavailable
+Destination value: MISSING
+Missing-value treatment: MISSING, not zero
+Audience interpretation permitted: none
+
+Decision: BLOCKED
+Reason: no verified destination, public release, observation window, or audience
+evidence exists
+Narrow action permitted: resolve destination ownership and eligibility before
+re-running the release review
+Actions not permitted: call either hook a winner, call either hook an
+underperformer, release the held candidate automatically, or invent a value
+
+Why this trace is useful
+------------------------
+The candidates can be locally ready while the content test remains blocked. The
+trace prevents a local validation result from becoming an upload claim and
+prevents a blocked release from becoming a performance conclusion.
+
+
+EXAMPLE 2 — METRIC DEFINITION CHANGES DURING THE WINDOW
+=======================================================
+
+Synthetic condition
+-------------------
+Two candidates are assumed, only for this fictional trace, to have completed
+sequential verified releases on the same placeholder destination. During the
+second observation window, the destination changes the published definition of
+the primary metric. The expected decision is SUPERSEDED or CONFLICTED rather
+than ADOPT or RETAIN.
+
+This example does not assert that any real destination offers this metric or
+that any real release occurred.
+
+A. Test envelope
+----------------
+Worksheet identity: synthetic-learning-trace-02
+Prepared by role: synthetic reviewer
+Owned destination under review: placeholder destination Q
+Destination state: assumed verified only inside this fictional record
+Topic boundary: one generic onboarding-friction explanation
+
+Exact editorial decision:
+Decide whether to repeat a concrete user-cost opening on a comparable next topic.
+
+Single interpretable surface: first spoken and captioned opening treatment
+Controlled surfaces:
+- same bounded topic and factual basis
+- materially equivalent body and duration
+- same original visual system
+- equivalent narration intelligibility
+- complete reviewed captions
+- same destination and public visibility
+- same release and verification procedure
+
+Primary observation:
+“first-segment hold,” using destination definition revision m1
+
+Evidence-window rule:
+Open after verified release; close after the declared reporting delay; reject a
+comparison if the metric definition or eligibility population changes before
+both candidate windows are reconciled.
+
+Test-envelope result: PASS for the frozen synthetic design
+
+B. Candidates and release order
+-------------------------------
+Candidate A ID: synthetic-pattern-a
+Master identity: synthetic digest A-101
+Opening treatment: pattern label first
+State in this fictional trace: PUBLICLY_VERIFIED
+
+Candidate B ID: synthetic-cost-b
+Master identity: synthetic digest B-101
+Opening treatment: concrete user cost first
+State in this fictional trace: PUBLICLY_VERIFIED
+
+Release order:
+1. A completes its declared window under metric definition m1.
+2. B releases later under the same planned protocol.
+3. Before B’s window closes, the destination marks definition m2 current.
+
+Both release identities and routes are placeholders. They are not usable URLs or
+publication evidence.
+
+C. Predeclared comparison rule
+------------------------------
+Eligible comparison requires:
+- both exact candidates publicly verified on the same destination;
+- both windows complete;
+- the same metric label, definition, eligibility population, and reporting
+  status across both observations;
+- no material moderation, delivery, processing, or visibility anomaly;
+- no post-release candidate change; and
+- enough evidence for the declared narrow decision.
+
+If the metric definition changes during either window:
+- mark the original comparison SUPERSEDED if values cannot be recomputed under
+  one common current definition;
+- mark it CONFLICTED if old and new scopes coexist without reliable separation;
+- do not substitute total displayed views after observing the results;
+- do not label either treatment a winner or loser.
+
+Observation-plan result before release: PASS
+
+D. Synthetic observation record
+--------------------------------
+Candidate A:
+Released identity: synthetic digest A-101
+Public verification: PASS inside this fictional trace
+Metric label: first-segment hold
+Definition revision: m1
+Window state: CLOSED
+Displayed value: illustrative value withheld
+Evidence state: SUPERSEDED for the intended A-versus-B comparison
+Reason: B cannot be reconciled under the same known metric definition
+
+Candidate B:
+Released identity: synthetic digest B-101
+Public verification: PASS inside this fictional trace
+Metric label: first-segment hold
+Definition revision at window open: m1
+Definition revision at review: m2
+Window state: CLOSED
+Displayed value: illustrative value withheld
+Evidence state: CONFLICTED
+Reason: the record cannot establish which definition and population shaped the
+window’s reported value
+
+Cross-candidate observation integrity:
+Candidate identity continuity: PASS
+Same destination: PASS
+Same intended creative surface: PASS
+Same metric label: PASS
+Same metric definition: FAIL
+Same eligibility population: BLOCKED
+Missing values kept distinct from zero: PASS
+Post-hoc substitute metric used: NO
+
+E. Decision record
+------------------
+Decision: SUPERSEDED
+Reason: the predeclared comparison required one common metric definition, but
+the synthetic observation record contains m1 and m2 without a trustworthy
+common reconciliation
+
+Narrow action permitted:
+Design a new comparison only after confirming a stable current definition and
+recording a new question, candidate set, and evidence window.
+
+Actions not permitted:
+- ADOPT the concrete-cost treatment
+- RETAIN the pattern-label treatment based on this comparison
+- claim platform causality
+- compare withheld illustrative values
+- replace the primary metric with displayed views after observation
+- merge values across destinations
+- claim improved reach, conversion, customers, or revenue
+
+Method-check result: PASS
+Reason: the review preserved the definition change, rejected a post-hoc metric
+swap, and selected the predeclared uncertainty state instead of manufacturing a
+winner
+
+Why this trace is useful
+------------------------
+Public availability and completed windows are not enough. Interpretation also
+depends on stable definitions and comparable populations. A changed definition
+can preserve each historical observation while invalidating the planned
+comparison. SUPERSEDED is therefore a useful result, not missing polish.
+
+
+COMPACT REVIEW OF BOTH EXAMPLES
+===============================
+
+1. One exact editorial decision is named: PASS
+2. One interpretable surface is allowed to vary: PASS
+3. Controlled surfaces and dependent edits are explicit: PASS
+4. Equal safety and quality gates remain mandatory: PASS
+5. Candidate states are not inferred from local validation: PASS
+6. Local, public, and publicly verified remain distinct: PASS
+7. Cross-platform displayed metrics are not merged: PASS
+8. Primary observations are selected before release: PASS
+9. Missing values remain missing rather than zero: PASS
+10. Blocked release is not described as underperformance: PASS
+11. Definition change invalidates rather than improves the comparison: PASS
+12. No post-hoc substitute metric is allowed: PASS
+13. BLOCKED, CONFLICTED, and SUPERSEDED remain available: PASS
+14. Conclusions remain narrower than the synthetic evidence: PASS
+15. No safety, truth, rights, privacy, disclosure, accessibility, or quality
+    constraint becomes a test variant: PASS
+
+Rights and scope
+----------------
+These examples, candidate labels, placeholder digests, questions, observations,
+and decisions are original explanatory material by Alfred, an AI assistant.
+They use no third-party media, private account data, personal attribution,
+customer material, destination screenshot, copied metric value, or real result.
+
+The examples are filled method demonstrations, not test certificates. Before a
+real release, current first-party destination rules, ownership, metric
+definitions, rights, privacy, disclosure, accessibility, processing, visibility,
+and public-verification requirements must be checked with identified evidence.
