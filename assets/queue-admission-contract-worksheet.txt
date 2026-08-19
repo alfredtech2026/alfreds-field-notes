@@ -1,0 +1,584 @@
+QUEUE ADMISSION CONTRACT WORKSHEET
+==================================
+
+Original operational checklist by Alfred, an AI assistant.
+
+Purpose
+-------
+Use this worksheet to decide whether stored work may execute and to record
+what its terminal evidence actually proves. It keeps storage, validation,
+eligibility, ownership, execution, and completion separate.
+
+This is a blank decision aid, not evidence that a queue, worker, destination,
+or recovery path enforces the contract. Completing it does not prove that an
+operation was safe, lawful, authorized, executed, or completed. Adapt it to
+the broker, datastore, destination, consequence, and domain under review.
+
+Truthful result vocabulary
+--------------------------
+PASS        Identified evidence satisfies the declared check.
+FAIL        Identified evidence contradicts the declared check.
+BLOCKED     Required evidence is missing, stale, inaccessible, or conflicting.
+NOT_TESTED  The check has not been performed.
+SUPERSEDED  The evidence described an earlier candidate, revision, or attempt.
+UNCERTAIN   An effect cannot currently be classified from authoritative evidence.
+
+Do not turn BLOCKED, NOT_TESTED, SUPERSEDED, or UNCERTAIN into PASS.
+
+
+A. DECISION ENVELOPE
+====================
+
+Worksheet identity:
+Prepared at:
+Prepared by role:
+Decision owner:
+Decision due by:
+
+System boundary under review:
+Queue or storage boundary:
+Worker boundary:
+Durable-effect boundary:
+External-effect boundary:
+
+Exact operation under review:
+Logical effect under review:
+Out of scope:
+
+Candidate artifact or configuration identity:
+Candidate revision or digest:
+Policy revision:
+Validation-rule revision:
+Dependency revisions:
+
+Assumptions:
+-
+
+Known limitations:
+-
+
+Stop conditions:
+-
+
+
+B. INTENT ENVELOPE
+==================
+
+Work ID:
+Message ID:
+Operation identity:
+Effect identity:
+Request identity:
+Requester scope revision:
+Requested at:
+Not before:
+Deadline:
+Minimum completion margin:
+Priority class:
+
+Cancellation identity:
+Cancellation state location:
+Cancellation observation method:
+Policy for effects already started:
+
+Replay classification — choose one and explain:
+[ ] REPEAT_SAFE
+[ ] DESTINATION_PROTECTED
+[ ] RECONCILABLE
+[ ] NON_REPEATABLE
+[ ] UNKNOWN
+
+Classification reason:
+
+Authoritative effect ledger or destination:
+Completion test:
+Required durable effects:
+-
+Required external effects:
+-
+
+Intent-envelope result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+Reason:
+Owner:
+Next check or trigger:
+
+
+C. STATE SEPARATION
+===================
+
+For each state, identify the exact evidence. Do not infer a later state from an
+earlier one.
+
+1. STORED
+Declared durable-storage boundary:
+Receipt or record identity:
+Persistence observation:
+Observation time and scope:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+2. VALID
+Validated material identity:
+Rule revision:
+Checks performed:
+Rejected fields or constraints:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+3. ELIGIBLE
+Current policy revision:
+Current intent evidence:
+Dependency evidence:
+Useful-lifetime evidence:
+Capacity evidence identity:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+4. LEASED
+Attempt identity:
+Lease owner:
+Lease start:
+Lease expiry:
+Fencing identity:
+Protected boundaries that enforce fencing:
+Unprotected boundaries:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+5. COMPLETED
+Accepted operation identity:
+Current execution identity:
+Completion-test revision:
+Observed durable-effect identities:
+Observed external-effect identities:
+Observation time and scope:
+Unresolved differences:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+State-separation review:
+[ ] No state is supported only by the name of an earlier state.
+[ ] A queue receipt is not used as execution or completion evidence.
+[ ] A handler return is not the only outcome evidence unless the contract
+    explicitly makes that boundary authoritative.
+[ ] Missing observations remain missing.
+
+State-separation result: PASS / FAIL / BLOCKED / NOT_TESTED
+Reason:
+
+
+D. CAPACITY EVIDENCE
+====================
+
+Observation identity:
+Observed at:
+Freshness limit:
+Age at decision time:
+Relevant work class:
+Window or sampling scope:
+
+Queued items by class:
+Queued bytes by class:
+Oldest eligible age by class:
+Arrival rate and window:
+Completion rate and window:
+In-flight work by class:
+Dependency health:
+Worker limit:
+Reserved capacity:
+Expected start delay:
+Expected completion duration:
+Remaining useful lifetime:
+Remaining margin after expected completion:
+
+Unmeasured variables:
+-
+Conflicting observations:
+-
+
+Capacity review:
+[ ] Observation is inside its declared freshness limit.
+[ ] Work class matches the candidate.
+[ ] Item count is not the only capacity measure.
+[ ] Oldest age and starvation risk were considered.
+[ ] Arrival and completion windows are named.
+[ ] Dependency condition is current enough for the decision.
+[ ] Worker count is not treated as proof of available throughput.
+[ ] Expected start plus completion preserves the minimum margin.
+[ ] Missing or stale evidence does not become spare capacity.
+
+Capacity result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+Recheck trigger:
+
+
+E. DUPLICATE-EFFECT SAFETY
+==========================
+
+Events that can repeat the attempt:
+[ ] delivery redrive
+[ ] worker restart
+[ ] lease expiry
+[ ] acknowledgement loss
+[ ] ambiguous destination response
+[ ] manual retry
+[ ] reconciliation retry
+[ ] other:
+
+Message identity:
+Attempt identity:
+Logical effect identity:
+Destination effect identity:
+
+If REPEAT_SAFE:
+Invariant that makes repetition effect-neutral:
+Evidence and scope:
+
+If DESTINATION_PROTECTED:
+Idempotency or deduplication identity:
+Canonical input definition:
+Protection scope:
+Retention period:
+Conflict behavior:
+Authoritative destination:
+Maximum queue retention:
+Does protection outlive possible replay? yes / no / unknown
+Evidence:
+
+If RECONCILABLE:
+Authoritative effect record:
+Observation required before retry:
+Exact-match rule:
+Resume rule:
+Suppress rule:
+Compensation rule and limits:
+
+If NON_REPEATABLE or UNKNOWN:
+Why another attempt is unsafe or unclassified:
+Required hold, rejection, or manual control:
+
+Duplicate-effect review:
+[ ] Message ID and logical effect ID are not assumed to be identical.
+[ ] A key label is not treated as proof of destination protection.
+[ ] Protection scope and lifetime cover the possible replay window.
+[ ] An absent response is not treated as an absent effect.
+[ ] Ambiguous effects require reconciliation before another consequence.
+[ ] Compensation limits are explicit.
+
+Duplicate-effect result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+Retry eligibility: YES / NO / HOLD / NOT_TESTED
+Recheck trigger:
+
+
+F. OWNERSHIP AND FENCING
+=======================
+
+Admission owner:
+Authority source and revision:
+Decision record location:
+
+Retry owner:
+Authority source and revision:
+Retry decision record location:
+
+Current execution owner:
+Attempt identity:
+Lease identity:
+Fencing identity:
+
+Protected writes or effects:
+- boundary:
+  stale-owner rejection method:
+  evidence:
+
+Unprotected writes or effects:
+- boundary:
+  consequence:
+  narrowed claim:
+
+Replacement-attempt rule:
+Lease-loss behavior:
+Late-result behavior:
+
+Ownership review:
+[ ] Admission, retry, and execution authority are each named.
+[ ] The current attempt has a unique identity.
+[ ] Lease expiry is not treated as worker termination.
+[ ] Replacement attempts carry a monotonic or equivalent fencing identity.
+[ ] Consequence-bearing boundaries reject stale ownership where supported.
+[ ] Unsupported external fencing is disclosed rather than implied.
+
+Ownership result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+
+
+G. ADMISSION DECISION
+=====================
+
+Choose exactly one:
+[ ] ADMIT     Current evidence permits this item to join eligible demand.
+[ ] REJECT    The item cannot enter under the declared contract.
+[ ] EXPIRE    Its useful or allowed lifetime ended before admission.
+[ ] COALESCE  Another item represents the same mergeable demand.
+[ ] HOLD      Evidence is missing, stale, conflicting, or awaits a trigger.
+
+Typed reason:
+Evidence identities used:
+Observation window:
+Decision time:
+Decision owner:
+Decision revision:
+
+If ADMIT:
+Conditions that remain true only at admission time:
+Conditions execution must recheck:
+This decision does not promise completion: confirmed / not confirmed
+
+If COALESCE:
+Declared merge rule:
+Surviving work identity:
+Represented request identities:
+Effects preserved by the merge:
+Effects changed or discarded:
+
+If HOLD:
+Missing, stale, or conflicting evidence:
+Hold owner:
+Recheck trigger:
+Recheck deadline:
+
+If REJECT or EXPIRE:
+Permanent or time-shaped reason:
+Requested follow-up, if any:
+
+Admission-decision result: PASS / FAIL / BLOCKED / NOT_TESTED
+Reason:
+
+
+H. EXECUTION RECHECK
+====================
+
+Perform immediately before creating a consequence.
+
+Accepted decision identity:
+Current candidate identity:
+Current operation identity:
+Current effect identity:
+Current policy revision:
+Current cancellation state:
+Current deadline and remaining margin:
+Current dependency state:
+Current ownership and fencing identity:
+Current duplicate-effect evidence:
+Prior uncertain attempt present? yes / no / unknown
+
+Comparison:
+Candidate unchanged: PASS / FAIL / BLOCKED / NOT_TESTED
+Intent still current: PASS / FAIL / BLOCKED / NOT_TESTED
+Lifetime sufficient: PASS / FAIL / BLOCKED / NOT_TESTED
+Policy still applicable: PASS / FAIL / BLOCKED / NOT_TESTED
+Dependencies eligible: PASS / FAIL / BLOCKED / NOT_TESTED
+Ownership current: PASS / FAIL / BLOCKED / NOT_TESTED
+Replay protection current: PASS / FAIL / BLOCKED / NOT_TESTED
+Prior effects reconciled: PASS / FAIL / BLOCKED / NOT_TESTED
+
+Execution decision: PROCEED / HOLD / REJECT / EXPIRE / NOT_TESTED
+Reason:
+Execution attempt identity, if proceeding:
+
+
+I. EFFECT AND TERMINAL EVIDENCE
+===============================
+
+Attempt identity:
+Started at:
+Ended or last observed at:
+Handler result:
+Acknowledgement result:
+
+Expected durable effects:
+- identity:
+  observation:
+  result: PASS / FAIL / BLOCKED / NOT_TESTED / UNCERTAIN
+
+Expected external effects:
+- identity:
+  authoritative observation:
+  result: PASS / FAIL / BLOCKED / NOT_TESTED / UNCERTAIN
+
+Unexpected effects:
+-
+Missing effects:
+-
+Ambiguous effects:
+-
+
+Choose the narrow terminal state supported by evidence:
+[ ] COMPLETED
+[ ] REJECTED
+[ ] CANCELLED
+[ ] EXPIRED
+[ ] DEAD_LETTERED
+[ ] UNCERTAIN
+[ ] COMPENSATED
+[ ] NOT_TERMINAL
+
+Terminal-state reason:
+Completion-test revision:
+Evidence identities:
+Observation time and scope:
+Unresolved differences:
+
+Claim limits:
+[ ] Dead-letter storage is not described as recovery or effect absence.
+[ ] Cancellation records treatment of already-started effects.
+[ ] Compensation is not described as erasure.
+[ ] A timeout is not described as proof that no effect occurred.
+[ ] COMPLETED is used only when every required effect passes the declared test.
+[ ] The final claim is limited to the identified operation, evidence, scope,
+    observation window, and completion-test revision.
+
+Terminal-evidence result: PASS / FAIL / BLOCKED / NOT_TESTED / UNCERTAIN
+Reason:
+Reconciliation owner:
+Next observation or action:
+
+
+J. FAILURE-SHAPED REVIEW TESTS
+==============================
+
+Record an expected decision before exercising each relevant scenario. These
+are review prompts, not claims that a real implementation passed.
+
+1. Storage succeeds but validation fails.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+2. Capacity observation is older than its freshness limit.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+3. Expected start leaves less than the minimum completion margin.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+4. Cancellation becomes current after enqueue but before execution.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+5. The idempotency-protection window ends before possible queue redelivery.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+6. A worker loses its lease but continues toward a protected write.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+7. An external request is sent but its response is lost.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+8. A replacement attempt starts while the earlier external effect is uncertain.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+9. Two messages request the same logical effect.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+10. A coalescing rule changes the number or kind of requested effects.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+11. The handler returns successfully but a required durable effect is absent.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+12. Work reaches a dead-letter store with its effect still unknown.
+Expected state and decision:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+Failure-shaped review summary:
+Passed as expected:
+Failed against expectation:
+Blocked:
+Not tested:
+Required repair or narrower claim:
+
+
+K. COMPACT RELEASE CHECK
+========================
+
+Before allowing stored work to execute, confirm:
+
+[ ] 1. The exact operation and logical effect identity are named.
+[ ] 2. Message identity is separate from consequence identity.
+[ ] 3. Not-before, deadline, and completion margin are recorded.
+[ ] 4. Cancellation is visible to current and replacement attempts.
+[ ] 5. Validation, policy, and dependency revisions are identified.
+[ ] 6. Capacity evidence is fresh and relevant to the work class.
+[ ] 7. Items, bytes, age, arrivals, completions, in-flight work, and
+        dependencies were considered where relevant.
+[ ] 8. Missing or stale evidence remains uncertainty.
+[ ] 9. Replay is classified as safe, destination-protected, reconcilable,
+        non-repeatable, or unknown.
+[ ] 10. Duplicate-protection scope and lifetime are evidenced.
+[ ] 11. Admission, retry, and current execution owners are named.
+[ ] 12. Replacement attempts are fenced where the consequence supports it.
+[ ] 13. ADMIT, REJECT, EXPIRE, COALESCE, or HOLD has a typed reason.
+[ ] 14. Every HOLD has an owner and recheck trigger.
+[ ] 15. STORED, VALID, ELIGIBLE, LEASED, and COMPLETED remain separate.
+[ ] 16. Ambiguous external effects are reconciled before retry.
+[ ] 17. Completion is defined by observed effects, not only handler return.
+[ ] 18. Dead-lettering, cancellation, compensation, and uncertainty retain
+        accurate labels.
+[ ] 19. The final claim is bounded to exact evidence, time, and scope.
+
+Release-check result: PASS / FAIL / BLOCKED / NOT_TESTED
+Decision:
+Reason:
+Owner:
+Next trigger:
+
+
+L. SIGN-OFF RECORD
+==================
+
+Worksheet identity:
+Candidate identity:
+Decision identity:
+Final result:
+Recorded at:
+Recorded by role:
+Evidence location:
+Open uncertainties:
+Required recheck:
+
+Scope statement:
+This record supports only the decision written above for the identified
+candidate, operation, effect, evidence, observation window, and contract
+revision. It does not prove future capacity, future ownership, future effect
+safety, recipient understanding, legal sufficiency, or absence of unobserved
+side effects.
+
+Rights and provenance
+---------------------
+This worksheet, its vocabulary, prompts, failure-shaped review tests, and
+scope language are original explanatory work by Alfred, an AI assistant. It
+contains no third-party media or customer material. Any filled copy needs its
+own privacy, authorization, retention, security, accessibility, legal, and
+domain review before use or publication.

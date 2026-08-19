@@ -1,0 +1,458 @@
+BULK-ACTION STABLE-SELECTION WORKSHEET
+Reusable proposal, apply, and effect-reconciliation record
+
+Written by Alfred, an AI assistant.
+Original text-only checklist. It contains no customer data or third-party media.
+
+PURPOSE
+Make a bulk change reviewable by binding approval to exact members, relevant
+starting state, rules, policy, exclusions, and proposed effects. A matching
+count is useful context, but it does not establish matching membership.
+
+Complete the proposal and acceptance sections before apply. Do not fill missing
+expected values from execution results. A blank or completed worksheet is not
+proof by itself; its authority depends on identified evidence and comparison.
+
+======================================================================
+A. DECISION ENVELOPE
+======================================================================
+
+worksheet revision:
+reviewer role (optional; omit personal details):
+observed at (include timezone):
+environment / implementation revision:
+
+bulk action:
+  neutral action label:
+  action consequence class:
+  reversible, compensatable, or irreversible:
+  expected external side effects:
+
+actor scope:
+  authorization scope revision:
+  eligible resource types:
+  prohibited resource types:
+
+out of scope:
+
+======================================================================
+B. SELECTION CONTRACT — CHOOSE BEFORE PREVIEW
+======================================================================
+
+selection expression:
+selection parameters and cutoff:
+selection-expression revision:
+
+Choose exactly one contract:
+  [ ] FROZEN_MEMBERS
+      Apply only to the exact member identities captured by the proposal.
+      Reject or hold any member whose relevant state has changed.
+
+  [ ] QUERY_EQUALITY
+      Rerun the identified query and require complete member-set equality
+      with the proposal snapshot before apply.
+
+  [ ] LIVE_QUERY
+      Intentionally target whatever matches at execution time. The earlier
+      preview is an estimate unless a final current-member review occurs.
+
+contract choice:
+reason this contract fits the action:
+member ordering relevant? yes / no
+if yes, ordering rule and revision:
+
+Do not describe LIVE_QUERY as an exact frozen selection. Do not treat a saved
+query as a saved member set.
+
+======================================================================
+C. PROPOSAL IDENTITY — FREEZE BEFORE ACCEPTANCE
+======================================================================
+
+proposal ID:
+proposal revision:
+created at:
+expires at:
+
+selection snapshot ID:
+member-ID digest:
+member count:
+
+relevant input-state revision or digest:
+transformation / rule revision:
+policy revision:
+authorization-scope revision:
+destination or recipient revision:
+proposal-effects digest:
+
+Digest algorithm and canonicalization rule:
+complete proposal artifact location (neutral label only):
+
+A digest can identify canonicalized material. It does not prove that selection,
+policy, authorization, user understanding, or proposed effects are correct.
+
+======================================================================
+D. MEMBER-LEVEL PROPOSAL
+======================================================================
+
+Record every included member. Add rows or attach a complete machine-readable
+ledger when needed. A sample is not a complete membership record.
+
+INCLUDED MEMBER
+  stable member ID:
+  inclusion reason:
+  relevant before state:
+  before-state revision:
+  proposed after state:
+  fields expected to remain unchanged:
+  expected durable effect:
+  expected side effects:
+  irreversible or non-compensatable effects:
+  per-member policy decision:
+
+INCLUDED MEMBER
+  stable member ID:
+  inclusion reason:
+  relevant before state:
+  before-state revision:
+  proposed after state:
+  fields expected to remain unchanged:
+  expected durable effect:
+  expected side effects:
+  irreversible or non-compensatable effects:
+  per-member policy decision:
+
+additional included-member ledger:
+ledger identity or digest:
+
+======================================================================
+E. EXCLUSIONS, CONFLICTS, AND NON-SELECTION
+======================================================================
+
+List exclusions explicitly rather than silently reducing the action count.
+Use typed reasons defined by the product. The examples below are illustrative:
+NOT_AUTHORIZED, STATE_CONFLICT, RETENTION_HOLD, ALREADY_IN_TARGET_STATE,
+MISSING_REQUIRED_INPUT.
+
+EXCLUDED MEMBER
+  stable member ID:
+  typed exclusion reason:
+  relevant state and revision:
+  effect prevented:
+  reject, hold, or allowed partial action:
+
+CONFLICTING MEMBER
+  stable member ID:
+  typed conflict reason:
+  relevant state and revision:
+  evidence needed to resolve:
+
+NOT-SELECTED MEMBER (record only when decision-relevant)
+  stable member ID:
+  reason outside selection:
+
+additional exclusion / conflict ledger:
+ledger identity or digest:
+
+======================================================================
+F. AGGREGATE RECONCILIATION
+======================================================================
+
+query-selected count:
+included count:
+excluded count:
+conflicting count:
+not-selected count recorded for context:
+irreversible-effect count:
+external-side-effect count:
+
+Reconciliation rule:
+  query-selected count = included + excluded + unresolved selected conflicts
+
+reconciliation calculation:
+reconciliation result — PASS / FAIL / BLOCKED / NOT TESTED:
+
+A passing count reconciliation does not establish member equality or effect
+identity. Preserve the complete member-level evidence.
+
+======================================================================
+G. INVALIDATION TRIGGERS
+======================================================================
+
+For each trigger, choose REJECT, HOLD, RE-PREVIEW, or NOT APPLICABLE and name
+the evidence that detects it.
+
+1. member entered or left the selection
+   decision:
+   detection evidence:
+
+2. relevant member input changed
+   decision:
+   detection evidence:
+
+3. transformation or rule revision changed
+   decision:
+   detection evidence:
+
+4. policy revision changed
+   decision:
+   detection evidence:
+
+5. actor authorization or scope changed
+   decision:
+   detection evidence:
+
+6. destination, recipient, price, or irreversible setting changed
+   decision:
+   detection evidence:
+
+7. required dependency or external reference changed
+   decision:
+   detection evidence:
+
+8. proposal exceeded its declared lifetime
+   decision:
+   detection evidence:
+
+9. prior execution outcome is uncertain
+   decision:
+   detection evidence:
+
+10. other action-specific invalidator
+    condition:
+    decision:
+    detection evidence:
+
+State-shaped invalidation and clock expiry are separate. A fresh timestamp does
+not make changed inputs current, and unchanged inputs do not override a required
+time limit.
+
+======================================================================
+H. PARTIAL-ACTION AND UNCERTAINTY POLICY
+======================================================================
+
+Choose the policy before execution:
+  [ ] reject the complete proposal after any required-member conflict
+  [ ] hold the complete proposal for review
+  [ ] apply unaffected members and report every non-applied member
+  [ ] stage reversible effects pending reconciliation
+  [ ] other explicitly defined policy:
+
+selected policy:
+why it fits this consequence class:
+
+If partial action is allowed, define three disjoint result sets:
+  applied exactly as proposed:
+  not applied, with typed reason:
+  outcome uncertain, reconciliation required:
+
+Can any side effect be safely retried? yes / no / depends
+idempotency or deduplication identity:
+reconciliation required before retry:
+compensation limits:
+
+Never merge UNCERTAIN into FAILED. A lost response may leave the effect unknown.
+
+======================================================================
+I. ACCEPTANCE RECORD — COMPLETE BEFORE APPLY
+======================================================================
+
+accepted proposal ID and revision:
+accepted proposal-effects digest:
+accepted selection contract:
+accepted member count:
+accepted exclusion count:
+accepted consequence summary:
+accepted partial-action policy:
+accepted invalidation triggers:
+acceptance time and timezone:
+acceptance expiry:
+
+Acceptance evidence location (neutral label only):
+
+Checklist:
+  [ ] Exact members are available for complete review.
+  [ ] Relevant before and proposed after values are visible.
+  [ ] Exclusions and conflicts have stable IDs and typed reasons.
+  [ ] Rules, policy, scope, and destination revisions are identified.
+  [ ] Counts reconcile without replacing member evidence.
+  [ ] Irreversible and external side effects are explicit.
+  [ ] Selection replay behavior is stated accurately.
+  [ ] Invalidators and partial-action behavior are defined.
+  [ ] Missing expected values were not copied from later results.
+
+acceptance decision — ACCEPT / HOLD / REJECT:
+reason:
+
+ACCEPT means the identified proposal was accepted under this record. It is not
+an execution or effect-verification result.
+
+======================================================================
+J. APPLY-BOUNDARY CONTINUITY
+======================================================================
+
+execution attempt ID:
+apply started at:
+proposal ID presented to apply:
+proposal-effects digest presented to apply:
+member-ID digest at apply:
+input-state revision at apply:
+rule revision at apply:
+policy revision at apply:
+authorization-scope revision at apply:
+destination revision at apply:
+
+Comparison results — use PASS, FAIL, BLOCKED, NOT TESTED, or SUPERSEDED:
+  accepted proposal identity matches:
+  membership contract holds:
+  relevant input state matches:
+  rule revision matches:
+  policy revision matches:
+  actor scope matches:
+  destination and consequence settings match:
+  proposal is within declared lifetime:
+  prior uncertain attempts reconciled:
+
+continuity decision — PROCEED / HOLD / REJECT / RE-PREVIEW:
+reason:
+
+If any required lane fails or is blocked, do not infer approval from a matching
+count. Preserve the prior proposal as SUPERSEDED or EXPIRED when appropriate.
+
+======================================================================
+K. PER-MEMBER EXECUTION RESULT
+======================================================================
+
+MEMBER RESULT
+  stable member ID:
+  proposed effect:
+  attempted effect:
+  durable effect identity:
+  side-effect identity:
+  observed final state:
+  result — APPLIED / NOT_APPLIED / UNCERTAIN:
+  typed reason:
+  reconciliation or compensation needed:
+
+MEMBER RESULT
+  stable member ID:
+  proposed effect:
+  attempted effect:
+  durable effect identity:
+  side-effect identity:
+  observed final state:
+  result — APPLIED / NOT_APPLIED / UNCERTAIN:
+  typed reason:
+  reconciliation or compensation needed:
+
+additional result ledger:
+ledger identity or digest:
+
+======================================================================
+L. EFFECT RECONCILIATION
+======================================================================
+
+Compare these pairs independently:
+
+1. proposed members versus attempted members
+   expected:
+   observed:
+   evidence:
+   result — PASS / FAIL / BLOCKED / NOT TESTED:
+
+2. proposed effects versus accepted effects
+   expected:
+   observed:
+   evidence:
+   result:
+
+3. accepted effects versus durable effects
+   expected:
+   observed:
+   evidence:
+   result:
+
+4. expected side effects versus observed side effects
+   expected:
+   observed:
+   evidence:
+   result:
+
+5. exclusions and uncertainties versus final report
+   expected:
+   observed:
+   evidence:
+   result:
+
+6. unchanged fields versus observed final state
+   expected:
+   observed:
+   evidence:
+   result:
+
+final member counts:
+  applied exactly as proposed:
+  not applied:
+  uncertain:
+  total reconciled:
+
+final count calculation:
+count reconciliation result:
+
+======================================================================
+M. FINAL STATE
+======================================================================
+
+Choose one state:
+  [ ] PREVIEWED   — candidate constructed and displayed
+  [ ] ACCEPTED    — identified proposal accepted under current scope
+  [ ] SUPERSEDED  — a newer candidate replaced it
+  [ ] EXPIRED     — a declared freshness condition failed
+  [ ] BLOCKED     — execution or required evidence could not proceed
+  [ ] PARTIAL     — disclosed partial policy ran with complete member results
+  [ ] UNCERTAIN   — at least one effect requires reconciliation
+  [ ] VERIFIED    — observed effects matched the accepted proposal under the
+                     recorded checks
+
+final state:
+reason:
+required non-pass lanes:
+unresolved members or effects:
+compensating work:
+next recheck trigger:
+
+claim this record supports:
+claims this record does not support:
+
+Do not use VERIFIED when a required effect, side effect, exclusion, or uncertain
+member remains unreconciled. Limit any conclusion to the identified proposal,
+execution attempt, evidence surfaces, observation time, and scope.
+
+======================================================================
+N. COMPACT REVIEW
+======================================================================
+
+  [ ] The exact selection expression and parameters are identified.
+  [ ] The complete stable member set is recorded, not only its count.
+  [ ] Relevant per-member starting-state revisions are captured.
+  [ ] Transformation, policy, authorization, and destination revisions are named.
+  [ ] Per-member before and proposed after values are reviewable.
+  [ ] Expected side effects and irreversible effects are explicit.
+  [ ] Exclusions use stable identities and typed reasons.
+  [ ] Selected, included, excluded, and conflicting counts reconcile.
+  [ ] The selection replay contract is explicit.
+  [ ] One immutable proposal identity binds the reviewed candidate.
+  [ ] State-based and time-based invalidators are declared.
+  [ ] Complete-reject or partial-action policy was chosen before execution.
+  [ ] Apply names the exact accepted proposal.
+  [ ] Drift causes stop, hold, rejection, or re-preview as declared.
+  [ ] Superseded proposals remain preserved rather than rewritten.
+  [ ] Applied, unapplied, and uncertain members remain separate.
+  [ ] Durable effects and side effects are reconciled independently.
+
+BOUNDARIES
+This worksheet is original operational guidance by Alfred, an AI assistant. It
+does not prove that a selection is correct, an action is authorized or lawful,
+a reviewer understood the consequences, an implementation is concurrency-safe,
+or any durable or external effect completed. High-consequence actions may need
+specialist review, stronger transaction controls, retention requirements,
+accessibility review, legal review, or destination-specific safeguards.

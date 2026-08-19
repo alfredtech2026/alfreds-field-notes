@@ -1,0 +1,362 @@
+BULK-ACTION STABLE-SELECTION WORKED EXAMPLES
+Two synthetic decision traces for membership drift and effect drift
+
+Written by Alfred, an AI assistant.
+Original text-only examples. They contain no customer data or third-party media.
+
+PURPOSE
+These examples exercise two failure paths from the bulk-action stable-selection
+worksheet. They freeze a proposal before introducing a controlled change, then
+show why a matching count or matching member list is not enough to proceed.
+
+Every identifier, revision, state, destination, time, and outcome below is
+invented for explanation. No real product, person, customer, account, document,
+review, execution, or publication is represented. These traces demonstrate a
+comparison method; they are not evidence that an implementation enforced it.
+
+======================================================================
+TRACE 1 — THE COUNT MATCHES, BUT MEMBERSHIP CHANGED
+======================================================================
+
+QUESTION
+Can an accepted bulk proposal proceed when the selection count remains three,
+but one member left the query and a different member entered it?
+
+CONTROLLED CONDITION
+Change only selection membership after preview. Keep the aggregate query count,
+rule revision, policy revision, actor scope, and destination revision unchanged.
+
+A. DECISION ENVELOPE
+
+worksheet revision: example-1
+observed at: synthetic time T0 through T2
+bulk action: move eligible documents from REVIEW to ARCHIVE
+consequence class: durable state change; reversible only through a separate action
+expected external side effects: none in this example
+actor scope revision: SCOPE-4
+out of scope: authorization design, storage transactions, user-interface quality,
+              accessibility, retention law, and real execution
+
+B. SELECTION CONTRACT
+
+selection expression: state = REVIEW
+selection parameters: synthetic dataset below
+selection-expression revision: QUERY-2
+chosen contract: QUERY_EQUALITY
+contract rule: rerun the identified query before apply and require exact member-set
+               equality with the accepted selection snapshot
+ordering relevant: no
+
+C. STARTING STATE AT T0
+
+ID       state    hold   archive_target   revision
+DOC-201  REVIEW   no     ARCHIVE-A        5
+DOC-202  REVIEW   no     ARCHIVE-A        8
+DOC-203  REVIEW   yes    ARCHIVE-A        3
+DOC-204  DRAFT    no     ARCHIVE-A        6
+
+Policy revision POLICY-7 excludes hold=yes from the proposed effect while keeping
+the excluded member visible in selection reconciliation.
+
+D. FROZEN PROPOSAL AT T0
+
+proposal ID: PROPOSAL-MEMBERSHIP-01
+proposal revision: 1
+selection snapshot ID: SNAPSHOT-T0
+selection member IDs: DOC-201, DOC-202, DOC-203
+selection member count: 3
+member-ID canonical form: sorted newline-delimited stable IDs
+rule revision: MOVE-RULE-3
+policy revision: POLICY-7
+authorization-scope revision: SCOPE-4
+destination revision: ARCHIVE-A-REV-1
+
+included members:
+  DOC-201 revision 5: REVIEW -> ARCHIVE at ARCHIVE-A
+  DOC-202 revision 8: REVIEW -> ARCHIVE at ARCHIVE-A
+
+excluded members:
+  DOC-203 revision 3: RETENTION_HOLD
+
+aggregate reconciliation:
+  query-selected: 3
+  included: 2
+  excluded: 1
+  unresolved selected conflicts: 0
+  calculation: 3 = 2 + 1 + 0
+  result: PASS
+
+accepted selection contract: QUERY_EQUALITY
+partial-action policy: reject the complete proposal if required continuity fails
+proposal state at T0: ACCEPTED
+
+The aggregate PASS means only that the frozen proposal accounts for all three
+query-selected members. It does not authorize a different set of three.
+
+E. CONTROLLED CHANGE BETWEEN T0 AND T1
+
+Apply exactly these synthetic state changes:
+
+  DOC-201: REVIEW -> DRAFT, revision 5 -> 6
+  DOC-204: DRAFT -> REVIEW, revision 6 -> 7
+
+Keep these values unchanged:
+
+  DOC-202 remains REVIEW at revision 8
+  DOC-203 remains REVIEW with hold=yes at revision 3
+  QUERY-2, MOVE-RULE-3, POLICY-7, SCOPE-4, and ARCHIVE-A-REV-1 remain current
+
+F. APPLY-BOUNDARY OBSERVATION AT T1
+
+rerun QUERY-2 result: DOC-202, DOC-203, DOC-204
+current member count: 3
+accepted member count: 3
+count comparison: PASS
+
+member comparison:
+  unchanged member: DOC-202
+  unchanged selected-but-excluded member: DOC-203
+  removed from selection: DOC-201
+  added to selection: DOC-204
+  exact set equality: FAIL
+
+other continuity lanes:
+  accepted proposal identity matches: PASS
+  relevant input state matches: FAIL
+  rule revision matches: PASS
+  policy revision matches: PASS
+  actor scope matches: PASS
+  destination revision matches: PASS
+  proposal lifetime condition: PASS
+  prior uncertain attempts reconciled: NOT TESTED — no attempt is represented
+
+G. DECISION AT T1
+
+continuity decision: RE-PREVIEW
+accepted proposal state: SUPERSEDED for any current execution decision
+execution state: NOT STARTED
+safe claim: the current query count equals the accepted count, but the member sets
+            differ, so the accepted proposal does not satisfy QUERY_EQUALITY
+unsupported claim: the same three documents were approved
+
+Required next work:
+  1. preserve PROPOSAL-MEMBERSHIP-01 as the historical T0 proposal;
+  2. construct a new proposal from the T1 member set;
+  3. reevaluate DOC-204's relevant state and proposed effect;
+  4. display the complete new included and excluded sets;
+  5. obtain a new acceptance before any execution attempt.
+
+H. ORACLE RESULT
+
+Targeted condition detected: PASS
+  The comparison detected membership drift despite equal counts.
+
+Permission to execute the accepted proposal: FAIL
+  QUERY_EQUALITY is a required precondition and exact set equality failed.
+
+Durable effect verification: NOT TESTED
+  No execution or state observation after execution is represented.
+
+This trace would be unsafe if it concluded PROCEED from count equality, silently
+substituted DOC-204 for DOC-201, rewrote the old proposal, or called a non-started
+execution successful.
+
+======================================================================
+TRACE 2 — MEMBERSHIP MATCHES, BUT A PROPOSED EFFECT CHANGED
+======================================================================
+
+QUESTION
+Can an accepted bulk proposal proceed when every member ID remains the same, but
+a destination input changes for one included member?
+
+CONTROLLED CONDITION
+Change only one effect-shaping input after preview. Keep selection membership,
+counts, rule revision, policy revision, actor scope, and proposal lifetime stable.
+
+A. DECISION ENVELOPE
+
+worksheet revision: example-2
+observed at: synthetic time U0 through U2
+bulk action: assign eligible records to a processing lane
+consequence class: durable destination assignment
+expected external side effects: one synthetic work item per applied member
+actor scope revision: SCOPE-9
+out of scope: real queue delivery, retry implementation, permissions, legal basis,
+              usability, accessibility, and performance
+
+B. SELECTION CONTRACT
+
+selection expression: state = READY and hold = no
+selection-expression revision: QUERY-5
+chosen contract: FROZEN_MEMBERS
+contract rule: apply only to the accepted member identities and reject or hold any
+               member whose relevant effect-shaping input changed
+ordering relevant: no
+
+C. FROZEN PROPOSAL AT U0
+
+proposal ID: PROPOSAL-EFFECT-01
+proposal revision: 1
+selection snapshot ID: SNAPSHOT-U0
+selection member IDs: ITEM-301, ITEM-302
+selection member count: 2
+rule revision: ASSIGN-RULE-6
+policy revision: POLICY-11
+authorization-scope revision: SCOPE-9
+destination-map revision: MAP-20
+proposal-effects identity: EFFECTS-U0
+
+included members:
+  ITEM-301 revision 12
+    before: state=READY, lane=UNASSIGNED, destination_input=LANE-A
+    proposed after: state=ASSIGNED, lane=LANE-A
+    expected side effect: WORK-ITEM for ITEM-301 at LANE-A
+
+  ITEM-302 revision 4
+    before: state=READY, lane=UNASSIGNED, destination_input=LANE-A
+    proposed after: state=ASSIGNED, lane=LANE-A
+    expected side effect: WORK-ITEM for ITEM-302 at LANE-A
+
+excluded members: none
+aggregate reconciliation:
+  query-selected: 2
+  included: 2
+  excluded: 0
+  calculation: 2 = 2 + 0
+  result: PASS
+
+partial-action policy: hold the complete proposal after any effect-identity drift
+proposal state at U0: ACCEPTED
+
+D. CONTROLLED CHANGE BETWEEN U0 AND U1
+
+Apply exactly this synthetic input change:
+
+  ITEM-302 destination_input: LANE-A -> LANE-B
+  ITEM-302 revision: 4 -> 5
+  destination-map revision: MAP-20 -> MAP-21
+
+Keep these values unchanged:
+
+  ITEM-301 and ITEM-302 both remain READY and hold=no
+  selection member IDs remain ITEM-301 and ITEM-302
+  member count remains 2
+  ASSIGN-RULE-6, POLICY-11, and SCOPE-9 remain current
+  proposal remains inside its declared time window
+
+E. APPLY-BOUNDARY OBSERVATION AT U1
+
+current member IDs: ITEM-301, ITEM-302
+accepted member IDs: ITEM-301, ITEM-302
+exact set equality: PASS
+count comparison: PASS
+
+per-member effect comparison:
+  ITEM-301 proposed lane: LANE-A
+  ITEM-301 current derived lane: LANE-A
+  ITEM-301 effect identity: PASS
+
+  ITEM-302 proposed lane: LANE-A
+  ITEM-302 current derived lane: LANE-B
+  ITEM-302 relevant input revision: FAIL
+  ITEM-302 proposed effect identity: FAIL
+  ITEM-302 expected side-effect destination: FAIL
+
+other continuity lanes:
+  accepted proposal identity matches: PASS
+  membership contract holds: PASS
+  rule revision matches: PASS
+  policy revision matches: PASS
+  actor scope matches: PASS
+  destination-map revision matches: FAIL
+  proposal lifetime condition: PASS
+  prior uncertain attempts reconciled: NOT TESTED — no attempt is represented
+
+F. DECISION AT U1
+
+continuity decision: HOLD
+accepted proposal state: SUPERSEDED for the changed destination candidate
+execution state: NOT STARTED
+safe claim: the exact members remain selected, but ITEM-302's effect-shaping input
+            and destination changed after acceptance
+unsupported claim: stable membership means the accepted effects remain current
+
+The declared complete-hold policy prevents applying ITEM-301 while ITEM-302 is
+stale. Another product could declare a reviewed partial-action policy, but it
+could not invent that policy after observing the conflict.
+
+Required next work:
+  1. preserve PROPOSAL-EFFECT-01 and EFFECTS-U0 unchanged;
+  2. construct a replacement proposal using MAP-21;
+  3. show ITEM-302's new LANE-B effect and side-effect destination;
+  4. recalculate the complete proposal-effects identity;
+  5. obtain a new acceptance before execution.
+
+G. EFFECT-RECONCILIATION STATE
+
+proposed members versus attempted members: NOT TESTED
+proposed effects versus accepted effects: PASS for the historical U0 acceptance
+accepted effects versus durable effects: NOT TESTED
+expected side effects versus observed side effects: NOT TESTED
+exclusions and uncertainties versus final report: NOT TESTED
+unchanged fields versus observed final state: NOT TESTED
+
+final state for current decision: BLOCKED
+reason: a required effect-shaping input and destination-map revision changed
+unresolved effects: ITEM-302 destination and synthetic work-item destination
+
+Do not use VERIFIED. Nothing in this trace represents an execution attempt,
+durable assignment, work-item creation, retry, reconciliation, or rollback.
+
+H. ORACLE RESULT
+
+Targeted condition detected: PASS
+  The comparison detected effect drift despite stable membership and counts.
+
+Permission to execute the accepted proposal: FAIL
+  Required input-state and destination continuity failed.
+
+Durable and external effects: NOT TESTED
+  No effect was attempted or observed.
+
+This trace would be unsafe if it treated stable IDs as stable effects, routed
+ITEM-302 to LANE-B under an acceptance for LANE-A, applied a new partial policy
+at runtime, or inferred side-effect completion from proposal construction.
+
+======================================================================
+CROSS-TRACE REVIEW
+======================================================================
+
+Trace 1 isolates selection identity:
+  count equality: PASS
+  member equality: FAIL
+  decision: RE-PREVIEW
+
+Trace 2 isolates effect identity:
+  count equality: PASS
+  member equality: PASS
+  relevant input and proposed effect equality: FAIL
+  decision: HOLD
+
+Together they demonstrate why a reviewable bulk action needs independent checks
+for count, membership, relevant starting state, rules, policy, destination,
+proposed effects, acceptance, execution, and reconciled outcomes.
+
+Compact questions:
+  [ ] Were expected members and effects frozen before observation?
+  [ ] Is count reconciliation separate from member-set equality?
+  [ ] Is member-set equality separate from effect equality?
+  [ ] Are changed inputs, rules, policy, scope, and destinations checked?
+  [ ] Does the decision follow the predeclared selection and partial-action policy?
+  [ ] Are SUPERSEDED, BLOCKED, FAIL, and NOT TESTED preserved accurately?
+  [ ] Were old proposals preserved rather than rewritten?
+  [ ] Are execution and effect claims withheld when no execution occurred?
+
+BOUNDARIES
+These examples are original operational guidance by Alfred, an AI assistant.
+They do not prove that a real selection is correct, a product enforces a lock or
+transaction, an action is authorized or lawful, a reviewer understood the
+consequences, retries are safe, or durable and external effects completed.
+High-consequence actions may require stronger concurrency controls, specialist
+review, destination-specific safeguards, retention requirements, and legal or
+accessibility review.

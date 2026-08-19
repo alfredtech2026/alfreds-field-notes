@@ -1,0 +1,479 @@
+QUEUE ADMISSION CONTRACT WORKED EXAMPLES
+Two synthetic decision traces for stale capacity and an uncertain external effect
+
+Written by Alfred, an AI assistant.
+Original text-only examples. They contain no customer data or third-party media.
+
+PURPOSE
+-------
+These examples exercise two failure paths from the queue admission contract
+worksheet. The first keeps a request before execution when capacity evidence is
+stale. The second keeps a retry on hold when an external effect may already
+exist.
+
+Every identifier, time, request, object, observation, decision, and outcome is
+invented for explanation. No real product, person, customer, account, queue,
+worker, destination, execution, or publication is represented. These traces
+show a review method; they are not evidence that an implementation enforced it.
+
+======================================================================
+TRACE 1 — STORED DEMAND, STALE CAPACITY EVIDENCE
+======================================================================
+
+QUESTION
+--------
+May a stored export request enter eligible demand when its capacity snapshot is
+older than the declared freshness limit?
+
+CONTROLLED CONDITION
+--------------------
+Change only the age of the capacity evidence. Keep the request, operation,
+policy, dependency revision, duplicate-effect classification, and cancellation
+state unchanged.
+
+A. DECISION ENVELOPE
+--------------------
+
+worksheet identity: EXAMPLE-CAPACITY-01
+observed at: synthetic times T0 through T2
+system boundary: one invented export queue and one invented object destination
+exact operation: produce one package for snapshot SNAPSHOT-31
+logical effect: one reconciled package under effect identity PACKAGE-31
+out of scope: real authorization, real data, storage guarantees, legal basis,
+              security, accessibility, performance, and implementation quality
+
+candidate revision: EXPORT-CANDIDATE-4
+policy revision: POLICY-8
+validation revision: VALIDATION-3
+dependency revision: OBJECT-DESTINATION-6
+
+B. INTENT ENVELOPE AT T0
+------------------------
+
+work ID: WORK-104
+message ID: MESSAGE-882
+operation identity: EXPORT-SNAPSHOT-31
+effect identity: PACKAGE-31
+requested at: T0
+not before: T0
+deadline: T0 + 20 minutes
+minimum completion margin: 6 minutes
+priority class: STANDARD-EXPORT
+cancellation identity: CANCEL-WORK-104
+cancellation state: NOT REQUESTED
+replay classification: RECONCILABLE
+completion test: exact package digest and manifest identity both observed in the
+                 authoritative synthetic destination index
+
+Intent-envelope result: PASS
+Reason: the operation, effect, lifetime, cancellation observation, replay class,
+and completion test are explicit for this synthetic decision.
+Claim limit: PASS describes the recorded envelope only. It does not establish
+that the request is eligible, executable, or complete.
+
+C. STATE SEPARATION AT T0
+------------------------
+
+STORED
+  declared boundary: durable queue record for MESSAGE-882
+  receipt identity: RECEIPT-220
+  result: PASS
+
+VALID
+  checked material: EXPORT-CANDIDATE-4
+  rule revision: VALIDATION-3
+  result: PASS
+
+ELIGIBLE
+  current policy: POLICY-8
+  current intent: present
+  capacity evidence: not yet evaluated
+  result: NOT_TESTED
+
+LEASED
+  attempt identity: none
+  result: NOT_TESTED
+
+COMPLETED
+  observed effect identities: none
+  result: NOT_TESTED
+
+State-separation result: PASS
+Reason: the storage receipt supports STORED only. No later state is inferred.
+
+D. CAPACITY SNAPSHOT PRESENTED AT T1
+------------------------------------
+
+observation identity: CAPACITY-STANDARD-17
+observed at: T1 - 12 minutes
+freshness limit: 2 minutes
+age at decision time: 12 minutes
+work class: STANDARD-EXPORT
+queued items: 3
+queued bytes: 840 synthetic units
+oldest eligible age: 17 minutes
+arrival window: 5 synthetic minutes
+completion window: 5 synthetic minutes
+in flight: 2
+worker limit: 2
+reserved capacity: 0
+expected start delay: unavailable from current evidence
+expected completion duration: unavailable from current evidence
+remaining useful lifetime: 20 synthetic minutes
+remaining margin after expected completion: cannot be calculated
+
+Freshness comparison: FAIL
+  observed age: 12 minutes
+  allowed age: at most 2 minutes
+
+Item-count comparison: PASS against the invented storage limit of 10
+  current count after storage: 4
+  configured storage limit: 10
+
+The count comparison does not repair freshness. A broker can retain another
+item while the execution system lacks current evidence that the item can finish
+inside its useful lifetime.
+
+Capacity result: BLOCKED
+Reason: required capacity evidence is stale, and start delay plus completion
+margin cannot be evaluated from the identified snapshot.
+Recheck trigger: a new STANDARD-EXPORT capacity observation no older than two
+minutes, including current dependency state and expected start delay.
+
+E. ADMISSION DECISION AT T1
+---------------------------
+
+[ ] ADMIT
+[ ] REJECT
+[ ] EXPIRE
+[ ] COALESCE
+[x] HOLD
+
+typed reason: STALE_CAPACITY_EVIDENCE
+storage state: STORED
+validation state: VALID
+eligibility state: BLOCKED
+execution state: NOT STARTED
+hold owner: synthetic admission controller ADMISSION-2
+recheck trigger: fresh CAPACITY-STANDARD observation
+
+Safe claim:
+  MESSAGE-882 is represented as stored and structurally valid. The identified
+  capacity evidence is too old to support execution admission.
+
+Unsupported claims:
+  - the queue has room, therefore the work can finish;
+  - four items are below ten, therefore capacity is available;
+  - the request is queued, therefore it will run; or
+  - HOLD means the operation failed.
+
+F. FRESH OBSERVATION AT T2
+--------------------------
+
+observation identity: CAPACITY-STANDARD-18
+observed at: T2
+age at decision time: 20 seconds
+freshness limit: 2 minutes
+work class: STANDARD-EXPORT
+queued items: 3
+queued bytes: 840 synthetic units
+oldest eligible age: 18 minutes
+in flight: 2
+worker limit: 2
+expected start delay: 16 minutes
+expected completion duration: 5 minutes
+remaining useful lifetime: 20 minutes
+minimum completion margin: 6 minutes
+
+Calculated remaining time at expected start:
+  20 minutes - 16 minutes = 4 minutes
+
+Required margin:
+  6 minutes
+
+Lifetime comparison:
+  4 minutes remaining < 6 minutes required
+  result: FAIL
+
+Capacity freshness: PASS
+Useful-lifetime result: FAIL
+Admission decision: EXPIRE
+Execution state: NOT STARTED
+Completion state: NOT_TESTED
+
+The fresh evidence resolves the observation blocker but does not make the work
+eligible. It supports a narrower terminal decision: the useful lifetime ends
+before the declared completion margin can be preserved.
+
+G. ORACLE RESULT
+----------------
+
+Stale observation detected at T1: PASS
+Missing margin preserved as uncertainty at T1: PASS
+Decision at T1: HOLD
+
+Fresh observation evaluated at T2: PASS
+Insufficient remaining margin detected at T2: PASS
+Decision at T2: EXPIRE
+
+Execution attempted: NOT_TESTED
+Durable package effect: NOT_TESTED
+External package effect: NOT_TESTED
+
+This trace would be unsafe if it admitted from item count alone, treated stale
+measurements as spare capacity, rewrote T1 as an expiry before fresh evidence
+existed, or called an unstarted export failed or completed.
+
+======================================================================
+TRACE 2 — RESPONSE LOST, EXTERNAL EFFECT UNCERTAIN
+======================================================================
+
+QUESTION
+--------
+May a replacement worker retry a consequence-producing request when the first
+attempt sent it to an external destination but no response was observed?
+
+CONTROLLED CONDITION
+--------------------
+
+Begin with one eligible, leased request. Simulate a lost destination response
+without changing the accepted operation, effect identity, policy, or request
+payload. Then compare two reconciliation outcomes without issuing a retry.
+
+A. DECISION ENVELOPE
+--------------------
+
+worksheet identity: EXAMPLE-RECONCILIATION-01
+observed at: synthetic times U0 through U4
+system boundary: one invented package worker and one invented object destination
+exact operation: store package bytes and matching manifest
+logical effect: one package under effect identity PACKAGE-72
+out of scope: a real broker, object store, account, dataset, customer,
+              authorization model, transaction, legal basis, and deployment
+
+candidate revision: PACKAGE-CANDIDATE-9
+policy revision: POLICY-12
+validation revision: VALIDATION-5
+destination revision: OBJECT-DESTINATION-8
+
+B. ACCEPTED INTENT AT U0
+------------------------
+
+work ID: WORK-205
+message ID: MESSAGE-990
+operation identity: STORE-PACKAGE-72
+effect identity: PACKAGE-72
+payload digest: SYNTHETIC-DIGEST-A
+manifest identity: MANIFEST-72
+replay classification: RECONCILABLE
+authoritative effect record: destination index DESTINATION-INDEX-8
+completion test:
+  1. exactly one current object is indexed for PACKAGE-72;
+  2. its digest equals SYNTHETIC-DIGEST-A; and
+  3. its manifest identity equals MANIFEST-72.
+
+Admission decision: ADMIT
+Reason: this invented starting state supplies fresh eligible evidence. ADMIT is
+permission to join eligible demand, not evidence of execution or completion.
+
+C. OWNERSHIP AT U1
+------------------
+
+admission owner: ADMISSION-4
+retry owner: RETRY-3
+execution owner: WORKER-A
+attempt identity: ATTEMPT-1
+lease identity: LEASE-44
+fencing identity: FENCE-101
+lease state: current at U1
+protected local writes: reject fencing identities below the current value
+external destination fencing: unsupported in this synthetic example
+narrowed claim: current local ownership does not prove that duplicate external
+                requests are impossible
+
+Ownership result: PASS for the declared local boundary
+External duplicate-prevention result: BLOCKED
+Reason: the destination does not enforce the worker fence.
+
+D. AMBIGUOUS ATTEMPT AT U2
+--------------------------
+
+Observed sequence:
+  1. ATTEMPT-1 acquired LEASE-44 with FENCE-101.
+  2. ATTEMPT-1 sent candidate PACKAGE-CANDIDATE-9 to the destination.
+  3. No destination response was observed before the request timeout.
+  4. No acknowledgement was recorded for MESSAGE-990.
+  5. LEASE-44 later expired.
+
+Known evidence:
+  request send was recorded locally
+  request payload digest was SYNTHETIC-DIGEST-A
+  destination response is absent
+
+Missing evidence:
+  whether the destination accepted the request
+  whether an object was committed
+  whether the object digest and manifest match
+  whether a duplicate-protection record exists
+
+Attempt result: UNCERTAIN
+Lease state: EXPIRED
+Worker-termination claim: BLOCKED
+Effect state: UNCERTAIN
+Message acknowledgement: NOT RECORDED
+
+A timeout does not establish effect absence. Lease expiry does not establish
+that WORKER-A stopped. A missing acknowledgement can make MESSAGE-990 eligible
+for redelivery without making another external effect safe.
+
+E. RETRY DECISION AT U2
+-----------------------
+
+replacement worker: WORKER-B
+candidate attempt identity: ATTEMPT-2
+candidate fencing identity: FENCE-102
+local ownership if leased: newer than FENCE-101
+prior external effect: UNCERTAIN
+
+Retry eligibility: HOLD
+Typed reason: PRIOR_EFFECT_UNRECONCILED
+Retry owner: RETRY-3
+Recheck trigger: authoritative lookup in DESTINATION-INDEX-8 for PACKAGE-72,
+                 including digest and manifest comparison
+Execution state for ATTEMPT-2: NOT STARTED
+
+Safe claim:
+  a replacement could obtain newer local ownership, but the prior external
+  effect remains uncertain and must be reconciled before another send.
+
+Unsupported claims:
+  - ATTEMPT-1 failed because it timed out;
+  - lease expiry terminated WORKER-A;
+  - redelivery makes ATTEMPT-2 safe;
+  - a newer fence removes an external object; or
+  - no response means no package exists.
+
+F. RECONCILIATION BRANCH A AT U3
+--------------------------------
+
+Synthetic authoritative observation:
+  destination index: DESTINATION-INDEX-8
+  effect identity: PACKAGE-72
+  object count: 1
+  observed digest: SYNTHETIC-DIGEST-A
+  observed manifest identity: MANIFEST-72
+  unresolved differences: none
+
+Completion-test comparison:
+  exact effect identity: PASS
+  exactly one current object: PASS
+  digest match: PASS
+  manifest match: PASS
+
+Terminal state: COMPLETED
+Retry decision: SUPPRESS
+ATTEMPT-2 execution state: NOT STARTED
+Reason: authoritative reconciliation found the complete accepted effect. A
+second consequence-producing send is unnecessary under the declared contract.
+
+Claim limit:
+  The identified destination observation matches the synthetic completion test
+  at U3. It does not prove future durability, hidden side-effect absence, lawful
+  processing, or the behavior of any real destination.
+
+G. RECONCILIATION BRANCH B AT U4
+--------------------------------
+
+This is an alternative invented branch, not a later event in Branch A.
+
+Synthetic authoritative observation:
+  destination index: DESTINATION-INDEX-8
+  effect identity: PACKAGE-72
+  lookup result: unavailable due to destination index outage
+  digest observation: unavailable
+  manifest observation: unavailable
+
+Completion-test comparison:
+  exact effect identity: BLOCKED
+  object count: BLOCKED
+  digest match: BLOCKED
+  manifest match: BLOCKED
+
+Terminal state: UNCERTAIN
+Retry decision: HOLD
+ATTEMPT-2 execution state: NOT STARTED
+Recheck trigger: destination index recovery followed by the same exact lookup
+Reason: inability to observe the destination does not prove effect absence.
+
+This branch remains uncertain even if the queue redelivers the message, the
+replacement worker has a newer fence, and the local attempt table contains no
+completed row. Those are local observations; none authoritatively classifies
+the possible external effect.
+
+H. ORACLE RESULT
+----------------
+
+Lost response preserved as uncertainty: PASS
+Lease expiry kept separate from worker termination: PASS
+New local ownership kept separate from external effect safety: PASS
+Retry held before reconciliation: PASS
+
+Branch A exact effect found: PASS
+Branch A retry suppressed: PASS
+Branch A completion scoped to identified evidence: PASS
+
+Branch B destination unavailable: BLOCKED
+Branch B effect state: UNCERTAIN
+Branch B retry remains held: PASS
+
+Second external request sent: NOT_TESTED
+Duplicate effect created: NOT_TESTED
+Compensation attempted: NOT_TESTED
+
+This trace would be unsafe if it converted timeout into failure, used a new
+lease as proof of external safety, retried while the prior effect was uncertain,
+or called an unavailable reconciliation lookup evidence of effect absence.
+
+======================================================================
+CROSS-TRACE REVIEW
+======================================================================
+
+Trace 1 isolates admission evidence:
+  stored: PASS
+  valid: PASS
+  capacity observation at T1: BLOCKED by staleness
+  admission at T1: HOLD
+  fresh lifetime comparison at T2: FAIL
+  admission at T2: EXPIRE
+
+Trace 2 isolates retry evidence:
+  initial admission: ADMIT
+  first request send: observed
+  first external outcome: UNCERTAIN
+  replacement local ownership: available but not effect authority
+  retry before reconciliation: HOLD
+  exact reconciled effect: COMPLETED and SUPPRESS
+  unavailable reconciliation: UNCERTAIN and HOLD
+
+Compact questions:
+  [ ] Were STORED, VALID, ELIGIBLE, LEASED, and COMPLETED kept separate?
+  [ ] Did stale evidence remain stale rather than become free capacity?
+  [ ] Were deadline and minimum completion margin evaluated independently?
+  [ ] Did every HOLD name an owner and a recheck trigger?
+  [ ] Were message, attempt, operation, and logical effect identities separated?
+  [ ] Was lease expiry kept separate from worker termination?
+  [ ] Was local fencing kept separate from unsupported external fencing?
+  [ ] Did timeout remain distinct from effect absence?
+  [ ] Was authoritative reconciliation required before retry?
+  [ ] Were BLOCKED, NOT_TESTED, EXPIRE, and UNCERTAIN retained accurately?
+
+BOUNDARIES
+----------
+These examples are original operational guidance by Alfred, an AI assistant.
+They do not prove that a real queue is durable, a capacity estimate is sound, a
+worker stops after lease loss, a destination enforces idempotency, an operation
+is authorized or lawful, a retry is safe, or any durable or external effect
+completed. Real consequence-bearing systems may require broker-specific
+delivery analysis, destination-specific duplicate protection, transactions,
+outboxes, access controls, retention rules, security and privacy review, load
+testing, legal review, accessibility review, and domain-specific safeguards.
