@@ -1,0 +1,308 @@
+TEST FIXTURE FAILURE-ORACLE WORKSHEET
+Reusable decision record for sample data and controlled mutations
+
+Written by Alfred, an AI assistant.
+Original text-only worksheet. No third-party media or customer data.
+
+PURPOSE
+Turn sample data into a scoped test contract. Complete expectations before
+observing the implementation. Keep format validity, product acceptance,
+preservation, and recovery as separate results.
+
+Do not use a blank worksheet as evidence. A completed worksheet is still only
+as strong as its candidate identity, procedure, observations, and comparison.
+
+======================================================================
+A. DECISION ENVELOPE
+======================================================================
+
+worksheet revision:
+reviewer role (optional, no personal details):
+observed at (include timezone):
+implementation revision:
+execution environment:
+
+fixture identity:
+  filename or neutral label:
+  immutable digest or revision:
+  byte length:
+  provenance / rights basis:
+
+condition under test:
+  one decision-relevant rule or interaction:
+
+setup:
+  parser / importer mode:
+  schema or rule-set revision:
+  locale and timezone:
+  feature flags:
+  starting-state revision:
+  other frozen inputs:
+
+out of scope:
+
+======================================================================
+B. EXPECTATION — FREEZE BEFORE THE RUN
+======================================================================
+
+expected interpretation:
+  normalized records:
+  warnings:
+  conflicts:
+  proposed effects:
+
+forbidden outcomes:
+  [ ] silent identity merge
+  [ ] silent identifier coercion
+  [ ] invented default
+  [ ] omitted or hidden rejected record
+  [ ] preview / commit mismatch
+  [ ] durable effect after rejection
+  [ ] duplicate effect after retry
+  [ ] other:
+
+failure oracle:
+  If the targeted assumption is broken, the smallest decision-relevant
+  observation that must make this lane fail is:
+
+expected rejection or hold reason (if applicable):
+
+preservation rule:
+  source material that must remain unchanged:
+  starting state that must remain unchanged:
+  proposal state that must remain unchanged:
+  durable effects that must not occur:
+
+allowable variation:
+  List only differences that may vary without changing the decision.
+
+comparison points:
+  [ ] received-byte record
+  [ ] parsed-row ledger
+  [ ] normalized-record ledger
+  [ ] warning / conflict ledger
+  [ ] proposal diff
+  [ ] rejected-row set
+  [ ] durable-effect ledger
+  [ ] retry / deduplication record
+  [ ] unchanged-state snapshot
+  [ ] typed final decision and reason
+  [ ] other:
+
+======================================================================
+C. LAYER RESULTS
+======================================================================
+
+Use only PASS, FAIL, BLOCKED, NOT TESTED, or SUPERSEDED.
+A pass applies only to the identified fixture, setup, procedure, and lane.
+
+transport
+  expected:
+  observed:
+  evidence:
+  result:
+
+syntax
+  expected:
+  observed:
+  evidence:
+  result:
+
+shape
+  expected:
+  observed:
+  evidence:
+  result:
+
+interpretation
+  expected:
+  observed:
+  evidence:
+  result:
+
+policy
+  expected:
+  observed:
+  evidence:
+  result:
+
+proposal / preview
+  expected:
+  observed:
+  evidence:
+  result:
+
+effect / commit
+  expected:
+  observed:
+  evidence:
+  result:
+
+recovery / retry
+  expected:
+  observed:
+  evidence:
+  result:
+
+======================================================================
+D. REJECTION PLUS PRESERVATION
+======================================================================
+
+Was the declared rejection / hold produced?       result:
+Did it identify the intended condition?           result:
+Were all prohibited durable effects absent?       result:
+Was the starting state reconciled independently?  result:
+Were source bytes preserved?                      result:
+Was an accepted proposal identity avoided?        result:
+
+Do not mark preservation PASS because an error appeared. Compare the named
+state and effect surfaces. If a required surface is unavailable, use BLOCKED.
+
+======================================================================
+E. CONTROLLED MUTATION RECORD
+======================================================================
+
+base fixture identity:
+base expected decision:
+
+mutation identity:
+exact edit:
+intended single condition:
+new immutable digest or revision:
+expected interpretation change:
+expected decision change:
+forbidden collateral change:
+
+Did the mutation remain scoped?                    result:
+Did any unrelated layer change?                    result:
+Evidence:
+
+One byte changed does not necessarily mean one semantic condition changed.
+Inspect the resulting parse and interpretation before calling a mutation
+controlled.
+
+======================================================================
+F. PREVIEW-TO-COMMIT CONTINUITY
+======================================================================
+
+source digest:
+parser / rule-set revision:
+normalized proposal digest:
+starting-state revision:
+accepted proposal identity:
+commit receipt identity:
+
+[ ] Commit candidate used the reviewed source digest.
+[ ] Commit candidate used the reviewed rule-set revision.
+[ ] Commit candidate used the reviewed starting-state revision.
+[ ] Commit candidate used the accepted proposal identity.
+[ ] Applied effects were reconciled against the accepted proposal.
+[ ] An uncertain response was reconciled before retry.
+
+continuity result:
+continuity evidence:
+
+A matching digest establishes identity only for the hashed material. It does
+not prove semantic correctness, rights, usability, security, or effect parity.
+
+======================================================================
+G. FAILURE-SHAPED TRANSITIONS
+======================================================================
+
+For each relevant row, record expected decision, observation, evidence, and
+one allowed result state.
+
+1. source bytes change after preview
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+2. parser or rules change after preview
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+3. starting state changes after preview
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+4. proposal expires
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+5. a different proposal identity reaches commit
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+6. process stops after staging but before durable effect
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+7. commit response is uncertain, then retry is considered
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+8. accepted commit is deliberately replayed
+   expected decision:
+   observed:
+   evidence:
+   result:
+
+======================================================================
+H. FINAL DECISION
+======================================================================
+
+required lanes:
+non-pass lanes:
+conflicting evidence:
+unresolved preservation question:
+superseded evidence:
+
+final decision — choose one:
+  [ ] PROCEED — every required lane passed for this scope
+  [ ] HOLD — evidence is blocked, incomplete, stale, or awaiting review
+  [ ] REJECT — an expectation failed or a forbidden outcome occurred
+
+reason:
+claim this record supports:
+claims this record does not support:
+next recheck trigger:
+
+======================================================================
+I. COMPLETION CHECK
+======================================================================
+
+[ ] Exact fixture bytes or revision are identified.
+[ ] One primary condition under test is named.
+[ ] Setup and starting state are frozen.
+[ ] Expected interpretation was written before observation.
+[ ] Forbidden silent transformations and effects are listed.
+[ ] The smallest useful failure oracle is explicit.
+[ ] Rejection and unchanged-state evidence are both checked.
+[ ] All eight result layers remain separate.
+[ ] Controlled mutations were inspected for unintended semantic changes.
+[ ] Preview and commit identities are bound where relevant.
+[ ] Interruption, stale proposal, and retry paths are covered where relevant.
+[ ] FAIL, BLOCKED, NOT TESTED, and SUPERSEDED remain visible.
+[ ] Actual results were not copied into missing expected values.
+[ ] Evidence locations are named without secrets or personal information.
+[ ] The conclusion is limited to the identified candidate and observation.
+
+BOUNDARIES
+This worksheet does not prove coverage of every valid or invalid input,
+security, accessibility, legal compliance, production safety, or suitability
+for high-consequence decisions. Synthetic fixtures do not reproduce every
+real-data distribution, ambiguity, scale, or history. Review the expected
+behavior with appropriate domain expertise where consequences require it.

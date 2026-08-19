@@ -1,0 +1,273 @@
+VERIFICATION EXPIRY WORKSHEET — TWO SYNTHETIC WORKED EXAMPLES
+Original operational examples by Alfred, an AI assistant
+
+Purpose
+-------
+These examples show how to preserve a historical observation while changing
+whether it may support a current decision. They represent no real release,
+person, customer, account, provider, destination, or business result.
+
+The examples test two different expiry paths:
+1. identified candidate bytes change after a passing observation;
+2. the candidate stays unchanged, but destination evidence exceeds its declared
+   action window.
+
+The labels below are filled only for these synthetic scenarios. They are not
+evidence that any real check ran, passed, or authorized publication.
+
+RESULT VOCABULARY USED
+----------------------
+PASS         The named check passed for its identified subject and scope.
+FAIL         The named check found a defect in that subject and scope.
+BLOCKED      The check could not be completed.
+NOT TESTED   The lane was outside the performed scope.
+SUPERSEDED   The observation remains historical evidence but may no longer
+             authorize the current decision.
+
+======================================================================
+EXAMPLE 1 — CANDIDATE BYTES CHANGE AFTER A PASS
+======================================================================
+
+A. DECISION ENVELOPE
+--------------------
+Decision ID: synthetic-candidate-change-1
+Decision to make: accept one article and one original vector card
+Permitted action if eligible: advance the exact bundle to release review
+Decision owner or role: synthetic release reviewer
+Destination or operating context: unnamed synthetic static-site destination
+Required evidence lanes: privacy, rights, render, metadata, destination
+Consequence if stale evidence is accepted: a replacement card could inherit
+  results that apply only to the earlier bytes
+
+B. SUBJECT IDENTITY AT THE OBSERVATION
+--------------------------------------
+Candidate revision: demo-8
+Article digest: sha256:<demo-article-digest-a>
+Card digest: sha256:<demo-card-digest-a>
+Included routes or objects: one article; one SVG card
+Excluded routes or objects: provider-generated preview; third-party caches
+Build or generation identity: synthetic-build-a
+Destination identity: unnamed synthetic route
+
+C. VERIFICATION RECORD — PRIVACY LANE
+-------------------------------------
+Lane name: privacy
+Named procedure and version: synthetic public-bundle privacy scan v1
+Exact subject: demo-8 article and card digests listed above
+Included scope: article text and metadata; filenames; SVG text, title, and
+  description
+Explicit exclusions: raster OCR; provider-generated preview; third-party caches
+Observation result: PASS
+Observed at, including timezone: 2030-01-02T09:00:00+00:00
+Evidence location or receipt: synthetic receipt privacy-demo-8-a
+Decision this result may support: release review of the identified demo-8 bytes
+Assumptions: both digests remain unchanged; scope and privacy rules remain fixed
+Event-based invalidators: either digest changes; scope changes; privacy rules
+  change; destination changes; conflicting evidence arrives
+Time-bound condition: none for the immutable local-byte observation
+Conflicting evidence check at observation: none in the synthetic record
+Current evidence state at 09:00: eligible
+State reason: subject, scope, procedure, and assumptions match the observation
+Named recheck required at 09:00: none
+
+D. INVALIDATOR EVENT
+--------------------
+Event observed at 2030-01-02T09:08:00+00:00:
+  The card footer changes. Its digest becomes
+  sha256:<demo-card-digest-b>. The article digest is unchanged.
+
+Invalidator review after the event:
+YES — Candidate bytes changed.
+NO  — No route entered or left the bundle.
+NO  — The validator, rule set, and acceptance criteria did not change.
+NO  — The build process did not change.
+NO  — The destination identity did not change.
+NO  — No provider regeneration was observed.
+NO  — Discovery records did not change.
+NO  — No credential, ownership, recovery, or identity event occurred.
+YES — A replacement revision is now proposed.
+NO  — No independent conflicting report arrived.
+NO  — No declared time window expired.
+NO  — The candidate change is directly observable by digest comparison.
+
+E. LANE IMPACT REVIEW
+---------------------
+Change event: card footer changed
+privacy:     RECHECK — changed SVG text is inside the recorded scope
+rights:      REVIEW  — confirm the changed footer adds no new rights dependency
+render:      RECHECK — inspect the replacement card rendering
+metadata:    REVIEW  — confirm accessible text and references still agree
+Destination: RECHECK — required only if the replacement is later served
+
+SAME is not used for the privacy or render lanes because their identified card
+subject changed. The article may remain unchanged, but release acceptance covers
+the combined bundle rather than transferring approval to replacement bytes.
+
+F. DECISION CHECK AFTER THE EVENT
+---------------------------------
+NO  — Current candidate identity matches every relied-on record.
+YES — Every required lane has a historical record for demo-8 revision A.
+NO  — Those records do not all cover revision B.
+YES — Explicit exclusions remain visible.
+NO  — The card-digest invalidator is unresolved.
+YES — No declared time condition expired.
+YES — No separate conflicting evidence is unresolved.
+YES — Provider-generated preview remains visibly NOT TESTED.
+NO  — Required privacy and render rechecks have not run for revision B.
+N/A — Destination timing is not the current blocker.
+
+Decision state: HOLD
+Decision reason: the card digest no longer matches the subject of the passing
+  privacy observation
+Relied-on evidence IDs: privacy-demo-8-a as historical evidence only
+Unresolved exclusions: provider-generated preview; third-party caches
+Next named checks: privacy and rendering checks for card digest B, rights and
+  metadata impact reviews, then required release-wide consistency checks
+Recorded at: 2030-01-02T09:09:00+00:00
+
+Interpretation
+--------------
+The 09:00 PASS is not rewritten as FAIL. It remains a passing observation for
+revision A and becomes SUPERSEDED for acceptance of revision B. The HOLD is a
+current decision state, not a claim that the earlier procedure malfunctioned.
+
+======================================================================
+EXAMPLE 2 — DESTINATION EVIDENCE EXPIRES WHILE BYTES STAY UNCHANGED
+======================================================================
+
+A. DECISION ENVELOPE
+--------------------
+Decision ID: synthetic-destination-window-2
+Decision to make: begin a named release action for an exact static bundle
+Permitted action if eligible: act only within the declared destination window
+Decision owner or role: synthetic release reviewer
+Destination or operating context: unnamed mutable public route
+Required evidence lanes: candidate identity, privacy, rights, metadata,
+  destination retrieval
+Consequence if stale evidence is accepted: the route could change between the
+  observation and the action without a fresh destination check
+
+B. SUBJECT IDENTITY
+-------------------
+Candidate revision: demo-12
+Bundle digest: sha256:<demo-bundle-digest-c>
+Included routes or objects: one article route; one original card route
+Excluded routes or objects: regional caches not reached by the declared request
+Build or generation identity: synthetic-build-c
+Destination identity: unnamed synthetic HTTPS origin and exact two routes
+
+C. VERIFICATION RECORD — DESTINATION LANE
+-----------------------------------------
+Lane name: destination retrieval
+Named procedure and version: synthetic logged-out route check v2
+Exact subject: the two named routes serving demo-12 bundle digest C
+Included scope: HTTPS status; expected revision marker; AI-assistant disclosure;
+  article-to-card link; bytes returned by the declared retrieval
+Explicit exclusions: continued availability; all regions; archives; future
+  provider processing; third-party previews
+Observation result: PASS
+Observed at, including timezone: 2030-01-02T10:00:00+00:00
+Evidence location or receipt: synthetic receipt destination-demo-12-c
+Decision this result may support: begin the named release action only if it
+  starts no later than 2030-01-02T10:15:00+00:00
+Assumptions: destination identity and route contents do not change; no
+  conflicting evidence arrives; the action starts inside the 15-minute window
+Event-based invalidators: host, route, visibility, served revision, access, or
+  expected-content change; provider regeneration; conflicting retrieval
+Time-bound condition: action must start by 10:15:00+00:00
+Conflicting evidence check at observation: none in the synthetic record
+Current evidence state at 10:00: eligible
+State reason: the declared route check passed and the action window is open
+Named recheck required at 10:00: none
+
+D. EXPIRY EVENT
+---------------
+Event observed at 2030-01-02T10:16:00+00:00:
+  No candidate, route, scope, procedure, or known destination change occurred,
+  but the action did not begin before the declared 10:15 deadline.
+
+Invalidator review after the event:
+NO  — Candidate bytes changed.
+NO  — A route, surface, or exclusion changed.
+NO  — The procedure or acceptance criteria changed.
+NO  — A dependency or build process changed.
+NO  — A host, route, visibility, account, or authorization change was observed.
+NO  — Provider regeneration was observed.
+NO  — Discovery changed.
+NO  — A credential or ownership event occurred.
+NO  — Rollback or replacement was observed.
+NO  — Conflicting evidence arrived.
+YES — The declared destination window expired.
+YES — Unobserved destination change remains possible because the route is
+  mutable and the prior observation is outside its action window.
+
+E. LANE IMPACT REVIEW
+---------------------
+Change event: destination action window expired
+privacy:     SAME    — only for the unchanged identified local bytes and rules
+rights:      SAME    — only for the unchanged identified sources and scope
+render:      REVIEW  — local result remains scoped; served output may be mutable
+metadata:    REVIEW  — local metadata is unchanged; served revision needs proof
+Destination: RECHECK — repeat the named logged-out route procedure
+
+SAME does not mean the complete release remains eligible. It applies only to a
+lane whose identified subject and assumptions demonstrably remain unchanged.
+The destination lane independently expires and blocks the named action.
+
+F. DECISION CHECK AT 10:16
+--------------------------
+YES — Candidate identity matches the immutable local records.
+YES — Every required lane has a record.
+NO  — The destination record no longer covers the current action time.
+YES — Explicit exclusions remain visible.
+NO  — The time-window invalidator is unresolved.
+NO  — The destination time-bound condition remains eligible.
+YES — No separate conflicting evidence is unresolved.
+YES — Regional caches and future availability remain explicit exclusions.
+NO  — The required destination recheck has not run.
+NO  — Destination evidence is close enough to the action under the policy.
+
+Decision state: HOLD
+Decision reason: the destination observation expired at 10:15
+Relied-on evidence IDs: immutable local-lane records remain eligible for their
+  narrow subjects; destination-demo-12-c is expired for the current action
+Unresolved exclusions: mutable route after 10:00; unreached regional caches;
+  future provider processing
+Next named check: repeat synthetic logged-out route check v2 immediately before
+  reconsidering the action
+Recorded at: 2030-01-02T10:16:00+00:00
+
+G. SYNTHETIC RECHECK
+--------------------
+At 2030-01-02T10:18:00+00:00, the named destination procedure is repeated for
+exactly the same candidate, destination, routes, scope, and exclusions.
+Synthetic recheck result: PASS
+New action window: through 2030-01-02T10:33:00+00:00
+Conflicting evidence: none in the synthetic record
+Candidate identity: unchanged
+Decision state after checking every required lane: PROCEED
+Decision reason: all required lane records are eligible for the exact candidate,
+destination, action, and declared 10:18–10:33 window
+
+This PROCEED label belongs only to the synthetic decision envelope. It does not
+prove publication, continued availability, complete cache coverage, universal
+privacy, legal compliance, a user outcome, or a business result.
+
+COMPACT LESSONS
+---------------
+- Preserve the historical observation; change its eligibility for the decision.
+- Bind every result to an exact subject, scope, procedure, and permitted action.
+- Treat a digest mismatch as an event invalidator, not ordinary clock expiry.
+- Treat a mutable destination window as independent from immutable local bytes.
+- Use SAME only for a lane whose subject and assumptions demonstrably persist.
+- Carry exclusions, BLOCKED lanes, and NOT TESTED lanes into every decision.
+- Name the exact recheck required; do not hide uncertainty behind “stale.”
+- A recheck can restore eligibility only for its declared subject and window.
+
+Rights and provenance
+---------------------
+These filled examples, record structures, decision traces, and compact lessons
+are original work by Alfred, an AI assistant. They use placeholder identities
+and contain no third-party media, customer material, personal attribution,
+account data, audience metric, actual publication record, or claimed business
+result.

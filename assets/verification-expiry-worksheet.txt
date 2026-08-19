@@ -1,0 +1,147 @@
+VERIFICATION EXPIRY WORKSHEET
+A reusable decision record by Alfred, an AI assistant
+
+Purpose
+-------
+Use this worksheet to decide whether an earlier check still supports a named
+action. It is a record template, not proof that any check ran or passed.
+
+Keep the historical observation unchanged. If a later event breaks an
+assumption, change the evidence state for the current decision rather than
+rewriting the old result.
+
+RESULT VOCABULARY
+-----------------
+PASS         The named check passed for its identified subject and scope.
+FAIL         The named check found a defect in that subject and scope.
+BLOCKED      The check could not be completed.
+NOT TESTED   The lane was outside the performed scope.
+SUPERSEDED   The observation remains historical evidence but may no longer
+             authorize the current decision.
+
+A. DECISION ENVELOPE
+--------------------
+Decision ID:
+Decision to make:
+Permitted action if eligible:
+Decision owner or role:
+Destination or operating context:
+Required evidence lanes:
+Consequence if stale evidence is accepted:
+
+B. SUBJECT IDENTITY
+-------------------
+Candidate revision:
+Immutable digest(s):
+Included routes or objects:
+Excluded routes or objects:
+Build or generation identity:
+Destination identity, if relevant:
+
+C. VERIFICATION RECORD — COPY ONCE PER LANE
+-------------------------------------------
+Lane name:
+Named procedure and version:
+Exact subject:
+Included scope:
+Explicit exclusions:
+Observation result: PASS | FAIL | BLOCKED | NOT TESTED
+Observed at, including timezone:
+Evidence location or receipt:
+Decision this result may support:
+Assumptions:
+Event-based invalidators:
+Time-bound condition, if any:
+Conflicting evidence check:
+Current evidence state: eligible | superseded | expired | conflicted | incomplete
+State reason:
+Named recheck required:
+
+D. INVALIDATOR REVIEW
+---------------------
+For each row, record YES, NO, or UNCERTAIN. YES and UNCERTAIN require review;
+they do not silently inherit the old approval.
+
+[ ] Candidate bytes changed:
+[ ] A file, route, surface, or exclusion changed:
+[ ] Validator, rule set, rights basis, or acceptance criteria changed:
+[ ] Dependency, template, codec, build tool, or generation process changed:
+[ ] Host, route, repository, visibility, account, or authorization changed:
+[ ] Provider regenerated, transcoded, compressed, or injected content:
+[ ] Navigation, feed, sitemap, crawler policy, canonical URL, or preview changed:
+[ ] Credential, ownership, recovery, or identity event occurred:
+[ ] Rollback, replacement, or unexpected revision was observed:
+[ ] New evidence conflicts with the accepted result:
+[ ] A declared time window expired:
+[ ] An invalidator cannot be observed confidently:
+
+E. LANE IMPACT MATRIX
+---------------------
+Use RECHECK when the procedure must run again, REVIEW when impact requires a
+human or policy decision, SAME only when subject and assumptions demonstrably
+remain unchanged, and N/A only when the lane is outside the declared decision.
+
+Change event:                 privacy  rights  render  metadata  destination
+Candidate text changed:       _______  ______  ______  ________  ___________
+Original media replaced:      _______  ______  ______  ________  ___________
+Caption timing changed:       _______  ______  ______  ________  ___________
+Discovery record changed:     _______  ______  ______  ________  ___________
+Host or route changed:        _______  ______  ______  ________  ___________
+Provider regenerated media:   _______  ______  ______  ________  ___________
+Other: ____________________    _______  ______  ______  ________  ___________
+
+F. DECISION CHECK
+-----------------
+[ ] Current candidate identity matches every relied-on record.
+[ ] Every required evidence lane has a current record.
+[ ] Each record covers this decision and destination.
+[ ] Explicit exclusions remain visible.
+[ ] No invalidator is unresolved.
+[ ] Every time-bound condition remains eligible.
+[ ] No conflicting evidence is unresolved.
+[ ] BLOCKED and NOT TESTED lanes are carried into the decision.
+[ ] Required rechecks completed against the current subject.
+[ ] Destination evidence is close enough to the action for the declared policy.
+
+Decision state: PROCEED | HOLD | REJECT
+Decision reason:
+Relied-on evidence IDs:
+Unresolved exclusions:
+Next named check:
+Recorded at, including timezone:
+
+SYNTHETIC MINI-EXAMPLE
+----------------------
+This example represents no real release, person, customer, or destination.
+
+Decision ID: demo-release-8
+Decision to make: accept one article and one original vector card
+Candidate revision: demo-8
+Article digest: sha256:<article-digest>
+Card digest: sha256:<card-digest>
+Privacy observation: PASS for demo-8 text, metadata, filenames, and SVG text
+Explicit exclusion: provider-generated preview was NOT TESTED
+Invalidators: either digest changes; a file enters or leaves the bundle;
+              metadata, privacy rules, destination, or provider output changes
+
+Event: the card footer changes after the observation.
+Historical result: preserve the original PASS for demo-8.
+Current evidence state: SUPERSEDED for acceptance of the changed bundle.
+Reason: the identified card digest no longer matches.
+Named rechecks: privacy and rendering checks for the new card, followed by every
+                release-wide consistency check required by the decision policy.
+Decision state: HOLD until those checks produce eligible evidence.
+
+BOUNDARIES
+----------
+A digest can identify bytes; it does not prove privacy, rights, quality,
+accessibility, or destination behavior. A recent timestamp does not repair a
+subject, scope, procedure, or destination mismatch. A provider success state
+does not replace retrieval and inspection of the served result. Selective
+rechecking is safe only when unchanged lanes and assumptions can be shown;
+higher-consequence work may require a complete review after material change.
+
+Rights and provenance: This worksheet, vocabulary, matrix, checklist, and
+synthetic example are original work by Alfred, an AI assistant. They contain no
+third-party media, customer material, personal attribution, account data,
+audience metric, or claimed business result.

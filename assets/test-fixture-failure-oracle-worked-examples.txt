@@ -1,0 +1,316 @@
+TEST FIXTURE FAILURE-ORACLE WORKED EXAMPLES
+Original method companion by Alfred, an AI assistant
+
+PURPOSE
+These filled examples show how to use a failure oracle without turning a
+realistic-looking fixture into vague approval evidence. They exercise two
+different failure shapes:
+
+1. a duplicate opaque identifier must produce an inspectable rejection while
+   preserving state; and
+2. a proposal reviewed from one fixture revision must not authorize a changed
+   revision at commit time.
+
+Everything below is synthetic. The records, identifiers, revisions, digests,
+observations, decisions, and systems are explanatory placeholders. They do not
+represent a person, customer, account, order, production incident, publication,
+or measured product result. The examples document method use; they are not
+proof that a real implementation was tested.
+
+State vocabulary used here:
+  PASS         expectation held for the named fixture, condition, and lane
+  FAIL         observation contradicted the frozen expectation
+  BLOCKED      required observation could not be completed
+  NOT TESTED   lane was outside the declared run
+  SUPERSEDED   result belongs to an earlier fixture, rules, proposal, or state
+
+==========================================================================
+EXAMPLE 1 — DUPLICATE OPAQUE IDENTIFIER
+==========================================================================
+
+A. DECISION ENVELOPE
+
+record identity: synthetic-duplicate-opaque-id-example-v1
+fixture identity: fixture-synthetic-dup-v1
+fixture digest: sha256:EXAMPLE-DIGEST-NOT-A-REAL-HASH-001
+implementation revision: importer-example-r7
+rule-set revision: rules-example-r3
+starting-state revision: state-empty-example-r2
+primary condition: duplicate opaque identifier inside one candidate
+included lanes: transport, syntax, shape, interpretation, policy, proposal,
+                effect preservation
+excluded lanes: recovery after interruption; retry after uncertain response
+
+B. FIXTURE BYTES AS REVIEWED
+
+record_id,label,quantity
+0042,Sample alpha,2
+0043,Sample beta,1
+0043,Sample beta revised,3
+
+C. EXPECTATIONS FROZEN BEFORE OBSERVATION
+
+Setup:
+- comma delimiter and required header row
+- record_id is text, not a number
+- record_id must be unique within one candidate
+- preview is required before commit
+- starting durable state contains no fixture records
+
+Expected interpretation:
+- three syntactically valid rows
+- identifiers remain exactly 0042, 0043, and 0043
+- one duplicate conflict points to both source rows containing 0043
+
+Forbidden outcomes:
+- convert 0042 to 42
+- silently keep either duplicate row
+- silently merge the two duplicate rows
+- report an accepted proposal
+- create any durable fixture record
+
+Failure oracle:
+The candidate is rejected with reason DUPLICATE_IDENTITY; the conflict ledger
+identifies both source rows for 0043; no accepted proposal identity is created;
+and the durable fixture-record count remains zero.
+
+Preservation rule:
+The source bytes, starting durable state, existing values, and accepted-proposal
+ledger remain unchanged.
+
+Comparison points:
+- received-byte digest
+- parsed-row ledger
+- normalized-record ledger
+- conflict ledger
+- proposal state
+- durable effect ledger
+- before/after fixture-record count
+
+D. OBSERVATIONS FROM THE SYNTHETIC TRACE
+
+transport:
+  observation: received digest equals the declared fixture digest placeholder
+  result: PASS
+
+syntax:
+  observation: header and three data rows parsed
+  result: PASS
+
+shape:
+  observation: all required columns are present; quantity values are integers
+  result: PASS
+
+identifier preservation:
+  observation: normalized identifiers are 0042, 0043, and 0043
+  result: PASS
+
+uniqueness policy:
+  observation: a DUPLICATE_IDENTITY conflict names source rows 3 and 4
+  result: PASS
+
+proposal:
+  observation: final proposal state is REJECTED; no accepted proposal identity
+               exists
+  result: PASS
+
+effect preservation:
+  observation: fixture-record count is zero before and zero after; durable
+               effect ledger is empty
+  result: PASS
+
+recovery after interruption:
+  observation: outside this run
+  result: NOT TESTED
+
+retry after uncertain response:
+  observation: outside this run
+  result: NOT TESTED
+
+E. ORACLE COMPARISON
+
+Expected rejection reason: DUPLICATE_IDENTITY
+Observed synthetic reason: DUPLICATE_IDENTITY
+Expected conflict rows: both rows containing 0043
+Observed synthetic rows: source rows 3 and 4
+Expected accepted proposal: none
+Observed synthetic accepted proposal: none
+Expected durable fixture-record count: zero
+Observed synthetic fixture-record count: zero
+
+Targeted oracle outcome: PASS
+Complete importer approval: NOT ESTABLISHED
+Decision: PROCEED only with the narrow claim that this synthetic trace satisfies
+the declared duplicate-identity rejection and preservation oracle. HOLD any
+claim about interruption, retry, other malformed inputs, scale, accessibility,
+security, or real-data distributions because those lanes were not tested.
+
+Why this is useful:
+A parser-only assertion would have passed before the decision-relevant rule ran.
+A rejection-only assertion could have hidden an earlier write. The combined
+conflict, proposal, and unchanged-state observations support a narrow conclusion
+without treating unrelated lanes as passing.
+
+==========================================================================
+EXAMPLE 2 — STALE PROPOSAL AFTER A FIXTURE CHANGE
+==========================================================================
+
+A. DECISION ENVELOPE
+
+record identity: synthetic-stale-proposal-example-v1
+base fixture identity: fixture-synthetic-clean-v1
+base fixture digest: sha256:EXAMPLE-DIGEST-NOT-A-REAL-HASH-002
+changed fixture identity: fixture-synthetic-clean-v2
+changed fixture digest: sha256:EXAMPLE-DIGEST-NOT-A-REAL-HASH-003
+implementation revision: importer-example-r7
+rule-set revision: rules-example-r3
+starting-state revision: state-empty-example-r2
+primary condition: commit must apply only the exact proposal that was reviewed
+included lanes: identity, preview, proposal continuity, commit rejection,
+                effect preservation
+excluded lanes: semantic correctness of every normalized field; retry after an
+                uncertain provider response
+
+B. BASE FIXTURE REVIEWED FOR PREVIEW
+
+record_id,label,quantity
+0042,Sample alpha,2
+0043,Sample beta,1
+0044,Sample gamma,3
+
+The synthetic preview record binds:
+- source digest: EXAMPLE-DIGEST-NOT-A-REAL-HASH-002
+- rule-set revision: rules-example-r3
+- starting-state revision: state-empty-example-r2
+- normalized proposal digest: EXAMPLE-PROPOSAL-NOT-A-REAL-HASH-010
+- accepted proposal identity: proposal-example-010
+
+C. CONTROLLED MUTATION BEFORE COMMIT
+
+Only one source value is intentionally changed:
+
+before: 0044,Sample gamma,3
+after:  0044,Sample gamma,4
+
+The changed bytes create fixture-synthetic-clean-v2 and source digest
+EXAMPLE-DIGEST-NOT-A-REAL-HASH-003. No replacement preview or accepted proposal
+is created before the synthetic commit attempt.
+
+D. EXPECTATIONS FROZEN BEFORE OBSERVATION
+
+Expected interpretation:
+- the earlier preview remains historical evidence for base fixture v1
+- it does not authorize changed fixture v2
+- commit receives proposal-example-010 plus changed fixture v2
+
+Forbidden outcomes:
+- apply proposal-example-010 to changed fixture v2
+- silently regenerate a proposal during commit
+- reuse the v1 acceptance as approval for v2
+- write quantity 3 or quantity 4 for any fixture record
+- describe the stale v1 preview as current approval
+
+Failure oracle:
+Commit is rejected with reason STALE_PROPOSAL before any durable effect. The
+receipt identifies the expected v1 source digest and the received v2 source
+digest. The accepted v1 proposal record remains preserved as historical evidence
+and is marked SUPERSEDED for decisions about v2.
+
+Preservation rule:
+Starting durable state remains unchanged, no commit receipt claims success, and
+no replacement proposal identity is invented.
+
+Comparison points:
+- source digest supplied to preview
+- source digest supplied to commit
+- accepted proposal identity and bound inputs
+- rejection receipt
+- durable effect ledger
+- before/after fixture-record count
+
+E. OBSERVATIONS FROM THE SYNTHETIC TRACE
+
+base fixture identity at preview:
+  observation: preview record binds the v1 digest
+  result: PASS
+
+changed fixture identity at commit:
+  observation: commit request carries the distinct v2 digest
+  result: PASS
+
+proposal continuity:
+  observation: proposal-example-010 is bound to v1, not v2
+  result: FAIL for continuity, as intentionally induced by the mutation
+
+commit policy:
+  observation: request is rejected with STALE_PROPOSAL before apply
+  result: PASS
+
+rejection detail:
+  observation: receipt names the expected v1 and received v2 digest placeholders
+  result: PASS
+
+effect preservation:
+  observation: fixture-record count is zero before and zero after; durable
+               effect ledger is empty
+  result: PASS
+
+replacement preview:
+  observation: no v2 preview was requested
+  result: NOT TESTED
+
+v1 preview authority for v2:
+  observation: the v1 record remains historically valid but does not match v2
+  result: SUPERSEDED
+
+retry after uncertain response:
+  observation: outside this run
+  result: NOT TESTED
+
+F. ORACLE COMPARISON
+
+Expected commit decision: REJECT with STALE_PROPOSAL
+Observed synthetic decision: REJECT with STALE_PROPOSAL
+Expected durable fixture-record count: zero
+Observed synthetic fixture-record count: zero
+Expected replacement proposal: none
+Observed synthetic replacement proposal: none
+Expected state of v1 preview for a v2 decision: SUPERSEDED
+Observed synthetic state: SUPERSEDED
+
+Targeted oracle outcome: PASS
+Changed candidate approval: NOT ESTABLISHED
+Decision: HOLD changed fixture v2. A fresh preview against the exact v2 bytes,
+current rules, and current starting state is required before any later commit
+could be considered. The earlier v1 observations remain useful historical
+evidence but cannot be relabeled as v2 approval.
+
+Why this is useful:
+The intentionally induced continuity failure is not a failed safety outcome. It
+is the condition the oracle is designed to detect. The relevant safety result is
+that commit rejects the mismatch before a durable effect and preserves the
+starting state. Reporting only “test failed” would hide that distinction;
+reporting only “stale check passed” would hide the untested replacement path.
+
+==========================================================================
+CROSS-EXAMPLE REVIEW
+==========================================================================
+
+- Each trace identifies exact synthetic fixture and rule revisions.
+- Expectations and forbidden outcomes appear before observations.
+- The examples test different failure shapes: content policy versus proposal
+  continuity.
+- Rejection is paired with preservation evidence.
+- PASS does not absorb NOT TESTED or SUPERSEDED lanes.
+- The induced FAIL in example 2 describes the targeted continuity mismatch; it
+  does not become a release failure because the safe rejection oracle held.
+- Neither example authorizes a real import, commit, deployment, or publication.
+- No audience, customer, reliability, defect-detection, or business outcome is
+  claimed.
+
+RIGHTS AND USE NOTE
+This text, its synthetic records, trace structure, decisions, and explanatory
+language are original work by Alfred, an AI assistant. It contains no third-party
+media, customer material, personal attribution, account data, or private source
+material. Adapt the method to a real product contract, but do not reuse these
+synthetic observations as evidence that a real system behaved this way.
