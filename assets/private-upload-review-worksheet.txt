@@ -1,0 +1,517 @@
+PRIVATE-UPLOAD REVIEW WORKSHEET
+===============================
+
+Original tested checklist by Alfred, an AI assistant.
+
+Purpose
+-------
+Use this worksheet to inspect a provider-processed media candidate without
+confusing transfer, processing, review, approval, and public release. Adapt it
+to the current first-party rules and controls of an owned or explicitly
+authorized destination.
+
+This blank worksheet is a decision aid. It is not evidence that any file is
+safe, uploaded, private, processed, approved, public, observed, or successful.
+A completed copy still depends on identified artifacts and direct observations.
+
+Evidence vocabulary
+-------------------
+PASS         Identified evidence satisfies the declared check.
+FAIL         Identified evidence contradicts the declared check.
+BLOCKED      The required surface cannot be inspected.
+NOT_TESTED   No result was collected.
+SUPERSEDED   The result belongs to an older artifact, setting, or rendition.
+UNCERTAIN    Observations exist but do not support a safe decision.
+
+Do not turn BLOCKED, NOT_TESTED, SUPERSEDED, or UNCERTAIN into PASS. A provider
+status such as “uploaded” or “processed” is not a substitute for playback and
+complete-surface review.
+
+
+A. REVIEW ENVELOPE
+==================
+
+Worksheet identity:
+Prepared at:
+Prepared by role:
+Review owner:
+Decision due by:
+
+Owned or explicitly authorized destination:
+Destination-ownership evidence:
+Current first-party visibility documentation checked at:
+Documentation reference:
+Current destination rights or policy documentation checked at:
+Documentation reference:
+
+Review purpose:
+Permitted next action if every required lane passes:
+Actions explicitly outside this review:
+-
+
+Stop conditions:
+-
+
+Review-envelope result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+Recheck trigger:
+
+
+B. FIVE IDENTITIES
+==================
+
+Keep related objects separate. Never use one label as evidence for another.
+
+1. LOCAL MASTER
+Local master ID:
+Filename:
+Byte length:
+Digest algorithm:
+Digest value:
+Duration:
+Dimensions and orientation:
+Frame rate:
+Video codec:
+Audio codec:
+
+2. UPLOAD ATTEMPT
+Attempt ID:
+Destination record ID:
+Transfer started at:
+Transfer completed at:
+Requested visibility:
+Observed visibility label:
+Upload response or event identity:
+
+3. PROCESSED RENDITION
+Rendition or processing ID:
+Processing version, if exposed:
+Processed duration:
+Processed dimensions and orientation:
+Picture surface identity:
+Audio surface identity:
+Caption-track identity:
+Thumbnail or preview identity:
+Metadata revision:
+Policy or rights-state revision:
+
+4. APPROVAL DECISION
+Decision ID:
+Decision revision:
+Reviewed at:
+Reviewer scope:
+Outcome:
+Unresolved lanes:
+-
+
+5. PUBLIC RELEASE
+State: NOT STARTED / NOT PERMITTED / AUTHORIZED_SEPARATELY / PUBLICLY_VERIFIED
+Public route: NOT AVAILABLE unless directly observed
+Visibility transition record: NOT STARTED unless directly observed
+Logged-out verification: NOT_TESTED unless directly performed
+
+Identity review
+---------------
+[ ] The local master is bound to byte length and a cryptographic digest.
+[ ] The upload attempt has its own destination record identity.
+[ ] The processed rendition is not assumed identical to the local master.
+[ ] Captions, thumbnail, metadata, and policy state have named revisions.
+[ ] Approval is bound to the exact reviewed surfaces.
+[ ] Public release fields remain blank or negative until separate evidence exists.
+
+Identity result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+C. PRE-UPLOAD SAFETY AND RIGHTS GATE
+===================================
+
+Run this gate before transfer. A private state does not excuse unsafe material.
+
+Destination and authority
+[ ] The destination is owned or explicitly authorized for this review.
+[ ] The current account and channel state permit the intended review action.
+[ ] No password, passkey, CAPTCHA, identity, payment, legal-acceptance, or other
+    user-presence gate must be crossed by an unattended process.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Rights and provenance
+[ ] Every visual, audio, font, voice, and text component is original or has a
+    documented license suitable for this review context.
+[ ] Required source, license, attribution, and transformation notes are present.
+[ ] No copied interface, third-party watermark, or uncertain media is present.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Privacy and identity
+[ ] Frames, audio, captions, filenames, metadata, attachments, and previews were
+    checked for personal information, identifying attribution, account data,
+    contact details, private paths, secrets, credentials, and sensitive images.
+[ ] The package is safe for the intended review context even if a privacy control
+    is misconfigured or a preview surface is unexpectedly exposed.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Claims and disclosure
+[ ] Script, captions, title, description, and thumbnail express the same bounded
+    claim without fabricated experience, customer, metric, testimonial, or result.
+[ ] AI-assistant disclosure is accurate for the destination and context.
+[ ] Local, private, queued, public, and publicly verified states are truthful.
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+Evidence:
+
+Pre-upload gate: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Reason:
+Unresolved items:
+-
+
+Safety rule: only PASS permits the bounded upload attempt. Every other state
+means hold. This worksheet never supplies account authorization by itself.
+
+
+D. VISIBILITY REVIEW
+====================
+
+Treat privacy as an observed property, not a reassuring label.
+
+Requested visibility:
+Observed account label:
+Label observed at:
+Visibility-setting evidence:
+
+Logged-out route attempted:
+Logged-out result: NOT_ACCESSIBLE / ACCESSIBLE / BLOCKED / NOT_TESTED / UNCERTAIN
+HTTP or application result, if applicable:
+Observed at:
+
+Other authorized-viewer path tested:
+Result: ACCESSIBLE_AS_EXPECTED / NOT_ACCESSIBLE / BLOCKED / NOT_TESTED / UNCERTAIN
+Observed at:
+
+Preview or thumbnail surface tested:
+Result: EXPECTED / UNEXPECTED_EXPOSURE / BLOCKED / NOT_TESTED / UNCERTAIN
+Observed at:
+
+Embed, share, collection, profile, or activity surfaces checked:
+-
+
+Visibility conclusion:
+Who is evidenced as able to retrieve the item:
+Untested retrieval paths:
+-
+
+Visibility result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+Do not claim universal inaccessibility. State only what the named checks observed.
+An obscure route is not access control.
+
+
+E. PROCESSING CONTINUITY
+========================
+
+Upload attempt ID:
+Expected local master digest:
+Destination record ID:
+Processing state observed:
+Processing state observed at:
+
+Continuity checks
+[ ] Destination record corresponds to the intended upload attempt.
+[ ] Processed duration matches the expected candidate within declared tolerance.
+[ ] Dimensions, orientation, and aspect treatment are expected.
+[ ] The opening and closing content match the selected local master.
+[ ] No wrong, partial, duplicated, or stale candidate is served.
+[ ] Processing is complete before picture, audio, or caption lanes are marked PASS.
+
+Processing-continuity result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+F. COMPLETE PROCESSED-SURFACE REVIEW
+====================================
+
+Review the destination’s rendition, not only the local file or upload response.
+
+PICTURE
+Playback surface:
+Playback time range reviewed:
+[ ] Played from beginning to end.
+[ ] Opening, transitions, quiet sections, and final frame were inspected.
+[ ] Orientation, crop, scale, safe areas, text, and color remain correct.
+[ ] No blank, frozen, duplicated, corrupted, or unexpected frame was observed.
+[ ] No private information or destination-generated sensitive surface appears.
+Picture result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+Issue and timecode, if any:
+
+AUDIO
+Playback surface:
+Playback time range reviewed:
+[ ] Listened from beginning to end.
+[ ] Speech remains intelligible after processing.
+[ ] Music and effects do not mask essential speech.
+[ ] Starts, transitions, quiet sections, and ending were checked.
+[ ] No clipping, dropout, unexpected silence, or substituted audio was observed.
+Audio result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+Issue and timecode, if any:
+
+CAPTIONS
+Attached track identity:
+Language label:
+Track enabled on reviewed surface:
+[ ] The actual attached destination track was reviewed.
+[ ] Every spoken instruction and material claim is represented.
+[ ] Timing, line breaks, characters, names, numbers, and punctuation are accurate.
+[ ] Captions remain readable and do not hide essential visual information.
+[ ] Captions preserve uncertainty and AI-assistant disclosure where applicable.
+Caption result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+Issue and timecode, if any:
+
+THUMBNAIL OR PREVIEW
+Selected surface identity:
+[ ] The displayed preview is the intended candidate and revision.
+[ ] Crop and text are accurate at the destination’s visible sizes.
+[ ] No personal information, identifying attribution, private image, or false claim
+    appears in a selected or automatically generated frame.
+[ ] The preview does not imply a result absent from the reviewed media.
+Preview result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+
+METADATA AND DISCLOSURE
+Metadata revision:
+[ ] Title is accurate and not inflammatory.
+[ ] Description preserves sources, rights notes, limits, and intended links.
+[ ] AI-assistant disclosure appears in the intended field where required.
+[ ] Visibility setting matches the review envelope.
+[ ] No private information, credential, secret, private path, or stale draft label
+    appears in visible or machine-readable metadata.
+Metadata result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+
+RIGHTS, POLICY, AND RESTRICTION SURFACES
+Surface and revision reviewed:
+Notices observed:
+-
+
+[ ] Every visible notice is recorded without guessing its meaning.
+[ ] No unresolved restriction is silently converted to clearance.
+[ ] Current first-party guidance was used for any required interpretation.
+[ ] Monetization state, if visible, is not treated as a rights decision.
+Rights-policy result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+
+Complete-surface result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+Release-critical failed, blocked, or untested lanes:
+-
+
+
+G. DECISION BINDING
+===================
+
+Bind the decision to the reviewed evidence envelope.
+
+Local master digest:
+Destination record ID:
+Processed rendition or version:
+Observed visibility state:
+Picture evidence identity:
+Audio evidence identity:
+Caption-track identity:
+Thumbnail or preview identity:
+Metadata revision:
+Rights or policy-state revision:
+Review time:
+
+Choose exactly one narrow outcome:
+[ ] PROCEED_TO_PUBLICATION_GATE
+    Every declared private-review lane passed. Public release still requires a
+    separate current authorization, visibility transition, and remote check.
+[ ] HOLD_FOR_REPAIR
+    One or more named lanes require correction. No visibility change is permitted.
+[ ] REJECT_CANDIDATE
+    The wrong, unsafe, or unacceptable candidate must not proceed.
+[ ] SUPERSEDE_AND_REVIEW_AGAIN
+    A changed master, surface, control, or policy state invalidated prior approval.
+
+Decision:
+Decision owner:
+Decision time:
+Reason:
+Unresolved lanes:
+-
+
+Exact next action permitted:
+Actions not permitted:
+-
+
+Decision result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+
+
+H. INVALIDATION AND RECHECK TRIGGERS
+====================================
+
+Mark the affected lanes SUPERSEDED and reopen them after any relevant change.
+
+[ ] Local master or digest changes.
+[ ] Destination record or processed rendition changes.
+[ ] Processing restarts or the destination silently retranscodes.
+[ ] Caption file, language, timing, or attachment changes.
+[ ] Thumbnail, generated preview, or crop changes.
+[ ] Title, description, links, disclosure, or other metadata changes.
+[ ] Visibility controls or account access rules change.
+[ ] A new rights, policy, moderation, or restriction notice appears.
+[ ] Destination documentation or account authorization becomes stale.
+[ ] Public release selects an artifact that differs from the reviewed candidate.
+
+Changed surface:
+Prior evidence now SUPERSEDED:
+Lanes reopened:
+-
+
+Recheck result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+
+I. SEPARATE PUBLICATION-BOUNDARY RECORD
+======================================
+
+Complete only under a separately authorized publication procedure. A private
+review does not authorize or prove this section.
+
+Current authorization checked at:
+Authorized candidate digest:
+Authorized destination record:
+Final metadata revision:
+Final visibility setting requested:
+Visibility transition record:
+Transition observed at:
+
+Logged-out public HTTPS route:
+HTTPS status:
+Expected title and disclosure served:
+Expected picture and audio served:
+Expected captions served:
+Expected thumbnail and metadata served:
+Public candidate identity matches approval:
+Unexpected public surfaces:
+-
+
+Public verification result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence:
+
+Truthful public state:
+[ ] NOT_PUBLIC
+[ ] PUBLICATION_UNVERIFIED
+[ ] PUBLICLY_VERIFIED_AT_OBSERVATION_TIME
+[ ] SUPERSEDED_OR_REMOVED
+
+Do not infer recommendation, views, retention, audience response, conversion,
+or continued availability from a successful public fetch.
+
+
+J. FAILURE-SHAPED REVIEW TESTS
+==============================
+
+Predeclare the safe state and action before exercising each relevant scenario.
+These prompts are not claims that a real destination or workflow passed.
+
+1. Upload completes, but processing never reaches a reviewable state.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+2. Processed duration differs from the selected master.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+3. Picture and audio pass, but the final caption instruction is missing.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+4. The account says PRIVATE, but a logged-out preview is accessible.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+5. A generated thumbnail exposes a frame rejected during local privacy review.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+6. Metadata changes after complete-surface approval.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+7. A new policy or rights notice appears after approval.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+8. Public visibility changes, but logged-out playback fails.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+9. The public route serves a rendition different from the approved candidate.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+10. Upload is private and all reviewed lanes pass, but release authorization is absent.
+Expected state and action:
+Observed evidence:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+
+K. COMPACT TWENTY-CHECK REVIEW
+==============================
+
+[ ] 1. The exact local master is bound to byte length and digest.
+[ ] 2. Upload attempt, rendition, decision, and public release have distinct IDs.
+[ ] 3. Destination ownership and current authorization are evidenced.
+[ ] 4. Rights and provenance are complete before transfer.
+[ ] 5. Frames, audio, captions, metadata, and filenames passed privacy review.
+[ ] 6. Requested visibility is separate from observed visibility.
+[ ] 7. Logged-out and other relevant retrieval paths preserve untested states.
+[ ] 8. Processing continuity connects the intended master to the rendition.
+[ ] 9. Processed picture was played from beginning to end.
+[ ] 10. Processed audio was heard across the complete duration.
+[ ] 11. The actual attached caption track was reviewed.
+[ ] 12. Thumbnail and generated-preview surfaces were inspected.
+[ ] 13. Title, description, links, disclosure, and visibility are accurate.
+[ ] 14. Rights, policy, and restriction notices are recorded without guessing.
+[ ] 15. Failed, blocked, uncertain, and untested lanes never become passes.
+[ ] 16. Approval is bound to every effect-shaping reviewed revision.
+[ ] 17. Changes reopen affected lanes and supersede stale approval.
+[ ] 18. Private approval permits only entry to a separate publication gate.
+[ ] 19. Public state depends on a direct logged-out route and served-media check.
+[ ] 20. No audience, performance, conversion, or continued-availability claim is inferred.
+
+Overall review: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+Open items:
+-
+
+Rights and scope
+----------------
+This worksheet, its five-identity model, review lanes, outcomes, failure-shaped
+tests, and compact checklist are original work by Alfred, an AI assistant. It
+contains no third-party media, account data, personal attribution, customer
+material, destination screenshot, copied metric, or claimed upload or result.
+
+Destination visibility, processing, caption, rights, policy, and release controls
+vary and can change. A real review must use current first-party documentation and
+the actual authorized account state. Completing this worksheet is not a license,
+security guarantee, platform approval, publication record, or performance result.

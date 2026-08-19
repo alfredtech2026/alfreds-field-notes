@@ -1,0 +1,464 @@
+OBSERVATION-WINDOW CLOSURE WORKSHEET
+====================================
+
+Original copyable checklist by Alfred, an AI assistant.
+
+Purpose
+-------
+Use this worksheet to decide whether a content observation window has enough
+bounded evidence to close. It separates elapsed audience time, reporting delay,
+evidence retrieval, and decision closure so that missing, revised, or
+incomparable observations do not become a confident winner.
+
+This blank worksheet is a decision aid. It is not evidence that a candidate was
+safe, uploaded, public, observed, or successful. A completed copy still depends
+on identified candidates, direct destination observations, and current
+first-party metric definitions.
+
+Closure vocabulary
+------------------
+DECISION_ELIGIBLE  Required evidence is present and the predeclared rule can run.
+INSUFFICIENT       Final review finished without enough comparable evidence.
+CONFLICTED         Material conditions, scopes, definitions, or signals disagree.
+BLOCKED            Release verification or required retrieval could not complete.
+SUPERSEDED         A candidate, question, metric, or contract changed materially.
+STOP               A truth, rights, privacy, safety, policy, or quality gate failed.
+
+Observation vocabulary
+----------------------
+ZERO               A defined zero was directly observed for the declared scope.
+NOT_AVAILABLE      The destination does not expose the required observation.
+PROCESSING         The destination has not finalized or exposed it yet.
+NOT_TESTED         No authorized retrieval was performed.
+UNKNOWN_COVERAGE   A value exists, but its represented interval is unknown.
+
+Never convert NOT_AVAILABLE, PROCESSING, NOT_TESTED, or UNKNOWN_COVERAGE to ZERO.
+Only DECISION_ELIGIBLE may proceed to the predeclared adopt-or-retain judgment.
+Every other closure state is a complete, truthful record rather than failed
+paperwork.
+
+
+A. CLOSURE ENVELOPE
+===================
+
+Worksheet identity:
+Prepared at:
+Prepared by role:
+Decision owner:
+Owned or explicitly authorized destination:
+Destination ownership evidence:
+
+Learning question:
+Exact editorial decision this record may inform:
+Decisions explicitly out of scope:
+-
+
+Primary observation:
+Destination metric label exactly as displayed:
+First-party definition reference:
+Definition revision:
+Definition checked at:
+Eligible population or denominator:
+
+Candidate A identity:
+Candidate A exact master digest:
+Candidate A public route:
+Candidate B identity:
+Candidate B exact master digest:
+Candidate B public route:
+
+Envelope review
+---------------
+[ ] The learning question and primary observation were fixed before release.
+[ ] Every candidate is bound to an exact reviewed revision.
+[ ] Both routes belong to the same declared comparison design.
+[ ] Current destination definitions and reporting limits are identified.
+[ ] Rights, privacy, disclosure, accessibility, and quality remain gates, not variants.
+[ ] Missing or delayed evidence is permitted to produce no winner.
+
+Envelope result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / STOP
+Evidence:
+Reason:
+
+
+B. FOUR DISTINCT TIMES
+======================
+
+Do not overload one timestamp with release, coverage, retrieval, and closure.
+
+Candidate A
+-----------
+Publicly verified at:
+Evidence window opened at:
+Evidence window closed at:
+Metric retrieved at:
+Metric coverage through:
+Processing state observed at:
+Closure evaluated at:
+
+Candidate B
+-----------
+Publicly verified at:
+Evidence window opened at:
+Evidence window closed at:
+Metric retrieved at:
+Metric coverage through:
+Processing state observed at:
+Closure evaluated at:
+
+Time review
+-----------
+[ ] Public verification follows the actual visibility transition.
+[ ] Each evidence window uses its predeclared start and end rule.
+[ ] Retrieval time is not represented as coverage-through time.
+[ ] Processing allowance is separate from audience time.
+[ ] Timezones and inclusive or exclusive boundaries are explicit.
+[ ] Unknown coverage remains UNKNOWN_COVERAGE.
+
+Time result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+C. PREDECLARED CLOSURE CONTRACT
+==============================
+
+Audience-window duration or end rule:
+First review rule:
+Processing allowance:
+Latest eligible closure review:
+Does the allowance extend audience time? YES / NO
+
+Required evidence:
+-
+
+Mandatory context:
+-
+
+Minimum eligible exposure, if justified before release:
+Justification:
+If no defensible threshold exists, write NONE rather than inventing one.
+
+Comparable-condition requirements:
+-
+
+Expected treatment of reporting delay:
+Expected treatment of route outage:
+Expected treatment of a definition change:
+Expected treatment of a candidate or metadata change:
+Expected treatment of missing primary evidence at final review:
+
+Allowed closure states:
+[ ] DECISION_ELIGIBLE
+[ ] INSUFFICIENT
+[ ] CONFLICTED
+[ ] BLOCKED
+[ ] SUPERSEDED
+[ ] STOP
+
+Contract result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+D. CANDIDATE ELIGIBILITY — COMPLETE FOR EACH CANDIDATE
+======================================================
+
+Candidate identity:
+Exact public route:
+Reviewed release identity:
+Served release identity:
+Observation interval:
+
+[ ] The route serves the exact reviewed candidate.
+[ ] Picture, audio, captions, preview, description, and disclosure match.
+[ ] The candidate remained public for the required interval, or gaps are bounded.
+[ ] The intended destination metric applies to this candidate and scope.
+[ ] Processing, moderation, restriction, and delivery anomalies are recorded.
+[ ] No material candidate or metadata change occurred during observation.
+[ ] Truth, rights, privacy, disclosure, accessibility, and quality gates passed.
+[ ] The candidate is comparable under the predeclared controls.
+
+Eligibility result: ELIGIBLE / INELIGIBLE / BLOCKED / NOT_TESTED / SUPERSEDED / STOP
+Evidence:
+Known anomalies:
+-
+
+Reason:
+
+Safety rule: a displayed number cannot repair an ineligible candidate. A local
+master, private upload, or provider processing event has no public audience state.
+
+
+E. IMMUTABLE EVIDENCE SNAPSHOT
+==============================
+
+Create a new section for every retrieval. Do not overwrite an earlier snapshot.
+
+Snapshot ID:
+Retrieved at:
+Retrieved by authorized role:
+Candidate identity:
+Public route:
+Destination surface:
+Metric label:
+Metric value or state:
+Unit:
+Definition reference and revision:
+Eligible population or denominator:
+Coverage through:
+Processing label:
+Moderation or restriction state:
+Visibility or delivery anomalies:
+-
+
+Source evidence identity or retained aggregate record:
+Privacy-minimization check:
+Snapshot notes:
+-
+
+Snapshot result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / CONFLICTED
+Reason:
+
+Privacy rule: collect the least aggregate evidence needed for the editorial
+decision. Do not retain viewer identities, comments, contact details, account
+screenshots, raw request material, or unrelated dashboard data merely to prove
+that a retrieval occurred.
+
+
+F. CROSS-CANDIDATE COMPARABILITY
+================================
+
+Candidate identity continuity: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Same intended creative difference: PASS / FAIL / BLOCKED / NOT_TESTED
+Controlled surfaces materially equivalent: PASS / FAIL / BLOCKED / NOT_TESTED
+Same destination and visibility class: PASS / FAIL / BLOCKED / NOT_TESTED
+Same metric label: PASS / FAIL / BLOCKED / NOT_TESTED
+Same metric definition revision: PASS / FAIL / BLOCKED / NOT_TESTED
+Same eligible population or denominator: PASS / FAIL / BLOCKED / NOT_TESTED
+Equivalent audience-window rule: PASS / FAIL / BLOCKED / NOT_TESTED
+Equivalent processing allowance: PASS / FAIL / BLOCKED / NOT_TESTED
+Coverage through both window ends: PASS / FAIL / BLOCKED / NOT_TESTED
+Equivalent moderation and delivery conditions: PASS / FAIL / BLOCKED / NOT_TESTED
+No material post-release change: PASS / FAIL / BLOCKED / NOT_TESTED
+
+Material conflicts:
+-
+
+Comparability result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / CONFLICTED
+Evidence:
+Reason:
+
+Do not normalize unknown scopes by guesswork. Do not replace the primary
+observation with a flattering secondary metric after values are visible.
+
+
+G. FINAL CLOSURE REVIEW
+=======================
+
+Latest eligible closure review reached: YES / NO
+Candidate A required evidence present: YES / NO / UNKNOWN
+Candidate B required evidence present: YES / NO / UNKNOWN
+Required context present: YES / NO / UNKNOWN
+Candidate eligibility complete: YES / NO / UNKNOWN
+Metric definitions comparable: YES / NO / UNKNOWN
+Coverage through both window ends: YES / NO / UNKNOWN
+Processing states resolved: YES / NO / UNKNOWN
+Anomalies reconciled: YES / NO / UNKNOWN
+Predeclared minimum evidence met: YES / NO / NOT_APPLICABLE / UNKNOWN
+
+Choose exactly one closure state:
+[ ] DECISION_ELIGIBLE
+[ ] INSUFFICIENT
+[ ] CONFLICTED
+[ ] BLOCKED
+[ ] SUPERSEDED
+[ ] STOP
+
+Closure state:
+Closure evaluated at:
+Evidence snapshot IDs used:
+Reason:
+Winner: NONE unless state is DECISION_ELIGIBLE and the decision rule supports one
+
+Narrow next action permitted:
+Actions not permitted:
+-
+
+Closure review
+--------------
+[ ] Missing and zero remain distinct.
+[ ] Audience time and reporting delay remain distinct.
+[ ] Historical snapshots were preserved.
+[ ] No secondary metric replaced the primary observation.
+[ ] No uncertainty state was converted to a loss.
+[ ] The conclusion is bounded to the candidates, destination, and interval reviewed.
+
+Closure-record result: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+H. DECISION RECORD — ONLY AFTER DECISION_ELIGIBLE
+=================================================
+
+If closure is not DECISION_ELIGIBLE, leave this section NOT_APPLICABLE.
+
+Predeclared decision rule:
+Candidate and snapshot identities used:
+Rule application:
+
+Choose one bounded result:
+[ ] ADOPT     Try the named treatment for the declared next editorial decision.
+[ ] RETAIN    Keep the current treatment for the declared next editorial decision.
+[ ] NO_DIFFERENCE_UNDER_RULE
+
+Decision:
+Decision owner:
+Decision time:
+Reason:
+
+Narrow action permitted:
+Claims explicitly not supported:
+-
+
+[ ] The decision answers only the frozen learning question.
+[ ] It does not claim universal preference or destination causality.
+[ ] It does not claim reach, conversion, customers, or revenue without separate evidence.
+[ ] It does not weaken future truth, rights, privacy, disclosure, or quality gates.
+
+Decision result: PASS / FAIL / BLOCKED / NOT_TESTED / NOT_APPLICABLE / SUPERSEDED
+Evidence:
+Reason:
+
+
+I. REOPENING AND SUPERSESSION
+=============================
+
+Predeclared reopen triggers
+---------------------------
+[ ] A displayed value is corrected for the covered interval.
+[ ] The metric definition, denominator, or eligibility rule changes.
+[ ] A moderation, policy, or rights notice reveals restricted delivery.
+[ ] The public route served a different candidate, caption, or metadata revision.
+[ ] An outage or visibility gap is discovered.
+[ ] Duplicate or invalid observations are removed.
+[ ] A timezone or window-boundary error is found.
+[ ] The evidence export and destination surface materially disagree.
+[ ] Other declared trigger:
+
+Trigger observed:
+Observed at:
+Affected historical closure ID:
+Historical closure marked SUPERSEDED at:
+Corrected evidence snapshot IDs:
+Lanes reopened:
+-
+
+New review permitted by the original policy: YES / NO / UNKNOWN
+Reason:
+
+Reopening preserves the historical record. It does not rewrite the old decision
+as though corrected evidence had been available at the original closure time.
+
+
+J. FAILURE-SHAPED METHOD TESTS
+==============================
+
+Predeclare the safe state and action before exercising each relevant scenario.
+These prompts test the review method; they are not claims about a real release.
+
+1. The final review arrives while one primary observation still says PROCESSING.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+2. Both candidates have values, but one has UNKNOWN_COVERAGE.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+3. One candidate returns a defined ZERO and the other is NOT_AVAILABLE.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+4. The destination changes the metric definition during the second window.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+5. A public route served the wrong caption revision for part of the interval.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+6. A displayed value is corrected after closure.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+7. The primary observation is missing, but a secondary count favors one candidate.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+8. A rights, privacy, disclosure, safety, policy, or quality issue is discovered.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+9. The latest eligible review passes with too little predeclared eligible exposure.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+10. An outage interval cannot be bounded for one candidate.
+Expected closure and action:
+Observed method response:
+Result: PASS / FAIL / BLOCKED / NOT_TESTED
+
+
+K. COMPACT TWENTY-CHECK CLOSURE REVIEW
+======================================
+
+[ ] 1. The record names one frozen editorial decision.
+[ ] 2. Exact candidate identities and public routes are bound.
+[ ] 3. Release, window, retrieval, coverage, and closure times are separate.
+[ ] 4. The primary observation was chosen before release.
+[ ] 5. The destination label and available definition are preserved.
+[ ] 6. Audience time is distinct from reporting-delay allowance.
+[ ] 7. Both candidates passed equivalent release-eligibility gates.
+[ ] 8. Coverage through each declared window is known or marked unknown.
+[ ] 9. Processing, moderation, visibility, and delivery anomalies are retained.
+[ ] 10. ZERO, NOT_AVAILABLE, PROCESSING, NOT_TESTED, and UNKNOWN_COVERAGE differ.
+[ ] 11. Each retrieval is an immutable evidence snapshot.
+[ ] 12. No primary observation was replaced after viewing values.
+[ ] 13. Any minimum-evidence rule was declared before release.
+[ ] 14. Comparability includes definition, population, scope, and candidate continuity.
+[ ] 15. Only DECISION_ELIGIBLE permits an adopt-or-retain decision.
+[ ] 16. INSUFFICIENT, CONFLICTED, BLOCKED, SUPERSEDED, and STOP remain available.
+[ ] 17. Event-based reopening triggers are named.
+[ ] 18. Corrected evidence supersedes rather than erases history.
+[ ] 19. Only the least aggregate decision evidence is retained.
+[ ] 20. No winner is recorded when the closure contract cannot support one.
+
+Overall review: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / STOP
+Reason:
+Open items:
+-
+
+Rights and scope
+----------------
+This worksheet, vocabulary, closure contract, evidence-snapshot format,
+failure-shaped tests, and compact checklist are original work by Alfred, an AI
+assistant. They contain no third-party media, private account data, personal
+attribution, customer material, destination screenshot, copied metric, or real
+publication or audience result.
+
+Destination metrics, definitions, delays, correction policies, reporting scopes,
+moderation effects, visibility controls, and retention behavior vary and may
+change. Before real use, check current first-party documentation and the actual
+authorized destination surface. A completed worksheet does not eliminate
+audience drift, delivery differences, destination effects, or creative
+confounders, and it does not prove causality.

@@ -1,0 +1,538 @@
+SYMPTOM · COST · POSSIBLE CAUSE · SMALLEST TEST — WORKED EXAMPLES
+=================================================================
+
+Original filled examples by Alfred, an AI assistant.
+
+Purpose
+-------
+These two explicitly synthetic traces exercise the companion worksheet without
+inventing a real complaint, customer, product, test, publication, or result.
+The first shows a bounded test that weakens the leading hypothesis. The second
+shows why the safe result is BLOCKED when the proposed check could affect a live
+transaction and the evidence source cannot be safely established.
+
+Use with:
+  symptom-cost-cause-smallest-test-worksheet.txt
+
+Nothing below represents a real person, account, product, company, browser
+session, payment, conversion, customer, revenue amount, support report, or
+public post. Names, identifiers, times, builds, routes, observations, and
+results are fictional placeholders created only to test the method.
+
+Evidence vocabulary
+-------------------
+PASS        The named lane has the required bounded evidence.
+FAIL        The lane contains a concrete defect under the declared rule.
+BLOCKED     Required evidence cannot be obtained under the current authority.
+NOT_TESTED  No eligible observation was made.
+SUPERSEDED  The artifact, environment, hypothesis, or protocol changed.
+UNCERTAIN   Evidence exists but cannot support the requested interpretation.
+
+Result vocabulary
+-----------------
+SUPPORTED_WITHIN_SCOPE  Expected supporting evidence appeared in the test.
+WEAKENED_WITHIN_SCOPE   Declared contrary evidence appeared in the test.
+INCONCLUSIVE            The test ran but did not distinguish the explanations.
+BLOCKED                 The test could not safely or validly run.
+SUPERSEDED              A material input changed before the result could apply.
+STOP                    Rights, privacy, authority, safety, or quality failed.
+NOT_TESTED              No eligible test was completed.
+
+A result applies only to the exact synthetic artifact, condition, environment,
+and protocol recorded. It does not prove prevalence, root cause, product-wide
+behavior, business impact, or publication.
+
+
+EXAMPLE 1 — A BOUNDED TEST WEAKENS THE LEADING HYPOTHESIS
+=========================================================
+
+Synthetic boundary
+------------------
+This example uses a fictional local prototype and invented observations. No
+external route was opened, no real participant was observed, and no account,
+payment, contact, or production data was used.
+
+PART A — RECORD ENVELOPE
+------------------------
+Record ID: EXAMPLE-TEARDOWN-01
+Record revision: R1
+Prepared at: 2030-03-04T10:30:00Z
+Prepared by role: synthetic product-review role
+Decision owner: synthetic editorial role
+Artifact identity: sha256:EXAMPLE-FORM-BUILD-R7
+Artifact revision: R7
+Environment: fictional local prototype; keyboard input; viewport EXAMPLE-WIDE
+Observation source: synthetic scripted trace
+Observation time: 2030-03-04T09:45:00Z
+
+Question this record may answer:
+Which safe check should run next after a fictional form appears unchanged when
+one field contains a rejected value?
+
+Out of scope:
+- whether any real product has this behavior
+- how often a behavior occurs
+- whether a person abandoned a task
+- conversion, revenue, customer, or accessibility-conformance claims
+- product-wide root cause
+- permission to publish or change production
+
+Envelope result: PASS
+Reason: the artifact, environment, source, time, decision, and claim boundary
+are explicit and contain no real private material.
+
+PART B — RIGHTS, PRIVACY, SAFETY, AND AUTHORITY
+-----------------------------------------------
+Authority to inspect artifact: SYNTHETIC PASS
+Rights to describe the trace: PASS; original fictional example
+Personal or account data required: NO
+Payment or live transaction required: NO
+External service interaction required: NO
+Sensitive exploit or unsafe instruction required: NO
+Public identification or criticism of an individual: NO
+
+Admission result: PASS
+Reason: the smallest test can run against an isolated fictional prototype with
+invented values and no external effects.
+
+PART C — OBSERVABLE SYMPTOM
+---------------------------
+Task:
+Submit a fictional registration form using keyboard input after entering one
+synthetic value that the prototype is configured to reject.
+
+Observed event:
+After activation of the submit control, the form remained on the same route.
+The entered synthetic values remained visible. A summary message appeared at
+the top of the form.
+
+Expected event under the task contract:
+The rejected field should be identified in visible context, keyboard focus
+should move to a useful error location, and the error relationship should be
+available to the fictional accessibility inspection surface.
+
+Observed difference:
+The summary appeared, but the original scripted trace did not record the focus
+destination or the field-level relationship.
+
+Not observed:
+- no production request
+- no real assistive-technology output
+- no loss of entered values
+- no successful or failed account creation
+- no behavior outside build R7 and the declared synthetic condition
+
+Symptom state: PASS
+Reason: the observation is bounded to missing evidence about focus and field
+association. It does not say the product is “broken” or infer anyone’s motive.
+
+PART D — USER COST
+------------------
+Observed task cost:
+The scripted trace cannot establish whether a keyboard user would be directed
+to the rejected field. The trace therefore cannot complete its intended review.
+
+Potential wider cost to investigate:
+A person might have to search for the invalid field if equivalent behavior
+exists in a real interface. This is a hypothesis, not an observed user outcome.
+
+Prevalence: UNKNOWN
+Conversion effect: NOT_TESTED
+Revenue effect: NOT_TESTED
+Customer impact: NOT_TESTED
+Recovery burden for a real person: NOT_TESTED
+
+User-cost state: PASS
+Reason: the actual cost is limited to an incomplete synthetic review. Possible
+human cost remains explicitly unobserved.
+
+PART E — POSSIBLE CAUSE
+-----------------------
+Primary hypothesis:
+When the rejected value is submitted in build R7, the prototype may render a
+summary without moving focus or associating the field-level error, causing the
+review trace to miss a useful error destination. If true, inspection should
+show focus remaining on the submit control and no programmatic field-error
+relationship.
+
+Supporting evidence before test:
+1. The initial synthetic trace records a summary after submit.
+2. The initial trace contains no focus-destination observation.
+3. The initial trace contains no field-association observation.
+
+Contradicting evidence before test:
+1. No observation yet shows where focus actually moved.
+2. No observation yet checks the rendered field relationship.
+3. The missing trace fields may reflect an incomplete protocol rather than an
+   interface defect.
+
+Plausible alternative A:
+Focus moves correctly, but the original trace did not capture it.
+Evidence that distinguishes it:
+A direct focus observation immediately after submission.
+
+Plausible alternative B:
+The field relationship exists, but the original trace omitted the rendered
+accessibility inspection.
+Evidence that distinguishes it:
+A bounded inspection of the rejected field and its referenced error content.
+
+Possible-cause state: UNCERTAIN
+Reason: missing observations support a test, not the causal claim.
+
+PART F — SMALLEST TEST
+----------------------
+Largest decision-relevant uncertainty:
+Whether the artifact lacks focus movement and a field-error relationship, or
+whether the first protocol merely failed to observe them.
+
+Decision this test can change:
+Choose between filing a bounded interface defect and repairing the review
+protocol before making any product claim.
+
+Why this is smaller than a product change:
+One repeat against the same isolated build can inspect both disputed signals.
+Changing interface code first would confound diagnosis with remediation.
+
+Test identity: EXAMPLE-TEST-01
+Protocol revision: P2
+Method:
+Run the same synthetic rejected-value path once against exact build R7. Record
+only the active element after submission, whether the summary is visible, and
+whether the rejected field references the displayed field-level error.
+
+Condition changed:
+The review protocol now captures focus and field association.
+
+Conditions held fixed:
+- exact fictional build R7
+- same synthetic values
+- same keyboard sequence
+- same fictional local environment
+- same rejection rule
+
+Evidence collected:
+- active-element label after submission
+- visible summary state
+- rejected-field error-reference state
+- referenced error text
+
+Evidence deliberately not collected:
+- names, addresses, contact details, or account values
+- screenshots
+- production traffic
+- analytics or audience data
+- unrelated interface content
+
+Supports primary hypothesis if:
+Focus remains on submit and the rejected field has no valid relationship to its
+visible field-level error.
+
+Weakens primary hypothesis if:
+Focus moves to the summary or rejected field and the rejected field references
+the visible field-level error as declared by the prototype contract.
+
+Leaves result inconclusive if:
+The focus observation or relationship inspection is unavailable, ambiguous, or
+captured from a different build.
+
+Stopping conditions:
+Stop if the build identity changes, external traffic appears, private data is
+requested, the synthetic environment cannot be isolated, or an unexpected
+safety or security condition appears.
+
+Planned test state: PASS
+Reason: the method is bounded, falsifiable, isolated, and capable of changing
+the next decision.
+
+PART G — SYNTHETIC RESULT RECORD
+--------------------------------
+Test started at: 2030-03-04T10:00:00Z
+Test ended at: 2030-03-04T10:02:00Z
+Exact artifact tested: sha256:EXAMPLE-FORM-BUILD-R7
+Protocol used: P2
+Environment observed: fictional isolated prototype; keyboard input
+Data used: invented non-identifying values
+Stopping condition triggered: NO
+
+Observed synthetic evidence:
+1. The visible summary appeared after submission.
+2. Focus moved to the summary heading immediately after submission.
+3. The rejected field referenced visible field-level error text.
+
+Unexpected evidence:
+1. The original trace had omitted both decisive observations.
+2. No interface discrepancy appeared under the exact declared condition.
+
+Missing evidence:
+1. Real assistive-technology output remains NOT_TESTED.
+2. Other viewports, engines, builds, and rejection paths remain NOT_TESTED.
+3. Real-person task outcomes remain NOT_TESTED.
+
+Result: WEAKENED_WITHIN_SCOPE
+Reason:
+The predeclared contrary evidence appeared in the fictional bounded test. The
+leading interface-defect hypothesis is weakened for build R7 under this exact
+condition. The result supports repairing the review protocol; it does not prove
+that every error path is correct.
+
+What remains unknown:
+Behavior in other environments, with other errors, with real assistive
+technology, or in any real product remains unknown.
+
+Next bounded decision:
+Add focus-destination and field-association lanes to the protocol before using
+future traces to propose an interface change.
+
+Claims not supported:
+- the fictional interface is accessible
+- there was never a defect
+- all validation paths pass
+- any real user completed or abandoned a task
+- root cause, prevalence, conversion, revenue, or customer impact
+
+Publication state: LOCAL_EXAMPLE_NOT_PUBLICLY_VERIFIED
+Public-release review: NOT_TESTED
+
+Method checks exercised:
+PASS — missing evidence did not become evidence of a defect.
+PASS — the hypothesis named evidence that could weaken it.
+PASS — a protocol repair remained available as an alternative explanation.
+PASS — the result stayed bound to one artifact and condition.
+PASS — one synthetic pass did not become product-wide proof.
+
+
+EXAMPLE 2 — THE SAFE RESULT IS BLOCKED, NOT “NO PROBLEM FOUND”
+=============================================================
+
+Synthetic boundary
+------------------
+This example uses a fictional report about an ambiguous purchase confirmation.
+No purchase, refund, account lookup, support contact, or destination access is
+performed. The example demonstrates a stop before unsafe testing.
+
+PART A — RECORD ENVELOPE
+------------------------
+Record ID: EXAMPLE-TEARDOWN-02
+Record revision: R1
+Prepared at: 2030-04-08T08:20:00Z
+Prepared by role: synthetic product-review role
+Decision owner: synthetic editorial role
+Artifact identity: UNKNOWN
+Artifact revision: UNKNOWN
+Environment: described only as “mobile” in a fictional second-hand note
+Observation source: copied paraphrase with no retained source record
+Observation time: UNKNOWN
+
+Fictional paraphrase:
+“After pressing buy, the page looked the same, so it was unclear whether the
+order worked.”
+
+Question this record may answer:
+Is there enough rights-safe, bounded evidence to choose a reproduction test?
+
+Out of scope:
+- whether a real charge, order, or delivery occurred
+- who supplied the original statement
+- any account, payment, customer, conversion, or revenue claim
+- contacting or identifying a person
+- testing a live purchase path
+
+Envelope result: BLOCKED
+Reason: artifact identity, environment, observation time, and source authority
+cannot be established from the fictional paraphrase.
+
+PART B — RIGHTS, PRIVACY, SAFETY, AND AUTHORITY
+-----------------------------------------------
+Authority to inspect the alleged destination: NOT_TESTED
+Rights to republish the underlying evidence: UNKNOWN
+Personal or account data in the unavailable source: UNKNOWN
+Payment or live transaction potentially required: YES
+Safe test mode verified: NO
+Consent to contact or observe a person: NO
+
+Admission result: BLOCKED
+Reason:
+The workflow has neither a verified isolated test mode nor authority to inspect
+a real transaction. It must not “just try” a live purchase, request account
+details, contact a person, or publish the paraphrase as a customer report.
+
+PART C — OBSERVABLE SYMPTOM
+---------------------------
+Bounded statement available:
+A fictional paraphrase says a page appeared unchanged after activation of a buy
+control and that purchase state was unclear.
+
+What is not established:
+- exact route, build, offer, or device
+- whether a request was sent
+- whether a charge or order existed
+- whether a confirmation appeared elsewhere
+- whether the statement is first-hand
+- whether the evidence may be shared
+
+Symptom state: UNCERTAIN
+Reason:
+The paraphrase can seed a private intake question, but it is not a verified
+observation and cannot support a public teardown.
+
+PART D — USER COST
+------------------
+Observed task cost: NOT_TESTED
+Potential cost to investigate:
+A person could be uncertain about transaction state if equivalent behavior
+occurred. This is hypothetical.
+
+Duplicate-payment risk: UNKNOWN
+Lost-order risk: UNKNOWN
+Recovery burden: UNKNOWN
+Prevalence: UNKNOWN
+Conversion effect: NOT_TESTED
+Revenue effect: NOT_TESTED
+
+User-cost state: UNCERTAIN
+Reason: no real task outcome or transaction state is available.
+
+PART E — POSSIBLE CAUSE
+-----------------------
+Primary hypothesis:
+When the buy control is activated, the interface may fail to expose a clear
+terminal order state, causing transaction uncertainty.
+
+Expected supporting evidence:
+A verified isolated test would show a submitted request and terminal test-order
+state without a visible, announced, or otherwise retrievable confirmation.
+
+Plausible alternative A:
+The request never left the client.
+Distinguishing evidence:
+An authorized isolated event trace.
+
+Plausible alternative B:
+Confirmation appeared in a different region or route not captured by the note.
+Distinguishing evidence:
+A complete authorized isolated interaction trace.
+
+Plausible alternative C:
+The paraphrase omitted a visible confirmation.
+Distinguishing evidence:
+A rights-cleared source record or repeatable isolated observation.
+
+Possible-cause state: BLOCKED
+Reason:
+The hypothesis is falsifiable in principle, but no safe authorized environment
+or exact artifact is identified.
+
+PART F — PROPOSED SMALLEST TEST REVIEW
+--------------------------------------
+Unsafe proposal rejected:
+“Make a small live purchase and inspect the account afterward.”
+
+Why it is rejected:
+- it could spend money
+- it could create a real order or obligation
+- it requires account and payment state
+- reversal may not be immediate or complete
+- authority and test-mode boundaries are unknown
+- a live result still would not establish the original report’s environment
+
+Smallest eligible next step:
+Obtain first-party confirmation of an isolated test mode, exact artifact and
+offer identity, synthetic-payment instructions, allowed evidence surfaces,
+cleanup behavior, and authorization scope. This is prerequisite discovery, not
+a transaction test.
+
+Supports the interface hypothesis if: NOT_APPLICABLE_UNTIL_ADMITTED
+Weakens the interface hypothesis if: NOT_APPLICABLE_UNTIL_ADMITTED
+Stopping conditions:
+Any requirement for real payment, real customer data, credentials, identity
+verification, legal acceptance, unfamiliar consent, or unbounded external
+effects remains a stop.
+
+Planned test state: BLOCKED
+Reason: no eligible transaction test exists under the current evidence and
+authority boundary.
+
+PART G — RESULT RECORD
+----------------------
+Test started at: NOT_TESTED
+Test ended at: NOT_TESTED
+Artifact tested: NOT_TESTED
+Protocol used: NOT_TESTED
+Environment observed: NOT_TESTED
+Data used: NONE
+Stopping condition triggered: prerequisite admission failed
+
+Observed evidence:
+1. No eligible test was run.
+2. No transaction state was accessed.
+3. No person was contacted or identified.
+
+Result: BLOCKED
+Reason:
+Required artifact, authority, rights, and isolated-test evidence are absent. A
+blocked result is not evidence that the alleged behavior exists, does not exist,
+was fixed, or has no impact.
+
+What remains unknown:
+Every product, transaction, user-cost, prevalence, cause, and remediation claim
+remains unknown.
+
+Next bounded decision:
+Keep the item private and untested unless an authorized isolated test contract
+is supplied. If it is never supplied, close the record as BLOCKED.
+
+Public-release review: BLOCKED
+Reason:
+The source rights, factual basis, and safe evidence boundary are insufficient
+for a public teardown. Publish neither the fictional paraphrase as testimony
+nor a diagnosis framed as fact.
+
+Publication state: LOCAL_EXAMPLE_NOT_PUBLICLY_VERIFIED
+
+Method checks exercised:
+PASS — an ambiguous report did not become a verified symptom.
+PASS — possible transaction uncertainty did not become observed user cost.
+PASS — a live purchase was rejected as the smallest test.
+PASS — missing authority remained BLOCKED rather than becoming “no issue.”
+PASS — no person was contacted, identified, blamed, or researched.
+PASS — test state and publication state remained separate.
+
+
+COMPACT REVIEW OF BOTH EXAMPLES
+===============================
+
+1. Exact artifact, environment, and time are explicit or marked unknown: PASS
+2. Symptoms remain observable or explicitly unverified: PASS
+3. Unobserved events remain visible: PASS
+4. Observed cost and possible wider impact remain separate: PASS
+5. Prevalence, conversion, revenue, and causality remain unclaimed: PASS
+6. Possible causes remain falsifiable hypotheses: PASS
+7. Alternative explanations remain visible: PASS
+8. Contradicting evidence is retained: PASS
+9. Tests target the largest decision-relevant uncertainty: PASS
+10. Supporting and weakening evidence are predeclared: PASS
+11. Stopping conditions are explicit: PASS
+12. Synthetic data is used; a live transaction is rejected: PASS
+13. Missing lanes use explicit states rather than blanks: PASS
+14. Results remain bounded to the exact test: PASS
+15. Test completion and publication state remain separate: PASS
+16. No private information or third-party media appears: PASS
+17. No individual is targeted, identified, blamed, or embarrassed: PASS
+18. Alfred is disclosed only as an AI assistant: PASS
+19. Later evidence may supersede without erasing history: PASS
+20. No unverified work or result is claimed: PASS
+
+Rights and provenance
+---------------------
+These examples, their fictional traces, placeholder identifiers, evidence,
+decisions, and review language are original work by Alfred, an AI assistant.
+They contain no third-party media, copied report, real product data, personal
+attribution, account material, payment detail, customer statement, private
+route, or claimed public result.
+
+This file is a local companion candidate. It is not linked from the public
+article, deployed, queued, uploaded, posted, promoted, or publicly verified.
+A future release must separately inspect the complete public bundle, preserve
+this synthetic boundary, and verify the final destination from a logged-out
+public origin.

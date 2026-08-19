@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Private upload review boundary decision card</title>
+  <desc id="desc">A decision card for reviewing provider-processed media: separate five identities, verify observed visibility, inspect the complete rendition, bind approval to exact surfaces, and keep public release separate.</desc>
+  <rect width="1200" height="1200" fill="#f6f1e8"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#202a44" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#b43b2f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">RIGHTS-SAFE MEDIA · REVIEW CARD</text>
+  <text x="94" y="198" fill="#202a44" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800">A private upload is a review surface.</text>
+  <text x="94" y="260" fill="#202a44" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800">It is not publication evidence.</text>
+  <text x="94" y="309" fill="#4d566b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27">Inspect what the destination serves without turning “uploaded” into “approved.”</text>
+
+  <rect x="94" y="354" width="1012" height="108" rx="18" fill="#202a44"/>
+  <text x="126" y="399" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="23" font-weight="700">MASTER ≠ UPLOAD ≠ RENDITION ≠ DECISION ≠ RELEASE</text>
+  <text x="126" y="434" fill="#dfe6f3" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Give each object its own identity and evidence.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="498" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="137" cy="539" r="21" fill="#b43b2f"/>
+    <text x="130" y="548" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="537" fill="#202a44" font-size="28" font-weight="800">Bind the master</text>
+    <text x="126" y="579" fill="#4d566b" font-size="22">Record byte length, digest, duration, dimensions,</text>
+    <text x="126" y="607" fill="#4d566b" font-size="22">and the exact file selected for transfer.</text>
+
+    <rect x="622" y="498" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="665" cy="539" r="21" fill="#b43b2f"/>
+    <text x="658" y="548" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="537" fill="#202a44" font-size="28" font-weight="800">Gate before transfer</text>
+    <text x="654" y="579" fill="#4d566b" font-size="22">Check authority, rights, privacy, claims, disclosure,</text>
+    <text x="654" y="607" fill="#4d566b" font-size="22">and current visibility controls. Any non-pass holds.</text>
+
+    <rect x="94" y="654" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="137" cy="695" r="21" fill="#b43b2f"/>
+    <text x="130" y="704" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="693" fill="#202a44" font-size="28" font-weight="800">Observe visibility</text>
+    <text x="126" y="735" fill="#4d566b" font-size="22">Record requested and observed states separately.</text>
+    <text x="126" y="763" fill="#4d566b" font-size="22">An obscure route or PRIVATE label is not proof.</text>
+
+    <rect x="622" y="654" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="665" cy="695" r="21" fill="#b43b2f"/>
+    <text x="658" y="704" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="693" fill="#202a44" font-size="28" font-weight="800">Review the rendition</text>
+    <text x="654" y="735" fill="#4d566b" font-size="22">Play picture and audio end to end. Inspect attached</text>
+    <text x="654" y="763" fill="#4d566b" font-size="22">captions, preview, metadata, and policy surfaces.</text>
+
+    <rect x="94" y="810" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="137" cy="851" r="21" fill="#b43b2f"/>
+    <text x="130" y="860" fill="#ffffff" font-size="24" font-weight="800">5</text>
+    <text x="174" y="849" fill="#202a44" font-size="28" font-weight="800">Bind the decision</text>
+    <text x="126" y="891" fill="#4d566b" font-size="22">Tie proceed, hold, reject, or supersede to every</text>
+    <text x="126" y="919" fill="#4d566b" font-size="22">reviewed identity, revision, and unresolved lane.</text>
+
+    <rect x="622" y="810" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="665" cy="851" r="21" fill="#b43b2f"/>
+    <text x="658" y="860" fill="#ffffff" font-size="24" font-weight="800">6</text>
+    <text x="702" y="849" fill="#202a44" font-size="28" font-weight="800">Separate publication</text>
+    <text x="654" y="891" fill="#4d566b" font-size="22">Require fresh authorization, exact continuity,</text>
+    <text x="654" y="919" fill="#4d566b" font-size="22">visibility transition, and logged-out verification.</text>
+  </g>
+
+  <rect x="94" y="976" width="1012" height="88" rx="18" fill="#f7dfd9" stroke="#b43b2f" stroke-width="3"/>
+  <text x="126" y="1017" fill="#74271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">HOLD RULE</text>
+  <text x="300" y="1017" fill="#74271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">FAIL, BLOCKED, NOT TESTED, SUPERSEDED, or UNCERTAIN</text>
+  <text x="126" y="1048" fill="#74271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">never becomes PASS by averaging. A changed surface reopens its review lane.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c8ced8" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4d566b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Review method, not upload evidence</text>
+</svg>

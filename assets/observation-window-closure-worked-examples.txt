@@ -1,0 +1,605 @@
+OBSERVATION-WINDOW CLOSURE — WORKED SYNTHETIC EXAMPLES
+======================================================
+
+Original filled examples by Alfred, an AI assistant.
+
+Purpose
+-------
+These examples exercise the observation-window closure method with fictional
+candidates and placeholder evidence. They show how a review can finish without
+inventing a winner, and how corrected evidence can supersede a historical
+closure without rewriting it.
+
+Nothing below represents a real destination, account, post, upload, audience,
+metric, customer, conversion, revenue, publication, or performance result.
+Displayed labels, values, times, routes, and digests are synthetic placeholders.
+
+Use these examples with:
+  observation-window-closure-worksheet.txt
+
+Closure vocabulary
+------------------
+DECISION_ELIGIBLE  Required evidence is present and the predeclared rule can run.
+INSUFFICIENT       Final review finished without enough comparable evidence.
+CONFLICTED         Material conditions, scopes, definitions, or signals disagree.
+BLOCKED            Release verification or required retrieval could not complete.
+SUPERSEDED         A candidate, question, metric, or contract changed materially.
+STOP               A truth, rights, privacy, safety, policy, or quality gate failed.
+
+Observation vocabulary
+----------------------
+ZERO               A defined zero was directly observed for the declared scope.
+NOT_AVAILABLE      The destination does not expose the required observation.
+PROCESSING         The destination has not finalized or exposed it yet.
+NOT_TESTED         No authorized retrieval was performed.
+UNKNOWN_COVERAGE   A value exists, but its represented interval is unknown.
+
+
+EXAMPLE 1 — A VALUE WITH UNKNOWN COVERAGE DOES NOT SUPPORT A WINNER
+==================================================================
+
+Synthetic boundary
+------------------
+This trace is fictional. Candidate names, identities, routes, timestamps, metric
+labels, and values exist only to test the method. No route was fetched and no
+content was released or measured.
+
+A. Closure envelope
+-------------------
+Worksheet identity: EXAMPLE-CLOSURE-01
+Prepared at: 2030-01-12T12:15:00Z
+Prepared by role: synthetic reviewer
+Decision owner: synthetic editorial role
+Owned or explicitly authorized destination: EXAMPLE DESTINATION
+Destination ownership evidence: NOT_APPLICABLE_TO_SYNTHETIC_TRACE
+
+Learning question:
+Does a concrete user-cost opening support a stronger destination-defined
+opening-segment measure than a pattern-label opening for the next comparable
+short?
+
+Exact editorial decision this record may inform:
+Whether to try the concrete user-cost opening in one later comparable candidate.
+
+Decisions explicitly out of scope:
+- universal audience preference
+- destination causality
+- reach, conversion, customer, or revenue claims
+- weakening truth, rights, privacy, disclosure, accessibility, or quality gates
+
+Primary observation: destination-defined opening-segment measure
+Destination metric label exactly as displayed: EXAMPLE OPENING MEASURE
+First-party definition reference: SYNTHETIC-DEFINITION-R1
+Definition revision: R1
+Definition checked at: 2030-01-09T11:30:00Z
+Eligible population or denominator: synthetic eligible starts
+
+Candidate A identity: sha256:EXAMPLE-A-IMMUTABLE
+Candidate A exact master digest: sha256:EXAMPLE-A-MASTER
+Candidate A public route: https://example.invalid/candidate-a
+Candidate B identity: sha256:EXAMPLE-B-IMMUTABLE
+Candidate B exact master digest: sha256:EXAMPLE-B-MASTER
+Candidate B public route: https://example.invalid/candidate-b
+
+Envelope review:
+PASS — the question, primary observation, candidate identities, comparison
+boundary, and safety constraints were frozen before the fictional release time.
+Missing or delayed evidence is permitted to produce no winner.
+
+B. Four distinct times
+----------------------
+Candidate A:
+  publicly verified at: 2030-01-09T12:00:00Z
+  evidence window opened at: 2030-01-09T12:00:00Z
+  evidence window closed at: 2030-01-11T12:00:00Z
+  first metric retrieval: 2030-01-11T12:10:00Z
+  final metric retrieval: 2030-01-12T12:05:00Z
+  metric coverage through: UNKNOWN_COVERAGE
+  processing state observed at final retrieval: COMPLETE LABEL DISPLAYED
+  closure evaluated at: 2030-01-12T12:15:00Z
+
+Candidate B:
+  publicly verified at: 2030-01-09T12:00:00Z
+  evidence window opened at: 2030-01-09T12:00:00Z
+  evidence window closed at: 2030-01-11T12:00:00Z
+  first metric retrieval: 2030-01-11T12:12:00Z
+  final metric retrieval: 2030-01-12T12:07:00Z
+  metric coverage through: 2030-01-11T12:00:00Z
+  processing state observed at final retrieval: COMPLETE
+  closure evaluated at: 2030-01-12T12:15:00Z
+
+Time result: FAIL FOR COMPARISON
+Reason: Candidate A has a displayed value but no bounded coverage-through time.
+Retrieval time is not being substituted for coverage time.
+
+C. Predeclared closure contract
+-------------------------------
+Audience-window duration: 48 hours after verified public release
+First review rule: after the 48-hour audience window
+Processing allowance: up to 24 additional hours
+Latest eligible closure review: 72 hours after verified release
+Does the allowance extend audience time? NO
+
+Required evidence:
+- exact candidate and served-revision continuity
+- eligible public availability through each 48-hour window
+- the primary observation for each candidate
+- metric definition revision R1 for both candidates
+- coverage through the end of each candidate's audience window
+- resolved processing, moderation, and restriction state
+
+Mandatory context:
+- candidate equivalence under the declared controls
+- observed route gaps
+- metadata or caption changes
+- delivery or moderation anomalies
+
+Minimum eligible exposure: NONE
+Justification: no defensible threshold is asserted in this synthetic example.
+
+Expected treatment of reporting delay:
+Wait only through the declared 24-hour processing allowance.
+
+Expected treatment of route outage:
+Mark comparison ineligible if a material gap cannot be bounded.
+
+Expected treatment of definition change:
+Use CONFLICTED or SUPERSEDED; do not normalize revisions by guesswork.
+
+Expected treatment of candidate or metadata change:
+SUPERSEDED for the affected evidence and decision.
+
+Expected treatment of missing primary evidence at final review:
+INSUFFICIENT if review completed but cannot answer the question; BLOCKED if an
+authorized retrieval could not be completed.
+
+Allowed closure states:
+DECISION_ELIGIBLE, INSUFFICIENT, CONFLICTED, BLOCKED, SUPERSEDED, STOP
+
+Contract result: PASS
+
+D. Candidate eligibility
+------------------------
+Candidate A:
+  served release identity: sha256:EXAMPLE-A-IMMUTABLE
+  picture, audio, captions, preview, description, disclosure: SYNTHETIC MATCH
+  public interval continuity: SYNTHETIC PASS
+  processing anomalies: none declared
+  moderation or delivery anomalies: none declared
+  effect-shaping changes: none declared
+  safety and quality gates: SYNTHETIC PASS
+  eligibility result: ELIGIBLE FOR COLLECTION
+
+Candidate B:
+  served release identity: sha256:EXAMPLE-B-IMMUTABLE
+  picture, audio, captions, preview, description, disclosure: SYNTHETIC MATCH
+  public interval continuity: SYNTHETIC PASS
+  processing anomalies: none declared
+  moderation or delivery anomalies: none declared
+  effect-shaping changes: none declared
+  safety and quality gates: SYNTHETIC PASS
+  eligibility result: ELIGIBLE FOR COLLECTION
+
+Safety note:
+These synthetic eligibility rows do not establish a real release, check, or
+result. A technically eligible candidate still needs comparable evidence before
+a performance decision can run.
+
+E. Immutable evidence snapshots
+--------------------------------
+Snapshot ID: EXAMPLE-01-A-48H
+Retrieved at: 2030-01-11T12:10:00Z
+Candidate identity: sha256:EXAMPLE-A-IMMUTABLE
+Public route: https://example.invalid/candidate-a
+Metric label: EXAMPLE OPENING MEASURE
+Metric value or state: PROCESSING
+Definition revision: R1
+Coverage through: PROCESSING
+Processing label: PROCESSING
+Observed anomalies: none declared
+Privacy-minimization check: synthetic aggregate fields only
+Snapshot result: PASS AS A SNAPSHOT; NOT DECISION EVIDENCE
+
+Snapshot ID: EXAMPLE-01-B-48H
+Retrieved at: 2030-01-11T12:12:00Z
+Candidate identity: sha256:EXAMPLE-B-IMMUTABLE
+Public route: https://example.invalid/candidate-b
+Metric label: EXAMPLE OPENING MEASURE
+Metric value or state: 62 SYNTHETIC UNITS
+Definition revision: R1
+Coverage through: 2030-01-11T12:00:00Z
+Processing label: COMPLETE
+Observed anomalies: none declared
+Privacy-minimization check: synthetic aggregate fields only
+Snapshot result: PASS
+
+Snapshot ID: EXAMPLE-01-A-72H
+Retrieved at: 2030-01-12T12:05:00Z
+Candidate identity: sha256:EXAMPLE-A-IMMUTABLE
+Public route: https://example.invalid/candidate-a
+Metric label: EXAMPLE OPENING MEASURE
+Metric value or state: 68 SYNTHETIC UNITS
+Definition revision: R1
+Coverage through: UNKNOWN_COVERAGE
+Processing label: COMPLETE LABEL DISPLAYED
+Observed anomalies: coverage boundary absent
+Privacy-minimization check: synthetic aggregate fields only
+Snapshot result: CONFLICTED FOR COMPARISON
+
+Snapshot ID: EXAMPLE-01-B-72H
+Retrieved at: 2030-01-12T12:07:00Z
+Candidate identity: sha256:EXAMPLE-B-IMMUTABLE
+Public route: https://example.invalid/candidate-b
+Metric label: EXAMPLE OPENING MEASURE
+Metric value or state: 62 SYNTHETIC UNITS
+Definition revision: R1
+Coverage through: 2030-01-11T12:00:00Z
+Processing label: COMPLETE
+Observed anomalies: none declared
+Privacy-minimization check: synthetic aggregate fields only
+Snapshot result: PASS
+
+F. Cross-candidate comparability
+--------------------------------
+Candidate identity continuity: PASS
+Same intended creative difference: PASS
+Controlled surfaces materially equivalent: PASS
+Same destination and visibility class: PASS
+Same metric label: PASS
+Same metric definition revision: PASS
+Same eligible population or denominator: PASS
+Equivalent audience-window rule: PASS
+Equivalent processing allowance: PASS
+Coverage through both window ends: FAIL
+Equivalent moderation and delivery conditions: PASS
+No material post-release change: PASS
+
+Material conflict:
+Candidate A's final value lacks a coverage-through boundary. Candidate B's value
+is bounded to the declared audience window. The numbers cannot be treated as a
+like-for-like comparison merely because both are displayed.
+
+Comparability result: FAIL
+Reason: UNKNOWN_COVERAGE remains unknown rather than being guessed from the
+retrieval or processing label.
+
+G. Final closure review
+-----------------------
+Latest eligible closure review reached: YES
+Candidate A required evidence present: NO
+Candidate B required evidence present: YES
+Required context present: YES
+Candidate eligibility complete: YES
+Metric definitions comparable: YES
+Coverage through both window ends: NO
+Processing states resolved: UNKNOWN FOR A COVERAGE
+Anomalies reconciled: NO
+Predeclared minimum evidence met: NOT_APPLICABLE
+
+Closure state: INSUFFICIENT
+Closure evaluated at: 2030-01-12T12:15:00Z
+Evidence snapshot IDs used:
+- EXAMPLE-01-A-48H
+- EXAMPLE-01-B-48H
+- EXAMPLE-01-A-72H
+- EXAMPLE-01-B-72H
+
+Reason:
+The final review completed, but Candidate A's displayed value has unknown
+coverage. The evidence cannot answer the frozen comparison question.
+
+Winner: NONE
+Narrow next action permitted:
+Retain the current editorial standard and improve the next test's coverage
+record. Do not release a dependent candidate on this comparison.
+
+Actions not permitted:
+- declare Candidate A the winner because 68 exceeds 62
+- declare Candidate B the winner because its evidence is tidier
+- convert Candidate A's unknown coverage to the retrieval time
+- replace the primary observation with a favorable secondary count
+- claim audience preference, destination causality, reach, or performance
+
+Decision record: NOT_APPLICABLE
+Only DECISION_ELIGIBLE may proceed to ADOPT, RETAIN, or
+NO_DIFFERENCE_UNDER_RULE. INSUFFICIENT is a terminal truthful record.
+
+Method tests exercised
+----------------------
+PASS — a displayed value with UNKNOWN_COVERAGE did not become a bounded value.
+PASS — PROCESSING did not become ZERO.
+PASS — retrieval time did not become metric coverage time.
+PASS — the processing allowance did not extend audience time.
+PASS — a secondary observation did not replace missing primary evidence.
+PASS — the final record preserved NONE as the winner.
+
+
+EXAMPLE 2 — CORRECTED EVIDENCE SUPERSEDES; IT DOES NOT REWRITE HISTORY
+=====================================================================
+
+Synthetic boundary
+------------------
+This trace is fictional. It starts with a historically valid synthetic closure,
+then introduces a later provider correction. It demonstrates supersession and a
+bounded reopening policy. No real evidence was retrieved or corrected.
+
+A. Original closure contract
+----------------------------
+Worksheet identity: EXAMPLE-CLOSURE-02
+Learning question:
+Does a question-led opening support a stronger destination-defined completion
+measure than a statement-led opening for the next comparable short?
+
+Primary observation: destination-defined completion measure
+Definition revision frozen before release: R7
+Audience window: 24 hours after verified release
+First review: after +24 hours
+Processing allowance: 12 additional hours
+Latest eligible closure review: +36 hours
+Does processing allowance extend audience time? NO
+
+Required evidence:
+- exact served candidate continuity
+- complete 24-hour route availability
+- R7 metric values with coverage through each 24-hour window
+- resolved processing and restriction states
+- equivalent truth, rights, privacy, disclosure, accessibility, and quality gates
+
+Reopen triggers:
+- corrected value for the covered interval
+- changed metric definition, denominator, or eligibility rule
+- discovered route or visibility gap
+- candidate, caption, preview, or metadata mismatch
+- moderation, rights, or delivery restriction
+- export and destination disagreement
+
+Original candidate identities:
+Candidate A: sha256:EXAMPLE-QUESTION-OPENING
+Candidate B: sha256:EXAMPLE-STATEMENT-OPENING
+
+B. Original immutable snapshots
+-------------------------------
+Snapshot ID: EXAMPLE-02-A-ORIGINAL
+Retrieved at: 2030-02-03T00:10:00Z
+Candidate identity: sha256:EXAMPLE-QUESTION-OPENING
+Metric label: EXAMPLE COMPLETION MEASURE
+Metric value: 41 SYNTHETIC UNITS
+Definition revision: R7
+Coverage through: 2030-02-02T12:00:00Z
+Processing label: COMPLETE
+Restriction state: NONE DECLARED
+Snapshot result: PASS
+
+Snapshot ID: EXAMPLE-02-B-ORIGINAL
+Retrieved at: 2030-02-03T00:12:00Z
+Candidate identity: sha256:EXAMPLE-STATEMENT-OPENING
+Metric label: EXAMPLE COMPLETION MEASURE
+Metric value: 38 SYNTHETIC UNITS
+Definition revision: R7
+Coverage through: 2030-02-02T12:00:00Z
+Processing label: COMPLETE
+Restriction state: NONE DECLARED
+Snapshot result: PASS
+
+C. Original closure
+-------------------
+Original closure ID: EXAMPLE-CLOSURE-02-R1
+Closure evaluated at: 2030-02-03T00:20:00Z
+Candidate identity continuity: PASS
+Equivalent release gates: PASS
+Metric label and revision match: PASS
+Coverage through both window ends: PASS
+Processing resolved: PASS
+Restrictions reconciled: PASS
+Closure state: DECISION_ELIGIBLE
+
+Predeclared decision rule:
+Use ADOPT only when Candidate A exceeds Candidate B under the exact comparable
+primary observation and every required evidence lane passes.
+
+Original bounded decision: ADOPT
+Original permitted action:
+Try the question-led opening in one later comparable candidate while preserving
+all truth, rights, privacy, disclosure, accessibility, and quality gates.
+
+Claims not supported:
+- universal preference
+- destination causality
+- durable lift
+- reach, conversion, customer, or revenue effect
+
+Historical status at closure time:
+The record was eligible under the synthetic evidence then available. That fact
+will be preserved even if later evidence changes the current decision state.
+
+D. Later correction event
+-------------------------
+Trigger observed at: 2030-02-03T18:00:00Z
+Trigger type: displayed value corrected for the covered interval
+Affected candidate: sha256:EXAMPLE-QUESTION-OPENING
+Affected snapshot: EXAMPLE-02-A-ORIGINAL
+Affected closure: EXAMPLE-CLOSURE-02-R1
+
+Observed synthetic notice:
+The destination says Candidate A's original displayed value included ineligible
+repeated observations and supplies a corrected aggregate for the same R7 scope
+and coverage interval.
+
+Safe immediate action:
+- preserve the original snapshot and closure
+- mark their use for current action SUPERSEDED
+- stop any not-yet-executed dependent release decision
+- capture a new immutable correction snapshot
+- reopen only the affected evidence, comparison, closure, and decision lanes
+
+Unsafe actions:
+- overwrite 41 with the corrected value in the old snapshot
+- pretend the correction existed at the original closure time
+- retain ADOPT because it was once approved
+- discard Candidate B's historical snapshot
+- broaden the correction into a claim about audience behavior
+
+E. Corrected immutable snapshot
+-------------------------------
+Snapshot ID: EXAMPLE-02-A-CORRECTED
+Retrieved at: 2030-02-03T18:05:00Z
+Candidate identity: sha256:EXAMPLE-QUESTION-OPENING
+Metric label: EXAMPLE COMPLETION MEASURE
+Metric value: 35 SYNTHETIC UNITS
+Definition revision: R7-CORRECTION-1
+Eligible population: corrected synthetic R7 population
+Coverage through: 2030-02-02T12:00:00Z
+Processing label: CORRECTED
+Correction reference: SYNTHETIC-CORRECTION-NOTICE-1
+Privacy-minimization check: synthetic aggregate fields only
+Snapshot result: PASS AS CORRECTED EVIDENCE
+
+Historical snapshot handling:
+EXAMPLE-02-A-ORIGINAL remains immutable. It is marked SUPERSEDED for current
+decision use by EXAMPLE-02-A-CORRECTED. Its original retrieval time, value,
+definition label, and role in the historical closure remain visible.
+
+F. Reopening policy review
+--------------------------
+Was the trigger predeclared? YES
+Is the corrected evidence bound to the same candidate? YES
+Is the covered interval the same? YES
+Is the correction reference identified? YES, synthetically
+Is the historical closure preserved? YES
+Are unaffected snapshots preserved? YES
+Can the reopened review remain within the original learning question? YES
+
+Reopening result: PASS
+Lanes reopened:
+- Candidate A evidence snapshot
+- metric-definition and eligible-population comparison
+- cross-candidate comparability
+- closure outcome
+- bounded editorial decision
+
+Lanes not silently reopened:
+- candidate creative identity
+- rights and source provenance
+- privacy and disclosure
+- public-route continuity
+
+Any later failure in those lanes would still require its own explicit state and
+could produce BLOCKED, CONFLICTED, SUPERSEDED, or STOP.
+
+G. Reopened comparability review
+--------------------------------
+Candidate identity continuity: PASS
+Same intended creative difference: PASS
+Controlled surfaces materially equivalent: PASS
+Same destination and visibility class: PASS
+Same metric label: PASS
+Definition relationship: PASS WITH DOCUMENTED CORRECTION
+Same eligible population after correction: PASS
+Equivalent audience-window rule: PASS
+Coverage through both window ends: PASS
+Equivalent processing and restriction conditions: PASS
+No candidate or metadata change: PASS
+
+Candidate A current eligible value: 35 SYNTHETIC UNITS
+Candidate B preserved eligible value: 38 SYNTHETIC UNITS
+
+Comparability result: PASS FOR THE REOPENED SYNTHETIC REVIEW
+Reason:
+The correction is documented, bound to the same candidate and interval, and
+permitted by the predeclared reopen policy. The original value remains historical
+but is no longer eligible for the current decision.
+
+H. Supersession and new closure
+-------------------------------
+Historical closure ID: EXAMPLE-CLOSURE-02-R1
+Historical closure state at original evaluation: DECISION_ELIGIBLE
+Historical decision at original evaluation: ADOPT
+Historical record status now: SUPERSEDED FOR CURRENT ACTION
+Superseded at: 2030-02-03T18:15:00Z
+Superseded by evidence: EXAMPLE-02-A-CORRECTED
+
+New closure ID: EXAMPLE-CLOSURE-02-R2
+New closure evaluated at: 2030-02-03T18:20:00Z
+Required corrected evidence present: YES
+Candidate identity continuity: PASS
+Metric correction relationship documented: PASS
+Coverage through both window ends: PASS
+Comparison eligibility: PASS
+New closure state: DECISION_ELIGIBLE
+
+The new closure does not edit EXAMPLE-CLOSURE-02-R1. It references and
+supersedes it for any action not already completed.
+
+I. New bounded decision
+-----------------------
+Predeclared decision rule:
+Use ADOPT only when Candidate A exceeds Candidate B under the exact comparable
+primary observation and every required evidence lane passes.
+
+Candidate A corrected value: 35 SYNTHETIC UNITS
+Candidate B preserved value: 38 SYNTHETIC UNITS
+Rule result: the ADOPT condition is not met
+New bounded decision: RETAIN
+
+Narrow action permitted:
+Retain the current statement-led opening standard for the next comparable
+candidate. A future test may use a new frozen question and contract.
+
+Actions not permitted:
+- claim that statement-led openings always perform better
+- claim that the destination caused the difference
+- claim the corrected difference will persist
+- erase or rewrite the original closure
+- describe the synthetic trace as a real reversal or result
+- infer reach, conversion, customer, or revenue effect
+
+J. Method tests exercised
+-------------------------
+PASS — the correction matched a predeclared reopen trigger.
+PASS — the old snapshot remained immutable.
+PASS — the historical closure retained its original evidence and time.
+PASS — the historical decision became SUPERSEDED for current action.
+PASS — the corrected snapshot used a new identity.
+PASS — only affected lanes reopened.
+PASS — the same frozen decision rule ran again.
+PASS — the changed outcome remained bounded to the fictional comparison.
+
+
+COMPACT REVIEW OF BOTH EXAMPLES
+===============================
+
+[PASS] 1. Exact synthetic candidate identities and routes are bound.
+[PASS] 2. Release, window, retrieval, coverage, and closure times stay distinct.
+[PASS] 3. The primary observation is frozen before fictional release.
+[PASS] 4. Metric labels and available definition revisions are preserved.
+[PASS] 5. Audience time is separate from reporting-delay allowance.
+[PASS] 6. Candidate eligibility and audience evidence remain separate.
+[PASS] 7. ZERO, missing, PROCESSING, and UNKNOWN_COVERAGE are not conflated.
+[PASS] 8. Every retrieval has a separate immutable snapshot identity.
+[PASS] 9. No favorable secondary observation replaces the primary one.
+[PASS] 10. Comparability includes scope, definition, coverage, and continuity.
+[PASS] 11. Only DECISION_ELIGIBLE reaches the bounded decision rule.
+[PASS] 12. INSUFFICIENT records no winner in Example 1.
+[PASS] 13. The later correction triggers supersession in Example 2.
+[PASS] 14. Corrected evidence does not overwrite historical evidence.
+[PASS] 15. The original closure remains historically visible.
+[PASS] 16. The new review is bound to a distinct closure identity.
+[PASS] 17. Claims remain narrower than the synthetic candidates and intervals.
+[PASS] 18. Only aggregate placeholder evidence appears.
+[PASS] 19. No real upload, post, publication, audience, or result is claimed.
+[PASS] 20. Alfred is disclosed only as an AI assistant.
+
+Rights and scope
+----------------
+These worked examples, placeholder records, values, identities, routes, closure
+outcomes, and review language are original work by Alfred, an AI assistant. They
+contain no third-party media, private account data, personal attribution,
+customer material, destination screenshot, copied metric, or real publication
+or audience result.
+
+A real review must use current first-party destination documentation, the actual
+authorized surface, exact candidate identities, observed visibility and route
+state, and retained aggregate evidence. Destination metrics, definitions,
+delays, corrections, reporting scope, moderation effects, and retention behavior
+can vary or change. These examples do not prove causality or guarantee that a
+real observation window can close with a decision.

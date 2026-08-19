@@ -1,0 +1,509 @@
+PRIVATE-UPLOAD REVIEW — TWO WORKED SYNTHETIC EXAMPLES
+====================================================
+
+Original worked examples by Alfred, an AI assistant.
+
+Purpose
+-------
+These examples show how to use the private-upload review worksheet when a
+release-critical lane fails or a reviewed surface changes. Both traces are
+fictional. They represent no real destination, account, upload, media item,
+person, customer, audience, metric, publication, or business result.
+
+The placeholder identities and observations below are teaching data. They are
+not evidence that a transfer occurred, that a destination was private, that a
+candidate was approved, or that anything became public.
+
+Evidence vocabulary
+-------------------
+PASS         Identified evidence satisfies the declared check.
+FAIL         Identified evidence contradicts the declared check.
+BLOCKED      The required surface cannot be inspected.
+NOT_TESTED   No result was collected.
+SUPERSEDED   The result belongs to an older artifact, setting, or rendition.
+UNCERTAIN    Observations exist but do not support a safe decision.
+
+Safe rule: one release-critical FAIL, BLOCKED, NOT_TESTED, SUPERSEDED, or
+UNCERTAIN lane prevents a proceed decision. Passing lanes are not averaged into
+a score.
+
+
+EXAMPLE 1 — PROCESSED PICTURE AND AUDIO PASS, ATTACHED CAPTIONS FAIL
+==================================================================
+
+Scenario
+--------
+A fictional short-form candidate passes local pre-transfer review. A synthetic
+provider record reaches a reviewable private state. Complete playback shows
+expected picture and audio, but the actual attached caption track omits the
+final instruction. The safe decision is HOLD_FOR_REPAIR. No visibility change
+is permitted.
+
+A. REVIEW ENVELOPE
+------------------
+Worksheet identity: SYNTHETIC-PRIVATE-REVIEW-01
+Prepared at: SYNTHETIC-TIME-A
+Prepared by role: fictional reviewer
+Review owner: fictional review owner
+Decision due by: SYNTHETIC-DEADLINE-A
+Owned or explicitly authorized destination: SYNTHETIC-DESTINATION-A
+Destination-ownership evidence: SYNTHETIC-AUTHORITY-RECORD-A
+Current visibility guidance checked at: SYNTHETIC-DOC-TIME-A
+Visibility documentation reference: SYNTHETIC-VISIBILITY-DOC-A
+Current rights or policy guidance checked at: SYNTHETIC-DOC-TIME-A
+Rights documentation reference: SYNTHETIC-RIGHTS-DOC-A
+Review purpose: inspect one provider-processed candidate while non-public
+Permitted next action if every required lane passes: enter a separate publication gate
+Actions explicitly outside this review:
+- changing visibility to public
+- claiming availability, audience response, or performance
+Stop conditions:
+- any user-presence gate
+- unexpected exposure
+- master-to-rendition mismatch
+- any release-critical failed or unreviewable surface
+Review-envelope result: PASS
+Evidence: synthetic authority and scope records identified above
+Reason: the fictional review scope and stop conditions are explicit
+Recheck trigger: authority, documentation, candidate, or destination state changes
+
+B. FIVE IDENTITIES
+------------------
+Local master ID: SYNTHETIC-MASTER-A
+Filename: candidate-a.mp4
+Byte length: 12345678 SYNTHETIC BYTES
+Digest algorithm: SHA-256
+Digest value: SYNTHETIC-DIGEST-A
+Duration: 00:00:24.000
+Dimensions and orientation: 1080 by 1920, portrait
+Frame rate: 30 frames per second
+Video codec: SYNTHETIC-VIDEO-CODEC
+Audio codec: SYNTHETIC-AUDIO-CODEC
+
+Upload attempt ID: SYNTHETIC-ATTEMPT-A
+Destination record ID: SYNTHETIC-RECORD-A
+Transfer started at: SYNTHETIC-TIME-A1
+Transfer completed at: SYNTHETIC-TIME-A2
+Requested visibility: PRIVATE
+Observed visibility label: PRIVATE
+Upload response identity: SYNTHETIC-UPLOAD-EVENT-A
+
+Processed rendition ID: SYNTHETIC-RENDITION-A1
+Processing version: SYNTHETIC-PROCESSING-VERSION-A1
+Processed duration: 00:00:24.000
+Processed dimensions and orientation: 1080 by 1920, portrait
+Picture surface identity: SYNTHETIC-PICTURE-A1
+Audio surface identity: SYNTHETIC-AUDIO-A1
+Caption-track identity: SYNTHETIC-CAPTIONS-A1
+Thumbnail identity: SYNTHETIC-PREVIEW-A1
+Metadata revision: SYNTHETIC-METADATA-A1
+Rights-state revision: SYNTHETIC-RIGHTS-STATE-A1
+
+Approval decision ID: SYNTHETIC-DECISION-A1
+Decision revision: 1
+Reviewed at: SYNTHETIC-TIME-A3
+Reviewer scope: private processed-surface review only
+Outcome: HOLD_FOR_REPAIR
+Unresolved lanes:
+- attached caption completeness
+
+Public-release state: NOT_PERMITTED
+Public route: NOT AVAILABLE
+Visibility transition record: NOT STARTED
+Logged-out public verification: NOT_TESTED
+
+Identity result: PASS
+Evidence: all five object classes have separate placeholder identities
+Reason: upload, rendition, decision, and release are not treated as the master
+
+C. PRE-UPLOAD SAFETY AND RIGHTS GATE
+-----------------------------------
+Destination and authority result: PASS
+Evidence: SYNTHETIC-AUTHORITY-RECORD-A
+Rights and provenance result: PASS
+Evidence: SYNTHETIC-PROVENANCE-BUNDLE-A
+Privacy and identity result: PASS
+Evidence: SYNTHETIC-LOCAL-PRIVACY-REVIEW-A
+Claims and disclosure result: PASS
+Evidence: SYNTHETIC-CLAIM-REVIEW-A
+Pre-upload gate: PASS
+Reason: every declared fictional pre-transfer lane passed before transfer
+Unresolved items:
+- none at the pre-upload stage
+
+This PASS permits only the bounded fictional upload attempt. It does not approve
+processed surfaces or authorize publication.
+
+D. VISIBILITY REVIEW
+--------------------
+Requested visibility: PRIVATE
+Observed account label: PRIVATE
+Label observed at: SYNTHETIC-TIME-A2
+Visibility-setting evidence: SYNTHETIC-VISIBILITY-SURFACE-A1
+Logged-out route attempted: SYNTHETIC-NONPUBLIC-ROUTE-A
+Logged-out result: NOT_ACCESSIBLE
+Observed result: synthetic access-denied response
+Observed at: SYNTHETIC-TIME-A2
+Other authorized-viewer path tested: no
+Other-viewer result: NOT_TESTED
+Preview surface tested: yes, within the fictional authorized review context
+Preview result: EXPECTED
+Embed, share, collection, profile, or activity surfaces checked:
+- fictional profile listing: item absent
+- fictional collection listing: item absent
+- embed path: NOT_TESTED
+Visibility conclusion: named checks did not expose the candidate publicly
+Who is evidenced as able to retrieve the item: fictional authorized reviewer
+Untested retrieval paths:
+- embed path
+- other authorized-viewer path
+Visibility result: PASS
+Reason: the declared privacy contract allows the named untested paths, and no
+reviewed logged-out or listing surface exposed the item
+
+This conclusion is bounded to the named synthetic checks. It does not establish
+universal inaccessibility.
+
+E. PROCESSING CONTINUITY
+------------------------
+Upload attempt ID: SYNTHETIC-ATTEMPT-A
+Expected local master digest: SYNTHETIC-DIGEST-A
+Destination record ID: SYNTHETIC-RECORD-A
+Processing state observed: COMPLETE
+Processing state observed at: SYNTHETIC-TIME-A3
+Duration comparison: PASS
+Dimensions and orientation comparison: PASS
+Opening and closing identity: PASS
+Wrong, partial, duplicated, or stale candidate check: PASS
+Processing-continuity result: PASS
+Evidence: SYNTHETIC-CONTINUITY-RECORD-A1
+Reason: the rendition matches the declared synthetic identity and tolerances
+
+F. COMPLETE PROCESSED-SURFACE REVIEW
+------------------------------------
+Picture surface: SYNTHETIC-PICTURE-A1
+Playback range reviewed: 00:00:00.000 through 00:00:24.000
+Picture result: PASS
+Evidence: SYNTHETIC-PLAYBACK-RECORD-A1
+Issue and timecode: none observed
+
+Audio surface: SYNTHETIC-AUDIO-A1
+Playback range reviewed: 00:00:00.000 through 00:00:24.000
+Audio result: PASS
+Evidence: SYNTHETIC-LISTENING-RECORD-A1
+Issue and timecode: none observed
+
+Attached caption track: SYNTHETIC-CAPTIONS-A1
+Language label: synthetic English track
+Track enabled on reviewed surface: yes
+Caption result: FAIL
+Evidence: spoken final instruction is present in audio from 00:00:21.800 through
+00:00:23.500 but absent from the attached destination track
+Issue and timecode: missing final instruction at 00:00:21.800
+
+Selected preview: SYNTHETIC-PREVIEW-A1
+Preview result: PASS
+Evidence: expected candidate, safe crop, no personal information, and no result claim
+
+Metadata revision: SYNTHETIC-METADATA-A1
+Metadata result: PASS
+Evidence: title, bounded description, AI-assistant disclosure, links, and private
+visibility match the fictional review envelope
+
+Rights or policy surface: SYNTHETIC-RIGHTS-STATE-A1
+Notices observed:
+- none on the reviewed synthetic surface
+Rights-policy result: PASS
+Evidence: SYNTHETIC-RIGHTS-REVIEW-A1
+
+Complete-surface result: FAIL
+Reason: the actual attached caption track omits a spoken release-critical instruction
+Release-critical failed, blocked, or untested lanes:
+- attached caption completeness: FAIL
+
+G. DECISION BINDING
+-------------------
+Decision binds to:
+- local digest: SYNTHETIC-DIGEST-A
+- destination record: SYNTHETIC-RECORD-A
+- processed rendition: SYNTHETIC-RENDITION-A1
+- visibility state: SYNTHETIC-VISIBILITY-SURFACE-A1
+- picture: SYNTHETIC-PICTURE-A1
+- audio: SYNTHETIC-AUDIO-A1
+- captions: SYNTHETIC-CAPTIONS-A1
+- preview: SYNTHETIC-PREVIEW-A1
+- metadata: SYNTHETIC-METADATA-A1
+- rights state: SYNTHETIC-RIGHTS-STATE-A1
+
+Decision: HOLD_FOR_REPAIR
+Decision time: SYNTHETIC-TIME-A3
+Reason: picture and audio passes cannot cancel the caption failure
+Unresolved lanes:
+- correct and reattach the complete caption track
+- replay the complete processed rendition with the replacement track enabled
+Exact next action permitted: prepare a corrected caption track in the authorized
+private review workflow
+Actions not permitted:
+- public visibility transition
+- publication claim
+- performance inference
+Decision result: FAIL
+Evidence: SYNTHETIC-DECISION-A1
+
+H. INVALIDATION AND RECHECK
+---------------------------
+Changed surface: caption attachment
+Prior evidence now SUPERSEDED:
+- SYNTHETIC-CAPTIONS-A1 for any replacement-track decision
+Lanes reopened:
+- caption identity
+- caption completeness, timing, readability, and claim preservation
+- metadata, if attachment changes visible track labels
+- complete-surface decision
+Recheck result: SUPERSEDED
+Reason: a replacement track creates a new reviewed candidate surface
+
+I. SEPARATE PUBLICATION BOUNDARY
+-------------------------------
+Current authorization: absent
+Visibility transition record: NOT STARTED
+Logged-out public route: NOT AVAILABLE
+Public verification result: NOT_TESTED
+Truthful public state: NOT_PUBLIC
+
+J. SAFE OUTCOME
+---------------
+The fictional upload event and several PASS lanes do not create approval. The
+caption failure produces a hold. If a corrected track is attached, the old
+caption evidence remains historically accurate for track A1 but is SUPERSEDED
+for the replacement. The complete affected review must run again before any
+candidate can enter a separately authorized publication gate.
+
+
+EXAMPLE 2 — APPROVAL IS SUPERSEDED BY A METADATA EDIT
+=====================================================
+
+Scenario
+--------
+A fictional private candidate initially passes every declared processed-surface
+lane and receives the narrow outcome PROCEED_TO_PUBLICATION_GATE. Before any
+visibility transition, its description is edited. The prior approval no longer
+binds to the current metadata revision. The safe state becomes SUPERSEDED, and
+the candidate returns to review. No public release occurs.
+
+A. INITIAL REVIEW ENVELOPE
+--------------------------
+Worksheet identity: SYNTHETIC-PRIVATE-REVIEW-02
+Destination: SYNTHETIC-DESTINATION-B
+Review purpose: private provider-rendition review only
+Permitted next action after all passes: enter a separate publication gate
+Explicit exclusions:
+- no public visibility transition under this review
+- no claim of audience, recommendation, retention, conversion, or success
+Review-envelope result: PASS
+Evidence: SYNTHETIC-REVIEW-ENVELOPE-B
+
+B. INITIAL IDENTITIES
+---------------------
+Local master ID: SYNTHETIC-MASTER-B
+Filename: candidate-b.mp4
+Byte length: 87654321 SYNTHETIC BYTES
+Digest algorithm and value: SHA-256, SYNTHETIC-DIGEST-B
+Upload attempt ID: SYNTHETIC-ATTEMPT-B
+Destination record ID: SYNTHETIC-RECORD-B
+Processed rendition ID: SYNTHETIC-RENDITION-B1
+Picture surface identity: SYNTHETIC-PICTURE-B1
+Audio surface identity: SYNTHETIC-AUDIO-B1
+Caption-track identity: SYNTHETIC-CAPTIONS-B1
+Preview identity: SYNTHETIC-PREVIEW-B1
+Metadata revision: SYNTHETIC-METADATA-B1
+Rights-state revision: SYNTHETIC-RIGHTS-STATE-B1
+Approval decision: SYNTHETIC-DECISION-B1
+Public-release state: NOT STARTED
+Identity result: PASS
+Evidence: SYNTHETIC-IDENTITY-RECORD-B1
+
+C. INITIAL GATE AND REVIEW RESULTS
+---------------------------------
+Pre-upload destination and authority: PASS
+Pre-upload rights and provenance: PASS
+Pre-upload privacy and identity: PASS
+Pre-upload claims and disclosure: PASS
+Pre-upload gate: PASS
+
+Observed visibility label: PRIVATE
+Logged-out route result: NOT_ACCESSIBLE
+Other-viewer path: NOT_TESTED, allowed by the declared review contract
+Unexpected preview or listing exposure: none in named checks
+Visibility result: PASS
+
+Processing continuity: PASS
+Picture from beginning to end: PASS
+Audio from beginning to end: PASS
+Attached caption track: PASS
+Thumbnail and generated preview: PASS
+Metadata revision SYNTHETIC-METADATA-B1: PASS
+Rights-policy revision SYNTHETIC-RIGHTS-STATE-B1: PASS
+Complete-surface result: PASS
+
+Evidence identities:
+- SYNTHETIC-CONTINUITY-RECORD-B1
+- SYNTHETIC-PLAYBACK-RECORD-B1
+- SYNTHETIC-LISTENING-RECORD-B1
+- SYNTHETIC-CAPTION-REVIEW-B1
+- SYNTHETIC-PREVIEW-REVIEW-B1
+- SYNTHETIC-METADATA-REVIEW-B1
+- SYNTHETIC-RIGHTS-REVIEW-B1
+
+D. INITIAL NARROW DECISION
+--------------------------
+Decision ID: SYNTHETIC-DECISION-B1
+Decision: PROCEED_TO_PUBLICATION_GATE
+Decision scope: only the exact B1 evidence envelope
+Exact next action permitted: begin a separately authorized publication gate
+Actions not permitted:
+- treating the item as public
+- skipping current authorization or final metadata review
+- inferring audience or performance evidence
+Decision result: PASS
+Evidence: all declared B1 private-review lanes passed
+
+The decision is deliberately narrow. It approves entry to another gate, not a
+visibility change and not publication.
+
+E. EFFECT-SHAPING CHANGE
+------------------------
+Change event: fictional description edited after approval
+Change record: SYNTHETIC-METADATA-CHANGE-B2
+Prior metadata revision: SYNTHETIC-METADATA-B1
+Current metadata revision: SYNTHETIC-METADATA-B2
+Changed field: description
+Change summary: one destination-visible claim and one link line were rewritten
+Public visibility at change time: PRIVATE
+Public release state: NOT STARTED
+
+F. INVALIDATION DECISION
+------------------------
+Invalidation trigger: title, description, links, disclosure, or metadata changes
+Prior evidence now SUPERSEDED:
+- SYNTHETIC-METADATA-REVIEW-B1 for the B2 candidate
+- SYNTHETIC-DECISION-B1 for proceeding with B2
+Evidence that remains valid within declared scope:
+- local master digest SYNTHETIC-DIGEST-B
+- picture review SYNTHETIC-PLAYBACK-RECORD-B1
+- audio review SYNTHETIC-LISTENING-RECORD-B1
+- caption review SYNTHETIC-CAPTION-REVIEW-B1
+Evidence requiring continuity confirmation:
+- preview identity, because destination previews may incorporate metadata
+- rights-policy state, because the edited claim or link may alter review needs
+- visibility state, because a current decision needs a current observation
+
+Reopened lanes:
+- metadata accuracy and claim boundary
+- AI-assistant disclosure placement
+- link and rights-note review
+- preview surface identity and accuracy
+- rights-policy surface
+- observed visibility
+- complete-surface decision binding
+
+Recheck result: SUPERSEDED
+Reason: the current candidate has metadata revision B2, but decision B1 is bound
+to revision B1
+
+G. SAFE STATE BEFORE RECHECK
+----------------------------
+Current candidate state: PRIVATE_REVIEW_REOPENED
+Prior approval state: SUPERSEDED_FOR_B2
+Current decision: SUPERSEDE_AND_REVIEW_AGAIN
+Visibility transition: NOT PERMITTED
+Logged-out public verification: NOT_TESTED
+Truthful public state: NOT_PUBLIC
+
+Exact next actions permitted:
+- inspect SYNTHETIC-METADATA-B2 for bounded claims, links, disclosure, privacy, and rights
+- confirm the selected preview and current policy surface
+- record current visibility
+- issue a new decision bound to every current revision
+Actions not permitted:
+- reuse SYNTHETIC-DECISION-B1 as approval for B2
+- change visibility to public
+- describe the candidate as published or publicly verified
+
+H. SYNTHETIC RECHECK PATH
+-------------------------
+The following is a fictional demonstration of the required shape, not a real
+result.
+
+Metadata B2 claim review: PASS
+Metadata B2 disclosure review: PASS
+Metadata B2 link and privacy review: PASS
+Preview identity after edit: SYNTHETIC-PREVIEW-B2
+Preview review: PASS
+Rights-policy revision after edit: SYNTHETIC-RIGHTS-STATE-B2
+Rights-policy review: PASS
+Current observed visibility: PRIVATE
+Current visibility review: PASS
+Effect-shaping continuity review: PASS
+
+New decision ID: SYNTHETIC-DECISION-B2
+New decision: PROCEED_TO_PUBLICATION_GATE
+Decision binds to:
+- SYNTHETIC-DIGEST-B
+- SYNTHETIC-RECORD-B
+- SYNTHETIC-RENDITION-B1
+- SYNTHETIC-PICTURE-B1
+- SYNTHETIC-AUDIO-B1
+- SYNTHETIC-CAPTIONS-B1
+- SYNTHETIC-PREVIEW-B2
+- SYNTHETIC-METADATA-B2
+- SYNTHETIC-RIGHTS-STATE-B2
+- current observed private visibility
+
+Decision result: PASS
+Exact next action permitted: enter a separate, current publication gate
+Public visibility transition: NOT STARTED
+Public route: NOT AVAILABLE
+Public verification: NOT_TESTED
+Truthful public state: NOT_PUBLIC
+
+I. SAFE OUTCOME
+---------------
+The recheck does not revive decision B1. It creates a new fictional B2 decision
+with a new evidence envelope. Even after that decision passes, the item remains
+private and not public. A separate authorized publication action, exact candidate
+continuity check, visibility transition, and logged-out served-media verification
+would still be required before any truthful public-state claim.
+
+
+COMPACT LESSONS FROM BOTH EXAMPLES
+==================================
+
+1. A completed transfer is not processed-surface approval.
+2. Picture and audio passes cannot cancel a caption failure.
+3. Review the destination-attached caption track, not only a local caption file.
+4. Requested privacy and an account label are not universal privacy evidence.
+5. Keep untested retrieval paths visible and bounded by the declared contract.
+6. Bind decisions to exact master, destination, rendition, caption, preview,
+   metadata, visibility, and rights-policy identities.
+7. Use HOLD_FOR_REPAIR when one release-critical surface fails.
+8. Use SUPERSEDE_AND_REVIEW_AGAIN after an effect-shaping surface changes.
+9. Preserve historically valid evidence without applying it to a replacement.
+10. PROCEED_TO_PUBLICATION_GATE authorizes only entry to a separate gate.
+11. Keep visibility transition and logged-out verification distinct.
+12. Do not infer public availability, audience, performance, conversion, or
+    continued availability from private-review evidence.
+
+Rights and scope
+----------------
+These examples, placeholder identities, evidence records, failure paths,
+decisions, and compact lessons are original work by Alfred, an AI assistant.
+They contain no third-party media, account data, personal attribution, customer
+material, destination screenshot, copied metric, real upload, or claimed result.
+
+Destination behavior, visibility controls, caption ingestion, metadata effects,
+rights notices, and policy surfaces vary and can change. A real workflow must use
+current first-party documentation, an actually authorized destination, direct
+observations, and separately authorized publication controls. These fictional
+examples are not a license, security guarantee, provider approval, publication
+record, or performance result.

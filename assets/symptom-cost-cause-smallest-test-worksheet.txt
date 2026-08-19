@@ -1,0 +1,418 @@
+COMPACT PRODUCT TEARDOWN WORKSHEET
+Symptom → user cost → possible cause → smallest test
+
+Original worksheet by Alfred, an AI assistant.
+
+PURPOSE
+Turn a product complaint or observed friction into a bounded investigation without
+presenting an inferred cause, preferred fix, or wider impact as fact.
+
+This worksheet is a reasoning aid. A completed copy does not prove root cause,
+prevalence, user impact beyond the observed scope, test completion, publication,
+or a product result.
+
+SAFE USE
+- Use only evidence you are authorized to review and share.
+- Remove names, contact details, account values, order identifiers, and private data.
+- Prefer synthetic data for reproduction when it can answer the question.
+- Keep restricted evidence restricted; publish only the minimum safe aggregate.
+- Do not identify, embarrass, blame, or speculate about an individual.
+- Do not expose a live exploit, credential, sensitive route, or unsafe procedure.
+- Stop when consent, authority, rights, privacy, or safety is uncertain.
+
+EVIDENCE STATES
+Use one state for every review lane. Never turn a blank into PASS.
+
+PASS
+  The declared check ran within scope and its acceptance condition was met.
+
+FAIL
+  The declared check ran within scope and its acceptance condition was not met.
+
+BLOCKED
+  A required check could not run because an authority, access, dependency, or
+  safety prerequisite was unavailable.
+
+NOT_TESTED
+  No eligible check ran.
+
+SUPERSEDED
+  The evidence no longer binds the current artifact, environment, hypothesis,
+  or test revision.
+
+UNCERTAIN
+  Evidence exists, but its identity, scope, quality, or interpretation cannot
+  support a narrower state.
+
+PART A — RECORD IDENTITY AND SCOPE
+
+Record ID:
+Record revision:
+Created at, with timezone:
+Reviewed at, with timezone:
+Reviewer role, if needed:
+
+Product or flow label (non-identifying):
+Artifact or build identity:
+Environment and version:
+Task being attempted:
+Observed step:
+Evidence source type:
+Evidence observed at, with timezone:
+Authorized evidence scope:
+Restricted evidence location or reference (do not copy private data here):
+
+Known scope boundaries:
+- Input method:
+- Browser, device, or client:
+- Locale or language:
+- Account state, expressed generically:
+- Network or dependency state:
+- Number of eligible observations:
+- Time interval represented:
+- What was not observed:
+
+Identity and scope state: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+PART B — RIGHTS, PRIVACY, AND SAFETY GATE
+
+[ ] Authority to inspect the evidence is confirmed.
+[ ] Authority to run the proposed test is confirmed.
+[ ] Evidence needed for the decision is separated from unrelated data.
+[ ] Names, contact details, account data, payment data, and identifiers are removed.
+[ ] Any retained example uses synthetic or properly consented data.
+[ ] Public wording will describe a product pattern, not target an individual.
+[ ] No copied media or material without a known rights basis is included.
+[ ] No credential, secret, sensitive route, exploit detail, or unsafe procedure appears.
+[ ] Stopping conditions are explicit.
+[ ] Uncertainty will remain visible.
+
+Gate state: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Evidence or blocker:
+
+STOP RULE
+If this gate is not PASS, do not run or publish the teardown. Preserve the narrow
+record privately only when authorized.
+
+PART C — SYMPTOM: WHAT HAPPENED?
+
+Write an observable event. Do not infer intent, competence, cause, or prevalence.
+
+Task start condition:
+Action taken:
+Expected visible or audible result, if specified:
+Observed visible or audible result:
+Step where progress changed:
+State before the event:
+State after the event:
+What did not happen:
+What can be reproduced directly:
+What is reported but not directly observed:
+What remains unknown:
+
+One-sentence bounded symptom:
+
+Avoided interpretation or motive claim:
+
+Evidence supporting the symptom:
+1.
+2.
+3.
+
+Evidence contradicting or narrowing the symptom:
+1.
+2.
+3.
+
+Symptom state: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+PART D — USER COST: WHICH OUTCOME WAS BLOCKED OR HARDER?
+
+Observed task outcome:
+Observed extra work, delay, confusion, or recovery step:
+Observed loss of entered work, if any:
+Observed accessibility barrier, if any:
+Observed uncertainty about completion, if any:
+
+Bounded observed cost:
+
+Potential wider cost to investigate, clearly labeled as a hypothesis:
+
+Claims not supported by this evidence:
+[ ] Population prevalence is unknown.
+[ ] Revenue effect is unknown.
+[ ] Conversion effect is unknown.
+[ ] Customer-retention effect is unknown.
+[ ] Causality beyond the observed scope is unknown.
+[ ] Other:
+
+User-cost state: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+PART E — POSSIBLE CAUSE: A FALSIFIABLE HYPOTHESIS
+
+Do not write “root cause” unless evidence has actually established it.
+
+Condition:
+Possible mechanism:
+Observed symptom it could produce:
+Specific evidence expected if true:
+Specific evidence expected if false or incomplete:
+
+Hypothesis sentence:
+When [condition], the product may [mechanism], causing [bounded symptom].
+If this is true, we expect [specific evidence].
+
+Supporting evidence:
+1.
+2.
+3.
+
+Contradicting evidence:
+1.
+2.
+3.
+
+Plausible alternative A:
+Evidence that would distinguish it:
+
+Plausible alternative B:
+Evidence that would distinguish it:
+
+Assumptions:
+1.
+2.
+3.
+
+Possible-cause state: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+PART F — SMALLEST TEST: REDUCE THE LARGEST UNCERTAINTY
+
+Largest decision-relevant uncertainty:
+Decision this test can change:
+Why a smaller or safer check cannot answer it:
+
+Test identity:
+Test revision:
+Method:
+Environment:
+Synthetic, consented, or restricted data:
+Exact condition changed:
+Conditions held fixed:
+Evidence to collect:
+Evidence deliberately not collected:
+
+Supports the hypothesis if:
+
+Weakens the hypothesis if:
+
+Leaves the result uncertain if:
+
+Stopping conditions:
+- Authority or consent changes:
+- Private or identifying data appears:
+- A safety or security concern appears:
+- The environment no longer matches:
+- The test could affect a real user or live transaction:
+- Other:
+
+Acceptance state vocabulary:
+SUPPORTED_WITHIN_SCOPE
+  The declared expected evidence appeared within the bounded test.
+
+WEAKENED_WITHIN_SCOPE
+  Declared contrary evidence appeared within the bounded test.
+
+INCONCLUSIVE
+  The test ran, but evidence cannot distinguish the named explanations.
+
+BLOCKED
+  The test could not run or complete under the declared gate.
+
+SUPERSEDED
+  The artifact, environment, hypothesis, or protocol changed.
+
+STOP
+  Rights, privacy, authority, safety, or quality made the test ineligible.
+
+Planned test state: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+PART G — RESULT RECORD
+Complete only after the exact test has run. Otherwise keep every lane NOT_TESTED.
+
+Test started at, with timezone:
+Test ended at, with timezone:
+Exact artifact or build tested:
+Protocol revision used:
+Environment actually observed:
+Data type actually used:
+Stopping condition triggered:
+
+Observed evidence:
+1.
+2.
+3.
+
+Unexpected evidence:
+1.
+2.
+3.
+
+Missing evidence:
+1.
+2.
+3.
+
+Result: SUPPORTED_WITHIN_SCOPE / WEAKENED_WITHIN_SCOPE / INCONCLUSIVE /
+        BLOCKED / SUPERSEDED / STOP / NOT_TESTED
+
+Reason:
+
+What remains unknown:
+
+Next bounded decision:
+
+Do not write:
+- “fixed” when only a prototype or local path passed;
+- “root cause” when alternatives remain plausible;
+- “users” when evidence covers one bounded observation;
+- “zero impact” when impact was not measured;
+- “published” when the artifact is only local, staged, uploaded, or private.
+
+PART H — PUBLIC-RELEASE REVIEW
+Complete separately from the investigation. Passing a test is not permission to publish.
+
+[ ] The symptom is observable and bounded.
+[ ] The user cost separates observed evidence from possible wider impact.
+[ ] The cause remains labeled as a hypothesis unless established.
+[ ] Supporting and contradicting evidence are both preserved.
+[ ] The smallest test names evidence that supports and weakens the hypothesis.
+[ ] Test state and publication state are separate.
+[ ] No prevalence, revenue, conversion, customer, or causal claim was invented.
+[ ] No individual is identified, blamed, embarrassed, researched, or pressured.
+[ ] No personal, account, payment, contact, or private operational data appears.
+[ ] Rights to all included text and media are recorded.
+[ ] No sensitive exploit, credential, route, or unsafe procedure appears.
+[ ] The AI authorship disclosure is visible.
+[ ] Sources support only the claims attributed to them.
+[ ] Proposed, completed, reproduced, and publicly verified work are distinguished.
+[ ] Contradictory and missing evidence remains visible.
+[ ] Later evidence can supersede the diagnosis without erasing history.
+
+Public-release state: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+PUBLICATION STATE
+Choose exactly one:
+[ ] LOCAL_DRAFT
+[ ] ASSEMBLED_LOCAL_CANDIDATE
+[ ] VALIDATED_LOCAL_CANDIDATE
+[ ] QUEUED_FOR_AN_AUTHORIZED_DESTINATION
+[ ] UPLOADED_NOT_PUBLICLY_VERIFIED
+[ ] PUBLICLY_VERIFIED
+[ ] SUPERSEDED
+[ ] WITHDRAWN_AND_REMOTELY_VERIFIED
+
+Destination, only if authorized:
+Public route, only if verified:
+Verified at, with timezone:
+Verification evidence reference:
+
+PART I — FAILURE-SHAPED REVIEW TESTS
+Run these against the completed record. A failure is useful evidence.
+
+TEST 1 — MOTIVE LEAK
+Replace the symptom with a claim about a team’s intent or competence.
+Expected: FAIL; rewrite as an observable event.
+State:
+
+TEST 2 — SCOPE LEAK
+Use one observation to claim population-wide prevalence.
+Expected: FAIL; preserve the observed scope and mark prevalence unknown.
+State:
+
+TEST 3 — COST INFLATION
+Turn a blocked task into an unsupported revenue or conversion claim.
+Expected: FAIL; separate observed task cost from business impact.
+State:
+
+TEST 4 — CAUSE AS FACT
+Remove “possible” or “hypothesis” before alternatives are tested.
+Expected: FAIL; restore falsifiable language.
+State:
+
+TEST 5 — CONFIRMATION-ONLY TEST
+Define what supports the hypothesis but not what weakens it.
+Expected: FAIL; add contrary evidence before running the test.
+State:
+
+TEST 6 — FIX-AS-TEST
+Propose a production change when a smaller synthetic reproduction can answer the question.
+Expected: FAIL; choose the least costly safe discriminator.
+State:
+
+TEST 7 — PRIVATE-DATA COPY
+Paste raw account, payment, contact, or identifying evidence into the public card.
+Expected: STOP; remove it and reassess whether publication is safe.
+State:
+
+TEST 8 — BLANK-AS-PASS
+Leave a required lane empty and call the teardown complete.
+Expected: FAIL; use NOT_TESTED, BLOCKED, or UNCERTAIN.
+State:
+
+TEST 9 — CHANGED BUILD
+Run the protocol on a different artifact but retain the old result.
+Expected: SUPERSEDED; bind a new result to the exact tested identity.
+State:
+
+TEST 10 — PUBLICATION COLLAPSE
+Treat local validation, a private upload, or an upload response as public evidence.
+Expected: FAIL; require authorized logged-out public verification.
+State:
+
+TEST 11 — ONE PASS PROVES ROOT CAUSE
+Use one successful reproduction to erase plausible alternatives.
+Expected: FAIL; narrow the result to the tested condition.
+State:
+
+TEST 12 — LATER EVIDENCE OVERWRITE
+Delete the old conclusion when corrected evidence arrives.
+Expected: FAIL; preserve history and mark the earlier decision SUPERSEDED.
+State:
+
+FINAL COMPACT CHECK
+1. Is the record bound to an exact artifact, environment, and observation time?
+2. Is the symptom observable rather than interpretive?
+3. Does the symptom state what was not observed?
+4. Is observed user cost separate from possible wider impact?
+5. Are prevalence, revenue, conversion, and causality left unknown unless evidenced?
+6. Is the possible cause written as a falsifiable hypothesis?
+7. Are at least two plausible alternatives visible when relevant?
+8. Is contradicting evidence retained?
+9. Does the smallest test reduce the largest decision-relevant uncertainty?
+10. Does the test predeclare both supporting and weakening evidence?
+11. Are stopping conditions explicit?
+12. Are synthetic or consented data used where possible?
+13. Are evidence states explicit rather than inferred from blanks?
+14. Is the result narrower than the tested artifact, condition, and interval?
+15. Are test completion and publication state separate?
+16. Is all public material rights-safe and free of private information?
+17. Does public wording avoid targeting or embarrassing anyone?
+18. Is Alfred disclosed only as an AI assistant?
+19. Can corrected evidence supersede the decision without erasing history?
+20. Does the final record avoid claiming work or results that were not verified?
+
+FINAL REVIEW STATE: PASS / FAIL / BLOCKED / NOT_TESTED / SUPERSEDED / UNCERTAIN
+Reason:
+
+RIGHTS AND PROVENANCE
+This worksheet, its field structure, state vocabulary, review tests, and compact
+checklist are original work by Alfred, an AI assistant. It contains no third-party
+media, customer material, real account data, copied product evidence, or claimed
+product result. A filled copy inherits the rights, privacy, authority, and accuracy
+requirements of the evidence entered into it.

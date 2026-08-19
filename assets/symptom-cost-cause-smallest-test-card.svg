@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Symptom, cost, possible cause, and smallest test teardown card</title>
+  <desc id="desc">A four-field product teardown card that separates observable symptoms, bounded user cost, falsifiable cause hypotheses, and the smallest rights-safe test that could change the decision.</desc>
+  <rect width="1200" height="1200" fill="#f3efe6"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#20324a" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#a63d32" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">PRODUCT RESEARCH · COMPACT TEARDOWN</text>
+  <text x="94" y="198" fill="#20324a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800">Observe before diagnosing.</text>
+  <text x="94" y="260" fill="#20324a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800">Test before prescribing.</text>
+  <text x="94" y="309" fill="#4e5b6c" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27">Four fields turn a complaint into a bounded, falsifiable investigation.</text>
+
+  <rect x="94" y="354" width="1012" height="108" rx="18" fill="#20324a"/>
+  <text x="126" y="399" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="700">SYMPTOM ≠ COST ≠ POSSIBLE CAUSE ≠ RESULT</text>
+  <text x="126" y="434" fill="#dfe6f2" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">A reproduction can strengthen a hypothesis. It does not prove root cause.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="498" width="484" height="186" rx="18" fill="#e8eef5" stroke="#20324a" stroke-width="3"/>
+    <circle cx="137" cy="539" r="21" fill="#a63d32"/>
+    <text x="130" y="548" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="537" fill="#20324a" font-size="28" font-weight="800">SYMPTOM</text>
+    <text x="126" y="579" fill="#4e5b6c" font-size="22">Record the task, step, visible result,</text>
+    <text x="126" y="607" fill="#4e5b6c" font-size="22">environment, source, time, and unknowns.</text>
+    <text x="126" y="646" fill="#7a3028" font-size="21" font-weight="700">Observable event—not motive or verdict.</text>
+
+    <rect x="622" y="498" width="484" height="186" rx="18" fill="#e8eef5" stroke="#20324a" stroke-width="3"/>
+    <circle cx="665" cy="539" r="21" fill="#a63d32"/>
+    <text x="658" y="548" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="537" fill="#20324a" font-size="28" font-weight="800">USER COST</text>
+    <text x="654" y="579" fill="#4e5b6c" font-size="22">Name the outcome blocked or made harder.</text>
+    <text x="654" y="607" fill="#4e5b6c" font-size="22">Separate observed cost from possible scale.</text>
+    <text x="654" y="646" fill="#7a3028" font-size="21" font-weight="700">One session is not prevalence evidence.</text>
+
+    <rect x="94" y="716" width="484" height="186" rx="18" fill="#e8eef5" stroke="#20324a" stroke-width="3"/>
+    <circle cx="137" cy="757" r="21" fill="#a63d32"/>
+    <text x="130" y="766" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="755" fill="#20324a" font-size="28" font-weight="800">POSSIBLE CAUSE</text>
+    <text x="126" y="797" fill="#4e5b6c" font-size="22">Write a falsifiable mechanism and the</text>
+    <text x="126" y="825" fill="#4e5b6c" font-size="22">evidence expected if it is true.</text>
+    <text x="126" y="864" fill="#7a3028" font-size="21" font-weight="700">Keep alternatives and contradictions visible.</text>
+
+    <rect x="622" y="716" width="484" height="186" rx="18" fill="#e8eef5" stroke="#20324a" stroke-width="3"/>
+    <circle cx="665" cy="757" r="21" fill="#a63d32"/>
+    <text x="658" y="766" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="755" fill="#20324a" font-size="28" font-weight="800">SMALLEST TEST</text>
+    <text x="654" y="797" fill="#4e5b6c" font-size="22">Choose the least risky check that can</text>
+    <text x="654" y="825" fill="#4e5b6c" font-size="22">support, weaken, or block the hypothesis.</text>
+    <text x="654" y="864" fill="#7a3028" font-size="21" font-weight="700">Predeclare evidence and stopping conditions.</text>
+  </g>
+
+  <rect x="94" y="940" width="1012" height="124" rx="18" fill="#f5ddd8" stroke="#a63d32" stroke-width="3"/>
+  <text x="126" y="982" fill="#732b24" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">PUBLIC RELEASE GATE</text>
+  <text x="126" y="1018" fill="#732b24" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">Remove private details · verify sharing rights · label inference · avoid invented scale</text>
+  <text x="126" y="1048" fill="#732b24" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">State PROPOSED, TESTED, BLOCKED, or NOT TESTED. Never manufacture certainty.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c8ced8" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4e5b6c" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Method card, not product-result evidence</text>
+</svg>
