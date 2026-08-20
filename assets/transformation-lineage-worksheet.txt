@@ -1,0 +1,568 @@
+TRANSFORMATION LINEAGE WORKSHEET
+A copyable release review for rights-safe remixes
+
+Artifact role: Original public worksheet. Completing it does not authorize upload, release, promotion, or outreach.
+Author disclosure: Alfred is an AI assistant.
+
+PURPOSE
+
+Use this worksheet to trace every candidate surface back through extraction and
+meaning-changing transformations to an admitted source member. It keeps rights,
+attribution, privacy, context, and perceptual review separate.
+
+A completed worksheet supports only the recorded candidate, release unit, use,
+and review scope. It does not create permission, establish ownership, provide a
+legal conclusion, prove destination processing, or authorize publication.
+
+EVIDENCE STATES
+
+PASS        The declared check passed for the identified revision and scope.
+FAIL        The declared check found a release-blocking defect.
+BLOCKED     A prerequisite, authority, or required record is unavailable.
+NOT_TESTED  The check has not been performed.
+UNCERTAIN   Evidence does not support a pass or fail.
+SUPERSEDED  Historical evidence that is not current approval.
+
+ADMISSION STATES
+
+ADMITTED      Eligible for the declared candidate use under the recorded basis.
+REJECTED      Not eligible for the declared candidate use.
+BLOCKED       Admission cannot be decided from available evidence.
+NOT_REVIEWED  No current admission review exists.
+SUPERSEDED    Replaced historical member or revision; not current approval.
+
+PACKAGE DECISIONS
+
+READY_WITHIN_RECORDED_SCOPE
+HOLD_FOR_REPAIR
+BLOCKED_ON_UNKNOWN_MEMBER
+BLOCKED_ON_RIGHTS_OR_ATTRIBUTION
+BLOCKED_ON_PRIVACY_OR_CONTEXT
+BLOCKED_ON_PERCEPTUAL_RESULT
+NOT_TESTED
+
+Never average a required FAIL, BLOCKED, NOT_TESTED, or UNCERTAIN result into a
+package pass.
+
+======================================================================
+A. REVIEW ENVELOPE
+======================================================================
+
+worksheet_revision:
+reviewed_at:
+reviewer_role:
+candidate_id:
+candidate_revision:
+candidate_byte_identity:
+release_unit_id:
+declared destination or delivery context:
+declared public or private state:
+declared use:
+territory or audience scope if relevant:
+reviewed picture dimensions:
+reviewed duration if timed media:
+reviewed audio configuration:
+reviewed caption or text configuration:
+reviewed poster, thumbnail, or preview revision:
+reviewed metadata revision:
+source-inventory revision:
+lineage-graph revision:
+rights-policy revision or authority record:
+privacy-review rule:
+claim-context rule:
+attribution-placement rule:
+known excluded surfaces:
+known untested surfaces:
+
+Envelope check
+[ ] The exact candidate and complete release unit are identifiable.
+[ ] The declared use is narrow enough for an admission decision.
+[ ] Required picture, audio, text, metadata, and preview surfaces are listed.
+[ ] Missing or inaccessible required surfaces are not treated as absent.
+[ ] Current records are distinguishable from SUPERSEDED records.
+
+envelope_state:
+envelope_evidence:
+envelope_blocker_or_unknown:
+
+======================================================================
+B. CLOSED SOURCE INVENTORY
+======================================================================
+
+Create one record for every possible input, including rejected and superseded
+members. Include hidden tracks, nested compositions, placeholders, scratch
+media, embedded artwork, fonts, icons, templates, generated outputs, metadata,
+and intermediate renders where they can influence release bytes.
+
+Repeat for each source member.
+
+MEMBER RECORD
+member_id:
+member_revision:
+safe_relative_label:
+media_type:
+origin_class: original | licensed | public-domain | generated | quoted | unknown
+origin_record:
+immutable identity or version:
+acquired_at or generated_at:
+intended_role:
+possible candidate surfaces:
+admission_state:
+rights_basis_record:
+rights_scope for declared use:
+attribution_requirement:
+attribution_fulfillment target:
+privacy_review_state:
+claim_context_review_state:
+embedded metadata or artwork:
+hidden, nested, or placeholder role:
+current, rejected, or superseded reason:
+review evidence:
+open question:
+
+Inventory closure
+expected_member_count:
+recorded_member_count:
+unidentified_member_count:
+rejected_member_count:
+superseded_member_count:
+
+[ ] Every possible input has a stable member identifier.
+[ ] Rejected members remain recorded.
+[ ] Superseded members remain recorded as historical evidence.
+[ ] A URL or filename is not used as the sole identity or rights record.
+[ ] Generated origin is not treated as automatic rights or privacy approval.
+[ ] Unknown required members block the candidate.
+
+inventory_state:
+inventory_evidence:
+inventory_blocker_or_unknown:
+
+======================================================================
+C. FRAGMENT EXTRACTION REGISTER
+======================================================================
+
+Create a fragment record whenever only part of a member is used or when picture,
+audio, text, metadata, pages, regions, or channels receive different treatment.
+The selection must be reproducible enough for inspection.
+
+Repeat for each extracted fragment.
+
+FRAGMENT RECORD
+fragment_id:
+parent_member_id_and_revision:
+selection_type: time | page | region | object | channel | bytes | other
+selection_coordinates_or_basis:
+selected channels:
+excluded channels:
+content summary:
+intended role:
+rights scope for this fragment:
+attribution effect:
+privacy surface:
+claim or context surface:
+extraction output identity:
+extraction method:
+boundary evidence:
+excluded-channel removal evidence:
+fragment_state:
+open question:
+
+[ ] Every used fragment points to one exact parent revision.
+[ ] Time, page, region, object, channel, or byte selection is reproducible.
+[ ] Excluded source audio is checked beyond a timeline mute control.
+[ ] Cropped or off-canvas content is checked in the candidate output.
+[ ] Boundary frames or edges are included where they can reveal residue.
+
+fragment_register_state:
+fragment_register_evidence:
+fragment_register_blocker_or_unknown:
+
+======================================================================
+D. TRANSFORMATION REGISTER
+======================================================================
+
+Track operations that can change rights, privacy, attribution, claim meaning, or
+perceptual output. Useful classes are selection, derivation, generation,
+composition, obscuration, encoding, and substitution. “Edited,” “remixed,” or
+“enhanced” is not a sufficient operation summary.
+
+Repeat for each meaningful transformation.
+
+TRANSFORMATION RECORD
+transform_id:
+class: selection | derivation | generation | composition | obscuration | encoding | substitution
+input_member_or_fragment_ids:
+input revisions:
+operation summary:
+parameters or reproducible method:
+output_fragment_or_member_id:
+output immutable identity:
+candidate surfaces influenced:
+rights question opened by this operation:
+attribution question opened by this operation:
+privacy question opened by this operation:
+claim-context question opened by this operation:
+perceptual review question:
+required downstream rechecks:
+evidence_state:
+evidence:
+open question:
+
+[ ] Every output names all material inputs.
+[ ] Meaning-changing operations are described specifically.
+[ ] Obscuration is tested for residue at full review size and over time.
+[ ] Substitution records both the removed and replacement revisions.
+[ ] Generation records declared inputs and does not imply automatic clearance.
+[ ] Encoding outputs are treated as new delivery identities.
+
+transformation_register_state:
+transformation_register_evidence:
+transformation_register_blocker_or_unknown:
+
+======================================================================
+E. FOUR SEPARATE DECISION LANES
+======================================================================
+
+Do not collapse these lanes into one “cleared” field.
+
+1. RIGHTS ADMISSION
+
+member_or_fragment_id:
+declared use:
+reviewed basis:
+rights scope:
+restrictions:
+expiry or invalidation trigger:
+decision:
+evidence:
+
+[ ] Public availability is not treated as permission.
+[ ] Missing watermarks or prior reposting are not treated as permission.
+[ ] A transformation is not treated as manufacturing permission.
+[ ] Unknown or unavailable bases remain BLOCKED or NOT_REVIEWED.
+
+rights_lane_state:
+rights_lane_blocker_or_unknown:
+
+2. ATTRIBUTION FULFILLMENT
+
+member_or_fragment_id:
+required credit, notice, link, or license text:
+required location and duration:
+actual location and duration:
+readability review:
+transformed-use compatibility:
+decision:
+evidence:
+
+[ ] Attribution is reviewed separately from permission.
+[ ] Permission is not treated as proof of correct attribution placement.
+[ ] Cropping, duration, size, and contrast are reviewed on delivery output.
+
+attribution_lane_state:
+attribution_lane_blocker_or_unknown:
+
+3. PRIVACY AND SENSITIVE-SURFACE REVIEW
+
+member_or_fragment_id:
+possible people or identifying surfaces:
+possible account, contact, location, or customer surfaces:
+possible credential or private-workspace surfaces:
+possible embedded metadata:
+redaction, replacement, or exclusion method:
+complete interval or surface reviewed:
+boundary frames reviewed:
+decision:
+evidence:
+
+[ ] The review covers picture, audio, text, metadata, preview, and poster surfaces.
+[ ] A sampled clean frame is not used to approve a complete moving interval.
+[ ] Blur, mask, crop, and replacement results are inspected, not assumed.
+
+privacy_lane_state:
+privacy_lane_blocker_or_unknown:
+
+4. CLAIM AND CONTEXT REVIEW
+
+member_or_fragment_id:
+original context summary:
+transformed context summary:
+claim made by surrounding composition:
+qualification preserved:
+generated, fictional, reconstructed, or illustrative label:
+possible misleading inference:
+decision:
+evidence:
+
+[ ] Cropping does not remove a decisive qualification.
+[ ] Captions do not describe synthetic material as a real event.
+[ ] Decorative reconstruction is not presented as source evidence.
+[ ] Uncertainty remains visible where the evidence is uncertain.
+
+claim_context_lane_state:
+claim_context_lane_blocker_or_unknown:
+
+======================================================================
+F. CANDIDATE SURFACE MANIFEST
+======================================================================
+
+Every visible, audible, readable, embedded, or destination-selected release
+surface must resolve backward to a reviewed lineage path.
+
+Repeat for each surface.
+
+SURFACE RECORD
+surface_id:
+surface_type: picture | audio | narration | caption | text | metadata | poster | thumbnail | preview | attachment | other
+scene, interval, page, or location:
+source lineage outputs:
+terminal transform:
+expected delivery identity:
+rights decision:
+attribution decision:
+privacy decision:
+claim-context decision:
+perceptual review state:
+reverse-closure state:
+evidence:
+open question:
+
+Forward closure
+[ ] Every intended admitted output appears only in its declared role.
+[ ] No intended notice, credit, disclosure, or qualification is missing.
+
+Reverse closure
+[ ] Every candidate surface resolves to a reviewed lineage path.
+[ ] No mystery texture, sound, icon, caption, or nested output remains.
+[ ] Required unknowns block rather than being averaged away.
+
+forward_closure_state:
+reverse_closure_state:
+closure_evidence:
+closure_blocker_or_unknown:
+
+======================================================================
+G. REJECTED AND SUPERSEDED MEMBER REMOVAL
+======================================================================
+
+Repeat for each member that must not appear in the current candidate.
+
+REMOVAL RECORD
+member_id_and_revision:
+state: REJECTED | SUPERSEDED
+reason:
+possible residual surfaces:
+removal target:
+replacement if any:
+current candidate revision:
+project or composition review:
+delivery-byte review:
+poster and preview review:
+metadata review:
+audio and nested-bus review:
+current result: ABSENT_FROM_CANDIDATE | PRESENT | NOT_TESTED | UNCERTAIN
+result evidence:
+repair if present or uncertain:
+
+[ ] Removal evidence is bound to the current candidate revision.
+[ ] Deleting a source file is not treated as proof of candidate absence.
+[ ] Nested compositions, audio buses, previews, and metadata are included.
+[ ] Any PRESENT, NOT_TESTED, or UNCERTAIN required result blocks release.
+
+removal_review_state:
+removal_review_evidence:
+removal_review_blocker_or_unknown:
+
+======================================================================
+H. COMPLETE PERCEPTUAL REVIEW
+======================================================================
+
+Bind this review to exact delivery bytes. Inspect the complete result at the
+declared review size and normal playback rate, then inspect risk boundaries.
+
+[ ] Complete picture reviewed.
+[ ] Complete audio reviewed.
+[ ] Complete captions and text reviewed.
+[ ] Opening and terminal surfaces reviewed.
+[ ] Scene and caption boundaries reviewed frame by frame where needed.
+[ ] Mask and blur edges reviewed.
+[ ] Background audio and nested mixes reviewed.
+[ ] Small insets and textures reviewed at full size.
+[ ] Attribution remains readable for its required duration.
+[ ] Poster, thumbnail, preview, and embedded artwork reviewed.
+[ ] Metadata reviewed.
+[ ] No stale export is mistaken for the current candidate.
+[ ] Generated replacements do not preserve unsupported source fragments.
+
+picture_state:
+audio_state:
+caption_and_text_state:
+poster_thumbnail_preview_state:
+metadata_state:
+complete_playback_state:
+perceptual_evidence:
+perceptual_blocker_or_unknown:
+
+======================================================================
+I. CHANGE INVALIDATION MAP
+======================================================================
+
+Preserve old evidence as historical and mark it SUPERSEDED for current action.
+Reopen the smallest affected subgraph and every candidate surface it can change.
+
+Repeat for each change.
+
+CHANGE RECORD
+change_id:
+changed_member, fragment, transform, or rule:
+old revision:
+new revision:
+reason:
+affected downstream outputs:
+affected candidate surfaces:
+rights checks reopened:
+attribution checks reopened:
+privacy checks reopened:
+claim-context checks reopened:
+perceptual checks reopened:
+unaffected evidence and why:
+old decision marked SUPERSEDED:
+recheck state:
+recheck evidence:
+
+Common invalidation prompts
+[ ] New crop reopens context, privacy, composition, and boundary review.
+[ ] Longer excerpt reopens rights scope and attribution review.
+[ ] Narration change reopens script, voice, mix, and context checks.
+[ ] Font change reopens rights basis and rendered-text review.
+[ ] Caption change reopens claims, timing, composition, and preview checks.
+[ ] Template change reopens recurring fonts, icons, logos, and metadata.
+[ ] Fresh export reopens byte identity and perceptual review.
+[ ] Destination-generated rendition receives its own evidence record.
+
+invalidation_map_state:
+invalidation_map_evidence:
+invalidation_map_blocker_or_unknown:
+
+======================================================================
+J. FAILURE-SHAPED TESTS
+======================================================================
+
+Record PASS only when the worksheet responds with the expected blocking or
+invalidation behavior.
+
+1. Add an unknown sound effect to a nested bus.
+   Expected: reverse closure fails; package is blocked.
+   Result:
+
+2. Reject a source image but leave it in the poster frame.
+   Expected: removal result is PRESENT; package is blocked.
+   Result:
+
+3. Delete a rejected source from the asset folder without checking the export.
+   Expected: absence remains NOT_TESTED or UNCERTAIN.
+   Result:
+
+4. Use a public URL as the only rights record.
+   Expected: rights admission is BLOCKED or NOT_REVIEWED.
+   Result:
+
+5. Credit an input whose declared-use permission is unknown.
+   Expected: attribution does not convert rights admission into PASS.
+   Result:
+
+6. Mute source audio on one timeline while a nested mix retains it.
+   Expected: excluded-channel or perceptual review fails.
+   Result:
+
+7. Crop an identifying label from sampled frames but leave one transition frame.
+   Expected: privacy and complete-playback review fail.
+   Result:
+
+8. Replace an unsupported image with a generated near-copy.
+   Expected: generation does not automatically pass rights or perceptual review.
+   Result:
+
+9. Change caption wording without changing video bytes.
+   Expected: claim-context and affected composition evidence is SUPERSEDED.
+   Result:
+
+10. Change the font after package approval.
+    Expected: font rights and all rendered-text surfaces reopen.
+    Result:
+
+11. Find ten documented members and one required unknown texture.
+    Expected: the unknown blocks; passes are not averaged.
+    Result:
+
+12. Approve the local master but leave destination thumbnail state unobserved.
+    Expected: destination rendition remains NOT_TESTED; no public claim follows.
+    Result:
+
+failure_test_summary:
+unresolved_failure_test:
+
+======================================================================
+K. FINAL TWENTY-CHECK REVIEW
+======================================================================
+
+[ ] 1. Exact candidate revision or byte identity is recorded.
+[ ] 2. Every possible source member has a stable identifier.
+[ ] 3. Hidden, nested, placeholder, and metadata-bearing inputs are included.
+[ ] 4. Rejected and superseded members remain in the record.
+[ ] 5. Each fragment names its exact parent and reproducible selection.
+[ ] 6. Excluded channels and regions have candidate-bound removal evidence.
+[ ] 7. Meaning-changing transformations name inputs and outputs.
+[ ] 8. Vague editing labels do not replace transformation records.
+[ ] 9. Rights admission is explicit for the declared use.
+[ ] 10. Public availability is not treated as permission.
+[ ] 11. Attribution fulfillment is separate from rights admission.
+[ ] 12. Privacy review covers the complete relevant surface and interval.
+[ ] 13. Crops, captions, and composition preserve required context.
+[ ] 14. Generated or reconstructed material is labelled when needed.
+[ ] 15. Every final surface resolves backward to a reviewed path.
+[ ] 16. Every intended admitted output appears in its declared role.
+[ ] 17. One unknown required member blocks the candidate.
+[ ] 18. Delivery bytes receive complete perceptual review.
+[ ] 19. Changes supersede affected lineage and trigger scoped rechecks.
+[ ] 20. Local approval is not described as upload, publication, or legal proof.
+
+======================================================================
+L. DECISION RECORD
+======================================================================
+
+candidate_id_and_revision:
+release_unit_id:
+source_inventory_revision:
+lineage_graph_revision:
+decision:
+decision_scope:
+decision evidence:
+blocking member, fragment, transform, or surface:
+required repair:
+required recheck:
+remaining unknowns:
+rights lane state:
+attribution lane state:
+privacy lane state:
+claim-context lane state:
+forward-closure state:
+reverse-closure state:
+removal-review state:
+perceptual-review state:
+public state: NOT_PUBLIC
+upload state: NOT_UPLOADED
+promotion state: NOT_POSTED_OR_QUEUED
+
+APPROVAL BOUNDARY
+
+READY_WITHIN_RECORDED_SCOPE means only that every reviewed surface in the
+identified candidate resolves to a declared source-and-transformation path whose
+recorded rights, attribution, privacy, context, closure, removal, and perceptual
+checks passed under this worksheet's rules.
+
+It does not prove ownership, universal legality, destination processing,
+audience understanding, publication, reach, revenue, or any business result.
+Transfer, upload, destination review, publication, promotion, and remote
+verification require separate authorization and evidence.

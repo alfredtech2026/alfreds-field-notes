@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Transformation-lineage review card</title>
+  <desc id="desc">A six-gate rights-safe remix review card tracing candidate surfaces through transformations to admitted source fragments while keeping rights, attribution, privacy, context, and perceptual review separate.</desc>
+  <rect width="1200" height="1200" fill="#f5f0e7"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#172a3a" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#a33b2f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">RIGHTS-SAFE REMIX · TRANSFORMATION LINEAGE</text>
+  <text x="94" y="196" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">Trace every release surface.</text>
+  <text x="94" y="256" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">A source list is not enough.</text>
+  <text x="94" y="306" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">Bind each fragment, change, decision, and output to one candidate.</text>
+
+  <rect x="94" y="348" width="1012" height="112" rx="18" fill="#172a3a"/>
+  <text x="126" y="394" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="23" font-weight="700">SOURCE → FRAGMENT → TRANSFORM → SURFACE → DELIVERY BYTES</text>
+  <text x="126" y="430" fill="#dce6ec" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Forward closure checks intended outputs. Reverse closure finds mystery inputs.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="536" r="21" fill="#a33b2f"/>
+    <text x="130" y="545" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="534" fill="#172a3a" font-size="27" font-weight="800">Close the inventory</text>
+    <text x="126" y="576" fill="#4d5b66" font-size="21">Record original, licensed, generated, quoted,</text>
+    <text x="126" y="604" fill="#4d5b66" font-size="21">hidden, rejected, and superseded members.</text>
+
+    <rect x="622" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="536" r="21" fill="#a33b2f"/>
+    <text x="658" y="545" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="534" fill="#172a3a" font-size="27" font-weight="800">Identify fragments</text>
+    <text x="654" y="576" fill="#4d5b66" font-size="21">Name exact time, page, region, object, bytes,</text>
+    <text x="654" y="604" fill="#4d5b66" font-size="21">and excluded picture, audio, or metadata.</text>
+
+    <rect x="94" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="694" r="21" fill="#a33b2f"/>
+    <text x="130" y="703" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="692" fill="#172a3a" font-size="27" font-weight="800">Record transformations</text>
+    <text x="126" y="734" fill="#4d5b66" font-size="21">Track selection, derivation, generation,</text>
+    <text x="126" y="762" fill="#4d5b66" font-size="21">composition, obscuration, encoding, substitution.</text>
+
+    <rect x="622" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="694" r="21" fill="#a33b2f"/>
+    <text x="658" y="703" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="692" fill="#172a3a" font-size="27" font-weight="800">Keep four decisions</text>
+    <text x="654" y="734" fill="#4d5b66" font-size="21">Review rights, attribution, privacy, and claim</text>
+    <text x="654" y="762" fill="#4d5b66" font-size="21">context separately. Credit is not permission.</text>
+
+    <rect x="94" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="852" r="21" fill="#a33b2f"/>
+    <text x="130" y="861" fill="#ffffff" font-size="24" font-weight="800">5</text>
+    <text x="174" y="850" fill="#172a3a" font-size="27" font-weight="800">Prove both closures</text>
+    <text x="126" y="892" fill="#4d5b66" font-size="21">Every intended admitted output appears; every</text>
+    <text x="126" y="920" fill="#4d5b66" font-size="21">visible, audible, or embedded surface resolves back.</text>
+
+    <rect x="622" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="852" r="21" fill="#a33b2f"/>
+    <text x="658" y="861" fill="#ffffff" font-size="24" font-weight="800">6</text>
+    <text x="702" y="850" fill="#172a3a" font-size="27" font-weight="800">Review bytes + changes</text>
+    <text x="654" y="892" fill="#4d5b66" font-size="21">Inspect the complete perceptual result. Reopen</text>
+    <text x="654" y="920" fill="#4d5b66" font-size="21">affected paths after crops, swaps, or fresh exports.</text>
+  </g>
+
+  <rect x="94" y="978" width="1012" height="86" rx="18" fill="#f4ddd7" stroke="#a33b2f" stroke-width="3"/>
+  <text x="126" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">BLOCKING RULE</text>
+  <text x="340" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">One required unknown or rejected residual blocks the package.</text>
+  <text x="126" y="1049" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">A transformation record describes what changed. It does not manufacture permission.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c7cfd4" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Local method card, not publication evidence</text>
+</svg>

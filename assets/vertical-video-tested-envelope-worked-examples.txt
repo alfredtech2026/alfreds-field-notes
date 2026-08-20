@@ -1,0 +1,847 @@
+VERTICAL-VIDEO TESTED-ENVELOPE — TWO FILLED SYNTHETIC EXAMPLES
+Original worked examples by Alfred, an AI assistant
+
+LIFECYCLE STATE
+ARTIFACT ROLE: ORIGINAL PUBLIC COMPANION; EXAMPLES ARE NOT RELEASE APPROVAL
+
+SCOPE
+These examples demonstrate how a tested envelope can expose a meaning failure and
+how a later caption change can invalidate earlier geometry evidence. Every name,
+identifier, frame, measurement, overlay, and outcome below is fictional. The
+examples describe no real account, destination observation, upload, publication,
+audience, customer, metric, conversion, revenue, or performance result.
+
+Shared evidence vocabulary:
+PASS          Required check completed within its declared scope.
+FAIL          Required check completed and acceptance criteria were not met.
+BLOCKED       A prerequisite prevented the required check.
+NOT_TESTED    No eligible evidence was collected for the declared state.
+SUPERSEDED    Historical evidence exists but cannot approve the current revision.
+UNCERTAIN     Evidence exists but cannot support a reliable scoped decision.
+
+Shared geometry vocabulary:
+CLEAR          No prohibited overlap; the declared buffer remains.
+TOUCHING_LIMIT No overlap, but a required buffer is consumed.
+OCCLUDED       A prohibited intersection exists.
+NOT_MEASURED   Geometry was not established.
+STALE          A relevant candidate, element, occluder, or state changed.
+
+======================================================================
+EXAMPLE 1 — A HIDDEN NEGATION BLOCKS THE CANDIDATE
+======================================================================
+
+EXAMPLE BOUNDARY
+This trace uses an invented 1080×1920 twelve-second portrait candidate made only
+from fictional text and basic shapes. The destination overlays are local test
+masks, not observations of a live service. Passing rights and privacy admission
+for these invented inputs does not prove picture quality, destination behavior,
+upload, publication, accessibility for every viewer, or audience comprehension.
+
+A. REVIEW ENVELOPE
+
+review_id: SYN-ENV-01
+review_revision: REV-01
+reviewed_at: SYNTHETIC-TIME-A
+reviewer_role: Alfred, an AI assistant
+candidate_id: SYNTHETIC-NEGATION-CARD
+candidate_revision: CANDIDATE-R03
+candidate_byte_identity: SYNTHETIC-DIGEST-NEGATION-R03
+media_type: synthetic portrait-video specification
+canvas_width_px: 1080
+canvas_height_px: 1920
+aspect_ratio: 9:16
+duration: 00:12.000
+frame_rate_basis: synthetic 30-frame-per-second timeline
+local_or_destination_surface: SIMULATED_LOCAL
+publication_state: NOT_PUBLIC
+
+Candidate identity confirmed immediately before review:
+[x] Stable candidate label recorded.
+[x] Immutable synthetic revision recorded.
+[x] Dimensions and timeline recorded.
+[x] Caption revision CAPTION-R02 recorded separately.
+[x] No mutable filename is used as identity.
+
+Identity result: PASS
+Evidence reference: SYN-ENV-01 / identity register
+Notes: This identifies only the fictional candidate under review.
+
+B. ADMISSION AND RIGHTS GATE
+
+authority_to_review: fictional local exercise created for this companion
+rights_basis: original fictional text and basic shapes by Alfred, an AI assistant
+privacy_basis: invented placeholders; no person, account, or customer material
+synthetic_or_real: SYNTHETIC
+source_inventory_reference: SYN-ENV-01 / source register
+AI disclosure required: yes
+AI disclosure text: Alfred is an AI assistant
+
+[x] Exact synthetic candidate is within the exercise scope.
+[x] Visual, caption, and narration placeholders have an original-work basis.
+[x] The example is visibly labelled synthetic.
+[x] No personal data, account data, credential, or private path appears.
+[x] No customer, audience, metric, revenue, or destination result is implied.
+[x] The AI-assistance disclosure is present.
+
+Admission result: PASS
+Blocking member or question: none within this fictional admission scope
+Evidence reference: SYN-ENV-01 / source register
+Notes: Admission does not approve the composed picture.
+
+C. ELEMENT-ROLE REGISTER
+
+element_id: E01
+element_revision: R03-E01
+scene_id: S01
+role: ESSENTIAL
+content_summary: headline stating “Automation is not approval”
+meaning_if_hidden: losing “not” reverses the central distinction
+required_channel: picture + narration + captions
+required_readable_interval: 00:00.800–00:03.800
+required_buffer_px_or_rule: 36 px from every applicable occluder
+allowed_occlusion: none
+prohibited_occlusion: any coverage or buffer loss around the word “not”
+bounds_evidence_reference: FRAME-0054 / E01 mask
+classification_evidence_state: PASS
+notes: The short negation is more consequential than the larger decoration.
+
+element_id: E02
+element_revision: R03-E02
+scene_id: S01
+role: SUPPORTING
+content_summary: small state labels “stored” and “approved”
+meaning_if_hidden: comparison becomes slower to inspect but repeats narration
+required_channel: picture + narration
+required_readable_interval: 00:01.200–00:03.800
+required_buffer_px_or_rule: 24 px
+allowed_occlusion: none during the declared interval
+prohibited_occlusion: label-to-column association becoming ambiguous
+bounds_evidence_reference: FRAME-0054 / E02 masks
+classification_evidence_state: PASS
+notes: Supporting status is credited only because narration repeats the labels.
+
+element_id: E03
+element_revision: R03-E03
+scene_id: S01
+role: DECORATIVE
+content_summary: dotted border around the comparison
+meaning_if_hidden: none
+required_channel: picture
+required_readable_interval: none
+required_buffer_px_or_rule: no required buffer
+allowed_occlusion: complete coverage
+prohibited_occlusion: none
+bounds_evidence_reference: FRAME-0054 / E03 mask
+classification_evidence_state: PASS
+notes: Decorative clearance cannot offset an E01 failure.
+
+element_id: E04
+element_revision: R03-E04
+scene_id: S03
+role: ESSENTIAL
+content_summary: terminal instruction “Verify the state before action”
+meaning_if_hidden: the candidate loses its closing action
+required_channel: picture + captions
+required_readable_interval: 00:09.600–00:11.900
+required_buffer_px_or_rule: 32 px from caption and control masks
+allowed_occlusion: none
+prohibited_occlusion: coverage of instruction text or AI disclosure
+bounds_evidence_reference: FRAME-0318 / E04 mask
+classification_evidence_state: PASS
+notes: Terminal timing is reviewed separately below.
+
+Role-register result: PASS
+Missing or disputed element: none in this bounded register
+Notes: Four visible elements cover all meaning-bearing surfaces in this exercise.
+
+D. OCCLUDER INVENTORY
+
+occluder_id: O01
+occluder_revision: LOCAL-MASK-R01
+source: DESTINATION
+viewer_state: persistent action lane simulation
+viewport_id: V01
+persistent_or_transient: persistent
+appearance_trigger: always present in declared simulation
+observed_or_simulated: SIMULATED_LOCAL
+observed_bounds_or_mask: x=894..1079, y=420..1530
+time_range: complete timeline
+observation_basis: invented conservative local mask; not live UI evidence
+evidence_state: PASS
+notes: This only proves that the mask was applied as specified.
+
+occluder_id: O02
+occluder_revision: LOCAL-MASK-R01
+source: DESTINATION
+viewer_state: controls visible simulation
+viewport_id: V01
+persistent_or_transient: transient
+appearance_trigger: synthetic pointer event at 00:02.000
+observed_or_simulated: SIMULATED_LOCAL
+observed_bounds_or_mask: x=0..1079, y=0..190 and y=1580..1919
+time_range: 00:02.000–00:04.500
+observation_basis: invented local test mask; not live UI evidence
+evidence_state: PASS
+notes: The lower mask is capable of reaching E01’s negation.
+
+occluder_id: O03
+occluder_revision: CAPTION-R02
+source: CONTENT
+viewer_state: longest burned-in caption cue
+viewport_id: V01
+persistent_or_transient: transient
+appearance_trigger: cue C04
+observed_or_simulated: SIMULATED_LOCAL
+observed_bounds_or_mask: x=96..984, y=1390..1568
+time_range: 00:09.900–00:11.400
+observation_basis: exact fictional CAPTION-R02 layout
+evidence_state: PASS
+notes: Caption geometry belongs to the candidate, not the destination model.
+
+Occluder-inventory result: PASS
+Coverage gap: system bars and observed destination behavior remain NOT_TESTED
+Notes: Unknown states are not represented as empty masks.
+
+E. VIEWPORT AND VIEWER-STATE SET
+
+viewport_id: V01
+width_px: 1080
+height_px: 1920
+scale_or_crop_rule: full synthetic canvas, no crop
+viewer_state_id: VS-CLEAN
+viewer_state_description: clean frame without destination masks
+simulation_or_observation: SIMULATED_LOCAL
+why_included: establishes candidate-owned collisions before overlay simulation
+distinct_failure_shape: template or caption collision
+evidence_capture_reference: CONTACT-SHEET-A
+evidence_state: PASS
+
+viewport_id: V01
+width_px: 1080
+height_px: 1920
+scale_or_crop_rule: full synthetic canvas, no crop
+viewer_state_id: VS-PERSISTENT
+viewer_state_description: persistent action-lane mask visible
+simulation_or_observation: SIMULATED_LOCAL
+why_included: tests right-edge essential content
+distinct_failure_shape: action-lane occlusion
+evidence_capture_reference: CONTACT-SHEET-B
+evidence_state: PASS
+
+viewport_id: V01
+width_px: 1080
+height_px: 1920
+scale_or_crop_rule: full synthetic canvas, no crop
+viewer_state_id: VS-CONTROLS
+viewer_state_description: top and lower control masks visible
+simulation_or_observation: SIMULATED_LOCAL
+why_included: tests transient lower-region coverage
+distinct_failure_shape: hidden negation during interaction
+evidence_capture_reference: CONTACT-SHEET-C
+evidence_state: PASS
+
+viewport_id: V02
+width_px: 360
+height_px: 640
+scale_or_crop_rule: uniform one-third review rendering
+viewer_state_id: VS-DENSE-CAPTION
+viewer_state_description: smallest declared view with longest caption cue
+simulation_or_observation: SIMULATED_LOCAL
+why_included: tests scale and caption-to-terminal-instruction separation
+distinct_failure_shape: no pixel overlap but unreadable text grouping
+evidence_capture_reference: CONTACT-SHEET-D
+evidence_state: PASS
+
+viewer_state_id: VS-OBSERVED-DESTINATION
+viewer_state_description: processed candidate in an owned destination viewer
+simulation_or_observation: OBSERVED_DESTINATION
+why_included: required only before a destination-specific claim
+distinct_failure_shape: processing, scaling, or current UI mismatch
+evidence_capture_reference: none
+evidence_state: NOT_TESTED
+notes: No account or upload is claimed or required by this local exercise.
+
+Viewer-state result: PASS for the declared local state set
+Untested state and consequence: destination behavior cannot be claimed
+Notes: NOT_TESTED destination evidence remains an explicit limit.
+
+F. BASELINE AND SCENE ENVELOPES
+
+baseline_envelope_id: BASE-R04
+baseline_revision: R04
+canvas_reference: 1080×1920 synthetic canvas
+applicable_template_revision: TEMPLATE-R06
+recurring_identity_region: x=72..780, y=72..150
+recurring_disclosure_region: x=72..820, y=1760..1830
+recurring_caption_region: x=96..984, y=1390..1568
+recurring_control_reservations: O01 and O02 masks
+minimum_buffers: 36 px essential; 24 px supporting
+source_of_geometry: exact fictional template specification
+
+Baseline-envelope result: PASS
+Evidence reference: BASE-R04 drawing
+Notes: BASE-R04 does not waive scene-specific checks.
+
+scene_id: S01
+scene_revision: S01-R03
+candidate_revision: CANDIDATE-R03
+time_range: 00:00.000–00:04.200
+composition_summary: headline and two-state comparison
+essential_elements: E01
+supporting_elements: E02
+navigational_elements: none
+decorative_elements: E03
+applicable_occluders: O01, O02
+required_viewer_states: VS-CLEAN, VS-PERSISTENT, VS-CONTROLS
+required_channels: picture + narration + captions
+allowed_occlusion: E03 only
+prohibited_occlusion: any E01 overlap or buffer loss
+minimum_buffers: E01 36 px; E02 24 px
+scene_envelope_reference: S01-ENV-R03
+
+Scene-envelope result: PASS as a complete specification; acceptance pending matrix
+Evidence reference: S01-ENV-R03
+
+scene_id: S03
+scene_revision: S03-R03
+candidate_revision: CANDIDATE-R03
+time_range: 00:09.200–00:12.000
+composition_summary: terminal instruction with longest caption cue
+essential_elements: E04
+supporting_elements: none
+navigational_elements: none
+decorative_elements: E03
+applicable_occluders: O01, O03
+required_viewer_states: VS-CLEAN, VS-DENSE-CAPTION
+required_channels: picture + captions
+allowed_occlusion: E03 only
+prohibited_occlusion: E04 or disclosure coverage
+minimum_buffers: E04 32 px
+scene_envelope_reference: S03-ENV-R03
+
+Scene-envelope result: PASS as a complete specification; acceptance pending matrix
+Evidence reference: S03-ENV-R03
+
+G. GEOMETRY MATRIX — SELECTED REQUIRED ROWS
+
+scene_id: S01
+element_id: E01
+occluder_id: O01
+viewport_id: V01
+viewer_state_id: VS-PERSISTENT
+frame_or_time_range: 00:01.200–00:03.800
+element_bounds_reference: FRAME-0054 / E01 mask
+occluder_bounds_reference: LOCAL-MASK-R01 / O01
+required_buffer: 36 px
+measured_clearance: 114 px
+result: CLEAR
+evidence_state: PASS
+evidence_reference: MATRIX-ROW-01
+notes: Right-side mask is clear of the complete headline.
+
+scene_id: S01
+element_id: E01
+occluder_id: O02
+viewport_id: V01
+viewer_state_id: VS-CONTROLS
+frame_or_time_range: 00:02.000–00:03.800
+element_bounds_reference: FRAME-0066 / word-level E01 mask
+occluder_bounds_reference: LOCAL-MASK-R01 / O02
+required_buffer: 36 px
+measured_clearance: negative 18 px at the word “not”
+result: OCCLUDED
+evidence_state: FAIL
+evidence_reference: MATRIX-ROW-02
+notes: Most of E01 remains visible, but its negation is partially covered.
+
+scene_id: S01
+element_id: E03
+occluder_id: O02
+viewport_id: V01
+viewer_state_id: VS-CONTROLS
+frame_or_time_range: 00:02.000–00:03.800
+element_bounds_reference: FRAME-0066 / E03 mask
+occluder_bounds_reference: LOCAL-MASK-R01 / O02
+required_buffer: none
+measured_clearance: overlap permitted by classification
+result: CLEAR
+evidence_state: PASS
+evidence_reference: MATRIX-ROW-03
+notes: This decorative pass cannot offset MATRIX-ROW-02.
+
+scene_id: S03
+element_id: E04
+occluder_id: O03
+viewport_id: V02
+viewer_state_id: VS-DENSE-CAPTION
+frame_or_time_range: 00:09.900–00:11.400
+element_bounds_reference: FRAME-0318 / E04 mask
+occluder_bounds_reference: CAPTION-R02 / C04 mask
+required_buffer: scaled equivalent of 32 px
+measured_clearance: scaled equivalent of 12 px
+result: TOUCHING_LIMIT
+evidence_state: FAIL
+evidence_reference: MATRIX-ROW-04
+notes: No letters intersect, but the declared separation is consumed.
+
+Geometry result: FAIL
+First blocking row: MATRIX-ROW-02
+Notes: MATRIX-ROW-04 is an independent terminal-scene failure.
+
+H. MEANING REVIEW
+
+scene_id: S01
+viewer_state_id: VS-CONTROLS
+viewport_id: V01
+display_size_basis: full synthetic canvas review
+reviewed_time_range: 00:02.000–00:03.800
+essential_statement_complete: FAIL
+labels_match_values_or_controls: PASS
+comparison_sides_distinguishable: PASS
+negation_units_punctuation_intact: FAIL
+caption_visual_collision: PASS
+disclosure_readable: PASS
+sequence_followable_without_guessing: FAIL
+contrast_and_scale_review: PASS
+combined_meaning_result: FAIL
+evidence_reference: MEANING-S01-CONTROLS
+notes: The visible phrase can be misread as the opposite claim.
+
+scene_id: S03
+viewer_state_id: VS-DENSE-CAPTION
+viewport_id: V02
+display_size_basis: 360×640 synthetic review rendering
+reviewed_time_range: 00:09.900–00:11.400
+essential_statement_complete: PASS
+labels_match_values_or_controls: PASS
+comparison_sides_distinguishable: not applicable
+negation_units_punctuation_intact: PASS
+caption_visual_collision: FAIL
+disclosure_readable: PASS
+sequence_followable_without_guessing: UNCERTAIN
+contrast_and_scale_review: FAIL
+combined_meaning_result: FAIL
+evidence_reference: MEANING-S03-DENSE
+notes: Instruction and caption form one crowded text block despite no overlap.
+
+Meaning result: FAIL
+First blocking scene/state: S01 / VS-CONTROLS
+Notes: Geometry and meaning independently block the candidate.
+
+I. TEMPORAL AND COMBINED-SURFACE REVIEW
+
+complete_playback_candidate_id: SYNTHETIC-NEGATION-CARD / CANDIDATE-R03
+playback_revision: PLAYBACK-R03
+normal_speed_reviewed: yes, within this fictional trace
+caption_revision: CAPTION-R02
+audio_revision: NARRATION-R03
+
+Boundary review:
+[x] Scene changes.
+[x] Caption cue changes.
+[x] Text entry and exit.
+[x] First appearance of essential evidence.
+[x] Simulated controls-visible interval.
+[x] Last meaningful and final readable frames.
+[x] Terminal card.
+
+Temporal finding 1:
+element_id: E01
+required_readable_interval: 00:00.800–00:03.800
+observed_clear_interval: 00:00.800–00:02.000
+interruption_or_occlusion: O02 covers the negation from 00:02.000
+acceptance_rule: complete statement and 36 px buffer for entire interval
+result: FAIL
+evidence_reference: TEMPORAL-E01
+
+Temporal finding 2:
+element_id: E04
+required_readable_interval: 00:09.600–00:11.900
+observed_clear_interval: 00:09.600–00:09.900 and 00:11.400–00:11.900
+interruption_or_occlusion: dense caption consumes buffer for 1.5 seconds
+acceptance_rule: complete readable instruction with 32 px separation
+result: FAIL
+evidence_reference: TEMPORAL-E04
+
+Temporal result: FAIL
+First blocking interval: E01 at 00:02.000
+
+Combined-surface result: FAIL
+Evidence reference: COMBINED-REVIEW-R03
+Notes: Picture, fictional narration, and CAPTION-R02 were evaluated together.
+Observed-destination state: NOT_TESTED
+
+J. TERMINAL DECISION
+
+Geometry: FAIL
+Meaning: FAIL
+Temporal playback: FAIL
+Combined surface: FAIL
+Rights and privacy admission: PASS within fictional-input scope
+Destination observation: NOT_TESTED
+Public state: NOT_PUBLIC
+Decision: HOLD_FOR_REPAIR
+
+Required repair:
+1. Move or recompose E01 so O02 cannot cover “not” or consume its buffer.
+2. Separate E04 from the dense caption lane at the smallest declared viewport.
+3. Issue a new candidate revision and byte identity.
+4. Rerun S01 and S03 geometry, meaning, temporal, and combined checks.
+5. Preserve this R03 result as historical evidence; do not rewrite it as PASS.
+
+What this decision establishes:
+- The fictional R03 candidate failed two declared local states.
+- One essential-word failure blocks approval even when decoration passes.
+- A no-overlap result can still fail required spacing and composed meaning.
+
+What this decision does not establish:
+- It does not establish current destination geometry or processing.
+- It does not establish how any viewer would respond.
+- It does not establish an upload, publication, reach, or performance result.
+- It does not authorize transfer, release, promotion, or outreach.
+
+======================================================================
+EXAMPLE 2 — A CAPTION REVISION SUPERSEDES AN EARLIER PASS
+======================================================================
+
+EXAMPLE BOUNDARY
+This trace uses an invented nine-second portrait checklist. Revision R05 passed a
+bounded local envelope review. Caption revision CAPTION-R05 is then replaced by
+CAPTION-R06 without changing the video filename. The example shows why the old
+pass remains historical but cannot approve the current combination.
+
+A. HISTORICAL REVIEW RECORD
+
+review_id: SYN-ENV-02-A
+review_revision: REV-01
+candidate_id: SYNTHETIC-THREE-CHECK-PREFLIGHT
+candidate_revision: PICTURE-R05 + CAPTION-R05 + NARRATION-R05
+candidate_byte_identity: SYNTHETIC-DIGEST-COMBINED-R05
+canvas: 1080×1920
+local_or_destination_surface: SIMULATED_LOCAL
+publication_state: NOT_PUBLIC
+
+Essential elements:
+E11 — first check label; required 00:01.000–00:03.000
+E12 — second check label; required 00:03.000–00:05.000
+E13 — third check label; required 00:05.000–00:07.000
+E14 — AI-assistance disclosure; required 00:00.000–00:09.000
+
+Declared states:
+VS-A — clean frame
+VS-B — persistent action-lane simulation
+VS-C — controls-visible simulation
+VS-D — smallest viewport with longest CAPTION-R05 cue
+VS-E — complete picture + CAPTION-R05 + NARRATION-R05 playback
+VS-F — observed destination rendition: NOT_TESTED
+
+Historical results:
+identity: PASS
+rights and privacy admission: PASS for invented text and basic shapes
+role register: PASS
+occluder inventory: PASS for declared local masks
+baseline envelope: PASS
+scene envelopes: PASS
+required geometry rows: PASS
+meaning review: PASS within declared local states
+complete temporal playback: PASS
+combined surface: PASS for PICTURE-R05 + CAPTION-R05 + NARRATION-R05
+destination behavior: NOT_TESTED
+publication state: NOT_PUBLIC
+historical decision: READY_FOR_NEXT_REVIEW
+
+Historical claim boundary:
+The R05 result supports only that the identified fictional R05 combination met
+its declared local rules. It never established destination behavior, upload,
+publication, audience comprehension, accessibility for every viewer, or quality
+outside the tested states.
+
+B. CHANGE EVENT
+
+change_id: CHANGE-02-CAPTION
+change_type: caption text, timing, line break, and lane height
+prior_caption_revision: CAPTION-R05
+current_caption_revision: CAPTION-R06
+picture_revision: PICTURE-R05 unchanged
+narration_revision: NARRATION-R05 unchanged
+mutable_filename: synthetic-three-check-preflight.mp4
+current_combined_byte_identity: SYNTHETIC-DIGEST-COMBINED-R06
+reason_for_change: fictional wording correction adds a second caption line
+changed_members:
+- cue C03 text
+- cue C03 line count
+- cue C03 start time
+- caption lane upper boundary
+unchanged_members:
+- picture pixels
+- narration
+- canvas
+- persistent action-lane mask
+- controls-visible mask
+
+Immediate state:
+prior R05 decision preserved as history: yes
+prior R05 decision current for action: no
+prior R05 decision state: SUPERSEDED
+current candidate identity result: PASS after recording R06 identity
+current combined approval: NOT_TESTED
+publication_state: NOT_PUBLIC
+
+Why the filename is insufficient:
+The familiar filename does not preserve the reviewed caption member or combined
+byte identity. An approval bound to CAPTION-R05 cannot follow the filename onto
+CAPTION-R06.
+
+C. SCOPED INVALIDATION MAP
+
+Historical identity register for PICTURE-R05:
+still current: yes
+reason: picture revision and synthetic picture identity did not change
+
+Historical rights basis for original fictional picture shapes:
+still current: yes
+reason: no picture source changed
+
+Historical caption rights and privacy admission:
+state: SUPERSEDED for current combined action
+reason: the current caption text must be admitted and reviewed as CAPTION-R06
+
+Historical E11 and E12 geometry away from caption lane:
+still current: yes
+reason: neither element, applicable mask, nor viewer-state geometry changed
+
+Historical E13 geometry against caption lane:
+state: SUPERSEDED
+reason: C03 now reaches farther upward during E13’s required interval
+
+Historical E14 disclosure geometry:
+state: SUPERSEDED
+reason: the taller caption lane approaches the disclosure buffer
+
+Historical smallest-viewport meaning review:
+state: SUPERSEDED
+reason: caption density and line grouping changed
+
+Historical caption-boundary temporal review:
+state: SUPERSEDED
+reason: C03 start time changed from 00:05.200 to 00:04.850
+
+Historical complete combined playback:
+state: SUPERSEDED
+reason: one integrated member changed
+
+Historical destination state:
+state: NOT_TESTED
+reason: it was never observed and cannot become current through a local edit
+
+D. CURRENT R06 OCCLUDER RECORD
+
+occluder_id: O12
+occluder_revision: CAPTION-R06
+source: CONTENT
+viewer_state: longest current burned-in caption cue
+viewport_id: V11
+persistent_or_transient: transient
+appearance_trigger: cue C03
+observed_or_simulated: SIMULATED_LOCAL
+observed_bounds_or_mask: x=84..996, y=1320..1588
+time_range: 00:04.850–00:06.900
+observation_basis: exact fictional CAPTION-R06 specification
+evidence_state: PASS
+notes: The record establishes current local geometry, not destination behavior.
+
+Current occluder-inventory result: PASS
+Unchanged destination-mask records: still current within local model
+Observed destination overlays: NOT_TESTED
+
+E. CURRENT R06 REQUIRED ROWS
+
+scene_id: S12
+element_id: E13
+occluder_id: O12
+viewport_id: V11
+viewer_state_id: VS-D-R06
+frame_or_time_range: 00:05.000–00:06.900
+element_bounds_reference: PICTURE-R05 / E13 mask
+occluder_bounds_reference: CAPTION-R06 / O12 mask
+required_buffer: 32 px
+measured_clearance: 8 px
+result: TOUCHING_LIMIT
+evidence_state: FAIL
+evidence_reference: R06-MATRIX-01
+notes: The new second line consumes the declared separation.
+
+scene_id: S13
+element_id: E14
+occluder_id: O12
+viewport_id: V11
+viewer_state_id: VS-D-R06
+frame_or_time_range: 00:04.850–00:06.900
+element_bounds_reference: PICTURE-R05 / E14 mask
+occluder_bounds_reference: CAPTION-R06 / O12 mask
+required_buffer: 24 px
+measured_clearance: 42 px
+result: CLEAR
+evidence_state: PASS
+evidence_reference: R06-MATRIX-02
+notes: The disclosure remains clear in the full-size state.
+
+scene_id: S13
+element_id: E14
+occluder_id: O12
+viewport_id: V12
+viewer_state_id: VS-SMALLEST-R06
+frame_or_time_range: 00:04.850–00:06.900
+element_bounds_reference: scaled PICTURE-R05 / E14 mask
+occluder_bounds_reference: scaled CAPTION-R06 / O12 mask
+required_buffer: scaled equivalent of 24 px
+measured_clearance: scaled equivalent of 18 px
+result: TOUCHING_LIMIT
+evidence_state: FAIL
+evidence_reference: R06-MATRIX-03
+notes: Full-size clearance does not substitute for the smallest declared view.
+
+Current geometry result: FAIL
+First blocking row: R06-MATRIX-01
+
+F. CURRENT R06 MEANING AND TEMPORAL REVIEW
+
+scene_id: S12
+viewer_state_id: VS-SMALLEST-R06
+viewport_id: V12
+display_size_basis: 360×640 synthetic review rendering
+reviewed_time_range: 00:04.850–00:06.900
+essential_statement_complete: PASS
+labels_match_values_or_controls: UNCERTAIN
+comparison_sides_distinguishable: not applicable
+negation_units_punctuation_intact: PASS
+caption_visual_collision: FAIL
+disclosure_readable: FAIL
+sequence_followable_without_guessing: UNCERTAIN
+contrast_and_scale_review: FAIL
+combined_meaning_result: FAIL
+evidence_reference: R06-MEANING-01
+notes: E13, the two-line cue, and disclosure read as one crowded lower block.
+
+Temporal finding:
+element_id: E13
+scene_id: S12
+required_readable_interval: 00:05.000–00:07.000
+observed_clear_interval: 00:06.900–00:07.000
+interruption_or_occlusion: CAPTION-R06 consumes required buffer beforehand
+acceptance_rule: E13 remains distinct for the complete declared interval
+result: FAIL
+evidence_reference: R06-TEMPORAL-01
+notes: A passing frame after cue exit does not prove the full interval.
+
+Current meaning result: FAIL
+Current temporal result: FAIL
+Current combined-surface result: FAIL
+Destination-rendition result: NOT_TESTED
+
+G. FAILURE-SHAPED RECHECKS
+
+TEST — OLD SCREENSHOT REUSE
+Input: Cite an R05 contact sheet after CAPTION-R06 replaces CAPTION-R05.
+Expected: SUPERSEDED for current combined approval.
+Observed: The contact sheet does not contain the current caption member.
+Result: PASS; the stale evidence is rejected.
+
+TEST — UNCHANGED PICTURE CLAIM
+Input: Claim all envelope evidence remains current because picture pixels did not
+change.
+Expected: Reject; caption-to-picture geometry and combined meaning changed.
+Observed: R06-MATRIX-01 and R06-MEANING-01 fail.
+Result: PASS; integrated checks were reopened.
+
+TEST — FILENAME CONTINUITY
+Input: Use the unchanged filename as proof that R05 approval applies to R06.
+Expected: BLOCKED_BY_PREREQUISITE until current member identities are recorded.
+Observed: Separate caption and combined identities reveal the substitution.
+Result: PASS; mutable filename is not treated as identity.
+
+TEST — FULL-SIZE AVERAGING
+Input: Use full-size disclosure clearance to waive the smallest-view failure.
+Expected: FAIL; required viewer states are evaluated independently.
+Observed: R06-MATRIX-02 passes while R06-MATRIX-03 fails.
+Result: PASS; one pass does not average away one required failure.
+
+TEST — DESTINATION INFERENCE
+Input: Convert the revised local mask result into observed destination evidence.
+Expected: NOT_TESTED remains open.
+Observed: No destination rendition exists in this fictional trace.
+Result: PASS; SIMULATED_LOCAL and OBSERVED_DESTINATION remain separate.
+
+TEST — HISTORY REWRITE
+Input: Delete the R05 pass because it cannot approve R06.
+Expected: Preserve R05 as historical evidence and mark it SUPERSEDED for current
+action.
+Observed: Both identities and decisions remain in the record.
+Result: PASS; history and current approval are distinct.
+
+H. TERMINAL DECISION
+
+Current candidate:
+PICTURE-R05 + CAPTION-R06 + NARRATION-R05
+Current combined identity: SYNTHETIC-DIGEST-COMBINED-R06
+Historical R05 decision: READY_FOR_NEXT_REVIEW
+Historical R05 decision state for current action: SUPERSEDED
+Current geometry: FAIL
+Current meaning: FAIL
+Current temporal playback: FAIL
+Current combined surface: FAIL
+Observed destination state: NOT_TESTED
+Public state: NOT_PUBLIC
+Decision: HOLD_FOR_REPAIR
+
+Required next change:
+1. Recompose E13 or shorten and retime CAPTION-R06 without hiding meaning.
+2. Restore the disclosure’s smallest-view buffer.
+3. Create CAPTION-R07 and a new combined identity.
+4. Reopen every caption-dependent geometry, meaning, temporal, and combined row.
+5. Keep unaffected PICTURE-R05 evidence current only where the invalidation map
+   explicitly supports that conclusion.
+
+What this decision establishes:
+- A member-level caption edit can supersede an integrated pass.
+- Invalidation can be scoped without pretending unchanged parts approve the whole.
+- Historical evidence remains useful while losing current action authority.
+
+What this decision does not establish:
+- It does not establish a real caption defect, account, transfer, or upload.
+- It does not establish destination layout, processing, publication, or reach.
+- It does not establish audience comprehension or performance.
+- It does not authorize release, promotion, contact, or outreach.
+
+======================================================================
+CROSS-EXAMPLE REVIEW
+======================================================================
+
+[x] Both examples are explicitly synthetic.
+[x] Each candidate and revision has a stable fictional identity.
+[x] Rights and privacy admission is narrow rather than universal.
+[x] Essential, supporting, and decorative roles are not inferred from size.
+[x] Destination, system, template, and content occluders remain distinct.
+[x] SIMULATED_LOCAL is not described as OBSERVED_DESTINATION.
+[x] Unknown destination behavior remains NOT_TESTED.
+[x] Baseline and scene envelopes have separate responsibilities.
+[x] Geometry is evaluated per required element and state.
+[x] Decorative passes do not offset essential failures.
+[x] Meaning review remains separate from pixel intersection.
+[x] Small words, labels, and disclosures receive explicit review.
+[x] Smallest-view failures are not waived by full-size passes.
+[x] Complete intervals are not inferred from one clear frame.
+[x] Caption revisions reopen affected combined-surface checks.
+[x] Mutable filenames do not substitute for member identity.
+[x] Superseded evidence remains historical but cannot authorize current action.
+[x] Repair creates a new revision and a scoped recheck.
+[x] Local readiness is not described as upload or publication evidence.
+[x] Neither example claims a real audience, customer, metric, or result.
+
+FINAL BOUNDARY
+These worked examples are original explanatory material by Alfred, an AI
+assistant. They illustrate a bounded review method; they are not completed
+reviews of real media and do not prove rights clearance, accessibility,
+destination behavior, upload, publication, reach, comprehension, conversion,
+revenue, or performance. A real review must identify its exact candidate,
+rights basis, viewing states, acceptance rules, evidence, and authorization.

@@ -1,0 +1,653 @@
+TRANSFORMATION LINEAGE — TWO WORKED SYNTHETIC EXAMPLES
+Failure-shaped practice records for the transformation-lineage worksheet
+
+Artifact role: Original public companion. Its examples do not authorize upload, release, promotion, or outreach.
+Author disclosure: Alfred is an AI assistant.
+
+PURPOSE
+
+These examples show how to use the transformation-lineage worksheet without
+turning a mostly complete record into a release pass. Both scenarios are
+fictional. They describe no real creator, account, customer, upload, dispute,
+publication, audience, metric, legal conclusion, or platform result.
+
+The records are deliberately compact: unchanged worksheet prompts are omitted.
+A real review should complete every applicable field in the full worksheet.
+
+EVIDENCE STATES USED
+
+PASS        The declared check passed for the exact revision and scope.
+FAIL        The check found a release-blocking defect.
+BLOCKED     A prerequisite, authority, or required record is unavailable.
+NOT_TESTED  The check has not been performed.
+UNCERTAIN   Available evidence supports neither PASS nor FAIL.
+SUPERSEDED  Historical evidence that is not current approval.
+
+Never average FAIL, BLOCKED, NOT_TESTED, or UNCERTAIN into a package pass.
+
+======================================================================
+EXAMPLE 1 — A REJECTED REFERENCE SURVIVES IN THE POSTER
+======================================================================
+
+SCENARIO
+
+A fictional twelve-second portrait-video candidate uses original narration,
+original text, basic geometric shapes, and one temporary reference image. The
+reference image is rejected because its rights basis is unavailable. It is
+replaced in the main composition, but the poster was rendered from an earlier
+nested composition and still contains a small crop of the rejected member.
+
+This example tests rejected-member removal, reverse closure, stale derivatives,
+and the difference between a clean main video track and a complete release unit.
+
+A. REVIEW ENVELOPE
+
+worksheet_revision: TLW-R01
+reviewed_at: synthetic exercise time S01
+reviewer_role: AI-assisted release reviewer
+candidate_id: SYNTH-POSTER-01
+candidate_revision: VIDEO-R11
+candidate_byte_identity: SYNTHETIC-VIDEO-BYTES-R11
+release_unit_id: PACKAGE-R11-P03
+intended public state: NOT_PUBLIC
+intended use: fictional educational portrait-video release exercise
+reviewed picture dimensions: 1080 by 1920
+reviewed duration: 12 seconds
+reviewed audio configuration: original mono narration plus original tone cues
+reviewed caption configuration: CAPTIONS-R05
+reviewed poster revision: POSTER-R03
+reviewed metadata revision: META-R04
+source-inventory revision: INV-R06
+lineage-graph revision: GRAPH-R08
+known excluded surfaces: destination-generated renditions
+known untested surfaces: destination processing and destination-selected preview
+
+envelope_state: PASS_WITHIN_LISTED_LOCAL_SURFACES
+envelope_evidence: video, audio, captions, poster, and metadata revisions listed
+public_state: NOT_PUBLIC
+
+B. CLOSED SOURCE INVENTORY
+
+MEMBER M01
+member_revision: R04
+safe_relative_label: original-script
+media_type: text
+origin_class: original
+intended_role: narration and captions
+admission_state: ADMITTED
+rights_basis_record: original synthetic exercise text
+attribution_requirement: none
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER M02
+member_revision: R02
+safe_relative_label: original-geometric-illustration
+media_type: vector image
+origin_class: original
+intended_role: visible scene illustration and poster replacement
+admission_state: ADMITTED
+rights_basis_record: original shapes created for this exercise
+attribution_requirement: none
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER M03
+member_revision: R01
+safe_relative_label: temporary-reference-image
+media_type: raster image
+origin_class: unknown
+intended_role: temporary composition reference only
+admission_state: REJECTED
+rights_basis_record: unavailable
+rights_scope: none established for candidate use
+attribution_requirement: unknown
+privacy_review_state: NOT_REVIEWED
+claim_context_review_state: NOT_REVIEWED
+current reason: rejected before release assembly
+
+MEMBER M04
+member_revision: R03
+safe_relative_label: original-narration
+media_type: audio
+origin_class: generated
+origin_record: locally generated from original exercise text
+intended_role: narration
+admission_state: ADMITTED
+rights_basis_record: declared generated output for this synthetic exercise
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER M05
+member_revision: R01
+safe_relative_label: basic-system-font
+media_type: font
+origin_class: licensed
+intended_role: rendered captions and labels
+admission_state: ADMITTED
+rights_basis_record: recorded local system-font use review for this exercise
+attribution_requirement: none under recorded exercise basis
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+Inventory closure
+expected_member_count: 5
+recorded_member_count: 5
+unidentified_member_count: 0
+rejected_member_count: 1
+inventory_state: PASS
+
+C. FRAGMENT EXTRACTION REGISTER
+
+FRAGMENT F03-A
+parent_member_id_and_revision: M03@R01
+selection_type: region
+selection_coordinates_or_basis: central square crop used in NEST-R02
+selected channels: picture
+excluded channels: embedded metadata
+intended role: temporary layout reference
+rights scope for this fragment: unavailable
+fragment_state: REJECTED
+
+FRAGMENT F02-A
+parent_member_id_and_revision: M02@R02
+selection_type: object
+selection_coordinates_or_basis: complete geometric illustration group
+selected channels: vector picture
+intended role: replacement scene illustration
+rights scope for this fragment: admitted for declared exercise
+fragment_state: PASS
+
+D. TRANSFORMATION REGISTER
+
+TRANSFORMATION T01
+class: composition
+input_member_or_fragment_ids: M01@R04, F03-A, M05@R01
+operation summary: compose temporary scene NEST-R02
+output_fragment_or_member_id: NEST-R02
+candidate surfaces influenced: historical scene and POSTER-R03
+rights question: rejected reference fragment remains an input
+perceptual review question: does any current surface retain F03-A?
+evidence_state: SUPERSEDED_FOR_MAIN_VIDEO_BUT_CURRENT_FOR_POSTER
+
+TRANSFORMATION T02
+class: substitution
+input_member_or_fragment_ids: NEST-R02, F03-A, F02-A
+operation summary: replace the complete reference-image layer with the original geometric illustration
+output_fragment_or_member_id: NEST-R05
+candidate surfaces influenced: VIDEO-R11 picture
+required downstream rechecks: scene picture, boundaries, reverse closure
+evidence_state: PASS
+
+TRANSFORMATION T03
+class: encoding
+input_member_or_fragment_ids: NEST-R05, M04@R03, CAPTIONS-R05
+operation summary: encode the current twelve-second portrait video
+output_fragment_or_member_id: VIDEO-R11
+candidate surfaces influenced: main picture, audio, and captions
+evidence_state: PASS
+
+TRANSFORMATION T04
+class: encoding
+input_member_or_fragment_ids: NEST-R02
+operation summary: rasterize the historical nested composition as a poster
+output_fragment_or_member_id: POSTER-R03
+candidate surfaces influenced: package poster and preview metadata
+rights question: output derives from rejected F03-A
+required downstream rechecks: rejected-member removal and package closure
+evidence_state: FAIL
+
+E. FOUR SEPARATE DECISION LANES
+
+RIGHTS ADMISSION
+M01@R04: PASS for declared exercise
+M02@R02: PASS for declared exercise
+M03@R01 and F03-A: BLOCKED; rights basis unavailable
+M04@R03: PASS within declared generated-output record
+M05@R01: PASS within recorded font-use scope
+rights_lane_state: BLOCKED_FOR_ANY_SURFACE_CONTAINING_F03-A
+
+ATTRIBUTION FULFILLMENT
+admitted members: PASS; no attribution required under recorded bases
+M03@R01: NOT_TESTED; attribution cannot replace missing rights admission
+attribution_lane_state: PASS_FOR_ADMITTED_MEMBERS_ONLY
+
+PRIVACY AND SENSITIVE-SURFACE REVIEW
+VIDEO-R11 complete picture, audio, captions, and metadata: PASS
+POSTER-R03: NOT_TESTED for the rejected reference content
+privacy_lane_state: BLOCKED_FOR_COMPLETE_PACKAGE
+
+CLAIM AND CONTEXT REVIEW
+VIDEO-R11: PASS within fictional educational framing
+POSTER-R03: FAIL because the stale reference appears to be current evidence
+claim_context_lane_state: FAIL_FOR_POSTER
+
+F. CANDIDATE SURFACE MANIFEST
+
+SURFACE S01
+surface_type: picture
+location: VIDEO-R11 complete interval
+source lineage outputs: M01, M02, M05 through NEST-R05 and T03
+reverse-closure state: PASS
+perceptual review state: PASS
+
+SURFACE S02
+surface_type: audio
+location: VIDEO-R11 complete interval
+source lineage outputs: M04 through T03
+reverse-closure state: PASS
+perceptual review state: PASS
+
+SURFACE S03
+surface_type: captions
+location: VIDEO-R11 complete interval
+source lineage outputs: M01 and M05 through T03
+reverse-closure state: PASS
+perceptual review state: PASS
+
+SURFACE S04
+surface_type: poster
+location: POSTER-R03
+source lineage outputs: M01, M03, and M05 through NEST-R02 and T04
+rights decision: BLOCKED
+privacy decision: NOT_TESTED
+claim-context decision: FAIL
+reverse-closure state: PASS_WITH_RELEASE_BLOCKING_REJECTED_MEMBER_FOUND
+perceptual review state: FAIL
+
+SURFACE S05
+surface_type: metadata
+location: META-R04 poster reference
+source lineage outputs: POSTER-R03
+reverse-closure state: PASS_WITH_RELEASE_BLOCKING_REJECTED_MEMBER_FOUND
+perceptual review state: FAIL
+
+forward_closure_state: FAIL; admitted F02-A is absent from the poster role
+reverse_closure_state: FAIL_FOR_RELEASE; poster resolves to rejected F03-A
+closure_blocker_or_unknown: POSTER-R03 derives from historical NEST-R02
+
+G. REJECTED MEMBER REMOVAL
+
+member_id_and_revision: M03@R01
+state: REJECTED
+possible residual surfaces: nested compositions, poster, metadata preview
+removal target: every current release surface
+replacement: M02@R02
+current candidate revision: PACKAGE-R11-P03
+project or composition review: replacement confirmed in NEST-R05
+delivery-byte review: M03 not observed in VIDEO-R11
+poster and preview review: M03 observed in POSTER-R03
+metadata review: META-R04 references POSTER-R03
+current result: PRESENT
+result evidence: reverse path POSTER-R03 to T04 to NEST-R02 to F03-A
+repair: rebuild poster from NEST-R05 and update metadata reference
+removal_review_state: FAIL
+
+H. COMPLETE PERCEPTUAL REVIEW
+
+picture_state: PASS_FOR_VIDEO_R11
+audio_state: PASS_FOR_VIDEO_R11
+caption_and_text_state: PASS_FOR_VIDEO_R11
+poster_thumbnail_preview_state: FAIL_FOR_POSTER_R03
+metadata_state: FAIL_BECAUSE_META_R04_REFERENCES_POSTER_R03
+complete_playback_state: PASS_FOR_VIDEO_R11
+perceptual_blocker_or_unknown: rejected image remains visible in poster
+
+I. CHANGE INVALIDATION MAP
+
+change_id: C01
+changed member or transform: poster source composition
+old revision: NEST-R02
+required new revision: NEST-R05
+reason: remove rejected M03 and use admitted M02
+affected candidate surfaces: poster and metadata preview
+rights checks reopened: poster lineage and rejected-member removal
+privacy checks reopened: complete rebuilt poster
+claim-context checks reopened: poster meaning
+perceptual checks reopened: poster at full size and metadata-selected preview
+unaffected evidence: VIDEO-R11 picture, audio, and captions; bytes unchanged
+old decision marked SUPERSEDED: required when replacement poster is built
+recheck_state: NOT_TESTED
+
+J. FAILURE-SHAPED TEST RESULT
+
+Test: reject a source image but leave it in the poster frame.
+Expected: removal result is PRESENT and package is blocked.
+Observed synthetic result: PRESENT; reverse closure identifies F03-A.
+Test state: PASS — the worksheet produced the expected block.
+
+K. FINAL DECISION
+
+candidate_id_and_revision: SYNTH-POSTER-01 VIDEO-R11
+release_unit_id: PACKAGE-R11-P03
+decision: HOLD_FOR_REPAIR
+blocking member: M03@R01
+blocking surface: POSTER-R03
+required repair: rebuild poster from admitted NEST-R05
+required recheck: poster identity, four decision lanes, reverse closure, removal review, perceptual review, metadata reference
+remaining unknowns: destination-generated renditions remain NOT_TESTED
+public state: NOT_PUBLIC
+upload state: NOT_UPLOADED
+promotion state: NOT_POSTED_OR_QUEUED
+
+BOUNDARY
+
+The clean video track does not make the complete package ready. This trace proves
+only that the synthetic worksheet detected its seeded stale-poster defect. It
+does not establish a legal conclusion or any real-world result.
+
+======================================================================
+EXAMPLE 2 — AN UNKNOWN SOUND ENTERS THROUGH A NESTED BUS
+======================================================================
+
+SCENARIO
+
+A fictional fifteen-second checklist video is assembled from original shapes,
+original text, generated narration, and two declared original tone cues. A nested
+mix also contains a short click whose source member and rights record cannot be
+identified. The click is quiet but audible in the delivery bytes.
+
+This example tests unknown-member blocking, audio reverse closure, excluded-
+channel assumptions, complete playback, and scoped repair.
+
+A. REVIEW ENVELOPE
+
+worksheet_revision: TLW-R01
+reviewed_at: synthetic exercise time S02
+reviewer_role: AI-assisted release reviewer
+candidate_id: SYNTH-AUDIO-02
+candidate_revision: VIDEO-R07
+candidate_byte_identity: SYNTHETIC-VIDEO-BYTES-R07
+release_unit_id: PACKAGE-R07
+intended public state: NOT_PUBLIC
+intended use: fictional educational checklist-video exercise
+reviewed picture dimensions: 1080 by 1920
+reviewed duration: 15 seconds
+reviewed audio configuration: MIX-R06 stereo delivery
+reviewed caption configuration: CAPTIONS-R03
+source-inventory revision: INV-R04
+lineage-graph revision: GRAPH-R05
+known excluded surfaces: destination-generated renditions
+known untested surfaces: destination processing
+
+envelope_state: PASS_WITHIN_LISTED_LOCAL_SURFACES
+
+B. CLOSED SOURCE INVENTORY
+
+MEMBER A01
+member_revision: R02
+safe_relative_label: original-checklist-text
+media_type: text
+origin_class: original
+intended_role: narration, captions, and labels
+admission_state: ADMITTED
+rights_basis_record: original synthetic exercise text
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER A02
+member_revision: R01
+safe_relative_label: original-shape-system
+media_type: vector image
+origin_class: original
+intended_role: complete picture layer
+admission_state: ADMITTED
+rights_basis_record: original basic geometry for this exercise
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER A03
+member_revision: R02
+safe_relative_label: generated-narration
+media_type: audio
+origin_class: generated
+intended_role: narration
+admission_state: ADMITTED
+rights_basis_record: declared generated output from A01
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER A04
+member_revision: R01
+safe_relative_label: original-tone-cue-high
+media_type: audio
+origin_class: original
+intended_role: declared cue at second 04
+admission_state: ADMITTED
+rights_basis_record: original synthesized tone
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER A05
+member_revision: R01
+safe_relative_label: original-tone-cue-low
+media_type: audio
+origin_class: original
+intended_role: declared cue at second 11
+admission_state: ADMITTED
+rights_basis_record: original synthesized tone
+privacy_review_state: PASS
+claim_context_review_state: PASS
+
+MEMBER A-UNKNOWN-01
+member_revision: UNKNOWN
+safe_relative_label: unidentified-click-in-nested-bus
+media_type: audio
+origin_class: unknown
+intended_role: none declared
+possible candidate surfaces: MIX-R06 at second 08
+admission_state: BLOCKED
+rights_basis_record: unavailable
+attribution_requirement: unknown
+privacy_review_state: NOT_REVIEWED
+claim_context_review_state: NOT_REVIEWED
+open question: source file, origin, and intended use are unidentified
+
+Inventory closure
+expected_member_count: at least 6
+recorded_member_count: 6 including one unknown placeholder record
+unidentified_member_count: 1
+inventory_state: BLOCKED
+inventory_blocker_or_unknown: A-UNKNOWN-01
+
+C. FRAGMENT EXTRACTION REGISTER
+
+FRAGMENT AF03
+parent_member_id_and_revision: A03@R02
+selection_type: time
+selection_coordinates_or_basis: complete narration, seconds 00 through 15
+selected channels: mono narration
+excluded channels: none
+fragment_state: PASS
+
+FRAGMENT AF04
+parent_member_id_and_revision: A04@R01
+selection_type: time
+selection_coordinates_or_basis: complete 120-millisecond cue
+selected channels: mono tone
+fragment_state: PASS
+
+FRAGMENT AF05
+parent_member_id_and_revision: A05@R01
+selection_type: time
+selection_coordinates_or_basis: complete 120-millisecond cue
+selected channels: mono tone
+fragment_state: PASS
+
+FRAGMENT AF-UNKNOWN
+parent_member_id_and_revision: A-UNKNOWN-01@UNKNOWN
+selection_type: time
+selection_coordinates_or_basis: audible click near second 08 in nested bus BUS-R03
+selected channels: unresolved stereo contribution
+extraction output identity: not isolated
+fragment_state: BLOCKED
+
+D. TRANSFORMATION REGISTER
+
+TRANSFORMATION AT01
+class: composition
+input_member_or_fragment_ids: AF03, AF04, AF05, AF-UNKNOWN
+operation summary: mix narration and cues through nested BUS-R03
+output_fragment_or_member_id: MIX-R06
+candidate surfaces influenced: complete delivery audio
+rights question: unknown click has no admission basis
+privacy question: unknown audio content has not been reviewed
+perceptual review question: is the click audible in delivery bytes?
+evidence_state: FAIL
+
+TRANSFORMATION AT02
+class: encoding
+input_member_or_fragment_ids: A01, A02, MIX-R06, CAPTIONS-R03
+operation summary: encode current portrait-video delivery
+output_fragment_or_member_id: VIDEO-R07
+candidate surfaces influenced: picture, audio, captions, and metadata
+evidence_state: FAIL_FOR_AUDIO_LINEAGE
+
+E. FOUR SEPARATE DECISION LANES
+
+RIGHTS ADMISSION
+A01 through A05: PASS within declared exercise scope
+A-UNKNOWN-01: BLOCKED; no source identity or rights basis
+rights_lane_state: BLOCKED
+
+ATTRIBUTION FULFILLMENT
+A01 through A05: PASS; no attribution required under recorded bases
+A-UNKNOWN-01: BLOCKED; requirement cannot be determined
+attribution_lane_state: BLOCKED
+
+PRIVACY AND SENSITIVE-SURFACE REVIEW
+picture, text, captions, and declared audio: PASS
+A-UNKNOWN-01: NOT_REVIEWED
+privacy_lane_state: BLOCKED
+
+CLAIM AND CONTEXT REVIEW
+picture, text, captions, narration, and declared cues: PASS
+A-UNKNOWN-01: UNCERTAIN; role and origin are unknown
+claim_context_lane_state: BLOCKED
+
+F. CANDIDATE SURFACE MANIFEST
+
+SURFACE AS01
+surface_type: picture
+location: VIDEO-R07 complete interval
+source lineage outputs: A01 and A02 through AT02
+reverse-closure state: PASS
+perceptual review state: PASS
+
+SURFACE AS02
+surface_type: captions
+location: VIDEO-R07 complete interval
+source lineage outputs: A01 through CAPTIONS-R03 and AT02
+reverse-closure state: PASS
+perceptual review state: PASS
+
+SURFACE AS03
+surface_type: audio
+location: VIDEO-R07 complete interval
+source lineage outputs: MIX-R06 through AT01 and AT02
+rights decision: BLOCKED
+attribution decision: BLOCKED
+privacy decision: BLOCKED
+claim-context decision: BLOCKED
+reverse-closure state: FAIL_ON_UNKNOWN_MEMBER
+perceptual review state: FAIL; unidentified click is audible
+
+forward_closure_state: PASS_FOR_DECLARED_MEMBERS
+reverse_closure_state: FAIL
+closure_blocker_or_unknown: AS03 resolves to A-UNKNOWN-01
+
+G. UNKNOWN MEMBER REMOVAL TARGET
+
+member_id_and_revision: A-UNKNOWN-01@UNKNOWN
+state: BLOCKED
+possible residual surfaces: BUS-R03, MIX-R06, delivery audio, preview playback
+removal target: all current audio outputs
+replacement: none required
+current candidate revision: VIDEO-R07
+project or composition review: click path observed in nested BUS-R03
+delivery-byte review: click audible near second 08
+poster and preview review: no audio on local poster; destination preview NOT_TESTED
+audio and nested-bus review: FAIL
+current result: PRESENT
+repair: remove or identify the click, rebuild MIX-R07, and re-encode
+removal_review_state: FAIL
+
+H. COMPLETE PERCEPTUAL REVIEW
+
+picture_state: PASS
+audio_state: FAIL
+caption_and_text_state: PASS
+poster_thumbnail_preview_state: PASS_FOR_LOCAL_SILENT_SURFACES_ONLY
+metadata_state: PASS
+complete_playback_state: FAIL_BECAUSE_UNKNOWN_CLICK_IS_AUDIBLE
+perceptual_blocker_or_unknown: A-UNKNOWN-01 near second 08
+
+I. CHANGE INVALIDATION MAP
+
+change_id: AC01
+changed member or transform: nested BUS-R03 and audio mix
+old revision: MIX-R06
+required new revision: MIX-R07
+reason: remove or identify unknown click
+affected candidate surfaces: delivery audio and any audio-bearing preview
+rights checks reopened: complete audio source inventory and reverse closure
+attribution checks reopened: complete audio attribution lane
+privacy checks reopened: complete rebuilt audio
+claim-context checks reopened: cue meaning and timing
+perceptual checks reopened: complete playback plus boundaries near second 08
+unaffected evidence: picture geometry, static text, and caption wording
+old decision marked SUPERSEDED: required after rebuild
+recheck_state: NOT_TESTED
+
+J. FAILURE-SHAPED TEST RESULT
+
+Test: add an unknown sound effect to a nested bus.
+Expected: reverse closure fails and the package is blocked.
+Observed synthetic result: AS03 resolves to A-UNKNOWN-01; all four decision lanes block.
+Test state: PASS — the worksheet produced the expected block.
+
+Test: assume a quiet sound is absent because it is not visible on the main timeline.
+Expected: complete delivery playback and nested-bus review reject the assumption.
+Observed synthetic result: click is audible in VIDEO-R07 delivery bytes.
+Test state: PASS — delivery evidence overrides the timeline assumption.
+
+K. FINAL DECISION
+
+candidate_id_and_revision: SYNTH-AUDIO-02 VIDEO-R07
+release_unit_id: PACKAGE-R07
+decision: BLOCKED_ON_UNKNOWN_MEMBER
+blocking member: A-UNKNOWN-01
+blocking surface: AS03 delivery audio
+required repair: identify and admit the click or remove it from BUS-R03
+required recheck: inventory, fragment register, four decision lanes, reverse closure, complete audio playback, delivery identity
+remaining unknowns: destination processing remains NOT_TESTED
+public state: NOT_PUBLIC
+upload state: NOT_UPLOADED
+promotion state: NOT_POSTED_OR_QUEUED
+
+BOUNDARY
+
+The quiet level of the click does not excuse unknown lineage. This trace proves
+only that the synthetic worksheet blocked its seeded unknown-audio defect. It
+does not establish who created any real sound, whether any real use is lawful,
+or whether any destination processed or published an item.
+
+======================================================================
+CROSS-EXAMPLE REVIEW
+======================================================================
+
+[PASS] Both examples identify exact fictional candidate and package revisions.
+[PASS] Both retain rejected, blocked, or unknown members in the inventory.
+[PASS] Both trace a defect to one candidate surface.
+[PASS] Rights, attribution, privacy, and claim-context decisions stay separate.
+[PASS] Forward closure does not substitute for reverse closure.
+[PASS] Complete delivery evidence overrides editor-state assumptions.
+[PASS] Repairs invalidate only affected downstream surfaces and checks.
+[PASS] Historical evidence must become SUPERSEDED after a new build.
+[PASS] Destination processing remains NOT_TESTED.
+[PASS] Neither example claims upload, publication, promotion, audience, or result.
+
+A passing failure-shaped exercise is not approval of a real candidate. It means
+only that the method produced the expected block for the deliberately seeded
+defect. Apply the complete worksheet to exact real delivery bytes before making
+any release decision.

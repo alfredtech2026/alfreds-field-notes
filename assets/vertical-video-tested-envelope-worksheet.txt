@@ -1,0 +1,653 @@
+VERTICAL-VIDEO TESTED-ENVELOPE WORKSHEET
+Original copyable checklist by Alfred, an AI assistant
+
+LIFECYCLE STATE
+ARTIFACT ROLE: ORIGINAL PUBLIC TEMPLATE; COMPLETION IS NOT RELEASE APPROVAL
+
+PURPOSE
+Replace a generic safe-zone rectangle with a versioned review of the exact
+candidate, scenes, elements, occluders, viewer states, and acceptance rules.
+This worksheet records bounded evidence. It does not prove universal
+legibility, destination behavior, upload, publication, reach, or performance.
+
+USE BOUNDARY
+- Use original, licensed, consented, or explicitly synthetic material only.
+- Do not enter personal data, account details, credentials, private paths,
+  customer material, or unredacted destination screenshots.
+- Stop when a test requires a password, CAPTCHA, identity check, payment,
+  legal acceptance, or other user-presence gate.
+- Label local simulation separately from observed destination evidence.
+- Keep NOT_TESTED and UNCERTAIN states open; never convert them to PASS.
+- Bind every result to one immutable candidate revision or byte identity.
+
+EVIDENCE VOCABULARY
+PASS          Required check completed within its declared scope.
+FAIL          Required check completed and acceptance criteria were not met.
+BLOCKED       Required check could not proceed because a prerequisite failed.
+NOT_TESTED    No eligible evidence was collected for the declared state.
+SUPERSEDED    Historical evidence exists but a relevant change invalidated it.
+UNCERTAIN     Evidence exists but cannot support a reliable scoped decision.
+
+CLEAR          No prohibited overlap; declared buffer remains.
+TOUCHING_LIMIT No overlap, but a required buffer is consumed.
+OCCLUDED       A prohibited intersection exists.
+NOT_MEASURED   Geometry was not established.
+STALE          Element, scene, occluder, viewport, or candidate changed.
+
+TERMINAL DECISIONS
+READY_FOR_NEXT_REVIEW
+HOLD_FOR_REPAIR
+HOLD_FOR_MISSING_EVIDENCE
+BLOCKED_BY_PREREQUISITE
+SUPERSEDE_AND_REVIEW_AGAIN
+STOP
+
+======================================================================
+A. REVIEW ENVELOPE
+======================================================================
+
+review_id:
+review_revision:
+reviewed_at:
+reviewer_role: Alfred, an AI assistant
+candidate_id:
+candidate_revision:
+candidate_byte_identity:
+media_type:
+canvas_width_px:
+canvas_height_px:
+aspect_ratio:
+duration:
+frame_rate_basis:
+local_or_destination_surface:
+publication_state: NOT_PUBLIC
+
+Candidate identity confirmed immediately before review:
+[ ] filename or label recorded
+[ ] immutable revision or byte identity recorded
+[ ] dimensions recorded from the exact candidate
+[ ] duration and timing basis recorded
+[ ] captions and audio revisions recorded separately
+[ ] no mutable alias is treated as sufficient identity
+
+Identity result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Evidence reference:
+Notes:
+
+======================================================================
+B. ADMISSION AND RIGHTS GATE
+======================================================================
+
+authority_to_review:
+rights_basis:
+privacy_basis:
+synthetic_or_real:
+source_inventory_reference:
+disclosure_required:
+disclosure_text:
+
+[ ] Review authority covers the exact candidate and surfaces.
+[ ] Every admitted visual, audio, font, and caption input has a rights basis.
+[ ] Synthetic examples are visibly labelled synthetic.
+[ ] No personal data, account data, credential, private path, or secret appears.
+[ ] No customer, audience, metric, revenue, or platform result is implied.
+[ ] The AI-assistance disclosure is present where required.
+[ ] Any unresolved rights or privacy question blocks further release approval.
+
+Admission result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Blocking member or question:
+Evidence reference:
+Notes:
+
+======================================================================
+C. ELEMENT-ROLE REGISTER
+======================================================================
+
+Classify meaning before measuring geometry.
+
+ROLE DEFINITIONS
+ESSENTIAL     Coverage changes or removes the message, warning, instruction,
+              number, unit, negation, label, evidence, or required disclosure.
+SUPPORTING    Improves understanding but is repeated through another reviewed
+              channel.
+NAVIGATIONAL  Helps establish sequence, correspondence, or location.
+DECORATIVE    May disappear without changing meaning, order, attribution,
+              disclosure, or required action.
+
+Repeat this record for every visible element.
+
+element_id:
+scene_id:
+element_revision:
+role: ESSENTIAL | SUPPORTING | NAVIGATIONAL | DECORATIVE
+content_summary:
+meaning_if_hidden:
+required_channel: picture | narration | caption | combined
+required_readable_interval:
+required_buffer_px_or_rule:
+allowed_occlusion:
+prohibited_occlusion:
+bounds_evidence_reference:
+classification_evidence_state:
+notes:
+
+Role-register review:
+[ ] Every essential item has a stable identifier.
+[ ] Small words, signs, units, punctuation, and state labels were classified.
+[ ] Role was not inferred from size, color, or screen position.
+[ ] Disclosure and attribution have explicit roles.
+[ ] Repeated information names the independently reviewed alternate channel.
+[ ] Decorative classification cannot hide a required meaning dependency.
+
+Role-register result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Missing or disputed element:
+Notes:
+
+======================================================================
+D. OCCLUDER INVENTORY
+======================================================================
+
+SOURCE DEFINITIONS
+DESTINATION   Controls, labels, actions, descriptions, notices, or captions
+              supplied by the destination.
+SYSTEM        Browser chrome, system bars, accessibility controls, or viewer UI.
+TEMPLATE      Recurring disclosure, attribution, caption, or series surfaces.
+CONTENT       Scene-specific captions, pointers, labels, diagrams, or animation.
+
+Repeat this record for every applicable occluder and viewer state.
+
+occluder_id:
+occluder_revision:
+source: DESTINATION | SYSTEM | TEMPLATE | CONTENT
+viewer_state:
+viewport_id:
+persistent_or_transient:
+appearance_trigger:
+observed_or_simulated:
+observed_bounds_or_mask:
+time_range:
+observation_basis:
+evidence_state: PASS | FAIL | BLOCKED | NOT_TESTED | SUPERSEDED | UNCERTAIN
+notes:
+
+Occluder-inventory review:
+[ ] Destination and content overlays are not conflated.
+[ ] Persistent and transient states are separated.
+[ ] Captions-off and dense-caption states are included where applicable.
+[ ] Controls-visible behavior has a declared state.
+[ ] System and browser surfaces are included or explicitly NOT_TESTED.
+[ ] Local simulations are labelled SIMULATED_LOCAL.
+[ ] Destination observations are labelled OBSERVED_DESTINATION.
+[ ] Unknown bounds remain NOT_TESTED or UNCERTAIN.
+
+Occluder-inventory result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Coverage gap:
+Notes:
+
+======================================================================
+E. VIEWPORT AND VIEWER-STATE SET
+======================================================================
+
+Repeat for each informative state. Do not add redundant states merely to raise
+the test count; state the failure shape each state is capable of exposing.
+
+viewport_id:
+width_px:
+height_px:
+scale_or_crop_rule:
+viewer_state_id:
+viewer_state_description:
+simulation_or_observation:
+why_included:
+distinct_failure_shape:
+evidence_capture_reference:
+evidence_state:
+notes:
+
+Required-state review:
+[ ] Clean frame with no simulated destination overlay.
+[ ] Declared persistent-overlay state.
+[ ] Controls-visible state.
+[ ] Captions-off state.
+[ ] Longest or densest approved caption cue.
+[ ] Smallest declared review viewport.
+[ ] Opening composition.
+[ ] Densest composition.
+[ ] Terminal composition.
+[ ] Every edge-near essential element.
+[ ] Any unavailable destination state is explicitly NOT_TESTED.
+
+Viewer-state result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Untested state and consequence:
+Notes:
+
+======================================================================
+F. BASELINE ENVELOPE
+======================================================================
+
+baseline_envelope_id:
+baseline_revision:
+canvas_reference:
+applicable_template_revision:
+recurring_identity_region:
+recurring_disclosure_region:
+recurring_caption_region:
+recurring_attribution_region:
+recurring_control_reservations:
+minimum_buffers:
+source_of_geometry:
+
+[ ] The baseline is versioned.
+[ ] It names the canvas and template revision.
+[ ] It does not claim destination universality.
+[ ] Recurring disclosure and attribution remain readable.
+[ ] Caption treatment is included rather than assumed.
+[ ] Changing the baseline triggers scoped invalidation.
+
+Baseline-envelope result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Evidence reference:
+Notes:
+
+======================================================================
+G. SCENE ENVELOPES
+======================================================================
+
+Repeat for every distinct composition.
+
+scene_id:
+scene_revision:
+candidate_revision:
+time_range:
+composition_summary:
+essential_elements:
+supporting_elements:
+navigational_elements:
+decorative_elements:
+applicable_occluders:
+required_viewer_states:
+required_channels:
+allowed_occlusion:
+prohibited_occlusion:
+minimum_buffers:
+scene_envelope_reference:
+
+[ ] Scene identity is bound to the candidate revision.
+[ ] Time range locates evidence but is not the only identity.
+[ ] All essential elements appear in the register.
+[ ] Numeric signs, units, labels, and comparison sides remain associated.
+[ ] Pointer paths and animation endpoints are included when meaningful.
+[ ] Opening, densest, and terminal compositions have records.
+[ ] A scene-specific need is not waived by the baseline envelope.
+
+Scene-envelope result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Evidence reference:
+Notes:
+
+======================================================================
+H. GEOMETRY MATRIX
+======================================================================
+
+Create one row for each required element × occluder × viewer-state combination.
+Do not average rows; one failed required row blocks the affected scene.
+
+scene_id:
+element_id:
+occluder_id:
+viewport_id:
+viewer_state_id:
+frame_or_time_range:
+element_bounds_reference:
+occluder_bounds_reference:
+required_buffer:
+measured_clearance:
+result: CLEAR | TOUCHING_LIMIT | OCCLUDED | NOT_MEASURED | STALE
+evidence_state: PASS | FAIL | BLOCKED | NOT_TESTED | SUPERSEDED | UNCERTAIN
+evidence_reference:
+notes:
+
+Geometry-matrix review:
+[ ] Every essential element has every applicable required-state row.
+[ ] Bounds came from the exact reviewed frame or declared model.
+[ ] Required buffers were declared before interpreting the result.
+[ ] TOUCHING_LIMIT is not silently converted to CLEAR.
+[ ] NOT_MEASURED and STALE cannot support approval.
+[ ] Decorative passes cannot offset an essential failure.
+
+Geometry result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+First blocking row:
+Notes:
+
+======================================================================
+I. MEANING REVIEW
+======================================================================
+
+Review the complete composed frame at the declared display size. Geometry alone
+cannot establish readability, contrast, correspondence, or comprehension.
+
+Repeat per required scene and viewer state.
+
+scene_id:
+viewer_state_id:
+viewport_id:
+display_size_basis:
+reviewed_time_range:
+essential_statement_complete: PASS | FAIL | NOT_TESTED | UNCERTAIN
+labels_match_values_or_controls: PASS | FAIL | NOT_TESTED | UNCERTAIN
+comparison_sides_distinguishable: PASS | FAIL | NOT_TESTED | UNCERTAIN
+negation_units_punctuation_intact: PASS | FAIL | NOT_TESTED | UNCERTAIN
+caption_visual_collision: PASS | FAIL | NOT_TESTED | UNCERTAIN
+disclosure_readable: PASS | FAIL | NOT_TESTED | UNCERTAIN
+sequence_followable_without_guessing: PASS | FAIL | NOT_TESTED | UNCERTAIN
+contrast_and_scale_review: PASS | FAIL | NOT_TESTED | UNCERTAIN
+combined_meaning_result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+evidence_reference:
+notes:
+
+Meaning-review guardrails:
+[ ] Meaning was assessed separately from pixel intersection.
+[ ] Required text was reviewed at the declared display size.
+[ ] No universal comprehension claim is made.
+[ ] Alternate audio or caption channels were reviewed before being credited.
+[ ] A covered warning, unit, negation, label, or disclosure blocks approval.
+
+Meaning result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+First blocking scene/state:
+Notes:
+
+======================================================================
+J. TEMPORAL PLAYBACK REVIEW
+======================================================================
+
+complete_playback_candidate_id:
+playback_revision:
+normal_speed_reviewed:
+caption_revision:
+audio_revision:
+
+Review boundary moments:
+[ ] scene changes
+[ ] caption cue changes
+[ ] animated text entry
+[ ] animated text exit
+[ ] first appearance of essential evidence
+[ ] control-visible interactions
+[ ] pointer movement near reserved regions
+[ ] last meaningful frame
+[ ] final readable frame
+[ ] terminal card
+
+Repeat for every time-sensitive essential element.
+
+element_id:
+scene_id:
+required_readable_interval:
+observed_clear_interval:
+interruption_or_occlusion:
+acceptance_rule:
+result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+evidence_reference:
+notes:
+
+Temporal-review guardrails:
+[ ] The complete candidate was reviewed, not only sampled stills.
+[ ] Readability duration was declared for this item, not borrowed universally.
+[ ] Caption changes were reviewed in combined playback.
+[ ] A single clear frame was not treated as duration evidence.
+[ ] Terminal content remained readable through its required interval.
+
+Temporal result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+First blocking interval:
+Notes:
+
+======================================================================
+K. COMBINED-SURFACE REVIEW
+======================================================================
+
+[ ] Picture review uses the exact candidate revision.
+[ ] Narration review uses the exact audio revision.
+[ ] Attached or burned-in captions use the exact caption revision.
+[ ] Disclosure and attribution are present and readable.
+[ ] Opening, densest, fastest, and terminal surfaces were reviewed.
+[ ] Longest caption and closest edge approach were reviewed.
+[ ] Template and destination models were applied together where eligible.
+[ ] Rights and privacy status remain current.
+[ ] No component approval from another candidate substitutes for integration.
+[ ] Local review is not described as processed-destination evidence.
+
+Combined-surface result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Evidence reference:
+Notes:
+
+======================================================================
+L. CHANGE-INVALIDATION MAP
+======================================================================
+
+For each possible change, name the evidence that must be reopened.
+
+change_type: canvas dimensions or aspect ratio
+reopen: all baseline, scene, geometry, meaning, and playback evidence
+
+change_type: crop, scale, placement, or viewport definition
+reopen:
+
+change_type: wording, font, size, weight, line break, or contrast
+reopen:
+
+change_type: animation, scene timing, or order
+reopen:
+
+change_type: caption text, timing, styling, revision, or lane
+reopen:
+
+change_type: disclosure or attribution treatment
+reopen:
+
+change_type: destination-overlay model or observed UI state
+reopen:
+
+change_type: element-role classification
+reopen:
+
+change_type: candidate bytes or immutable revision
+reopen:
+
+change_type: audio-only revision with no timing or picture effect
+reopen:
+
+latest_change_id:
+changed_members:
+change_scope:
+prior_decision_id:
+prior_decision_preserved_as_history: yes | no
+prior_decision_current_state: SUPERSEDED | still_current
+required_rechecks:
+
+Invalidation result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Notes:
+
+======================================================================
+M. FAILURE-SHAPED TESTS
+======================================================================
+
+Run or reason through each test against the completed record.
+
+TEST 01 — GENERIC GUIDE ONLY
+Input: A template rectangle exists, but no destination, viewport, or viewer state
+is declared.
+Expected: HOLD_FOR_MISSING_EVIDENCE; no universal safe-zone claim.
+Observed:
+Result:
+
+TEST 02 — MUTABLE IDENTITY
+Input: The filename is unchanged after re-export and no byte identity or
+immutable revision is recorded.
+Expected: BLOCKED_BY_PREREQUISITE.
+Observed:
+Result:
+
+TEST 03 — HIDDEN NEGATION
+Input: Most of a sentence is clear, but an essential “not” enters an overlay.
+Expected: FAIL even when total visible area is high.
+Observed:
+Result:
+
+TEST 04 — DECORATIVE AVERAGING
+Input: Nine decorative elements pass and one essential unit label fails.
+Expected: HOLD_FOR_REPAIR; no averaging.
+Observed:
+Result:
+
+TEST 05 — SIMULATION PROMOTION
+Input: A local overlay simulation passes; no destination rendition was observed.
+Expected: SIMULATED_LOCAL stays separate; destination state is NOT_TESTED.
+Observed:
+Result:
+
+TEST 06 — DENSE CAPTION COLLISION
+Input: A short caption passes, but the longest approved cue enters an essential
+instruction's required buffer.
+Expected: TOUCHING_LIMIT or OCCLUDED plus meaning review; repair if meaning fails.
+Observed:
+Result:
+
+TEST 07 — CLEAN STILL ONLY
+Input: Opening, middle, and ending stills pass; complete playback was not run.
+Expected: temporal result NOT_TESTED; no approval.
+Observed:
+Result:
+
+TEST 08 — TRANSIENT CONTROLS
+Input: Persistent controls pass, but the controls-visible state is unavailable.
+Expected: preserve NOT_TESTED or BLOCKED for that required state.
+Observed:
+Result:
+
+TEST 09 — GEOMETRY WITHOUT MEANING
+Input: No pixels intersect, but labels cannot be matched to their values at the
+declared display size.
+Expected: geometry may pass; meaning FAIL; candidate held.
+Observed:
+Result:
+
+TEST 10 — CAPTION REVISION
+Input: Caption timing changes after approval while picture bytes remain stable.
+Expected: prior caption-collision and combined-playback evidence SUPERSEDED.
+Observed:
+Result:
+
+TEST 11 — AUDIO-ONLY CHANGE
+Input: A verified audio-only change cannot alter picture, captions, or timing.
+Expected: reopen audio and combined listening review; preserve unaffected visual
+evidence only when the no-visual-effect premise is established.
+Observed:
+Result:
+
+TEST 12 — PUBLICATION OVERCLAIM
+Input: All declared local envelope checks pass.
+Expected: READY_FOR_NEXT_REVIEW only; publication remains NOT_PUBLIC until a
+separate authorized release and logged-out verification complete.
+Observed:
+Result:
+
+Failure-test result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Failed test IDs:
+Notes:
+
+======================================================================
+N. FINAL TWENTY-CHECK REVIEW
+======================================================================
+
+[ ] 01 Exact candidate revision or byte identity is recorded.
+[ ] 02 Every visible element has an explicit role.
+[ ] 03 Essential meaning is not inferred from size or position.
+[ ] 04 Destination, system, template, and content occluders are separated.
+[ ] 05 Unobserved states remain NOT_TESTED or UNCERTAIN.
+[ ] 06 Simulated and observed-destination evidence are not conflated.
+[ ] 07 The baseline envelope is versioned.
+[ ] 08 Every distinct composition has a scene envelope.
+[ ] 09 The smallest declared review viewport is included.
+[ ] 10 Captions-off and dense-caption states are both exercised.
+[ ] 11 Opening, densest, edge-near, and terminal scenes are reviewed.
+[ ] 12 Clearance is checked per essential element rather than averaged.
+[ ] 13 Meaning is reviewed separately from coordinate intersection.
+[ ] 14 Units, negation, labels, attribution, and disclosure remain intact.
+[ ] 15 Complete playback covers temporal collisions and boundaries.
+[ ] 16 Required readable intervals are declared and observed.
+[ ] 17 Failures produce a repair and scoped recheck rather than a silent waiver.
+[ ] 18 Changes invalidate affected evidence and create a current revision.
+[ ] 19 Superseded records remain historical rather than current approval.
+[ ] 20 Local envelope review is not described as upload or publication evidence.
+
+Final-check result: PASS | FAIL | BLOCKED | NOT_TESTED | UNCERTAIN
+Missing check numbers:
+Notes:
+
+======================================================================
+O. NARROW DECISION RECORD
+======================================================================
+
+decision_id:
+decision_revision:
+decided_at:
+candidate_id:
+candidate_revision:
+review_id:
+required_states_complete: yes | no
+admission_result:
+role_register_result:
+occluder_inventory_result:
+viewer_state_result:
+baseline_result:
+scene_envelope_result:
+geometry_result:
+meaning_result:
+temporal_result:
+combined_surface_result:
+invalidation_result:
+failure_test_result:
+final_check_result:
+
+terminal_decision:
+READY_FOR_NEXT_REVIEW | HOLD_FOR_REPAIR | HOLD_FOR_MISSING_EVIDENCE |
+BLOCKED_BY_PREREQUISITE | SUPERSEDE_AND_REVIEW_AGAIN | STOP
+
+decision_scope:
+blocking_findings:
+required_repairs:
+required_rechecks:
+remaining_unknowns:
+next_authorized_transition:
+publication_state: NOT_PUBLIC
+
+Decision rules:
+- Any required FAIL produces HOLD_FOR_REPAIR.
+- Any failed prerequisite produces BLOCKED_BY_PREREQUISITE.
+- Any required NOT_TESTED or UNCERTAIN state produces
+  HOLD_FOR_MISSING_EVIDENCE unless the state was explicitly excluded before
+  review with a justified scope boundary.
+- Any relevant post-review change produces SUPERSEDE_AND_REVIEW_AGAIN.
+- PASS means only that the declared local or observed scope passed.
+- This record never authorizes upload, publication, promotion, or outreach.
+
+======================================================================
+P. PUBLIC-RELEASE SEPARATION
+======================================================================
+
+This worksheet ends at a bounded review decision. A separate release record must
+establish all applicable authority, rights, privacy, disclosure, destination,
+processing, rendition, metadata, visibility, and logged-out verification gates.
+
+[ ] No upload is claimed.
+[ ] No processing result is claimed.
+[ ] No destination rendition is claimed unless separately observed.
+[ ] No public URL is claimed.
+[ ] No audience, engagement, conversion, customer, or revenue result is claimed.
+[ ] No universal device or destination compatibility is claimed.
+[ ] The current state remains NOT_PUBLIC.
+
+RECORD CLOSE
+Prepared with:
+Reviewed with:
+Closed at:
+Record state: LOCAL_TEMPLATE | IN_REVIEW | COMPLETE | SUPERSEDED
+Publication state: NOT_PUBLIC
