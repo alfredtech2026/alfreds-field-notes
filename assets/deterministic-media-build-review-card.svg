@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Deterministic media build review decision card</title>
+  <desc id="desc">A decision card for deterministic media builds: define the reproduction claim, admit exact sources, control the build boundary, compare using a predeclared rule, review perceptual surfaces separately, and inspect destination renditions as new evidence.</desc>
+  <rect width="1200" height="1200" fill="#f6f1e8"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#202a44" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#b43b2f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">RIGHTS-SAFE MEDIA · BUILD REVIEW CARD</text>
+  <text x="94" y="198" fill="#202a44" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800">Matching bytes prove reproduction.</text>
+  <text x="94" y="260" fill="#202a44" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800">They do not prove quality.</text>
+  <text x="94" y="309" fill="#4d566b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27">Keep artifact identity separate from review, rights, and publication evidence.</text>
+
+  <rect x="94" y="354" width="1012" height="108" rx="18" fill="#202a44"/>
+  <text x="126" y="399" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">SOURCE ≠ ENCODED ARTIFACT ≠ PERCEPTUAL SURFACE ≠ DESTINATION</text>
+  <text x="126" y="434" fill="#dfe6f3" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Link the identities. Never collapse them into one approval state.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="498" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="137" cy="539" r="21" fill="#b43b2f"/>
+    <text x="130" y="548" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="537" fill="#202a44" font-size="28" font-weight="800">Define the claim</text>
+    <text x="126" y="579" fill="#4d566b" font-size="22">Name inputs, toolchain, settings, environment,</text>
+    <text x="126" y="607" fill="#4d566b" font-size="22">expected output identity, and comparison rule.</text>
+
+    <rect x="622" y="498" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="665" cy="539" r="21" fill="#b43b2f"/>
+    <text x="658" y="548" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="537" fill="#202a44" font-size="28" font-weight="800">Admit exact sources</text>
+    <text x="654" y="579" fill="#4d566b" font-size="22">Use an ordered allowlist with immutable revisions</text>
+    <text x="654" y="607" fill="#4d566b" font-size="22">or recomputable identities. Stop on surprises.</text>
+
+    <rect x="94" y="654" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="137" cy="695" r="21" fill="#b43b2f"/>
+    <text x="130" y="704" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="693" fill="#202a44" font-size="28" font-weight="800">Control the boundary</text>
+    <text x="126" y="735" fill="#4d566b" font-size="22">Pin or declare clock, locale, ordering, seeds,</text>
+    <text x="126" y="763" fill="#4d566b" font-size="22">paths, network, fonts, hardware, and metadata.</text>
+
+    <rect x="622" y="654" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="665" cy="695" r="21" fill="#b43b2f"/>
+    <text x="658" y="704" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="693" fill="#202a44" font-size="28" font-weight="800">Compare as declared</text>
+    <text x="654" y="735" fill="#4d566b" font-size="22">Select the rule before building. Preserve any</text>
+    <text x="654" y="763" fill="#4d566b" font-size="22">mismatch; never invent a post-hoc exception.</text>
+
+    <rect x="94" y="810" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="137" cy="851" r="21" fill="#b43b2f"/>
+    <text x="130" y="860" fill="#ffffff" font-size="24" font-weight="800">5</text>
+    <text x="174" y="849" fill="#202a44" font-size="28" font-weight="800">Review every surface</text>
+    <text x="126" y="891" fill="#4d566b" font-size="22">Inspect picture, audio, captions, claims, rights,</text>
+    <text x="126" y="919" fill="#4d566b" font-size="22">privacy, safety, disclosure, and accessibility.</text>
+
+    <rect x="622" y="810" width="484" height="128" rx="18" fill="#e9eef7" stroke="#202a44" stroke-width="3"/>
+    <circle cx="665" cy="851" r="21" fill="#b43b2f"/>
+    <text x="658" y="860" fill="#ffffff" font-size="24" font-weight="800">6</text>
+    <text x="702" y="849" fill="#202a44" font-size="28" font-weight="800">Inspect the destination</text>
+    <text x="654" y="891" fill="#4d566b" font-size="22">Treat transcoding, preview, metadata, visibility,</text>
+    <text x="654" y="919" fill="#4d566b" font-size="22">and logged-out public state as new evidence.</text>
+  </g>
+
+  <rect x="94" y="976" width="1012" height="88" rx="18" fill="#f7dfd9" stroke="#b43b2f" stroke-width="3"/>
+  <text x="126" y="1017" fill="#74271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">DECISION RULE</text>
+  <text x="330" y="1017" fill="#74271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">A MATCH cannot waive a failed or untested review lane.</text>
+  <text x="126" y="1048" fill="#74271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">Preserve MISMATCH, FAIL, BLOCKED, NOT TESTED, SUPERSEDED, and STOP.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c8ced8" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4d566b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Review method, not build evidence</text>
+</svg>

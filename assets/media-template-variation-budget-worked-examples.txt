@@ -1,0 +1,573 @@
+MEDIA TEMPLATE VARIATION-BUDGET — TWO WORKED SYNTHETIC EXAMPLES
+================================================================
+
+Status: Synthetic method examples. Public availability of this file does not
+change the fictional candidates below from NOT_PUBLIC.
+
+Author disclosure: Created by Alfred, an AI assistant.
+
+Purpose
+-------
+These examples exercise the variation-budget worksheet with fictional media
+candidates. They show why subject-driven variation must reopen affected review
+lanes and why random decoration is not evidence of a better explanation.
+
+Both examples are synthetic. They represent no real account, platform, upload,
+publication, audience, customer, metric, conversion, revenue, or result. The
+placeholder candidates, revisions, timings, assets, and decisions exist only to
+make the method inspectable.
+
+Evidence states used below
+--------------------------
+PASS        Observed evidence meets the declared criterion for this revision.
+FAIL        Observed evidence contradicts the criterion.
+BLOCKED     The review cannot proceed safely or with current authority.
+NOT_TESTED  No eligible observation has been completed.
+SUPERSEDED  A later material change invalidated the earlier decision.
+UNCERTAIN   Evidence exists but is too ambiguous for the proposed decision.
+STOP        Rights, privacy, safety, or authority makes the action ineligible.
+
+Candidate decisions used below
+------------------------------
+READY_FOR_COMPLETE_REVIEW
+HOLD_FOR_REPAIR
+HOLD_FOR_EVIDENCE
+SUPERSEDE_AND_REVIEW_AGAIN
+STOP_INELIGIBLE
+
+
+EXAMPLE 1 — SUBJECT-DRIVEN COMPARISON, FAILED IN COMBINATION
+============================================================
+
+Synthetic boundary
+------------------
+This example uses original fictional text and basic geometric shapes. It does
+not describe a real queue, product, account, media file, upload, audience, or
+publication.
+
+PART 1 — RECORD ENVELOPE
+------------------------
+record identity: EXAMPLE-VARIATION-RECORD-01
+record revision: R1
+candidate identity: EXAMPLE-SERIES-ITEM-08
+candidate revision: R1
+reviewed artifact identity: EXAMPLE-ITEM-08-R1-RENDER
+reviewed duration: 00:00:24.000
+reviewed frame: 1080 x 1920 at 30 frames per second
+template identity: EXAMPLE-VERTICAL-EXPLAINER
+template revision: T4
+series or family label: EXAMPLE OPERATIONS NOTES
+intended media form: fictional vertical narrated explainer
+intended destination class: unspecified vertical-media destination
+reviewer role: synthetic complete-surface reviewer
+current decision: HOLD_FOR_REPAIR
+current public state: NOT_PUBLIC
+
+Boundary results:
+- Exact candidate revision identified: PASS
+- Friendly filename treated as immutable identity: PASS; it was not used
+- Local readiness separated from transfer and publication: PASS
+- Audience or performance outcome inferred: PASS; none was inferred
+
+PART 2 — SUBJECT AND CENTRAL QUESTION
+-------------------------------------
+subject: a stored queue item can be valid without being executable
+central viewer question: what additional state allows stored demand to run?
+smallest useful answer: validity admits the item; execution also requires
+  current permission, capacity, ownership, and unexpired intent
+claim the item may support: stored demand and execution permission are separate
+  fictional states in the illustrated method
+claim the item must not imply: that a real queue, worker, or release was tested
+required limit: the state table is explanatory, not operational evidence
+why the recurring template fits: the answer can be shown within one compact
+  comparison plus one decision rule
+
+subject-and-claim state: PASS
+
+PART 3 — INVARIANT REGISTER
+---------------------------
+Invariant 01 — disclosure
+rule: the final line reads “Alfred is an AI assistant” inside the safe area
+reason stable: identity and disclosure
+change impact: claim, crop, caption, and complete-picture review
+state before render: PASS
+
+Invariant 02 — readable text
+rule: body text stays at or above the fictional template minimum of 44 pixels
+reason stable: legibility
+change impact: picture, crop, and accessibility review
+state before render: PASS
+
+Invariant 03 — caption lane
+rule: no evidence cell enters the lower reserved caption-and-control region
+reason stable: captions and destination controls need a clear lane
+change impact: layout, caption, crop, and complete-picture review
+state before render: PASS
+
+Invariant 04 — rights and privacy
+rule: only original fictional text and basic geometric shapes are admitted
+reason stable: no third-party or personal material is needed
+change impact: rights, privacy, provenance, and release review
+state before render: PASS
+
+Invariant 05 — terminal behavior
+rule: the last meaningful frame remains visible for 2.0 seconds, followed by a
+  1.0-second terminal frame with disclosure and no new claim
+reason stable: closure and reviewability
+change impact: timing, audio, caption, picture, and crop review
+state before render: PASS
+
+invariant-register state before combination review: PASS
+
+PART 4 — FOUR-LANE VARIATION BUDGET
+-----------------------------------
+Lane A — Identity
+stable elements:
+- series label
+- type family and scale
+- navy, cream, and red core palette
+- caption treatment
+- disclosure wording and placement
+- terminal-state convention
+identity changes proposed: none
+identity-lane state before render: PASS
+
+Lane B — Explanation
+selected shape: two alternatives -> decision rule
+why it fits: the central question depends on comparing “stored” and
+  “executable” states at the same moment
+beats:
+1. State the apparent contradiction.
+2. Show the two states side by side.
+3. Reveal the additional execution preconditions.
+4. Apply the decision rule to one fictional item.
+5. Close with the boundary: queued is not permission.
+removable beat: beat 1; the table can establish the distinction directly
+explanation-lane state: PASS WITH ONE REMOVABLE BEAT
+
+Lane C — Evidence
+selected representation: synthetic two-column state table
+relationship exposed: a valid stored item can lack one or more execution
+  preconditions
+source identity: original fictional state labels only
+rights basis: original text and basic shapes
+privacy basis: no real identifiers or records
+alternative interpretation: the table explains a model; it does not establish
+  that all queue systems use these exact states
+what it cannot establish: implementation correctness, prevalence, audience
+  understanding, or a platform result
+evidence-lane state: PASS
+
+Lane D — Rhythm
+opening duration and purpose: 2.8 seconds to frame the contradiction
+time until first inspectable evidence: 4.2 seconds
+densest frame duration planned: 4.0 seconds
+planned pause: 0.6 seconds before the decision rule
+comparison mode: both alternatives visible together
+ending function: state the decision boundary once
+last meaningful frame: 2.0 seconds
+terminal frame: 1.0 second
+rhythm-lane state before render: PASS
+
+PART 5 — CHANGE CEILING
+-----------------------
+required subject-driven major change: replace the usual linear checklist with a
+  side-by-side state table
+why required: simultaneous comparison is the central explanatory need
+optional experiment: reveal four execution preconditions one at a time
+why worth review cost: staged reveal may reduce the first-frame density
+stable control surfaces: palette, type scale, disclosure, caption lane, audio
+  treatment, closing rule, and terminal frame
+lanes reopened by required change: layout, readable text, crop, caption,
+  picture, and accessibility
+lanes reopened by experiment: timing, picture, narration synchronization,
+  captions, and complete-sequence review
+change-ceiling state: PASS; one required change and one optional experiment
+
+PART 6 — ONE LEARNING QUESTION
+------------------------------
+experiment identity: EXAMPLE-STAGED-PRECONDITIONS-R1
+learning question: does staged reveal preserve the distinction between stored
+  demand and permission while keeping both state columns inspectable?
+eligible observation: complete local picture-and-caption review of the exact
+  fictional render
+minimum evidence: both columns remain visible, every revealed precondition is
+  readable, and the narration does not refer to hidden information
+support condition: the full relationship stays inspectable throughout the rule
+weakening condition: staged reveal hides a required comparison or creates a
+  caption collision
+inconclusive condition: the exact render cannot be reviewed at intended size
+what remains unavailable: any audience-comprehension or performance evidence
+experiment state before review: ELIGIBLE_FOR_LOCAL_REVIEW
+
+PART 7 — RIGHTS, PRIVACY, AND PROVENANCE
+---------------------------------------
+Asset 01
+role: state-table copy
+identity: EXAMPLE-STATE-TABLE-TEXT-R1
+origin: original fictional text created for this example
+rights basis: original explanatory work
+personal or account data present: no
+admission state: PASS
+
+Asset 02
+role: table cells and state markers
+identity: EXAMPLE-BASIC-SHAPES-R1
+origin: original rectangles, lines, and circles
+rights basis: original basic vector construction
+personal or account data present: no
+admission state: PASS
+
+Asset 03
+role: narration and captions
+identity: EXAMPLE-NARRATION-CAPTIONS-R1
+origin: original fictional script
+rights basis: original text; no music or third-party sound
+personal or account data present: no
+admission state: PASS
+
+rights state: PASS
+privacy state: PASS
+provenance state: PASS
+terminal rights/privacy decision: ELIGIBLE_FOR_COMPLETE_REVIEW
+
+PART 8 — COMBINATION REVIEW
+---------------------------
+opening frame: PASS
+observation: the problem statement is readable and makes no result claim
+
+densest frame: FAIL
+observation: after the fourth precondition appears, both columns shrink below
+  the declared 44-pixel minimum and the lowest row enters the caption lane
+
+fastest transition: PASS
+observation: the shortest 0.4-second transition changes state emphasis but does
+  not flash or conceal a claim
+
+longest caption: FAIL
+observation: the two-line caption overlaps the lowest precondition row from
+  00:00:13.200 through 00:00:15.100
+
+quietest audio segment: PASS
+observation: the planned pause is intentional and contains no clipped word
+
+loudest audio segment: PASS
+observation: no clipping appears in the synthetic review record
+
+last meaningful frame: PASS
+observation: the decision boundary remains visible for 2.0 seconds
+
+terminal frame: PASS
+observation: disclosure is visible for the full 1.0 second and adds no claim
+
+likely destination crop and overlays: FAIL
+observation: the lower row occupies the template’s reserved control region
+
+complete picture sequence: FAIL
+observation: the relationship is readable before the final reveal but not after
+
+complete audio sequence: PASS
+complete caption sequence: FAIL
+combination-review state: FAIL
+
+PART 9 — CHANGE-INVALIDATION MAP
+--------------------------------
+proposed repair: stack the four execution preconditions into two rows and move
+  the decision rule to a separate frame
+new candidate required: EXAMPLE-SERIES-ITEM-08-R2
+prior decisions superseded for current action:
+- readable-text invariant review
+- caption-lane review
+- explanation timing review
+- evidence layout review
+- crop simulation
+- complete picture sequence
+- complete caption sequence
+- last meaningful and terminal timing if duration changes
+rights/provenance review impact: recheck the exact admitted text and shapes
+public-state impact: none; both revisions remain NOT_PUBLIC
+
+PART 10 — TERMINAL DECISION
+---------------------------
+subject fit: PASS
+change-ceiling discipline: PASS
+rights/privacy/provenance: PASS
+combination review: FAIL
+optional experiment outcome: WEAKENED_WITHIN_SCOPE by overlap and size evidence
+candidate decision: HOLD_FOR_REPAIR
+public state: NOT_PUBLIC
+
+Why this is the honest decision:
+The side-by-side representation is subject-driven and the assets are eligible,
+but the complete render violates two stable constraints. Component-level passes
+cannot offset unreadable text, a caption collision, or unsafe crop placement.
+The repair must receive a new candidate revision and rerun every affected lane.
+
+
+EXAMPLE 2 — RANDOM DECORATION CREATES RISK WITHOUT INFORMATION GAIN
+===================================================================
+
+Synthetic boundary
+------------------
+This example uses a fictional checklist candidate. A randomization proposal adds
+an undeclared stock photograph, a palette swap, faster cuts, and a decorative
+sound effect. No real candidate, provider, media library, account, upload,
+audience, or publication is represented.
+
+PART 1 — RECORD ENVELOPE
+------------------------
+record identity: EXAMPLE-VARIATION-RECORD-02
+record revision: R1
+candidate identity: EXAMPLE-SERIES-ITEM-11
+candidate revision: R1
+template identity: EXAMPLE-VERTICAL-EXPLAINER
+template revision: T4
+intended media form: fictional vertical checklist
+reviewer role: synthetic admission and variation reviewer
+current decision: STOP_INELIGIBLE
+current public state: NOT_PUBLIC
+
+PART 2 — SUBJECT AND CENTRAL QUESTION
+-------------------------------------
+subject: three checks before importing a fictional spreadsheet
+central viewer question: what should be checked before accepting the import?
+smallest useful answer: inspect duplicate keys, type drift, and malformed blanks
+claim the item may support: these are three useful checks in the fictional method
+claim the item must not imply: that they cover every import risk or produced a
+  measured outcome
+required limit: a short checklist is not a complete data-quality program
+why the recurring template fits: three bounded checks fit the stable checklist
+  layout without a structural change
+subject-and-claim state: PASS
+
+PART 3 — BASELINE VARIATION BUDGET
+----------------------------------
+Identity lane:
+- stable palette, type, caption lane, disclosure, and terminal frame
+- proposed subject-driven identity change: none
+
+Explanation lane:
+- selected shape: checklist -> failure trace -> repair
+- beats: name each check, show one fictional failing cell, state the repair
+- reason: one small trace distinguishes the labels from an abstract list
+
+Evidence lane:
+- selected representation: fictional three-row table
+- rights basis: original text and basic shapes
+- privacy basis: invented values with no names, contacts, or account data
+- what it cannot establish: prevalence, import success, or business impact
+
+Rhythm lane:
+- even checklist beats with extra reading time for the fictional table
+- no rapid cuts required
+- ending states the bounded preflight once
+
+baseline variation state: READY_FOR_COMPLETE_REVIEW
+
+PART 4 — RANDOMIZATION PROPOSAL
+-------------------------------
+Proposal label: EXAMPLE-MAKE-IT-DIFFERENT-PRESET-7
+proposal source: fictional automatic decoration preset
+
+Proposed changes:
+1. Replace the stable cream background with a high-saturation gradient.
+2. Add a randomly selected office photograph behind the fictional table.
+3. Rotate the accent color without checking state-color meaning or contrast.
+4. Cut each checklist beat from 3.0 seconds to 1.1 seconds.
+5. Add a downloaded notification sound on each row reveal.
+6. Move the disclosure upward to make room for the photograph credit.
+
+Declared subject need for these changes: none
+viewer question answered by the gradient: none
+claim exposed by the photograph: none
+relationship clarified by the new color mapping: none
+reason faster cuts improve the bounded checklist: not supplied
+learning question: none
+predeclared review lanes: none
+
+change-ceiling state: FAIL
+reason: six simultaneous changes are unrelated to the subject and have no
+  interpretable experiment or stable control surface
+
+PART 5 — INPUT ADMISSION
+------------------------
+Input 01 — original fictional table
+origin: original synthetic text and basic shapes
+rights basis: original explanatory work
+privacy state: PASS
+admission state: PASS
+
+Input 02 — office photograph
+origin: random result from an unspecified media source
+immutable source identity: absent
+license text: absent
+allowed uses: unknown
+attribution requirement: unknown
+people, badges, screens, or personal details present: NOT_TESTED
+admission state: STOP
+
+Input 03 — notification sound
+origin: downloaded file from an unspecified source
+immutable source identity: absent
+license text: absent
+allowed uses: unknown
+attribution requirement: unknown
+embedded metadata review: NOT_TESTED
+admission state: STOP
+
+Input 04 — alternate gradient and state colors
+origin: generated by the fictional preset
+rights basis: original color values
+contrast evidence: NOT_TESTED
+state-meaning consistency: FAIL; red changes from “stop” to decoration
+admission state: HOLD_FOR_REVIEW
+
+rights state: STOP
+privacy state: BLOCKED
+provenance state: STOP
+terminal rights/privacy decision: STOP_INELIGIBLE
+
+PART 6 — INFORMATION-GAIN REVIEW
+--------------------------------
+Question 1: What viewer question does each change answer?
+answer: none of the decorative changes has a declared answer
+state: FAIL
+
+Question 2: Which claim becomes easier to inspect?
+answer: none; the photograph reduces contrast behind the fictional table
+state: FAIL
+
+Question 3: What review surface changes?
+answer: rights, attribution, privacy, contrast, state-color meaning, pacing,
+  audio, caption placement, disclosure placement, crop safety, metadata, and
+  complete picture/audio/caption review
+state: PASS as an inventory; the breadth of reopened review is material
+
+Question 4: What could fail?
+answer: unreadable table text, misleading state color, unidentified people or
+  screen data, missing license, clipped or unlicensed sound, insufficient
+  reading time, disclosure crop, and attribution collision
+state: PASS as a risk inventory
+
+Question 5: What stays equally clear if decoration is removed?
+answer: all three checklist checks and the fictional failure trace
+state: PASS; removal preserves the complete useful explanation
+
+information-gain decision: REJECT_DECORATION
+
+PART 7 — RHYTHM AND COMBINATION PRECHECK
+----------------------------------------
+planned 1.1-second checklist beats: FAIL
+reason: the fictional values, labels, and captions cannot all receive the
+  declared reading review within that duration
+
+photograph behind evidence table: FAIL
+reason: it adds uncontrolled detail beneath the inspectable evidence
+
+rotated state colors: FAIL
+reason: a stable stop color becomes decorative and loses consistent meaning
+
+moved disclosure: BLOCKED
+reason: no crop simulation exists for the changed placement
+
+sound effect: STOP
+reason: rights and provenance are absent
+
+complete rendered sequence: NOT_TESTED
+reason: ineligible inputs must not be rendered merely to see whether they work
+
+combination-review state: BLOCKED BY INELIGIBLE INPUTS
+
+PART 8 — NARROW REPAIR PATH
+---------------------------
+eligible baseline candidate: EXAMPLE-SERIES-ITEM-11-R1
+retain:
+- original fictional table
+- stable palette and state colors
+- stable disclosure and caption lanes
+- even checklist rhythm
+- original text and basic shapes only
+
+remove:
+- random photograph
+- downloaded sound
+- unexplained palette rotation
+- faster cuts
+- disclosure relocation
+
+optional subject-driven change, if needed:
+- enlarge the malformed-blank cell for one beat while preserving the stable
+  palette, caption lane, and disclosure
+
+possible learning question:
+- does isolating the malformed-blank cell make the distinction between an empty
+  value and whitespace inspectable in the complete local review?
+
+review lanes if that bounded change is attempted:
+- picture
+- text size
+- caption collision
+- rhythm
+- crop
+- complete sequence
+
+The repaired baseline would be a new proposal review, not evidence that the
+rejected randomization improved or harmed an audience outcome.
+
+PART 9 — TERMINAL DECISION
+--------------------------
+subject fit for stable checklist template: PASS
+randomization change ceiling: FAIL
+information gain: FAIL
+rights: STOP
+privacy: BLOCKED
+provenance: STOP
+accessibility and crop: NOT_TESTED
+complete combination: NOT_TESTED
+candidate decision for randomization proposal: STOP_INELIGIBLE
+baseline candidate state: READY_FOR_COMPLETE_REVIEW
+public state: NOT_PUBLIC
+
+Why this is the honest decision:
+Random surface difference does not become useful variation merely because it is
+visible. The proposal adds no inspectable claim or relationship, introduces
+unresolved third-party rights and privacy risk, changes stable state meaning,
+and makes the sequence harder to review. Removing it preserves the useful
+explanation and sharply reduces the review surface.
+
+
+CROSS-EXAMPLE REVIEW
+====================
+
+1. Each example identifies one exact fictional candidate revision: PASS
+2. Both examples label their data and outcomes synthetic: PASS
+3. Identity, explanation, evidence, and rhythm are reviewed separately: PASS
+4. Stable invariants are named before variation: PASS
+5. Subject-driven change is distinguished from decoration: PASS
+6. Optional experiments receive at most one learning question: PASS
+7. Design intent is not reported as an audience result: PASS
+8. Rights, privacy, and provenance are independent gates: PASS
+9. Unknown rights are not converted into permission: PASS
+10. A component pass does not offset a combination failure: PASS
+11. Text size, caption lanes, crops, and terminal frames remain explicit: PASS
+12. Changes reopen affected review lanes: PASS
+13. Material repairs require a new candidate revision: PASS
+14. Superseded decisions are preserved rather than silently rewritten: PASS
+15. Original and synthetic inputs are preferred where real material is needless: PASS
+16. No personal, account, customer, credential, or private-path data is used: PASS
+17. Transfer, upload, destination processing, and publication remain separate: PASS
+18. No audience, retention, engagement, conversion, or revenue result is claimed: PASS
+19. STOP and NOT_TESTED remain truthful terminal evidence states: PASS
+20. Both examples end with NOT_PUBLIC: PASS
+
+Final companion state
+---------------------
+These two synthetic examples are complete local explanatory companions to the
+media-template variation-budget worksheet. They show one useful structural
+variation that fails only when rendered in combination and one random-decoration
+proposal that is ineligible before rendering.
+
+They do not prove that the method improves media quality, accessibility,
+comprehension, retention, engagement, publication, or any platform outcome.
+They have not been deployed, uploaded, queued, posted, promoted, or publicly
+verified.

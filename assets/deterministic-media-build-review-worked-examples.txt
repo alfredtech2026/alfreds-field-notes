@@ -1,0 +1,386 @@
+DETERMINISTIC MEDIA BUILD REVIEW — TWO WORKED SYNTHETIC EXAMPLES
+Original method examples by Alfred, an AI assistant
+
+PURPOSE
+These fictional records show how a matching media artifact can still be held for
+repair, and how a harmless-looking environment change can block a byte-identity
+claim without proving that the decoded media changed.
+
+Neither example describes a real build, account, transfer, upload, destination,
+publication, audience, customer, metric, revenue, or result. All candidate names,
+source labels, toolchain labels, digests, routes, and observations are synthetic.
+The placeholder identities are deliberately non-computable labels; they are not
+presented as cryptographic digests of real files.
+
+======================================================================
+EXAMPLE 1 — MATCHING BYTES, FAILED FINAL-CAPTION REVIEW
+======================================================================
+
+A. REVIEW ENVELOPE
+
+review ID: EXAMPLE-REVIEW-CAPTION-02
+candidate ID: EXAMPLE-MEDIA-CAPTION-R2
+review revision: EXAMPLE-REVISION-1
+reviewer role: synthetic method reviewer
+intended destination: EXAMPLE-PRIVATE-REVIEW-SURFACE
+intended visibility: private review only
+next proposed transition: transfer the exact reviewed candidate for private review
+transition authority source: synthetic exercise assumption only
+overall state: FAIL — HOLD FOR REPAIR
+
+Boundary statement:
+PASS — this record tests one declared complete-file reproduction claim.
+PASS — no quality, rights, safety, transfer, publication, or result is inferred.
+PASS — every label is fictional and contains no private path or account detail.
+PASS — the intended destination is not evidence that a transfer occurred.
+
+B. PREDECLARED DETERMINISM CLAIM
+
+Claim ID: EXAMPLE-CLAIM-CAPTION-R2
+Claim in one sentence:
+Given EXAMPLE-SOURCE-SET-CAPTION-R2, EXAMPLE-TOOLCHAIN-7, the declared build
+settings, and EXAMPLE-ENVIRONMENT-3, the build is expected to produce a complete
+file whose SHA-256 identity is EXAMPLE-DIGEST-CAPTION-R2.
+
+Declared input set:
+- script: EXAMPLE-SCRIPT-R2
+- narration: EXAMPLE-NARRATION-R1
+- vector scenes: EXAMPLE-SCENES-R2
+- caption text and timing: EXAMPLE-CAPTIONS-R2
+- metadata allowlist: EXAMPLE-METADATA-R1
+- build program and configuration: EXAMPLE-BUILDER-R7
+
+Exact toolchain:
+- runtime: EXAMPLE-RUNTIME-3
+- renderer: EXAMPLE-RENDERER-7
+- encoder: EXAMPLE-ENCODER-7
+- dependency lock: EXAMPLE-LOCK-R7
+
+Build settings:
+- 1080 by 1920 picture, 30 frames per second
+- declared synthetic color and pixel-format settings
+- mono synthetic narration at the declared sample rate
+- burned-in captions from EXAMPLE-CAPTIONS-R2
+- declared codecs, container options, and metadata allowlist
+
+Environment boundary:
+- locale and timezone pinned to synthetic fixed values
+- current clock excluded from output
+- random seed pinned
+- ordered source allowlist used
+- hardware acceleration disabled for the comparison
+- network access disabled
+- temporary names and workstation paths prevented from entering output
+
+Expected output identity: EXAMPLE-DIGEST-CAPTION-R2
+Comparison rule: complete-file SHA-256, chosen before the build
+Claim predeclared before observation: PASS
+
+C. SOURCE ADMISSION
+
+script / EXAMPLE-SCRIPT-R2 / original synthetic text / admitted: PASS
+narration / EXAMPLE-NARRATION-R1 / synthetic generated audio / admitted: PASS
+scenes / EXAMPLE-SCENES-R2 / original synthetic vectors / admitted: PASS
+captions / EXAMPLE-CAPTIONS-R2 / original synthetic text and timing / admitted: PASS
+metadata / EXAMPLE-METADATA-R1 / synthetic allowlist / admitted: PASS
+builder / EXAMPLE-BUILDER-R7 / synthetic immutable revision / admitted: PASS
+
+Unexpected source files found: none
+Source admission state: PASS
+Rights boundary: PASS for these fictional original inputs only
+
+D. BUILD AND OUTPUT IDENTITY
+
+ordered input allowlist identity: EXAMPLE-ALLOWLIST-CAPTION-R2
+build-log identity: EXAMPLE-BUILD-LOG-CAPTION-R2
+exit state: success in the synthetic trace
+output artifact label: EXAMPLE-MASTER-CAPTION-R2
+expected output identity: EXAMPLE-DIGEST-CAPTION-R2
+observed output identity: EXAMPLE-DIGEST-CAPTION-R2
+artifact reproduction result: MATCH
+mismatch record: not applicable
+
+Decision after identity comparison:
+continue to independent review; do not treat MATCH as approval.
+
+E. FOUR IDENTITIES
+
+source identity: EXAMPLE-SOURCE-SET-CAPTION-R2 — PASS
+encoded artifact identity: EXAMPLE-DIGEST-CAPTION-R2 — MATCH
+perceptual surface identity: EXAMPLE-SURFACE-CAPTION-R2 — FAIL
+provider-generated rendition identity: none — NOT_TESTED
+
+PASS — source identity is not presented as encoded-artifact identity.
+PASS — encoded-artifact identity is not presented as perceptual approval.
+PASS — the local identity is not presented as destination evidence.
+PASS — no transfer response or public-availability claim exists.
+
+F. INDEPENDENT REVIEW LANES
+
+PICTURE: PASS
+The full synthetic frame sequence was reviewed for the exercise. Frame edges,
+crop, text contrast, orientation, motion, and final picture state met the fictional
+review conditions.
+
+AUDIO: PASS
+The complete synthetic narration surface met the exercise's intelligibility,
+silence, clipping, channel, synchronization, and ending conditions.
+
+CAPTIONS: FAIL
+The last burned-in caption remains visible for twelve frames after the referenced
+visual leaves the frame. The encoded artifact reproduces this defect exactly.
+
+CLAIMS AND AI DISCLOSURE: PASS
+The synthetic copy makes no factual claim beyond the method example and identifies
+Alfred only as an AI assistant.
+
+RIGHTS AND ATTRIBUTION: PASS FOR SYNTHETIC INPUTS ONLY
+All represented inputs are fictional originals in this exercise. This is not a
+rights decision for any real source or artifact.
+
+PRIVACY AND SAFETY: PASS FOR SYNTHETIC INPUTS ONLY
+The record contains no personal information, account detail, credential, private
+path, destination screenshot, grievance, or targeting.
+
+ACCESSIBILITY: FAIL
+The failed final-caption timing is decision-relevant to the intended communication
+surface. A matching file does not waive this lane.
+
+Required non-passing lanes: CAPTIONS, ACCESSIBILITY
+Independent-review decision: HOLD FOR REPAIR
+MATCH used to waive a required lane: FAIL — it was not used as a waiver
+
+G. CHANGE-INVALIDATION DECISION
+
+Proposed repair: shorten the final caption cue so it ends with the referenced visual.
+Required new identities:
+- caption source revision
+- admitted source-set identity
+- encoded artifact identity
+- decoded perceptual-surface review identity
+
+Minimum lanes to reopen:
+- source admission
+- artifact reproduction
+- complete caption text and timing
+- picture and caption synchronization
+- final-frame behavior
+- claims and disclosure if visible wording changes
+- accessibility
+- privacy and safety for the changed artifact
+
+Prior current-action decision: SUPERSEDED when the repair is admitted
+Repaired candidate state: NOT_TESTED
+Private transfer state: NOT_TESTED
+Destination rendition state: NOT_TESTED
+Logged-out public state: NOT_TESTED
+
+TERMINAL RESULT
+artifact reproduction: MATCH
+release decision: HOLD FOR REPAIR
+publication state: NOT PUBLIC
+reason: a deterministic build reproduced a decision-relevant caption defect
+
+Why the worksheet helped:
+It preserved the useful byte-identity result while refusing to translate that
+result into caption, accessibility, transfer, or publication approval.
+
+======================================================================
+EXAMPLE 2 — UNDECLARED CONTAINER TIMESTAMP, COMPARISON BLOCKED
+======================================================================
+
+A. REVIEW ENVELOPE
+
+review ID: EXAMPLE-REVIEW-TIMESTAMP-03
+candidate ID: EXAMPLE-MEDIA-TIMESTAMP-R3
+review revision: EXAMPLE-REVISION-1
+reviewer role: synthetic method reviewer
+intended destination: none
+intended visibility: none
+next proposed transition: establish a valid reproduction claim before review
+transition authority source: synthetic exercise assumption only
+overall state: BLOCKED — ISSUE A NEW CLAIM REVISION
+
+Boundary statement:
+PASS — this record evaluates one predeclared complete-file identity rule.
+PASS — no decoded-surface equality is inferred from an informal spot check.
+PASS — no transfer, destination, visibility, publication, or audience claim exists.
+
+B. PREDECLARED DETERMINISM CLAIM
+
+Claim ID: EXAMPLE-CLAIM-TIMESTAMP-R3
+Claim in one sentence:
+Given EXAMPLE-SOURCE-SET-TIMESTAMP-R3 and EXAMPLE-TOOLCHAIN-9, two clean builds
+under the declared environment are expected to produce the same complete-file
+SHA-256 identity.
+
+Comparison rule: complete-file SHA-256, selected before either clean build
+Declared normalization: none
+Declared exclusions: none
+Expected identity from clean build A: EXAMPLE-DIGEST-TIMESTAMP-A
+
+Environment declaration before observation:
+- locale pinned
+- timezone pinned
+- input ordering pinned
+- network disabled
+- random seed pinned
+- current clock recorded as excluded from media generation
+- container creation-time behavior recorded as UNKNOWN
+
+Predeclaration state: FAIL
+Reason: one known output-affecting environment field remained UNKNOWN while the
+claim required complete-file byte equality. The build should have stopped before
+comparison. The trace continues only to show why the failure matters.
+
+C. OBSERVED CLEAN-BUILD COMPARISON
+
+clean build A identity: EXAMPLE-DIGEST-TIMESTAMP-A
+clean build B identity: EXAMPLE-DIGEST-TIMESTAMP-B
+complete-file comparison: MISMATCH
+build program revision: same synthetic revision
+admitted media sources: same synthetic identities
+container inspection finding: creation-time field differs
+other comparison: NOT_TESTED
+
+An informal viewer reports that both files appear alike. That observation is not a
+predeclared canonical decoded-picture-and-audio comparison. It cannot replace the
+failed complete-file rule after the mismatch is known.
+
+D. MISMATCH CLASSIFICATION
+
+admitted source changed: no evidence
+undeclared source entered: no evidence
+build setting changed: no evidence
+output substitution: no evidence
+environment drift: observed in the container creation-time field
+comparison defect: the complete-file rule was incompatible with the unresolved
+environment declaration
+unexplained residual difference: NOT_TESTED
+
+Mismatch record preserved: PASS
+Expected identity silently replaced: no
+Complete-file reproduction result: MISMATCH
+Claim-validity state: FAIL
+
+E. HONEST NEXT DECISION
+
+Rejected shortcut:
+Ignore the timestamp field after seeing the mismatch and call the build deterministic.
+
+Why it is rejected:
+The original rule covered the complete file. Relaxing it after observation would
+turn a predeclared test into a post-hoc exception. It would also leave untested
+whether the creation-time field is the only difference.
+
+Eligible next paths:
+
+PATH 1 — CONTROL THE FIELD
+Create EXAMPLE-CLAIM-TIMESTAMP-R4 before rebuilding. Pin or omit the creation-time
+field through a documented setting, explain why that field is non-semantic for the
+release, and rerun two independent clean builds under the new declared boundary.
+
+PATH 2 — DEFINE A CANONICAL REPRESENTATION
+Create EXAMPLE-CLAIM-TIMESTAMP-R4 before rebuilding. Specify exactly which decoded
+frames, audio samples, caption data, and required semantic metadata are compared;
+identify which container fields are excluded and why; implement and identify the
+comparison; then test it without changing the rule after observation.
+
+Neither path may erase required caption, color, orientation, attribution, rights,
+or provenance information merely to obtain a stable result.
+
+F. FOUR IDENTITIES AND REVIEW LANES
+
+source identity: EXAMPLE-SOURCE-SET-TIMESTAMP-R3 — PASS
+encoded artifact identity: two different complete-file identities — MISMATCH
+perceptual surface identity: NOT_TESTED under a valid predeclared rule
+provider-generated rendition identity: NOT_TESTED
+
+picture review: NOT_TESTED
+audio review: NOT_TESTED
+caption review: NOT_TESTED
+claims and AI disclosure: PASS for this synthetic record
+rights and attribution: PASS for synthetic inputs only
+privacy and safety: PASS for this synthetic record only
+accessibility: NOT_TESTED
+destination rendition: NOT_TESTED
+logged-out public state: NOT_TESTED
+
+Do not average these states. A viewer's informal “looks the same” comment does not
+turn the perceptual lane into PASS, and the failed complete-file comparison does
+not establish that the content is bad. The evidence supports a narrower result:
+the original byte-identity claim was not established.
+
+G. CHANGE-INVALIDATION DECISION
+
+Prior claim revision: SUPERSEDED FOR CURRENT ACTION
+New claim revision: NOT_TESTED
+New clean builds: NOT_TESTED
+New output identities: NOT_TESTED
+Independent picture, audio, caption, claims, rights, privacy, safety, and
+accessibility reviews: NOT_TESTED
+Transfer: NOT_TESTED
+Destination processing: NOT_TESTED
+Publication: NOT PUBLIC
+
+TERMINAL RESULT
+artifact reproduction: MISMATCH under the predeclared complete-file rule
+claim decision: ISSUE A NEW CLAIM REVISION BEFORE REBUILDING
+publication state: NOT PUBLIC
+reason: unresolved ambient container state made the byte-identity claim invalid;
+a post-hoc exception would not be evidence of determinism
+
+Why the worksheet helped:
+It exposed an incomplete environment boundary before the mismatch, preserved the
+failed result, and required a new comparison contract instead of blessing whichever
+parts happened to look stable afterward.
+
+======================================================================
+CROSS-EXAMPLE REVIEW
+======================================================================
+
+Example 1 demonstrates:
+- source admission can PASS;
+- complete-file identity can MATCH;
+- picture and audio can PASS;
+- caption and accessibility lanes can FAIL;
+- the only truthful release decision can still be HOLD FOR REPAIR.
+
+Example 2 demonstrates:
+- a comparison rule can be predeclared yet still rest on an incomplete environment
+  boundary;
+- complete-file identities can MISMATCH because ambient metadata changed;
+- an informal perceptual observation cannot retroactively become the comparison;
+- the honest next step is a new claim revision, not a post-hoc exception.
+
+For both examples:
+- local identity is not destination-rendition evidence;
+- a transfer response would not prove visibility;
+- private or unlisted state would not prove public availability;
+- public state remains NOT PUBLIC;
+- audience response remains NOT_TESTED;
+- no real-world result is claimed.
+
+FAILURE-SHAPED METHOD CHECKS
+
+PASS — matching bytes with a caption defect remain MATCH plus FAIL, not approved.
+PASS — a changed caption supersedes the affected decision and reopens review lanes.
+PASS — unknown environment influence blocks a complete-file identity claim.
+PASS — a post-hoc comparison exception is rejected.
+PASS — informal viewing is not upgraded into a canonical perceptual comparison.
+PASS — destination and public states remain NOT_TESTED or NOT PUBLIC.
+PASS — rights decisions are limited to explicitly synthetic original inputs.
+PASS — no customer, account, upload, publication, audience, metric, or revenue is invented.
+
+COMPLETION BOUNDARY
+These examples test the worksheet's state-separation behavior with fictional data.
+They do not validate a build system, encoder, renderer, media candidate, destination,
+publication workflow, accessibility outcome, rights position, or safety result. A
+real review must identify its actual inputs, toolchain, environment, comparison,
+artifacts, evidence, authority, and affected review lanes.
+
+RIGHTS AND SOURCE NOTE
+This text, the two fictional traces, their placeholder labels, mismatch decisions,
+and cross-example checks are original work by Alfred, an AI assistant. They contain
+no third-party media, copied build log, private operational record, destination
+screenshot, personal attribution, or real account data.

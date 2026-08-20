@@ -1,0 +1,697 @@
+MEDIA TEMPLATE VARIATION-BUDGET WORKSHEET
+=========================================
+
+Status: Blank local review worksheet; completing it does not prove quality,
+rights clearance, accessibility, transfer, upload, publication, audience
+response, or any platform result.
+
+Author disclosure: Created by Alfred, an AI assistant.
+
+Purpose
+-------
+Use this worksheet to keep a recurring media series recognizable without
+forcing every explanation into the same evidence shape, pacing, or layout.
+It separates stable operating constraints from subject-driven variation,
+limits optional experiments, and reopens every review lane affected by a
+change.
+
+Use original, consented, or properly licensed inputs. Prefer fictional or
+synthetic examples when real data is unnecessary. Never paste account data,
+credentials, private paths, personal details, or unreviewed customer material
+into this record.
+
+Evidence states
+---------------
+Use only these states. Do not convert an unknown or skipped review into PASS.
+
+PASS        Observed evidence meets the declared criterion for this revision.
+FAIL        Observed evidence contradicts the criterion.
+BLOCKED     The review cannot proceed safely or with current authority.
+NOT_TESTED  No eligible observation has been completed.
+SUPERSEDED  A later material change invalidated this decision for current use.
+UNCERTAIN   Evidence exists but is too ambiguous for the proposed decision.
+STOP        Rights, privacy, safety, or authority makes the action ineligible.
+
+Candidate decisions
+-------------------
+READY_FOR_COMPLETE_REVIEW
+  The design record is complete enough to render and inspect. This does not
+  authorize transfer or publication.
+
+HOLD_FOR_REPAIR
+  A required lane failed and the candidate needs a new revision.
+
+HOLD_FOR_EVIDENCE
+  One or more required lanes are BLOCKED, NOT_TESTED, or UNCERTAIN.
+
+SUPERSEDE_AND_REVIEW_AGAIN
+  A material change invalidated prior review evidence.
+
+STOP_INELIGIBLE
+  Rights, privacy, safety, or authority prohibits the proposed action.
+
+PART 1 — RECORD ENVELOPE
+========================
+
+record identity:
+record revision:
+created time and timezone:
+reviewed time and timezone:
+candidate identity:
+candidate revision:
+template identity:
+template revision:
+series or family label:
+intended media form:
+intended destination class, if known:
+intended audience context, if known:
+reviewer role:
+current decision:
+current public state: NOT_PUBLIC
+
+Boundary statement:
+[ ] This record identifies one exact candidate revision.
+[ ] Friendly filenames are not being used as immutable identities.
+[ ] A material media or template change will create a new revision.
+[ ] Local readiness is separate from transfer, upload, and publication.
+[ ] No audience or performance outcome is inferred from this worksheet.
+
+PART 2 — SUBJECT AND CENTRAL QUESTION
+=====================================
+
+subject in one sentence:
+
+central viewer question:
+
+smallest useful answer:
+
+claim the item may support:
+
+claim the item must not imply:
+
+required uncertainty or limit:
+
+why a recurring template is appropriate here:
+
+why this subject is not being forced into an unsuitable series format:
+
+Evidence check:
+[ ] The central question is answerable inside the proposed duration.
+[ ] The smallest useful answer is narrower than the full topic.
+[ ] The visual plan serves the answer rather than decoration.
+[ ] Claims are framed as observation, method, hypothesis, or opinion accurately.
+[ ] No customer, audience, metric, conversion, or result has been invented.
+
+state: PASS / FAIL / BLOCKED / NOT_TESTED / UNCERTAIN / STOP
+notes:
+
+PART 3 — INVARIANT REGISTER
+===========================
+
+An invariant is an identity, safety, accessibility, rights, or review
+constraint. Changing an invariant is not routine variation; it reopens the
+listed review lanes.
+
+INVARIANT 01
+name:
+reason it stays stable:
+exact rule or value:
+evidence location:
+affected review lanes if changed:
+current state:
+
+INVARIANT 02
+name:
+reason it stays stable:
+exact rule or value:
+evidence location:
+affected review lanes if changed:
+current state:
+
+INVARIANT 03
+name:
+reason it stays stable:
+exact rule or value:
+evidence location:
+affected review lanes if changed:
+current state:
+
+INVARIANT 04
+name:
+reason it stays stable:
+exact rule or value:
+evidence location:
+affected review lanes if changed:
+current state:
+
+INVARIANT 05
+name:
+reason it stays stable:
+exact rule or value:
+evidence location:
+affected review lanes if changed:
+current state:
+
+Minimum invariant prompts
+-------------------------
+[ ] Canvas dimensions and safe margins are declared.
+[ ] Minimum text size and contrast criteria are declared.
+[ ] AI-assistance disclosure wording and placement are declared.
+[ ] Caption lane, line limit, and timing review are declared.
+[ ] Rights and attribution treatment are declared.
+[ ] Privacy and prohibited-data rules are declared.
+[ ] Audio layout and review procedure are declared.
+[ ] Export and artifact-identity checks are declared.
+[ ] Terminal-frame behavior is declared.
+[ ] Required release evidence is declared.
+
+invariant-register state:
+notes:
+
+PART 4 — FOUR-LANE VARIATION BUDGET
+===================================
+
+Lane A — Identity
+-----------------
+List stable family elements. Variation here requires an explicit reason and
+re-review; it is not a free creative lane.
+
+series label:
+type family and scale:
+core palette and state colors:
+basic motion behavior:
+disclosure treatment:
+caption treatment:
+source or rights-note treatment:
+terminal-state convention:
+other identity element:
+
+identity changes proposed for this candidate:
+
+reason each identity change is necessary:
+
+review lanes reopened:
+
+identity-lane state:
+
+Lane B — Explanation
+--------------------
+Choose the reasoning shape because it fits the subject.
+
+selected explanation shape:
+[ ] symptom -> bounded cost -> possible cause -> smallest test
+[ ] before -> after -> changed assumption
+[ ] claim -> evidence -> limit
+[ ] checklist -> failure trace -> repair
+[ ] two alternatives -> decision rule
+[ ] timeline -> state transition -> verification
+[ ] other, described below
+
+other shape:
+
+why this shape fits the central question:
+
+beats in order:
+1.
+2.
+3.
+4.
+5.
+
+beat that can be removed without weakening the answer:
+
+if none can be removed, why each is necessary:
+
+explanation-lane state:
+
+Lane C — Evidence
+-----------------
+Choose a representation that lets the claim be inspected.
+
+selected evidence representation:
+[ ] bounded text excerpt
+[ ] synthetic state table
+[ ] relationship diagram
+[ ] timeline
+[ ] repeatable checklist
+[ ] before-and-after frame
+[ ] worked fictional trace
+[ ] other, described below
+
+other representation:
+
+claim or relationship this representation exposes:
+
+source identity or synthetic-data statement:
+
+rights basis:
+
+privacy basis:
+
+important contradicting evidence or alternative interpretation:
+
+what this evidence cannot establish:
+
+evidence-lane state:
+
+Lane D — Rhythm
+---------------
+
+opening duration and purpose:
+time until first inspectable evidence:
+longest narration phrase:
+planned pause and reason:
+densest frame duration:
+fastest transition and reason:
+comparison shown together or sequentially:
+ending function:
+last meaningful frame duration:
+terminal frame duration:
+
+rhythm question:
+[ ] Every visual change introduces meaning or necessary orientation.
+[ ] Dense evidence remains present long enough for the declared review.
+[ ] Pauses support comprehension rather than arbitrary timing.
+[ ] The ending resolves the question instead of repeating the opening.
+[ ] No rapid cut hides a claim, disclosure, source note, or limitation.
+
+rhythm-lane state:
+
+PART 5 — CHANGE CEILING
+=======================
+
+required subject-driven major change:
+
+why it is required:
+
+optional experiment, if any:
+
+why the experiment is worth its review cost:
+
+stable control surfaces:
+
+all review lanes reopened by required change:
+
+all review lanes reopened by optional experiment:
+
+change-ceiling decision:
+[ ] One major subject-driven change; no optional experiment.
+[ ] One major subject-driven change; one optional experiment.
+[ ] A different bounded combination is justified below.
+
+justification for different combination:
+
+Diagnostic check:
+[ ] The opening, layout, evidence form, palette, typography, motion, audio,
+    and ending are not all changing simultaneously.
+[ ] A later review could distinguish required change from optional experiment.
+[ ] Changes to disclosure, captions, rights, privacy, accessibility, or crop
+    safety are classified as required review changes, not decoration.
+
+change-ceiling state:
+
+PART 6 — ONE LEARNING QUESTION
+==============================
+
+Optional experiments need one learning question. Design intent is not an
+audience-result claim.
+
+experiment identity:
+
+learning question:
+
+eligible comparison or observation:
+
+minimum evidence needed to answer:
+
+support condition:
+
+weakening condition:
+
+inconclusive condition:
+
+observation window, if authorized:
+
+coverage requirement, if authorized:
+
+what remains unavailable:
+
+current experiment state:
+[ ] DESIGN_HYPOTHESIS_ONLY
+[ ] ELIGIBLE_FOR_LOCAL_REVIEW
+[ ] ELIGIBLE_FOR_AUTHORIZED_OBSERVATION
+[ ] BLOCKED
+[ ] SUPERSEDED
+
+No-result check:
+[ ] No retention, comprehension, engagement, reach, or conversion improvement
+    is claimed without eligible evidence.
+[ ] No publication or audience is implied by a local comparison.
+[ ] An inconclusive result will remain inconclusive.
+
+PART 7 — RIGHTS, PRIVACY, AND PROVENANCE
+=======================================
+
+ASSET 01
+role:
+identity:
+origin:
+rights basis:
+attribution requirement:
+personal or account data present:
+privacy treatment:
+admission state:
+
+ASSET 02
+role:
+identity:
+origin:
+rights basis:
+attribution requirement:
+personal or account data present:
+privacy treatment:
+admission state:
+
+ASSET 03
+role:
+identity:
+origin:
+rights basis:
+attribution requirement:
+personal or account data present:
+privacy treatment:
+admission state:
+
+Unexpected input review
+-----------------------
+[ ] Input directory or manifest was checked against an allowlist.
+[ ] No arbitrary stock media was added merely for novelty.
+[ ] No unlicensed music, sound effect, icon, font, or screenshot was admitted.
+[ ] No private account, customer, contact, credential, or workstation detail
+    appears in picture, audio, captions, metadata, filename, or notes.
+[ ] Synthetic and fictional examples are labeled clearly.
+[ ] Required attribution remains readable in likely destination crops.
+
+rights state:
+privacy state:
+provenance state:
+terminal rights/privacy decision:
+
+PART 8 — COMBINATION REVIEW
+===========================
+
+A reusable component can pass alone and fail in the rendered combination.
+Review this candidate as one complete perceptual surface.
+
+opening frame
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+densest frame
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+fastest transition
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+longest caption
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+quietest audio segment
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+loudest audio segment
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+last meaningful frame
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+terminal frame
+observed artifact or time range:
+criterion:
+state:
+notes:
+
+likely destination crop and overlays
+observed artifact or simulation:
+criterion:
+state:
+notes:
+
+complete picture sequence
+review start and end:
+state:
+notes:
+
+complete audio sequence
+review start and end:
+state:
+notes:
+
+complete caption sequence
+review start and end:
+state:
+notes:
+
+Combination decision rule
+-------------------------
+[ ] Text does not collide with evidence, captions, controls, or safe margins.
+[ ] Side-by-side content remains above minimum readable size.
+[ ] State colors retain consistent meaning and adequate contrast.
+[ ] Motion does not hide evidence or create unsafe flashing.
+[ ] Captions remain synchronized and do not obscure required visuals.
+[ ] Disclosure and source notes remain visible for their required duration.
+[ ] The ending has enough time after any expanded example.
+[ ] No prior component approval is being cited as a substitute for this review.
+
+combination-review state:
+
+PART 9 — CHANGE-INVALIDATION MAP
+================================
+
+For each changed surface, name every decision that must be rerun.
+
+change: script or claim wording
+invalidates:
+
+change: narration or audio timing
+invalidates:
+
+change: caption text or timing
+invalidates:
+
+change: evidence asset or example
+invalidates:
+
+change: layout, type size, or spacing
+invalidates:
+
+change: palette or state color
+invalidates:
+
+change: motion or transition timing
+invalidates:
+
+change: disclosure, source note, or attribution
+invalidates:
+
+change: export settings or artifact bytes
+invalidates:
+
+change: destination, crop, overlay, or metadata
+invalidates:
+
+Rule:
+[ ] Historical decisions are preserved.
+[ ] Invalidated decisions become SUPERSEDED for current action.
+[ ] The repaired candidate receives a new revision identity.
+[ ] Only affected lanes may reuse unchanged evidence.
+
+PART 10 — FAILURE-SHAPED TESTS
+==============================
+
+Run or review these tests before relying on the worksheet design. Record actual
+observations. A written test name is not evidence that the test passed.
+
+TEST 01 — Decoration without information
+Seed: Change only accent color or background shape.
+Expected: The change is labeled aesthetic, not evidence variation.
+Observed:
+State:
+
+TEST 02 — Disclosure moved into crop risk
+Seed: Move disclosure outside the stable safe area.
+Expected: Identity, accessibility, crop, and release lanes reopen.
+Observed:
+State:
+
+TEST 03 — Evidence too dense for the template
+Seed: Insert a table that forces text below the minimum size.
+Expected: Combination review fails; reuse does not waive readability.
+Observed:
+State:
+
+TEST 04 — Unsupported audience claim
+Seed: Describe a design hypothesis as improved retention.
+Expected: Claim review fails unless eligible audience evidence exists.
+Observed:
+State:
+
+TEST 05 — Random third-party media
+Seed: Add a stock clip with no rights record for visual novelty.
+Expected: Rights admission fails or stops the candidate.
+Observed:
+State:
+
+TEST 06 — Multiple simultaneous experiments
+Seed: Change explanation, evidence, rhythm, palette, and ending together.
+Expected: Change ceiling fails unless a bounded justification permits diagnosis.
+Observed:
+State:
+
+TEST 07 — Caption collision
+Seed: Use the longest caption over the densest visual frame.
+Expected: Complete combination review detects and holds the collision.
+Observed:
+State:
+
+TEST 08 — State-color drift
+Seed: Reuse a pass color for an uncertain state.
+Expected: Identity and accessibility review fail.
+Observed:
+State:
+
+TEST 09 — Stale approval after timing edit
+Seed: Extend the worked example without rerunning terminal-frame review.
+Expected: Affected picture, audio, caption, and ending decisions are SUPERSEDED.
+Observed:
+State:
+
+TEST 10 — Hidden personal detail
+Seed: Place an identifying detail in a decorative screenshot or metadata field.
+Expected: Privacy review stops admission and release.
+Observed:
+State:
+
+TEST 11 — Local review called publication
+Seed: Mark a rendered candidate public without transfer and logged-out evidence.
+Expected: Lifecycle-language review fails.
+Observed:
+State:
+
+TEST 12 — Unknown treated as pass
+Seed: Leave crop review NOT_TESTED while declaring release readiness.
+Expected: Terminal decision remains HOLD_FOR_EVIDENCE.
+Observed:
+State:
+
+failure-test summary:
+passed:
+failed:
+blocked:
+not tested:
+superseded:
+uncertain:
+
+PART 11 — TERMINAL DECISION
+===========================
+
+required lane                         state
+subject and claim boundary:
+invariant register:
+identity lane:
+explanation lane:
+evidence lane:
+rhythm lane:
+change ceiling:
+learning question:
+rights:
+privacy:
+provenance:
+complete picture:
+complete audio:
+complete captions:
+accessibility:
+destination crop and overlays:
+artifact identity:
+transfer or upload:
+logged-out public state:
+
+Decision logic
+--------------
+- Any STOP -> STOP_INELIGIBLE.
+- Any required FAIL -> HOLD_FOR_REPAIR.
+- Any required BLOCKED, NOT_TESTED, or UNCERTAIN -> HOLD_FOR_EVIDENCE.
+- Any material invalidation -> SUPERSEDE_AND_REVIEW_AGAIN.
+- All local design and perceptual lanes PASS -> READY_FOR_COMPLETE_REVIEW only.
+- Transfer, upload, authorization, and public verification remain separate.
+
+terminal decision:
+decision time and timezone:
+decision evidence:
+next eligible action:
+explicitly unauthorized actions:
+public state: NOT_PUBLIC
+
+PART 12 — TWENTY-CHECK COMPACT REVIEW
+====================================
+
+Mark PASS, FAIL, BLOCKED, NOT_TESTED, SUPERSEDED, UNCERTAIN, or STOP.
+
+01. Exact template revision identified:
+02. Identity, safety, accessibility, and review invariants listed:
+03. Subject's central question stated:
+04. Explanation shape fits that question:
+05. Evidence representation fits the claim:
+06. Every required variation has a reason:
+07. Optional experiments are limited:
+08. Each experiment has one learning question:
+09. Design hypotheses are separate from observed results:
+10. Original, synthetic, consented, or licensed inputs are preferred:
+11. Rights and provenance exist for every admitted asset:
+12. Decoration adds no unpriced privacy or review risk:
+13. Every affected review lane is recorded:
+14. Densest and fastest combinations were tested:
+15. Complete picture, audio, and captions were reviewed separately:
+16. Disclosure, controls, crops, and terminal frames were inspected:
+17. Unsupported audience and performance claims are absent:
+18. Material changes create a new candidate revision:
+19. Superseded decisions remain in history:
+20. Destination and public state remain separate from local readiness:
+
+compact-review result:
+open blockers:
+
+COMPLETION BOUNDARY
+===================
+
+This worksheet can document a variation decision and the evidence reviewed for
+one exact candidate revision. It cannot prove that a media item was transferred,
+uploaded, approved by a destination, published, viewed, useful, or effective.
+It cannot establish rights merely by naming an asset, and it cannot replace
+complete picture, audio, caption, accessibility, privacy, safety, and
+publication review.
+
+Keep this record local until every public field has passed privacy and rights
+review. If the candidate, template, evidence, destination, or decision changes,
+preserve this revision and create a new one rather than silently rewriting the
+old result.

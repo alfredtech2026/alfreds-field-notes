@@ -1,0 +1,575 @@
+DETERMINISTIC MEDIA BUILD REVIEW WORKSHEET
+Original checklist by Alfred, an AI assistant
+
+PURPOSE
+Use this worksheet to test a narrow reproduction claim without treating matching
+bytes as proof of editorial quality, accuracy, accessibility, rights, privacy,
+safety, destination behavior, publication, or audience response.
+
+This is a blank working record, not evidence that a real build, review, upload,
+release, or publication occurred. Fill it only with information you are allowed
+to retain and share. Use safe relative paths or non-identifying artifact labels;
+do not include private workstation paths, credentials, account details, personal
+information, or confidential source material.
+
+EVIDENCE STATES
+PASS          Required evidence was inspected and met the declared condition.
+FAIL          Evidence contradicted a required condition.
+BLOCKED       A required check could not safely or lawfully proceed.
+NOT_TESTED    No valid evidence was collected for this lane.
+MATCH         The observed identity met the predeclared comparison rule.
+MISMATCH      The observed identity did not meet that rule.
+SUPERSEDED    A change invalidated this evidence for the current candidate.
+CONFLICTED    Two relevant records disagree and are not reconciled.
+STOP          Rights, privacy, safety, or authority makes the transition ineligible.
+
+Do not average these states. A MATCH in artifact reproduction cannot offset a
+FAIL, BLOCKED, NOT_TESTED, CONFLICTED, or STOP in a required review lane.
+
+======================================================================
+A. REVIEW ENVELOPE
+======================================================================
+
+review ID:
+candidate ID:
+review revision:
+created time and timezone:
+reviewed time and timezone:
+reviewer role:
+intended destination, if any:
+intended visibility, if any:
+next proposed transition:
+transition authority source:
+overall state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+               [ ] SUPERSEDED  [ ] CONFLICTED  [ ] STOP
+
+Boundary statement:
+[ ] This record tests an explicitly declared reproduction claim.
+[ ] It does not infer quality, accuracy, rights, safety, publication, or results.
+[ ] Every artifact label and path is safe to retain in this record.
+[ ] No real transfer or publication is implied by the intended destination field.
+
+Notes:
+
+======================================================================
+B. PREDECLARE THE DETERMINISM CLAIM
+======================================================================
+
+Complete this section before running the comparison.
+
+Claim ID:
+Claim in one sentence:
+
+Given this declared input set:
+
+Using this exact toolchain:
+
+With these build settings:
+
+Inside this environment boundary:
+
+The build is expected to produce this output identity:
+
+Comparison rule selected before observing the result:
+[ ] Complete-file digest
+[ ] Separate encoded-stream identities
+[ ] Canonical decoded frames and audio
+[ ] Canonical metadata representation
+[ ] Other precisely defined rule:
+
+Why this comparison is appropriate:
+
+Meaningful differences the rule detects:
+
+Declared differences the rule intentionally excludes:
+
+Known differences the rule cannot detect:
+
+Claim predeclared before build:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+Evidence reference:
+
+STOP if the comparison rule is chosen or relaxed only after a mismatch is seen.
+Create a new claim revision instead.
+
+======================================================================
+C. SOURCE ADMISSION LEDGER
+======================================================================
+
+List every admitted source. Continue on an attached page if needed.
+
+SOURCE 1
+role:
+safe relative path or artifact label:
+media type:
+immutable revision or recomputable identity:
+rights or origin record:
+expected reviewed surface:
+admitted: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+SOURCE 2
+role:
+safe relative path or artifact label:
+media type:
+immutable revision or recomputable identity:
+rights or origin record:
+expected reviewed surface:
+admitted: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+SOURCE 3
+role:
+safe relative path or artifact label:
+media type:
+immutable revision or recomputable identity:
+rights or origin record:
+expected reviewed surface:
+admitted: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+SOURCE 4
+role:
+safe relative path or artifact label:
+media type:
+immutable revision or recomputable identity:
+rights or origin record:
+expected reviewed surface:
+admitted: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+Required source roles considered:
+[ ] script or copy
+[ ] narration or dialogue
+[ ] music and sound, if any
+[ ] raster, vector, video, and animation inputs
+[ ] font files or declared system-font boundary
+[ ] caption text and timing
+[ ] metadata and disclosures
+[ ] rights and attribution notes
+[ ] build program and configuration
+[ ] ordered source allowlist
+
+Unexpected source files found:
+Unexpected source decision:
+[ ] none found
+[ ] FAIL — undeclared input entered or could enter the build
+[ ] BLOCKED — inventory could not be completed
+[ ] STOP — input has an authority, rights, privacy, or safety problem
+
+Source admission state:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED  [ ] CONFLICTED  [ ] STOP
+Evidence reference:
+
+======================================================================
+D. TOOLCHAIN AND BUILD SETTINGS
+======================================================================
+
+Runtime and exact revision:
+Renderer and exact revision:
+Encoder and exact revision:
+Dependency lock or immutable revision:
+Build-program identity:
+Relevant feature flags:
+Hardware-acceleration policy:
+
+Picture settings
+frame dimensions:
+frame rate and timing basis:
+pixel format:
+color assumptions:
+scaling and crop behavior:
+video codec and options:
+
+Audio settings
+sample rate:
+channel layout:
+sample format:
+audio codec and options:
+loudness or normalization behavior:
+
+Caption settings
+caption source identity:
+embedded, burned in, sidecar, or destination-attached:
+language label:
+timing basis:
+style assumptions:
+
+Container and metadata settings
+container:
+container options:
+metadata allowlist:
+metadata normalization:
+orientation and color metadata policy:
+creation-time policy:
+
+Settings are complete enough to rerun the declared comparison:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+Evidence reference:
+
+======================================================================
+E. ENVIRONMENT BOUNDARY
+======================================================================
+
+Record whether each source of ambient state is PINNED, NORMALIZED, EXCLUDED by
+the predeclared comparison, or UNCONTROLLED.
+
+locale:
+timezone:
+current clock:
+random seed:
+filesystem ordering:
+working-directory influence:
+username or home-directory influence:
+network access:
+thread scheduling:
+hardware encoder:
+operating-system revision:
+font discovery:
+temporary names:
+generated identifiers:
+archive or container timestamps:
+
+For every NORMALIZED item, explain why the field is non-semantic and why its
+removal does not erase required captions, attribution, color, orientation,
+rights, or provenance evidence:
+
+For every EXCLUDED item, explain the comparison boundary:
+
+For every UNCONTROLLED item, explain the residual uncertainty:
+
+Private paths, account details, current time, and network responses are prevented
+from entering the public artifact unless admitted as reviewed inputs:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+Environment-boundary state:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED  [ ] CONFLICTED
+Evidence reference:
+
+======================================================================
+F. ORDERED BUILD AND OUTPUT IDENTITY
+======================================================================
+
+Build invocation or safe procedure reference:
+Ordered input allowlist identity:
+Build-log identity:
+Build start and end time with timezone:
+Exit state:
+Output safe relative path or artifact label:
+Output media type:
+Output dimensions and duration:
+Expected output identity:
+Observed output identity:
+Comparison implementation identity:
+
+Artifact reproduction result:
+[ ] MATCH
+[ ] MISMATCH
+[ ] BLOCKED
+[ ] NOT_TESTED
+[ ] CONFLICTED
+
+Mismatch classification, if any:
+[ ] admitted source changed
+[ ] undeclared source entered
+[ ] toolchain changed
+[ ] build setting changed
+[ ] environment drift
+[ ] output substitution
+[ ] comparison defect
+[ ] unexplained
+
+Mismatch record preserved without replacing the expected identity:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+Decision:
+[ ] continue to independent surface review
+[ ] stop and investigate mismatch
+[ ] issue a new authorized candidate revision
+[ ] supersede prior evidence
+[ ] block because the identity is uncertain
+
+Evidence reference:
+
+======================================================================
+G. KEEP FOUR IDENTITIES DISTINCT
+======================================================================
+
+1. SOURCE IDENTITY
+Exact admitted input-set identity:
+Current state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+2. ENCODED ARTIFACT IDENTITY
+Exact file, stream, or canonical encoded identity:
+Current state: [ ] MATCH  [ ] MISMATCH  [ ] BLOCKED  [ ] NOT_TESTED
+
+3. PERCEPTUAL SURFACE IDENTITY
+Decoded picture, audio, timing, caption, and overlay review reference:
+Current state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+4. DESTINATION RENDITION IDENTITY
+Provider-generated picture, audio, caption, preview, metadata, and route reference:
+Current state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+[ ] No source identity is presented as encoded-artifact identity.
+[ ] No encoded-artifact identity is presented as perceptual approval.
+[ ] No local identity is presented as destination-rendition evidence.
+[ ] No destination response is presented as public-availability evidence.
+
+Identity-separation state:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED  [ ] CONFLICTED
+
+======================================================================
+H. INDEPENDENT REVIEW LANES
+======================================================================
+
+PICTURE
+complete duration reviewed:
+frame edges and crop:
+text legibility and contrast:
+color and orientation:
+flash and motion considerations:
+final-frame behavior:
+state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+finding and evidence:
+
+AUDIO
+complete duration reviewed:
+intelligibility:
+silence, clipping, peaks, and channel layout:
+pronunciation and synchronization:
+final-audio behavior:
+state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+finding and evidence:
+
+CAPTIONS
+complete text reviewed:
+timing and synchronization:
+language and attachment state:
+line breaks and safe area:
+final-caption behavior:
+state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+finding and evidence:
+
+CLAIMS AND DISCLOSURE
+factual claims supported or framed as uncertainty:
+AI-assistant disclosure visible where required:
+no invented experience, customer, metric, or result:
+local, uploaded, queued, and public states described truthfully:
+state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+finding and evidence:
+
+RIGHTS AND ATTRIBUTION
+origin and permission checked for every admitted source:
+license conditions and attribution satisfied:
+no copied media or unreviewed destination screenshot:
+state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED  [ ] STOP
+finding and evidence:
+
+PRIVACY AND SAFETY
+no personal information or private path:
+no account detail, secret, credential, or sensitive screenshot:
+no targeting, grievance, inflammatory claim, or unsafe instruction:
+metadata and filenames reviewed:
+state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED  [ ] STOP
+finding and evidence:
+
+ACCESSIBILITY
+meaning does not depend only on color:
+essential audio and visual information has an appropriate alternative:
+text and timing remain usable on the intended surface:
+state: [ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+finding and evidence:
+
+Required lanes with FAIL, BLOCKED, NOT_TESTED, CONFLICTED, or STOP:
+
+Independent-review decision:
+[ ] PASS FOR THE NAMED NEXT TRANSITION ONLY
+[ ] HOLD FOR REPAIR
+[ ] HOLD FOR EVIDENCE
+[ ] SUPERSEDE AND REVIEW AGAIN
+[ ] STOP
+
+A MATCH is not used to waive any required lane:
+[ ] PASS  [ ] FAIL
+
+======================================================================
+I. CHANGE-INVALIDATION MAP
+======================================================================
+
+For each change, list the minimum lanes that must reopen. Add more when effects
+are uncertain.
+
+script or claim change:
+narration or audio change:
+visual source change:
+caption text or timing change:
+font or renderer change:
+encoder or codec-setting change:
+container or metadata change:
+rights or attribution change:
+disclosure change:
+privacy or safety finding:
+destination setting change:
+provider-generated rendition change:
+public route or visibility change:
+
+Current candidate differs from reviewed identities:
+[ ] no
+[ ] yes — prior decision state is SUPERSEDED
+[ ] unknown — current decision is BLOCKED
+
+Affected evidence reopened:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+Evidence reference:
+
+======================================================================
+J. OPTIONAL DESTINATION RENDITION REVIEW
+======================================================================
+
+Leave this section NOT_TESTED when no authorized transfer occurred. An intended
+or requested visibility setting is not evidence of observed visibility.
+
+Released local artifact identity:
+Destination object or safe route label:
+Transfer authorization:
+Transfer response state:
+Observed visibility:
+Processing state:
+Observation time and timezone:
+Rendered picture state:
+Rendered audio state:
+Attached caption state:
+Preview or thumbnail state:
+Metadata and disclosure state:
+Rights and policy state:
+
+Destination rendition state:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED  [ ] CONFLICTED
+
+Logged-out public state:
+[ ] VERIFIED
+[ ] NOT_PUBLIC
+[ ] BLOCKED
+[ ] NOT_TESTED
+
+Fresh public URL, if authorized and safe to record:
+Retrieval time and timezone:
+HTTPS status:
+Expected content found:
+AI-assistant disclosure found:
+Remote privacy recheck:
+
+[ ] Local artifact MATCH is not cited as proof of destination processing.
+[ ] Transfer response is not cited as proof of visibility or publication.
+[ ] Private or unlisted state is not cited as public availability.
+[ ] Public state is claimed only after fresh logged-out verification.
+
+======================================================================
+K. FAILURE-SHAPED WORKSHEET TESTS
+======================================================================
+
+Mark PASS only when the worksheet forces the truthful outcome.
+
+1. Matching bytes contain a visible typo.
+Expected: artifact MATCH; picture or claims lane FAIL; hold.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+2. The expected digest is selected after observing a mismatch.
+Expected: predeclaration FAIL; create a new claim revision.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+3. A build discovers an undeclared image in its source directory.
+Expected: source admission FAIL or STOP; no averaging.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+4. Container timestamps differ but decoded surfaces match.
+Expected: use only the comparison rule declared before the build; do not invent
+an exception after the result.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+5. Byte-identical media contains late final captions.
+Expected: artifact MATCH; caption lane FAIL; hold for repair.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+6. Rights provenance is missing for one admitted sound.
+Expected: rights BLOCKED or STOP regardless of reproduction result.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+7. A repaired caption changes the source-set identity.
+Expected: prior decision SUPERSEDED; rerun affected lanes.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+8. The provider crops a disclosure from its preview.
+Expected: local result unchanged; destination review FAIL; no public claim.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+9. A transfer succeeds but observed visibility is unknown.
+Expected: destination or public state BLOCKED or NOT_TESTED.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+10. A public route returns expected media but lacks AI disclosure.
+Expected: remote publication gate FAIL; do not report verified acceptance.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+11. A build log embeds a private workstation path.
+Expected: privacy FAIL; repair the artifact and invalidate affected identities.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+12. A matching artifact receives no audience measurements.
+Expected: reproduction remains MATCH; audience response remains NOT_TESTED.
+[ ] PASS  [ ] FAIL  [ ] NOT_TESTED
+
+Failure-test result:
+[ ] PASS  [ ] FAIL  [ ] BLOCKED  [ ] NOT_TESTED
+
+======================================================================
+L. COMPACT 21-CHECK REVIEW
+======================================================================
+
+[ ] 01. The exact determinism claim was named before the build.
+[ ] 02. Every admitted source has an immutable revision or recomputable identity.
+[ ] 03. The build program, runtime, renderer, encoder, and dependencies are pinned.
+[ ] 04. Picture, audio, caption, codec, container, and metadata settings are declared.
+[ ] 05. Controlled and uncontrolled environment details are recorded.
+[ ] 06. The comparison rule was selected before observing the result.
+[ ] 07. Only documented non-semantic variability is normalized.
+[ ] 08. Inputs come from an ordered allowlist.
+[ ] 09. Undeclared inputs stop source admission.
+[ ] 10. Source, encoded, perceptual, and destination identities remain distinct.
+[ ] 11. Identities are recomputed immediately before the named handoff.
+[ ] 12. Mismatches are preserved rather than silently blessed.
+[ ] 13. Decoded picture received an independent complete review.
+[ ] 14. Complete audio received an independent review.
+[ ] 15. Caption text, timing, labels, attachment, and final state were reviewed.
+[ ] 16. Claims, AI disclosure, rights, attribution, privacy, and safety were reviewed.
+[ ] 17. Blocked and untested lanes remain visible and are not converted to passes.
+[ ] 18. Changes supersede prior decisions and reopen affected lanes.
+[ ] 19. Provider-generated renditions are treated as new evidence.
+[ ] 20. Visibility and public availability are verified separately.
+[ ] 21. No quality, rights, safety, publication, or audience claim rests on a digest.
+
+Final worksheet state:
+[ ] PASS FOR THE NAMED NEXT TRANSITION ONLY
+[ ] HOLD FOR REPAIR
+[ ] HOLD FOR EVIDENCE
+[ ] SUPERSEDED
+[ ] CONFLICTED
+[ ] STOP
+
+Named next transition, if eligible:
+Decision time and timezone:
+Decision evidence references:
+Unresolved findings:
+Invalidation triggers:
+
+COMPLETION BOUNDARY
+A completed worksheet records evidence for one candidate, one predeclared
+comparison, and one narrowly named transition. It does not itself prove that the
+entries are true, that a transfer occurred, that a destination rendered the
+artifact correctly, that anything is public, or that an audience responded.
+Recheck all affected lanes when a source, toolchain, setting, environment,
+artifact, review surface, destination rendition, visibility state, or route
+changes.
+
+RIGHTS AND SOURCE NOTE
+This blank worksheet, its four-identity model, evidence lanes, failure-shaped
+tests, and 21-check review are original text by Alfred, an AI assistant. They use
+no third-party media or copied private record. The method is operational guidance,
+not a claim that a named standard or external authority requires this exact form.

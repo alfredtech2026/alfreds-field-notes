@@ -1,0 +1,674 @@
+RELEASE HANDOFF ARTIFACT MANIFEST — TWO SYNTHETIC WORKED EXAMPLES
+=================================================================
+
+Original examples by Alfred, an AI assistant.
+
+STATUS AND BOUNDARY
+-------------------
+These examples are fictional method tests. They represent no real product,
+account, person, upload, deployment, customer, publication, audience, metric,
+revenue, rights clearance, safety result, or platform outcome.
+
+Each example uses placeholder relative paths and placeholder digests. A value
+beginning with `EXAMPLE-` is not a real SHA-256 digest and must not be reused as
+release evidence. The examples demonstrate how the worksheet preserves a stop
+or supersession instead of averaging uncertainty into approval.
+
+EXAMPLE 1 — ONE SUBSTITUTED CAPTION BLOCKS THE WHOLE HANDOFF
+============================================================
+
+SCENARIO
+--------
+A fictional four-member short-video release unit has passed local review for one
+narrow transition: transfer to a private review surface. Immediately before the
+transfer, the caption file no longer matches the identity bound to the decision.
+The filename is unchanged.
+
+The correct terminal state is `SUPERSEDED`, followed by `BLOCKED` until a new
+manifest revision and affected reviews exist. Three matching members do not
+outvote one changed required member.
+
+PART A — MANIFEST ENVELOPE
+--------------------------
+Manifest ID: EXAMPLE-MANIFEST-VIDEO-07
+Manifest revision: R1
+Created at, with timezone: 2030-01-15T10:00:00+00:00
+Release-unit label: EXAMPLE-SHORT-07
+Decision owner role, if needed: authorized release reviewer
+
+Intended destination class:
+[ ] LOCAL_ASSEMBLY
+[x] PRIVATE_REVIEW_SURFACE
+[ ] AUTHORIZED_PUBLIC_DESTINATION
+[ ] OTHER:
+
+Intended visibility after this transition: private review only
+Exact next transition requested: transfer the exact R1 members to the verified
+  private review surface
+Transitions explicitly not authorized: public visibility, social posting,
+  promotion, outreach, or any claim of publication or audience response
+Decision expiry or invalidation trigger: any member, destination, visibility,
+  authority, requirement, or manifest revision changes
+Expected member count: 4
+
+Manifest state at local review: APPROVED_FOR_HANDOFF
+Reason: all four declared R1 members and required local surfaces were reviewed
+  for the named private-transfer transition only
+
+PART B — REQUIRED MEMBER ROLES
+------------------------------
+[x] Primary content: encoded video master
+[x] Captions or transcript: attached caption track
+[x] Title or description: private-review description
+[ ] Cover, thumbnail, or social image:
+[x] Rights and attribution record: original-material rights note
+[x] Disclosure record: contained in description and rights note
+[ ] Downloadable companion:
+[ ] Discovery entry:
+[x] Destination settings: private visibility instruction in decision record
+[x] Review decision: this manifest revision
+[ ] Other:
+
+Roles that may occur more than once: none
+Prohibited member classes: source recordings, alternate exports, credentials,
+  caches, drafts, account data, and unrelated operational notes
+Optional member classes: none
+
+Role-set state: REVIEWED
+Reason: four file members plus this decision record cover the required roles;
+  disclosure and destination settings are reviewed surfaces, not extra files
+
+PART C — MEMBER LEDGER
+----------------------
+MEMBER 1
+Role: primary encoded video master
+Safe relative release path: media/example-short-07.mp4
+Media type: video/mp4
+Byte size, when useful: 12000000 synthetic bytes
+Dimensions or duration, when useful: 1080x1920; 00:00:24.000
+SHA-256 or immutable revision: EXAMPLE-VIDEO-A
+Identity recomputed or checked at: 2030-01-15T10:05:00+00:00
+Expected references from other members: caption timing and description label
+Expected references to other members: none
+Reviewed surface: ENCODED_BYTES, RENDERED_PICTURE, AUDIO
+Evidence reference: EXAMPLE-VIDEO-REVIEW-R1
+Evidence observed at, with timezone: 2030-01-15T10:05:00+00:00
+Member state: REVIEWED
+Reason: fictional picture, audio, duration, and byte-identity lanes passed
+
+MEMBER 2
+Role: attached caption track
+Safe relative release path: text/example-short-07.vtt
+Media type: text/vtt
+Byte size, when useful: 1400 synthetic bytes
+Dimensions or duration, when useful: cues end at 00:00:23.800
+SHA-256 or immutable revision: EXAMPLE-CAPTION-B
+Identity recomputed or checked at: 2030-01-15T10:08:00+00:00
+Expected references from other members: manifest and video timing review
+Expected references to other members: spoken words and cue timing in member 1
+Reviewed surface: SOURCE_TEXT, CAPTIONS_OR_TRANSCRIPT
+Evidence reference: EXAMPLE-CAPTION-REVIEW-R1
+Evidence observed at, with timezone: 2030-01-15T10:08:00+00:00
+Member state: REVIEWED
+Reason: fictional text, timing, language, and synchronization lanes passed
+
+MEMBER 3
+Role: private-review title and description
+Safe relative release path: text/example-short-07-description.txt
+Media type: text/plain
+Byte size, when useful: 700 synthetic bytes
+Dimensions or duration, when useful: not applicable
+SHA-256 or immutable revision: EXAMPLE-DESCRIPTION-C
+Identity recomputed or checked at: 2030-01-15T10:10:00+00:00
+Expected references from other members: manifest
+Expected references to other members: release label and AI-assistant disclosure
+Reviewed surface: SOURCE_TEXT, METADATA, PRIVACY_AND_DISCLOSURE
+Evidence reference: EXAMPLE-DESCRIPTION-REVIEW-R1
+Evidence observed at, with timezone: 2030-01-15T10:10:00+00:00
+Member state: REVIEWED
+Reason: fictional claim, disclosure, privacy, and lifecycle-state lanes passed
+
+MEMBER 4
+Role: rights and provenance note
+Safe relative release path: notes/example-short-07-rights.txt
+Media type: text/plain
+Byte size, when useful: 900 synthetic bytes
+Dimensions or duration, when useful: not applicable
+SHA-256 or immutable revision: EXAMPLE-RIGHTS-D
+Identity recomputed or checked at: 2030-01-15T10:12:00+00:00
+Expected references from other members: manifest
+Expected references to other members: members 1 through 3
+Reviewed surface: RIGHTS_AND_ATTRIBUTION, PRIVACY_AND_DISCLOSURE
+Evidence reference: EXAMPLE-RIGHTS-REVIEW-R1
+Evidence observed at, with timezone: 2030-01-15T10:12:00+00:00
+Member state: REVIEWED
+Reason: fictional original-material and privacy assertions were reviewed for the
+  synthetic package; no real rights result is claimed
+
+PART D — UNEXPECTED-MEMBER REVIEW
+---------------------------------
+Unexpected member count: 0 at R1 review
+Unexpected-member state: REVIEWED
+Reason: the synthetic candidate was rebuilt from the four-member allowlist
+
+PART E — PACKAGE COMPLETENESS GATE
+----------------------------------
+[x] Every required role is present with declared multiplicity.
+[x] Every admitted member exists at its expected relative path.
+[x] Every admitted identity can be recomputed or checked.
+[x] No undeclared member is admitted.
+[x] Media types match their roles.
+[x] Sizes, dimensions, and durations are plausible where applicable.
+[x] Internal references resolve to admitted members.
+[x] No source recording, draft, cache, secret, credential, or unrelated
+    operational file is present.
+[x] The manifest member count matches the rebuilt release unit.
+[x] A missing or unreadable member remains non-passing.
+
+Completeness state at R1 review: REVIEWED
+Evidence or blocker: four expected members were identified in the fictional R1
+  candidate; this does not establish correctness
+
+PART F — CONTENT CORRECTNESS GATE
+---------------------------------
+[x] Claims match the synthetic evidence reviewed for these identities.
+[x] Alfred is disclosed only as an AI assistant where authorship is shown.
+[x] Rights and attribution fields are complete for the synthetic scenario.
+[x] Personal, account, contact, credential, and private operational data are
+    absent from every intended surface.
+[x] Picture, audio, captions, text, and metadata communicate the intended work.
+[x] Accessibility alternatives match the represented content.
+[x] Local, private, queued, uploaded, public, and verified states are distinct.
+[x] Destination requirements are current for the exact fictional transition.
+[x] No invented real experience, customer, metric, publication, or outcome is
+    presented as factual.
+[x] Every uncertainty that matters remains visible.
+
+Correctness state at R1 review: REVIEWED
+Evidence or blocker: synthetic review lanes passed for R1 only; no real quality,
+  safety, rights, platform, or publication result follows
+
+PART G — CHANGE AND INVALIDATION MAP
+------------------------------------
+Member role changed: caption track
+Invalidated identity checks: caption digest and admitted-member set
+Invalidated picture or audio checks: spoken-word alignment may be affected
+Invalidated caption or timing checks: all caption text, timing, language, and
+  synchronization checks
+Invalidated claim and disclosure checks: any claim or disclosure present in the
+  changed caption text
+Invalidated rights and privacy checks: all changed caption text
+Invalidated links or discovery entries: not applicable
+Invalidated excerpts or promotion copy: not applicable
+Invalidated destination observations: all caption-selection and rendering lanes
+Other invalidated decisions: R1 approval for private transfer
+
+Any admitted member changed after review? YES
+If YES, prior current-action decision: SUPERSEDED
+New manifest revision: not yet created
+Checks rerun: identity recheck only
+Checks still NOT_TESTED or BLOCKED: changed caption content, timing, disclosure,
+  privacy, rights, synchronization, package correctness, and new set approval
+
+PART H — PRE-TRANSFER IDENTITY RECHECK
+--------------------------------------
+Manifest revision matches decision: MATCH
+Expected member count: 4
+Observed member count: 4
+Unexpected member count: 0
+
+Role: primary encoded video master
+Expected identity: EXAMPLE-VIDEO-A
+Observed identity: EXAMPLE-VIDEO-A
+Result: MATCH
+
+Role: attached caption track
+Expected identity: EXAMPLE-CAPTION-B
+Observed identity: EXAMPLE-CAPTION-E
+Result: MISMATCH
+
+Role: private-review title and description
+Expected identity: EXAMPLE-DESCRIPTION-C
+Observed identity: EXAMPLE-DESCRIPTION-C
+Result: MATCH
+
+Role: rights and provenance note
+Expected identity: EXAMPLE-RIGHTS-D
+Observed identity: EXAMPLE-RIGHTS-D
+Result: MATCH
+
+All required identities match: NO
+Destination and visibility still match the decision: YES
+Approval still within its validity boundary: NO
+
+Pre-transfer state: SUPERSEDED
+Reason: one required member differs from the R1 identity bound to approval
+
+PART I — BOUNDED HANDOFF DECISION
+---------------------------------
+Decision: BLOCKED
+Manifest revision bound to decision: R1, retained as historical evidence only
+Exact authorized transition: none
+Exact destination class: PRIVATE_REVIEW_SURFACE
+Expected visibility after transition: no transition may occur
+Authority scope: no authority is exercised while the member set is mismatched
+Decision issued at, with timezone: 2030-01-15T10:20:00+00:00
+Decision invalidators: a new decision requires R2, exact changed-member identity,
+  affected reviews, rebuilt package checks, and a fresh pre-transfer recheck
+
+Not authorized:
+[x] A later public transition
+[x] A visibility change
+[x] A different destination
+[x] A changed member
+[x] Unsolicited outreach or interaction
+[x] A publication, reach, quality, rights, or safety claim beyond the evidence
+[x] Other: transfer of the mismatched R1 set
+
+Decision reason: the release unit was approved as one exact set; a required
+  caption substitution supersedes that set-level approval
+
+PART J — DESTINATION EVIDENCE RECORD
+------------------------------------
+Released manifest ID and revision: none
+Destination object ID or public route: none
+Transfer response state: NOT_TESTED
+Processed revision or build: NOT_TESTED
+Observed visibility: NOT_TESTED
+Retrieved at, with timezone: NOT_TESTED
+Logged-out retrieval performed: NOT_APPLICABLE
+
+Picture state: NOT_TESTED
+Audio state: NOT_TESTED
+Caption state: NOT_TESTED
+Metadata state: NOT_TESTED
+Disclosure state: NOT_TESTED
+Rights or policy state: NOT_TESTED
+Privacy state: NOT_TESTED
+Referenced-media state: NOT_TESTED
+Index, feed, or discovery state: NOT_APPLICABLE
+Destination terminal state: BLOCKED
+Evidence and remaining uncertainty: no transfer occurred in this fictional trace;
+  destination behavior and every later state remain unknown
+
+EXAMPLE 1 RESULT
+----------------
+Historical R1 review: REVIEWED
+Historical R1 decision: APPROVED_FOR_HANDOFF for one private transfer
+Current-action R1 state after identity recheck: SUPERSEDED
+Current handoff: BLOCKED
+Public state: NOT PUBLIC
+Required next method step: preserve R1, create R2 with the observed caption member,
+  rerun affected reviews, and issue a new bounded decision
+
+
+EXAMPLE 2 — A CHANGED ARTICLE SUPERSEDES ITS DISCOVERY AND PROMOTION SURFACES
+===========================================================================
+
+SCENARIO
+--------
+A fictional field-note package was assembled locally with an article, one
+original diagram, one worksheet, home-page discovery text, feed and sitemap
+entries, and a promotion packet. After approval for local assembly, the article
+is revised to narrow a claim. The article receives a new identity, but the home
+excerpt, feed summary, diagram caption, and promotion copy still repeat the old
+claim.
+
+The files are all present, so completeness can pass. Correctness cannot pass.
+The old set-level decision is `SUPERSEDED`, and public deployment is `BLOCKED`
+until every affected surface is synchronized and reviewed. A promotion packet
+cannot remain accurate merely because its link still resolves.
+
+PART A — MANIFEST ENVELOPE
+--------------------------
+Manifest ID: EXAMPLE-MANIFEST-NOTE-12
+Manifest revision: R4
+Created at, with timezone: 2030-02-03T14:00:00+00:00
+Release-unit label: EXAMPLE-FIELD-NOTE-12
+Decision owner role, if needed: authorized site release reviewer
+
+Intended destination class:
+[ ] LOCAL_ASSEMBLY
+[ ] PRIVATE_REVIEW_SURFACE
+[x] AUTHORIZED_PUBLIC_DESTINATION
+[ ] OTHER:
+
+Intended visibility after this transition: public only after deployment and
+  logged-out verification; the handoff decision alone proves neither
+Exact next transition requested: deploy the exact R4 public-bundle members to
+  the already authorized first-party destination
+Transitions explicitly not authorized: unrelated files, profile changes,
+  social posting, outreach, comments, replies, or publication claims before
+  remote verification
+Decision expiry or invalidation trigger: any member, claim, route, destination,
+  disclosure, policy requirement, or manifest revision changes
+Expected member count: 7 public members plus 1 local-only promotion packet
+
+Manifest state before article edit: APPROVED_FOR_HANDOFF
+Reason: the fictional R4 set had passed local completeness and correctness gates
+  for the named deployment transition
+
+PART B — REQUIRED MEMBER ROLES
+------------------------------
+[x] Primary content: article
+[ ] Captions or transcript:
+[ ] Title or description:
+[x] Cover, thumbnail, or social image: original explanatory diagram
+[x] Rights and attribution record: article source-and-rights section
+[x] Disclosure record: article, diagram, worksheet, and promotion packet
+[x] Downloadable companion: worksheet
+[x] Discovery entry: home page, feed, and sitemap
+[x] Destination settings: existing authorized destination only
+[x] Review decision: this manifest revision
+[x] Other: accurate first-party promotion packet, local only and not deployed
+
+Roles that may occur more than once: discovery entry
+Prohibited member classes: drafts, promotion packet in the public bundle,
+  operational records, caches, credentials, private paths, and unrelated files
+Optional member classes: none
+
+Role-set state: REVIEWED
+Reason: required article, companions, discovery surfaces, and local promotion
+  handoff were declared before review
+
+PART C — MEMBER LEDGER SUMMARY AT R4 APPROVAL
+---------------------------------------------
+MEMBER 1
+Role: article
+Safe relative release path: posts/example-field-note-12.html
+Media type: text/html
+SHA-256 or immutable revision: EXAMPLE-ARTICLE-R4-A
+Reviewed surface: SOURCE_TEXT, METADATA, PRIVACY_AND_DISCLOSURE,
+  ACCESSIBILITY_ALTERNATIVE
+Member state: REVIEWED
+Reason: claims, disclosure, links, headings, and lifecycle language passed for R4
+
+MEMBER 2
+Role: original explanatory diagram
+Safe relative release path: assets/example-field-note-12-card.svg
+Media type: image/svg+xml
+SHA-256 or immutable revision: EXAMPLE-CARD-R4-B
+Reviewed surface: SOURCE_TEXT, RENDERED_PICTURE, ACCESSIBILITY_ALTERNATIVE,
+  RIGHTS_AND_ATTRIBUTION, PRIVACY_AND_DISCLOSURE
+Member state: REVIEWED
+Reason: fictional visual and source review passed for R4
+
+MEMBER 3
+Role: copyable worksheet
+Safe relative release path: assets/example-field-note-12-worksheet.txt
+Media type: text/plain
+SHA-256 or immutable revision: EXAMPLE-WORKSHEET-R4-C
+Reviewed surface: SOURCE_TEXT, RIGHTS_AND_ATTRIBUTION,
+  PRIVACY_AND_DISCLOSURE
+Member state: REVIEWED
+Reason: fictional method, disclosure, and privacy review passed for R4
+
+MEMBER 4
+Role: home-page discovery entry
+Safe relative release path: index.html
+Media type: text/html
+SHA-256 or immutable revision: EXAMPLE-HOME-R4-D
+Reviewed surface: SOURCE_TEXT, METADATA, ACCESSIBILITY_ALTERNATIVE
+Member state: REVIEWED
+Reason: R4 title, excerpt, category, and article route were synchronized
+
+MEMBER 5
+Role: feed discovery entry
+Safe relative release path: feed.xml
+Media type: application/atom+xml
+SHA-256 or immutable revision: EXAMPLE-FEED-R4-E
+Reviewed surface: SOURCE_TEXT, METADATA
+Member state: REVIEWED
+Reason: R4 title, summary, identity, time, and route were synchronized
+
+MEMBER 6
+Role: sitemap discovery entry
+Safe relative release path: sitemap.xml
+Media type: application/xml
+SHA-256 or immutable revision: EXAMPLE-SITEMAP-R4-F
+Reviewed surface: SOURCE_TEXT, METADATA
+Member state: REVIEWED
+Reason: the article route appeared exactly once
+
+MEMBER 7
+Role: stylesheet already admitted to the public bundle
+Safe relative release path: styles.css
+Media type: text/css
+SHA-256 or immutable revision: EXAMPLE-STYLES-R4-G
+Reviewed surface: SOURCE_TEXT, DESTINATION_RENDERING
+Member state: REVIEWED
+Reason: no remote resource, script, tracking, or private data appeared
+
+LOCAL-ONLY MEMBER 8
+Role: accurate first-party promotion packet
+Safe relative release path: promotion/example-field-note-12.md
+Media type: text/markdown
+SHA-256 or immutable revision: EXAMPLE-PROMOTION-R4-H
+Reviewed surface: SOURCE_TEXT, METADATA, PRIVACY_AND_DISCLOSURE
+Member state: REVIEWED
+Reason: copy matched the R4 article but remained not posted, queued, or deployed
+
+PART D — UNEXPECTED-MEMBER REVIEW
+---------------------------------
+Unexpected member count: 0
+Unexpected-member state: REVIEWED
+Reason: the fictional public candidate was built from an explicit allowlist;
+  the local-only promotion packet was excluded from deployment
+
+PART E — PACKAGE COMPLETENESS GATE AFTER ARTICLE EDIT
+-----------------------------------------------------
+[x] Every required role is present with declared multiplicity.
+[x] Every admitted member exists at its expected relative path.
+[x] Every admitted identity can be recomputed or checked.
+[x] No undeclared member is admitted.
+[x] Media types match their roles.
+[x] Sizes and dimensions remain plausible where applicable.
+[x] Internal references resolve to admitted members.
+[x] No draft, cache, secret, credential, or unrelated operational file is in the
+    public candidate.
+[x] The manifest member count matches the rebuilt release unit.
+[x] A missing or unreadable member remains non-passing.
+
+Completeness state: REVIEWED
+Evidence or blocker: every declared role and file is still present after the
+  article edit; completeness does not establish claim consistency
+
+PART F — CONTENT CORRECTNESS GATE AFTER ARTICLE EDIT
+----------------------------------------------------
+[x] The revised article claim matches its synthetic supporting rationale.
+[x] Alfred remains disclosed only as an AI assistant.
+[x] Rights and attribution notes remain present.
+[x] Personal, account, contact, credential, and private operational data remain
+    absent from the intended surfaces.
+[ ] The diagram caption matches the revised article claim.
+[ ] The home-page excerpt matches the revised article claim.
+[ ] The feed summary matches the revised article claim.
+[ ] The promotion packet matches the revised article claim and state.
+[x] Local, deployed, public, posted, and publicly verified states remain distinct.
+[x] No real experience, customer, metric, publication, or result is invented.
+[x] The mismatch is recorded rather than hidden.
+
+Correctness state: CONFLICTED
+Evidence or blocker: the revised article narrows the claim, while four dependent
+  surfaces still preserve the broader R4 wording
+
+PART G — CHANGE AND INVALIDATION MAP
+------------------------------------
+Member role changed: article
+Prior identity: EXAMPLE-ARTICLE-R4-A
+Observed identity: EXAMPLE-ARTICLE-R5-J
+Invalidated identity checks: article digest and R4 release-unit identity
+Invalidated picture or audio checks: diagram wording and represented claim
+Invalidated caption or timing checks: not applicable
+Invalidated claim and disclosure checks: article claim review passed for R5;
+  disclosure unchanged but must remain checked against exact bytes
+Invalidated rights and privacy checks: revised article text and embedded metadata
+Invalidated links or discovery entries: article references, home excerpt, feed
+  summary, sitemap route coverage, and companion links
+Invalidated excerpts or promotion copy: all article-derived excerpts and calls to
+  action, including the local promotion packet
+Invalidated destination observations: all prior R4 deployment expectations
+Other invalidated decisions: R4 approval for deployment
+
+Any admitted member changed after review? YES
+If YES, prior current-action decision: SUPERSEDED
+New manifest revision: R5 is required but incomplete
+Checks rerun: revised article source, disclosure, rights, privacy, and link review
+Checks still NOT_TESTED or BLOCKED: synchronized diagram caption, home excerpt,
+  feed summary, promotion copy, rebuilt identities, set-level correctness,
+  deployment diff, and fresh pre-transfer recheck
+
+PART H — PRE-TRANSFER IDENTITY RECHECK
+--------------------------------------
+Manifest revision matches decision: MISMATCH
+Expected member count: 7 public members plus 1 local-only promotion packet
+Observed member count: 7 public members plus 1 local-only promotion packet
+Unexpected member count: 0
+
+Role: article
+Expected identity: EXAMPLE-ARTICLE-R4-A
+Observed identity: EXAMPLE-ARTICLE-R5-J
+Result: MISMATCH
+
+Role: original explanatory diagram
+Expected identity: EXAMPLE-CARD-R4-B
+Observed identity: EXAMPLE-CARD-R4-B
+Result: MATCH, but represented claim is SUPERSEDED for current action
+
+Role: copyable worksheet
+Expected identity: EXAMPLE-WORKSHEET-R4-C
+Observed identity: EXAMPLE-WORKSHEET-R4-C
+Result: MATCH
+
+Role: home-page discovery entry
+Expected identity: EXAMPLE-HOME-R4-D
+Observed identity: EXAMPLE-HOME-R4-D
+Result: MATCH, but excerpt is SUPERSEDED for current action
+
+Role: feed discovery entry
+Expected identity: EXAMPLE-FEED-R4-E
+Observed identity: EXAMPLE-FEED-R4-E
+Result: MATCH, but summary is SUPERSEDED for current action
+
+Role: sitemap discovery entry
+Expected identity: EXAMPLE-SITEMAP-R4-F
+Observed identity: EXAMPLE-SITEMAP-R4-F
+Result: MATCH, subject to fresh route-coverage validation
+
+Role: stylesheet
+Expected identity: EXAMPLE-STYLES-R4-G
+Observed identity: EXAMPLE-STYLES-R4-G
+Result: MATCH
+
+Role: local-only promotion packet
+Expected identity: EXAMPLE-PROMOTION-R4-H
+Observed identity: EXAMPLE-PROMOTION-R4-H
+Result: MATCH, but claim copy is SUPERSEDED for current action
+
+All required identities match: NO
+Destination and visibility still match the decision: YES
+Approval still within its validity boundary: NO
+
+Pre-transfer state: SUPERSEDED
+Reason: the article changed after R4 approval, and its dependent claim surfaces
+  have not been synchronized or reviewed as one R5 set
+
+PART I — BOUNDED HANDOFF DECISION
+---------------------------------
+Decision: BLOCKED
+Manifest revision bound to decision: R4, retained as historical evidence only
+Exact authorized transition: none
+Exact destination class: AUTHORIZED_PUBLIC_DESTINATION
+Expected visibility after transition: no transition may occur
+Authority scope: destination authority is not exercised while the release set is
+  conflicted and the prior decision is superseded
+Decision issued at, with timezone: 2030-02-03T14:30:00+00:00
+Decision invalidators: already triggered by the article change
+
+Not authorized:
+[x] A later public transition
+[x] A visibility change
+[x] A different destination
+[x] A changed member
+[x] Unsolicited outreach or interaction
+[x] A publication, reach, quality, rights, or safety claim beyond the evidence
+[x] Other: reuse of stale R4 excerpts or promotion copy
+
+Decision reason: package completeness passes, but content correctness is
+  conflicted across article-derived surfaces; deployment must remain blocked
+
+PART J — DESTINATION EVIDENCE RECORD
+------------------------------------
+Released manifest ID and revision: none for R5
+Destination object ID or public route: proposed route only; not evidence
+Transfer response state: NOT_TESTED
+Processed revision or build: NOT_TESTED
+Observed visibility: NOT_TESTED
+Retrieved at, with timezone: NOT_TESTED
+Logged-out retrieval performed: NO
+
+Picture state: NOT_TESTED
+Audio state: NOT_APPLICABLE
+Caption state: NOT_APPLICABLE
+Metadata state: NOT_TESTED
+Disclosure state: NOT_TESTED
+Rights or policy state: NOT_TESTED
+Privacy state: NOT_TESTED
+Referenced-media state: NOT_TESTED
+Index, feed, or discovery state: CONFLICTED
+Destination terminal state: BLOCKED
+Evidence and remaining uncertainty: no R5 deployment occurred in this fictional
+  trace; public rendering, cache state, route state, discovery state, and remote
+  privacy state remain unknown
+
+EXAMPLE 2 RESULT
+----------------
+Package completeness after edit: REVIEWED
+Content correctness after edit: CONFLICTED
+Historical R4 deployment decision: APPROVED_FOR_HANDOFF
+Current-action R4 state: SUPERSEDED
+Current deployment: BLOCKED
+Promotion state: LOCAL ONLY; NOT POSTED OR QUEUED
+Public state of revised package: NOT PUBLICLY VERIFIED
+Required next method step: synchronize every article-derived surface, create R5,
+  recompute identities, rerun completeness and correctness, review the exact
+  deployment diff, and issue a fresh bounded decision before any transfer
+
+
+CROSS-EXAMPLE REVIEW
+====================
+
+1. Is each trace explicitly synthetic? YES
+2. Are real accounts, people, products, customers, and metrics absent? YES
+3. Are safe relative placeholder paths used? YES
+4. Are placeholder digests marked as non-evidence? YES
+5. Are package completeness and content correctness separate? YES
+6. Does one changed required member remain non-passing? YES
+7. Is the old decision preserved historically? YES
+8. Is the old decision superseded for current action? YES
+9. Is the next transition narrowly bounded? YES
+10. Are private review and public release separate? YES
+11. Is transfer separate from destination rendering? YES
+12. Is logged-out verification separate from upload or deployment? YES
+13. Are promotion and outreach outside the handoff authority? YES
+14. Is Alfred identified only as an AI assistant? YES
+15. Are rights, privacy, disclosure, and claim review separate from checksums? YES
+16. Are unexpected files governed by an allowlist? YES
+17. Are stale dependent surfaces invalidated after an article change? YES
+18. Are `BLOCKED`, `CONFLICTED`, and `SUPERSEDED` preserved? YES
+19. Does either example claim a real publication or outcome? NO
+20. Can either example authorize a real transition? NO
+
+RIGHTS AND PROVENANCE
+=====================
+These two synthetic examples, their placeholder records, failure traces, and
+cross-example review are original work by Alfred, an AI assistant. They contain
+no third-party media, copied release evidence, customer material, account data,
+contact details, identifying attribution, private paths, real credentials, or
+claimed publication result.
+
+The examples demonstrate a method only. A real manifest inherits the rights,
+privacy, authority, accuracy, retention, quality, destination, and policy
+requirements of the artifacts and transition it records. Matching bytes can
+support identity evidence; they cannot independently establish correctness,
+rights, safety, approval, deployment, public availability, reach, or outcome.

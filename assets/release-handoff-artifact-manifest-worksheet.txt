@@ -1,0 +1,395 @@
+RELEASE HANDOFF ARTIFACT MANIFEST — COPYABLE WORKSHEET
+======================================================
+
+Original worksheet by Alfred, an AI assistant.
+
+PURPOSE
+-------
+Bind one proposed transition to exact release members, exact reviewed surfaces,
+and explicit evidence states. A completed manifest can expose substitution and
+missing evidence; it does not prove quality, rights, safety, approval, transfer,
+deployment, publication, reach, or outcome.
+
+SAFE USE
+--------
+- Use safe relative release paths, never private workstation or account paths.
+- Include only material that is authorized for the intended transition.
+- Keep source recordings, credentials, caches, drafts, and private notes outside
+  the release unit unless a reviewed role explicitly requires them.
+- Record uncertainty as uncertainty. Never turn an empty field into approval.
+- Treat an unexpected file, identity mismatch, or rights/privacy conflict as a
+  stop until it is reviewed and resolved.
+- Keep local review, private transfer, public release, and logged-out public
+  verification as separate transitions.
+
+STATE VOCABULARY
+----------------
+IDENTIFIED
+  The member has an exact identity. No required review is implied.
+
+REVIEWED
+  The named review was completed against the recorded identity and surface.
+
+APPROVED_FOR_HANDOFF
+  Required gates passed for one narrowly named next transition.
+
+BLOCKED
+  A required member, authority, dependency, or review is unavailable.
+
+NOT_TESTED
+  The named check did not run.
+
+SUPERSEDED
+  A changed member, manifest, destination, or requirement invalidated the state
+  for current action. Preserve the historical record.
+
+CONFLICTED
+  Available evidence disagrees about identity, content, scope, or state.
+
+STOP
+  A rights, privacy, safety, policy, or quality failure makes the release unit
+  ineligible for the proposed transition.
+
+Only APPROVED_FOR_HANDOFF may authorize the exact transition recorded below. It
+does not authorize a later transition.
+
+PART A — MANIFEST ENVELOPE
+--------------------------
+Manifest ID:
+Manifest revision:
+Created at, with timezone:
+Release-unit label:
+Decision owner role, if needed:
+
+Intended destination class:
+[ ] LOCAL_ASSEMBLY
+[ ] PRIVATE_REVIEW_SURFACE
+[ ] AUTHORIZED_PUBLIC_DESTINATION
+[ ] OTHER:
+
+Intended visibility after this transition:
+Exact next transition requested:
+Transitions explicitly not authorized:
+Decision expiry or invalidation trigger:
+Expected member count:
+
+Manifest state: IDENTIFIED / REVIEWED / APPROVED_FOR_HANDOFF / BLOCKED /
+                NOT_TESTED / SUPERSEDED / CONFLICTED / STOP
+Reason:
+
+PART B — REQUIRED MEMBER ROLES
+------------------------------
+Declare every role before reviewing the package. Mark multiplicity when more
+than one member is valid.
+
+[ ] Primary content:
+[ ] Captions or transcript:
+[ ] Title or description:
+[ ] Cover, thumbnail, or social image:
+[ ] Rights and attribution record:
+[ ] Disclosure record:
+[ ] Downloadable companion:
+[ ] Discovery entry:
+[ ] Destination settings:
+[ ] Review decision:
+[ ] Other:
+
+Roles that may occur more than once:
+Prohibited member classes:
+Optional member classes:
+
+Role-set state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED / STOP
+Reason:
+
+PART C — MEMBER LEDGER
+----------------------
+Repeat this block for every admitted member.
+
+MEMBER [number]
+Role:
+Safe relative release path:
+Media type:
+Byte size, when useful:
+Dimensions or duration, when useful:
+SHA-256 or immutable revision:
+Identity recomputed or checked at:
+Expected references from other members:
+Expected references to other members:
+
+Reviewed surface:
+[ ] SOURCE_TEXT
+[ ] ENCODED_BYTES
+[ ] RENDERED_PICTURE
+[ ] AUDIO
+[ ] CAPTIONS_OR_TRANSCRIPT
+[ ] METADATA
+[ ] ACCESSIBILITY_ALTERNATIVE
+[ ] RIGHTS_AND_ATTRIBUTION
+[ ] PRIVACY_AND_DISCLOSURE
+[ ] DESTINATION_RENDERING
+[ ] OTHER:
+
+Evidence reference:
+Evidence observed at, with timezone:
+Member state: IDENTIFIED / REVIEWED / APPROVED_FOR_HANDOFF / BLOCKED /
+              NOT_TESTED / SUPERSEDED / CONFLICTED / STOP
+Reason:
+
+Do not average member states. One blocked required member blocks a set-level
+approval that depends on it.
+
+PART D — UNEXPECTED-MEMBER REVIEW
+---------------------------------
+Build the candidate from an allowlist. Do not use “copy everything.”
+
+Unexpected member count:
+
+Repeat for each unexpected member, using a safe relative name only.
+Relative name:
+Observed media type:
+Proposed classification: REQUIRED / OPTIONAL / PROHIBITED / STALE / UNKNOWN
+Authority to inspect: CONFIRMED / BLOCKED / NOT_TESTED
+Action: ADMIT_AFTER_REVIEW / EXCLUDE_AND_REBUILD / QUARANTINE / STOP
+Reason:
+
+Unexpected-member state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED / STOP
+Reason:
+
+PART E — PACKAGE COMPLETENESS GATE
+----------------------------------
+[ ] Every required role is present with declared multiplicity.
+[ ] Every admitted member exists at its expected relative path.
+[ ] Every admitted identity can be recomputed or checked.
+[ ] No undeclared member is admitted.
+[ ] Media types match their roles.
+[ ] Sizes, dimensions, and durations are plausible where applicable.
+[ ] Internal references resolve to admitted members.
+[ ] No source recording, draft, cache, secret, credential, or unrelated
+    operational file is present.
+[ ] The manifest member count matches the rebuilt release unit.
+[ ] A missing or unreadable member remains non-passing.
+
+Completeness state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED / STOP
+Evidence or blocker:
+
+PART F — CONTENT CORRECTNESS GATE
+---------------------------------
+[ ] Claims match the evidence reviewed for these exact member identities.
+[ ] Alfred is disclosed only as an AI assistant where authorship is shown.
+[ ] Rights, licenses, and required attribution are complete.
+[ ] Personal, account, contact, credential, and private operational data are
+    absent from every intended public surface.
+[ ] Picture, audio, captions, text, and metadata communicate the intended work.
+[ ] Accessibility alternatives match the represented content.
+[ ] Local, private, queued, uploaded, public, and publicly verified states are
+    distinguished accurately.
+[ ] Destination requirements are current for the exact proposed transition.
+[ ] No inflammatory claim, invented experience, customer, metric, publication,
+    or outcome appears.
+[ ] Every uncertainty that matters to the decision remains visible.
+
+Correctness state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED / STOP
+Evidence or blocker:
+
+PART G — CHANGE AND INVALIDATION MAP
+------------------------------------
+Declare the minimum evidence invalidated when a member changes.
+
+Member role changed:
+Invalidated identity checks:
+Invalidated picture or audio checks:
+Invalidated caption or timing checks:
+Invalidated claim and disclosure checks:
+Invalidated rights and privacy checks:
+Invalidated links or discovery entries:
+Invalidated excerpts or promotion copy:
+Invalidated destination observations:
+Other invalidated decisions:
+
+Repeat for each role whose dependencies differ.
+
+Any admitted member changed after review? YES / NO / UNKNOWN
+If YES, prior current-action decision: SUPERSEDED
+New manifest revision:
+Checks rerun:
+Checks still NOT_TESTED or BLOCKED:
+
+PART H — PRE-TRANSFER IDENTITY RECHECK
+--------------------------------------
+Run immediately before the authorized transition.
+
+Manifest revision matches decision: MATCH / MISMATCH / NOT_TESTED
+Expected member count:
+Observed member count:
+Unexpected member count:
+
+For each member:
+Role:
+Expected identity:
+Observed identity:
+Result: MATCH / MISMATCH / MISSING / NOT_TESTED
+
+All required identities match: YES / NO / NOT_TESTED
+Destination and visibility still match the decision: YES / NO / NOT_TESTED
+Approval still within its validity boundary: YES / NO / NOT_TESTED
+
+Pre-transfer state: APPROVED_FOR_HANDOFF / BLOCKED / NOT_TESTED /
+                    SUPERSEDED / CONFLICTED / STOP
+Reason:
+
+PART I — BOUNDED HANDOFF DECISION
+---------------------------------
+Decision: APPROVED_FOR_HANDOFF / BLOCKED / NOT_TESTED / SUPERSEDED /
+          CONFLICTED / STOP
+
+Manifest revision bound to decision:
+Exact authorized transition:
+Exact destination class:
+Expected visibility after transition:
+Authority scope:
+Decision issued at, with timezone:
+Decision invalidators:
+
+Not authorized:
+[ ] A later public transition
+[ ] A visibility change
+[ ] A different destination
+[ ] A changed member
+[ ] Unsolicited outreach or interaction
+[ ] A publication, reach, quality, rights, or safety claim beyond the evidence
+[ ] Other:
+
+Decision reason:
+
+PART J — DESTINATION EVIDENCE RECORD
+------------------------------------
+Complete after transfer. Do not copy local approval into these fields.
+
+Released manifest ID and revision:
+Destination object ID or public route:
+Transfer response state:
+Processed revision or build:
+Observed visibility:
+Retrieved at, with timezone:
+Logged-out retrieval performed: YES / NO / NOT_APPLICABLE
+
+Picture state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED
+Audio state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED / NOT_APPLICABLE
+Caption state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED / NOT_APPLICABLE
+Metadata state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED
+Disclosure state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED
+Rights or policy state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED
+Privacy state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED
+Referenced-media state: REVIEWED / BLOCKED / NOT_TESTED / CONFLICTED
+Index, feed, or discovery state: REVIEWED / BLOCKED / NOT_TESTED /
+                                 CONFLICTED / NOT_APPLICABLE
+
+Destination terminal state:
+[ ] PRIVATE_REVIEW_SURFACE_VERIFIED
+[ ] UPLOADED_NOT_PUBLICLY_VERIFIED
+[ ] PUBLICLY_VERIFIED
+[ ] BLOCKED
+[ ] CONFLICTED
+[ ] SUPERSEDED
+[ ] STOP
+
+Evidence and remaining uncertainty:
+
+FAILURE-SHAPED METHOD TESTS
+---------------------------
+TEST 1 — FRIENDLY FOLDER NAME
+Replace all member identities with a folder named “final.”
+Expected: BLOCKED; a label is not a release identity.
+State:
+
+TEST 2 — SAME NAME, DIFFERENT BYTES
+Replace one reviewed member while preserving its filename.
+Expected: SUPERSEDED; recompute identity and affected reviews.
+State:
+
+TEST 3 — COMPLETE BUT WRONG
+Include every declared role but insert unsupported claims or unlicensed media.
+Expected: STOP; completeness cannot satisfy correctness.
+State:
+
+TEST 4 — GOOD FILE, MISSING ROLE
+Keep an excellent primary asset but omit a required caption or rights record.
+Expected: BLOCKED; individual quality cannot satisfy package completeness.
+State:
+
+TEST 5 — UNEXPECTED CACHE
+Add an undeclared cache, draft, source recording, or private note.
+Expected: BLOCKED or STOP; exclude it and rebuild from the allowlist.
+State:
+
+TEST 6 — DIGEST AS APPROVAL
+Use matching checksums to claim the members are safe, useful, or rights-cleared.
+Expected: FAIL; checksums establish byte equality only.
+State:
+
+TEST 7 — BLANK AS PASS
+Leave a required review field empty and call the unit approved.
+Expected: FAIL; preserve NOT_TESTED or BLOCKED.
+State:
+
+TEST 8 — APPROVAL SCOPE LEAK
+Reuse private-upload approval to authorize public visibility.
+Expected: FAIL; issue a separate bounded decision.
+State:
+
+TEST 9 — DESTINATION COLLAPSE
+Treat a successful transfer response as proof of rendered public availability.
+Expected: FAIL; inspect destination surfaces and visibility separately.
+State:
+
+TEST 10 — HISTORY OVERWRITE
+Edit an approved manifest in place after one member changes.
+Expected: FAIL; preserve the old record and create a superseding revision.
+State:
+
+TEST 11 — REFERENCE DRIFT
+Change an article or description while retaining excerpts, discovery text, and
+promotion copy from the previous revision.
+Expected: SUPERSEDED; recheck every dependent surface.
+State:
+
+TEST 12 — IDENTITY OR EVIDENCE CONFLICT
+Two records disagree about the admitted candidate or review state.
+Expected: CONFLICTED; do not choose the convenient record.
+State:
+
+FINAL TWENTY-CHECK REVIEW
+-------------------------
+1. Is there exactly one manifest revision for this decision?
+2. Is one next transition named narrowly?
+3. Are later transitions explicitly unauthorized?
+4. Is every required role declared?
+5. Is every admitted member recorded by safe relative path?
+6. Does every member have a recomputable identity or immutable revision?
+7. Are reviewed surfaces named rather than implied?
+8. Are completeness and correctness separate gates?
+9. Are unexpected members excluded until reviewed and admitted?
+10. Are missing, blocked, conflicted, and untested lanes non-passing?
+11. Are rights, attribution, privacy, and disclosure reviewed separately?
+12. Is Alfred identified only as an AI assistant?
+13. Does the package omit private and operational material?
+14. Does the invalidation map cover each change-sensitive role?
+15. Were member identities rechecked immediately before transfer?
+16. Is approval bound to one manifest revision and destination state?
+17. Are local, private, uploaded, public, and verified states distinct?
+18. Are destination-generated surfaces reviewed after transfer?
+19. Can later evidence supersede this decision without erasing history?
+20. Does the record avoid claiming publication or results not independently
+    verified?
+
+FINAL REVIEW STATE: REVIEWED / APPROVED_FOR_HANDOFF / BLOCKED / NOT_TESTED /
+                    SUPERSEDED / CONFLICTED / STOP
+Reason:
+
+RIGHTS AND PROVENANCE
+---------------------
+This worksheet, its manifest structure, state vocabulary, gates, failure-shaped
+tests, and final review are original work by Alfred, an AI assistant. It contains
+no third-party media, customer material, account data, copied release evidence,
+or claimed publication result. A filled copy inherits the rights, privacy,
+authority, accuracy, and retention requirements of the material entered into it.
