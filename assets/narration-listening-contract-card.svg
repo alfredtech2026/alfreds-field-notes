@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Narration listening-contract review card</title>
+  <desc id="desc">A six-gate review card binding approved text to voice origin, semantic load, isolated narration, complete mix, delivery bytes, and scoped rechecks.</desc>
+  <rect width="1200" height="1200" fill="#f5f0e7"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#172a3a" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#a33b2f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">NARRATION REVIEW · LISTENING CONTRACT</text>
+  <text x="94" y="196" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">Approve what listeners hear.</text>
+  <text x="94" y="256" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">A script pass is not enough.</text>
+  <text x="94" y="306" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">Bind words, voice, edit, mix, and delivery bytes to one candidate.</text>
+
+  <rect x="94" y="348" width="1012" height="112" rx="18" fill="#172a3a"/>
+  <text x="126" y="394" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">TEXT → VOICE SOURCE → EDIT → MIX → DELIVERY → DESTINATION</text>
+  <text x="126" y="430" fill="#dce6ec" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Each identity needs its own evidence. Destination processing stays separate.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="536" r="21" fill="#a33b2f"/>
+    <text x="130" y="545" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="534" fill="#172a3a" font-size="27" font-weight="800">Bind exact identities</text>
+    <text x="126" y="576" fill="#4d5b66" font-size="21">Record text, source, edit, mix, delivery,</text>
+    <text x="126" y="604" fill="#4d5b66" font-size="21">and any observed destination rendition.</text>
+
+    <rect x="622" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="536" r="21" fill="#a33b2f"/>
+    <text x="658" y="545" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="534" fill="#172a3a" font-size="27" font-weight="800">Admit the voice source</text>
+    <text x="654" y="576" fill="#4d5b66" font-size="21">Keep origin, use authority, disclosure,</text>
+    <text x="654" y="604" fill="#4d5b66" font-size="21">privacy, and listening quality separate.</text>
+
+    <rect x="94" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="694" r="21" fill="#a33b2f"/>
+    <text x="130" y="703" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="692" fill="#172a3a" font-size="27" font-weight="800">Map meaning pivots</text>
+    <text x="126" y="734" fill="#4d5b66" font-size="21">Mark negations, quantities, actions,</text>
+    <text x="126" y="762" fill="#4d5b66" font-size="21">disclosures, boundaries, and readings.</text>
+
+    <rect x="622" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="694" r="21" fill="#a33b2f"/>
+    <text x="658" y="703" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="692" fill="#172a3a" font-size="27" font-weight="800">Listen in isolation</text>
+    <text x="654" y="734" fill="#4d5b66" font-size="21">Hear the complete voice edit. Check cuts,</text>
+    <text x="654" y="762" fill="#4d5b66" font-size="21">omissions, mergers, pacing, opening, and tail.</text>
+
+    <rect x="94" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="852" r="21" fill="#a33b2f"/>
+    <text x="130" y="861" fill="#ffffff" font-size="24" font-weight="800">5</text>
+    <text x="174" y="850" fill="#172a3a" font-size="27" font-weight="800">Hear the complete mix</text>
+    <text x="126" y="892" fill="#4d5b66" font-size="21">Review music, effects, picture, captions,</text>
+    <text x="126" y="920" fill="#4d5b66" font-size="21">timing, and every semantic-load token.</text>
+
+    <rect x="622" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="852" r="21" fill="#a33b2f"/>
+    <text x="658" y="861" fill="#ffffff" font-size="24" font-weight="800">6</text>
+    <text x="702" y="850" fill="#172a3a" font-size="27" font-weight="800">Check bytes + changes</text>
+    <text x="654" y="892" fill="#4d5b66" font-size="21">Replay encoded boundaries. Supersede and</text>
+    <text x="654" y="920" fill="#4d5b66" font-size="21">reopen evidence affected by each revision.</text>
+  </g>
+
+  <rect x="94" y="978" width="1012" height="86" rx="18" fill="#f4ddd7" stroke="#a33b2f" stroke-width="3"/>
+  <text x="126" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">HOLD RULE</text>
+  <text x="295" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">One masked required word, missing surface, or uncertain state blocks.</text>
+  <text x="126" y="1049" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">A clean script or solo track cannot approve a different mix or delivery file.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c7cfd4" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Local method card, not publication evidence</text>
+</svg>

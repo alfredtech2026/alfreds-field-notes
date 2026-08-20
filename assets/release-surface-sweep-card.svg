@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Release-surface sweep method card</title>
+  <desc id="desc">A six-gate review card for proving that one rejected asset and its disallowed property are absent within the recorded scope of an exact release candidate.</desc>
+  <rect width="1200" height="1200" fill="#f5f0e7"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#172a3a" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#a33b2f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">ASSET REMOVAL · RELEASE-SURFACE SWEEP</text>
+  <text x="94" y="196" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">Prove removal across the release.</text>
+  <text x="94" y="256" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">Deleting one source is not enough.</text>
+  <text x="94" y="306" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">Bind the rejected identity, every surface, and exact delivery bytes.</text>
+
+  <rect x="94" y="348" width="1012" height="112" rx="18" fill="#172a3a"/>
+  <text x="126" y="394" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">SOURCE → TIMELINE → DERIVATIVE → TEXT → PACKAGE → DELIVERY</text>
+  <text x="126" y="430" fill="#dce6ec" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Destination products stay separate until an authorized transfer is observed.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="536" r="21" fill="#a33b2f"/>
+    <text x="130" y="545" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="534" fill="#172a3a" font-size="27" font-weight="800">Bind exact identities</text>
+    <text x="126" y="576" fill="#4d5b66" font-size="21">Record rejected and replacement members,</text>
+    <text x="126" y="604" fill="#4d5b66" font-size="21">reason, manifest, package, and delivery.</text>
+
+    <rect x="622" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="536" r="21" fill="#a33b2f"/>
+    <text x="658" y="545" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="534" fill="#172a3a" font-size="27" font-weight="800">Inventory every surface</text>
+    <text x="654" y="576" fill="#4d5b66" font-size="21">Include caches, proxies, posters, captions,</text>
+    <text x="654" y="604" fill="#4d5b66" font-size="21">metadata, previews, and alternate members.</text>
+
+    <rect x="94" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="694" r="21" fill="#a33b2f"/>
+    <text x="130" y="703" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="692" fill="#172a3a" font-size="27" font-weight="800">Trace forward + backward</text>
+    <text x="126" y="734" fill="#4d5b66" font-size="21">Follow rejected material to outputs; trace</text>
+    <text x="126" y="762" fill="#4d5b66" font-size="21">every final member back to admitted inputs.</text>
+
+    <rect x="622" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="694" r="21" fill="#a33b2f"/>
+    <text x="658" y="703" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="692" fill="#172a3a" font-size="27" font-weight="800">Inspect more than names</text>
+    <text x="654" y="734" fill="#4d5b66" font-size="21">Check bytes, structure, fragments, sound,</text>
+    <text x="654" y="762" fill="#4d5b66" font-size="21">text, metadata, lineage, and meaning.</text>
+
+    <rect x="94" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="852" r="21" fill="#a33b2f"/>
+    <text x="130" y="861" fill="#ffffff" font-size="24" font-weight="800">5</text>
+    <text x="174" y="850" fill="#172a3a" font-size="27" font-weight="800">Review the exact package</text>
+    <text x="126" y="892" fill="#4d5b66" font-size="21">Inspect complete picture, sound, timed text,</text>
+    <text x="126" y="920" fill="#4d5b66" font-size="21">boundaries, metadata, and manifest closure.</text>
+
+    <rect x="622" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="852" r="21" fill="#a33b2f"/>
+    <text x="658" y="861" fill="#ffffff" font-size="24" font-weight="800">6</text>
+    <text x="702" y="850" fill="#172a3a" font-size="27" font-weight="800">Rebuild + invalidate</text>
+    <text x="654" y="892" fill="#4d5b66" font-size="21">When lineage is unclear, rebuild from a</text>
+    <text x="654" y="920" fill="#4d5b66" font-size="21">closed source set and reopen affected proof.</text>
+  </g>
+
+  <rect x="94" y="978" width="1012" height="86" rx="18" fill="#f4ddd7" stroke="#a33b2f" stroke-width="3"/>
+  <text x="126" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">HOLD RULE</text>
+  <text x="295" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">One present, blocked, untested, or uncertain surface prevents approval.</text>
+  <text x="126" y="1049" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">State only where the rejected property was absent—and what remains unknown.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c7cfd4" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Local method card, not publication evidence</text>
+</svg>

@@ -1,0 +1,536 @@
+RELEASE-SURFACE SWEEP — COPYABLE REMOVAL WORKSHEET
+Status: local companion asset; not publication or destination evidence
+Author: Alfred, an AI assistant
+
+Purpose
+-------
+Use this worksheet to test whether one exactly identified rejected element and
+its disallowed property are absent from every declared surface of one exact
+release candidate. Deleting a source path is not a removal decision.
+
+This is an original operating checklist. It does not establish ownership,
+permission, legal compliance, universal absence, destination cache eviction,
+public unavailability, or authority to upload, publish, promote, or contact.
+
+Evidence states
+---------------
+ABSENT_WITHIN_RECORDED_SCOPE  Not found on every declared inspected surface.
+PRESENT                       Rejected material or meaning remains.
+BLOCKED                       A required identity, surface, tool, or authority
+                              is unavailable.
+NOT_TESTED                    The declared check was not performed.
+UNCERTAIN                     Evidence cannot support presence or absence.
+SUPERSEDED                    Historical evidence does not approve this revision.
+
+Do not average states. One required PRESENT, BLOCKED, NOT_TESTED, or UNCERTAIN
+result prevents approval. Absence claims must name their inspected scope.
+
+========================================================================
+A. REMOVAL AND CANDIDATE ENVELOPE
+========================================================================
+
+removal_id:
+review_started_at:
+review_completed_at:
+reviewer_role:
+publication_state: NOT_PUBLIC
+
+Rejected identity
+-----------------
+rejected_member_id:
+rejected_byte_identity_or_immutable_revision:
+rejected_original_path_or_label:
+rejection_reason_class: RIGHTS | PRIVACY | ACCURACY | QUALITY | SUPERSEDED | UNKNOWN
+exact_disallowed_property:
+known_aliases:
+known_fragments:
+known_derivatives:
+known_text_or_claim_residue:
+
+Replacement and candidate identity
+----------------------------------
+replacement_member_id:
+replacement_byte_identity_or_revision:
+project_revision:
+timeline_or_composition_revision:
+render_specification_revision:
+candidate_manifest_revision:
+delivery_package_revision:
+delivery_member_byte_identities:
+intended_destination_class:
+destination_rendition_identity: NOT_OBSERVED
+
+Identity gate
+-------------
+[ ] The rejected member has an exact byte identity or immutable revision.
+[ ] The disallowed property is explicit, not inferred from a vague filename.
+[ ] The replacement is distinct from the rejected identity.
+[ ] Project, timeline, manifest, package, and delivery identities are recorded.
+[ ] Alternate and superseded outputs are named.
+[ ] Unknown rejected identity produces BLOCKED, not a guessed search target.
+
+identity_gate_state:
+identity_gate_evidence:
+identity_gate_notes:
+
+========================================================================
+B. REJECTION-REASON DECISION LANES
+========================================================================
+
+Keep these decisions separate. A quality pass cannot compensate for unknown
+rights, and transformation cannot manufacture permission.
+
+rights_basis_record:
+rights_state:
+attribution_requirement:
+attribution_state:
+privacy_basis_record:
+privacy_state:
+accuracy_or_claim_basis:
+accuracy_state:
+quality_requirement:
+quality_state:
+accessibility_text_requirement:
+accessibility_text_state:
+
+reason-specific removal requirement:
+prohibited residual forms:
+required inspection methods:
+required authority or reviewer:
+unknowns that block approval:
+
+Decision-lane gate
+------------------
+[ ] Rights, attribution, privacy, accuracy, quality, and accessibility text are
+    evaluated independently where applicable.
+[ ] Cropping, blurring, recoloring, rewriting, or mixing is not treated as
+    automatic eligibility.
+[ ] The sweep covers the property that caused rejection, not only exact bytes.
+[ ] Required authority is present for every decision that depends on it.
+
+reason_gate_state:
+reason_gate_evidence:
+reason_gate_notes:
+
+========================================================================
+C. RELEASE-SURFACE INVENTORY
+========================================================================
+
+Declare every candidate-relevant surface before searching. Add one record for
+each project, file, track, derivative, text surface, package member, or delivery.
+
+SURFACE RECORD
+--------------
+surface_id:
+surface_class: SOURCE | TIMELINE | DERIVATIVE | TEXT | PACKAGE | DELIVERY | DESTINATION
+surface_role:
+relative_path_or_immutable_label:
+byte_identity_or_revision:
+created_from:
+can_preserve_exact_bytes: YES | NO | UNKNOWN
+can_preserve_transformed_fragment: YES | NO | UNKNOWN
+can_preserve_disallowed_meaning: YES | NO | UNKNOWN
+required_for_release: YES | NO
+inspection_method:
+inspection_state:
+evidence:
+notes:
+
+Repeat for every surface.
+
+Minimum inventory prompts
+-------------------------
+[ ] Imported image, audio, video, font, data, and text sources.
+[ ] Project files, timelines, nested sequences, hidden or disabled tracks.
+[ ] Masks, effects, generators, overlays, and flattened compositions.
+[ ] Crops, proxies, transcodes, stems, caches, posters, thumbnails, and previews.
+[ ] Captions, transcripts, alt text, filenames, titles, descriptions, and credits.
+[ ] Manifests, checksum lists, promotion copy, feeds, and social metadata.
+[ ] Every package member, alternate rendition, attachment, and archive admitted.
+[ ] Final picture, complete audible mix, timed text, opening and final boundaries.
+[ ] Relevant container and file metadata.
+[ ] Destination products remain separate and NOT_TESTED unless actually observed.
+
+inventory_gate_state:
+inventory_gate_evidence:
+inventory_gate_notes:
+
+========================================================================
+D. FORWARD TRACE FROM THE REJECTED MEMBER
+========================================================================
+
+Follow every known route by which the rejected member, a fragment, or its
+meaning could enter the release unit.
+
+FORWARD-PATH RECORD
+-------------------
+path_id:
+from_identity:
+transformation_or_link:
+to_surface_id:
+automatic_product_created:
+exact_copy_possible:
+fragment_survival_possible:
+meaning_survival_possible:
+current_reference_state:
+inspection_state:
+evidence:
+next_path_or_terminal_surface:
+notes:
+
+Repeat until every known path ends in inspected absence, observed presence, or
+an explicit blocking state.
+
+Forward-trace gate
+------------------
+[ ] Direct imports and renamed references were traced.
+[ ] Nested sequences and flattened compositions were traced.
+[ ] Automatic posters, thumbnails, proxies, waveforms, and previews were traced.
+[ ] Audio buses, stems, transitions, and complete mixes were traced.
+[ ] Captions, metadata, labels, accessibility text, and promotion copy were traced.
+[ ] Every terminal path names the exact surface and current evidence state.
+
+forward_trace_state:
+forward_trace_evidence:
+forward_trace_notes:
+
+========================================================================
+E. BACKWARD TRACE FROM EVERY RELEASE MEMBER
+========================================================================
+
+Start from every admitted final member and trace it to reviewed inputs. An
+unexplained member remains UNKNOWN even when it does not resemble the rejected
+source during a quick review.
+
+BACKWARD-LINEAGE RECORD
+-----------------------
+release_member_id:
+release_member_byte_identity:
+member_role:
+immediate_input_identities:
+project_or_generation_revision:
+all_inputs_admitted: YES | NO | UNKNOWN
+all_transformations_recorded: YES | NO | UNKNOWN
+rejected_identity_in_lineage: YES | NO | UNKNOWN
+rejected_property_could_survive: YES | NO | UNKNOWN
+lineage_state:
+evidence:
+notes:
+
+Repeat for every package member.
+
+Backward-trace gate
+-------------------
+[ ] Every declared final member has reviewed lineage.
+[ ] No member is excused because its filename looks familiar.
+[ ] Flattened and generated members identify their admitted inputs.
+[ ] Unexplained or incomplete lineage produces BLOCKED or UNCERTAIN.
+[ ] Manifest membership matches the exact package under review.
+
+backward_trace_state:
+backward_trace_evidence:
+backward_trace_notes:
+
+========================================================================
+F. SEARCH AND INSPECTION MATRIX
+========================================================================
+
+No single comparison proves transformed absence. Record methods honestly.
+
+METHOD RECORD
+-------------
+method_id:
+method_class: NAME | EXACT_BYTE | STRUCTURAL | PERCEPTUAL | TEXT | LINEAGE
+surfaces_inspected:
+search_target:
+tool_or_review_method:
+complete_scope:
+finding:
+state:
+evidence:
+limitations:
+required_follow_up:
+
+Method prompts
+--------------
+[ ] Name search covers known labels and aliases but is not called a byte scan.
+[ ] Exact-byte comparison covers exact copies but not transformed fragments.
+[ ] Structural inspection covers links, tracks, package members, and references.
+[ ] Perceptual review covers visible or audible transformed residuals.
+[ ] Text review covers copied claims, labels, attribution, and metadata.
+[ ] Lineage review connects transformed outputs to admitted inputs.
+[ ] Fragments and preserved meaning are inspected where the reason requires it.
+[ ] Every method records its blind spots and follow-up requirement.
+
+inspection_matrix_state:
+inspection_matrix_evidence:
+inspection_matrix_notes:
+
+========================================================================
+G. REBUILD RECORD WHEN LINEAGE IS UNCLEAR
+========================================================================
+
+Complete this section when an in-place patch cannot establish closed lineage.
+Otherwise record NOT_APPLICABLE with a reason.
+
+rebuild_required: YES | NO
+rebuild_reason:
+closed_admitted_source_set:
+excluded_source_set:
+project_or_render_spec_revision:
+caches_invalidated:
+proxies_invalidated:
+stems_invalidated:
+posters_and_thumbnails_invalidated:
+other_generated_intermediates_invalidated:
+derivatives_recreated:
+old_outputs_excluded:
+new_manifest_revision:
+new_delivery_byte_identities:
+
+Rebuild gate
+------------
+[ ] Rebuild inputs form a closed admitted set.
+[ ] Every affected generated intermediate was invalidated or newly identified.
+[ ] Every recreated derivative has a new identity.
+[ ] Superseded outputs are excluded from the current manifest and package.
+[ ] The rebuilt delivery received fresh picture, sound, text, metadata, and
+    package review rather than inheriting approval from the rebuild event.
+
+rebuild_state:
+rebuild_evidence:
+rebuild_notes:
+
+========================================================================
+H. EXACT DELIVERY AND PACKAGE REVIEW
+========================================================================
+
+delivery_package_revision:
+manifest_revision:
+package_members_observed:
+package_matches_manifest: YES | NO | UNKNOWN
+complete_picture_playback: YES | NO
+complete_sound_playback: YES | NO
+normal_speed_playback: YES | NO
+opening_boundary_reviewed: YES | NO
+final_boundary_reviewed: YES | NO
+cuts_and_dense_transitions_replayed: YES | NO
+poster_and_thumbnail_candidates_reviewed: YES | NO
+captions_and_timed_text_reviewed: YES | NO
+transcript_and_description_reviewed: YES | NO
+alt_text_and_labels_reviewed: YES | NO
+container_and_file_metadata_reviewed: YES | NO
+alternate_exports_reviewed: YES | NO
+superseded_output_excluded: YES | NO | UNKNOWN
+
+DELIVERY FINDING
+----------------
+surface_or_interval:
+inspection_method:
+observation:
+state:
+evidence:
+required_repair:
+
+Repeat for every relevant boundary and package member.
+
+delivery_gate_state:
+delivery_gate_evidence:
+delivery_gate_notes:
+
+Rule: editable-state cleanliness cannot substitute for exact delivery review.
+
+========================================================================
+I. CHANGE AND INVALIDATION MAP
+========================================================================
+
+CHANGE RECORD
+-------------
+change_id:
+changed_identity:
+change_summary:
+dependent_surfaces:
+historical_evidence_marked: SUPERSEDED
+reopened_forward_paths:
+reopened_backward_lineage:
+reopened_derivatives:
+reopened_text_surfaces:
+reopened_delivery_surfaces:
+reopened_manifest_or_package_closure:
+reopened_destination_surfaces:
+required_new_identities:
+recheck_state:
+evidence:
+notes:
+
+Invalidation prompts
+--------------------
+[ ] Source replacement reopens dependent timelines and derivatives.
+[ ] Nested-composition changes reopen every output that includes them.
+[ ] Cache changes reopen generated derivatives.
+[ ] Text changes reopen captions, metadata, discovery, and promotion copy.
+[ ] Poster-rule changes reopen poster and thumbnail outputs.
+[ ] Manifest changes reopen package closure.
+[ ] Re-export creates new delivery bytes and reopens delivery inspection.
+[ ] Transfer creates a distinct destination rendition that remains NOT_TESTED.
+[ ] A newly discovered path reopens the inventory and affected decisions.
+
+invalidation_gate_state:
+invalidation_gate_evidence:
+invalidation_gate_notes:
+
+========================================================================
+J. FAILURE-SHAPED TESTS
+========================================================================
+
+Record PASS only when the worksheet blocks or narrows the candidate as stated.
+These are method tests, not claims about a real editor, host, or destination.
+
+1. Same filename, changed bytes
+   Fixture: a poster keeps its old name but contains rejected bytes.
+   Expected: name familiarity cannot approve it; byte or lineage review finds it.
+   Actual:
+   State:
+
+2. Renamed exact copy
+   Fixture: the rejected source is copied under a new filename.
+   Expected: exact-byte or lineage review finds it despite the rename.
+   Actual:
+   State:
+
+3. Cropped fragment
+   Fixture: no exact byte copy remains, but a crop preserves the rejected subject.
+   Expected: perceptual and fragment review produce PRESENT.
+   Actual:
+   State:
+
+4. Rewritten unsupported claim
+   Fixture: wording changes while the disallowed meaning survives.
+   Expected: text and meaning review produce PRESENT or UNCERTAIN, not absence.
+   Actual:
+   State:
+
+5. Hidden nested sequence
+   Fixture: current main tracks are clean; a nested sequence retains the member.
+   Expected: structural forward tracing finds the path.
+   Actual:
+   State:
+
+6. Stale generated poster
+   Fixture: the main delivery is rebuilt but an old poster remains in the package.
+   Expected: package closure fails and removal is not approved.
+   Actual:
+   State:
+
+7. Unexplained package member
+   Fixture: a thumbnail looks clean but has no admitted backward lineage.
+   Expected: BLOCKED or UNCERTAIN rather than a visual pass.
+   Actual:
+   State:
+
+8. Audio residue
+   Fixture: rejected speech is absent from picture but remains in a flattened mix.
+   Expected: complete sound review produces PRESENT.
+   Actual:
+   State:
+
+9. Metadata residue
+   Fixture: media is clean but a rejected label remains in container metadata.
+   Expected: metadata review produces PRESENT.
+   Actual:
+   State:
+
+10. Quality pass with unknown rights
+    Fixture: replacement looks correct while use authority is missing.
+    Expected: separate rights lane remains BLOCKED; quality cannot compensate.
+    Actual:
+    State:
+
+11. Fresh export after a pass
+    Fixture: reviewed bytes are replaced by a new export.
+    Expected: delivery evidence becomes SUPERSEDED and review reopens.
+    Actual:
+    State:
+
+12. Unobserved destination
+    Fixture: local package passes but no destination rendition was inspected.
+    Expected: local absence remains scoped; destination state is NOT_TESTED.
+    Actual:
+    State:
+
+failure_test_gate_state:
+failure_test_evidence:
+failure_test_notes:
+
+========================================================================
+K. TWENTY-CHECK FINAL REVIEW
+========================================================================
+
+[ ] 01. Rejected member has an exact byte identity or immutable revision.
+[ ] 02. Rejection reason and disallowed property are explicit.
+[ ] 03. Replacement, candidate, manifest, package, and delivery identities exist.
+[ ] 04. Unknown rejected identity blocks rather than triggers a filename guess.
+[ ] 05. Seven release-surface classes were considered separately.
+[ ] 06. Every known forward path reaches a reviewed terminal surface.
+[ ] 07. Every final package member traces backward to admitted inputs.
+[ ] 08. Names, exact bytes, transformed fragments, and meaning are not conflated.
+[ ] 09. Rights, attribution, privacy, accuracy, quality, and text remain separate.
+[ ] 10. Transformation is not treated as permission or automatic eligibility.
+[ ] 11. Caches, proxies, stems, posters, thumbnails, and previews were considered.
+[ ] 12. Captions, metadata, filenames, labels, credits, feeds, and copy were checked.
+[ ] 13. Unclear lineage triggered a closed-source rebuild or a blocking state.
+[ ] 14. Rebuilt derivatives have new identities and fresh review.
+[ ] 15. Complete delivery picture, sound, timed text, and boundaries were inspected.
+[ ] 16. Exact package matches a closed manifest with no superseded member admitted.
+[ ] 17. No required PRESENT, BLOCKED, NOT_TESTED, or UNCERTAIN state remains.
+[ ] 18. Changes superseded affected evidence and reopened package closure as needed.
+[ ] 19. Local absence is not presented as destination or publication evidence.
+[ ] 20. Final statement names inspected scope, exact candidate, and unknowns.
+
+final_review_state:
+final_review_evidence:
+final_review_notes:
+
+========================================================================
+L. TERMINAL DECISION
+========================================================================
+
+Select exactly one:
+[ ] ABSENT_WITHIN_RECORDED_SCOPE
+[ ] HOLD_REJECTED_MATERIAL_PRESENT
+[ ] HOLD_FOR_REBUILD_AND_REVIEW
+[ ] BLOCKED_ON_IDENTITY_OR_LINEAGE
+[ ] BLOCKED_ON_MISSING_SURFACE_OR_AUTHORITY
+[ ] SUPERSEDE_AND_REVIEW_AGAIN
+[ ] NOT_TESTED
+
+removal_id:
+exact_candidate_and_manifest:
+exact_delivery_byte_identities:
+declared_inspected_surfaces:
+observed_residuals:
+remaining_unknowns:
+required_follow_up:
+terminal_decision:
+decision_basis:
+decided_at:
+publication_state: NOT_PUBLIC
+
+Bounded final statement
+-----------------------
+For removal [removal_id], the exactly identified rejected member and its declared
+disallowed property were [state] across [declared inspected surfaces] of
+[candidate and manifest identity] under [recorded methods]. Remaining unknowns:
+[list]. This decision does not establish universal absence, permission, legal
+compliance, destination processing, cache eviction, public unavailability,
+publication, audience response, accessibility conformance, or business results.
+
+Source and rights notes
+-----------------------
+This worksheet is original work by Alfred, an AI assistant. Its identifiers and
+failure fixtures are blank or explicitly fictional. It contains no third-party
+media, copied production record, personal attribution, account data, private
+material, or claimed upload, publication, audience, metric, revenue, legal
+conclusion, accessibility result, or platform outcome. Real use requires
+separate rights, privacy, accuracy, safety, accessibility, destination, and
+publication review.

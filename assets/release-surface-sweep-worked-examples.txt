@@ -1,0 +1,767 @@
+RELEASE-SURFACE SWEEP — TWO FILLED FICTIONAL EXAMPLES
+Status: local companion asset; not publication or destination evidence
+Author: Alfred, an AI assistant
+
+Purpose
+-------
+These explicitly fictional examples exercise a release-surface sweep against two
+failure shapes. They demonstrate how to bind a removal decision to exact
+candidate identities, inspect more than filenames or source files, preserve
+blocking evidence states, and scope repair work without rewriting history.
+
+Every source, revision, label, package, observation, timecode, and outcome below
+is invented for this method test. The examples describe no real person, creator,
+customer, account, project, dispute, upload, publication, audience, metric,
+platform, or legal conclusion. The geometric artwork and placeholder text are
+fictional descriptions rather than embedded third-party media.
+
+Evidence states used
+--------------------
+ABSENT_WITHIN_RECORDED_SCOPE  Not found on every declared inspected surface.
+PRESENT                       Rejected material or meaning remains.
+BLOCKED                       A required identity, surface, tool, or authority
+                              is unavailable.
+NOT_TESTED                    The declared check was not performed.
+UNCERTAIN                     Evidence cannot support presence or absence.
+SUPERSEDED                    Historical evidence does not approve this revision.
+
+One required PRESENT, BLOCKED, NOT_TESTED, or UNCERTAIN result prevents removal
+approval. A clean surface does not compensate for a failed surface.
+
+========================================================================
+EXAMPLE 1 — A CROPPED FRAGMENT SURVIVES IN A SOCIAL PREVIEW
+========================================================================
+
+Scenario
+--------
+A fictional twelve-second release candidate uses original geometric artwork.
+SOURCE-F11 is a striped square rejected because its admission record is missing.
+SOURCE-F12 is an admitted plain circle selected as the replacement. The current
+video timeline and delivery picture contain the circle, but a social-preview
+image was generated from an older composition and retains a cropped corner of
+the striped square behind the title.
+
+This test asks whether removal review catches transformed residue when no current
+filename reference and no exact-byte copy remains.
+
+A. REMOVAL AND CANDIDATE ENVELOPE
+---------------------------------
+removal_id: REMOVE-F03
+review_started_at: FICTIONAL-TIME-A
+review_completed_at: FICTIONAL-TIME-B
+reviewer_role: fictional release reviewer
+publication_state: NOT_PUBLIC
+
+rejected_member_id: SOURCE-F11
+rejected_byte_identity_or_immutable_revision: FICTIONAL-BYTE-SOURCE-F11
+rejected_original_label: striped-square-source
+rejection_reason_class: RIGHTS
+exact_disallowed_property: source lacks an admitted use-authority record
+known_aliases: square-old | background-accent
+known_fragments: upper-right striped corner
+known_derivatives: POSTER-F04 | PREVIEW-F05 | PROXY-F02
+known_text_or_claim_residue: none declared
+
+replacement_member_id: SOURCE-F12
+replacement_byte_identity_or_revision: FICTIONAL-BYTE-SOURCE-F12
+project_revision: PROJECT-F09
+timeline_or_composition_revision: TIMELINE-F08
+render_specification_revision: RENDER-F06
+candidate_manifest_revision: MANIFEST-F10
+delivery_package_revision: PACKAGE-F07
+delivery_member_byte_identities:
+  VIDEO-F07: FICTIONAL-BYTE-VIDEO-F07
+  POSTER-F06: FICTIONAL-BYTE-POSTER-F06
+  PREVIEW-F05: FICTIONAL-BYTE-PREVIEW-F05
+  CAPTIONS-F03: FICTIONAL-BYTE-CAPTIONS-F03
+intended_destination_class: first-party static article candidate
+destination_rendition_identity: NOT_OBSERVED
+
+identity_gate_state: PASS
+identity_gate_evidence: rejected, replacement, project, timeline, manifest,
+  package, and four delivery-member identities recorded
+identity_gate_notes: fictional identity labels are stable within this test; they
+  are not real cryptographic digests
+
+B. REJECTION-REASON DECISION LANES
+-----------------------------------
+rights_basis_record: no admission record exists for SOURCE-F11
+rights_state: BLOCKED for SOURCE-F11; PASS within fictional scope for SOURCE-F12
+attribution_requirement: none for admitted original geometric replacement
+attribution_state: PASS within fictional scope
+privacy_basis_record: complete fictional artwork and text inspection
+privacy_state: PASS within fictional scope
+accuracy_or_claim_basis: title and placeholder copy compared with SCRIPT-F03
+accuracy_state: PASS within fictional scope
+quality_requirement: replacement circle remains legible at target sizes
+quality_state: PASS within fictional scope
+accessibility_text_requirement: describe the visible circle, not the rejected square
+accessibility_text_state: PASS within fictional scope
+
+reason-specific removal requirement: SOURCE-F11 and its striped visual identity
+  must be absent from every admitted picture, poster, preview, and descriptive
+  text surface
+prohibited_residual_forms: exact copies, crops, silhouettes, stripes that preserve
+  the rejected subject, stale labels, or unsupported attribution
+required_inspection_methods: structural, exact-byte, perceptual, text, and lineage
+required_authority_or_reviewer: fictional release reviewer
+unknowns_that_block_approval: unexplained final member or unreviewed visual surface
+
+reason_gate_state: PASS_FOR_SWEEP
+reason_gate_evidence: separate decision lanes recorded
+reason_gate_notes: transformation does not repair the missing rights basis
+
+C. RELEASE-SURFACE INVENTORY
+-----------------------------
+SURFACE RECORD
+surface_id: SURFACE-F01
+surface_class: SOURCE
+surface_role: rejected artwork
+relative_label: striped-square-source
+byte_identity_or_revision: FICTIONAL-BYTE-SOURCE-F11
+created_from: original fictional fixture
+can_preserve_exact_bytes: YES
+can_preserve_transformed_fragment: YES
+can_preserve_disallowed_meaning: YES
+required_for_release: NO
+inspection_method: identity and admission review
+inspection_state: PRESENT_OUTSIDE_ADMITTED_SET
+evidence: exact rejected identity exists in project history
+notes: historical presence is preserved; source is not admitted to PACKAGE-F07
+
+SURFACE RECORD
+surface_id: SURFACE-F02
+surface_class: TIMELINE
+surface_role: current video composition
+relative_label: TIMELINE-F08
+byte_identity_or_revision: TIMELINE-F08
+created_from: SOURCE-F12 plus original text and shapes
+can_preserve_exact_bytes: NO
+can_preserve_transformed_fragment: YES
+can_preserve_disallowed_meaning: YES
+required_for_release: YES
+inspection_method: structural reference and complete perceptual review
+inspection_state: ABSENT_WITHIN_RECORDED_SCOPE
+evidence: no SOURCE-F11 reference; complete current composition shows SOURCE-F12
+notes: does not establish the state of derivatives generated earlier
+
+SURFACE RECORD
+surface_id: SURFACE-F03
+surface_class: DERIVATIVE
+surface_role: stale preview composition
+relative_label: PREVIEW-COMPOSITION-F04
+byte_identity_or_revision: PREVIEW-COMPOSITION-F04
+created_from: TIMELINE-F05
+can_preserve_exact_bytes: NO
+can_preserve_transformed_fragment: YES
+can_preserve_disallowed_meaning: YES
+required_for_release: YES
+inspection_method: backward lineage and perceptual review
+inspection_state: PRESENT
+evidence: old composition includes a crop derived from SOURCE-F11
+notes: filename contains no rejected alias
+
+SURFACE RECORD
+surface_id: SURFACE-F04
+surface_class: TEXT
+surface_role: title, caption, alt text, and promotion labels
+relative_label: TEXT-BUNDLE-F03
+byte_identity_or_revision: TEXT-BUNDLE-F03
+created_from: SCRIPT-F03
+can_preserve_exact_bytes: NO
+can_preserve_transformed_fragment: NO
+can_preserve_disallowed_meaning: YES
+required_for_release: YES
+inspection_method: complete text review
+inspection_state: ABSENT_WITHIN_RECORDED_SCOPE
+evidence: no square, stripe, source, or attribution residue found
+notes: text result does not excuse visual presence
+
+SURFACE RECORD
+surface_id: SURFACE-F05
+surface_class: PACKAGE
+surface_role: manifest and admitted members
+relative_label: PACKAGE-F07
+byte_identity_or_revision: MANIFEST-F10
+created_from: VIDEO-F07 | POSTER-F06 | PREVIEW-F05 | CAPTIONS-F03
+can_preserve_exact_bytes: YES
+can_preserve_transformed_fragment: YES
+can_preserve_disallowed_meaning: YES
+required_for_release: YES
+inspection_method: manifest comparison and member identity review
+inspection_state: PRESENT
+evidence: PREVIEW-F05 is admitted and contains transformed residue
+notes: package closure fails even though three other members are clean
+
+SURFACE RECORD
+surface_id: SURFACE-F06
+surface_class: DELIVERY
+surface_role: exact preview image
+relative_label: PREVIEW-F05
+byte_identity_or_revision: FICTIONAL-BYTE-PREVIEW-F05
+created_from: PREVIEW-COMPOSITION-F04
+can_preserve_exact_bytes: NO
+can_preserve_transformed_fragment: YES
+can_preserve_disallowed_meaning: YES
+required_for_release: YES
+inspection_method: full-resolution and reduced-size perceptual review
+inspection_state: PRESENT
+evidence: cropped striped corner visible behind title at both review sizes
+notes: no exact-byte match to SOURCE-F11 was expected after crop and export
+
+SURFACE RECORD
+surface_id: SURFACE-F07
+surface_class: DESTINATION
+surface_role: any host-generated preview
+relative_label: NOT_OBSERVED
+byte_identity_or_revision: NOT_OBSERVED
+created_from: no transfer occurred
+can_preserve_exact_bytes: UNKNOWN
+can_preserve_transformed_fragment: UNKNOWN
+can_preserve_disallowed_meaning: UNKNOWN
+required_for_release: NO
+inspection_method: none
+inspection_state: NOT_TESTED
+evidence: no upload or publication occurred
+notes: local evidence makes no destination or cache claim
+
+inventory_gate_state: PASS_FOR_DECISION
+inventory_gate_evidence: seven surface classes considered; all four admitted package
+  members inventoried
+inventory_gate_notes: destination remains separate and not tested
+
+D. FORWARD TRACE FROM THE REJECTED MEMBER
+------------------------------------------
+path_id: PATH-F01
+from_identity: SOURCE-F11
+transformation_or_link: imported into old TIMELINE-F05
+to_surface_id: TIMELINE-F05
+fragment_survival_possible: YES
+meaning_survival_possible: YES
+current_reference_state: historical reference confirmed
+inspection_state: PRESENT
+evidence: project lineage record
+next_path_or_terminal_surface: PATH-F02
+
+path_id: PATH-F02
+from_identity: TIMELINE-F05
+transformation_or_link: cropped into PREVIEW-COMPOSITION-F04
+to_surface_id: SURFACE-F03
+fragment_survival_possible: YES
+meaning_survival_possible: YES
+current_reference_state: confirmed
+inspection_state: PRESENT
+evidence: composition lineage and perceptual match
+next_path_or_terminal_surface: PATH-F03
+
+path_id: PATH-F03
+from_identity: PREVIEW-COMPOSITION-F04
+transformation_or_link: exported as PREVIEW-F05
+to_surface_id: SURFACE-F06
+fragment_survival_possible: YES
+meaning_survival_possible: YES
+current_reference_state: admitted by MANIFEST-F10
+inspection_state: PRESENT
+evidence: exact preview delivery member reviewed
+next_path_or_terminal_surface: release-blocking terminal surface
+
+forward_trace_state: PRESENT
+forward_trace_evidence: continuous path from rejected source to admitted preview
+forward_trace_notes: current timeline cleanliness does not break the historical path
+
+E. BACKWARD TRACE FROM RELEASE MEMBERS
+---------------------------------------
+release_member_id: VIDEO-F07
+release_member_byte_identity: FICTIONAL-BYTE-VIDEO-F07
+member_role: main video
+immediate_input_identities: TIMELINE-F08 | MIX-F04
+all_inputs_admitted: YES
+all_transformations_recorded: YES
+rejected_identity_in_lineage: NO
+rejected_property_could_survive: NO within recorded lineage
+lineage_state: PASS
+evidence: backward trace reaches SOURCE-F12 and admitted audio only
+
+release_member_id: POSTER-F06
+release_member_byte_identity: FICTIONAL-BYTE-POSTER-F06
+member_role: poster image
+immediate_input_identities: VIDEO-F07 at fictional frame F06
+all_inputs_admitted: YES
+all_transformations_recorded: YES
+rejected_identity_in_lineage: NO
+rejected_property_could_survive: NO within recorded lineage
+lineage_state: PASS
+evidence: generated from reviewed clean delivery frame
+
+release_member_id: PREVIEW-F05
+release_member_byte_identity: FICTIONAL-BYTE-PREVIEW-F05
+member_role: social preview
+immediate_input_identities: PREVIEW-COMPOSITION-F04
+all_inputs_admitted: NO
+all_transformations_recorded: YES
+rejected_identity_in_lineage: YES
+rejected_property_could_survive: YES
+lineage_state: FAIL
+evidence: trace reaches rejected SOURCE-F11 through TIMELINE-F05
+
+release_member_id: CAPTIONS-F03
+release_member_byte_identity: FICTIONAL-BYTE-CAPTIONS-F03
+member_role: timed text
+immediate_input_identities: SCRIPT-F03
+all_inputs_admitted: YES
+all_transformations_recorded: YES
+rejected_identity_in_lineage: NO
+rejected_property_could_survive: NO
+lineage_state: PASS
+evidence: complete text comparison
+
+backward_trace_state: FAIL
+backward_trace_evidence: PREVIEW-F05 reaches an unadmitted rejected source
+backward_trace_notes: clean video, poster, and captions cannot compensate
+
+F. SEARCH AND INSPECTION FINDINGS
+---------------------------------
+method_id: METHOD-F01
+method_class: NAME
+surfaces_inspected: current project references and MANIFEST-F10
+search_target: striped-square-source | square-old | background-accent
+finding: no current name match
+state: ABSENT_WITHIN_RECORDED_SCOPE
+limitations: renamed and flattened derivatives are invisible to this method
+required_follow_up: exact-byte, lineage, and perceptual review
+
+method_id: METHOD-F02
+method_class: EXACT_BYTE
+surfaces_inspected: all four delivery members
+search_target: FICTIONAL-BYTE-SOURCE-F11
+finding: no exact copy
+state: ABSENT_WITHIN_RECORDED_SCOPE
+limitations: crop and re-encoding change bytes
+required_follow_up: perceptual and lineage review
+
+method_id: METHOD-F03
+method_class: LINEAGE
+surfaces_inspected: every package member
+search_target: SOURCE-F11 ancestry
+finding: PREVIEW-F05 traces to SOURCE-F11
+state: PRESENT
+limitations: depends on declared transformation records
+required_follow_up: rebuild preview from closed admitted sources
+
+method_id: METHOD-F04
+method_class: PERCEPTUAL
+surfaces_inspected: VIDEO-F07 | POSTER-F06 | PREVIEW-F05
+search_target: striped visual fragment
+finding: visible crop in PREVIEW-F05 only
+state: PRESENT
+limitations: does not establish rights or inspect text metadata
+required_follow_up: replace preview and repeat review
+
+method_id: METHOD-F05
+method_class: TEXT
+surfaces_inspected: captions, title, alt text, labels, and proposed copy
+search_target: rejected label, attribution, or subject residue
+finding: none found
+state: ABSENT_WITHIN_RECORDED_SCOPE
+limitations: says nothing about picture bytes
+required_follow_up: none for unchanged text surfaces
+
+inspection_matrix_state: FAIL
+inspection_matrix_evidence: lineage and perceptual methods both find residue
+inspection_matrix_notes: name and exact-byte absence are narrower true findings
+
+G. REBUILD AND INVALIDATION RECORD
+-----------------------------------
+rebuild_required: YES
+rebuild_reason: admitted preview has rejected lineage
+closed_admitted_source_set: SOURCE-F12 | SCRIPT-F03 | original basic shapes
+excluded_source_set: SOURCE-F11 | TIMELINE-F05 | PREVIEW-COMPOSITION-F04 | PREVIEW-F05
+project_or_render_spec_revision: PROJECT-F10 | RENDER-F07
+caches_invalidated: preview render cache
+posters_and_thumbnails_invalidated: preview only; poster identity unaffected
+other_generated_intermediates_invalidated: preview proxy
+derivatives_recreated: required new preview
+old_outputs_excluded: PREVIEW-F05
+new_manifest_revision: required after new preview identity exists
+new_delivery_byte_identities: NOT_YET_CREATED
+
+historical_evidence_marked: SUPERSEDED for preview approval after rebuild
+reopened_forward_paths: SOURCE-F12 to new preview
+reopened_backward_lineage: new preview member
+reopened_derivatives: preview image and proxy
+reopened_text_surfaces: alt text only if visible composition changes meaningfully
+reopened_delivery_surfaces: complete new preview
+reopened_manifest_or_package_closure: YES
+reopened_destination_surfaces: NO_TRANSFER_OCCURRED
+recheck_state: BLOCKED_ON_NEW_CANDIDATE
+
+H. FAILURE-SHAPED TEST RESULT
+------------------------------
+Test: cropped fragment with clean current timeline
+Expected: exact-byte and name checks remain narrow; perceptual and lineage review
+  produce PRESENT; package approval is held
+Actual: expected failure path observed in the fictional fixture
+State: PASS_FOR_METHOD_TEST
+
+I. TERMINAL DECISION
+--------------------
+selected_decision: HOLD_REJECTED_MATERIAL_PRESENT
+exact_candidate: PACKAGE-F07 under MANIFEST-F10
+blocking_surface: PREVIEW-F05
+bounded_statement: SOURCE-F11 was absent within recorded scope from VIDEO-F07,
+  POSTER-F06, CAPTIONS-F03, and current TIMELINE-F08, but a transformed fragment
+  remained present in admitted preview PREVIEW-F05. PACKAGE-F07 is not approved.
+unknowns: replacement preview, revised manifest, and any destination rendition do
+  not exist and were not tested
+publication_state: NOT_PUBLIC
+
+========================================================================
+EXAMPLE 2 — REJECTED PRIVATE PLACEHOLDER TEXT SURVIVES IN METADATA
+========================================================================
+
+Scenario
+--------
+A separate fictional eight-second candidate uses original basic shapes and the
+placeholder label “INTERNAL SAMPLE R4.” The label is rejected under the fixture's
+privacy rule before release. It is removed from picture, narration, captions,
+filename, title, description, and alt text. A fresh video is exported, but the
+container comment field inherits the rejected label from an old export preset.
+
+This test asks whether removal review checks non-visible text and exact delivery
+metadata instead of approving the candidate from picture playback alone.
+
+A. REMOVAL AND CANDIDATE ENVELOPE
+---------------------------------
+removal_id: REMOVE-M06
+review_started_at: FICTIONAL-TIME-C
+review_completed_at: FICTIONAL-TIME-D
+reviewer_role: fictional release reviewer
+publication_state: NOT_PUBLIC
+
+rejected_member_id: TEXT-M14
+rejected_byte_identity_or_immutable_revision: SCRIPT-M04 line 7
+rejected_original_label: INTERNAL SAMPLE R4
+rejection_reason_class: PRIVACY
+exact_disallowed_property: fixture marks the placeholder as non-public text
+known_aliases: internal-sample | sample-r4
+known_fragments: INTERNAL | R4
+known_derivatives: CAPTIONS-M03 | PRESET-M05 | OLD-VIDEO-M06
+known_text_or_claim_residue: title, description, alt text, captions, container fields
+
+replacement_member_id: TEXT-M15
+replacement_byte_identity_or_revision: SCRIPT-M05 line 7
+project_revision: PROJECT-M08
+timeline_or_composition_revision: TIMELINE-M09
+render_specification_revision: RENDER-M07
+candidate_manifest_revision: MANIFEST-M11
+delivery_package_revision: PACKAGE-M09
+delivery_member_byte_identities:
+  VIDEO-M09: FICTIONAL-BYTE-VIDEO-M09
+  POSTER-M08: FICTIONAL-BYTE-POSTER-M08
+  CAPTIONS-M05: FICTIONAL-BYTE-CAPTIONS-M05
+  DESCRIPTION-M06: FICTIONAL-BYTE-DESCRIPTION-M06
+intended_destination_class: first-party static article candidate
+destination_rendition_identity: NOT_OBSERVED
+
+identity_gate_state: PASS
+identity_gate_evidence: rejected text and all candidate revisions recorded
+identity_gate_notes: no real private information appears in this fictional fixture
+
+B. REJECTION-REASON DECISION LANES
+-----------------------------------
+rights_basis_record: all basic shapes and text are original fictional fixtures
+rights_state: PASS within fictional scope
+attribution_requirement: none
+attribution_state: PASS within fictional scope
+privacy_basis_record: fixture rule forbids TEXT-M14 on every release surface
+privacy_state: REQUIRES_COMPLETE_TEXT_AND_METADATA_SWEEP
+accuracy_or_claim_basis: no factual claim is made
+accuracy_state: NOT_APPLICABLE
+quality_requirement: replacement text is legible
+quality_state: PASS within fictional scope
+accessibility_text_requirement: alt text must not preserve rejected placeholder
+accessibility_text_state: PASS within fictional scope
+
+reason-specific removal_requirement: exact phrase and meaningful fragments must be
+  absent from visible text, audible speech, timed text, metadata, labels, package
+  members, and proposed discovery copy
+prohibited_residual_forms: full phrase, internal-sample alias, or identifiable R4
+  revision label when attached to the sample context
+required_inspection_methods: text, structural, lineage, perceptual, and metadata review
+required_authority_or_reviewer: fictional release reviewer
+unknowns_that_block_approval: any uninspected metadata-bearing member
+
+reason_gate_state: PASS_FOR_SWEEP
+reason_gate_evidence: privacy remains separate from quality and rights
+reason_gate_notes: visual cleanliness cannot compensate for metadata residue
+
+C. FORWARD TRACE FROM REJECTED TEXT
+------------------------------------
+path_id: PATH-M01
+from_identity: TEXT-M14
+transformation_or_link: inserted in SCRIPT-M04 and old captions
+to_surface_id: CAPTIONS-M03
+current_reference_state: superseded caption identity
+inspection_state: SUPERSEDED
+evidence: CAPTIONS-M03 excluded from MANIFEST-M11
+next_path_or_terminal_surface: historical only
+
+path_id: PATH-M02
+from_identity: TEXT-M14
+transformation_or_link: copied into old export comment by PRESET-M05
+to_surface_id: PRESET-M05
+current_reference_state: preset still selected by RENDER-M07
+inspection_state: PRESENT
+evidence: preset comment field contains rejected phrase
+next_path_or_terminal_surface: PATH-M03
+
+path_id: PATH-M03
+from_identity: PRESET-M05
+transformation_or_link: writes comment into encoded video container
+to_surface_id: VIDEO-M09
+current_reference_state: admitted by MANIFEST-M11
+inspection_state: PRESENT
+evidence: complete container metadata dump contains rejected phrase
+next_path_or_terminal_surface: release-blocking terminal surface
+
+forward_trace_state: PRESENT
+forward_trace_evidence: continuous text path from TEXT-M14 through preset to VIDEO-M09
+forward_trace_notes: replacing script and captions did not invalidate export metadata
+
+D. BACKWARD TRACE FROM RELEASE MEMBERS
+---------------------------------------
+release_member_id: VIDEO-M09
+release_member_byte_identity: FICTIONAL-BYTE-VIDEO-M09
+member_role: main delivery video
+immediate_input_identities: TIMELINE-M09 | MIX-M04 | PRESET-M05
+all_inputs_admitted: NO
+all_transformations_recorded: YES
+rejected_identity_in_lineage: YES
+rejected_property_could_survive: YES
+lineage_state: FAIL
+evidence: PRESET-M05 writes TEXT-M14 into comment metadata
+
+release_member_id: POSTER-M08
+release_member_byte_identity: FICTIONAL-BYTE-POSTER-M08
+member_role: poster
+immediate_input_identities: VIDEO-M09 picture frame only
+all_inputs_admitted: YES for declared picture lineage
+all_transformations_recorded: YES
+rejected_identity_in_lineage: NO within picture lineage
+rejected_property_could_survive: NO within recorded poster fields
+lineage_state: PASS
+evidence: complete picture and file-metadata review found no rejected text
+
+release_member_id: CAPTIONS-M05
+release_member_byte_identity: FICTIONAL-BYTE-CAPTIONS-M05
+member_role: timed text
+immediate_input_identities: SCRIPT-M05
+all_inputs_admitted: YES
+all_transformations_recorded: YES
+rejected_identity_in_lineage: NO
+rejected_property_could_survive: NO
+lineage_state: PASS
+evidence: complete caption text comparison
+
+release_member_id: DESCRIPTION-M06
+release_member_byte_identity: FICTIONAL-BYTE-DESCRIPTION-M06
+member_role: title, description, and alt-text bundle
+immediate_input_identities: COPY-M06
+all_inputs_admitted: YES
+all_transformations_recorded: YES
+rejected_identity_in_lineage: NO
+rejected_property_could_survive: NO
+lineage_state: PASS
+evidence: complete discovery-copy review
+
+backward_trace_state: FAIL
+backward_trace_evidence: one admitted member depends on rejected preset text
+backward_trace_notes: other clean text members do not average away the failure
+
+E. EXACT DELIVERY AND PACKAGE REVIEW
+-------------------------------------
+delivery_package_revision: PACKAGE-M09
+manifest_revision: MANIFEST-M11
+package_members_observed: VIDEO-M09 | POSTER-M08 | CAPTIONS-M05 | DESCRIPTION-M06
+package_matches_manifest: YES
+complete_picture_playback: YES
+complete_sound_playback: YES
+normal_speed_playback: YES
+opening_boundary_reviewed: YES
+final_boundary_reviewed: YES
+cuts_and_dense_transitions_replayed: YES
+poster_and_thumbnail_candidates_reviewed: YES
+captions_and_timed_text_reviewed: YES
+transcript_and_description_reviewed: YES
+alt_text_and_labels_reviewed: YES
+container_and_file_metadata_reviewed: YES
+alternate_exports_reviewed: NO; none admitted
+superseded_output_excluded: YES
+
+DELIVERY FINDING
+surface_or_interval: VIDEO-M09 visible picture and audible mix
+inspection_method: complete normal-speed and boundary playback
+observation: rejected placeholder not seen or heard
+state: ABSENT_WITHIN_RECORDED_SCOPE
+evidence: complete fictional playback record
+required_repair: none for picture or sound
+
+DELIVERY FINDING
+surface_or_interval: VIDEO-M09 container comment field
+inspection_method: complete declared metadata-field inspection
+observation: exact rejected phrase remains
+state: PRESENT
+evidence: fictional metadata record for exact delivery bytes
+required_repair: remove rejected preset value, export new bytes, and review again
+
+DELIVERY FINDING
+surface_or_interval: POSTER-M08 | CAPTIONS-M05 | DESCRIPTION-M06
+inspection_method: complete visual, text, and metadata review
+observation: no rejected phrase, alias, or meaningful fragment found
+state: ABSENT_WITHIN_RECORDED_SCOPE
+evidence: fictional member review records
+required_repair: none while identities remain unchanged
+
+delivery_gate_state: FAIL
+delivery_gate_evidence: required metadata surface contains rejected text
+delivery_gate_notes: editor timeline and playback cannot approve encoded metadata
+
+F. SEARCH AND INSPECTION FINDINGS
+---------------------------------
+method_id: METHOD-M01
+method_class: NAME
+surfaces_inspected: package filenames and manifest labels
+search_target: INTERNAL SAMPLE R4 | internal-sample | sample-r4
+finding: no filename or manifest-label match
+state: ABSENT_WITHIN_RECORDED_SCOPE
+limitations: does not inspect embedded fields
+required_follow_up: text and metadata extraction
+
+method_id: METHOD-M02
+method_class: PERCEPTUAL
+surfaces_inspected: complete video picture, sound, and poster
+search_target: visible or audible rejected placeholder
+finding: no occurrence
+state: ABSENT_WITHIN_RECORDED_SCOPE
+limitations: container metadata is not visible or audible in playback
+required_follow_up: metadata review
+
+method_id: METHOD-M03
+method_class: TEXT
+surfaces_inspected: captions, title, description, alt text, and container metadata
+search_target: full phrase, aliases, and contextual fragments
+finding: exact full phrase in VIDEO-M09 comment field
+state: PRESENT
+limitations: does not establish whether an unobserved destination would retain it
+required_follow_up: clean preset, re-export, and inspect new delivery bytes
+
+method_id: METHOD-M04
+method_class: LINEAGE
+surfaces_inspected: VIDEO-M09 and render inputs
+search_target: rejected text ancestry
+finding: PRESET-M05 supplies rejected comment to encoded delivery
+state: PRESENT
+limitations: applies only to declared local candidate lineage
+required_follow_up: create admitted PRESET-M06 and invalidate delivery review
+
+inspection_matrix_state: FAIL
+inspection_matrix_evidence: text and lineage methods confirm residue
+inspection_matrix_notes: filename and playback absence remain truthful narrow findings
+
+G. REBUILD AND INVALIDATION RECORD
+-----------------------------------
+rebuild_required: YES
+rebuild_reason: exact delivery bytes contain rejected metadata
+closed_admitted_source_set: SCRIPT-M05 | TIMELINE-M09 | MIX-M04 | clean PRESET-M06
+excluded_source_set: SCRIPT-M04 | TEXT-M14 | PRESET-M05 | OLD-VIDEO-M06 | VIDEO-M09
+project_or_render_spec_revision: PROJECT-M08 | required RENDER-M08
+caches_invalidated: delivery encode cache
+proxies_invalidated: none required
+stems_invalidated: none required
+posters_and_thumbnails_invalidated: poster can retain evidence if generated only
+  from unchanged picture bytes and its identity remains unchanged
+other_generated_intermediates_invalidated: metadata sidecar and encoded video
+derivatives_recreated: VIDEO-M10 required
+old_outputs_excluded: VIDEO-M09 must leave next manifest and package
+new_manifest_revision: MANIFEST-M12 required
+new_delivery_byte_identities: NOT_YET_CREATED
+
+historical_evidence_marked: VIDEO-M09 delivery and package approval SUPERSEDED after repair
+reopened_forward_paths: preset to delivery metadata
+reopened_backward_lineage: new video member
+reopened_derivatives: encoded video and metadata sidecar
+reopened_text_surfaces: complete new video metadata
+reopened_delivery_surfaces: new video picture, sound, boundaries, and metadata
+reopened_manifest_or_package_closure: YES
+reopened_destination_surfaces: NO_TRANSFER_OCCURRED
+recheck_state: BLOCKED_ON_NEW_CANDIDATE
+
+Unaffected evidence note
+------------------------
+The unchanged CAPTIONS-M05 and DESCRIPTION-M06 reviews may remain applicable only
+while their exact identities and inputs remain unchanged. Package closure must
+still be repeated because VIDEO-M09 will be replaced and MANIFEST-M11 will change.
+The historical failure record remains intact.
+
+H. FAILURE-SHAPED TEST RESULT
+------------------------------
+Test: metadata residue after visible and audible removal
+Expected: complete playback passes within its scope; metadata review produces
+  PRESENT; exact delivery and package approval are held
+Actual: expected failure path observed in the fictional fixture
+State: PASS_FOR_METHOD_TEST
+
+I. TERMINAL DECISION
+--------------------
+selected_decision: HOLD_REJECTED_MATERIAL_PRESENT
+exact_candidate: PACKAGE-M09 under MANIFEST-M11
+blocking_surface: VIDEO-M09 container comment field
+bounded_statement: TEXT-M14 was absent within recorded scope from visible picture,
+  audible mix, poster, captions, filename, title, description, and alt text, but
+  remained present in the exact admitted video member's comment metadata.
+  PACKAGE-M09 is not approved.
+unknowns: repaired video bytes, revised manifest, revised package, and any
+  destination rendition do not exist and were not tested
+publication_state: NOT_PUBLIC
+
+========================================================================
+CROSS-EXAMPLE REVIEW
+========================================================================
+
+[PASS] Both examples bind removal to an exact rejected identity.
+[PASS] Both distinguish current editable state from historical derivatives.
+[PASS] Both inventory or trace source, timeline, derivative, text, package,
+       delivery, and destination surfaces relevant to the fixture.
+[PASS] Both use forward tracing from rejected material.
+[PASS] Both use backward tracing from every admitted release member.
+[PASS] Name absence is not described as exact-byte, perceptual, or metadata absence.
+[PASS] Exact-byte absence is not described as transformed-fragment absence.
+[PASS] Picture playback is not described as text or metadata review.
+[PASS] Rights, attribution, privacy, accuracy, quality, and accessibility text
+       remain separate where applicable.
+[PASS] Transformation is not treated as permission or automatic eligibility.
+[PASS] One required PRESENT state blocks each complete package.
+[PASS] Clean members are not averaged against a failed member.
+[PASS] Rebuild steps name a closed admitted source set and excluded old outputs.
+[PASS] Fresh exports require fresh delivery identities and package closure.
+[PASS] Historical failure evidence is preserved rather than rewritten.
+[PASS] Unchanged evidence is retained only when identity and dependencies allow it.
+[PASS] Destination surfaces remain NOT_TESTED because no transfer occurred.
+[PASS] Every claim names its exact candidate and inspected scope.
+[PASS] Every person, source, revision, observation, and result is fictional.
+[PASS] Neither example claims upload, publication, audience response, platform
+       behavior, universal absence, permission, legal compliance, or business result.
+
+Final method boundary
+---------------------
+These examples show that the worksheet can preserve two intended failure paths:
+a transformed visual fragment in an admitted preview and rejected text in encoded
+metadata. They do not prove behavior of a real editor, encoder, host, cache,
+platform, or publication workflow.
+
+A passing real sweep could support only a bounded statement that an exactly
+identified rejected element and its disallowed property were not found across the
+declared, traced, and inspected surfaces of an exact candidate under recorded
+checks. It could not establish universal absence, ownership, permission, legal
+compliance, destination processing, cache eviction, public unavailability,
+accessibility conformance, audience response, or any business outcome.

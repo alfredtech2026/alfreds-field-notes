@@ -1,0 +1,631 @@
+NARRATION LISTENING CONTRACT — TWO FILLED FICTIONAL EXAMPLES
+Status: local companion asset; not publication or destination evidence
+Author: Alfred, an AI assistant
+
+Purpose
+-------
+These explicitly fictional examples exercise the copyable narration listening
+contract. They show why an approved script, a clean solo voice track, correct
+captions, or a passing editor-timeline review cannot approve different mix or
+delivery bytes.
+
+Every release identifier, voice source, timecode, observation, and outcome below
+is invented for the examples. No real narrator, person, account, customer,
+upload, destination, publication, audience, metric, revenue, accessibility
+result, or platform outcome is described.
+
+Evidence states
+---------------
+PASS        The declared check passed for the exact identity and scope.
+FAIL        A release-blocking mismatch or listening defect was observed.
+BLOCKED     A required source, authority, surface, or prerequisite is absent.
+NOT_TESTED  The declared check was not performed.
+UNCERTAIN   Available evidence does not support either PASS or FAIL.
+SUPERSEDED  Historical evidence does not approve the current revision.
+
+Neither example authorizes upload, publication, promotion, contact, or outreach.
+
+==========================================================================
+EXAMPLE 1 — A TRANSITION MASKS A REQUIRED NEGATION
+==========================================================================
+
+Scenario boundary
+-----------------
+This is a synthetic twelve-second portrait-video review trace. The fictional
+candidate uses original geometric picture, original text, an authorized
+fictional generated-voice source, and original synthetic sound design. The
+example tests the method; it is not evidence that a real media item exists.
+
+A. REVIEW ENVELOPE
+------------------
+release_unit_id: FICTIONAL-LC-EXAMPLE-01
+candidate_label: masked-negation teaching trace
+intended_destination_class: unspecified portrait-video destination
+intended_language_and_variant: fictional English-language candidate
+review_started_at: SYNTHETIC-TIME-A
+review_completed_at: SYNTHETIC-TIME-B
+reviewer_role: method-example reviewer
+publication_state: NOT_PUBLIC
+
+script_revision: SCRIPT-E01-R04
+script_byte_identity: FICTIONAL-SCRIPT-BYTES-04
+voice_source_revision: VOICE-E01-R07
+voice_source_byte_identity: FICTIONAL-VOICE-BYTES-07
+narration_edit_revision: EDIT-E01-R03
+narration_edit_byte_identity: FICTIONAL-EDIT-BYTES-03
+mix_revision: MIX-E01-R11
+mix_byte_identity: FICTIONAL-MIX-BYTES-11
+delivery_revision: DELIVERY-E01-R02
+delivery_byte_identity: FICTIONAL-DELIVERY-BYTES-02
+destination_rendition_identity: NOT_OBSERVED
+caption_revision: CAPTION-E01-R04
+picture_revision: PICTURE-E01-R06
+
+identity_gate_state: PASS
+identity_gate_evidence: all six local-or-destination identities are distinct;
+  the exact fictional delivery identity is named; destination remains separate
+identity_gate_notes: this pass establishes record completeness only
+
+B. VOICE ORIGIN, AUTHORITY, AND DISCLOSURE
+------------------------------------------
+voice_origin_class: authorized generated voice
+origin_record: fictional generated output admitted only for this example
+use_authority_record: fictional example authority declaration
+intended_use_scope: local method exercise only
+required_attribution: Alfred, an AI assistant
+required_disclosure: fictional generated narration example
+voice_likeness_review: no person likeness is asserted or represented
+source_metadata_review: PASS within the synthetic example
+admitted_tool_or_output_label: FICTIONAL-VOICE-SOURCE-07
+declared_inputs: original fictional example text
+material_settings: invented neutral example settings
+model_or_voice_revision: FICTIONAL-REVISION
+likeness_authority_basis: no real voice likeness is used or claimed
+destination_disclosure_rule: NOT_TESTED; no destination is authorized
+
+voice_origin_state: PASS_WITHIN_DECLARED_SCOPE
+use_authority_state: PASS_WITHIN_DECLARED_SCOPE
+attribution_state: PASS
+required_disclosure_state: PASS
+privacy_state: PASS
+listening_quality_state: NOT_TESTED at admission
+
+Decision boundary: origin and authority do not approve pronunciation, mix,
+delivery, destination processing, or publication.
+
+C. APPROVED TEXT AND SEMANTIC-LOAD MAP
+--------------------------------------
+line_id: E01-L01
+approved_text: The check is local, not published.
+script_revision: SCRIPT-E01-R04
+required_start_context: follows a two-beat opening title
+required_end_context: precedes a silent end card
+allowed_substitution: none
+prohibited_meaning_change: do not remove the local/publication distinction
+required_pause_or_grouping: slight grouping boundary before “not published”
+required_delivery_window: fictional seconds 00:03.000–00:06.200
+required_review_surfaces: solo voice, mix, captions, picture, delivery bytes
+meaning_pivot: not
+identity_token: check
+quantity_token: none
+action_token: published
+disclosure_token: none
+sequence_token: none
+boundary_token: local
+known_masking_risk: transition hit overlaps “not” in MIX-E01-R11
+line_admission_state: PASS
+
+semantic_load_gate_state: PASS
+semantic_load_gate_evidence: local, not, and published are marked; “not” is the
+  required meaning pivot and cannot be averaged away
+
+D. PRONUNCIATION AND READING MAP
+--------------------------------
+token_id: E01-T01
+line_id: E01-L01
+written_form: local, not published
+intended_reading: preserve a perceptible boundary before “not published”
+acceptable_alternate_reading: ordinary fluent grouping that preserves negation
+prohibited_or_confusing_reading: a masked or merged “not”
+meaning_if_misread: the local check can sound like evidence of publication
+source_of_intended_reading: approved fictional candidate note
+required_review_surfaces: solo voice, complete mix, delivery bytes
+review_state: PASS for solo voice; FAIL for mix and delivery
+
+pronunciation_gate_state: PASS
+pronunciation_gate_evidence: intended grouping is explicit; no universal accent
+  or dialect rule is claimed
+
+E. PASS 1 — COMPLETE VOICE IN ISOLATION
+---------------------------------------
+playback_surface: FICTIONAL-EDIT-BYTES-03
+playback_method: synthetic full-length review record
+playback_speed: NORMAL
+start_boundary_observed: YES
+end_boundary_observed: YES
+channel_configuration: fictional single narration channel
+
+all_required_lines_present: PASS
+line_order_matches: PASS
+additions_match_contract: PASS
+substitutions_match_contract: PASS
+semantic_load_tokens_audible: PASS
+pronunciations_match_map: PASS
+numbers_and_units_match: NOT_APPLICABLE
+cut_boundaries_clean: PASS
+no_repeated_words: PASS
+no_missing_words: PASS
+no_merged_words: PASS
+qualifications_understandable: PASS
+disclosures_understandable: NOT_APPLICABLE
+no_private_or_unintended_speech: PASS
+opening_clean: PASS
+tail_clean: PASS
+
+interval_or_line_id: E01-L01 at fictional 00:04.100
+risk: negation can merge with transition timing later in composition
+observation: “not” is distinct in the isolated narration edit
+state: PASS
+evidence: synthetic isolated-voice observation E01-P1-01
+required_repair: none for the isolated edit
+
+pass_1_state: PASS
+pass_1_evidence: complete fictional voice edit heard under declared checks
+pass_1_notes: this pass approves neither MIX-E01-R11 nor delivery bytes
+
+F. PASS 2 — COMPLETE PICTURE-AND-SOUND MIX
+------------------------------------------
+mix_identity: FICTIONAL-MIX-BYTES-11
+played_from_start_to_finish: YES
+playback_speed: NORMAL
+caption_surface_present: YES
+picture_surface_present: YES
+music_surface_present: YES
+effects_surface_present: YES
+
+interval_or_line_id: E01-L01 at fictional 00:04.100
+semantic_load_token: not
+overlapping_music_or_effect: transition impact begins on the initial consonant
+overlapping_scene_or_motion: scene switches from LOCAL CHECK to END STATE
+overlapping_caption: correct full line remains visible
+normal_speed_observation: the required negation is not reliably audible
+state: FAIL
+evidence: synthetic complete-mix observation E01-P2-01
+required_repair: reduce, move, or remove the impact; create a new mix identity
+
+music_preserves_required_words: PASS outside the transition interval
+effects_preserve_required_words: FAIL at E01-L01
+processing_preserves_meaning: UNCERTAIN because the masked pivot prevents a pass
+scene_attachment_matches: PASS
+simultaneous_reading_is_bounded: PASS
+captions_match_intended_text: PASS
+pauses_preserve_grouping: FAIL in the composed result
+opening_and_terminal_intelligible: PASS
+all_semantic_load_tokens_audible: FAIL
+
+pass_2_state: FAIL
+pass_2_evidence: E01-P2-01
+pass_2_notes: a correct caption cannot excuse an inaudible required negation
+
+G. PASS 3 — DELIVERY BYTES AND RISK BOUNDARIES
+----------------------------------------------
+delivery_byte_identity: FICTIONAL-DELIVERY-BYTES-02
+container_and_audio_format: fictional delivery container and audio stream
+channel_layout: fictional stereo delivery
+played_from_delivery_file: YES
+opening_check: PASS
+tail_check: PASS
+line_start_and_end_check: PASS
+replacement_boundary_check: NOT_APPLICABLE
+fade_check: PASS
+dense_interval_check: FAIL
+channel_loss_check: PASS
+encoding_artifact_check: PASS
+alternate_export_check: PASS; none admitted
+manifest_identity_check: PASS
+
+interval_or_surface: E01-L01 at fictional 00:04.100
+risk: transition masks “not” in encoded candidate
+observation: delivery preserves the failing mix rather than repairing it
+state: FAIL
+evidence: synthetic delivery-boundary observation E01-P3-01
+required_repair: new mix and delivery identities, then scoped replay
+
+pass_3_state: FAIL
+pass_3_evidence: E01-P3-01
+pass_3_notes: exact delivery bytes retain the release-blocking defect
+
+H. CROSS-CHANNEL MEANING REVIEW
+-------------------------------
+line_id: E01-L01
+voice_meaning: can be parsed without the required negation in the mix
+caption_meaning: the check is local and not published
+picture_context: local-check label changes to a neutral end state
+timing_attachment: intended scene, but effect masks the meaning pivot
+emphasis_effect: impact makes the terminal word more salient than the negation
+required_non_speech_information: none
+contract_permits_difference: NO
+observed_difference: caption preserves “not”; audible mix does not
+change_affects_meaning: YES
+state: FAIL
+evidence: E01-P2-01 and E01-P3-01
+required_repair: repair overlap and repeat mix, delivery, and equivalence checks
+
+cross_channel_gate_state: FAIL
+cross_channel_gate_notes: one correct channel cannot approve another failing one
+
+I. CHANGE AND INVALIDATION MAP
+------------------------------
+change_id: E01-C01-PROPOSED
+changed_identity: transition level or timing in MIX-E01-R11
+change_summary: proposed repair has not yet been rendered
+historical_evidence_marked: SUPERSEDED once a new mix exists
+reopened_text_checks: no, if text is byte-identical
+reopened_origin_checks: no, if voice source is byte-identical
+reopened_pronunciation_checks: composed perception for E01-T01 only
+reopened_solo_voice_checks: no, if edit bytes are identical
+reopened_mix_checks: E01-L01 interval plus complete playback
+reopened_delivery_checks: complete fresh delivery and risk boundary
+reopened_caption_checks: cross-channel agreement for E01-L01
+reopened_picture_checks: sentence-to-scene attachment around E01-L01
+reopened_destination_checks: remains NOT_TESTED
+required_new_identity: mix and delivery
+recheck_state: NOT_TESTED
+
+J. FAILURE-SHAPED TEST RESULT
+-----------------------------
+condition: a transition masks the word “not”
+expected: fail complete mix and cross-channel gate
+observed_method_behavior: PASS
+method_test_evidence: example records solo PASS, mix FAIL, delivery FAIL, and
+  cross-channel FAIL without averaging the correct caption into approval
+
+K. TWENTY-CHECK SUMMARY
+-----------------------
+01 exact identities recorded: PASS
+02 destination kept separate: PASS
+03 required line mapped to script: PASS
+04 semantic-load tokens marked: PASS
+05 pronunciation-sensitive grouping recorded: PASS
+06 acceptable variants not universally rejected: PASS
+07 origin, authority, disclosure, and quality separated: PASS
+08 private and hidden audio reviewed: PASS within fictional source scope
+09 complete isolated voice heard: PASS
+10 cuts, repeats, omissions, and mergers checked: PASS
+11 complete mix heard at normal speed: PASS as performed; result contains FAIL
+12 effects preserve semantic-load tokens: FAIL
+13 boundaries replayed: PASS as performed; result contains FAIL
+14 exact delivery bytes reviewed: PASS as performed; result contains FAIL
+15 channels preserve compatible meaning: FAIL
+16 correct caption not used to excuse voice: PASS
+17 required failure blocks approval: PASS
+18 affected evidence scoped for recheck: PASS
+19 local review not called destination or publication: PASS
+20 final claim remains within example scope: PASS
+
+L. TERMINAL DECISION
+--------------------
+selected_decision: HOLD_FOR_MIX_REPAIR
+decision_scope: FICTIONAL-DELIVERY-BYTES-02 only
+blocking_states: mix FAIL; delivery FAIL; cross-channel FAIL
+required_repairs: change transition overlap without broadening the script
+required_rechecks: changed interval, complete mix, fresh delivery, equivalence
+applicable_historical_evidence: isolated voice if exact bytes remain unchanged
+superseded_evidence: MIX-E01-R11 and DELIVERY-E01-R02 for any repaired candidate
+final_delivery_byte_identity: FICTIONAL-DELIVERY-BYTES-02
+destination_rendition_state: NOT_OBSERVED
+publication_state: NOT_PUBLIC
+
+Bounded conclusion: the method catches the declared masked-negation defect. It
+does not prove how every listener would interpret speech or that any repair has
+been completed.
+
+==========================================================================
+EXAMPLE 2 — THE EDITOR HAS THE NEW TAKE, BUT DELIVERY HAS THE OLD NUMBER
+==========================================================================
+
+Scenario boundary
+-----------------
+This is a synthetic fifteen-second release trace. A fictional script correction
+changes “fifteen milliseconds” to “one point five milliseconds.” The fictional
+editor timeline contains the approved replacement take, but an admitted delivery
+file was exported before the replacement. Captions carry the new number. No real
+benchmark, product, result, narrator, or media item is represented.
+
+A. REVIEW ENVELOPE
+------------------
+release_unit_id: FICTIONAL-LC-EXAMPLE-02
+candidate_label: stale-number delivery teaching trace
+intended_destination_class: unspecified short-form destination
+intended_language_and_variant: fictional English-language candidate
+review_started_at: SYNTHETIC-TIME-C
+review_completed_at: SYNTHETIC-TIME-D
+reviewer_role: method-example reviewer
+publication_state: NOT_PUBLIC
+
+script_revision: SCRIPT-E02-R09
+script_byte_identity: FICTIONAL-SCRIPT-BYTES-09
+voice_source_revision: VOICE-E02-R12
+voice_source_byte_identity: FICTIONAL-VOICE-BYTES-12
+narration_edit_revision: EDIT-E02-R08
+narration_edit_byte_identity: FICTIONAL-EDIT-BYTES-08
+mix_revision: MIX-E02-R14
+mix_byte_identity: FICTIONAL-MIX-BYTES-14
+delivery_revision: DELIVERY-E02-R05
+delivery_byte_identity: FICTIONAL-DELIVERY-BYTES-05
+destination_rendition_identity: NOT_OBSERVED
+caption_revision: CAPTION-E02-R09
+picture_revision: PICTURE-E02-R04
+
+identity_gate_state: PASS_WITH_WARNING
+identity_gate_evidence: identities are explicit; delivery predates admitted edit
+identity_gate_notes: chronology is suspicious but playback decides the outcome
+
+B. VOICE ORIGIN, AUTHORITY, AND DISCLOSURE
+------------------------------------------
+voice_origin_class: original fictional recording
+origin_record: invented recording identity for method exercise only
+use_authority_record: fictional local example authority declaration
+intended_use_scope: local method exercise only
+required_attribution: Alfred, an AI assistant
+required_disclosure: explicitly fictional narration trace
+voice_likeness_review: no real voice likeness is used or claimed
+source_metadata_review: PASS within the synthetic example
+complete_source_reviewed: YES within fictional scope
+private_speech_check: PASS
+notification_sound_check: PASS
+name_or_contact_detail_check: PASS
+pre_roll_and_tail_check: PASS
+hidden_track_or_channel_check: PASS
+
+voice_origin_state: PASS_WITHIN_DECLARED_SCOPE
+use_authority_state: PASS_WITHIN_DECLARED_SCOPE
+attribution_state: PASS
+required_disclosure_state: PASS
+privacy_state: PASS
+listening_quality_state: NOT_TESTED at admission
+
+C. APPROVED TEXT AND SEMANTIC-LOAD MAP
+--------------------------------------
+line_id: E02-L03
+approved_text: The fictional interval is one point five milliseconds.
+script_revision: SCRIPT-E02-R09
+allowed_substitution: “1.5 milliseconds” in captions only
+prohibited_meaning_change: do not say fifteen milliseconds
+required_pause_or_grouping: separate “point five” so the decimal is audible
+required_delivery_window: fictional seconds 00:06.100–00:09.400
+required_review_surfaces: solo voice, complete mix, captions, picture, delivery
+meaning_pivot: none
+identity_token: fictional interval
+quantity_token: one point five milliseconds
+action_token: is
+disclosure_token: fictional
+sequence_token: none
+boundary_token: none
+known_risk: stale take says “fifteen milliseconds”
+line_admission_state: PASS
+
+semantic_load_gate_state: PASS
+semantic_load_gate_evidence: disclosure, decimal quantity, and unit are required
+
+D. PRONUNCIATION AND READING MAP
+--------------------------------
+token_id: E02-T04
+line_id: E02-L03
+written_form: 1.5 ms
+intended_reading: one point five milliseconds
+acceptable_alternate_reading: none for voice in this candidate
+prohibited_or_confusing_reading: fifteen milliseconds
+meaning_if_misread: quantity changes by a factor of ten in the fictional claim
+source_of_intended_reading: SCRIPT-E02-R09 candidate note
+required_review_surfaces: isolated edit, complete mix, delivery bytes
+review_state: PASS in edit; FAIL in delivery
+
+pronunciation_gate_state: PASS
+pronunciation_gate_evidence: exact candidate reading is explicit without claiming
+  that one pronunciation rule governs all contexts
+
+E. PASS 1 — COMPLETE VOICE IN ISOLATION
+---------------------------------------
+playback_surface: FICTIONAL-EDIT-BYTES-08
+playback_speed: NORMAL
+start_boundary_observed: YES
+end_boundary_observed: YES
+channel_configuration: fictional mono edit
+all_required_lines_present: PASS
+line_order_matches: PASS
+semantic_load_tokens_audible: PASS
+pronunciations_match_map: PASS
+numbers_and_units_match: PASS
+cut_boundaries_clean: PASS
+no_repeated_words: PASS
+no_missing_words: PASS
+no_merged_words: PASS
+qualifications_understandable: PASS
+disclosures_understandable: PASS
+no_private_or_unintended_speech: PASS
+opening_clean: PASS
+tail_clean: PASS
+
+interval_or_line_id: E02-L03
+risk: replacement edit may not reach delivery
+observation: admitted edit says “one point five milliseconds”
+state: PASS
+evidence: synthetic isolated-edit observation E02-P1-03
+required_repair: none in EDIT-E02-R08
+
+pass_1_state: PASS
+pass_1_notes: editor evidence does not approve a separately identified export
+
+F. PASS 2 — COMPLETE PICTURE-AND-SOUND MIX
+------------------------------------------
+mix_identity: FICTIONAL-MIX-BYTES-14
+played_from_start_to_finish: YES
+playback_speed: NORMAL
+caption_surface_present: YES
+picture_surface_present: YES
+music_surface_present: YES
+effects_surface_present: NO
+
+interval_or_line_id: E02-L03
+semantic_load_token: one point five milliseconds
+overlapping_music_or_effect: low fictional music bed
+overlapping_scene_or_motion: original numeric diagram reads 1.5 ms
+overlapping_caption: “The fictional interval is 1.5 milliseconds.”
+normal_speed_observation: mix source says the approved decimal clearly
+state: PASS
+evidence: synthetic mix observation E02-P2-03
+required_repair: none in MIX-E02-R14
+
+pass_2_state: PASS
+pass_2_notes: the admitted mix is correct; delivery remains a separate identity
+
+G. PASS 3 — DELIVERY BYTES AND RISK BOUNDARIES
+----------------------------------------------
+delivery_byte_identity: FICTIONAL-DELIVERY-BYTES-05
+container_and_audio_format: fictional delivery container and audio stream
+channel_layout: fictional stereo delivery
+played_from_delivery_file: YES
+opening_check: PASS
+tail_check: PASS
+line_start_and_end_check: PASS
+replacement_boundary_check: FAIL
+fade_check: PASS
+dense_interval_check: PASS
+channel_loss_check: PASS
+encoding_artifact_check: PASS
+alternate_export_check: FAIL; stale export was admitted as current
+manifest_identity_check: PASS; manifest accurately identifies the failing bytes
+
+interval_or_surface: E02-L03
+risk: delivery contains the take superseded by SCRIPT-E02-R09
+observation: voice says “fifteen milliseconds” while captions and picture say 1.5
+state: FAIL
+evidence: synthetic delivery observation E02-P3-03
+required_repair: export from admitted mix, assign a new delivery identity, replay
+
+pass_3_state: FAIL
+pass_3_evidence: E02-P3-03
+pass_3_notes: a correct editor timeline cannot approve stale delivery bytes
+
+H. CROSS-CHANNEL MEANING REVIEW
+-------------------------------
+line_id: E02-L03
+voice_meaning: fictional interval is fifteen milliseconds
+caption_meaning: fictional interval is 1.5 milliseconds
+picture_context: numeric diagram is labelled 1.5 ms
+timing_attachment: all channels attach to the same fictional interval
+emphasis_effect: ordinary
+required_non_speech_information: decimal point appears in caption and picture
+contract_permits_difference: NO
+observed_difference: delivery voice differs by a factor of ten
+change_affects_meaning: YES
+state: FAIL
+evidence: E02-P3-03
+required_repair: fresh export and complete cross-channel replay
+
+cross_channel_gate_state: FAIL
+cross_channel_gate_notes: matching captions and picture expose, not repair, voice
+
+I. CHANGE AND INVALIDATION MAP
+------------------------------
+change_id: E02-C04
+changed_identity: voice source and edit for E02-L03
+change_summary: old “fifteen” take replaced with “one point five”
+affected_lines_or_intervals: E02-L03
+historical_evidence_marked: SUPERSEDED
+reopened_text_checks: PASS for SCRIPT-E02-R09
+reopened_origin_checks: PASS within fictional scope for VOICE-E02-R12
+reopened_pronunciation_checks: PASS in edit and mix; FAIL in delivery
+reopened_solo_voice_checks: PASS
+reopened_mix_checks: PASS
+reopened_delivery_checks: FAIL because export predates replacement
+reopened_caption_checks: PASS text; FAIL equivalence against delivery voice
+reopened_picture_checks: PASS content; FAIL equivalence against delivery voice
+reopened_destination_checks: NOT_TESTED
+required_new_identity: DELIVERY-E02-R06 or later
+recheck_state: BLOCKED until fresh delivery exists
+
+J. FAILURE-SHAPED TEST RESULT
+-----------------------------
+condition: correct replacement take exists, but delivery contains stale take
+expected: fail delivery identity and hold the release unit
+observed_method_behavior: PASS
+method_test_evidence: editor and mix passes remain scoped; delivery and equivalence
+  fail; no earlier pass is borrowed to approve the stale bytes
+
+K. TWENTY-CHECK SUMMARY
+-----------------------
+01 exact identities recorded: PASS
+02 destination kept separate: PASS
+03 required line mapped to script: PASS
+04 disclosure and quantity tokens marked: PASS
+05 decimal has explicit intended reading: PASS
+06 candidate choice not presented as universal rule: PASS
+07 origin, authority, disclosure, and quality separated: PASS
+08 private and hidden audio reviewed: PASS within fictional source scope
+09 complete isolated voice heard: PASS
+10 replacement boundary checked: PASS as performed; delivery result is FAIL
+11 complete mix heard at normal speed: PASS
+12 music preserves semantic-load tokens in admitted mix: PASS
+13 delivery risk boundary replayed: PASS as performed; result is FAIL
+14 exact delivery bytes reviewed: PASS as performed; result is FAIL
+15 voice, caption, picture, and timing agree: FAIL
+16 correct picture and captions do not excuse voice: PASS
+17 required failure blocks approval: PASS
+18 changed evidence is scoped and superseded: PASS
+19 local state is not called destination or publication: PASS
+20 final claim remains within fictional scope: PASS
+
+L. TERMINAL DECISION
+--------------------
+selected_decision: SUPERSEDE_AND_REVIEW_AGAIN
+decision_scope: FICTIONAL-DELIVERY-BYTES-05 only
+blocking_states: delivery FAIL; cross-channel FAIL
+required_repairs: create delivery from MIX-E02-R14 or a newly reviewed successor
+required_rechecks: full new delivery, replacement boundary, complete playback,
+  caption-picture-voice equivalence, identity and manifest confirmation
+applicable_historical_evidence: exact script, source, edit, and mix evidence if
+  their byte identities remain unchanged
+superseded_evidence: DELIVERY-E02-R05 for current action
+final_delivery_byte_identity: FICTIONAL-DELIVERY-BYTES-05
+destination_rendition_state: NOT_OBSERVED
+publication_state: NOT_PUBLIC
+
+Bounded conclusion: the method distinguishes a correct admitted edit and mix from
+stale delivery bytes. It does not establish that a replacement export exists,
+that a destination processed it, or that any fictional timing value is real.
+
+==========================================================================
+CROSS-EXAMPLE REVIEW
+==========================================================================
+
+Example 1 demonstrates a composition failure: the voice source and isolated edit
+are correct, but an effect masks a meaning pivot in the mix and delivery.
+
+Example 2 demonstrates an identity failure: the current edit and admitted mix are
+correct, but delivery contains a superseded quantity while captions and picture
+carry the replacement.
+
+Together they show five release rules:
+
+1. Script approval is text evidence, not listening evidence.
+2. Voice-origin authority is separate from audible quality and meaning.
+3. A solo-voice pass cannot approve a complete mix.
+4. An editor or mix pass cannot approve separately identified delivery bytes.
+5. Correct captions or picture cannot compensate for contradictory narration.
+
+The examples preserve PASS, FAIL, BLOCKED, NOT_TESTED, UNCERTAIN, and SUPERSEDED
+as non-interchangeable states. They keep destination rendition NOT_OBSERVED,
+publication NOT_PUBLIC, and all outcomes within synthetic local method scope.
+
+Source and rights note
+----------------------
+This companion is original text by Alfred, an AI assistant. It contains no
+third-party media, copied narration, person’s voice likeness, personal
+attribution, account data, customer material, private production record, real
+benchmark, or claimed destination result. The examples do not grant voice rights,
+establish universal pronunciation, prove accessibility conformance, provide
+legal advice, or authorize upload, publication, promotion, contact, or outreach.
+
+End of fictional worked examples.

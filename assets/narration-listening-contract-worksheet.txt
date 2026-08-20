@@ -1,0 +1,601 @@
+NARRATION LISTENING CONTRACT — COPYABLE RELEASE WORKSHEET
+Status: local companion asset; not publication or destination evidence
+Author: Alfred, an AI assistant
+
+Purpose
+-------
+Use this worksheet to bind approved words to the exact voice source, narration
+edit, complete mix, delivery bytes, and listening evidence for one release unit.
+It keeps script approval separate from what a listener can actually hear.
+
+This is an original operating checklist. It does not grant permission to use a
+voice, establish universal pronunciation, prove accessibility conformance, or
+authorize upload, publication, promotion, or outreach.
+
+Evidence states
+---------------
+PASS        The declared check passed for the exact identity and scope.
+FAIL        A release-blocking mismatch or listening defect was observed.
+BLOCKED     A required source, authority, surface, or prerequisite is absent.
+NOT_TESTED  The declared check was not performed.
+UNCERTAIN   Available evidence does not support either PASS or FAIL.
+SUPERSEDED  Historical evidence does not approve the current revision.
+
+Do not average states. One required FAIL, BLOCKED, NOT_TESTED, or UNCERTAIN
+result prevents a ready decision. Record SUPERSEDED evidence as history only.
+
+==========================================================================
+A. REVIEW ENVELOPE
+==========================================================================
+
+release_unit_id:
+candidate_label:
+intended_destination_class:
+intended_language_and_variant:
+review_started_at:
+review_completed_at:
+reviewer_role:
+publication_state: NOT_PUBLIC
+
+Required identities
+-------------------
+script_revision:
+script_byte_identity:
+voice_source_revision:
+voice_source_byte_identity:
+narration_edit_revision:
+narration_edit_byte_identity:
+mix_revision:
+mix_byte_identity:
+delivery_revision:
+delivery_byte_identity:
+destination_rendition_identity: NOT_OBSERVED
+caption_revision:
+picture_revision:
+
+Identity gate
+-------------
+[ ] Every required identity is present and unambiguous.
+[ ] The delivery identity refers to the exact bytes played during review.
+[ ] Destination processing is separate from local source and delivery evidence.
+[ ] Stale, alternate, and superseded exports are named rather than silently used.
+
+identity_gate_state:
+identity_gate_evidence:
+identity_gate_notes:
+
+==========================================================================
+B. VOICE ORIGIN, AUTHORITY, AND DISCLOSURE
+==========================================================================
+
+voice_origin_class:
+  [ ] original recording
+  [ ] authorized generated voice
+  [ ] licensed performance
+  [ ] other reviewed source
+  [ ] unknown — BLOCK
+
+origin_record:
+use_authority_record:
+intended_use_scope:
+required_attribution:
+required_disclosure:
+disclosure_placement:
+voice_likeness_review:
+source_metadata_review:
+
+Generated or transformed voice details, when applicable
+--------------------------------------------------------
+admitted_tool_or_output_label:
+declared_inputs:
+material_settings:
+model_or_voice_revision:
+likeness_authority_basis:
+destination_disclosure_rule:
+
+Recorded voice details, when applicable
+----------------------------------------
+recording_revision:
+complete_source_reviewed: YES | NO
+private_speech_check:
+notification_sound_check:
+name_or_contact_detail_check:
+pre_roll_and_tail_check:
+hidden_track_or_channel_check:
+
+Separate decisions
+------------------
+voice_origin_state:
+use_authority_state:
+attribution_state:
+disclosure_state:
+privacy_state:
+listening_quality_state: NOT_TESTED
+
+Notes:
+
+Rule: origin and authority evidence cannot substitute for listening quality.
+Listening quality cannot manufacture permission or authority.
+
+==========================================================================
+C. APPROVED TEXT AND SEMANTIC-LOAD MAP
+==========================================================================
+
+For every required spoken line, create one row. Add continuation rows as needed.
+
+LINE RECORD
+-----------
+line_id:
+approved_text:
+script_revision:
+required_start_context:
+required_end_context:
+allowed_substitution:
+prohibited_meaning_change:
+required_pause_or_grouping:
+required_delivery_window:
+required_review_surfaces:
+
+Semantic-load tokens
+--------------------
+meaning_pivot:
+identity_token:
+quantity_token:
+action_token:
+disclosure_token:
+sequence_token:
+boundary_token:
+other_required_token:
+
+Known masking or merger risks:
+
+line_admission_state:
+line_notes:
+
+Repeat the LINE RECORD for every required line.
+
+Semantic-load gate
+------------------
+[ ] Every required spoken line maps to the current script revision.
+[ ] Negations, comparisons, limits, exceptions, and uncertainty are marked.
+[ ] Numbers, units, dates, durations, versions, and currency are marked.
+[ ] Upload, review, approval, queue, and publication verbs are distinguished.
+[ ] AI, synthetic, fictional, illustrative, or other disclosures are marked.
+[ ] Before, after, only, until, and other sequence words are marked when needed.
+[ ] Local, sampled, proposed, and other claim boundaries are marked when needed.
+[ ] Adjacent words with a merger risk have an intended grouping.
+
+semantic_load_gate_state:
+semantic_load_gate_evidence:
+semantic_load_gate_notes:
+
+==========================================================================
+D. PRONUNCIATION AND READING MAP
+==========================================================================
+
+Create a token record only when the intended spoken form needs a decision.
+Do not claim one candidate-specific choice is universally correct.
+
+TOKEN RECORD
+------------
+token_id:
+line_id:
+written_form:
+intended_reading:
+acceptable_alternate_reading:
+prohibited_or_confusing_reading:
+meaning_if_misread:
+source_of_intended_reading:
+required_review_surfaces:
+review_state:
+evidence:
+notes:
+
+Repeat for abbreviations, decimals, ranges, dates, versions, units, uncommon
+terms, homographs, punctuation-controlled groups, and synthetic substitutions.
+
+Pronunciation gate
+------------------
+[ ] Every candidate-relevant ambiguous token has an intended reading.
+[ ] Decimal points, ranges, dates, versions, and units cannot merge silently.
+[ ] Acceptable alternatives are not mislabeled as universally wrong.
+[ ] The map states candidate intent rather than inventing external authority.
+[ ] Each token is checked in isolation and in its complete sentence.
+
+pronunciation_gate_state:
+pronunciation_gate_evidence:
+pronunciation_gate_notes:
+
+==========================================================================
+E. PASS 1 — COMPLETE VOICE IN ISOLATION
+==========================================================================
+
+Playback surface:
+playback tool or method:
+playback speed: NORMAL
+start boundary observed:
+end boundary observed:
+channel configuration:
+
+Complete-play observations
+--------------------------
+all_required_lines_present:
+line_order_matches:
+additions_match_contract:
+substitutions_match_contract:
+semantic_load_tokens_audible:
+pronunciations_match_map:
+numbers_and_units_match:
+cut_boundaries_clean:
+no_repeated_words:
+no_missing_words:
+no_merged_words:
+qualifications_understandable:
+disclosures_understandable:
+no_private_or_unintended_speech:
+opening_clean:
+tail_clean:
+
+Boundary replay ledger
+----------------------
+interval_or_line_id:
+risk:
+observation:
+state:
+evidence:
+required_repair:
+
+Repeat the boundary row for cuts, replacements, fades, breaths, adjacent words,
+fast qualifications, and any required semantic-load token.
+
+pass_1_state:
+pass_1_evidence:
+pass_1_notes:
+
+Rule: a solo-voice pass approves neither the complete mix nor delivery bytes.
+
+==========================================================================
+F. PASS 2 — COMPLETE PICTURE-AND-SOUND MIX
+==========================================================================
+
+mix_identity:
+played_from_start_to_finish: YES | NO
+playback_speed: NORMAL
+caption_surface_present:
+picture_surface_present:
+music_surface_present:
+effects_surface_present:
+
+Overlap ledger
+--------------
+interval_or_line_id:
+semantic_load_token:
+overlapping_music_or_effect:
+overlapping_scene_or_motion:
+overlapping_caption:
+normal_speed_observation:
+state:
+evidence:
+required_repair:
+
+Repeat for every dense mix, transition, scene cut, opening hook, disclosure,
+qualification, terminal call to action, and other high-load interval.
+
+Complete-mix checks
+-------------------
+[ ] Music does not mask required words.
+[ ] Effects and transition hits do not mask required words.
+[ ] Compression, ducking, equalization, limiting, and noise reduction preserve
+    the declared meaning.
+[ ] Scene cuts do not attach a sentence to the wrong picture.
+[ ] Simultaneous on-screen reading does not overload a required spoken detail.
+[ ] Captions do not contradict the audible words.
+[ ] Pauses and silence preserve intended grouping.
+[ ] The opening and terminal interval are intelligible at normal speed.
+[ ] Every semantic-load token remains audible in the composed result.
+
+pass_2_state:
+pass_2_evidence:
+pass_2_notes:
+
+Rule: an attractive overall mix cannot compensate for one masked required word.
+
+==========================================================================
+G. PASS 3 — DELIVERY BYTES AND RISK BOUNDARIES
+==========================================================================
+
+delivery_byte_identity:
+container_and_audio_format:
+channel_layout:
+declared_duration:
+played_from_delivery_file: YES | NO
+
+Delivery inspection
+-------------------
+[ ] The opening begins with the intended take and no hidden residue.
+[ ] The tail ends with the intended take and no stale material.
+[ ] Every line start and line end survives encoding.
+[ ] Replacement-take boundaries contain no old word or clipped consonant.
+[ ] Fades preserve qualifications and disclosures.
+[ ] Dense intervals remain intelligible after encoding.
+[ ] No channel loss removes or weakens narration.
+[ ] No encoding artifact changes a required word.
+[ ] Included alternate exports are identified and separately reviewed.
+[ ] The exact reviewed bytes match the release manifest.
+
+Risk-boundary ledger
+--------------------
+interval_or_surface:
+risk:
+observation:
+state:
+evidence:
+required_repair:
+
+pass_3_state:
+pass_3_evidence:
+pass_3_notes:
+
+Rule: local delivery review does not establish destination transcoding.
+
+==========================================================================
+H. CROSS-CHANNEL MEANING REVIEW
+==========================================================================
+
+Create one row for each required line or composed claim.
+
+CROSS-CHANNEL RECORD
+--------------------
+line_id:
+voice_meaning:
+caption_meaning:
+picture_context:
+timing_attachment:
+emphasis_effect:
+required_non_speech_information:
+contract_permits_difference: YES | NO
+observed_difference:
+difference_changes_meaning: YES | NO | UNCERTAIN
+state:
+evidence:
+required_repair:
+
+Repeat for every required line.
+
+Cross-channel gate
+------------------
+[ ] Voice preserves the approved text's bounded meaning.
+[ ] Captions preserve compatible meaning and required non-speech information.
+[ ] Picture supports rather than contradicts the spoken claim.
+[ ] Emphasis does not broaden certainty or change the subject.
+[ ] Timing attaches each sentence to the intended scene.
+[ ] Adjacent words can reasonably be grouped as intended.
+[ ] One correct channel is not used to excuse another channel's defect.
+
+cross_channel_gate_state:
+cross_channel_gate_evidence:
+cross_channel_gate_notes:
+
+==========================================================================
+I. CHANGE AND INVALIDATION MAP
+==========================================================================
+
+CHANGE RECORD
+-------------
+change_id:
+changed_identity:
+change_summary:
+affected_lines_or_intervals:
+historical_evidence_marked: SUPERSEDED
+reopened_text_checks:
+reopened_origin_checks:
+reopened_pronunciation_checks:
+reopened_solo_voice_checks:
+reopened_mix_checks:
+reopened_delivery_checks:
+reopened_caption_checks:
+reopened_picture_checks:
+reopened_destination_checks:
+required_new_identity:
+recheck_state:
+evidence:
+
+Repeat for each change after review began.
+
+Minimum invalidation expectations
+---------------------------------
+text edit             Reopen semantic map, voice, captions, picture agreement,
+                      mix, and delivery where affected.
+replacement take      Reopen source admission, pronunciation, edit boundary,
+                      mix, and delivery where affected.
+speed change          Reopen pacing, grouping, pronunciation perception,
+                      caption timing, intelligibility, mix, and delivery.
+music or effect edit  Reopen every overlapping narration interval and delivery.
+audio processing      Reopen processed voice, complete mix, and delivery.
+caption edit          Reopen cross-channel meaning and timing.
+scene reorder         Reopen sentence-to-picture attachment and complete mix.
+fresh export          Reopen delivery identity and boundary listening.
+destination process   Create a separate rendition state; do not inherit local
+                      delivery evidence.
+
+invalidation_gate_state:
+invalidation_gate_evidence:
+invalidation_gate_notes:
+
+==========================================================================
+J. FAILURE-SHAPED TESTS
+==========================================================================
+
+Record PASS only when the contract safely detects or blocks the condition.
+
+01. A transition masks the word “not.”
+expected: FAIL the complete mix and cross-channel gate.
+state:
+evidence:
+
+02. Captions match the script while the voice says a different number.
+expected: FAIL cross-channel equivalence; captions cannot excuse the voice.
+state:
+evidence:
+
+03. Solo narration is clear but music masks a required unit.
+expected: Preserve solo PASS but FAIL the affected mix and delivery scope.
+state:
+evidence:
+
+04. A correct replacement take exists, but the delivery contains the stale take.
+expected: FAIL delivery identity and hold the release unit.
+state:
+evidence:
+
+05. A decimal reading could be heard as a different quantity.
+expected: Require an explicit reading map and listening evidence or block.
+state:
+evidence:
+
+06. A disclaimer is present but compressed beyond understanding.
+expected: FAIL pacing or intelligibility; textual presence is insufficient.
+state:
+evidence:
+
+07. A generated voice resembles a person without recorded authority.
+expected: BLOCK on voice origin or likeness authority regardless of quality.
+state:
+evidence:
+
+08. A source recording contains a private notification in its tail.
+expected: FAIL privacy review and prevent admission until repaired and rechecked.
+state:
+evidence:
+
+09. A caption revision changes “reviewed” to “approved.”
+expected: Supersede cross-channel evidence and reopen claim review.
+state:
+evidence:
+
+10. A fresh export follows a passing timeline review.
+expected: Require a new delivery identity and delivery-byte checks.
+state:
+evidence:
+
+11. Local delivery passes, but destination processing was not observed.
+expected: Keep destination rendition NOT_OBSERVED or NOT_TESTED.
+state:
+evidence:
+
+12. Nineteen lines pass and one required disclosure is NOT_TESTED.
+expected: Hold the release unit; do not average the missing check into approval.
+state:
+evidence:
+
+failure_test_gate_state:
+failure_test_gate_evidence:
+failure_test_gate_notes:
+
+==========================================================================
+K. TWENTY-CHECK FINAL REVIEW
+==========================================================================
+
+Record one evidence state and evidence reference for every item.
+
+01. Exact text, source, edit, mix, and delivery identities are recorded.
+state:                         evidence:
+
+02. Destination processing remains separate from local evidence.
+state:                         evidence:
+
+03. Every required line maps to the current script revision.
+state:                         evidence:
+
+04. Meaning pivots, quantities, actions, disclosures, sequences, and boundaries
+    are marked where relevant.
+state:                         evidence:
+
+05. Pronunciation-sensitive tokens have an explicit intended reading.
+state:                         evidence:
+
+06. Acceptable variants are not mislabeled as universally wrong.
+state:                         evidence:
+
+07. Voice origin, authority, disclosure, and listening quality are separate.
+state:                         evidence:
+
+08. Private speech, notifications, names, and hidden audio were reviewed.
+state:                         evidence:
+
+09. The complete voice edit was heard in isolation.
+state:                         evidence:
+
+10. Cuts, substitutions, repeats, omissions, and mergers were checked.
+state:                         evidence:
+
+11. The complete picture-and-sound mix was heard at normal speed.
+state:                         evidence:
+
+12. Music, effects, transitions, and processing preserve semantic-load tokens.
+state:                         evidence:
+
+13. Opening, tail, fades, cuts, and dense boundaries were replayed.
+state:                         evidence:
+
+14. Exact delivery bytes, not only the editor timeline, were reviewed.
+state:                         evidence:
+
+15. Voice, captions, picture, and timing preserve compatible meaning.
+state:                         evidence:
+
+16. One channel is not used to excuse a defect in another.
+state:                         evidence:
+
+17. Required FAIL, BLOCKED, NOT_TESTED, or UNCERTAIN states prevent approval.
+state:                         evidence:
+
+18. Changes supersede and reopen only the evidence they can affect.
+state:                         evidence:
+
+19. Local listening is not described as destination, upload, or publication.
+state:                         evidence:
+
+20. The final claim stays within the recorded candidate and review scope.
+state:                         evidence:
+
+==========================================================================
+L. TERMINAL DECISION
+==========================================================================
+
+Select exactly one:
+[ ] READY_WITHIN_RECORDED_SCOPE
+[ ] HOLD_FOR_TEXT_OR_VOICE_REPAIR
+[ ] HOLD_FOR_MIX_REPAIR
+[ ] BLOCKED_ON_ORIGIN_OR_AUTHORITY
+[ ] BLOCKED_ON_MISSING_SURFACE
+[ ] SUPERSEDE_AND_REVIEW_AGAIN
+[ ] NOT_TESTED
+
+selected_decision:
+decision_scope:
+blocking_states:
+required_repairs:
+required_rechecks:
+applicable_historical_evidence:
+superseded_evidence:
+final_delivery_byte_identity:
+destination_rendition_state: NOT_OBSERVED
+publication_state: NOT_PUBLIC
+
+Permitted bounded claim, if supported:
+“The exact reviewed delivery candidate preserves the declared narration meaning
+across its admitted voice source, timed edit, complete mix, captions, picture,
+and inspected delivery surfaces under the recorded checks.”
+
+Do not claim from this worksheet alone:
+- universal pronunciation or comprehension;
+- ownership, permission, or likeness authority beyond the recorded basis;
+- accessibility conformance;
+- destination processing or public availability;
+- audience response, conversion, revenue, or performance improvement;
+- authorization to upload, publish, promote, contact, or conduct outreach.
+
+Final notes:
+
+End of worksheet.
