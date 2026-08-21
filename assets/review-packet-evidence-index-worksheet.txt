@@ -1,0 +1,399 @@
+REVIEW PACKET EVIDENCE INDEX — COPYABLE WORKSHEET
+=================================================
+
+Original worksheet by Alfred, an AI assistant.
+
+PURPOSE
+-------
+Bind one review decision to one exact candidate, a closed inventory of required
+evidence, scoped observations, explicit blind spots, and dependency-aware expiry
+triggers. A completed index can support a narrow review decision; it does not by
+itself prove rights, safety, quality, accessibility, transfer, publication,
+audience response, or business results.
+
+SAFE USE
+--------
+- Use synthetic examples or authorized material only.
+- Record safe relative artifact names, never credentials, account data, contact
+  details, notifications, hidden tabs, or private workstation paths.
+- Capture the least revealing artifact that supports the declared observation.
+- Keep restricted review material outside a public release bundle by default.
+- Treat a redaction, crop, transcript, contact sheet, or converted file as a new
+  artifact with its own lineage and limits.
+- Preserve failures and superseded evidence as history; do not rewrite them into
+  passes after repair.
+- Keep local review, private transfer, destination processing, public release,
+  and logged-out public verification as separate states.
+
+EVIDENCE STATE VOCABULARY
+-------------------------
+PASS_WITHIN_DECLARED_SCOPE
+  The item supports its named observation for the exact bound identity and
+  declared method. It does not approve unrelated review lanes.
+
+FAIL
+  The declared check found a condition that blocks the requested decision.
+
+BLOCKED
+  A required identity, authority, input, tool, or dependency is unavailable.
+
+MISSING
+  A required artifact or observation is absent from the packet.
+
+NOT_TESTED
+  The required check was declared but not performed.
+
+UNCERTAIN
+  The artifact or method cannot support a reliable observation.
+
+SUPERSEDED
+  The evidence belongs to an older candidate, method, manifest, or decision
+  basis. Preserve it, but do not use it for the current decision.
+
+NOT_APPLICABLE_WITH_REASON
+  The slot does not apply within the recorded scope, and the reason is explicit.
+
+A required FAIL, BLOCKED, MISSING, NOT_TESTED, UNCERTAIN, or SUPERSEDED item is
+non-passing. Do not average it against green rows.
+
+PART A — DECISION ENVELOPE
+--------------------------
+Packet ID:
+Packet revision:
+Created at, with timezone:
+Review cutoff, with timezone:
+Reviewer role, if needed:
+
+Candidate ID:
+Candidate immutable digest or revision:
+Manifest ID and revision:
+Candidate state: LOCAL / PRIVATE_TRANSFERRED / PUBLIC / OTHER:
+Requested decision:
+Decision authority:
+Decision expiry:
+
+States explicitly not established by this packet:
+[ ] RIGHTS OR PERMISSION
+[ ] PRIVACY OR SAFETY
+[ ] QUALITY
+[ ] ACCESSIBILITY CONFORMANCE
+[ ] TRANSFER
+[ ] DESTINATION PROCESSING
+[ ] PUBLICATION
+[ ] LOGGED-OUT PUBLIC AVAILABILITY
+[ ] AUDIENCE OR BUSINESS RESULT
+[ ] OTHER:
+
+Envelope state: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING /
+                NOT_TESTED / UNCERTAIN / SUPERSEDED
+Reason:
+
+PART B — REQUIRED EVIDENCE SLOT INVENTORY
+-----------------------------------------
+Declare required slots before results are known. Add, retain, and explain every
+NOT_APPLICABLE_WITH_REASON row; never delete an inconvenient slot.
+
+For each slot, record REQUIRED / OPTIONAL / NOT_APPLICABLE_WITH_REASON.
+[ ] Candidate identity:
+[ ] Manifest identity:
+[ ] Source originality, license, or permission record:
+[ ] Attribution decision:
+[ ] Privacy and sensitive-content review:
+[ ] Complete picture playback:
+[ ] Complete sound playback:
+[ ] Timed-text syntax review:
+[ ] Timed-text meaning and timing review:
+[ ] Opening and ending inspection:
+[ ] Crop, boundary, and readability inspection:
+[ ] Metadata and discovery-copy review:
+[ ] Package-member closure:
+[ ] Byte identity:
+[ ] Known exceptions and remaining unknowns:
+[ ] Destination observation, only after authorized transfer:
+[ ] Other:
+
+Required slot count:
+Optional slot count:
+Not-applicable slot count:
+Slot inventory frozen at:
+Inventory state: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING /
+                 NOT_TESTED / UNCERTAIN / SUPERSEDED
+Reason:
+
+PART C — EVIDENCE ITEM RECORD
+-----------------------------
+Repeat this block for every admitted item.
+
+EVIDENCE ITEM [number]
+Evidence ID:
+Artifact safe relative name:
+Media or record type:
+Restricted or public-candidate handling: RESTRICTED / PUBLIC_CANDIDATE / UNKNOWN
+
+Bound object class:
+[ ] EXACT CANDIDATE BYTES
+[ ] SOURCE REVISION
+[ ] MANIFEST REVISION
+[ ] PACKAGE MEMBER
+[ ] DESTINATION OBSERVATION
+[ ] OTHER:
+Bound object ID:
+Bound object digest or immutable revision:
+
+Producer or capture method:
+Producer version or revision, when relevant:
+Input identity:
+Review-relevant parameters:
+Output identity:
+Coverage or sampling rule:
+
+Supported review lane:
+[ ] IDENTITY
+[ ] RIGHTS OR ATTRIBUTION
+[ ] PRIVACY OR SAFETY
+[ ] PICTURE
+[ ] SOUND
+[ ] TIMED TEXT
+[ ] METADATA OR DISCOVERY COPY
+[ ] PACKAGE CLOSURE
+[ ] DESTINATION OBSERVATION
+[ ] OTHER:
+
+Observation — state only what the method found:
+Important blind spots — state what the item cannot support:
+Invalidated by:
+Observed at, with timezone:
+Evidence state: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING /
+                NOT_TESTED / UNCERTAIN / SUPERSEDED /
+                NOT_APPLICABLE_WITH_REASON
+Reason:
+
+PART D — ARTIFACT / OBSERVATION / DECISION SEPARATION
+-----------------------------------------------------
+Repeat for each decision that depends on one or more evidence items.
+
+Decision ID:
+Decision lane:
+Exact requested conclusion:
+Required evidence IDs:
+Optional evidence IDs:
+
+Artifact identities confirmed: YES / NO / NOT_TESTED / UNCERTAIN
+Observations scoped to declared methods: YES / NO / NOT_TESTED / UNCERTAIN
+Required evidence current: YES / NO / NOT_TESTED / UNCERTAIN
+Required states all passing: YES / NO / NOT_TESTED / UNCERTAIN
+Cross-item conflicts present: YES / NO / NOT_TESTED / UNCERTAIN
+
+Bounded decision:
+Decision state: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING /
+                NOT_TESTED / UNCERTAIN / SUPERSEDED
+Remaining unknowns:
+Invalidated by:
+
+Do not use a checksum as a picture, sound, rights, privacy, or quality decision.
+Do not use a sampled frame as proof of complete playback. Do not use a clean
+caption parse as proof of timing, meaning, or destination rendering.
+
+PART E — SENSITIVE-MATERIAL MINIMIZATION
+----------------------------------------
+For every capture or retained review artifact, check:
+
+[ ] A deterministic fixture replaces private material where possible.
+[ ] The capture includes only context needed for the declared observation.
+[ ] Account controls, notifications, hidden tabs, and unrelated records are absent.
+[ ] Credentials, tokens, contact details, and private paths are absent.
+[ ] Embedded metadata was inspected and unnecessary metadata removed.
+[ ] A crop does not hide context needed to interpret the observation.
+[ ] A redaction has recorded lineage and cannot reveal the removed content.
+[ ] Textual observation is used instead of pixels when pixels add no value.
+[ ] Restricted originals remain outside the public release bundle.
+[ ] Every proposed public evidence item has its own usefulness, privacy, rights,
+    accessibility, and publication decision.
+
+Minimization state: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING /
+                    NOT_TESTED / UNCERTAIN
+Evidence or blocker:
+
+PART F — PACKET CLOSURE MATRIX
+------------------------------
+Copy every required slot from Part B. Do not omit failed or empty rows.
+
+SLOT [number]
+Required slot:
+Evidence IDs:
+Latest observation:
+Blind spot:
+State: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING / NOT_TESTED /
+       UNCERTAIN / SUPERSEDED / NOT_APPLICABLE_WITH_REASON
+Invalidation trigger:
+Reason:
+
+Required slot total:
+Required passing total:
+Required non-passing total:
+Not-applicable rows with reasons:
+Unindexed packet artifacts:
+Conflicting identities or observations:
+
+Closure rule:
+- Every required slot has current evidence tied to the exact candidate.
+- Every passing item names its method, scope, blind spot, and invalidator.
+- No unindexed item is used to support the decision.
+- No required non-passing state is averaged into approval.
+
+Closure state: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING /
+               NOT_TESTED / UNCERTAIN / SUPERSEDED
+Reason:
+
+PART G — DEPENDENCY AND INVALIDATION MAP
+----------------------------------------
+Record which decisions reopen after each class of change.
+
+Candidate-byte change reopens:
+Narration change reopens:
+Visible-text or picture change reopens:
+Timed-text change reopens:
+Source, license, or permission change reopens:
+Manifest or package-member change reopens:
+Capture method or parameter change reopens:
+Decision-scope change reopens:
+Destination transfer creates these NOT_TESTED surfaces:
+New privacy, rights, or safety information reopens:
+Other dependency:
+
+Can any evidence remain current after this change? YES / NO / UNCERTAIN
+If YES, item IDs and explicit independence basis:
+Superseded item IDs:
+Replacement item IDs:
+New packet or decision revision:
+
+PART H — FICTIONAL MISMATCH EXERCISE
+------------------------------------
+Use only synthetic identifiers. This exercise checks the method, not a real
+encoder, player, host, account, upload, or platform.
+
+Current candidate: VIDEO-R09
+Current manifest: MANIFEST-R04
+Picture contact sheet bound to: VIDEO-R09
+Caption syntax record bound to: VIDEO-R09
+Rights record bound to: admitted synthetic source set
+Complete listening record bound to: VIDEO-R08
+Byte identity record bound to: VIDEO-R08
+
+Expected item states:
+Picture contact sheet: PASS_WITHIN_DECLARED_SCOPE
+Caption syntax: PASS_WITHIN_DECLARED_SCOPE
+Rights record: PASS_WITHIN_DECLARED_SCOPE
+Complete listening: SUPERSEDED
+Byte identity: SUPERSEDED
+Package closure: FAIL
+Release decision: HOLD_FOR_R09_LISTENING_AND_IDENTITY
+Publication state: NOT_PUBLIC
+
+Observed method result:
+Did the index refuse to relabel R08 evidence as R09 evidence? YES / NO
+Did required superseded evidence prevent closure? YES / NO
+Repair evidence IDs:
+Exercise state: PASS_WITHIN_DECLARED_SCOPE / FAIL / NOT_TESTED / UNCERTAIN
+
+FAILURE-SHAPED METHOD TESTS
+---------------------------
+TEST 1 — SCREENSHOT FOLDER AS APPROVAL
+Provide many unlabeled screenshots without candidate identity or decision scope.
+Expected: BLOCKED; volume does not repair missing identity and scope.
+State:
+
+TEST 2 — MATCHING FILENAME, CHANGED BYTES
+Replace the candidate while keeping its filename and old review artifacts.
+Expected: SUPERSEDED; bind fresh evidence to the new byte identity.
+State:
+
+TEST 3 — CONTACT SHEET AS COMPLETE PLAYBACK
+Use sampled frames to claim every frame, sound, caption, and boundary passed.
+Expected: FAIL; retain only the declared coarse picture observation.
+State:
+
+TEST 4 — CHECKSUM AS QUALITY REVIEW
+Use a matching digest to claim the media is readable, rights-safe, and useful.
+Expected: FAIL; byte equality cannot establish those lanes.
+State:
+
+TEST 5 — CLEAN PARSE AS CAPTION APPROVAL
+Use syntactically valid timed text to claim timing and meaning are correct.
+Expected: FAIL; perform separate timing and meaning review.
+State:
+
+TEST 6 — EMPTY REQUIRED ROW
+Leave a required slot blank and close the packet because other rows pass.
+Expected: MISSING or NOT_TESTED; the decision remains non-passing.
+State:
+
+TEST 7 — HIDDEN FAILURE
+Delete a failed row after repair and retain only the replacement pass.
+Expected: FAIL; preserve history and supersede it explicitly.
+State:
+
+TEST 8 — PRIVATE CAPTURE OVERCOLLECTION
+Capture a full workspace when one synthetic crop would support the observation.
+Expected: FAIL; minimize or replace the artifact before retention.
+State:
+
+TEST 9 — REDACTION WITHOUT LINEAGE
+Publish a redacted artifact while claiming facts visible only in removed context.
+Expected: UNCERTAIN or FAIL; public evidence must support the public claim.
+State:
+
+TEST 10 — METHOD CHANGE WITHOUT REGENERATION
+Change the frame sampler but retain the old output as current evidence.
+Expected: SUPERSEDED; regenerate and record the new method and parameters.
+State:
+
+TEST 11 — LOCAL CLOSURE AS DESTINATION PROOF
+Use a complete local packet to claim processing or public availability.
+Expected: FAIL; destination surfaces require separate observations.
+State:
+
+TEST 12 — CONVENIENT CROSS-CANDIDATE REUSE
+Reuse an older listening result because only narration changed.
+Expected: SUPERSEDED; narration change reopens listening and dependent checks.
+State:
+
+FINAL TWENTY-CHECK REVIEW
+-------------------------
+1. Is the requested decision explicit?
+2. Are the exact candidate and manifest identified?
+3. Are publication and destination states truthful?
+4. Were required evidence slots declared before closure?
+5. Do missing and failed slots remain visible?
+6. Does every item have a stable evidence ID?
+7. Does every item name its exact bound object?
+8. Do generated items record method, input, parameters, output, and coverage?
+9. Are artifacts, observations, and decisions recorded separately?
+10. Does every observation name its scope and important blind spot?
+11. Are rights, privacy, picture, sound, timed text, metadata, package, and
+    destination lanes kept distinct?
+12. Does every combined decision cite its required evidence IDs?
+13. Is evidence from another candidate non-passing for the current candidate?
+14. Are sensitive captures minimized and restricted artifacts excluded publicly?
+15. Do BLOCKED, MISSING, NOT_TESTED, UNCERTAIN, and SUPERSEDED remain non-passing?
+16. Does every pass have an invalidation trigger?
+17. Do repairs add new evidence instead of rewriting failed history?
+18. Is unaffected evidence reused only with an explicit independence basis?
+19. Are local review and destination observation separate?
+20. Does the final claim state both what was reviewed and what remains unknown?
+
+FINAL REVIEW STATE: PASS_WITHIN_DECLARED_SCOPE / FAIL / BLOCKED / MISSING /
+                    NOT_TESTED / UNCERTAIN / SUPERSEDED
+Final bounded claim:
+Remaining unknowns:
+Decision invalidators:
+
+RIGHTS AND PROVENANCE
+---------------------
+This worksheet, evidence-index structure, state vocabulary, fictional mismatch
+exercise, failure-shaped tests, and final review are original work by Alfred, an
+AI assistant. They contain no third-party media, copied review packet, personal
+attribution, account data, real upload, publication, customer, audience, metric,
+legal conclusion, accessibility result, or platform outcome. A filled copy
+inherits the rights, privacy, authority, accuracy, safety, and retention duties
+of the material entered into it.

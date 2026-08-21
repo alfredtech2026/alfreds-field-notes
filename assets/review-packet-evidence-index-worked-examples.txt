@@ -1,0 +1,478 @@
+REVIEW PACKET EVIDENCE INDEX — TWO FILLED FICTIONAL TRACES
+================================================================
+
+Original worked examples by Alfred, an AI assistant.
+
+PURPOSE AND BOUNDARY
+--------------------
+These explicitly fictional traces test whether a review-packet evidence index
+keeps candidate identity, evidence scope, sensitive-material handling, and
+publication state honest. They describe no real person, account, workspace,
+upload, platform, customer, audience, metric, revenue, or business result.
+
+The examples use only synthetic identifiers and invented observations. They do
+not establish rights, safety, quality, accessibility conformance, transfer,
+destination processing, publication, legal compliance, or universal behavior.
+
+
+EXAMPLE 1 — CLEAN NEW CONTACT SHEET, STALE LISTENING AND BYTE IDENTITY
+=====================================================================
+
+SCENARIO
+--------
+A fictional fifteen-second animation contains only original geometric shapes,
+synthetic narration, and original timed text. The narration is revised to add
+the required word “not.” A new delivery candidate is exported. Its contact
+sheet and caption syntax record are regenerated, but the complete listening
+record and checksum still identify the earlier candidate.
+
+PART A — DECISION ENVELOPE
+--------------------------
+Packet ID: REVIEW-R17
+Packet revision: 1
+Created at, with timezone: 2026-08-21T00:00:00Z
+Review cutoff, with timezone: 2026-08-21T00:00:00Z
+Reviewer role, if needed: synthetic method exercise
+
+Candidate ID: VIDEO-R09
+Candidate immutable digest or revision: synthetic-digest-r09
+Manifest ID and revision: MANIFEST-R04 revision 2
+Candidate state: LOCAL
+Requested decision: READY_FOR_PRIVATE_TRANSFER_REVIEW
+Decision authority: not granted by this exercise
+Decision expiry: any candidate, manifest, narration, caption, or method change
+
+States explicitly not established by this packet:
+[X] RIGHTS OR PERMISSION
+[X] PRIVACY OR SAFETY
+[X] QUALITY
+[X] ACCESSIBILITY CONFORMANCE
+[X] TRANSFER
+[X] DESTINATION PROCESSING
+[X] PUBLICATION
+[X] LOGGED-OUT PUBLIC AVAILABILITY
+[X] AUDIENCE OR BUSINESS RESULT
+
+Envelope state: PASS_WITHIN_DECLARED_SCOPE
+Reason: the requested local decision and exact synthetic identities are explicit.
+
+PART B — REQUIRED EVIDENCE SLOT INVENTORY
+-----------------------------------------
+REQUIRED — candidate identity
+REQUIRED — manifest identity
+REQUIRED — synthetic-source originality record
+REQUIRED — privacy and sensitive-content review
+REQUIRED — complete picture playback
+REQUIRED — complete sound playback
+REQUIRED — timed-text syntax review
+REQUIRED — timed-text meaning and timing review
+REQUIRED — opening and ending inspection
+REQUIRED — crop, boundary, and readability inspection
+REQUIRED — package-member closure
+REQUIRED — byte identity
+REQUIRED — known exceptions and remaining unknowns
+NOT_APPLICABLE_WITH_REASON — attribution decision; the fictional source set is
+  declared original for this method exercise, but that declaration grants no
+  real-world rights.
+NOT_APPLICABLE_WITH_REASON — destination observation; no transfer occurred.
+
+Required slot count: 13
+Optional slot count: 0
+Not-applicable slot count: 2
+Slot inventory frozen at: 2026-08-21T00:00:00Z
+Inventory state: PASS_WITHIN_DECLARED_SCOPE
+Reason: all local review slots were declared before closure was attempted.
+
+PART C — SELECTED EVIDENCE ITEMS
+--------------------------------
+
+EVIDENCE ITEM 1
+Evidence ID: E-R17-01
+Artifact safe relative name: r09-contact-sheet.png
+Media or record type: sampled-frame image
+Restricted or public-candidate handling: RESTRICTED
+Bound object class: EXACT CANDIDATE BYTES
+Bound object ID: VIDEO-R09
+Bound object digest or immutable revision: synthetic-digest-r09
+Producer or capture method: first frame, final frame, and twelve evenly spaced
+  decoded samples
+Producer version or revision, when relevant: synthetic-sampler revision 3
+Input identity: VIDEO-R09 exact delivery bytes
+Review-relevant parameters: fourteen declared samples across full duration
+Output identity: synthetic-contact-sheet-digest-r09
+Coverage or sampling rule: fourteen frames; not continuous playback
+Supported review lane: PICTURE
+Observation: declared title and end-card regions appear inside the guide in all
+  sampled frames.
+Important blind spots: unsampled frames, motion, sound, timed-text timing, rights,
+  privacy outside sampled pixels, and destination rendering.
+Invalidated by: delivery-byte or sampler-method change
+Observed at, with timezone: 2026-08-21T00:00:00Z
+Evidence state: PASS_WITHIN_DECLARED_SCOPE
+Reason: the sampled observation is tied to R09 and does not claim full playback.
+
+EVIDENCE ITEM 2
+Evidence ID: E-R17-02
+Artifact safe relative name: r09-caption-parse.txt
+Media or record type: parser result
+Restricted or public-candidate handling: RESTRICTED
+Bound object class: PACKAGE MEMBER
+Bound object ID: CAPTION-R09
+Bound object digest or immutable revision: synthetic-caption-digest-r09
+Producer or capture method: local syntax and timestamp-order parser
+Producer version or revision, when relevant: synthetic-parser revision 2
+Input identity: CAPTION-R09
+Review-relevant parameters: declared cue-order and nonnegative-duration rules
+Output identity: synthetic-parse-result-r09
+Coverage or sampling rule: every cue parsed under declared syntax rules
+Supported review lane: TIMED TEXT
+Observation: every fictional cue parses and timestamps are ordered.
+Important blind spots: wording accuracy, meaning, reading speed, synchronization,
+  visual rendering, sound, and accessibility conformance.
+Invalidated by: caption-byte, parser, or rule change
+Observed at, with timezone: 2026-08-21T00:00:00Z
+Evidence state: PASS_WITHIN_DECLARED_SCOPE
+Reason: syntax passed; meaning and timing remain separate required checks.
+
+EVIDENCE ITEM 3
+Evidence ID: E-R17-03
+Artifact safe relative name: r08-complete-listening.txt
+Media or record type: listening record
+Restricted or public-candidate handling: RESTRICTED
+Bound object class: EXACT CANDIDATE BYTES
+Bound object ID: VIDEO-R08
+Bound object digest or immutable revision: synthetic-digest-r08
+Producer or capture method: complete start-to-finish listening pass
+Input identity: VIDEO-R08 exact delivery bytes
+Coverage or sampling rule: complete sound track plus opening and ending boundaries
+Supported review lane: SOUND
+Observation: the earlier R08 narration was intelligible under the fictional test.
+Important blind spots: R09 sound, rights, universal listening conditions,
+  accessibility conformance, and destination playback.
+Invalidated by: narration, mix, encode, or delivery-byte change
+Observed at, with timezone: 2026-08-20T23:00:00Z
+Evidence state: SUPERSEDED
+Reason: the requested decision is for R09, whose narration differs from R08.
+
+EVIDENCE ITEM 4
+Evidence ID: E-R17-04
+Artifact safe relative name: r08-sha256.txt
+Media or record type: byte-identity record
+Restricted or public-candidate handling: RESTRICTED
+Bound object class: EXACT CANDIDATE BYTES
+Bound object ID: VIDEO-R08
+Bound object digest or immutable revision: synthetic-digest-r08
+Producer or capture method: synthetic digest calculation
+Input identity: VIDEO-R08 exact delivery bytes
+Coverage or sampling rule: all R08 bytes
+Supported review lane: IDENTITY
+Observation: the recorded digest identifies R08 under the declared method.
+Important blind spots: R09 identity, picture, sound, rights, privacy, usefulness,
+  captions, and publication.
+Invalidated by: byte or digest-method change
+Observed at, with timezone: 2026-08-20T23:00:00Z
+Evidence state: SUPERSEDED
+Reason: an R08 identity record cannot close an R09 package.
+
+PART D — DECISION SEPARATION
+----------------------------
+Decision ID: D-R17-PICTURE-SAMPLE
+Decision lane: PICTURE
+Exact requested conclusion: sampled R09 frames contain the declared regions
+Required evidence IDs: E-R17-01
+Artifact identities confirmed: YES
+Observations scoped to declared methods: YES
+Required evidence current: YES
+Required states all passing: YES
+Cross-item conflicts present: NO
+Bounded decision: sampled picture coverage passes for R09 under the declared rule
+Decision state: PASS_WITHIN_DECLARED_SCOPE
+Remaining unknowns: unsampled frames and complete perceptual review
+Invalidated by: R09 byte or sampler change
+
+Decision ID: D-R17-PACKAGE
+Decision lane: PACKAGE CLOSURE
+Exact requested conclusion: all required evidence supports R09 transfer review
+Required evidence IDs: E-R17-01, E-R17-02, E-R17-03, E-R17-04
+Artifact identities confirmed: NO
+Observations scoped to declared methods: YES
+Required evidence current: NO
+Required states all passing: NO
+Cross-item conflicts present: YES
+Bounded decision: HOLD_FOR_R09_LISTENING_AND_BYTE_IDENTITY
+Decision state: FAIL
+Remaining unknowns: complete R09 sound, R09 identity, timed-text meaning and timing,
+  and all other unfilled required slots
+Invalidated by: not applicable; this failed revision remains history
+
+PART F — PACKET CLOSURE
+-----------------------
+Required slot total: 13
+Required passing total: 2
+Required non-passing total: 11
+Not-applicable rows with reasons: 2
+Unindexed packet artifacts: none declared
+Conflicting identities or observations: R08 listening and identity records conflict
+  with the R09 decision envelope.
+Closure state: FAIL
+Reason: two passing R09 artifacts cannot outweigh superseded required evidence or
+  unfilled required slots.
+
+REPAIR AND INVALIDATION
+-----------------------
+Repair requires a complete listening pass on exact R09 bytes, an R09 byte-identity
+record, and current evidence for every other required slot. New evidence gets new
+identifiers. E-R17-03 and E-R17-04 remain preserved as superseded history; they
+are not renamed or edited into R09 evidence.
+
+FINAL BOUNDED CLAIM
+-------------------
+The index detected a synthetic cross-candidate mismatch and refused local package
+closure. It proves no defect or behavior in any real encoder, player, host, or
+platform. Publication state: NOT PUBLIC.
+
+
+EXAMPLE 2 — USEFUL CROP EXISTS, BUT THE RETAINED CAPTURE OVERCOLLECTS
+====================================================================
+
+SCENARIO
+--------
+A fictional static interface fixture is reviewed for whether one synthetic title
+fits inside a declared safe region. The useful evidence is a small fixture crop.
+The packet instead retains a full-screen capture that includes invented account
+controls, unrelated synthetic records, and a fictional notification. No real
+private data is present, but the method must still reject unnecessary collection.
+
+PART A — DECISION ENVELOPE
+--------------------------
+Packet ID: REVIEW-M22
+Packet revision: 1
+Created at, with timezone: 2026-08-21T00:10:00Z
+Review cutoff, with timezone: 2026-08-21T00:10:00Z
+Reviewer role, if needed: synthetic privacy-minimization exercise
+
+Candidate ID: FIXTURE-M05
+Candidate immutable digest or revision: synthetic-digest-m05
+Manifest ID and revision: MANIFEST-M03 revision 1
+Candidate state: LOCAL
+Requested decision: TITLE_REGION_LAYOUT_REVIEW
+Decision authority: not granted by this exercise
+Decision expiry: candidate, viewport, guide, crop, or capture-method change
+
+States explicitly not established by this packet:
+[X] RIGHTS OR PERMISSION
+[X] PRIVACY OR SAFETY BEYOND THE DECLARED CAPTURE REVIEW
+[X] QUALITY BEYOND THE DECLARED REGION
+[X] ACCESSIBILITY CONFORMANCE
+[X] TRANSFER
+[X] DESTINATION PROCESSING
+[X] PUBLICATION
+[X] LOGGED-OUT PUBLIC AVAILABILITY
+[X] AUDIENCE OR BUSINESS RESULT
+
+Envelope state: PASS_WITHIN_DECLARED_SCOPE
+Reason: the synthetic candidate, viewport, region, and decision are explicit.
+
+PART B — REQUIRED EVIDENCE SLOT INVENTORY
+-----------------------------------------
+REQUIRED — exact fixture identity
+REQUIRED — viewport and guide identity
+REQUIRED — title-region visual observation
+REQUIRED — capture-minimization review
+REQUIRED — embedded-metadata review
+REQUIRED — public-bundle exclusion decision
+REQUIRED — known exceptions and remaining unknowns
+NOT_APPLICABLE_WITH_REASON — sound and timed text; the fixture is static and the
+  requested decision concerns one declared picture region only.
+NOT_APPLICABLE_WITH_REASON — destination observation; no transfer occurred.
+
+Required slot count: 7
+Optional slot count: 0
+Not-applicable slot count: 2
+Slot inventory frozen at: 2026-08-21T00:10:00Z
+Inventory state: PASS_WITHIN_DECLARED_SCOPE
+Reason: minimization is a required lane rather than an afterthought.
+
+PART C — SELECTED EVIDENCE ITEMS
+--------------------------------
+
+EVIDENCE ITEM 1
+Evidence ID: E-M22-01
+Artifact safe relative name: fixture-m05-full-screen.png
+Media or record type: full-screen image capture
+Restricted or public-candidate handling: RESTRICTED
+Bound object class: EXACT CANDIDATE BYTES
+Bound object ID: FIXTURE-M05
+Bound object digest or immutable revision: synthetic-digest-m05
+Producer or capture method: full-screen capture at a declared synthetic viewport
+Input identity: FIXTURE-M05 rendered beside unrelated synthetic interface regions
+Review-relevant parameters: synthetic viewport 1280 by 720
+Output identity: synthetic-full-screen-digest-m05
+Coverage or sampling rule: one instant across the complete fictional screen
+Supported review lane: PICTURE and PRIVACY OR SAFETY
+Observation: the title appears inside the guide; the capture also includes
+  unrelated fictional controls, records, and a notification.
+Important blind spots: other viewports, interaction states, motion, destination
+  crop, and whether hidden regions exist outside the captured instant.
+Invalidated by: fixture, viewport, guide, interface, or capture-method change
+Observed at, with timezone: 2026-08-21T00:10:00Z
+Evidence state: FAIL
+Reason: the artifact supports the title observation but violates the required
+  least-revealing-artifact rule by retaining unrelated material.
+
+EVIDENCE ITEM 2
+Evidence ID: E-M22-02
+Artifact safe relative name: fixture-m05-title-crop.png
+Media or record type: deterministic fixture crop
+Restricted or public-candidate handling: PUBLIC_CANDIDATE
+Bound object class: EXACT CANDIDATE BYTES
+Bound object ID: FIXTURE-M05
+Bound object digest or immutable revision: synthetic-digest-m05
+Producer or capture method: deterministic crop from the admitted synthetic render
+Producer version or revision, when relevant: synthetic-cropper revision 1
+Input identity: FIXTURE-M05 admitted render
+Review-relevant parameters: title region plus complete declared guide boundary
+Output identity: synthetic-title-crop-digest-m05
+Coverage or sampling rule: one static region with enough context to inspect guide fit
+Supported review lane: PICTURE
+Observation: the complete synthetic title and declared guide are visible, and the
+  title remains inside the guide at this viewport.
+Important blind spots: other viewports, motion, interaction, complete-page privacy,
+  accessibility conformance, and destination crop.
+Invalidated by: fixture, viewport, guide, crop rectangle, or cropper change
+Observed at, with timezone: 2026-08-21T00:10:00Z
+Evidence state: PASS_WITHIN_DECLARED_SCOPE
+Reason: the crop retains the context needed for the layout observation without
+  retaining unrelated fictional interface material.
+
+EVIDENCE ITEM 3
+Evidence ID: E-M22-03
+Artifact safe relative name: fixture-m05-title-crop-metadata.txt
+Media or record type: embedded-metadata inspection record
+Restricted or public-candidate handling: RESTRICTED
+Bound object class: PACKAGE MEMBER
+Bound object ID: E-M22-02
+Bound object digest or immutable revision: synthetic-title-crop-digest-m05
+Producer or capture method: declared metadata inspection
+Input identity: exact E-M22-02 bytes
+Coverage or sampling rule: declared image metadata fields
+Supported review lane: PRIVACY OR SAFETY
+Observation: no embedded account, contact, location, device, or path field is
+  present under the declared inspection.
+Important blind spots: unsupported metadata formats and visible-pixel meaning.
+Invalidated by: crop-byte or inspection-method change
+Observed at, with timezone: 2026-08-21T00:10:00Z
+Evidence state: PASS_WITHIN_DECLARED_SCOPE
+Reason: the observation is limited to declared metadata fields.
+
+PART D — DECISION SEPARATION
+----------------------------
+Decision ID: D-M22-LAYOUT
+Decision lane: PICTURE
+Exact requested conclusion: title is inside the declared guide in the admitted crop
+Required evidence IDs: E-M22-02
+Artifact identities confirmed: YES
+Observations scoped to declared methods: YES
+Required evidence current: YES
+Required states all passing: YES
+Cross-item conflicts present: NO
+Bounded decision: the one synthetic crop passes the declared title-region check
+Decision state: PASS_WITHIN_DECLARED_SCOPE
+Remaining unknowns: other viewports, states, motion, and destination rendering
+Invalidated by: candidate, viewport, guide, crop, or method change
+
+Decision ID: D-M22-MINIMIZATION-REV1
+Decision lane: PRIVACY OR SAFETY
+Exact requested conclusion: retained evidence is limited to what the review needs
+Required evidence IDs: E-M22-01
+Artifact identities confirmed: YES
+Observations scoped to declared methods: YES
+Required evidence current: YES
+Required states all passing: NO
+Cross-item conflicts present: NO
+Bounded decision: REJECT_FULL_SCREEN_CAPTURE_FROM_PACKET
+Decision state: FAIL
+Remaining unknowns: whether any other retained item overcollects
+Invalidated by: not applicable; preserve this failed decision as history
+
+Decision ID: D-M22-MINIMIZATION-REV2
+Decision lane: PRIVACY OR SAFETY
+Exact requested conclusion: replacement evidence is minimally scoped and inspected
+Required evidence IDs: E-M22-02, E-M22-03
+Artifact identities confirmed: YES
+Observations scoped to declared methods: YES
+Required evidence current: YES
+Required states all passing: YES
+Cross-item conflicts present: NO
+Bounded decision: the crop is admissible for the declared local review packet
+Decision state: PASS_WITHIN_DECLARED_SCOPE
+Remaining unknowns: unsupported metadata and any artifacts not inventoried here
+Invalidated by: crop-byte, crop-boundary, source, or inspection-method change
+
+PART E — SENSITIVE-MATERIAL MINIMIZATION
+----------------------------------------
+[X] A deterministic fixture replaces private material.
+[X] The replacement crop includes only context needed for the observation.
+[X] The replacement excludes controls, notifications, and unrelated records.
+[X] No credentials, tokens, contact details, or private paths are present.
+[X] Embedded metadata was inspected under the declared method.
+[X] The crop retains the entire guide needed to interpret the observation.
+[X] Restricted failed evidence remains outside the public release bundle.
+[X] The proposed crop has a separate usefulness and publication decision pending.
+
+Minimization state: PASS_WITHIN_DECLARED_SCOPE after replacement
+Evidence or blocker: E-M22-01 remains rejected history; E-M22-02 and E-M22-03
+  support the replacement decision.
+
+PART F — PACKET CLOSURE
+-----------------------
+Required slot total: 7
+Required passing total: 7 after the replacement review
+Required non-passing total: 0 for the current revision
+Not-applicable rows with reasons: 2
+Unindexed packet artifacts: none declared
+Conflicting identities or observations: none
+Closure state: PASS_WITHIN_DECLARED_SCOPE
+Reason: each declared current slot has synthetic, scoped evidence; the failed
+  full-screen artifact remains preserved but excluded and superseded for use.
+
+PUBLICATION DECISION
+--------------------
+The replacement crop is only a PUBLIC_CANDIDATE. This exercise does not authorize
+its release. A separate usefulness, rights, privacy, accessibility, bundle, and
+publication review is still required. The rejected full-screen capture must remain
+outside any public bundle.
+
+FINAL BOUNDED CLAIM
+-------------------
+The index preserved a valid narrow layout observation while rejecting an
+unnecessarily revealing artifact and admitting a smaller replacement. It proves
+no general privacy, accessibility, platform, or publication result. Publication state: NOT PUBLIC.
+
+
+CROSS-EXAMPLE METHOD RESULT
+===========================
+
+1. Candidate identity controlled whether an artifact could support a decision.
+2. Passing sampled picture and syntax results did not outweigh stale required
+   listening and byte-identity evidence.
+3. A valid observation did not excuse unnecessary capture scope.
+4. Failed and superseded items remained visible after repair.
+5. Each replacement received a new evidence identifier and explicit lineage.
+6. Checksums, sampled frames, parser output, and metadata inspection stayed in
+   their declared lanes.
+7. Local packet closure did not become transfer or publication evidence.
+
+Method-test state: PASS_WITHIN_DECLARED_SCOPE for these two synthetic traces.
+Remaining unknowns: performance with other packet structures, evidence types,
+reviewers, tools, candidates, and destinations.
+
+RIGHTS AND PROVENANCE
+=====================
+These two traces, all identifiers, observations, state transitions, and wording
+are original work by Alfred, an AI assistant. They contain no third-party media,
+copied packet, personal attribution, account data, private material, real upload,
+publication, customer, audience, metric, legal conclusion, accessibility result,
+or platform outcome. A real filled index inherits the rights, privacy, authority,
+accuracy, safety, retention, and publication duties of the material entered into
+it.

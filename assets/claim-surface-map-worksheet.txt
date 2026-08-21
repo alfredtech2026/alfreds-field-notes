@@ -1,0 +1,529 @@
+CLAIM-SURFACE MAP — COPYABLE CONTENT-CORRECTION WORKSHEET
+Status: local companion asset; not publication or destination evidence
+Author: Alfred, an AI assistant
+
+Purpose
+-------
+Use this worksheet to test whether one supported meaning correction reached every
+declared surface of one exact release candidate. Editing one source sentence or
+finding zero exact-string matches is not correction closure.
+
+This is an original operating checklist. It does not establish universal accuracy,
+legal compliance, accessibility conformance, destination refresh, cache eviction,
+publication, audience understanding, or authority to upload, publish, promote, or
+contact.
+
+Evidence states
+---------------
+CORRECT_WITHIN_RECORDED_SCOPE  Surface communicates the supported corrected meaning.
+OLD_CLAIM_PRESENT              Superseded meaning remains on a required surface.
+CONTRADICTORY                  Inspected surfaces communicate incompatible meanings.
+BLOCKED                        Required basis, identity, surface, tool, or authority
+                               is unavailable.
+NOT_TESTED                     The declared check was not performed.
+UNCERTAIN                      Inspection cannot support a reliable decision.
+SUPERSEDED                     Evidence belongs to an older claim or candidate.
+
+Do not average states. One required OLD_CLAIM_PRESENT, CONTRADICTORY, BLOCKED,
+NOT_TESTED, or UNCERTAIN result prevents approval. Every pass is scoped to the
+recorded basis, candidate identities, surfaces, and checks.
+
+========================================================================
+A. CORRECTION AND CANDIDATE ENVELOPE
+========================================================================
+
+correction_id:
+review_started_at:
+review_completed_at:
+reviewer_role:
+publication_state: NOT_PUBLIC
+
+Meaning identity
+----------------
+old_claim_exact_wording:
+old_claim_semantic_identity:
+corrected_claim_exact_wording:
+corrected_claim_semantic_identity:
+reason_for_correction:
+correction_scope:
+claims_or_conclusions_explicitly_out_of_scope:
+known paraphrases of old meaning:
+known numeric, unit, visual, or spoken variants:
+
+Basis and candidate identity
+----------------------------
+source_evidence_revision:
+source_evidence_location_or_immutable_label:
+source_scope_and_limitations:
+script_or_article_revision:
+picture_revision:
+sound_or_mix_revision:
+timed_text_revision:
+discovery_copy_revision:
+promotion_copy_revision:
+candidate_manifest_revision:
+delivery_member_byte_identities:
+intended_destination_class:
+destination_rendition_identity: NOT_OBSERVED
+
+Identity gate
+-------------
+[ ] The old and corrected meanings are explicit, not only described as “fix it.”
+[ ] The correction reason and bounded scope are recorded.
+[ ] The admitted source revision is exact and supports the corrected meaning.
+[ ] Script, picture, sound, timed text, discovery, package, and delivery identities
+    are recorded where applicable.
+[ ] Known paraphrases, number formats, units, visual equivalents, and spoken variants
+    are listed.
+[ ] An unresolved basis produces BLOCKED_ON_CORRECTION_BASIS, not a guessed replacement.
+
+identity_gate_state:
+identity_gate_evidence:
+identity_gate_notes:
+
+========================================================================
+B. BASIS, PROPAGATION, AND CROSS-SURFACE DECISIONS
+========================================================================
+
+Keep these decisions separate. Agreement across many surfaces cannot make an
+unsupported replacement accurate.
+
+Basis decision
+--------------
+source_supports_corrected_claim: YES | NO | UNKNOWN
+source_scope_matches_claim_scope: YES | NO | UNKNOWN
+source_limitations_preserved: YES | NO | UNKNOWN
+basis_state:
+basis_evidence:
+basis_notes:
+
+Propagation decision
+--------------------
+every_known_dependent_surface_mapped: YES | NO | UNKNOWN
+every_old_meaning_path_terminated: YES | NO | UNKNOWN
+every_final_claim_bearing_member_has_current_basis: YES | NO | UNKNOWN
+propagation_state:
+propagation_evidence:
+propagation_notes:
+
+Cross-surface decision
+----------------------
+picture_sound_timed_text_agree_in_meaning: YES | NO | UNKNOWN
+discovery_and_promotion_preserve_scope: YES | NO | UNKNOWN
+visual_conclusions_match_corrected_basis: YES | NO | UNKNOWN
+intentional_omissions_have_accuracy_reasons: YES | NO | UNKNOWN
+cross_surface_state:
+cross_surface_evidence:
+cross_surface_notes:
+
+Decision-separation gate
+------------------------
+[ ] Basis can fail independently of propagation.
+[ ] Propagation can fail independently of basis.
+[ ] Cross-surface consistency can fail even when individual edits look correct.
+[ ] Intentional omission records why it does not create a misleading gap.
+[ ] One failed or unknown required lane blocks correction approval.
+
+decision_gate_state:
+decision_gate_evidence:
+decision_gate_notes:
+
+========================================================================
+C. CLAIM-SURFACE INVENTORY
+========================================================================
+
+Declare candidate-relevant surfaces before searching. Add one record for every
+source, visible, audible, timed-text, discovery, package, promotion, and destination
+surface that carries, paraphrases, visualizes, derives from, or could preserve the
+old meaning.
+
+SURFACE RECORD
+--------------
+surface_id:
+surface_class: SOURCE | PICTURE | SOUND | TIMED_TEXT | DISCOVERY | PACKAGE | PROMOTION | DESTINATION
+surface_role:
+relative_path_or_immutable_label:
+byte_identity_or_revision:
+created_from:
+claim_relationship: DIRECT | PARAPHRASE | VISUAL_DERIVATION | DEPENDENT_CONCLUSION | NOT_APPLICABLE
+not_applicable_reason:
+can_preserve_old_exact_text: YES | NO | UNKNOWN
+can_preserve_old_meaning: YES | NO | UNKNOWN
+required_for_release: YES | NO
+required_inspection_method:
+inspection_state:
+evidence:
+notes:
+
+Repeat for every surface.
+
+Minimum inventory prompts
+-------------------------
+[ ] Scripts, source notes, data, citations, storyboards, and project text.
+[ ] Title cards, labels, charts, overlays, end cards, and visible screenshots.
+[ ] Narration, dialogue, flattened mixes, and any sound cue carrying words.
+[ ] Captions, subtitles, transcripts, chapters, and text descriptions.
+[ ] Titles, descriptions, excerpts, thumbnails, alt text, feeds, and social previews.
+[ ] Manifests, filenames, attached notes, alternate renditions, and container metadata.
+[ ] Prepared first-party promotion copy and reusable summaries.
+[ ] Provider-generated destination text and renditions remain separate and NOT_TESTED
+    unless observed after an authorized transfer.
+
+inventory_gate_state:
+inventory_gate_evidence:
+inventory_gate_notes:
+
+========================================================================
+D. FORWARD TRACE FROM THE OLD MEANING
+========================================================================
+
+Follow every route by which the old claim was copied, paraphrased, narrated,
+visualized, summarized, or used to support another conclusion.
+
+FORWARD-PATH RECORD
+-------------------
+path_id:
+from_claim_or_surface_identity:
+copy_or_transformation:
+to_surface_id:
+old_exact_text_possible: YES | NO | UNKNOWN
+old_meaning_possible: YES | NO | UNKNOWN
+derived_conclusion_possible: YES | NO | UNKNOWN
+current_surface_revision:
+inspection_method:
+inspection_state:
+evidence:
+next_path_or_terminal_surface:
+notes:
+
+Repeat until every known path ends in verified correction, justified removal, an
+observed failure, or an explicit blocking state.
+
+Forward-trace gate
+------------------
+[ ] Direct copies and manually retyped variants were traced.
+[ ] Paraphrases, abbreviations, number formats, units, and approximate speech were traced.
+[ ] Charts, counters, labels, icons, and visual conclusions were traced.
+[ ] Narration, dialogue, captions, transcripts, and chapters were traced.
+[ ] Discovery text, metadata, feeds, previews, and promotion copy were traced.
+[ ] Dependent conclusions were reopened rather than only replacing one token.
+[ ] Every terminal path names an exact current surface and evidence state.
+
+forward_trace_state:
+forward_trace_evidence:
+forward_trace_notes:
+
+========================================================================
+E. BACKWARD TRACE FROM FINAL CLAIM-BEARING MEMBERS
+========================================================================
+
+Start from every exact final member and trace each claim-bearing element to an
+admitted current basis. This catches stale files no longer linked from the editable
+project but still included in the package.
+
+BACKWARD-BASIS RECORD
+---------------------
+release_member_id:
+release_member_byte_identity:
+claim_bearing_element:
+communicated_meaning:
+immediate_source_identity:
+ultimate_basis_revision:
+basis_scope:
+all_transformations_recorded: YES | NO | UNKNOWN
+supports_corrected_meaning: YES | NO | UNKNOWN
+old_meaning_could_survive: YES | NO | UNKNOWN
+lineage_state:
+evidence:
+notes:
+
+Repeat for every final claim-bearing member and element.
+
+Backward-trace gate
+-------------------
+[ ] Every final claim-bearing member has reviewed lineage.
+[ ] Flattened picture and sound identify the source revisions behind their meaning.
+[ ] Generated captions, posters, previews, and summaries identify their current inputs.
+[ ] No member is excused because its filename or route looks current.
+[ ] Unexplained lineage produces BLOCKED or UNCERTAIN.
+[ ] Manifest membership matches the exact package under review.
+
+backward_trace_state:
+backward_trace_evidence:
+backward_trace_notes:
+
+========================================================================
+F. SEARCH, MEANING, AND PERCEPTUAL INSPECTION MATRIX
+========================================================================
+
+No single check proves semantic closure. Record each method and its blind spots.
+
+METHOD RECORD
+-------------
+method_id:
+method_class: EXACT_TEXT | NUMERIC_UNIT | STRUCTURAL | VISUAL | LISTENING | CROSS_SURFACE | LINEAGE | METADATA
+surfaces_inspected:
+search_target_or_review_question:
+tool_or_review_method:
+complete_scope:
+finding:
+state:
+evidence:
+limitations:
+required_follow_up:
+
+Method prompts
+--------------
+[ ] Exact-text search covers unchanged copies but is not called semantic closure.
+[ ] Numeric and unit search covers formatting variants and records false-positive risk.
+[ ] Structural inspection covers links, tracks, members, generators, and references.
+[ ] Visual review covers rendered labels, charts, counters, and brief boundary frames.
+[ ] Listening review covers complete narration and mix, not only the script.
+[ ] Timed text is read in full and compared with picture and sound meaning.
+[ ] Cross-surface review checks compatible scope, negation, units, and conclusions.
+[ ] Lineage review ties transformed outputs to the admitted correction basis.
+[ ] Metadata review covers titles, descriptions, filenames, container data, and summaries.
+[ ] Every method records limitations and required follow-up.
+
+inspection_matrix_state:
+inspection_matrix_evidence:
+inspection_matrix_notes:
+
+========================================================================
+G. EXACT DELIVERY AND PACKAGE REVIEW
+========================================================================
+
+delivery_package_revision:
+manifest_revision:
+package_members_observed:
+package_matches_manifest: YES | NO | UNKNOWN
+complete_picture_playback: YES | NO
+complete_sound_playback: YES | NO
+normal_speed_playback: YES | NO
+opening_boundary_reviewed: YES | NO
+final_boundary_reviewed: YES | NO
+cuts_and_dense_transitions_replayed: YES | NO
+burned_in_text_and_charts_reviewed: YES | NO
+captions_and_timed_text_reviewed: YES | NO
+transcript_and_chapters_reviewed: YES | NO
+title_description_excerpt_reviewed: YES | NO
+thumbnail_preview_and_alt_text_reviewed: YES | NO
+feed_and_promotion_copy_reviewed: YES | NO
+container_and_file_metadata_reviewed: YES | NO
+alternate_exports_reviewed: YES | NO
+superseded_outputs_excluded: YES | NO | UNKNOWN
+
+DELIVERY FINDING
+----------------
+surface_or_interval:
+expected_corrected_meaning:
+observed_meaning:
+inspection_method:
+state:
+evidence:
+required_repair:
+
+Repeat for every relevant delivery member, interval, and discovery surface.
+
+delivery_gate_state:
+delivery_gate_evidence:
+delivery_gate_notes:
+
+Rule: corrected editable state cannot substitute for exact delivery review.
+
+========================================================================
+H. CHANGE AND INVALIDATION MAP
+========================================================================
+
+CHANGE RECORD
+-------------
+change_id:
+changed_identity:
+change_summary:
+dependent_claims_or_conclusions:
+historical_evidence_marked: SUPERSEDED
+reopened_source_surfaces:
+reopened_picture_surfaces:
+reopened_sound_surfaces:
+reopened_timed_text_surfaces:
+reopened_discovery_surfaces:
+reopened_package_surfaces:
+reopened_promotion_surfaces:
+reopened_destination_surfaces:
+required_new_identities:
+recheck_state:
+evidence:
+notes:
+
+Invalidation prompts
+--------------------
+[ ] Basis changes reopen every dependent claim and conclusion.
+[ ] Number or unit changes reopen text, narration, charts, captions, and summaries.
+[ ] Narration changes reopen voice edit, mix, synchronized captions, and playback.
+[ ] Visible-text changes reopen layout, readability, picture review, and alt text.
+[ ] Chart changes reopen labels, source relationship, narration, captions, and crops.
+[ ] Discovery-copy changes reopen feed, metadata, preview, and promotion consistency.
+[ ] Manifest changes reopen package closure.
+[ ] Re-export creates new delivery bytes and reopens exact-delivery review.
+[ ] Transfer creates destination surfaces that remain NOT_TESTED until observed.
+[ ] A newly found copy of the old meaning reopens inventory and affected closure.
+
+invalidation_gate_state:
+invalidation_gate_evidence:
+invalidation_gate_notes:
+
+========================================================================
+I. FAILURE-SHAPED TESTS
+========================================================================
+
+Record PASS only when the worksheet blocks or narrows the candidate as stated.
+These are fictional method tests, not claims about a real editor or destination.
+
+1. Exact old sentence remains
+   Fixture: script changes, but a description keeps the exact old sentence.
+   Expected: exact-text search finds OLD_CLAIM_PRESENT and blocks approval.
+   Actual:
+   State:
+
+2. Paraphrased old meaning remains
+   Fixture: “five seconds” is replaced, but narration still says “about five.”
+   Expected: listening and semantic review find OLD_CLAIM_PRESENT.
+   Actual:
+   State:
+
+3. Number-format variant
+   Fixture: source says eight seconds while a chart label still says “5 s.”
+   Expected: numeric, visual, and cross-surface review find a contradiction.
+   Actual:
+   State:
+
+4. Correct agreement, unsupported basis
+   Fixture: all surfaces say eight, but admitted evidence supports neither value.
+   Expected: propagation may pass while basis remains BLOCKED.
+   Actual:
+   State:
+
+5. Clean project, stale delivery
+   Fixture: editable narration is corrected, but the encoded mix still says five.
+   Expected: complete delivery listening produces OLD_CLAIM_PRESENT.
+   Actual:
+   State:
+
+6. Correct caption, contradictory picture
+   Fixture: captions say eight while a visible counter ends at five.
+   Expected: cross-surface state is CONTRADICTORY.
+   Actual:
+   State:
+
+7. Omitted correction without reason
+   Fixture: a summary removes the number but still implies the old conclusion.
+   Expected: omission cannot pass without an accuracy reason and meaning review.
+   Actual:
+   State:
+
+8. Stale promotion copy
+   Fixture: article is corrected while prepared first-party copy repeats the old claim.
+   Expected: promotion surface produces OLD_CLAIM_PRESENT; posting remains blocked.
+   Actual:
+   State:
+
+9. Unexplained package member
+   Fixture: a caption file looks current but has no admitted source lineage.
+   Expected: backward closure produces BLOCKED or UNCERTAIN.
+   Actual:
+   State:
+
+10. Fresh export after a pass
+    Fixture: reviewed bytes are replaced by a new export.
+    Expected: delivery evidence becomes SUPERSEDED and playback reopens.
+    Actual:
+    State:
+
+11. New dependent conclusion
+    Fixture: corrected timing invalidates a speed comparison that was not rewritten.
+    Expected: forward tracing reopens the conclusion and blocks closure.
+    Actual:
+    State:
+
+12. Unobserved destination
+    Fixture: local package passes but no provider rendition or cache was inspected.
+    Expected: local correction remains scoped; destination state is NOT_TESTED.
+    Actual:
+    State:
+
+failure_test_gate_state:
+failure_test_gate_evidence:
+failure_test_notes:
+
+========================================================================
+J. TWENTY-CHECK FINAL REVIEW
+========================================================================
+
+[ ] 01. Old and corrected semantic meanings are explicit.
+[ ] 02. Correction reason, scope, and admitted source revision are recorded.
+[ ] 03. Unresolved basis blocks rather than triggers a guessed replacement.
+[ ] 04. Paraphrases, units, visuals, speech, and dependent conclusions are included.
+[ ] 05. Eight claim-surface classes were considered separately.
+[ ] 06. Every known forward path from the old meaning reaches a reviewed terminal.
+[ ] 07. Every final claim-bearing member traces backward to an admitted current basis.
+[ ] 08. Exact-text search is not presented as semantic closure.
+[ ] 09. Basis, propagation, and cross-surface decisions remain separate.
+[ ] 10. Intentional omission has a recorded accuracy reason.
+[ ] 11. Complete delivery picture was reviewed.
+[ ] 12. Complete delivery sound was reviewed.
+[ ] 13. Captions, transcripts, chapters, and text descriptions were read.
+[ ] 14. Titles, excerpts, thumbnails, alt text, feeds, and prepared copy were checked.
+[ ] 15. Package members and relevant metadata match the current manifest.
+[ ] 16. No required old, contradictory, blocked, untested, or uncertain state remains.
+[ ] 17. Changed artifacts have new identities and fresh affected review.
+[ ] 18. Unaffected evidence was reused only with unchanged identities and dependencies.
+[ ] 19. Local consistency is not presented as destination refresh or publication evidence.
+[ ] 20. Final statement names exact scope, candidate, surfaces, checks, and unknowns.
+
+final_review_state:
+final_review_evidence:
+final_review_notes:
+
+========================================================================
+K. TERMINAL DECISION
+========================================================================
+
+Select exactly one:
+[ ] CORRECT_WITHIN_RECORDED_SCOPE
+[ ] HOLD_OLD_CLAIM_PRESENT
+[ ] HOLD_CONTRADICTORY_SURFACES
+[ ] BLOCKED_ON_CORRECTION_BASIS
+[ ] BLOCKED_ON_MISSING_SURFACE_OR_AUTHORITY
+[ ] SUPERSEDE_AND_REVIEW_AGAIN
+[ ] NOT_TESTED
+
+correction_id:
+exact_candidate_and_manifest:
+exact_delivery_byte_identities:
+recorded_basis_and_scope:
+declared_inspected_surfaces:
+observed_old_or_contradictory_meaning:
+remaining_unknowns:
+required_follow_up:
+terminal_decision:
+decision_basis:
+decided_at:
+publication_state: NOT_PUBLIC
+
+Bounded final statement
+-----------------------
+For correction [correction_id], the corrected meaning [meaning] is [state] relative
+to [recorded basis and scope] across [declared traced and inspected surfaces] of
+[exact candidate and manifest] under [recorded checks]. Remaining unknowns: [list].
+This decision does not establish universal accuracy, legal compliance, accessibility
+conformance, destination processing, cache invalidation, publication, audience
+understanding, performance improvement, or business results.
+
+Source and rights notes
+-----------------------
+This worksheet is original work by Alfred, an AI assistant. Its identifiers and
+failure fixtures are blank or explicitly fictional. It contains no third-party
+media, copied correction record, personal attribution, account data, private
+material, or claimed upload, publication, audience, metric, revenue, legal
+conclusion, accessibility result, or platform outcome. Real use requires separate
+source, rights, privacy, safety, accessibility, destination, and publication review.

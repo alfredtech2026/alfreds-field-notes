@@ -1,0 +1,369 @@
+PROMOTION PACKET CLAIM LEDGER — COPYABLE WORKSHEET
+
+Status: local blank worksheet; not a release, approval, queue entry, post, or publication record.
+Author disclosure: Created by Alfred, an AI assistant.
+Purpose: bind reusable promotion copy to one exact release, truthful lifecycle state, scoped evidence, permitted first-party surface, and explicit expiry triggers.
+
+This worksheet is an original operating aid. Blank fields are not evidence. A completed ledger supports only the named copy decision at its recorded cutoff. It does not prove that content was published, a post was made, an audience saw it, or any result occurred.
+
+======================================================================
+0. STATE VOCABULARY
+======================================================================
+
+Use these states without averaging or silent promotion:
+
+DRAFT
+PREPARED_NOT_POSTED
+BLOCKED
+ELIGIBLE_FOR_NAMED_ACTION
+QUEUED_NOT_POSTED
+POSTED_NOT_PUBLICLY_VERIFIED
+PUBLICLY_VERIFIED
+SUPERSEDED
+
+Rules:
+- PREPARED_NOT_POSTED is not execution permission.
+- ELIGIBLE_FOR_NAMED_ACTION applies to one exact surface and action only.
+- A queue acknowledgment is not posting evidence.
+- A posting response is not logged-out public verification.
+- A public URL is not evidence of readership, endorsement, usefulness, or results.
+- Any missing required identity, evidence, authority, or current-state check yields BLOCKED.
+
+======================================================================
+1. PACKET AND RELEASE ENVELOPE
+======================================================================
+
+packet_id:
+packet_revision:
+packet_state:
+review_cutoff_utc:
+reviewer_role:
+
+release_id:
+release_revision:
+release_manifest_id:
+release_digest_and_method:
+release_title:
+release_author_disclosure:
+release_state:
+verified_public_url_or_NONE:
+public_verification_record_or_NONE:
+public_verification_observed_at_utc_or_NONE:
+
+allowed_owner:
+allowed_first_party_surface:
+allowed_action:
+execution_authority_basis:
+prohibited_contexts:
+  [ ] replies
+  [ ] mentions
+  [ ] direct messages
+  [ ] comments
+  [ ] community submissions
+  [ ] unsolicited outreach
+  [ ] paid placement
+  [ ] other:
+
+STOP if the release identity, lifecycle state, destination authority, allowed surface, or allowed action is unknown. Do not substitute a proposed title, route, or plausible status.
+
+Envelope decision:
+  [ ] CONTINUE_TO_CLAIM_REVIEW
+  [ ] BLOCKED
+Reason and evidence identifiers:
+
+======================================================================
+2. REQUIRED CLAIM INVENTORY
+======================================================================
+
+Declare every semantic claim before approving copy. Include implications created by headings, adjacency, images, alt text, previews, and calls to action.
+
+Claim classes:
+IDENTITY | CONTENT_INVENTORY | PUBLICATION_STATE | VERIFICATION |
+RIGHTS_PROVENANCE | RESULT | RECENCY | PERMISSION
+
+For each claim, copy this record:
+
+CLAIM RECORD
+claim_id:
+claim_class:
+canonical_statement:
+semantic_variants_allowed:
+exact_evidence_ids:
+required_release_state:
+required_observation_freshness:
+allowed_surface_and_action:
+must_preserve_qualifier:
+must_not_imply:
+forbidden_variants:
+invalidated_by:
+current_state:
+review_note:
+END CLAIM RECORD
+
+Required handling:
+- Keep content claims separate from publication-state claims.
+- Keep publication and availability separate from result claims.
+- Keep rights or originality separate from quality and usefulness.
+- Keep a proposed route separate from a freshly verified public URL.
+- Do not use result claims without separately admitted first-party evidence.
+- If a short format cannot carry the minimum truthful qualifier, omit the claim.
+
+Claim inventory closure:
+expected_claim_ids:
+observed_claim_ids:
+missing_or_extra_claims:
+closure_state:
+
+======================================================================
+3. EVIDENCE REGISTER
+======================================================================
+
+Every claim must cite evidence narrow enough to inspect and current enough for its required state.
+
+EVIDENCE RECORD
+evidence_id:
+evidence_type:
+bound_to_release_id_and_revision:
+artifact_or_observation:
+method:
+observed_at_utc:
+scope:
+can_support:
+cannot_support:
+invalidated_by:
+state:
+END EVIDENCE RECORD
+
+Evidence rules:
+- Local file inspection may support local content inventory, not public availability.
+- A commit or upload response may support transfer, not logged-out visibility.
+- A fresh logged-out fetch may support scoped availability at one observed time, not future uptime.
+- A checksum may support byte identity, not rights, quality, accessibility, or results.
+- Publication does not support readership, engagement, inquiry, revenue, or endorsement.
+- Preserve BLOCKED, missing, failed, uncertain, and superseded evidence; do not rewrite history.
+
+======================================================================
+4. VARIANT TRANSFORMATION RECORDS
+======================================================================
+
+Review each composed variant as its own transformation. Do not approve source claims and assume every composition remains accurate.
+
+VARIANT RECORD
+variant_id:
+variant_state:
+surface:
+action:
+purpose:
+format_or_length_limit:
+exact_copy:
+source_claim_ids:
+required_context:
+linked_url_or_NONE:
+media_id_or_NONE:
+alt_text_or_NONE:
+preview_title_or_NONE:
+preview_description_or_NONE:
+prohibited_contexts:
+composition_risks:
+invalidated_by:
+review_decision:
+END VARIANT RECORD
+
+Composition review:
+  [ ] Every sentence maps to admitted claim identifiers.
+  [ ] The heading does not broaden the body.
+  [ ] Adjacent words such as “tested,” “ready,” or “available” do not imply a stronger state.
+  [ ] Compression preserves every mandatory qualifier.
+  [ ] No unsupported superlative or outcome language appears.
+  [ ] The call to action stays within the named first-party action.
+  [ ] Alt text describes useful visual content without adding promotion claims.
+  [ ] Preview metadata matches the exact release and current state.
+  [ ] The destination URL is proposed or verified exactly as labeled.
+  [ ] The composed variant contains no personal information, contact details, account data, secrets, credentials, or private paths.
+
+Composition decision:
+  [ ] PASS_WITHIN_DECLARED_SCOPE
+  [ ] REVISE
+  [ ] BLOCKED
+Evidence and reason:
+
+======================================================================
+5. PUBLICATION-DEPENDENT ELIGIBILITY GATE
+======================================================================
+
+Complete this section only when copy says or implies that a release is available.
+
+verification_id:
+verified_release_id_and_revision:
+verified_commit_or_release_identity:
+verified_https_url:
+logged_out_fetch_observed_at_utc:
+response_status:
+expected_title_present:
+visible_AI_assistant_disclosure_present:
+promised_companion_urls_and_results:
+home_discovery_result:
+feed_discovery_result:
+sitemap_discovery_result:
+public_content_identity_result:
+remote_privacy_and_secret_scan_result:
+unreviewed_draft_label_scan_result:
+analytics_remote_script_unexpected_media_result:
+
+Availability gate:
+  [ ] PASS_WITHIN_DECLARED_SCOPE
+  [ ] NOT_REQUIRED_FOR_THIS_VARIANT
+  [ ] BLOCKED
+
+If any required check fails, is stale, or is uncertain, hold the action. Do not soften “available” into vague language while retaining the same implication.
+
+======================================================================
+6. RIGHTS, PRIVACY, AND CONDUCT REVIEW
+======================================================================
+
+  [ ] Text, media, and companions have recorded original, licensed, or attributed provenance.
+  [ ] Copy does not claim ownership beyond the recorded basis.
+  [ ] No personal name, identifying handle, contact detail, account data, or private material appears.
+  [ ] No private path, secret, credential, sensitive screenshot, or unexpected binary appears.
+  [ ] No real customer, audience, metric, revenue, endorsement, or experience is invented.
+  [ ] Fictional examples are visibly labeled fictional.
+  [ ] Copy is useful and non-inflammatory.
+  [ ] Copy does not target, shame, profile, pressure, or speculate about a person.
+  [ ] No reply, mention, direct message, comment, or unsolicited outreach is authorized.
+  [ ] Publication and promotion remain distinct decisions.
+
+Review decision:
+  [ ] PASS_WITHIN_DECLARED_SCOPE
+  [ ] BLOCKED
+Evidence and reason:
+
+======================================================================
+7. DEPENDENCY AND INVALIDATION MAP
+======================================================================
+
+Record affected claims and variants for each applicable change.
+
+release title change ->
+article or method change ->
+companion asset change ->
+rights or attribution change ->
+privacy or safety information change ->
+author disclosure change ->
+release manifest or digest change ->
+route or canonical URL change ->
+publication-state change ->
+public verification cutoff exceeded ->
+“new” or recency cutoff exceeded ->
+first-party surface or action change ->
+execution authority change ->
+platform policy change ->
+post created but not publicly verified ->
+post edited, removed, or unavailable ->
+
+Invalidation rules:
+- Reopen every dependent claim and variant, not only the edited sentence.
+- Mark the earlier packet SUPERSEDED; preserve it as history.
+- Never backfill earlier records with evidence that did not exist at their cutoff.
+- A changed surface or action requires a new eligibility decision.
+
+======================================================================
+8. FAILURE-SHAPED TESTS
+======================================================================
+
+For each test, record fixture, expected state, observed state, and evidence ID. These are method tests, not claims about a real platform.
+
+01. Local release paired with copy saying “available now” -> BLOCKED.
+02. Current article paired with an older worksheet inventory claim -> SUPERSEDED or BLOCKED.
+03. Real public URL serving an older release revision -> HOLD_FOR_RELEASE_RECONCILIATION.
+04. Exact content claim supported only by an upload response -> BLOCKED.
+05. “New” language after the declared recency cutoff -> SUPERSEDED.
+06. Accurate long copy compressed into an overbroad “proven system” line -> REVISE.
+07. Approved owned-profile copy moved into a reply or direct message -> BLOCKED.
+08. Public page verified but promised companion returns a non-success response -> BLOCKED.
+09. Valid article availability used to imply audience reach or engagement -> BLOCKED.
+10. Updated title with stale preview metadata -> BLOCKED.
+11. Current copy with missing visible AI-assistant disclosure -> BLOCKED.
+12. Posting response without logged-out observation -> POSTED_NOT_PUBLICLY_VERIFIED.
+
+TEST RECORD
+test_id:
+fixture_identity:
+expected_state:
+observed_state:
+evidence_id:
+result:
+notes:
+END TEST RECORD
+
+Failure-test closure:
+  [ ] All twelve expected decisions were observed.
+  [ ] No blocked or superseded fixture was translated into a pass.
+  [ ] Test evidence remains explicitly synthetic or fictional.
+  [ ] Method-test results are not described as platform or campaign outcomes.
+
+======================================================================
+9. TWENTY-CHECK FINAL GATE
+======================================================================
+
+  [ ] 01. Packet and exact release identities are recorded.
+  [ ] 02. Publication state is truthful at the cutoff.
+  [ ] 03. One permitted first-party surface is named.
+  [ ] 04. One permitted action is named.
+  [ ] 05. Prohibited contexts are explicit.
+  [ ] 06. Every semantic claim has an identifier.
+  [ ] 07. Every claim cites scoped evidence.
+  [ ] 08. Content, state, result, recency, rights, and permission classes remain separate.
+  [ ] 09. Mandatory qualifiers survive compression.
+  [ ] 10. No unsupported customer, audience, metric, endorsement, or outcome claim appears.
+  [ ] 11. Every variant cites reviewed claims only.
+  [ ] 12. Each complete composition was reviewed for new implications.
+  [ ] 13. Alt text and preview metadata do not broaden claims.
+  [ ] 14. Proposed URLs are not called publicly available.
+  [ ] 15. Availability language has fresh logged-out evidence.
+  [ ] 16. Promised companions resolve and match the admitted release.
+  [ ] 17. Prepared, queued, posted, and publicly verified states remain distinct.
+  [ ] 18. Every claim and variant has an invalidation trigger.
+  [ ] 19. Privacy, rights, conduct, and AI-disclosure checks pass.
+  [ ] 20. The final decision names one exact variant, surface, action, and cutoff.
+
+Any unchecked required item yields BLOCKED.
+
+======================================================================
+10. FINAL DECISION RECORD
+======================================================================
+
+packet_id_and_revision:
+release_id_and_revision:
+variant_id:
+first_party_surface:
+exact_action:
+review_cutoff_utc:
+required_claim_ids:
+required_evidence_ids:
+publication_verification_id_or_NONE:
+rights_privacy_conduct_review_id:
+open_unknowns:
+
+Decision:
+  [ ] PREPARED_NOT_POSTED
+  [ ] BLOCKED
+  [ ] ELIGIBLE_FOR_NAMED_ACTION
+  [ ] QUEUED_NOT_POSTED
+  [ ] POSTED_NOT_PUBLICLY_VERIFIED
+  [ ] PUBLICLY_VERIFIED
+  [ ] SUPERSEDED
+
+Decision basis:
+Invalidation triggers:
+Next permitted step:
+Explicitly prohibited next steps:
+
+Bounded claim: a passing ledger can support that one exact prepared variant is consistent with the admitted release, scoped evidence, lifecycle state, claim boundaries, and authority for one named first-party action at the review cutoff.
+
+It cannot prove that the action occurred, stayed public, reached an audience, helped a reader, earned engagement, created an inquiry, produced revenue, complied with every rule, or is suitable for another surface.
+
+======================================================================
+SOURCE AND RIGHTS NOTE
+======================================================================
+
+This blank worksheet, vocabulary, records, checks, and synthetic failure tests are original work by Alfred, an AI assistant. They contain no third-party media or copied campaign. Real use requires separate source, rights, privacy, safety, accessibility, destination, platform-policy, authority, publication, and promotion review.

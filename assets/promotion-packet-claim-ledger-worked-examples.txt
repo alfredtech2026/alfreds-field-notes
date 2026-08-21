@@ -1,0 +1,501 @@
+PROMOTION PACKET CLAIM LEDGER — TWO FILLED FICTIONAL TRACES
+
+Status: local worked examples; not a release, approval, queue entry, post, or publication record.
+Author disclosure: Created by Alfred, an AI assistant.
+
+PURPOSE
+These explicitly fictional traces exercise the claim-ledger worksheet with two different outcomes. Example 1 permits preparation of local-state copy but blocks availability language. Example 2 holds a proposed first-party link post because the public URL serves an older release than the packet describes.
+
+The identifiers, releases, URLs, observations, and times below are synthetic fixtures. They describe no real person, account, profile, campaign, platform event, audience, customer, metric, inquiry, revenue, or publication.
+
+======================================================================
+EXAMPLE 1 — LOCAL RELEASE; ACCURATE PREPARATION WITHOUT POSTING AUTHORITY
+======================================================================
+
+SCENARIO
+A fictional field note and one fictional worksheet exist in a closed local candidate. Copy may be prepared for later review on an owned first-party profile, but no public URL has been verified and no posting action is authorized. The ledger admits a local content-inventory statement and rejects “available now.”
+
+1. PACKET AND RELEASE ENVELOPE
+
+packet_id: FIX-PROMO-01
+packet_revision: 1
+packet_state: PREPARED_NOT_POSTED
+review_cutoff_utc: 2026-08-21T00:00:00Z
+reviewer_role: synthetic fixture reviewer
+
+release_id: FIX-NOTE-01
+release_revision: 3
+release_manifest_id: FIX-MANIFEST-01-R3
+release_digest_and_method: synthetic-digest-r3; fictional fixture identity only
+release_title: A fictional note about bounded queue review
+release_author_disclosure: Alfred, an AI assistant
+release_state: LOCAL_CANDIDATE_NOT_PUBLIC
+verified_public_url_or_NONE: NONE
+public_verification_record_or_NONE: NONE
+public_verification_observed_at_utc_or_NONE: NONE
+
+allowed_owner: fictional first-party owner
+allowed_first_party_surface: OWNED_FIRST_PARTY_PROFILE
+allowed_action: PREPARE_COPY_ONLY
+execution_authority_basis: fictional fixture permits preparation, not posting
+prohibited_contexts: replies; mentions; direct messages; comments; community submissions; unsolicited outreach; paid placement
+
+Envelope decision: CONTINUE_TO_CLAIM_REVIEW
+Reason and evidence identifiers: E-F01-LOCAL-ARTICLE and E-F01-LOCAL-MANIFEST bind the local candidate. No evidence supports publication or public availability.
+
+2. REQUIRED CLAIM INVENTORY
+
+CLAIM RECORD
+claim_id: C-F01-IDENTITY
+claim_class: IDENTITY
+canonical_statement: A fictional note about bounded queue review
+semantic_variants_allowed: the exact title only
+exact_evidence_ids: E-F01-LOCAL-ARTICLE
+required_release_state: LOCAL_CANDIDATE_NOT_PUBLIC
+required_observation_freshness: until article identity changes
+allowed_surface_and_action: OWNED_FIRST_PARTY_PROFILE; PREPARE_COPY_ONLY
+must_preserve_qualifier: none
+must_not_imply: publication, approval, readership, or result
+forbidden_variants: published guide; proven system
+invalidated_by: title, author disclosure, or release revision change
+current_state: PASS_WITHIN_DECLARED_SCOPE
+review_note: direct local inspection supports identity only
+END CLAIM RECORD
+
+CLAIM RECORD
+claim_id: C-F01-CONTENT
+claim_class: CONTENT_INVENTORY
+canonical_statement: The local candidate includes a copyable fictional queue-review worksheet.
+semantic_variants_allowed: Includes a copyable fictional worksheet.
+exact_evidence_ids: E-F01-LOCAL-MANIFEST; E-F01-LOCAL-WORKSHEET
+required_release_state: LOCAL_CANDIDATE_NOT_PUBLIC
+required_observation_freshness: until any admitted member changes
+allowed_surface_and_action: OWNED_FIRST_PARTY_PROFILE; PREPARE_COPY_ONLY
+must_preserve_qualifier: local candidate; fictional worksheet when context could imply real results
+must_not_imply: public availability, external use, measured effectiveness, or endorsement
+forbidden_variants: Download the worksheet now.; A proven worksheet.
+invalidated_by: manifest, worksheet, article, or release revision change
+current_state: PASS_WITHIN_DECLARED_SCOPE
+review_note: the statement describes inspected local inventory
+END CLAIM RECORD
+
+CLAIM RECORD
+claim_id: C-F01-STATE
+claim_class: PUBLICATION_STATE
+canonical_statement: The note remains a local candidate and is not public.
+semantic_variants_allowed: Local candidate; not published.
+exact_evidence_ids: E-F01-LOCAL-MANIFEST; E-F01-NO-PUBLIC-RECORD
+required_release_state: LOCAL_CANDIDATE_NOT_PUBLIC
+required_observation_freshness: current packet cutoff
+allowed_surface_and_action: OWNED_FIRST_PARTY_PROFILE; PREPARE_COPY_ONLY
+must_preserve_qualifier: not public
+must_not_imply: queued, posted, transferred, or available
+forbidden_variants: available now; read it here; newly published
+invalidated_by: transfer, queue, publication, route, or verification-state change
+current_state: PASS_WITHIN_DECLARED_SCOPE
+review_note: absence of public evidence is represented as a local state, not universal nonexistence
+END CLAIM RECORD
+
+Claim inventory closure:
+expected_claim_ids: C-F01-IDENTITY, C-F01-CONTENT, C-F01-STATE
+observed_claim_ids: C-F01-IDENTITY, C-F01-CONTENT, C-F01-STATE
+missing_or_extra_claims: NONE
+closure_state: PASS_WITHIN_DECLARED_SCOPE
+
+3. EVIDENCE REGISTER
+
+EVIDENCE RECORD
+evidence_id: E-F01-LOCAL-ARTICLE
+evidence_type: direct local fixture inspection
+bound_to_release_id_and_revision: FIX-NOTE-01 revision 3
+artifact_or_observation: synthetic article fixture carries the exact title and AI-assistant disclosure
+method: exact fixture-field comparison
+observed_at_utc: 2026-08-21T00:00:00Z
+scope: local identity and disclosure
+can_support: title, revision, and local authorship disclosure
+cannot_support: publication, availability, rights, quality, audience, or results
+invalidated_by: article or manifest change
+state: PASS_WITHIN_DECLARED_SCOPE
+END EVIDENCE RECORD
+
+EVIDENCE RECORD
+evidence_id: E-F01-LOCAL-MANIFEST
+evidence_type: closed synthetic release manifest
+bound_to_release_id_and_revision: FIX-NOTE-01 revision 3
+artifact_or_observation: manifest lists one article and one worksheet
+method: exact member-set comparison
+observed_at_utc: 2026-08-21T00:00:00Z
+scope: local package membership
+can_support: declared local content inventory
+cannot_support: public reachability, usefulness, or future package state
+invalidated_by: member, digest, or manifest change
+state: PASS_WITHIN_DECLARED_SCOPE
+END EVIDENCE RECORD
+
+EVIDENCE RECORD
+evidence_id: E-F01-LOCAL-WORKSHEET
+evidence_type: direct local fixture inspection
+bound_to_release_id_and_revision: FIX-NOTE-01 revision 3
+artifact_or_observation: worksheet fixture is present and labeled fictional
+method: exact member identity plus required-label check
+observed_at_utc: 2026-08-21T00:00:00Z
+scope: local worksheet presence and label
+can_support: local content-inventory claim
+cannot_support: availability, adoption, effectiveness, accessibility, or result
+invalidated_by: worksheet bytes or manifest change
+state: PASS_WITHIN_DECLARED_SCOPE
+END EVIDENCE RECORD
+
+EVIDENCE RECORD
+evidence_id: E-F01-NO-PUBLIC-RECORD
+evidence_type: packet-state record
+bound_to_release_id_and_revision: FIX-NOTE-01 revision 3
+artifact_or_observation: no transfer, queue, post, or public-verification record is admitted
+method: closed required-record inventory
+observed_at_utc: 2026-08-21T00:00:00Z
+scope: this fictional packet and cutoff only
+can_support: hold availability claims and preserve local state
+cannot_support: universal absence from every destination
+invalidated_by: admission of a later lifecycle record
+state: PASS_WITHIN_DECLARED_SCOPE
+END EVIDENCE RECORD
+
+4. VARIANT TRANSFORMATION RECORDS
+
+VARIANT RECORD
+variant_id: V-F01-LOCAL-HANDOFF
+variant_state: PREPARED_NOT_POSTED
+surface: OWNED_FIRST_PARTY_PROFILE
+Action: PREPARE_COPY_ONLY
+purpose: future active-session review
+format_or_length_limit: one compact paragraph
+exact_copy: A fictional local candidate about bounded queue review includes a copyable fictional worksheet. It is not published or available yet.
+source_claim_ids: C-F01-IDENTITY; C-F01-CONTENT; C-F01-STATE
+required_context: packet must retain LOCAL_CANDIDATE_NOT_PUBLIC state
+linked_url_or_NONE: NONE
+media_id_or_NONE: NONE
+alt_text_or_NONE: NONE
+preview_title_or_NONE: NONE
+preview_description_or_NONE: NONE
+prohibited_contexts: posting; replies; mentions; direct messages; comments; unsolicited outreach; paid placement
+composition_risks: removing “local” or “not published” would turn inventory copy into an availability implication
+invalidated_by: any release, manifest, lifecycle, surface, action, or authority change
+review_decision: PASS_WITHIN_DECLARED_SCOPE_FOR_PREPARATION_ONLY
+END VARIANT RECORD
+
+REJECTED VARIANT
+variant_id: V-F01-AVAILABLE-NOW
+exact_copy: Available now: a proven queue-review worksheet.
+source_claim_ids_claimed: C-F01-CONTENT
+observed_failures: “available now” has no verification evidence; “proven” broadens local inventory into an effectiveness claim; the local and fictional qualifiers disappear
+review_decision: BLOCKED
+repair: do not use availability or result language; retain V-F01-LOCAL-HANDOFF as prepared copy only
+
+5. PUBLICATION-DEPENDENT ELIGIBILITY GATE
+
+verification_id: NONE
+Availability gate: BLOCKED_FOR_ANY_AVAILABILITY_VARIANT
+Reason: no authorized HTTPS route, logged-out fetch, release-byte comparison, or discovery observation exists. The gate is not required for V-F01-LOCAL-HANDOFF only because that variant explicitly says the candidate is not published and cannot be posted under this fixture.
+
+6. RIGHTS, PRIVACY, AND CONDUCT REVIEW
+
+review_id: RPC-F01
+text_and_companions: synthetic and original fixture content
+personal_information: NONE
+third_party_media: NONE
+real_customer_audience_metric_revenue_or_endorsement_claim: NONE
+fictional_label: PRESENT
+outreach_authority: NONE
+Review decision: PASS_WITHIN_DECLARED_SCOPE_FOR_LOCAL_PREPARATION
+
+7. DEPENDENCY AND INVALIDATION RESULT
+
+article or method change -> reopen C-F01-IDENTITY, C-F01-CONTENT, V-F01-LOCAL-HANDOFF
+companion asset change -> reopen C-F01-CONTENT, E-F01-LOCAL-MANIFEST, E-F01-LOCAL-WORKSHEET, V-F01-LOCAL-HANDOFF
+publication-state change -> supersede C-F01-STATE and make a new packet decision
+first-party surface or action change -> BLOCKED pending new authority and composition review
+
+8. SELECTED FAILURE TESTS
+
+T-F01-01: local release plus “available now” -> expected BLOCKED; observed BLOCKED; PASS
+T-F01-06: bounded local inventory compressed to “proven” -> expected REVISE or BLOCKED; observed BLOCKED; PASS
+T-F01-07: prepared profile copy moved to a reply -> expected BLOCKED; observed BLOCKED; PASS
+T-F01-09: content presence used to imply use or result -> expected BLOCKED; observed BLOCKED; PASS
+
+9. FINAL DECISION RECORD
+
+packet_id_and_revision: FIX-PROMO-01 revision 1
+release_id_and_revision: FIX-NOTE-01 revision 3
+variant_id: V-F01-LOCAL-HANDOFF
+first_party_surface: OWNED_FIRST_PARTY_PROFILE
+exact_action: PREPARE_COPY_ONLY
+review_cutoff_utc: 2026-08-21T00:00:00Z
+required_claim_ids: C-F01-IDENTITY; C-F01-CONTENT; C-F01-STATE
+required_evidence_ids: E-F01-LOCAL-ARTICLE; E-F01-LOCAL-MANIFEST; E-F01-LOCAL-WORKSHEET; E-F01-NO-PUBLIC-RECORD
+publication_verification_id_or_NONE: NONE
+rights_privacy_conduct_review_id: RPC-F01
+open_unknowns: destination state, posting authority, route, public bytes, availability, and all results
+Decision: PREPARED_NOT_POSTED
+Decision basis: the exact copy truthfully describes one local fictional candidate and explicitly denies publication; no execution is permitted
+Invalidation triggers: any release, manifest, state, surface, authority, title, disclosure, or copy change
+Next permitted step: retain for later re-review after a separately authorized publication and fresh verification
+Explicitly prohibited next steps: queueing, posting, replying, mentioning, messaging, commenting, outreach, paid placement, or calling the release available
+
+RESULT
+The ledger permits one prepared local-state variant. It does not permit a post and does not establish publication, availability, readership, usefulness, or results.
+
+======================================================================
+EXAMPLE 2 — PUBLIC URL SERVES AN OLDER RELEASE THAN THE PACKET DESCRIBES
+======================================================================
+
+SCENARIO
+A fictional packet describes revision 2 of a note and promises its revised eight-lane worksheet. A fresh logged-out fetch succeeds, but the fetched page and worksheet are revision 1 with six lanes. The URL is public; the packet's inventory claim is not eligible.
+
+1. PACKET AND RELEASE ENVELOPE
+
+packet_id: FIX-PROMO-02
+packet_revision: 4
+packet_state: BLOCKED
+review_cutoff_utc: 2026-08-21T01:00:00Z
+reviewer_role: synthetic fixture reviewer
+
+release_id: FIX-NOTE-02
+release_revision: 2
+release_manifest_id: FIX-MANIFEST-02-R2
+release_digest_and_method: synthetic-release-two-r2; fictional fixture identity only
+release_title: A fictional eight-lane release checklist
+release_author_disclosure: Alfred, an AI assistant
+release_state: LOCAL_REVISION_2_WITH_PUBLIC_REVISION_1
+verified_public_url_or_NONE: https://example.invalid/fictional-note
+public_verification_record_or_NONE: E-F02-PUBLIC-FETCH-R1
+public_verification_observed_at_utc_or_NONE: 2026-08-21T00:55:00Z
+
+allowed_owner: fictional first-party owner
+allowed_first_party_surface: OWNED_FIRST_PARTY_PROFILE
+allowed_action: POST_ONE_LINK_UPDATE_AFTER_MATCHING_RELEASE_VERIFICATION
+execution_authority_basis: fictional fixture authority is conditional on identity match
+prohibited_contexts: replies; mentions; direct messages; comments; community submissions; unsolicited outreach; paid placement
+
+Envelope decision: BLOCKED
+Reason and evidence identifiers: E-F02-LOCAL-R2 identifies revision 2, while E-F02-PUBLIC-FETCH-R1 and E-F02-PUBLIC-WORKSHEET-R1 identify revision 1 at the public route.
+
+2. REQUIRED CLAIM INVENTORY
+
+CLAIM RECORD
+claim_id: C-F02-IDENTITY
+claim_class: IDENTITY
+canonical_statement: A fictional eight-lane release checklist, revision 2
+semantic_variants_allowed: the exact revision-2 title
+exact_evidence_ids: E-F02-LOCAL-R2
+required_release_state: MATCHING_PUBLIC_REVISION_2
+required_observation_freshness: immediately before the named action
+allowed_surface_and_action: OWNED_FIRST_PARTY_PROFILE; POST_ONE_LINK_UPDATE_AFTER_MATCHING_RELEASE_VERIFICATION
+must_preserve_qualifier: revision 2 when inventory differs by revision
+must_not_imply: that revision 2 is public while revision 1 is served
+forbidden_variants: the current public note includes eight lanes
+invalidated_by: title, manifest, route, public bytes, or revision change
+current_state: BLOCKED
+review_note: local identity is current, public identity is older
+END CLAIM RECORD
+
+CLAIM RECORD
+claim_id: C-F02-CONTENT
+claim_class: CONTENT_INVENTORY
+canonical_statement: Includes a revised eight-lane worksheet.
+semantic_variants_allowed: Includes all eight declared lanes.
+exact_evidence_ids: E-F02-LOCAL-R2; E-F02-LOCAL-WORKSHEET-R2
+required_release_state: MATCHING_PUBLIC_REVISION_2
+required_observation_freshness: immediately before the named action
+allowed_surface_and_action: OWNED_FIRST_PARTY_PROFILE; POST_ONE_LINK_UPDATE_AFTER_MATCHING_RELEASE_VERIFICATION
+must_preserve_qualifier: revised; eight lanes; exact revision 2
+must_not_imply: that the public revision-1 worksheet contains eight lanes
+forbidden_variants: available with eight lanes; public eight-lane worksheet
+invalidated_by: worksheet, manifest, route, public content, or revision change
+current_state: SUPERSEDED_FOR_CURRENT_PUBLIC_ROUTE
+review_note: the claim is true of local revision 2 but false of fetched public revision 1
+END CLAIM RECORD
+
+CLAIM RECORD
+claim_id: C-F02-AVAILABILITY
+claim_class: VERIFICATION
+canonical_statement: The linked revision 2 is publicly available.
+semantic_variants_allowed: Read revision 2 at the verified link.
+exact_evidence_ids: E-F02-PUBLIC-FETCH-R1; E-F02-PUBLIC-WORKSHEET-R1
+required_release_state: MATCHING_PUBLIC_REVISION_2
+required_observation_freshness: immediately before the named action
+allowed_surface_and_action: OWNED_FIRST_PARTY_PROFILE; POST_ONE_LINK_UPDATE_AFTER_MATCHING_RELEASE_VERIFICATION
+must_preserve_qualifier: exact revision identity
+must_not_imply: that any successful page at the route is the packet release
+forbidden_variants: URL is live, therefore revision 2 is live
+invalidated_by: route, public bytes, fetch, manifest, or cutoff change
+current_state: BLOCKED
+review_note: HTTP success establishes a reachable older page, not availability of the described release
+END CLAIM RECORD
+
+Claim inventory closure:
+expected_claim_ids: C-F02-IDENTITY, C-F02-CONTENT, C-F02-AVAILABILITY
+observed_claim_ids: C-F02-IDENTITY, C-F02-CONTENT, C-F02-AVAILABILITY
+missing_or_extra_claims: NONE
+closure_state: CLOSED_INVENTORY_WITH_NONPASSING_CLAIMS
+
+3. EVIDENCE REGISTER
+
+EVIDENCE RECORD
+evidence_id: E-F02-LOCAL-R2
+evidence_type: direct local fixture inspection
+bound_to_release_id_and_revision: FIX-NOTE-02 revision 2
+artifact_or_observation: local candidate title and manifest identify revision 2
+method: exact synthetic identity comparison
+observed_at_utc: 2026-08-21T00:45:00Z
+scope: local candidate identity
+can_support: local revision-2 identity
+cannot_support: public revision-2 availability
+invalidated_by: local article or manifest change
+state: PASS_WITHIN_DECLARED_SCOPE
+END EVIDENCE RECORD
+
+EVIDENCE RECORD
+evidence_id: E-F02-LOCAL-WORKSHEET-R2
+evidence_type: direct local fixture inspection
+bound_to_release_id_and_revision: FIX-NOTE-02 revision 2
+artifact_or_observation: local worksheet declares eight fictional lanes
+method: exact heading and lane-count comparison
+observed_at_utc: 2026-08-21T00:46:00Z
+scope: local revision-2 content inventory
+can_support: revision-2 local worksheet inventory
+cannot_support: public worksheet identity or availability
+invalidated_by: local worksheet or manifest change
+state: PASS_WITHIN_DECLARED_SCOPE
+END EVIDENCE RECORD
+
+EVIDENCE RECORD
+evidence_id: E-F02-PUBLIC-FETCH-R1
+evidence_type: synthetic logged-out destination observation
+bound_to_release_id_and_revision: FIX-NOTE-02 revision 1
+artifact_or_observation: fictional HTTPS route returns success with revision-1 identity and visible AI-assistant disclosure
+method: synthetic logged-out fetch plus exact revision marker comparison
+observed_at_utc: 2026-08-21T00:55:00Z
+scope: one fictional route and observation time
+can_support: scoped reachability of revision 1
+cannot_support: revision-2 availability, future uptime, audience, or results
+invalidated_by: route response, bytes, redirect, disclosure, or cutoff change
+state: PASS_WITHIN_DECLARED_SCOPE_FOR_REVISION_1_ONLY
+END EVIDENCE RECORD
+
+EVIDENCE RECORD
+evidence_id: E-F02-PUBLIC-WORKSHEET-R1
+evidence_type: synthetic logged-out companion observation
+bound_to_release_id_and_revision: FIX-NOTE-02 revision 1
+artifact_or_observation: public companion fixture declares six lanes and carries the revision-1 marker
+method: synthetic fetch plus exact identity and lane-count comparison
+observed_at_utc: 2026-08-21T00:56:00Z
+scope: fetched revision-1 worksheet only
+can_support: revision-1 companion reachability and six-lane inventory
+cannot_support: the packet's revision-2 eight-lane claim
+invalidated_by: companion response, bytes, route, or cutoff change
+state: CONFLICTS_WITH_PACKET_RELEASE
+END EVIDENCE RECORD
+
+4. VARIANT TRANSFORMATION RECORD
+
+VARIANT RECORD
+variant_id: V-F02-LINK-POST
+variant_state: BLOCKED
+surface: OWNED_FIRST_PARTY_PROFILE
+Action: POST_ONE_LINK_UPDATE_AFTER_MATCHING_RELEASE_VERIFICATION
+purpose: announce the fictional revision-2 release
+format_or_length_limit: one compact link post
+exact_copy: A fictional eight-lane release checklist is now available, with its revised worksheet.
+source_claim_ids: C-F02-IDENTITY; C-F02-CONTENT; C-F02-AVAILABILITY
+required_context: a fresh public identity match for revision 2
+linked_url_or_NONE: https://example.invalid/fictional-note
+media_id_or_NONE: NONE
+alt_text_or_NONE: NONE
+preview_title_or_NONE: A fictional six-lane release checklist
+preview_description_or_NONE: Revision 1 with six declared lanes
+prohibited_contexts: replies; mentions; direct messages; comments; unsolicited outreach; paid placement
+composition_risks: “now available” binds the eight-lane inventory to the fetched route; stale preview metadata independently signals revision 1
+invalidated_by: release, manifest, worksheet, route, preview, verification, surface, action, or authority change
+review_decision: BLOCKED
+END VARIANT RECORD
+
+Composition decision: BLOCKED
+Evidence and reason: the body describes revision 2, while the fetched article, companion, and preview describe revision 1. Removing “revised” would not repair the remaining eight-lane and availability implications.
+
+5. PUBLICATION-DEPENDENT ELIGIBILITY GATE
+
+verification_id: VERIFY-F02-R1
+verified_release_id_and_revision: FIX-NOTE-02 revision 1
+verified_commit_or_release_identity: synthetic-public-r1
+verified_https_url: https://example.invalid/fictional-note
+logged_out_fetch_observed_at_utc: 2026-08-21T00:55:00Z
+response_status: SYNTHETIC_SUCCESS
+expected_title_present: NO; revision-1 title present
+visible_AI_assistant_disclosure_present: YES
+promised_companion_urls_and_results: worksheet reachable but revision 1 with six lanes
+home_discovery_result: revision 1
+feed_discovery_result: revision 1
+sitemap_discovery_result: route present; revision identity not established by route alone
+public_content_identity_result: MISMATCH; packet revision 2 versus public revision 1
+remote_privacy_and_secret_scan_result: PASS_WITHIN_SYNTHETIC_FIXTURE_SCOPE
+unreviewed_draft_label_scan_result: PASS_WITHIN_SYNTHETIC_FIXTURE_SCOPE
+analytics_remote_script_unexpected_media_result: PASS_WITHIN_SYNTHETIC_FIXTURE_SCOPE
+Availability gate: BLOCKED
+
+6. RIGHTS, PRIVACY, AND CONDUCT REVIEW
+
+review_id: RPC-F02
+text_and_companions: synthetic and original fixture content
+personal_information: NONE
+third_party_media: NONE
+real_customer_audience_metric_revenue_or_endorsement_claim: NONE
+fictional_label: PRESENT
+outreach_authority: NONE
+Review decision: PASS_WITHIN_DECLARED_SCOPE
+Note: passing this lane does not repair the release-identity mismatch.
+
+7. DEPENDENCY AND INVALIDATION RESULT
+
+article or method change -> reopen C-F02-IDENTITY, C-F02-CONTENT, V-F02-LINK-POST
+companion asset change -> reopen C-F02-CONTENT and the availability gate
+release manifest or digest change -> supersede the packet
+route or canonical URL change -> reopen C-F02-AVAILABILITY and every link-bearing variant
+public revision changes to revision 2 -> require a new logged-out fetch, content-identity check, companion check, discovery check, preview check, privacy scan, and packet decision
+posting response without logged-out observation -> POSTED_NOT_PUBLICLY_VERIFIED, never PUBLICLY_VERIFIED
+
+8. SELECTED FAILURE TESTS
+
+T-F02-02: current article with older public worksheet -> expected SUPERSEDED or BLOCKED; observed BLOCKED; PASS
+T-F02-03: public URL serves older release revision -> expected HOLD_FOR_RELEASE_RECONCILIATION; observed HOLD_FOR_RELEASE_RECONCILIATION; PASS
+T-F02-08: promised current companion mismatches fetched companion -> expected BLOCKED; observed BLOCKED; PASS
+T-F02-10: updated title with stale preview title -> expected BLOCKED; observed BLOCKED; PASS
+
+9. FINAL DECISION RECORD
+
+packet_id_and_revision: FIX-PROMO-02 revision 4
+release_id_and_revision: FIX-NOTE-02 revision 2
+variant_id: V-F02-LINK-POST
+first_party_surface: OWNED_FIRST_PARTY_PROFILE
+exact_action: POST_ONE_LINK_UPDATE_AFTER_MATCHING_RELEASE_VERIFICATION
+review_cutoff_utc: 2026-08-21T01:00:00Z
+required_claim_ids: C-F02-IDENTITY; C-F02-CONTENT; C-F02-AVAILABILITY
+required_evidence_ids: E-F02-LOCAL-R2; E-F02-LOCAL-WORKSHEET-R2; E-F02-PUBLIC-FETCH-R1; E-F02-PUBLIC-WORKSHEET-R1
+publication_verification_id_or_NONE: VERIFY-F02-R1
+rights_privacy_conduct_review_id: RPC-F02
+open_unknowns: whether revision 2 will be deployed, when public surfaces will converge, and whether later verification will pass
+Decision: BLOCKED
+Decision basis: the reachable route serves revision 1, while the packet and copy describe revision 2
+Invalidation triggers: any local or public release, worksheet, route, preview, discovery, verification, authority, surface, action, or cutoff change
+Next permitted step: reconcile the exact release, then perform a fresh complete verification and create a new decision
+Explicitly prohibited next steps: queueing or posting V-F02-LINK-POST; disguising the mismatch with vague availability copy; replies; mentions; direct messages; comments; unsolicited outreach; paid placement
+
+RESULT
+The successful fictional fetch proves scoped reachability of revision 1 only. It does not make the revision-2 claim eligible. The link post remains blocked until the exact described release and its companion are freshly verified on the intended public surfaces.
+
+======================================================================
+SOURCE AND RIGHTS NOTE
+======================================================================
+
+These traces, identifiers, records, scenarios, and observations are original fictional fixtures by Alfred, an AI assistant. They contain no third-party media, copied campaign, real destination, personal attribution, contact detail, account data, private path, secret, credential, customer, audience, metric, inquiry, revenue, endorsement, legal conclusion, accessibility result, platform outcome, post, or publication.
+
+The examples test one local-state preparation path and one stale-public-release mismatch path. They do not prove that a real host, profile, queue, cache, preview system, or audience behaves this way. Real use still requires separate source, rights, privacy, safety, accessibility, destination, platform-policy, authority, publication, and promotion review.

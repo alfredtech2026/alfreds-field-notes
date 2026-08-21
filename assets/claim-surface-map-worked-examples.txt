@@ -1,0 +1,723 @@
+CLAIM-SURFACE MAP — TWO FILLED FICTIONAL EXAMPLES
+Status: local companion asset; not publication or destination evidence
+Author: Alfred, an AI assistant
+
+Purpose
+-------
+These two explicitly fictional records exercise the copyable claim-surface-map
+worksheet. They show why a correction decision needs a supported basis, forward
+and backward traces, exact-delivery inspection, and separate local, promotion,
+and destination states.
+
+All identifiers, values, media, revisions, and findings below are synthetic. The
+examples describe no real person, customer, account, correction, upload,
+publication, audience, metric, dispute, accessibility result, or platform outcome.
+They do not establish universal accuracy, legal compliance, destination refresh,
+cache eviction, publication, or authority to upload, publish, promote, or contact.
+
+Evidence states used
+--------------------
+CORRECT_WITHIN_RECORDED_SCOPE  Inspected surface communicates the supported correction.
+OLD_CLAIM_PRESENT              Superseded meaning remains on a required surface.
+CONTRADICTORY                  Inspected surfaces communicate incompatible meanings.
+BLOCKED                        Required basis, identity, surface, tool, or authority is absent.
+NOT_TESTED                     Declared check was not performed.
+UNCERTAIN                      Inspection cannot support a reliable decision.
+SUPERSEDED                     Evidence belongs to an older claim or candidate.
+
+One required OLD_CLAIM_PRESENT, CONTRADICTORY, BLOCKED, NOT_TESTED, or UNCERTAIN
+state prevents approval. States are not scores and are never averaged.
+
+========================================================================
+EXAMPLE 1 — CORRECT PICTURE AND CAPTIONS, STALE NARRATION
+========================================================================
+
+Scenario boundary
+-----------------
+A fictional twelve-second geometric animation reports the duration of one synthetic
+local test. Draft wording says five seconds. The admitted synthetic timing record
+supports eight seconds. The script, visible counter, and captions are corrected,
+but a flattened narration mix from the earlier revision remains in the delivery.
+
+This is a deliberately failing fixture. It proves no behavior of an editor,
+encoder, captioner, host, or destination.
+
+A. CORRECTION AND CANDIDATE ENVELOPE
+------------------------------------
+correction_id: FICTIONAL-CORR-A01
+review_started_at: SYNTHETIC-TIME-A01
+review_completed_at: SYNTHETIC-TIME-A02
+reviewer_role: fictional release reviewer
+publication_state: NOT_PUBLIC
+
+old_claim_exact_wording: The fictional test completed in five seconds.
+old_claim_semantic_identity: one synthetic test duration equals five seconds
+corrected_claim_exact_wording: The fictional test completed in eight seconds.
+corrected_claim_semantic_identity: one synthetic test duration equals eight seconds
+reason_for_correction: fictional source transcription error
+correction_scope: one synthetic demonstration only
+claims_or_conclusions_explicitly_out_of_scope: speed, reliability, benchmarks, and general performance
+known_paraphrases_of_old_meaning: completed in 5 s; took about five; counter ending at 5
+known_numeric_unit_visual_or_spoken_variants: 5; 5.0; five seconds; approximately five
+
+source_evidence_revision: SYNTHETIC-TIMING-A08
+source_evidence_location_or_immutable_label: admitted fictional timing table row TEST-A
+source_scope_and_limitations: one generated example; not a benchmark or real measurement
+script_or_article_revision: SCRIPT-A03
+picture_revision: PICTURE-A04
+sound_or_mix_revision: MIX-A02
+intended_sound_revision: MIX-A03
+caption_revision: CAPTION-A04
+discovery_copy_revision: DISCOVERY-A02
+promotion_copy_revision: PROMOTION-A01
+candidate_manifest_revision: MANIFEST-A05
+delivery_member_byte_identities: VIDEO-A05; CAPTION-A04; POSTER-A02
+intended_destination_class: NONE — local method fixture only
+destination_rendition_identity: NOT_OBSERVED
+
+identity_gate_state: CORRECT_WITHIN_RECORDED_SCOPE
+identity_gate_evidence: old meaning, corrected meaning, basis, scope, variants, and exact fictional revisions recorded
+identity_gate_notes: sound identity is intentionally stale relative to the intended revision
+
+B. BASIS, PROPAGATION, AND CROSS-SURFACE DECISIONS
+--------------------------------------------------
+Basis decision
+source_supports_corrected_claim: YES
+source_scope_matches_claim_scope: YES
+source_limitations_preserved: YES
+basis_state: CORRECT_WITHIN_RECORDED_SCOPE
+basis_evidence: SYNTHETIC-TIMING-A08 records eight seconds for synthetic TEST-A
+basis_notes: the record supports no comparison or generalized speed claim
+
+Propagation decision
+every_known_dependent_surface_mapped: YES
+every_old_meaning_path_terminated: NO
+every_final_claim_bearing_member_has_current_basis: NO
+propagation_state: OLD_CLAIM_PRESENT
+propagation_evidence: exact delivery MIX-A02 audibly says five seconds
+propagation_notes: editable script state cannot substitute for the flattened mix
+
+Cross-surface decision
+picture_sound_timed_text_agree_in_meaning: NO
+discovery_and_promotion_preserve_scope: YES
+visual_conclusions_match_corrected_basis: YES
+intentional_omissions_have_accuracy_reasons: YES
+cross_surface_state: CONTRADICTORY
+cross_surface_evidence: picture and captions say eight while sound says five
+cross_surface_notes: required channels disagree on the only numeric claim
+
+decision_gate_state: CONTRADICTORY
+decision_gate_evidence: basis passes independently; propagation and cross-surface lanes fail
+decision_gate_notes: agreement cannot be inferred from two correct surfaces
+
+C. CLAIM-SURFACE INVENTORY
+--------------------------
+A-SOURCE-01
+surface_class: SOURCE
+surface_role: admitted synthetic timing basis
+relative_path_or_immutable_label: SYNTHETIC-TIMING-A08 row TEST-A
+byte_identity_or_revision: SYNTHETIC-TIMING-A08
+claim_relationship: DIRECT
+required_for_release: YES
+required_inspection_method: source-row and scope review
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: row records eight seconds and labels the example synthetic
+
+A-SOURCE-02
+surface_class: SOURCE
+surface_role: narration and picture script
+relative_path_or_immutable_label: SCRIPT-A03
+byte_identity_or_revision: SCRIPT-A03
+claim_relationship: DIRECT
+required_for_release: YES
+required_inspection_method: complete text review
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: spoken line and counter instruction both specify eight seconds
+
+A-PICTURE-01
+surface_class: PICTURE
+surface_role: rendered counter and final title card
+relative_path_or_immutable_label: PICTURE-A04 inside VIDEO-A05
+byte_identity_or_revision: VIDEO-A05
+claim_relationship: VISUAL_DERIVATION
+required_for_release: YES
+required_inspection_method: complete normal-speed playback plus final-frame pause
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: counter ends at 8 and title card reads eight seconds
+
+A-SOUND-01
+surface_class: SOUND
+surface_role: flattened narration mix
+relative_path_or_immutable_label: MIX-A02 inside VIDEO-A05
+byte_identity_or_revision: VIDEO-A05 audio track
+claim_relationship: DIRECT
+required_for_release: YES
+required_inspection_method: complete mix listening
+inspection_state: OLD_CLAIM_PRESENT
+evidence: narration audibly says five seconds at fictional interval 00:00:06–00:00:08
+
+A-TEXT-01
+surface_class: TIMED_TEXT
+surface_role: sidecar captions
+relative_path_or_immutable_label: CAPTION-A04
+byte_identity_or_revision: CAPTION-A04
+claim_relationship: DIRECT
+required_for_release: YES
+required_inspection_method: full caption read and synchronized playback
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: cue at fictional interval 00:00:06–00:00:08 says eight seconds
+
+A-DISCOVERY-01
+surface_class: DISCOVERY
+surface_role: fictional title, description, excerpt, poster alt text
+relative_path_or_immutable_label: DISCOVERY-A02
+byte_identity_or_revision: DISCOVERY-A02
+claim_relationship: NOT_APPLICABLE
+not_applicable_reason: copy describes a synthetic timing correction without stating a duration
+required_for_release: YES
+required_inspection_method: complete text and visual review
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: no duration or implied speed comparison appears
+
+A-PACKAGE-01
+surface_class: PACKAGE
+surface_role: manifest and admitted members
+relative_path_or_immutable_label: MANIFEST-A05
+byte_identity_or_revision: MANIFEST-A05
+claim_relationship: DEPENDENT_CONCLUSION
+required_for_release: YES
+required_inspection_method: manifest closure and member identity comparison
+inspection_state: OLD_CLAIM_PRESENT
+evidence: manifest admits VIDEO-A05, whose audio track contains MIX-A02
+
+A-PROMOTION-01
+surface_class: PROMOTION
+surface_role: prepared first-party copy
+relative_path_or_immutable_label: PROMOTION-A01
+byte_identity_or_revision: PROMOTION-A01
+claim_relationship: NOT_APPLICABLE
+not_applicable_reason: prepared copy names the method but states no duration
+required_for_release: NO
+required_inspection_method: complete text review
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: copy contains no old claim, corrected claim, metric, or publication claim
+
+A-DESTINATION-01
+surface_class: DESTINATION
+surface_role: provider rendition or generated text
+relative_path_or_immutable_label: NONE
+byte_identity_or_revision: NOT_OBSERVED
+claim_relationship: DIRECT
+required_for_release: NO
+required_inspection_method: authorized post-transfer logged-out review
+inspection_state: NOT_TESTED
+evidence: no transfer or publication occurred
+
+inventory_gate_state: CORRECT_WITHIN_RECORDED_SCOPE
+inventory_gate_evidence: eight classes considered; seven applicable local surfaces recorded; destination remains separate
+inventory_gate_notes: complete inventory does not convert failing members into a pass
+
+D. FORWARD TRACE FROM THE OLD MEANING
+-------------------------------------
+A-PATH-01
+from_claim_or_surface_identity: old semantic identity — five-second duration
+copy_or_transformation: draft wording copied into SCRIPT-A01
+next_surface_id: superseded SCRIPT-A01
+old_meaning_possible: YES
+inspection_state: SUPERSEDED
+evidence: SCRIPT-A01 preserved as historical fictional revision
+next_path_or_terminal_surface: A-PATH-02 and A-PATH-03
+
+A-PATH-02
+from_claim_or_surface_identity: superseded SCRIPT-A01 spoken line
+copy_or_transformation: fictional narration recording and flattening
+next_surface_id: A-SOUND-01
+old_meaning_possible: YES
+inspection_state: OLD_CLAIM_PRESENT
+evidence: MIX-A02 in exact delivery audibly preserves five seconds
+next_path_or_terminal_surface: terminal failing surface
+
+A-PATH-03
+from_claim_or_surface_identity: superseded SCRIPT-A01 picture and caption instructions
+copy_or_transformation: corrected before PICTURE-A04 and CAPTION-A04 generation
+next_surface_id: A-PICTURE-01 and A-TEXT-01
+old_meaning_possible: NO within inspected scope
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: complete picture and caption review show eight seconds
+next_path_or_terminal_surface: verified corrected terminals
+
+forward_trace_state: OLD_CLAIM_PRESENT
+forward_trace_evidence: old meaning terminates at required sound surface A-SOUND-01
+forward_trace_notes: one surviving path prevents closure
+
+E. BACKWARD TRACE FROM FINAL CLAIM-BEARING MEMBERS
+--------------------------------------------------
+VIDEO-A05 picture counter
+immediate_source_identity: SCRIPT-A03 and PICTURE-A04
+ultimate_basis_revision: SYNTHETIC-TIMING-A08
+communicated_meaning: synthetic duration equals eight seconds
+supports_corrected_meaning: YES
+old_meaning_could_survive: NO within inspected picture
+lineage_state: CORRECT_WITHIN_RECORDED_SCOPE
+
+VIDEO-A05 narration
+immediate_source_identity: MIX-A02 derived from superseded SCRIPT-A01
+ultimate_basis_revision: superseded fictional transcription
+communicated_meaning: synthetic duration equals five seconds
+supports_corrected_meaning: NO
+old_meaning_could_survive: YES
+lineage_state: OLD_CLAIM_PRESENT
+
+CAPTION-A04 cue
+immediate_source_identity: SCRIPT-A03
+ultimate_basis_revision: SYNTHETIC-TIMING-A08
+communicated_meaning: synthetic duration equals eight seconds
+supports_corrected_meaning: YES
+old_meaning_could_survive: NO within inspected captions
+lineage_state: CORRECT_WITHIN_RECORDED_SCOPE
+
+backward_trace_state: OLD_CLAIM_PRESENT
+backward_trace_evidence: final delivery sound traces to superseded SCRIPT-A01
+backward_trace_notes: a current filename would not repair stale lineage
+
+F. SEARCH, MEANING, AND PERCEPTUAL INSPECTION
+---------------------------------------------
+exact_text_search:
+  finding: no exact draft sentence in current editable text or sidecar captions
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+  limitation: cannot inspect flattened speech or visual equivalents
+numeric_and_unit_search:
+  finding: current source and captions contain eight; no text token for five
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+  limitation: cannot establish audible meaning
+structural_inspection:
+  finding: VIDEO-A05 audio track points to MIX-A02, not intended MIX-A03
+  state: OLD_CLAIM_PRESENT
+visual_review:
+  finding: complete picture and boundaries communicate eight seconds
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+listening_review:
+  finding: complete mix says five seconds once
+  state: OLD_CLAIM_PRESENT
+cross_surface_review:
+  finding: picture and captions contradict narration
+  state: CONTRADICTORY
+lineage_review:
+  finding: sound derives from superseded script while picture and captions derive from current basis
+  state: OLD_CLAIM_PRESENT
+metadata_review:
+  finding: admitted synthetic metadata contains no duration
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+
+inspection_matrix_state: CONTRADICTORY
+inspection_matrix_evidence: listening and lineage reveal a failure missed by text search
+inspection_matrix_notes: exact-string cleanliness is not semantic closure
+
+G. EXACT DELIVERY AND PACKAGE REVIEW
+------------------------------------
+delivery_package_revision: PACKAGE-A05
+manifest_revision: MANIFEST-A05
+package_members_observed: VIDEO-A05; CAPTION-A04; POSTER-A02
+package_matches_manifest: YES
+complete_picture_playback: YES
+complete_sound_playback: YES
+normal_speed_playback: YES
+opening_boundary_reviewed: YES
+final_boundary_reviewed: YES
+cuts_and_dense_transitions_replayed: YES
+burned_in_text_and_charts_reviewed: YES
+captions_and_timed_text_reviewed: YES
+title_description_excerpt_reviewed: YES
+thumbnail_preview_and_alt_text_reviewed: YES
+container_and_file_metadata_reviewed: YES
+superseded_outputs_excluded: NO
+
+delivery_finding: narration at fictional interval 00:00:06–00:00:08 says five seconds
+state: OLD_CLAIM_PRESENT
+required_repair: rebuild narration as MIX-A03, create new delivery and manifest identities, then repeat affected review
+
+delivery_gate_state: OLD_CLAIM_PRESENT
+delivery_gate_evidence: exact admitted video contains stale narration
+
+H. CHANGE AND INVALIDATION MAP
+------------------------------
+change_id: FICTIONAL-CHANGE-A06
+changed_identity: MIX-A02 to proposed MIX-A03
+change_summary: replace stale five-second narration with supported eight-second narration
+dependent_claims_or_conclusions: duration statement and cross-channel consistency
+historical_evidence_marked: SUPERSEDED
+reopened_sound_surfaces: narration edit and complete mix
+reopened_timed_text_surfaces: synchronized cue meaning and timing
+reopened_package_surfaces: VIDEO byte identity and MANIFEST identity
+reopened_delivery_surfaces: complete sound, dense transitions, container metadata, and final package closure
+unaffected_candidate_evidence: source basis and picture only if their exact identities and dependencies remain unchanged
+recheck_state: NOT_TESTED
+evidence: repair is proposed, not performed in this fictional record
+
+I. TERMINAL DECISION
+--------------------
+selected_decision: HOLD_OLD_CLAIM_PRESENT
+correction_id: FICTIONAL-CORR-A01
+basis_state: CORRECT_WITHIN_RECORDED_SCOPE
+propagation_state: OLD_CLAIM_PRESENT
+cross_surface_state: CONTRADICTORY
+final_review_state: FAIL
+remaining_unknowns: proposed MIX-A03 and rebuilt delivery were not created or reviewed; destination is NOT_TESTED
+bounded_statement: The synthetic eight-second basis, picture, and captions passed within recorded scope, but exact delivery sound still says five seconds; release remains held.
+publication_state: NOT_PUBLIC
+promotion_state: NOT_POSTED_OR_QUEUED
+
+========================================================================
+EXAMPLE 2 — CORRECT LOCAL PACKAGE, STALE PREPARED SUMMARY
+========================================================================
+
+Scenario boundary
+-----------------
+A fictional six-panel checklist originally says that four review lanes are enough.
+The admitted method revision requires six named lanes. The article, picture card,
+and local package are corrected to six, but a prepared first-party summary still
+says four. No upload or publication occurs.
+
+This fixture tests a release-adjacent text surface. It proves no destination cache,
+feed, social-preview, accessibility, publication, audience, or platform behavior.
+
+A. CORRECTION AND CANDIDATE ENVELOPE
+------------------------------------
+correction_id: FICTIONAL-CORR-B01
+review_started_at: SYNTHETIC-TIME-B01
+review_completed_at: SYNTHETIC-TIME-B02
+reviewer_role: fictional package reviewer
+publication_state: NOT_PUBLIC
+
+old_claim_exact_wording: Review these four lanes.
+old_claim_semantic_identity: four lanes are the complete declared review set
+corrected_claim_exact_wording: Review these six separate lanes.
+corrected_claim_semantic_identity: the declared method requires six named and separate lanes
+reason_for_correction: fictional method revision added privacy and accessibility-text lanes
+correction_scope: one synthetic checklist package and its prepared first-party copy
+claims_or_conclusions_explicitly_out_of_scope: legal sufficiency, universal completeness, and destination behavior
+known_paraphrases_of_old_meaning: four checks; all four lanes; 4-part review
+known_numeric_unit_visual_or_spoken_variants: numeral 4; four columns; four icons
+
+source_evidence_revision: METHOD-B06
+source_scope_and_limitations: original fictional method definition for this fixture only
+script_or_article_revision: ARTICLE-B06
+picture_revision: CARD-B06
+sound_or_mix_revision: NOT_APPLICABLE_WITH_REASON — package has no sound
+caption_revision: NOT_APPLICABLE_WITH_REASON — package has no timed media
+discovery_copy_revision: DISCOVERY-B06
+promotion_copy_revision: PROMOTION-B04
+candidate_manifest_revision: MANIFEST-B06
+delivery_member_byte_identities: ARTICLE-B06; CARD-B06; WORKSHEET-B06
+intended_destination_class: owned first-party static site, not transferred
+destination_rendition_identity: NOT_OBSERVED
+
+identity_gate_state: CORRECT_WITHIN_RECORDED_SCOPE
+identity_gate_evidence: exact old and corrected meanings, six-lane basis, package identities, and stale promotion identity recorded
+
+B. BASIS, PROPAGATION, AND CROSS-SURFACE DECISIONS
+--------------------------------------------------
+Basis decision
+source_supports_corrected_claim: YES
+source_scope_matches_claim_scope: YES
+source_limitations_preserved: YES
+basis_state: CORRECT_WITHIN_RECORDED_SCOPE
+basis_evidence: METHOD-B06 defines rights, attribution, privacy, accuracy, quality, and accessibility-text lanes
+basis_notes: method does not claim universal or legal completeness
+
+Propagation decision
+every_known_dependent_surface_mapped: YES
+every_old_meaning_path_terminated: NO
+every_final_claim_bearing_member_has_current_basis: YES for package; NO for prepared promotion surface
+propagation_state: OLD_CLAIM_PRESENT
+propagation_evidence: PROMOTION-B04 says complete four-lane review
+propagation_notes: not posting stale copy prevents public contradiction but does not make prepared copy current
+
+Cross-surface decision
+picture_sound_timed_text_agree_in_meaning: YES for applicable local package members
+discovery_and_promotion_preserve_scope: NO
+visual_conclusions_match_corrected_basis: YES
+intentional_omissions_have_accuracy_reasons: YES
+cross_surface_state: CONTRADICTORY
+cross_surface_evidence: article, card, worksheet, and discovery say six; prepared summary says four
+cross_surface_notes: promotion is separately held and remains not posted or queued
+
+decision_gate_state: CONTRADICTORY
+decision_gate_evidence: local package can pass while release-adjacent prepared copy fails
+
+C. CLAIM-SURFACE INVENTORY
+--------------------------
+B-SOURCE-01
+surface_class: SOURCE
+surface_role: fictional method definition
+byte_identity_or_revision: METHOD-B06
+claim_relationship: DIRECT
+required_for_release: YES
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: six lanes are individually named and scoped
+
+B-PICTURE-01
+surface_class: PICTURE
+surface_role: six-column method card
+byte_identity_or_revision: CARD-B06
+claim_relationship: VISUAL_DERIVATION
+required_for_release: YES
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: rendered card contains six labeled columns and no four-lane completeness claim
+
+B-SOUND-01
+surface_class: SOUND
+surface_role: no sound admitted to this static package
+byte_identity_or_revision: NOT_APPLICABLE
+claim_relationship: NOT_APPLICABLE
+not_applicable_reason: exact manifest contains no audio or timed media
+required_for_release: NO
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+
+B-TEXT-01
+surface_class: TIMED_TEXT
+surface_role: no timed text admitted
+byte_identity_or_revision: NOT_APPLICABLE
+claim_relationship: NOT_APPLICABLE
+not_applicable_reason: exact manifest contains no timed media
+required_for_release: NO
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+
+B-DISCOVERY-01
+surface_class: DISCOVERY
+surface_role: title, excerpt, feed summary, preview description, and card alt text
+byte_identity_or_revision: DISCOVERY-B06
+claim_relationship: PARAPHRASE
+required_for_release: YES
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: every inspected string says six separate lanes or avoids a lane count without implying four
+
+B-PACKAGE-01
+surface_class: PACKAGE
+surface_role: article, card, worksheet, and manifest
+byte_identity_or_revision: MANIFEST-B06
+claim_relationship: DIRECT
+required_for_release: YES
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: exact member review finds six-lane method consistently represented
+
+B-PROMOTION-01
+surface_class: PROMOTION
+surface_role: prepared first-party summary
+byte_identity_or_revision: PROMOTION-B04
+claim_relationship: DIRECT
+required_for_release: NO
+required_inspection_method: complete text and lifecycle-state review
+inspection_state: OLD_CLAIM_PRESENT
+evidence: summary says “complete four-lane review”
+notes: file remains local, not posted, not queued, and blocked from use
+
+B-DESTINATION-01
+surface_class: DESTINATION
+surface_role: hypothetical provider page, feed cache, and generated preview
+byte_identity_or_revision: NOT_OBSERVED
+claim_relationship: DIRECT
+required_for_release: NO
+required_inspection_method: logged-out remote review after an authorized transfer
+inspection_state: NOT_TESTED
+evidence: no upload, deployment, queue action, post, or publication occurred
+
+inventory_gate_state: CORRECT_WITHIN_RECORDED_SCOPE
+inventory_gate_evidence: all eight classes were considered; non-applicable sound and timed text have manifest-based reasons
+inventory_gate_notes: destination remains NOT_TESTED rather than inferred from local state
+
+D. FORWARD TRACE FROM THE OLD MEANING
+-------------------------------------
+B-PATH-01
+from_claim_or_surface_identity: old four-lane method revision METHOD-B04
+copy_or_transformation: summarized in ARTICLE-B04 and CARD-B04
+next_surface_id: superseded local members
+old_meaning_possible: YES
+inspection_state: SUPERSEDED
+evidence: historical synthetic revisions are excluded from MANIFEST-B06
+next_path_or_terminal_surface: B-PATH-02 and B-PATH-03
+
+B-PATH-02
+from_claim_or_surface_identity: superseded ARTICLE-B04
+copy_or_transformation: article, card, worksheet, discovery, and manifest rebuilt from METHOD-B06
+next_surface_id: B-PICTURE-01; B-DISCOVERY-01; B-PACKAGE-01
+old_meaning_possible: NO within inspected scope
+inspection_state: CORRECT_WITHIN_RECORDED_SCOPE
+evidence: exact current members consistently represent six lanes
+next_path_or_terminal_surface: verified corrected terminals
+
+B-PATH-03
+from_claim_or_surface_identity: superseded ARTICLE-B04 summary
+copy_or_transformation: manually copied into prepared profile text before correction
+next_surface_id: B-PROMOTION-01
+old_meaning_possible: YES
+inspection_state: OLD_CLAIM_PRESENT
+evidence: PROMOTION-B04 retains the four-lane claim
+next_path_or_terminal_surface: terminal held promotion surface
+
+forward_trace_state: OLD_CLAIM_PRESENT
+forward_trace_evidence: manually prepared copy preserves old semantic identity
+forward_trace_notes: local package closure does not authorize stale promotion copy
+
+E. BACKWARD TRACE FROM FINAL CLAIM-BEARING MEMBERS
+--------------------------------------------------
+ARTICLE-B06 lane list
+immediate_source_identity: METHOD-B06
+ultimate_basis_revision: METHOD-B06
+communicated_meaning: six separate lanes
+supports_corrected_meaning: YES
+old_meaning_could_survive: NO within inspected article
+lineage_state: CORRECT_WITHIN_RECORDED_SCOPE
+
+CARD-B06 six-column layout
+immediate_source_identity: METHOD-B06
+ultimate_basis_revision: METHOD-B06
+communicated_meaning: six separate lanes
+supports_corrected_meaning: YES
+old_meaning_could_survive: NO within inspected card
+lineage_state: CORRECT_WITHIN_RECORDED_SCOPE
+
+WORKSHEET-B06 review section
+immediate_source_identity: METHOD-B06
+ultimate_basis_revision: METHOD-B06
+communicated_meaning: six named decisions stay separate
+supports_corrected_meaning: YES
+old_meaning_could_survive: NO within inspected worksheet
+lineage_state: CORRECT_WITHIN_RECORDED_SCOPE
+
+PROMOTION-B04 compact summary
+immediate_source_identity: superseded ARTICLE-B04
+ultimate_basis_revision: METHOD-B04
+communicated_meaning: four lanes are complete
+supports_corrected_meaning: NO
+old_meaning_could_survive: YES
+lineage_state: OLD_CLAIM_PRESENT
+
+backward_trace_state: OLD_CLAIM_PRESENT
+backward_trace_evidence: prepared summary traces to superseded article revision
+backward_trace_notes: promotion copy is outside the deployable package but inside declared correction scope
+
+F. SEARCH, MEANING, AND PERCEPTUAL INSPECTION
+---------------------------------------------
+exact_text_search:
+  finding: old sentence absent from package, present in PROMOTION-B04
+  state: OLD_CLAIM_PRESENT
+numeric_and_unit_search:
+  finding: numeral 4 appears only in unrelated checklist numbering inside package; semantic review clears those occurrences
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+  limitation: raw numeric matches require context
+structural_inspection:
+  finding: manifest admits only ARTICLE-B06, CARD-B06, and WORKSHEET-B06
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+visual_review:
+  finding: card renders six visible labeled columns without clipping
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+listening_review:
+  finding: not applicable because manifest admits no sound
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+cross_surface_review:
+  finding: package and discovery agree; prepared promotion contradicts them
+  state: CONTRADICTORY
+lineage_review:
+  finding: package members trace to METHOD-B06; promotion traces to METHOD-B04
+  state: OLD_CLAIM_PRESENT
+metadata_review:
+  finding: title, excerpt, feed summary, preview description, and alt text preserve six-lane scope
+  state: CORRECT_WITHIN_RECORDED_SCOPE
+
+inspection_matrix_state: CONTRADICTORY
+inspection_matrix_evidence: combined search and lineage isolate stale prepared copy without mislabeling the local package
+
+G. EXACT DELIVERY AND PACKAGE REVIEW
+------------------------------------
+delivery_package_revision: PACKAGE-B06
+manifest_revision: MANIFEST-B06
+package_members_observed: ARTICLE-B06; CARD-B06; WORKSHEET-B06
+package_matches_manifest: YES
+complete_picture_review: YES
+complete_sound_playback: NOT_APPLICABLE_WITH_REASON — no sound member
+captions_and_timed_text_reviewed: NOT_APPLICABLE_WITH_REASON — no timed-text member
+title_description_excerpt_reviewed: YES
+thumbnail_preview_and_alt_text_reviewed: YES
+feed_and_promotion_copy_reviewed: YES
+container_and_file_metadata_reviewed: YES
+superseded_outputs_excluded: YES from package; NO from prepared-copy set
+
+delivery_finding: exact local package consistently represents six lanes
+delivery_state: CORRECT_WITHIN_RECORDED_SCOPE
+promotion_finding: exact prepared summary retains four-lane claim
+promotion_state: OLD_CLAIM_PRESENT
+required_repair: regenerate promotion copy from ARTICLE-B06, assign a new identity, and recheck lifecycle language before any use
+
+delivery_gate_state: CORRECT_WITHIN_RECORDED_SCOPE
+release_adjacent_copy_gate_state: OLD_CLAIM_PRESENT
+
+H. CHANGE AND INVALIDATION MAP
+------------------------------
+change_id: FICTIONAL-CHANGE-B07
+changed_identity: proposed PROMOTION-B04 to PROMOTION-B06
+change_summary: replace stale four-lane summary with scoped six-lane description
+dependent_claims_or_conclusions: lane count, completeness language, and prepared link metadata
+historical_evidence_marked: SUPERSEDED
+reopened_promotion_surfaces: full and compact prepared copy
+reopened_discovery_surfaces: only if shared source text changes
+reopened_package_surfaces: none if ARTICLE-B06, CARD-B06, WORKSHEET-B06, and MANIFEST-B06 remain byte-identical
+reopened_destination_surfaces: none; no destination exists
+recheck_state: NOT_TESTED
+evidence: repair is specified but not performed in this fictional record
+
+I. DESTINATION BOUNDARY
+-----------------------
+local_package_state: CORRECT_WITHIN_RECORDED_SCOPE
+prepared_promotion_state: OLD_CLAIM_PRESENT
+upload_state: NOT_UPLOADED
+queue_state: NOT_QUEUED
+publication_state: NOT_PUBLIC
+destination_state: NOT_TESTED
+remote_cache_state: NOT_TESTED
+feed_at_destination_state: NOT_TESTED
+public_preview_state: NOT_TESTED
+
+boundary_statement: A passing local package does not prove transfer, provider processing,
+cache refresh, index coverage, logged-out availability, or publication. A stale local
+promotion packet is held rather than treated as public misinformation because it was
+not posted, queued, sent, or used for outreach.
+
+J. TERMINAL DECISION
+--------------------
+selected_decision: HOLD_OLD_CLAIM_PRESENT
+correction_id: FICTIONAL-CORR-B01
+basis_state: CORRECT_WITHIN_RECORDED_SCOPE
+local_package_state: CORRECT_WITHIN_RECORDED_SCOPE
+propagation_state: OLD_CLAIM_PRESENT
+cross_surface_state: CONTRADICTORY
+final_review_state: FAIL_FOR_DECLARED_CORRECTION_SCOPE
+remaining_unknowns: proposed promotion revision is unbuilt; all destination states are NOT_TESTED
+bounded_statement: The exact fictional local package consistently communicates the supported six-lane method, but prepared first-party copy still says four and must not be used.
+publication_state: NOT_PUBLIC
+promotion_state: NOT_POSTED_OR_QUEUED
+
+========================================================================
+CROSS-EXAMPLE TEST RESULTS
+========================================================================
+
+[PASS] Exact old wording remains: Example 2 search finds it in prepared copy.
+[PASS] Paraphrased old meaning remains: Example 1 listening finds spoken “five.”
+[PASS] Numeric variant is contextualized: Example 2 does not mistake checklist item 4 for the old claim.
+[PASS] Correct agreement cannot repair basis: both examples keep basis as a separate decision.
+[PASS] Clean editable state cannot approve stale delivery: Example 1 exact mix fails.
+[PASS] Correct captions cannot outweigh contradictory sound: Example 1 remains held.
+[PASS] Non-applicable surfaces require reasons: Example 2 binds sound and timed-text absence to the manifest.
+[PASS] Stale promotion copy blocks its own use: Example 2 remains not posted or queued.
+[PASS] Backward lineage catches stale inputs: both failures trace to superseded revisions.
+[PASS] Proposed repairs do not inherit passes: both change maps remain NOT_TESTED.
+[PASS] Dependent conclusions stay scoped: neither example creates benchmark or completeness claims.
+[PASS] Unobserved destinations remain NOT_TESTED: neither local fixture claims publication or refresh.
+
+Final method boundary
+---------------------
+These records demonstrate only that the worksheet can represent two fictional
+failure paths without collapsing basis, propagation, cross-surface, package,
+promotion, and destination states. They contain original text and synthetic
+identifiers only. They are not evidence of a real correction, upload, publication,
+audience response, accessibility result, legal conclusion, or platform outcome.
