@@ -1,0 +1,356 @@
+VERTICAL-VIDEO ADVERSARIAL-MASK REVIEW WORKSHEET
+Version 1.0 | Original method kit by Alfred, an AI assistant
+
+PURPOSE
+Use conservative, explicit masks to reveal when essential vertical-video content depends on uncertain edge space. This worksheet records a local design test. It does not reproduce a destination interface or guarantee that any platform, player, device, locale, caption renderer, or account state will behave like the masks.
+
+STATE BOUNDARY
+This record may support only: “The exact candidate was checked against the named masks with the recorded sample map and review passes.” It does not prove upload, destination processing, caption preservation, rights or policy clearance, accessibility conformance, public visibility, audience response, customer activity, or revenue.
+
+Use synthetic fixtures only in the harness test. Do not paste private account screens, customer material, credentials, personal information, or copied platform imagery into this record.
+
+======================================================================
+1. CANDIDATE IDENTITY
+======================================================================
+
+Review record ID:
+Review date and time with timezone:
+Reviewer:
+Candidate label:
+Complete candidate SHA-256:
+File format and codecs:
+Canvas width × height:
+Pixel aspect ratio:
+Display aspect ratio:
+Frame rate and mode:
+Duration:
+Scene-map version or digest:
+Authored-caption file digest, or NONE:
+Uploaded-caption file digest, or NONE:
+Narration/script digest:
+Related release-manifest digest:
+
+Identity check:
+[ ] The selected file matches the complete digest above.
+[ ] Technical properties were read from the selected file, not copied from an older report.
+[ ] The scene map and caption records refer to this exact candidate.
+[ ] Abbreviated digests are display labels only; decisions use complete values.
+
+If any identity is missing or mismatched, stop and mark the review BLOCKED.
+
+======================================================================
+2. CONTENT CLASSIFICATION
+======================================================================
+
+Classify visible elements before applying masks. Add rows as needed.
+
+Element ID:
+Scene and time range:
+Exact visible text or visual function:
+Class — choose one:
+[ ] ESSENTIAL CLAIM — hiding it changes the piece’s meaning
+[ ] REQUIRED DISCLOSURE — hiding it removes a required boundary
+[ ] NAVIGATION CUE — hiding it breaks the intended sequence
+[ ] SUPPORTING DETAIL — useful, but not meaning-critical
+[ ] DECORATION — no claim or navigation dependency
+Qualifier, state label, unit, date, or negation carried by this element:
+Required readable duration, if defined:
+Expected narration redundancy, if any:
+Failure if obscured:
+
+Classification review:
+[ ] Every visible text element has one class.
+[ ] Small qualifiers and lifecycle labels were classified by meaning, not size.
+[ ] Audio redundancy was not used to waive a required visible disclosure.
+[ ] Decorative prominence was not mistaken for claim importance.
+
+======================================================================
+3. MASK-SET DEFINITIONS
+======================================================================
+
+Create a separate block for each local baseline or destination assumption. Do not merge unrelated observations into one unnamed “universal safe zone.” Coordinates use the candidate canvas origin at top left.
+
+MASK SET
+Name and version:
+Type — choose one:
+[ ] LOCAL CONSERVATIVE BASELINE
+[ ] DESTINATION-SPECIFIC ASSUMPTION
+Evidence basis:
+Evidence observation date, if applicable:
+Scope:
+Expiry or recheck trigger:
+Canvas covered:
+
+Mask ID | x1 | y1 | x2 | y2 | Region purpose | Conservative or observed
+--------|----|----|----|----|----------------|-------------------------
+        |    |    |    |    |                |
+        |    |    |    |    |                |
+        |    |    |    |    |                |
+        |    |    |    |    |                |
+
+Opacity used for geometry playback:
+Light-overlay treatment used for contrast challenge:
+Dark-overlay treatment used for contrast challenge:
+Expected caption region, or UNKNOWN:
+Unknown overlay behavior:
+
+Mask definition gate:
+[ ] Every rectangle has explicit coordinates inside the bound canvas.
+[ ] The basis distinguishes a conservative design choice from an observation.
+[ ] Destination-specific assumptions are dated and scoped.
+[ ] Unknown behavior is marked UNKNOWN or NOT_TESTED, never converted to PASS.
+[ ] A mask revision creates a new mask-set identity.
+
+======================================================================
+4. SAMPLE MAP
+======================================================================
+
+Select samples by semantic and motion boundaries, not by an arbitrary frame count. Include each essential claim’s first, midpoint, and last visible frame; one frame before, during, and after text transitions; peak motion or scale; disclosure boundaries; caption changes; narrow spacing; and shared-edge conflicts.
+
+Sample ID:
+Timestamp and frame number:
+Scene:
+Selection reason — choose all that apply:
+[ ] ESSENTIAL CLAIM FIRST FRAME
+[ ] ESSENTIAL CLAIM MIDPOINT
+[ ] ESSENTIAL CLAIM LAST FRAME
+[ ] PRE-TRANSITION
+[ ] TRANSITION
+[ ] POST-TRANSITION
+[ ] PEAK MOTION OR SCALE
+[ ] DISCLOSURE FIRST OR LAST FRAME
+[ ] CAPTION CHANGE
+[ ] MAXIMUM CAPTION LINE COUNT
+[ ] WIDEST EXPECTED TEXT
+[ ] NARROWEST SPACING
+[ ] SHARED EDGE REGION
+[ ] OTHER — explain:
+Elements evaluated:
+Mask sets applied:
+Rendered sample artifact and digest:
+
+Coverage gate:
+[ ] Every essential claim has first, midpoint, and last samples.
+[ ] Every text transition has pre-, during-, and post-transition samples.
+[ ] Peak motion and scale are represented.
+[ ] Required disclosure boundaries are represented.
+[ ] Maximum caption load and widest expected text are represented.
+[ ] Sample selection can be reproduced from this record.
+
+======================================================================
+5. FOUR-PASS OBSERVATION RECORD
+======================================================================
+
+Create one record per sample and mask set. Use PASS, FAIL, BLOCKED, NOT_TESTED, or UNCERTAIN. Do not average separate passes into one score.
+
+Sample ID:
+Mask-set identity:
+
+GEOMETRY PASS
+Result:
+Element and mask intersection observed:
+Allowed overlap rule defined before review, or NONE:
+Observation:
+Evidence artifact:
+
+CONTRAST CHALLENGE
+Original-scene result:
+Light-overlay result:
+Dark-overlay result:
+Observation:
+Evidence artifact:
+Boundary: a synthetic contrast challenge is not an accessibility certification.
+
+MEANING PASS
+Words and cues remaining outside masks:
+Claim, qualifier, state, unit, date, negation, and disclosure preserved:
+Result:
+Observation:
+Evidence artifact:
+
+COMBINED-PLAYBACK PASS
+Masked first-to-last watch result:
+Clean first-to-last watch result:
+Eye travel or edge dependence:
+Authored-copy and caption competition:
+Transient movement between samples:
+Audio observation recorded separately:
+Result:
+Evidence artifact:
+
+Pass independence gate:
+[ ] Geometry did not inherit a listening result.
+[ ] Narration did not waive required visible disclosure.
+[ ] A clean semantic reading did not erase a contrast failure.
+[ ] Sampled frames did not replace first-to-last playback.
+[ ] “Mostly visible” was not accepted for essential content without a predefined rule.
+
+======================================================================
+6. CAPTION DEPENDENCY RECORD
+======================================================================
+
+Caption surface — choose one:
+[ ] AUTHORED INTO PICTURE
+[ ] UPLOADED CAPTION TRACK
+[ ] DESTINATION-GENERATED CAPTIONS
+[ ] NONE
+
+Caption source digest, or UNKNOWN:
+Renderer and version, or UNKNOWN:
+Maximum expected line count tested:
+Longest word tested:
+Widest expected line tested:
+Speaker labels or sound cues required:
+Placement known:
+Collision with authored lower-third:
+Collision with essential claim or disclosure:
+Caption entrances and exits sampled:
+Result:
+
+Caption boundary:
+[ ] Unknown placement is NOT_TESTED or UNCERTAIN.
+[ ] The review does not depend on captions being disabled.
+[ ] Destination-generated captions remain untested until the processed rendition is reviewed.
+[ ] A local caption pass is not described as proof of destination preservation.
+
+======================================================================
+7. FAILURE-SHAPED HARNESS FIXTURES
+======================================================================
+
+Run synthetic fixtures before allowing the harness to approve a candidate. Each fixture must fail for the expected reason.
+
+Fixture | Expected failure
+--------|-----------------
+F01 | A qualifier crosses the right-side action mask.
+F02 | A two-line caption collides with an authored bottom label.
+F03 | A top disclosure is hidden by a top or device-chrome mask.
+F04 | A transition starts inside the envelope but ends outside it.
+F05 | Light text loses usable contrast under the light overlay treatment.
+F06 | A step number remains visible while its essential step text is covered.
+F07 | A final action line sits under a progress or navigation region.
+F08 | A correct master is paired with a stale report for another digest.
+
+Fixture record:
+Fixture ID:
+Synthetic artifact digest:
+Mask-set identity:
+Expected result:
+Observed result:
+Expected failure reason detected:
+Harness verdict:
+
+Harness gate:
+[ ] All eight fixtures are synthetic and contain no real account or customer material.
+[ ] Every fixture produced its expected failure.
+[ ] A stale candidate or mask identity fails closed.
+[ ] Any unexpected fixture pass blocks candidate approval.
+
+======================================================================
+8. ISSUE AND REMEDIATION LEDGER
+======================================================================
+
+Issue ID:
+Candidate digest:
+Scene, timestamp, and frame:
+Mask-set identity:
+Affected element and class:
+Failed pass:
+Observed failure:
+Meaning at risk:
+Remediation owner or role:
+Proposed change:
+Dependencies invalidated by that change:
+Replacement candidate digest:
+Retest evidence:
+Final issue state — OPEN, FIXED_AND_RETESTED, ACCEPTED_BY_PREDEFINED_RULE, or BLOCKED:
+
+Do not close an issue because a different candidate, mask set, caption state, or scene passed.
+
+======================================================================
+9. DECISION AND SCOPE
+======================================================================
+
+Exact candidate digest:
+Exact timeline or scene-map identity:
+Exact mask-set identities:
+Exact review-output manifest and digest:
+Decision — choose one:
+[ ] PASS
+[ ] FAIL
+[ ] BLOCKED
+[ ] NOT_TESTED
+[ ] UNCERTAIN
+Decision time with timezone:
+Reviewer:
+Open failures or unknowns:
+Permitted next state:
+Prohibited next states:
+Recheck deadline or event:
+
+Narrow supported statement:
+“The exact candidate identified above was checked against the named masks using the recorded sample map, synthetic harness fixtures, and separate geometry, contrast, meaning, and combined-playback passes.”
+
+Unsupported inferences — confirm each remains out of scope:
+[ ] Upload occurred.
+[ ] Destination processing succeeded.
+[ ] Destination overlays match these masks.
+[ ] Destination-generated captions are correct.
+[ ] Rights or policy checks cleared.
+[ ] The item is private, unlisted, scheduled, or public.
+[ ] The layout meets an accessibility standard.
+[ ] Viewers understood or benefited from the item.
+[ ] Any audience, customer, inquiry, or revenue result occurred.
+
+======================================================================
+10. INVALIDATION TRIGGERS
+======================================================================
+
+Mark the decision stale and rerun every dependent check after any of these changes:
+
+[ ] Master bytes or complete digest
+[ ] Crop, scale, padding, aspect handling, or canvas
+[ ] Visible wording, qualifier, disclosure, unit, date, or lifecycle label
+[ ] Scene timing, transition, motion path, or duration
+[ ] Authored captions, caption track, line breaks, or caption renderer
+[ ] Mask coordinates, opacity, evidence basis, or destination assumption
+[ ] Output renderer, codec path, or re-encoding that may alter geometry
+[ ] Destination interface observation or first-party guidance
+[ ] Processed private rendition
+[ ] Review method, sample-map rule, or fixture harness
+[ ] Evidence artifact, manifest, or decision record
+
+Invalidation event:
+Affected evidence:
+New state:
+Required recheck:
+
+======================================================================
+11. FINAL RELEASE-REVIEW CHECKLIST
+======================================================================
+
+[ ] 1. Exact master digest and technical canvas properties are bound.
+[ ] 2. Essential claims, required disclosures, navigation cues, supporting details, and decoration are classified.
+[ ] 3. Every mask set records coordinates, basis, scope, version, and expiry.
+[ ] 4. Local baselines and destination-specific assumptions remain separate.
+[ ] 5. Claim boundaries, transitions, peak motion, and disclosure boundaries are sampled.
+[ ] 6. Maximum caption load and widest expected text are tested.
+[ ] 7. Geometry, contrast, meaning, and combined playback have separate results.
+[ ] 8. The exact candidate was watched from first to last with masks visible and clean.
+[ ] 9. All eight synthetic failure fixtures fail for the expected reasons.
+[ ] 10. Candidate, timeline, mask set, output, and decision identities agree.
+[ ] 11. Unknown destination behavior remains NOT_TESTED or UNCERTAIN.
+[ ] 12. Open failures block release rather than being averaged into a score.
+[ ] 13. Crop, text, timing, caption, or mask changes invalidate dependent evidence.
+[ ] 14. A processed private rendition is required before any later visibility decision.
+[ ] 15. Any public state must be verified from the exact HTTPS item without privileged session state.
+[ ] 16. Layout evidence remains separate from rights, policy, publication, audience, customer, and revenue claims.
+
+FINAL RESULT
+Candidate:
+Mask sets:
+Result:
+Open blockers:
+Permitted next action:
+Evidence manifest:
+
+This worksheet is original work by Alfred, an AI assistant. It is a reusable local review instrument, not evidence that a specific platform was tested or that any item was uploaded or published.

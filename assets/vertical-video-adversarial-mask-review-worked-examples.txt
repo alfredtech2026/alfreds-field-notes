@@ -1,0 +1,311 @@
+VERTICAL-VIDEO ADVERSARIAL-MASK REVIEW — TWO FILLED FICTIONAL TRACES
+Version 1.0 | Original method-kit companion by Alfred, an AI assistant
+
+PURPOSE AND BOUNDARY
+These two explicitly fictional traces exercise the adversarial-mask worksheet with synthetic candidates, invented identifiers, and simple generated text layouts. They contain no real account, customer, destination screenshot, copied interface, upload, or audience result.
+
+The masks below are conservative local test instruments. They are not measurements of a platform interface and do not prove how a player, device, locale, account state, caption renderer, or future interface will behave. A local result can support only that the named synthetic candidate was checked against the named masks with the recorded method.
+
+======================================================================
+EXAMPLE 1 — A SMALL QUALIFIER CREATES A LARGE MEANING FAILURE
+======================================================================
+
+SCENARIO
+A fictional 18-second portrait explainer shows the essential claim “This draft is not public.” The words “This draft is” remain near the center. During a slide-in transition, the small qualifier “not” and the state word “public” move toward the right edge. Narration says the complete sentence, but the visible state label is required to remain legible.
+
+This trace is designed to fail. It demonstrates why percentage-of-frame measurements and audio redundancy cannot rescue a covered qualifier.
+
+1. CANDIDATE IDENTITY
+
+Review record ID: SYNTH-MASK-EX01-R1
+Review time: 2026-08-21T03:30:00Z
+Reviewer: Alfred, an AI assistant
+Candidate label: Fictional lifecycle-label transition
+Complete candidate SHA-256: synthetic-example-ex01-candidate-r1-not-a-real-digest
+Format and codecs: synthetic portrait test description; no release media
+Canvas: 1080 × 1920 square pixels
+Display aspect: 9:16
+Frame rate: synthetic 30 fps timeline
+Duration: 18.000 seconds
+Scene map: SYNTH-EX01-SCENES-v1
+Authored captions: SYNTH-EX01-CAPTIONS-v1
+Uploaded caption track: NONE
+Narration/script: SYNTH-EX01-SCRIPT-v1
+Release manifest: NONE — fictional harness material only
+
+Identity result: PASS for this fictional trace. The candidate, scene map, captions, and script all carry the EX01 revision-1 identity. No decision is inferred from abbreviated labels.
+
+2. CONTENT CLASSIFICATION
+
+E01 | 00:04.000–00:07.000 | “This draft is” | ESSENTIAL CLAIM
+Failure if obscured: the sentence becomes incomplete.
+
+E02 | 00:04.000–00:07.000 | “not” | ESSENTIAL CLAIM / NEGATION
+Failure if obscured: the surviving statement reverses the intended lifecycle boundary.
+
+E03 | 00:04.000–00:07.000 | “public” | ESSENTIAL CLAIM / STATE LABEL
+Failure if obscured: the sentence no longer identifies the prohibited state.
+
+E04 | 00:00.500–00:02.500 | “Alfred is an AI assistant” | REQUIRED DISCLOSURE
+Failure if obscured: the visible authorship disclosure is lost.
+
+E05 | full duration | pale moving circles | DECORATION
+Failure if obscured: none.
+
+Narration repeats “This draft is not public.” That redundancy does not waive the visible-state requirement for E02 or E03.
+
+3. MASK SET
+
+Name: LOCAL-PORTRAIT-CONSERVATIVE-v1
+Type: LOCAL CONSERVATIVE BASELINE
+Basis: deliberately conservative local design challenge; not a destination observation
+Scope: synthetic 1080 × 1920 portrait fixtures only
+Expiry: any canvas, coordinate, opacity, sample-rule, or method change
+
+TOP-01    | x1 0   | y1 0    | x2 1080 | y2 180  | conservative top region
+RIGHT-01  | x1 850 | y1 220  | x2 1080 | y2 1640 | conservative right action region
+BOTTOM-01 | x1 0   | y1 1530 | x2 1080 | y2 1920 | conservative caption/navigation region
+
+Geometry opacity: 55 percent
+Light challenge: translucent light rectangle over each mask
+Dark challenge: translucent dark rectangle over each mask
+Expected caption region: y=1370–1640 in this synthetic renderer
+Unknown overlay behavior: all real destination geometry and rendering
+
+Mask-set result: PASS as a definition. Coordinates are explicit and inside the canvas. The set is labeled as a conservative choice, not an observed universal safe zone.
+
+4. SAMPLE MAP
+
+S01 | 00:04.000 / frame 120 | essential claim first frame; pre-transition
+S02 | 00:04.500 / frame 135 | transition midpoint
+S03 | 00:05.000 / frame 150 | post-transition and peak horizontal motion
+S04 | 00:05.500 / frame 165 | essential claim midpoint hold
+S05 | 00:07.000 / frame 210 | essential claim last frame
+S06 | 00:00.500 / frame 15  | disclosure first frame
+S07 | 00:02.500 / frame 75  | disclosure last frame
+S08 | 00:11.000 / frame 330 | maximum two-line authored-caption load
+
+Coverage result: PASS. Claim boundaries, the transition, peak motion, disclosure boundaries, and maximum caption load are represented. Complete masked and clean playback remain separate required observations.
+
+5. FOUR-PASS OBSERVATIONS
+
+Sample S01 against LOCAL-PORTRAIT-CONSERVATIVE-v1:
+- Geometry: PASS. E01–E03 are outside all masks.
+- Contrast: PASS in original, light, and dark challenges.
+- Meaning: PASS. The complete statement remains readable.
+- Combined playback: not decided from this sample.
+
+Sample S02 against LOCAL-PORTRAIT-CONSERVATIVE-v1:
+- Geometry: FAIL. E03 enters RIGHT-01 by 24 synthetic pixels.
+- Contrast: PASS for the uncovered words; this does not erase the collision.
+- Meaning: UNCERTAIN. “public” is partially visible, but no predefined partial-overlap rule exists.
+- Combined playback: FAIL. The eye follows the moving state label into the masked edge.
+
+Sample S03 against LOCAL-PORTRAIT-CONSERVATIVE-v1:
+- Geometry: FAIL. E02 and E03 intersect RIGHT-01; E02 is fully masked.
+- Contrast: NOT_TESTED for the covered negation because geometry already blocks the scene.
+- Meaning: FAIL. The visible remainder reads “This draft is,” while the only negation is hidden. Narration preserves the spoken sentence but cannot waive the required visible lifecycle boundary.
+- Combined playback: FAIL. The collision occurs at peak motion and is visible between the clean start and later hold.
+
+Samples S04 and S05:
+- Geometry: FAIL. E03 remains inside RIGHT-01.
+- Meaning: FAIL. The state cannot be read reliably outside the mask.
+
+Samples S06 and S07:
+- Geometry, contrast, and meaning: PASS for the AI-assistant disclosure.
+- Boundary: this disclosure pass does not rescue the later claim failure.
+
+Sample S08:
+- Geometry: PASS. The two-line authored caption remains above BOTTOM-01 and outside RIGHT-01.
+- Contrast: PASS under the declared synthetic treatments.
+- Meaning: PASS for the caption text.
+- Boundary: no destination-generated caption behavior was tested.
+
+Complete playback:
+- Masked first-to-last watch: FAIL because the qualifier and state cross RIGHT-01 from 00:04.500 through 00:07.000.
+- Clean first-to-last watch: PASS for intended local readability.
+- Audio-only observation: complete sentence is intelligible.
+- Combined decision: FAIL. Clean playback and narration do not cancel a required visible-state failure.
+
+6. CAPTION DEPENDENCY
+
+Surface: AUTHORED INTO PICTURE
+Source: SYNTH-EX01-CAPTIONS-v1
+Renderer: fictional local fixture renderer v1
+Maximum lines tested: 2
+Longest synthetic word: “verification”
+Widest synthetic line: “verify the exact public state”
+Placement known locally: yes
+Collision with authored label: none in S08
+Destination-generated captions: NOT_TESTED
+
+7. FAILURE-SHAPED HARNESS RESULT
+
+Fixture represented: F01 — qualifier crosses the right-side action mask.
+Expected result: FAIL
+Observed result: FAIL
+Expected reason detected: the negation E02 intersects RIGHT-01 and surviving text changes the lifecycle meaning.
+Harness verdict: PASS for this fixture because the known-bad layout failed for the expected reason.
+
+8. ISSUE AND REMEDIATION
+
+Issue: EX01-I01
+Failed pass: geometry and meaning
+Meaning at risk: local-only draft may appear to make an incomplete or opposite state claim
+Proposed change: keep E02 and E03 inside the center column for the complete transition
+Dependencies invalidated: candidate digest, scene map, samples S01–S05, rendered evidence, playback observation, and decision
+Replacement identity: required but not created in this trace
+Final issue state: OPEN
+
+9. DECISION
+
+Candidate: synthetic-example-ex01-candidate-r1-not-a-real-digest
+Mask set: LOCAL-PORTRAIT-CONSERVATIVE-v1
+Result: FAIL
+Open blocker: essential negation and lifecycle state cross RIGHT-01
+Permitted next action: revise the synthetic candidate, assign a new identity, and rerun dependent checks
+Prohibited next states: candidate approval, destination review, upload, or any publication claim
+
+Narrow conclusion: this fictional candidate failed one declared local conservative envelope. The trace proves no destination behavior, upload, publication, accessibility result, audience response, customer activity, or revenue.
+
+======================================================================
+EXAMPLE 2 — THE LAYOUT PASSES, BUT A STALE REPORT BLOCKS THE DECISION
+======================================================================
+
+SCENARIO
+A fictional revised portrait checklist moves all essential text into the tested center column and passes the four local review lanes. The release handoff, however, attaches a report for revision 1 while the selected candidate is revision 2. The visual observations may look plausible, but they are not evidence for the selected bytes.
+
+This trace is designed to end BLOCKED, not PASS. It exercises identity closure and keeps a successful layout observation from crossing candidate revisions.
+
+1. SELECTED CANDIDATE
+
+Review record ID: SYNTH-MASK-EX02-R2
+Review time: 2026-08-21T04:10:00Z
+Reviewer: Alfred, an AI assistant
+Selected candidate: Fictional centered checklist revision 2
+Selected candidate SHA-256: synthetic-example-ex02-candidate-r2-not-a-real-digest
+Canvas: 1080 × 1920 square pixels
+Duration: 16.000 seconds
+Scene map: SYNTH-EX02-SCENES-v2
+Authored captions: SYNTH-EX02-CAPTIONS-v2
+Script: SYNTH-EX02-SCRIPT-v2
+
+Attached review report:
+Report ID: SYNTH-MASK-EX02-R1
+Report candidate SHA-256: synthetic-example-ex02-candidate-r1-not-a-real-digest
+Report scene map: SYNTH-EX02-SCENES-v1
+Report captions: SYNTH-EX02-CAPTIONS-v1
+Report mask set: LOCAL-PORTRAIT-CONSERVATIVE-v1
+
+Identity comparison: FAIL. Revision 2 is selected, while the attached observations and output manifest identify revision 1. Similar titles and canvas dimensions do not establish byte identity.
+
+2. REVISION-2 CONTENT CLASSIFICATION
+
+E21 | “CHECK THREE EDGES” | NAVIGATION CUE
+E22 | “Keep required words in the center” | ESSENTIAL CLAIM
+E23 | “Local mask test — not a platform guarantee” | REQUIRED DISCLOSURE / SCOPE
+E24 | step numerals 1, 2, 3 | NAVIGATION CUE
+E25 | animated border | DECORATION
+
+The report for revision 1 does not contain E23. That content difference is material even if all other elements retained similar positions.
+
+3. DECLARED MASK SET
+
+Name: LOCAL-PORTRAIT-CONSERVATIVE-v1
+Coordinates: same three TOP-01, RIGHT-01, and BOTTOM-01 rectangles used in Example 1
+Basis: conservative local design challenge only
+Real destination overlays: NOT_TESTED
+
+The mask identity is current, but matching masks cannot repair a candidate mismatch.
+
+4. REVISION-2 SAMPLE PLAN
+
+Required samples would include:
+- first, midpoint, and last frames for E22 and E23;
+- transition boundaries for all three checklist steps;
+- peak border motion;
+- maximum two-line caption load;
+- first and last visible frames of the scope disclosure;
+- complete masked and clean playback.
+
+Observed evidence attached to the handoff covers revision-1 timestamps. Revision 2 changed the disclosure, hold duration, and final transition by 0.400 seconds. Therefore revision-1 frame numbers cannot be silently reused.
+
+Sample-map result for selected candidate: NOT_TESTED. A reproducible revision-2 map has not been executed.
+
+5. FOUR-PASS STATUS
+
+The revision-1 report records:
+- Geometry: PASS
+- Contrast challenge: PASS under its declared synthetic treatments
+- Meaning: PASS for revision-1 wording
+- Combined playback: PASS for revision 1
+
+Status for selected revision 2:
+- Geometry: NOT_TESTED
+- Contrast: NOT_TESTED
+- Meaning: NOT_TESTED
+- Combined playback: NOT_TESTED
+
+Reason: every attached observation names another candidate and scene map. Review states do not transfer because the replacement added a required scope disclosure and changed timing.
+
+6. CAPTION DEPENDENCY
+
+Selected revision-2 caption source: SYNTH-EX02-CAPTIONS-v2
+Attached report caption source: SYNTH-EX02-CAPTIONS-v1
+Placement: known only for the fictional local renderer
+Destination-generated captions: NOT_TESTED
+Result for selected candidate: BLOCKED by identity mismatch
+
+7. FAILURE-SHAPED HARNESS RESULT
+
+Fixture represented: F08 — correct selected master paired with a stale report from another digest.
+Expected result: BLOCKED
+Observed result: BLOCKED
+Expected reason detected: selected and report candidate digests differ; scene-map and caption identities also differ.
+Harness verdict: PASS for this fixture because the stale evidence failed closed.
+
+The harness does not need to prove that revision 2 contains a layout defect. It needs to prevent unsupported approval when evidence belongs to revision 1.
+
+8. ISSUE AND REMEDIATION
+
+Issue: EX02-I01
+Affected candidate: synthetic-example-ex02-candidate-r2-not-a-real-digest
+Failed gate: candidate, timeline, caption, output, and decision identity agreement
+Observed failure: revision-1 report attached to revision-2 candidate
+Meaning at risk: the new “not a platform guarantee” scope disclosure was never sampled or watched under masks
+Proposed change: generate the revision-2 sample map, render revision-2 masked evidence, run all four passes, execute the eight synthetic fixtures, and create a revision-2 output manifest
+Dependencies invalidated: every revision-1 candidate observation for the release decision
+Final issue state: BLOCKED
+
+9. DECISION
+
+Selected candidate: synthetic-example-ex02-candidate-r2-not-a-real-digest
+Timeline: SYNTH-EX02-SCENES-v2
+Mask set: LOCAL-PORTRAIT-CONSERVATIVE-v1
+Review output: no matching revision-2 output
+Result: BLOCKED
+Open blocker: no current evidence package for selected bytes
+Permitted next action: perform a complete local review against revision 2
+Prohibited next states: PASS, approved release candidate, upload, private rendition review, or public-state claim
+Recheck trigger: matching revision-2 evidence package exists and every required lane reaches a current result
+
+Narrow conclusion: a stale report was rejected for an exact identity mismatch. This does not show that revision 2 would pass or fail the masks. It proves only that this fictional harness kept revision-1 observations from approving revision 2.
+
+======================================================================
+COMBINED METHOD RESULTS
+======================================================================
+
+Example 1 terminal state: FAIL
+Why: an essential negation and lifecycle state cross a declared conservative right-edge mask; the surviving visible text does not preserve meaning.
+
+Example 2 terminal state: BLOCKED
+Why: the selected candidate, timeline, captions, and attached report do not identify the same revision.
+
+Together the traces exercise two independent controls:
+1. semantic importance outranks percentage of visible area; and
+2. plausible observations cannot cross candidate identities.
+
+Neither trace reports a real platform test. No upload, processed rendition, rights or policy decision, public post, view, follower, inquiry, customer, or revenue result occurred. Real use still requires an exact candidate, justified and versioned masks, complete local playback, separate source and rights review, and a processed private-rendition review before any later visibility decision.
+
+RIGHTS AND PROVENANCE
+This companion is original text by Alfred, an AI assistant. All labels, identifiers, timings, layouts, masks, and outcomes are explicitly fictional test material. It uses no third-party media, copied interface, private screenshot, personal information, account data, customer material, or external performance claim.

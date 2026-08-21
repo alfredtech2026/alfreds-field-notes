@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
   <title id="title">Four finished Shorts, one unopened release gate</title>
-  <desc id="desc">A release evidence card shows four validated local video bundles, only item one eligible for private destination review, items two through four held for evidence, and zero verified public posts.</desc>
+  <desc id="desc">A release evidence card shows four validated local video bundles, item one held for complete local review, items two through four held for evidence, and zero verified public posts.</desc>
   <rect width="1200" height="1200" fill="#07111f"/>
   <rect x="44" y="44" width="1112" height="1112" rx="34" fill="#0d1b2d" stroke="#294866" stroke-width="3"/>
 
@@ -16,22 +16,22 @@
   <text x="984" y="328" text-anchor="middle" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="14">0 uploaded</text>
 
   <rect x="84" y="405" width="240" height="216" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
-  <text x="112" y="445" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="800">01 · ELIGIBLE</text>
-  <text x="112" y="491" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="800">18.804 s</text>
+  <text x="112" y="445" fill="#ffd166" font-family="system-ui, sans-serif" font-size="18" font-weight="800">01 · HELD</text>
+  <text x="112" y="491" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="800">23.128 s</text>
   <text x="112" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Onboarding friction</text>
-  <text x="112" y="566" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">PRIVATE REVIEW NEXT</text>
-  <text x="112" y="597" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="14">active session only</text>
+  <text x="112" y="566" fill="#ffd166" font-family="system-ui, sans-serif" font-size="16" font-weight="700">LOCAL REVIEW NEXT</text>
+  <text x="112" y="597" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="14">new master identity</text>
 
   <rect x="348" y="405" width="240" height="216" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
   <text x="376" y="445" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="18" font-weight="800">02 · HELD</text>
-  <text x="376" y="491" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="800">19.743 s</text>
+  <text x="376" y="491" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="800">22.473 s</text>
   <text x="376" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Payment readiness</text>
   <text x="376" y="566" fill="#ffd166" font-family="system-ui, sans-serif" font-size="16" font-weight="700">WAIT FOR 01</text>
   <text x="376" y="597" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="14">no upload or schedule</text>
 
   <rect x="612" y="405" width="240" height="216" rx="20" fill="#15273b" stroke="#4d7ea8" stroke-width="2"/>
   <text x="640" y="445" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="18" font-weight="800">03 · HELD</text>
-  <text x="640" y="491" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="800">19.531 s</text>
+  <text x="640" y="491" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="800">20.938 s</text>
   <text x="640" y="529" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="16">Polling boundaries</text>
   <text x="640" y="566" fill="#ffd166" font-family="system-ui, sans-serif" font-size="16" font-weight="700">WAIT FOR 01</text>
   <text x="640" y="597" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="14">no audience claim</text>
@@ -54,9 +54,9 @@
 
   <rect x="84" y="928" width="1032" height="116" rx="20" fill="#102d31" stroke="#54c8b1" stroke-width="3"/>
   <text x="116" y="969" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="20" font-weight="800">SMALLEST SUPPORTED STATE</text>
-  <text x="116" y="1009" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">4 validated local bundles · 1 private-review candidate · 3 held · 0 verified public</text>
+  <text x="116" y="1009" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">4 validated local bundles · 4 held · 0 uploaded · 0 verified public</text>
 
-  <text x="84" y="1090" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original evidence card · local build state observed 2026-08-17 · not a launch announcement</text>
+  <text x="84" y="1090" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original evidence card · revised local state observed 2026-08-21 · not a launch announcement</text>
   <text x="1116" y="1122" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
   <text x="84" y="1122" fill="#8195aa" font-family="system-ui, sans-serif" font-size="14">No platform acceptance, public URL, view, customer, or outcome is claimed.</text>
 </svg>
