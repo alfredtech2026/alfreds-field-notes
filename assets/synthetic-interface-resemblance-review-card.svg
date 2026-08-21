@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic interface resemblance review method card</title>
+  <desc id="desc">A six-step method card for binding one exact synthetic interface candidate, recording invention and reference lineage, inspecting distinctive signals separately and together, making the fictional boundary visible, reviewing privacy and false-reality risk, and invalidating affected evidence after revision.</desc>
+  <rect width="1200" height="1200" fill="#f5f0e7"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#172a3a" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#a33b2f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">SYNTHETIC INTERFACE · RESEMBLANCE REVIEW</text>
+  <text x="94" y="196" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">A fictional name is</text>
+  <text x="94" y="256" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">not a rights review.</text>
+  <text x="94" y="306" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">Inspect the exact scene, its lineage, and its combined impression.</text>
+
+  <rect x="94" y="348" width="1012" height="112" rx="18" fill="#172a3a"/>
+  <text x="126" y="394" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">CANDIDATE × LINEAGE × SIGNALS × IMPRESSION × CLAIM</text>
+  <text x="126" y="430" fill="#dce6ec" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">“Synthetic” describes production; it does not prove originality or clearance.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="536" r="21" fill="#a33b2f"/>
+    <text x="130" y="545" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="534" fill="#172a3a" font-size="27" font-weight="800">Bind exact bytes</text>
+    <text x="126" y="576" fill="#4d5b66" font-size="21">Record the final digest, scene, script, caption,</text>
+    <text x="126" y="604" fill="#4d5b66" font-size="21">claim, rights, disclosure, and media type.</text>
+
+    <rect x="622" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="536" r="21" fill="#a33b2f"/>
+    <text x="658" y="545" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="534" fill="#172a3a" font-size="27" font-weight="800">Record invention + lineage</text>
+    <text x="654" y="576" fill="#4d5b66" font-size="21">Name what was invented, every influence,</text>
+    <text x="654" y="604" fill="#4d5b66" font-size="21">what carried forward, and its usable basis.</text>
+
+    <rect x="94" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="694" r="21" fill="#a33b2f"/>
+    <text x="130" y="703" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="692" fill="#172a3a" font-size="27" font-weight="800">Inspect separate signals</text>
+    <text x="126" y="734" fill="#4d5b66" font-size="21">Check names, marks, color, type, layout, icons,</text>
+    <text x="126" y="762" fill="#4d5b66" font-size="21">motion, sound, and data without averaging.</text>
+
+    <rect x="622" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="694" r="21" fill="#a33b2f"/>
+    <text x="658" y="703" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="692" fill="#172a3a" font-size="27" font-weight="800">Challenge the combination</text>
+    <text x="654" y="734" fill="#4d5b66" font-size="21">Ignore the fictional name; ask whether connected</text>
+    <text x="654" y="762" fill="#4d5b66" font-size="21">signals imply an official or real product surface.</text>
+
+    <rect x="94" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="852" r="21" fill="#a33b2f"/>
+    <text x="130" y="861" fill="#ffffff" font-size="24" font-weight="800">5</text>
+    <text x="174" y="850" fill="#172a3a" font-size="27" font-weight="800">Expose the fictional edge</text>
+    <text x="126" y="892" fill="#4d5b66" font-size="21">Make disclosure visible; sweep claims, data,</text>
+    <text x="126" y="920" fill="#4d5b66" font-size="21">metadata, privacy, and false-reality risk.</text>
+
+    <rect x="622" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="852" r="21" fill="#a33b2f"/>
+    <text x="658" y="861" fill="#ffffff" font-size="24" font-weight="800">6</text>
+    <text x="702" y="850" fill="#172a3a" font-size="27" font-weight="800">Diverge and invalidate</text>
+    <text x="654" y="892" fill="#4d5b66" font-size="21">Change connected signals, assign new identity,</text>
+    <text x="654" y="920" fill="#4d5b66" font-size="21">and supersede every affected review lane.</text>
+  </g>
+
+  <rect x="94" y="978" width="1012" height="86" rx="18" fill="#f4ddd7" stroke="#a33b2f" stroke-width="3"/>
+  <text x="126" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">FAIL CLOSED</text>
+  <text x="312" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">A clean component cannot erase a concentrated combination.</text>
+  <text x="126" y="1049" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Disclosure does not cure copying; scoped review is not legal or platform clearance.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c7cfd4" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Local method card, not publication evidence</text>
+</svg>

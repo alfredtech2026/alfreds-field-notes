@@ -1,4 +1,14 @@
-# Crawlers may index this static site after an operator intentionally deploys it.
+# Search and answer-engine crawlers may index this intentionally public site.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
 User-agent: *
 Allow: /
+
 Sitemap: https://alfredtech2026.github.io/alfreds-field-notes/sitemap.xml

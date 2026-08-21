@@ -1,0 +1,595 @@
+SYNTHETIC INTERFACE RESEMBLANCE REVIEW — TWO FICTIONAL WORKED EXAMPLES
+
+Status: local publication companion; not assembled, deployed, uploaded, queued,
+posted, promoted, or publicly verified
+Author disclosure: Original work by Alfred, an AI assistant
+Purpose: Exercise the synthetic-interface resemblance review with failure-shaped
+fixtures. These are method tests, not reports about real interfaces, products,
+organizations, accounts, people, customers, releases, or disputes.
+
+EVIDENCE BOUNDARY
+
+Both examples use invented candidate identities, stipulated synthetic SHA-256
+values, invented component records, and neutral interface descriptions. They
+contain no copied screenshot, third-party mark, real contact route, private data,
+account surface, customer result, upload, publication, audience measure, payment,
+or revenue result.
+
+Allowed lane states:
+PASS / FINDING / NOT TESTED / BLOCKED / SUPERSEDED
+
+Allowed terminal decisions:
+PASS FOR DECLARED SCOPE / REVISE / HOLD / BLOCKED / SUPERSEDED
+
+A fictional name cannot neutralize a concentrated resemblance. Individually
+common components cannot force the combined-impression lane to pass. A changed
+candidate cannot inherit review evidence attached to earlier bytes.
+
+======================================================================
+EXAMPLE 1 — A RENAMED INTERFACE STILL HAS A CONCENTRATED RESEMBLANCE
+======================================================================
+
+EXAMPLE STATUS
+
+Scenario type: explicitly fictional method test
+Candidate type: static image
+Candidate state: synthetic local fixture
+Destination state: NOT TESTED
+Upload state: no upload represented
+Public state: not public
+Expected terminal decision: REVISE
+
+A. REVIEW ENVELOPE
+
+Review ID: FICTIONAL-SIR-EXAMPLE-01
+Reviewer role: synthetic method reviewer
+Reviewer disclosure: Alfred, an AI assistant
+Intended destination class: first-party educational field-note companion
+Intended audience: automation and product practitioners
+Declared review scope: resemblance, lineage, disclosure, privacy, and claims
+Out of scope: legal clearance, universal non-infringement, accessibility,
+platform acceptance, destination processing, upload, and publication
+
+Candidate ID: SYNTH-UI-A07-r1
+Filename: synthetic-work-queue-a07-r1.png
+Candidate type: static image
+Digest algorithm: SHA-256
+Complete stipulated synthetic digest:
+4b530f2018698716fd12df5a04d4864cd5d55177ff968de27df2c7b9f177a528
+Dimensions: 1200 x 1200
+Generation revision: SYNTH-BUILD-A07-r1
+Source-scene identity: SYNTH-SCENE-A07-r1
+Script identity: NOT TESTED — static image with no script
+Caption identity: NOT TESTED — static image with no timed captions
+Claim-record identity: SYNTH-CLAIM-A07-r1
+Rights-record identity: SYNTH-RIGHTS-A07-r1
+Disclosure identity: SYNTH-DISCLOSURE-A07-r1
+
+Identity checks:
+[x] The opened fixture is stipulated to match the complete synthetic digest.
+[x] Scene, claim, rights, and disclosure records name SYNTH-UI-A07-r1.
+[x] No preview or source scene substitutes for the declared final fixture.
+
+Identity result: PASS
+
+B. INVENTION RECORD
+
+Product category: fictional work-routing dashboard
+Scene purpose: teach that a queue item needs an explicit admission decision
+Represented task: inspect held, admitted, and completed synthetic jobs
+Invented product name: Cedar Queue
+Invented organization name: none
+Invented person label: none
+Invented contact string: none
+Invented numbers: 12 held, 3 admitted, 8 completed; all labeled sample data
+Invented status labels: Held, Admitted, Completed
+Invented navigation labels: Work, Rules, History
+Invented icon system: simple locally authored circles, lines, and rectangles
+Invented color system: deep charcoal, pale gray, bright lime accent
+Invented type system: generic system sans serif
+Invented layout system: left rail, three summary cards, central item table,
+right-side detail drawer
+Authored components: local vector primitives and text only
+Elements deliberately excluded: avatars, names, messages, contacts, timestamps,
+order references, billing data, and realistic account identifiers
+
+Fixture checks:
+[x] No person or contact route appears.
+[x] Every number is visibly labeled SAMPLE DATA.
+[x] No real customer, testimonial, transaction, or operational result is implied.
+[x] The asset carries a visible FICTIONAL INTERFACE label.
+
+Invention-record result: PASS
+
+C. REFERENCE AND LINEAGE INVENTORY
+
+Reference 1
+Reference ID: SYNTH-REF-A07-01
+Source or origin: reviewer-invented verbal prompt describing a generic dashboard
+Rights or access basis: original method fixture
+Elements observed: left navigation, summary cards, item list
+Elements carried forward: those generic categories
+Transformation performed: none claimed; arrangement described below was authored
+Attribution duty: none
+Retention duty: retain this fixture record with the example
+Reviewer conclusion: usable within this synthetic method test
+
+Reference 2
+Reference ID: SYNTH-REF-A07-02
+Source or origin: no visual reference declared
+Rights or access basis: not applicable
+Elements observed: none
+Elements carried forward: none
+Transformation performed: none
+Attribution duty: none
+Retention duty: none
+Reviewer conclusion: no second source represented
+
+Lineage checks:
+[x] No screenshot, mark, proprietary icon, illustration, photo, or audio appears.
+[x] No public location is treated as a rights record.
+[x] Generated output is not assumed to be cleared merely because it is generated.
+
+Lineage result: PASS for the represented fixture record
+
+D. DISTINCTIVE-SIGNAL SWEEP
+
+1. Names and language
+State: FINDING
+Evidence: the name Cedar Queue is invented, but five unusually specific control
+labels and their order are stipulated to match the same unnamed reference pattern:
+Create work, Assign rule, Snooze item, Resolve all, and Activity trail.
+Finding ID: FIND-SIR-A07-01
+
+2. Logos and marks
+State: PASS
+Evidence: no logo, wordmark, mascot, badge, app icon, or verification symbol.
+
+3. Color and typography
+State: FINDING
+Evidence: the charcoal surface, pale-gray cards, bright-lime active state, compact
+uppercase labels, and narrow numeric treatment form one concentrated style set.
+No isolated color is treated as distinctive; the combined treatment is the issue.
+Finding ID: FIND-SIR-A07-02
+
+4. Layout and information architecture
+State: FINDING
+Evidence: the rail width, three-card summary row, central table proportions,
+sticky detail drawer, filter placement, and five-control footer preserve the
+stipulated reference geometry despite the fictional product name.
+Finding ID: FIND-SIR-A07-03
+
+5. Icons and illustrations
+State: PASS
+Evidence: only basic original geometric primitives appear. No icon is traced or
+represented as originating from an outside screenshot.
+
+6. Motion and sound
+State: NOT TESTED — not timed media
+Evidence: the fixture is a static image.
+
+7. Data shape
+State: PASS
+Evidence: only small integer counts appear; each is visibly marked SAMPLE DATA.
+No account, order, transaction, address, balance, or timestamp format appears.
+
+8. Overall trade-dress impression
+State: FINDING
+Evidence: ignoring Cedar Queue, the language order, rail and drawer geometry,
+bright-lime active treatment, compact typography, and footer controls reinforce
+one another. The fixture stipulates that a reviewer recognizes the unnamed
+reference pattern from this connected combination, not from one generic card.
+Finding ID: FIND-SIR-A07-04
+
+Combined resemblance question:
+Could a reasonable viewer interpret this as an official mockup or screenshot
+from the unnamed reference represented by the fixture? YES, within this test.
+
+Signals responsible:
+- distinctive label sequence;
+- rail, summary row, table, and drawer proportions;
+- concentrated charcoal, pale-gray, and lime treatment;
+- compact uppercase rhythm; and
+- five-control footer placement.
+
+Distinctive-signal result: FINDING
+
+E. DISCLOSURE AND CLAIM REVIEW
+
+Disclosure text: FICTIONAL INTERFACE — SAMPLE DATA
+Disclosure location: visible above the synthetic dashboard frame
+Smallest reviewed display size: stipulated 360 logical pixels wide
+
+Disclosure checks:
+[x] The delivered composition, not only a source note, carries the label.
+[x] The description calls the scene a fictional method fixture.
+[x] No claim calls it a real screenshot, account, product, or customer result.
+[x] Alfred is identified only as an AI assistant.
+
+Disclosure result: PASS
+
+Important limit:
+The visible fictional label does not repair FIND-SIR-A07-04. Disclosure reduces
+false-reality risk; it does not convert a concentrated resemblance into original
+design or resolve lineage by itself.
+
+F. PRIVACY, SAFETY, AND FALSE-REALITY SWEEP
+
+[x] No personal name or identifying handle.
+[x] No contact detail, address, or precise location.
+[x] No account, order, transaction, device, or session identifier.
+[x] No secret, credential, token, key, cookie, or recovery code.
+[x] No private path or workstation detail.
+[x] No real face, voice, signature, avatar, or likeness.
+[x] No private message, testimonial, or customer record.
+[x] No realistic sensitive record.
+[x] No targeted allegation or embarrassing scenario.
+[x] No hidden identifying metadata is represented.
+
+Strongest false-reality risk:
+A viewer could mistake the scene for an officially restyled account surface
+because the fictional name and label sit around a concentrated structural and
+stylistic resemblance.
+
+Smallest useful risk reduction:
+Rebuild the information architecture and label system, not merely the title.
+
+Privacy and false-reality result: PASS on privacy; FINDING on false-reality risk
+
+G. DIVERGENCE TEST
+
+Finding IDs addressed: FIND-SIR-A07-01 through FIND-SIR-A07-04
+Observed resemblance: concentrated language, geometry, style, and control order
+Proposed connected changes:
+1. Replace the left rail with a top-level two-step task map.
+2. Replace the summary-card row with one admission ledger.
+3. Remove the sticky detail drawer and use an inline evidence panel.
+4. Replace all five distinctive labels with task-specific original language.
+5. Rebuild the palette around paper, ink, and rust rather than charcoal and lime.
+6. Replace compact uppercase labels with ordinary sentence case.
+7. Keep the visible fictional and sample-data disclosure.
+
+Why an accent-color change is insufficient:
+It would leave label sequence, geometry, hierarchy, drawer behavior, and control
+placement intact. Random decoration would add noise without changing the system.
+
+Evidence invalidated by correction:
+identity, invention record, names and language, color and typography, layout,
+overall impression, disclosure placement, privacy sweep, claim surfaces, and
+companion identity
+
+Required next state: create SYNTH-UI-A07-r2 with a new complete digest, preserve
+this r1 review as historical evidence, mark affected r1 lanes SUPERSEDED for r2,
+and rerun every dependent lane.
+
+Divergence result: REVISE
+
+H. DECISION
+
+Identity: PASS
+Invention record: PASS
+Lineage: PASS for represented components
+Names and language: FINDING
+Logos and marks: PASS
+Color and typography: FINDING
+Layout and information architecture: FINDING
+Icons and illustrations: PASS
+Motion and sound: NOT TESTED — not timed media
+Data shape: PASS
+Overall impression: FINDING
+Disclosure: PASS
+Privacy: PASS
+False-reality challenge: FINDING
+Open findings: FIND-SIR-A07-01 through FIND-SIR-A07-04
+Overall decision: REVISE
+
+Narrow supported statement:
+“The fictional r1 fixture was reviewed and produced a concentrated resemblance
+finding caused by connected language, layout, color, type, and control signals.”
+
+Unsupported statement:
+“The renamed synthetic interface is release-safe because its logo and data pass.”
+
+Why the method caught the failure:
+Component-level passes did not erase the combination. The overall-impression lane
+kept the name change, disclosure, generic primitives, and clean data from being
+misused as a blanket approval.
+
+======================================================================
+EXAMPLE 2 — A CORRECTION SUPERSEDES THE EARLIER SCOPED PASS
+======================================================================
+
+EXAMPLE STATUS
+
+Scenario type: explicitly fictional method test
+Initial candidate: synthetic static fixture with a scoped pass
+Revised candidate: synthetic animation with changed bytes and dependencies
+Destination state: NOT TESTED
+Upload state: no upload represented
+Public state: not public
+Expected terminal decision for revised candidate: HOLD
+
+A. INITIAL CANDIDATE AND DECISION
+
+Review ID: FICTIONAL-SIR-EXAMPLE-02-r1
+Candidate ID: SYNTH-UI-B12-r1
+Filename: synthetic-capacity-board-b12-r1.png
+Candidate type: static image
+Digest algorithm: SHA-256
+Complete stipulated synthetic digest:
+862204cfa9f5cbfc5965597327bdc18d1b1f77651e028783965e89f658ae51e4
+Dimensions: 1200 x 1200
+Source-scene identity: SYNTH-SCENE-B12-r1
+Claim-record identity: SYNTH-CLAIM-B12-r1
+Rights-record identity: SYNTH-RIGHTS-B12-r1
+Disclosure identity: SYNTH-DISCLOSURE-B12-r1
+
+Invented scene:
+A paper-and-ink capacity board uses three original columns labeled Available,
+Reserved, and Released. Simple rectangles represent fictional work units. There
+are no names, contacts, accounts, timestamps, financial values, outside marks,
+product-like controls, copied labels, or realistic private records. The heading
+reads FICTIONAL CAPACITY EXAMPLE.
+
+Recorded r1 lane results:
+- exact identity: PASS;
+- invention record: PASS;
+- reference lineage: PASS, no outside component represented;
+- names and language: PASS;
+- logos and marks: PASS;
+- color and typography: PASS;
+- layout and information architecture: PASS;
+- icons and illustrations: PASS;
+- motion and sound: NOT TESTED — not timed media;
+- data shape: PASS;
+- overall impression: PASS within declared scope;
+- disclosure and claims: PASS;
+- privacy and false-reality sweep: PASS; and
+- final decision: PASS FOR DECLARED SCOPE for r1 only.
+
+Narrow r1 statement:
+“The identified static r1 fixture received the recorded resemblance, lineage,
+disclosure, privacy, and claim checks within the declared scope. No unresolved
+concentrated resemblance was found in the inspected static lanes.”
+
+That statement applies only to:
+862204cfa9f5cbfc5965597327bdc18d1b1f77651e028783965e89f658ae51e4
+
+B. CORRECTION REQUEST
+
+Finding ID: FIND-SIR-B12-01
+Source: separate readability review after the scoped resemblance decision
+Observed: the static board does not show how one unit moves from Available to
+Reserved and then returns after an expired claim
+Required correction: turn the scene into a six-second animation with an authored
+transition, a short notification sound, and timed disclosure
+
+Predicted affected evidence:
+- complete candidate identity;
+- candidate type and observation setup;
+- invention and component records;
+- reference and rights lineage for motion and sound;
+- motion and sound lane;
+- overall impression;
+- disclosure timing;
+- combined claim meaning;
+- privacy and false-reality sweep;
+- complete picture-only, audio-only, and combined playback; and
+- every companion that names the r1 static digest.
+
+C. REVISED CANDIDATE
+
+Review ID: FICTIONAL-SIR-EXAMPLE-02-r2
+Candidate ID: SYNTH-UI-B12-r2
+Filename: synthetic-capacity-board-b12-r2.mp4
+Candidate type: animation with audio
+Digest algorithm: SHA-256
+Complete stipulated synthetic digest:
+ceee5494925416dd192270158592637dd54331a797a783be28e2a2e1509533ab
+Dimensions: 1080 x 1920
+Duration: 00:06.000
+Frame rate: 30 fps
+Source-scene identity: SYNTH-SCENE-B12-r2
+Script identity: SYNTH-SCRIPT-B12-r1
+Caption identity: SYNTH-CAPTION-B12-r1
+Claim-record identity: SYNTH-CLAIM-B12-r2
+Rights-record identity: SYNTH-RIGHTS-B12-r2-DRAFT
+Disclosure identity: SYNTH-DISCLOSURE-B12-r2
+
+Represented changes:
+- static composition was rebuilt for portrait animation;
+- one unit moves between all three columns;
+- transition timing was added;
+- a short two-note notification sound was added;
+- disclosure enters after the title and remains through the ending;
+- complete bytes, dimensions, type, duration, and dependent identities changed.
+
+D. INVALIDATION RECORD
+
+Previous candidate ID: SYNTH-UI-B12-r1
+Previous complete digest:
+862204cfa9f5cbfc5965597327bdc18d1b1f77651e028783965e89f658ae51e4
+Previous decision: PASS FOR DECLARED SCOPE for static r1 only
+New candidate ID: SYNTH-UI-B12-r2
+New complete digest:
+ceee5494925416dd192270158592637dd54331a797a783be28e2a2e1509533ab
+
+Historical evidence after correction:
+- r1 identity: historical evidence about r1 only;
+- r1 invention record: SUPERSEDED for r2;
+- r1 static signal lanes: SUPERSEDED for r2 where composition changed;
+- r1 motion and sound state: not applicable to r1 and not evidence about r2;
+- r1 overall-impression pass: SUPERSEDED for r2;
+- r1 disclosure pass: SUPERSEDED for r2 timing and placement;
+- r1 privacy and claim passes: SUPERSEDED for r2; and
+- r1 final decision: historical only and cannot name or approve r2.
+
+Required r2 reruns:
+[ ] resolve rights lineage for the two-note sound
+[ ] inspect names and language in all timed frames
+[ ] inspect marks, color, type, layout, icons, motion, sound, and data shape
+[ ] challenge the complete combined impression
+[ ] review disclosure entry, persistence, and legibility
+[ ] sweep all frames, audio, captions, filename, and metadata for private material
+[ ] complete picture-only playback from first frame to final frame
+[ ] complete audio-only playback from first sound to final sound
+[ ] complete combined playback through the full ending
+[ ] update every companion to the r2 identity after review
+
+Invalidation result: r1 decision SUPERSEDED as evidence for r2
+
+E. PARTIAL R2 REVIEW
+
+Identity
+State: PASS
+Evidence: the synthetic example stipulates that candidate, scene, script, caption,
+claim, draft rights, and disclosure records all name r2.
+
+Names and language
+State: PASS
+Evidence: Available, Reserved, Released, and FICTIONAL CAPACITY EXAMPLE remain
+ordinary task-specific labels with no product name, slogan, or distinctive phrase.
+
+Logos and marks
+State: PASS
+Evidence: no logo, mark, mascot, badge, or product icon is represented.
+
+Color and typography
+State: PASS
+Evidence: paper, ink, and rust colors with generic system type remain visibly
+separate from any named or represented outside product.
+
+Layout and information architecture
+State: PASS
+Evidence: the three-column teaching sequence is generic and no concentrated
+product control grammar is represented in this fixture.
+
+Icons and illustrations
+State: PASS
+Evidence: original rectangles and arrows only.
+
+Motion and sound
+State: BLOCKED
+Evidence: the unit motion is declared original, but the draft rights record says
+only “two-note sound from local library” and does not identify origin, usable
+basis, transformation, or attribution duty.
+Finding ID: FIND-SIR-B12-02
+
+Data shape
+State: PASS
+Evidence: no account values, timestamps, contacts, balances, or identifiers.
+
+Overall impression
+State: NOT TESTED
+Evidence: no complete timed playback has occurred; static frames cannot establish
+the animation's full combined impression.
+
+Disclosure and claims
+State: NOT TESTED
+Evidence: source timing says the fictional label appears after the title, but its
+perceivability through normal-speed playback has not been observed.
+
+Privacy and false-reality
+State: NOT TESTED
+Evidence: static source inspection is incomplete for transient frames, encoded
+audio, captions, filename metadata, and complete sequence meaning.
+
+Timed-media playback
+State: NOT TESTED
+Evidence: picture-only, audio-only, and combined passes remain blank.
+
+F. CONVENIENT BUT INVALID SHORTCUT
+
+Shortcut attempt:
+A reviewer compares the r2 opening and ending stills with the clean r1 image,
+hears the two-note source file outside the encoded master, and copies the r1
+PASS FOR DECLARED SCOPE decision to r2.
+
+Why it fails:
+- stills omit transitions and transient frames;
+- listening to a source sound does not inspect audio encoded in the candidate;
+- the sound lineage is unresolved;
+- disclosure timing was not observed at normal speed;
+- the complete combined impression was not challenged;
+- no complete privacy or claim sweep covered r2 bytes;
+- r2 is a different media type with a different digest; and
+- no r1 lane observed any r2 frame or sound.
+
+Shortcut result: BLOCKED
+
+G. DECISION
+
+Exact identity: PASS
+Names and language: PASS
+Logos and marks: PASS
+Color and typography: PASS
+Layout and information architecture: PASS
+Icons and illustrations: PASS
+Motion and sound: BLOCKED
+Data shape: PASS
+Overall impression: NOT TESTED
+Disclosure and claims: NOT TESTED
+Privacy and false-reality: NOT TESTED
+Picture-only playback: NOT TESTED
+Audio-only playback: NOT TESTED
+Combined playback: NOT TESTED
+Superseded evidence: all affected r1 lanes as applied to r2
+Open finding: FIND-SIR-B12-02
+Overall decision: HOLD
+
+Narrow statement currently supportable:
+“The identified r2 fixture has matching declared identities and several inspected
+static component lanes. Sound lineage, combined impression, disclosure, privacy,
+claims, and complete timed-media playback remain blocked or not tested.”
+
+Unsupported statement:
+“The revised animation inherited the static scene's scoped release pass.”
+
+Required next action inside the fictional trace:
+Replace the unrecorded sound with an original documented component or complete a
+usable lineage record, create any resulting new candidate identity, then run all
+applicable r2 checks without borrowing r1 evidence.
+
+Why the hold matters:
+The correction may improve the explanation, but it introduces motion, sound,
+timing, and new bytes. A clean static ancestor cannot testify about an animation
+that no review lane has completely played.
+
+======================================================================
+METHOD OUTCOMES
+======================================================================
+
+Example 1 expected outcome: REVISE
+Example 1 actual outcome: REVISE
+Reason: an invented name, clean primitives, visible disclosure, and safe sample
+data do not erase connected language, geometry, style, and control signals.
+
+Example 2 expected outcome: HOLD
+Example 2 actual outcome: HOLD
+Reason: changing a static fixture into timed media supersedes dependent evidence;
+unresolved sound lineage and unrun playback lanes remain explicit.
+
+The examples exercise these controls:
+
+1. Candidate identity binds every result to exact stipulated bytes.
+2. An invention record does not replace reference lineage.
+3. Generic component passes do not force the combined impression to pass.
+4. Disclosure reduces false-reality risk but does not cure copying.
+5. Privacy and resemblance remain separate decision lanes.
+6. Static frame inspection cannot establish timed motion, sound, or meaning.
+7. A source audio check cannot stand in for encoded-master listening.
+8. A correction creates a new identity and supersedes dependent evidence.
+9. Blank evidence remains NOT TESTED and unresolved lineage remains BLOCKED.
+10. A scoped local review cannot imply legal clearance, platform acceptance,
+    upload, publication, audience response, customer activity, payment, or revenue.
+
+PROVENANCE NOTE
+
+This companion, its candidates, digests, interfaces, references, findings,
+labels, counts, and decisions are original fictional method examples created by
+Alfred, an AI assistant. They represent no real person, organization, product,
+account, customer, contact route, transaction, dispute, upload, public asset,
+audience result, inquiry, payment, or revenue result. No third-party media,
+interface, logo, mark, icon, or sound is included. The examples exercise an
+operational review method only and do not establish legal, trademark, rights,
+policy, accessibility, publication, or performance outcomes.
