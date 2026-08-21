@@ -1,0 +1,465 @@
+SYNTHETIC INTERFACE RESEMBLANCE REVIEW
+Copyable worksheet — revision 1
+
+Purpose
+Review an invented interface scene before release so “synthetic” does not become a shortcut for copying a real product, exposing identifying data, or implying a real account or result.
+
+Author disclosure
+Original checklist by Alfred, an AI assistant.
+
+State boundary
+This worksheet records a scoped resemblance and disclosure review of one exact candidate. A clean result does not establish trademark clearance, legal advice, universal non-infringement, accessibility, platform acceptance, upload, publication, audience response, customer activity, payment, or revenue.
+
+Allowed terminal decisions
+PASS FOR DECLARED SCOPE | REVISE | HOLD | BLOCKED | NOT TESTED | SUPERSEDED
+
+Never convert a blank lane into PASS.
+
+======================================================================
+A. REVIEW ENVELOPE
+======================================================================
+
+Review ID:
+Reviewer role:
+Review started at:
+Review completed at:
+Intended destination class:
+Intended audience:
+Jurisdiction or policy scope, if known:
+Declared review scope:
+Out-of-scope questions:
+
+Candidate type:
+[ ] static image
+[ ] animation
+[ ] video
+[ ] slide sequence
+[ ] other:
+
+Candidate identity
+Candidate ID:
+Filename:
+Digest algorithm: SHA-256
+Complete digest:
+Dimensions:
+Duration, if timed:
+Frame rate, if timed:
+Generation or build revision:
+Source-scene identity:
+Script identity:
+Caption identity:
+Claim-record identity:
+Rights-record identity:
+Disclosure identity:
+
+Identity gate
+[ ] The file opened for review matches the complete digest above.
+[ ] Every related record names this candidate revision.
+[ ] No convenient preview, earlier render, or source scene substitutes for final bytes.
+
+If any identity check fails
+Decision: BLOCKED
+Reason:
+Required correction:
+
+======================================================================
+B. INVENTION RECORD
+======================================================================
+
+State what was intentionally invented rather than leaving “synthetic” undefined.
+
+Product or service category:
+Scene purpose:
+User task represented:
+Invented product name, if any:
+Invented organization name, if any:
+Invented domain or contact string, if any:
+Invented person label, if any:
+Invented numbers and units:
+Invented status labels:
+Invented navigation labels:
+Invented icon or illustration system:
+Invented color system:
+Invented type system:
+Invented layout system:
+Generation tools or authored components:
+References consulted, if any:
+Elements deliberately excluded:
+
+Fixture rules
+[ ] Any names are unmistakably fictional or replaced with neutral role labels.
+[ ] Any domain uses a reserved example value or is visibly non-routable.
+[ ] Any phone, payment, location, identifier, token, or account value is absent or unmistakably synthetic.
+[ ] Any metric is labeled as sample, fictional, or illustrative where a viewer could mistake it for a result.
+[ ] No real customer, testimonial, transaction, private account, or operational result is implied.
+
+Finding IDs:
+
+======================================================================
+C. REFERENCE AND LINEAGE INVENTORY
+======================================================================
+
+List every reference that influenced the scene, including references used only for mood, composition, or motion.
+
+Reference 1
+Reference ID:
+Source or origin:
+Rights or access basis:
+Elements observed:
+Elements carried forward:
+Transformation performed:
+Attribution duty:
+Retention duty:
+Reviewer conclusion:
+
+Reference 2
+Reference ID:
+Source or origin:
+Rights or access basis:
+Elements observed:
+Elements carried forward:
+Transformation performed:
+Attribution duty:
+Retention duty:
+Reviewer conclusion:
+
+Additional reference records:
+
+Lineage gate
+[ ] No screenshot, logo, product name, distinctive icon, illustration, photo, audio, or interface fragment was copied without a recorded usable basis.
+[ ] A public URL is not treated as a rights record.
+[ ] Tool output is not assumed to be exclusive or cleared merely because it was generated.
+[ ] The final candidate can be reconstructed from the declared original components and records.
+
+Finding IDs:
+
+======================================================================
+D. DISTINCTIVE-SIGNAL SWEEP
+======================================================================
+
+Inspect the candidate without relying on the product name. Ask whether the combined scene still points strongly to a recognizable real product or organization.
+
+For each lane record PASS, FINDING, NOT TESTED, or BLOCKED, plus evidence.
+
+1. Names and language
+State:
+Evidence:
+Check product names, feature names, slogans, menu labels, button copy, error wording, and unusually specific phrases.
+
+2. Logos and marks
+State:
+Evidence:
+Check logos, wordmarks, mascots, badges, verification symbols, app icons, and favicon-like shapes.
+
+3. Color and typography
+State:
+Evidence:
+Check distinctive color pairings, gradients, type treatments, spacing rhythms, and branded emphasis patterns. Common colors alone are not a conclusion; record the combination and context.
+
+4. Layout and information architecture
+State:
+Evidence:
+Check distinctive navigation placement, panel geometry, card hierarchy, editor structure, checkout sequence, and unusual control groupings.
+
+5. Icons and illustrations
+State:
+Evidence:
+Check proprietary-looking icons, mascots, empty states, decorative motifs, charts, and illustration style.
+
+6. Motion and sound
+State:
+Evidence:
+Check recognizable transitions, loading sequences, notification sounds, voice likeness, musical cues, and signature interaction timing.
+
+7. Data shape
+State:
+Evidence:
+Check realistic account identifiers, transaction formats, order numbers, addresses, exact plan names, balances, timestamps, and private-looking records.
+
+8. Overall trade-dress impression
+State:
+Evidence:
+Ignore any one generic element. Consider whether name, color, type, geometry, labels, icons, motion, and data together create a concentrated resemblance.
+
+Combined resemblance question
+Could a reasonable viewer interpret this as a screenshot, endorsement, account surface, or official mockup from a real product?
+[ ] no, within the declared scope
+[ ] yes
+[ ] uncertain
+[ ] not tested
+
+Products or organizations considered, if any:
+Why they came to mind:
+Signals responsible:
+Required divergence:
+
+Finding IDs:
+
+======================================================================
+E. DISCLOSURE AND CLAIM REVIEW
+======================================================================
+
+Disclosure text shown in or beside the asset:
+Disclosure location:
+Disclosure entry time, if timed:
+Disclosure exit time, if timed:
+Smallest reviewed display size:
+
+Disclosure gate
+[ ] The scene is labeled as synthetic, illustrative, fictional, or a concept where context could otherwise imply a real interface.
+[ ] The label is legible in the delivered composition, not only in source notes.
+[ ] Captions, narration, title, description, metadata, and promotion copy do not call the scene a real screenshot or real account.
+[ ] “Synthetic” is not used to imply rights clearance, factual accuracy, or a real result.
+[ ] Alfred is identified only as an AI assistant where authorship appears.
+
+Claim surfaces reviewed
+[ ] visual text
+[ ] narration
+[ ] authored captions
+[ ] title
+[ ] description
+[ ] metadata
+[ ] method card
+[ ] promotion copy
+[ ] other:
+
+Supported narrow statement:
+
+Unsupported statements to prohibit:
+- This is a real account or customer surface.
+- These are observed customer, audience, payment, or revenue results.
+- Generation alone proves originality or legal clearance.
+- A resemblance review guarantees that no viewer will identify a real product.
+- Local review proves platform acceptance or publication.
+
+Finding IDs:
+
+======================================================================
+F. PRIVACY, SAFETY, AND FALSE-REALITY SWEEP
+======================================================================
+
+Review every visible frame, audible element, caption, filename, metadata field, and companion.
+
+[ ] No personal name or identifying handle.
+[ ] No email address, phone number, street address, precise location, or contact route.
+[ ] No account ID, order ID, transaction reference, device ID, session value, or private URL.
+[ ] No secret, credential, token, key, cookie, recovery code, or authentication surface.
+[ ] No private filesystem path or workstation detail.
+[ ] No face, voice, signature, avatar, or likeness tied to a real person without a recorded usable basis.
+[ ] No copied private message, support conversation, review, testimonial, or customer record.
+[ ] No realistic financial, health, legal, employment, or identity record that could be mistaken for a real person’s data.
+[ ] No inflammatory, deceptive, or embarrassing fictional scenario aimed at an identifiable target.
+[ ] No hidden metadata introduces identifying or source-device information.
+
+False-reality challenge
+What is the strongest reason a viewer might mistake the fixture for a real event, account, company, customer, or result?
+
+What visible change reduces that risk without weakening the teaching point?
+
+Finding IDs:
+
+======================================================================
+G. TIMED-MEDIA PASS
+======================================================================
+
+Complete this section for animation or video. For a static image, mark the section NOT TESTED with the reason “not timed media.”
+
+Observation setup
+Player and version:
+Display size:
+Scaling:
+Sound state:
+Caption state:
+Overlay or mask state:
+
+[ ] Complete picture-only playback reached the final frame.
+[ ] Complete audio-only playback reached the final sound.
+[ ] Complete combined playback reached the full ending.
+[ ] The disclosure remained perceivable in sequence.
+[ ] Transient frames did not reveal copied or identifying material.
+[ ] Motion did not recreate a recognizable branded interaction sequence.
+[ ] Audio did not introduce a recognizable voice, sound mark, copied track, or identifying detail.
+[ ] Focused boundary checks supplemented rather than replaced complete playback.
+
+Timestamped findings:
+
+Timed-media state:
+
+======================================================================
+H. DIVERGENCE TEST
+======================================================================
+
+For every concentrated resemblance, change the smallest set of connected signals that makes the teaching scene independently legible.
+
+Finding ID:
+Observed resemblance:
+Signals involved:
+Proposed change:
+Why one cosmetic change is insufficient or sufficient:
+Affected frames or surfaces:
+Evidence invalidated by the change:
+Required reruns:
+
+Useful divergence options
+[ ] replace names and distinctive phrases
+[ ] alter navigation and panel geometry
+[ ] change the combined color and type system
+[ ] replace icons or illustrations with original primitives
+[ ] change task flow or information hierarchy
+[ ] replace realistic records with clearly labeled fixtures
+[ ] remove unnecessary reference-like detail
+[ ] strengthen synthetic or fictional disclosure
+[ ] rebuild motion or audio from original components
+[ ] remove the scene entirely
+
+Do not “diverge” by adding random decoration while preserving the same distinctive structure.
+
+======================================================================
+I. FAILURE-SHAPED METHOD TESTS
+======================================================================
+
+Run these as synthetic tests of the review method. They do not report a real release.
+
+Test 1 — renamed clone
+Fixture: Change only the product name while preserving distinctive layout, colors, icons, labels, and flow.
+Expected: REVISE or HOLD; a renamed concentrated resemblance does not pass.
+Observed:
+
+Test 2 — generic pieces, distinctive combination
+Fixture: Use individually common cards, colors, and controls arranged in a highly recognizable combination.
+Expected: The overall-impression lane records a finding even if component lanes look generic.
+Observed:
+
+Test 3 — realistic account data
+Fixture: Insert a plausible email, order number, balance, and timestamp into an invented dashboard.
+Expected: REVISE; synthetic intent does not make realistic identifying data safe.
+Observed:
+
+Test 4 — hidden provenance gap
+Fixture: Include a generated icon traced from an unrecorded product screenshot.
+Expected: BLOCKED until lineage and rights basis are resolved or the icon is replaced.
+Observed:
+
+Test 5 — invisible disclosure
+Fixture: Put “concept” in source notes but omit it from the delivered frame and description.
+Expected: REVISE when context could imply a real interface.
+Observed:
+
+Test 6 — transient copied frame
+Fixture: Let one copied interface frame flash during an otherwise original animation.
+Expected: REVISE or HOLD; contact-sheet cleanliness and average appearance do not erase the frame.
+Observed:
+
+Test 7 — fictional metric presented as outcome
+Fixture: Display “42% conversion” without an illustrative label and describe it as proof.
+Expected: REVISE; the metric must be removed, clearly framed as a fixture, or supported by real evidence.
+Observed:
+
+Test 8 — cosmetic divergence
+Fixture: Change the accent color but retain distinctive geometry, language, iconography, and motion.
+Expected: REVISE; one cosmetic difference does not resolve the combined signal.
+Observed:
+
+Test 9 — stale pass after revision
+Fixture: Replace the icon set after review while retaining the old candidate digest and PASS decision.
+Expected: SUPERSEDED; changed bytes require a new identity and affected reruns.
+Observed:
+
+Test 10 — clean local review promoted too far
+Fixture: A scoped resemblance review passes, then copy claims universal legal clearance and platform approval.
+Expected: REVISE; the claim exceeds the observed lanes.
+Observed:
+
+Method-test result:
+[ ] all expected failures were caught
+[ ] one or more tests escaped
+[ ] not run
+
+Escaped test IDs:
+Required method correction:
+
+======================================================================
+J. CORRECTION AND INVALIDATION RECORD
+======================================================================
+
+A correction creates a new candidate. Preserve the earlier review as historical evidence.
+
+Previous candidate ID:
+Previous complete digest:
+Previous decision:
+Finding IDs addressed:
+Changed components:
+New candidate ID:
+New complete digest:
+New source-scene identity:
+
+Affected evidence
+[ ] identity
+[ ] invention record
+[ ] reference lineage
+[ ] names and language
+[ ] logos and marks
+[ ] color and typography
+[ ] layout and architecture
+[ ] icons and illustrations
+[ ] motion and sound
+[ ] data shape
+[ ] overall impression
+[ ] disclosure
+[ ] claim surfaces
+[ ] privacy and safety
+[ ] timed playback
+[ ] companion assets
+[ ] promotion copy
+
+Previous lanes marked SUPERSEDED at:
+Required reruns:
+Reruns completed:
+Checks still open:
+
+======================================================================
+K. FINAL GATE
+======================================================================
+
+Before recording PASS FOR DECLARED SCOPE, require all applicable checks.
+
+[ ] 1. Exact final bytes and every dependent identity agree.
+[ ] 2. The invention record states what is synthetic and how it was made.
+[ ] 3. Every reference and carried-forward element has a lineage record.
+[ ] 4. Names and distinctive language were reviewed.
+[ ] 5. Logos, marks, icons, illustrations, color, type, layout, motion, sound, and data shape were reviewed separately.
+[ ] 6. The combined overall impression was challenged, not inferred from isolated generic parts.
+[ ] 7. Any concentrated resemblance was removed, resolved, or left on HOLD.
+[ ] 8. The delivered context uses a legible synthetic, illustrative, fictional, or concept disclosure where needed.
+[ ] 9. Claims do not imply a real product, account, customer, result, endorsement, or publication.
+[ ] 10. Personal information, account data, contacts, secrets, credentials, private paths, and hidden metadata are absent.
+[ ] 11. Any timed work received complete applicable picture, audio, and combined passes.
+[ ] 12. Ten failure-shaped method tests produced the expected typed outcomes.
+[ ] 13. Corrections created new identities and superseded affected evidence.
+[ ] 14. No unreviewed third-party component remains.
+[ ] 15. The rights record and any attribution duty are complete for the declared release.
+[ ] 16. The final statement remains inside this scoped review.
+
+Open findings:
+Open unknowns:
+Required escalation, if any:
+
+Final decision:
+Candidate ID:
+Complete digest:
+Decision time:
+Decision basis:
+Narrow supported statement:
+
+Recommended supported statement
+“The identified candidate received the recorded synthetic-interface resemblance, lineage, disclosure, privacy, claim, and applicable playback checks within the declared scope. The review found no unresolved concentrated resemblance in the inspected lanes.”
+
+Do not use that statement if a lane is blank, an applicable finding remains open, the candidate changed, or the method tests escaped.
+
+======================================================================
+L. RIGHTS AND USE NOTE
+======================================================================
+
+This blank worksheet and its synthetic failure fixtures are original work by Alfred, an AI assistant. They contain no third-party media, copied interface, real person, customer record, account surface, contact detail, private identifier, or claimed product, publication, audience, payment, or revenue result.
+
+A completed worksheet inherits the privacy, rights, trademark, policy, accuracy, authority, and retention duties of the material entered into it. This operational review does not replace qualified legal advice where legal clearance is required.
