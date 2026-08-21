@@ -1,0 +1,503 @@
+AUDIOVISUAL THREE-PASS REVIEW WORKSHEET
+
+Status: blank local review template
+Author disclosure: Original work by Alfred, an AI assistant
+Purpose: Review one exact video candidate through picture-only, audio-only,
+and combined playback without turning one ordinary playthrough into a broad
+quality, rights, accessibility, platform, or publication claim.
+
+USE BOUNDARY
+
+This worksheet can record direct review of one identified local master. It does
+not by itself prove caption conformance, accessibility conformance, rights or
+policy clearance, deterministic reproduction, destination processing, public
+availability, audience response, customer activity, or revenue. Use NOT TESTED
+when a lane was not completed. Never convert missing evidence into PASS.
+
+Allowed lane results:
+PASS / FAIL / BLOCKED / NOT TESTED / SUPERSEDED
+
+Allowed overall decisions:
+HOLD / REVISE / LOCAL PLAYBACK REVIEWED / SUPERSEDED
+
+A blank field is incomplete evidence, not a pass.
+
+======================================================================
+A. REVIEW ENVELOPE
+======================================================================
+
+Review ID:
+Review revision:
+Reviewer role:
+Reviewer disclosure: Alfred, an AI assistant
+Review started at, including timezone:
+Review completed at, including timezone:
+
+Decision this review may support:
+Decision this review may not support:
+Intended presentation class:
+Intended aspect ratio:
+Realistic review display size:
+Normal playback speed:
+Audio output path:
+Caption presentation used, if any:
+
+Required passes:
+[ ] Complete picture-only pass at normal speed
+[ ] Complete audio-only pass at normal speed
+[ ] Complete combined pass at normal speed
+[ ] Failure-boundary inspection
+
+Stop conditions:
+[ ] Candidate identity differs from the approved review input
+[ ] Playback cannot reach the complete final frame or final sound
+[ ] Required script, caption, or rights companion is missing
+[ ] Personal information, account data, contact details, secret, or credential
+    appears or is heard
+[ ] Unreviewed third-party material appears or is heard
+[ ] A correction changes evidence needed by a completed pass
+[ ] The reviewer cannot distinguish an observed defect from a player defect
+
+======================================================================
+B. EXACT CANDIDATE IDENTITY
+======================================================================
+
+Stable candidate ID:
+Master filename:
+Master byte size:
+Digest algorithm:
+Complete master digest:
+Duration:
+Width x height:
+Frame rate:
+Container:
+Video codec:
+Audio codec:
+Audio channel layout:
+
+Approved script identity:
+Caption file identity:
+Render specification identity:
+Rights/provenance record identity:
+Claim-review record identity:
+Disclosure text:
+
+Identity checks:
+[ ] Digest was computed from the file opened for review
+[ ] Complete digest matches the approved candidate record
+[ ] Probe output describes the same file
+[ ] Script identity matches the candidate
+[ ] Caption identity matches the candidate
+[ ] Rights/provenance identity matches the candidate
+[ ] Disclosure is present in the intended surface
+
+Identity result:
+Evidence location:
+Finding or `none`:
+
+If identity does not pass, stop. Do not review convenient bytes and attach the
+result to a different candidate.
+
+======================================================================
+C. PLAYER AND OBSERVATION SETUP
+======================================================================
+
+Player and version:
+Local or destination-processed rendition:
+Display orientation:
+Display scaling:
+Audio output device class:
+Captions off/on/authored/generated:
+Overlays or masks intentionally shown:
+Unexpected controls or overlays:
+
+Setup limitations:
+
+[ ] Player can show the complete first frame
+[ ] Player can reach the complete final frame
+[ ] Mute state can be independently confirmed
+[ ] Picture can be hidden or attention removed for audio-only review
+[ ] Combined playback uses the intended audio route
+[ ] Review does not rely on a sampled contact sheet
+[ ] Review does not rely on a separate narration file
+[ ] Review does not claim to represent an untested destination rendition
+
+Setup result:
+Evidence location:
+Finding or `none`:
+
+======================================================================
+D. PASS 1 — COMPLETE PICTURE WITHOUT SOUND
+======================================================================
+
+Mute confirmation method:
+Pass start time:
+Pass end time:
+Reached first frame: YES / NO
+Reached final frame: YES / NO
+Normal speed maintained: YES / NO
+
+Review the complete timeline before diagnosing individual moments.
+
+[ ] Opening frame gives sufficient visual context
+[ ] Essential text is legible at the declared display size
+[ ] Essential text remains visible long enough to read
+[ ] Hook, claim qualifiers, and disclosure survive the intended frame
+[ ] Crops preserve essential labels, controls, and content
+[ ] Motion is intentional rather than a render jump or stale frame
+[ ] Cuts contain no blank, duplicate, or out-of-order frame
+[ ] Visual emphasis does not broaden or contradict the claim
+[ ] No personal information or account data is visible
+[ ] No contact detail, secret, credential, or private path is visible
+[ ] No unreviewed third-party media or copied interface is visible
+[ ] Final frame remains long enough to understand
+
+Timestamped picture findings:
+
+1. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+2. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+3. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+Picture-only result:
+Evidence location:
+Finding summary or `none`:
+
+Do not infer from this pass that audio, captions, rights, accessibility, or a
+processed destination rendition passes.
+
+======================================================================
+E. PASS 2 — COMPLETE AUDIO WITHOUT PICTURE
+======================================================================
+
+Picture-hidden or attention-removal method:
+Pass start time:
+Pass end time:
+Reached first sound: YES / NO
+Reached final sound: YES / NO
+Normal speed maintained: YES / NO
+
+Use the exact master's audio, not a separate narration or mix file.
+
+[ ] First syllable begins cleanly
+[ ] Spoken claims match the approved script
+[ ] Numbers, units, names, and technical terms are accurate
+[ ] Edits contain no click, repeated word, or unnatural gap
+[ ] Speech remains understandable under effects or music
+[ ] Relative levels do not change unexpectedly
+[ ] Meaningful non-speech sounds are clear and non-misleading
+[ ] Silence is intentional
+[ ] Audio does not depend on unidentified “this,” “here,” or “that”
+[ ] No personal information or account data is audible
+[ ] No contact detail, secret, credential, or private path is audible
+[ ] No unreviewed third-party audio is audible
+[ ] Final word and final sound are complete
+
+Timestamped audio findings:
+
+1. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+2. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+3. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+Audio-only result:
+Evidence location:
+Finding summary or `none`:
+
+Do not infer from this pass that picture, captions, rights, accessibility, or a
+processed destination rendition passes.
+
+======================================================================
+F. PASS 3 — COMPLETE PICTURE AND SOUND TOGETHER
+======================================================================
+
+Combined pass start time:
+Combined pass end time:
+Reached complete ending: YES / NO
+Normal speed maintained: YES / NO
+Caption implementation reviewed:
+
+[ ] Narration and the described visual appear in the intended order
+[ ] Effects correspond to the intended action and frame
+[ ] Speech and caption changes do not cross cuts misleadingly
+[ ] Visual labels agree with spoken numbers, units, and terms
+[ ] Music or effects do not obscure a key claim
+[ ] Repetition reinforces rather than changes meaning
+[ ] Pacing leaves time to understand text and action
+[ ] Disclosure is perceivable in the intended sequence
+[ ] Claim qualifiers retain their meaning in the combined presentation
+[ ] Captions do not collide with essential authored text or overlays
+[ ] Audio, picture, and captions finish coherently
+
+Timestamped combined findings:
+
+1. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+2. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+3. Timestamp:
+   Observed:
+   Expected:
+   Severity:
+   Affected claim or surface:
+
+Combined result:
+Evidence location:
+Finding summary or `none`:
+
+Do not infer from this pass that caption syntax, flashing thresholds, codec
+conformance, rights, accessibility, platform policy, or public availability
+passes.
+
+======================================================================
+G. FAILURE-BOUNDARY INSPECTION
+======================================================================
+
+Complete normal-speed playback is the baseline. Focused inspection diagnoses
+short defects but does not replace the three complete passes.
+
+Record each applicable boundary:
+
+| ID | Timestamp/range | Boundary type | Expected | Observed | Result |
+|----|-----------------|---------------|----------|----------|--------|
+| 01 |                 | First frame   |          |          |        |
+| 02 |                 | First sound   |          |          |        |
+| 03 |                 | Cut           |          |          |        |
+| 04 |                 | Text change   |          |          |        |
+| 05 |                 | Fast motion   |          |          |        |
+| 06 |                 | Claim/number  |          |          |        |
+| 07 |                 | Caption cue   |          |          |        |
+| 08 |                 | Loud/quiet    |          |          |        |
+| 09 |                 | Disclosure    |          |          |        |
+| 10 |                 | Final frame   |          |          |        |
+| 11 |                 | Final caption |          |          |        |
+| 12 |                 | Final sound   |          |          |        |
+
+Diagnostic method used:
+[ ] Normal-speed replay
+[ ] Frame stepping
+[ ] Slow playback
+[ ] Waveform or probe inspection
+[ ] Other:
+
+Diagnostic limitation:
+
+Boundary-inspection result:
+Evidence location:
+Finding summary or `none`:
+
+======================================================================
+H. CAPTION DEPENDENCY
+======================================================================
+
+Caption source: AUTHORED / DESTINATION GENERATED / NONE / NOT TESTED
+Caption identity:
+Caption language:
+Processed caption rendition available: YES / NO / NOT APPLICABLE
+
+[ ] Spoken words were compared with authored caption words
+[ ] Timing was checked against the exact master
+[ ] Line breaks and wrapping were reviewed
+[ ] Clipping and contrast were reviewed in the intended presentation
+[ ] Collisions with authored text and overlays were reviewed
+[ ] Speaker identity and meaningful sounds were handled as intended
+[ ] Generated destination captions remain NOT TESTED if unavailable
+
+Caption result:
+Evidence location:
+Finding summary or `none`:
+
+Caption review is separate evidence. A clean audio-only pass does not prove a
+caption file or destination caption rendition is correct.
+
+======================================================================
+I. FINDING AND CORRECTION LEDGER
+======================================================================
+
+Finding ID:
+Candidate digest:
+Pass and timestamp:
+Observed:
+Expected:
+Severity:
+Affected surfaces:
+Proposed correction:
+Correction owner role:
+Correction status:
+
+New candidate digest after correction:
+Evidence invalidated:
+[ ] Picture-only pass
+[ ] Audio-only pass
+[ ] Combined pass
+[ ] Boundary inspection
+[ ] Caption review
+[ ] Claim review
+[ ] Rights/provenance review
+[ ] Upload-selection evidence
+
+Required reruns:
+Rerun evidence:
+Finding terminal state:
+
+Repeat this block for every finding. Never edit an earlier pass so it appears to
+have reviewed changed bytes.
+
+======================================================================
+J. FAILURE-SHAPED METHOD TESTS
+======================================================================
+
+These tests exercise the worksheet, not a real release.
+
+1. Review a file whose complete digest differs from the approved candidate.
+   Expected: identity result FAIL or BLOCKED; playback approval is unavailable.
+   Actual:
+
+2. Complete one ordinary combined play and leave isolated passes blank.
+   Expected: overall decision HOLD; blank passes do not inherit PASS.
+   Actual:
+
+3. Review a separate narration file instead of the master's audio.
+   Expected: audio-only result BLOCKED.
+   Actual:
+
+4. Frame-step every cut but skip normal-speed playback.
+   Expected: complete playback remains NOT TESTED.
+   Actual:
+
+5. Correct a visual title after all passes and retain the old approval.
+   Expected: affected picture and combined evidence becomes SUPERSEDED.
+   Actual:
+
+6. Hear clean speech and mark captions PASS without reading them.
+   Expected: caption result remains NOT TESTED.
+   Actual:
+
+7. Pass the local master and claim the destination transcode passed.
+   Expected: destination rendition remains NOT TESTED.
+   Actual:
+
+8. Find identifying information in one transient frame.
+   Expected: picture result FAIL and overall decision HOLD or REVISE.
+   Actual:
+
+9. Find unreviewed third-party audio under accurate narration.
+   Expected: audio result FAIL; presentation quality cannot override rights.
+   Actual:
+
+10. Complete every pass but omit the complete master digest.
+    Expected: overall decision BLOCKED.
+    Actual:
+
+Method-test result:
+Finding summary or `none`:
+
+======================================================================
+K. FINAL DECISION
+======================================================================
+
+Picture-only result:
+Audio-only result:
+Combined result:
+Boundary-inspection result:
+Caption result:
+Identity result:
+
+Open findings:
+Blocked lanes:
+Not-tested lanes:
+Superseded evidence:
+
+Overall decision:
+Decision applies to complete master digest:
+Decision time, including timezone:
+Decision evidence location:
+
+Narrow supported statement, if all required lanes pass:
+“The identified local master received complete picture-only, audio-only, and
+combined normal-speed playback passes, plus focused checks at the recorded
+failure boundaries. Findings and corrections are attached to that exact
+candidate.”
+
+Do not use that statement if identity is incomplete, a required pass is blank,
+or changed bytes superseded the evidence.
+
+Explicitly not established:
+[ ] Caption conformance beyond directly recorded checks
+[ ] Accessibility conformance
+[ ] Rights or license clearance
+[ ] Platform policy clearance
+[ ] Deterministic reproduction
+[ ] Destination processing quality
+[ ] Upload acceptance
+[ ] Public visibility or logged-out availability
+[ ] Audience response or unique viewers
+[ ] Inquiry, customer, payment, or revenue result
+
+FINAL GATE
+
+[ ] One exact master and complete digest are recorded
+[ ] Script, caption, render, rights, claim, and disclosure identities agree
+[ ] Review setup and limitations are recorded
+[ ] The complete picture-only pass reached the final frame
+[ ] The complete audio-only pass reached the final sound
+[ ] The complete combined pass reached the complete ending
+[ ] Every completed pass ran at normal speed
+[ ] Focused diagnostics did not substitute for complete playback
+[ ] Findings use timestamps, observations, and expected results
+[ ] Privacy and identifying-data checks cover picture and sound
+[ ] Unreviewed third-party picture or audio produces a hold
+[ ] Caption evidence remains separate
+[ ] Local evidence is not transferred to an untested destination rendition
+[ ] Corrections supersede every affected pass
+[ ] Blank and unavailable evidence remain NOT TESTED or BLOCKED
+[ ] The decision names one exact candidate
+[ ] The supported statement stays inside the observed lanes
+[ ] No upload, publication, audience, customer, or revenue result is invented
+
+Final gate result:
+Reviewer role:
+Review completion time, including timezone:
+
+PROVENANCE NOTE
+
+This blank worksheet and its ten failure-shaped method tests are original work
+by Alfred, an AI assistant. It contains no real customer material, account
+surface, destination result, upload, public video, audience response, customer
+activity, payment, or revenue evidence. A completed copy inherits the truth,
+rights, privacy, authority, security, retention, and publication duties of the
+material entered into it.

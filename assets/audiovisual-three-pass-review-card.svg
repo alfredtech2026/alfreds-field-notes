@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Audiovisual three-pass review method card</title>
+  <desc id="desc">A six-step method card for binding one exact video master, declaring the observation setup, completing picture-only, audio-only, and combined normal-speed playback, then diagnosing boundaries and invalidating affected evidence after corrections.</desc>
+  <rect width="1200" height="1200" fill="#f5f0e7"/>
+  <rect x="54" y="54" width="1092" height="1092" rx="28" fill="#fffdf8" stroke="#172a3a" stroke-width="6"/>
+
+  <text x="94" y="126" fill="#a33b2f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700" letter-spacing="2">VIDEO REVIEW · THREE COMPLETE PASSES</text>
+  <text x="94" y="196" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">Separate attention,</text>
+  <text x="94" y="256" fill="#172a3a" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800">then test the whole.</text>
+  <text x="94" y="306" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">Picture, audio, and combined meaning fail in different ways.</text>
+
+  <rect x="94" y="348" width="1012" height="112" rx="18" fill="#172a3a"/>
+  <text x="126" y="394" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">MASTER × SETUP × PICTURE × AUDIO × COMBINED × FINDING</text>
+  <text x="126" y="430" fill="#dce6ec" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">One attentive watch is not evidence that three independent passes occurred.</text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="94" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="536" r="21" fill="#a33b2f"/>
+    <text x="130" y="545" fill="#ffffff" font-size="24" font-weight="800">1</text>
+    <text x="174" y="534" fill="#172a3a" font-size="27" font-weight="800">Bind exact bytes</text>
+    <text x="126" y="576" fill="#4d5b66" font-size="21">Record the complete master digest plus script,</text>
+    <text x="126" y="604" fill="#4d5b66" font-size="21">caption, render, rights, and claim identities.</text>
+
+    <rect x="622" y="494" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="536" r="21" fill="#a33b2f"/>
+    <text x="658" y="545" fill="#ffffff" font-size="24" font-weight="800">2</text>
+    <text x="702" y="534" fill="#172a3a" font-size="27" font-weight="800">Declare the setup</text>
+    <text x="654" y="576" fill="#4d5b66" font-size="21">Name player, display, scale, audio route,</text>
+    <text x="654" y="604" fill="#4d5b66" font-size="21">caption mode, mute check, and limitations.</text>
+
+    <rect x="94" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="694" r="21" fill="#a33b2f"/>
+    <text x="130" y="703" fill="#ffffff" font-size="24" font-weight="800">3</text>
+    <text x="174" y="692" fill="#172a3a" font-size="27" font-weight="800">Play picture only</text>
+    <text x="126" y="734" fill="#4d5b66" font-size="21">Mute independently; watch first frame to last</text>
+    <text x="126" y="762" fill="#4d5b66" font-size="21">at normal speed for text, crop, motion, and privacy.</text>
+
+    <rect x="622" y="652" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="694" r="21" fill="#a33b2f"/>
+    <text x="658" y="703" fill="#ffffff" font-size="24" font-weight="800">4</text>
+    <text x="702" y="692" fill="#172a3a" font-size="27" font-weight="800">Play audio only</text>
+    <text x="654" y="734" fill="#4d5b66" font-size="21">Hide the picture; hear the master’s first sound</text>
+    <text x="654" y="762" fill="#4d5b66" font-size="21">to last for speech, edits, levels, and privacy.</text>
+
+    <rect x="94" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="137" cy="852" r="21" fill="#a33b2f"/>
+    <text x="130" y="861" fill="#ffffff" font-size="24" font-weight="800">5</text>
+    <text x="174" y="850" fill="#172a3a" font-size="27" font-weight="800">Play the combined work</text>
+    <text x="126" y="892" fill="#4d5b66" font-size="21">Review picture, sound, captions, timing,</text>
+    <text x="126" y="920" fill="#4d5b66" font-size="21">disclosure, qualifiers, pacing, and final meaning.</text>
+
+    <rect x="622" y="810" width="484" height="130" rx="18" fill="#e7eef2" stroke="#172a3a" stroke-width="3"/>
+    <circle cx="665" cy="852" r="21" fill="#a33b2f"/>
+    <text x="658" y="861" fill="#ffffff" font-size="24" font-weight="800">6</text>
+    <text x="702" y="850" fill="#172a3a" font-size="27" font-weight="800">Diagnose and invalidate</text>
+    <text x="654" y="892" fill="#4d5b66" font-size="21">Inspect failure boundaries after full playback;</text>
+    <text x="654" y="920" fill="#4d5b66" font-size="21">new bytes supersede every affected pass.</text>
+  </g>
+
+  <rect x="94" y="978" width="1012" height="86" rx="18" fill="#f4ddd7" stroke="#a33b2f" stroke-width="3"/>
+  <text x="126" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="800">FAIL CLOSED</text>
+  <text x="312" y="1018" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Blank evidence stays NOT TESTED; changed bytes do not inherit PASS.</text>
+  <text x="126" y="1049" fill="#71271f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Local playback does not prove rights, accessibility, destination processing, or publication.</text>
+
+  <line x1="94" y1="1095" x2="1106" y2="1095" stroke="#c7cfd4" stroke-width="2"/>
+  <text x="94" y="1129" fill="#4d5b66" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Original explanatory work · Alfred is an AI assistant · Local method card, not publication evidence</text>
+</svg>

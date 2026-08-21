@@ -1,0 +1,500 @@
+AUDIOVISUAL THREE-PASS REVIEW — TWO FICTIONAL WORKED EXAMPLES
+
+Status: local publication companion; not deployed, uploaded, queued, posted,
+promoted, or publicly verified
+Author disclosure: Original work by Alfred, an AI assistant
+Purpose: Exercise the audiovisual three-pass review method with synthetic
+failure cases. These records are method tests, not reports about real videos,
+accounts, people, customers, destinations, or publication.
+
+EVIDENCE BOUNDARY
+
+Both examples use invented candidate identities and complete synthetic SHA-256
+values. No real media, copied interface, third-party asset, account surface,
+personal information, upload, audience result, customer activity, payment, or
+revenue result is represented. The examples test whether picture-only,
+audio-only, combined, caption, and correction evidence remain separate.
+
+Allowed lane results:
+PASS / FAIL / BLOCKED / NOT TESTED / SUPERSEDED
+
+Allowed overall decisions:
+HOLD / REVISE / LOCAL PLAYBACK REVIEWED / SUPERSEDED
+
+A clean lane cannot repair a failed lane. A combined pass cannot be copied into
+an isolated lane. A changed candidate cannot inherit playback evidence attached
+to earlier bytes.
+
+======================================================================
+EXAMPLE 1 — CLEAN ISOLATED LANES, CONTRADICTORY COMBINED CLAIM
+======================================================================
+
+EXAMPLE STATUS
+
+Scenario type: explicitly fictional method test
+Candidate state: synthetic local master
+Destination rendition: NOT TESTED
+Upload state: no upload represented
+Public state: not public
+Expected terminal decision: REVISE
+
+A. REVIEW ENVELOPE
+
+Review ID: FICTIONAL-AV3P-EXAMPLE-01
+Review revision: 1
+Reviewer role: synthetic method reviewer
+Reviewer disclosure: Alfred, an AI assistant
+Intended presentation class: vertical explainer
+Intended aspect ratio: 9:16
+Realistic review display size: 360 x 640 logical pixels
+Normal playback speed: 1.0x
+Audio output path: local stereo headphones
+Caption presentation: authored captions burned into synthetic presentation
+Decision this review may support: local playback decision for one exact master
+Decision this review may not support: rights, accessibility, destination,
+upload, publication, audience, customer, payment, or revenue status
+
+Required passes:
+[x] Complete picture-only pass at normal speed
+[x] Complete audio-only pass at normal speed
+[x] Complete combined pass at normal speed
+[x] Failure-boundary inspection
+
+B. EXACT SYNTHETIC CANDIDATE IDENTITY
+
+Stable candidate ID: SYNTH-VID-A17
+Master filename: synthetic-periodic-checks-r1.mp4
+Master byte size: 4,812,340 synthetic bytes
+Digest algorithm: SHA-256
+Complete master digest:
+3c90ff59a137f24288d6a7dd9e129a4456759dd943998274f3a95c6ee49ab071
+Duration: 00:18.000
+Width x height: 1080 x 1920
+Frame rate: 30 fps
+Container: MP4
+Video codec: H.264
+Audio codec: AAC
+Audio channel layout: stereo
+Approved script identity: SYNTH-SCRIPT-A17-r1
+Caption file identity: SYNTH-CAPTION-A17-r1
+Render specification identity: SYNTH-RENDER-A17-r1
+Rights/provenance record identity: SYNTH-RIGHTS-A17-r1
+Claim-review record identity: SYNTH-CLAIM-A17-r1
+Disclosure text: Alfred is an AI assistant.
+
+Identity checks:
+[x] Digest was stipulated as the complete identity of the opened synthetic file
+[x] Probe description names the same synthetic file
+[x] Script, caption, render, rights, claim, and disclosure identities agree
+
+Identity result: PASS
+Evidence location: this fictional trace, section B
+Finding: none
+
+C. OBSERVATION SETUP
+
+Player and version: synthetic local player 1.0
+Rendition class: local master
+Display orientation: portrait
+Display scaling: fit to 360 x 640 logical pixels
+Audio output device class: stereo headphones
+Captions: authored and visible only during combined playback
+Overlays or masks intentionally shown: none
+Unexpected controls or overlays: none represented
+Mute confirmation method: player mute indicator plus zero output at device
+Audio-only attention-removal method: picture fully covered by an opaque local
+review window while player transport remained reachable
+Setup limitation: no destination processing, generated captions, interface
+controls, recompression, alternate device, or assistive technology is represented
+
+Setup result: PASS
+Evidence location: this fictional trace, section C
+Finding: none
+
+D. COMPLETE PICTURE-ONLY PASS
+
+Pass range: 00:00.000–00:18.000
+Reached first frame: YES
+Reached final frame: YES
+Normal speed maintained: YES
+Mute independently confirmed: YES
+
+Observed sequence:
+- 00:00.000–00:03.200: title reads “Periodic review checks.”
+- 00:03.200–00:08.600: diagram shows a clock and a bounded batch.
+- 00:08.600–00:13.800: qualifier reads “sampled on a declared schedule.”
+- 00:13.800–00:18.000: takeaway reads “State the coverage boundary.”
+- AI-assistant disclosure remains visible in the lower authored region.
+
+Picture checklist result:
+- essential text is legible at the declared display size;
+- no blank, duplicated, stale, or out-of-order frame is represented;
+- the qualifier and disclosure survive the frame;
+- no personal information, account data, contact detail, secret, credential,
+  private path, copied interface, or third-party media appears; and
+- the final frame remains visible for the complete declared hold.
+
+Picture-only result: PASS
+Evidence location: this fictional trace, section D
+Finding summary: none
+Claim boundary: picture alone communicates periodic, sampled coverage
+
+E. COMPLETE AUDIO-ONLY PASS
+
+Pass range: first sound at 00:00.280 through final sound at 00:17.620
+Reached first sound: YES
+Reached final sound: YES
+Normal speed maintained: YES
+Picture hidden: YES
+Audio source: audio encoded in the identified synthetic master
+
+Approved synthetic narration heard:
+“An automated monitor can check every review as it arrives. Group the results
+on a declared schedule, then state what the monitor covered.”
+
+Audio checklist result:
+- first syllable and final consonant are complete;
+- the narration matches SYNTH-SCRIPT-A17-r1;
+- no click, repeated word, unexpected level shift, or clipped edit is represented;
+- no personal information, account data, contact detail, secret, credential,
+  private path, or third-party audio is heard; and
+- the sentence is understandable without seeing the picture.
+
+Audio-only result: PASS
+Evidence location: this fictional trace, section E
+Finding summary: none
+Claim boundary: audio alone claims every review is checked as it arrives
+
+F. COMPLETE COMBINED PASS
+
+Pass range: 00:00.000–00:18.000
+Reached complete ending: YES
+Normal speed maintained: YES
+Caption implementation reviewed: SYNTH-CAPTION-A17-r1
+
+Timestamped finding:
+
+Finding ID: FIND-SYNTH-A17-01
+Candidate digest:
+3c90ff59a137f24288d6a7dd9e129a4456759dd943998274f3a95c6ee49ab071
+Pass: COMBINED
+Range: 00:03.200–00:08.600
+Observed: the picture and authored caption say “Periodic review checks” and
+“sampled on a declared schedule,” while the simultaneous narration says the
+monitor checks “every review as it arrives.” Picture and audio are individually
+clear, but their scopes contradict one another.
+Expected: picture, narration, and captions must express the same approved
+coverage boundary without dropping the periodic qualifier.
+Severity: RELEASE_HOLD
+Affected surfaces: combined meaning, claim review, script, captions, promotion
+Proposed correction: revise narration and authored captions to state periodic
+sampled coverage, then create a new master identity and rerun affected passes
+
+Combined result: FAIL
+Evidence location: FIND-SYNTH-A17-01
+Finding summary: clean isolated presentation lanes produce a contradictory
+combined claim
+
+G. CAPTION DEPENDENCY
+
+Caption source: AUTHORED
+Caption identity: SYNTH-CAPTION-A17-r1
+Destination-generated captions: NOT TESTED
+Words compared with approved speech: YES
+Timing compared with exact master: YES
+Line breaks and wrapping reviewed: YES
+Clipping and contrast reviewed: YES
+Collision with authored text reviewed: YES
+
+Caption result: FAIL
+Evidence location: FIND-SYNTH-A17-01
+Finding summary: captions preserve the periodic visual qualifier but conflict
+with the broader spoken claim
+Accessibility conformance: NOT TESTED
+
+H. FAILURE-BOUNDARY INSPECTION
+
+| ID | Range                 | Boundary       | Expected                 | Observed                         | Result |
+|----|-----------------------|----------------|--------------------------|----------------------------------|--------|
+| 01 | 00:00.000             | First frame    | Complete title           | Complete title                   | PASS   |
+| 02 | 00:00.280             | First sound    | Complete first syllable  | Complete first syllable          | PASS   |
+| 03 | 00:03.200–00:08.600  | Claim overlap  | Same coverage scope      | Periodic picture, every in audio | FAIL   |
+| 04 | 00:08.600             | Caption change | Qualifier stays readable | Qualifier stays readable         | PASS   |
+| 05 | 00:17.620–00:18.000  | Ending         | Sound and frame complete | Sound and frame complete         | PASS   |
+
+Diagnostic method: normal-speed replay, followed by focused replay of the claim
+overlap
+Diagnostic limitation: this explains the local contradiction only; it does not
+represent a destination rendition or audience interpretation
+Boundary-inspection result: FAIL
+
+I. DECISION
+
+Picture-only result: PASS
+Audio-only result: PASS
+Combined result: FAIL
+Boundary-inspection result: FAIL
+Caption result: FAIL
+Identity result: PASS
+Open findings: FIND-SYNTH-A17-01
+Overall decision: REVISE
+
+Why one attentive watch is insufficient:
+The two isolated lanes are technically clear, but their coverage claims differ.
+Only the combined comparison exposes the contradiction at the exact overlap.
+The two passing lanes cannot be averaged into approval.
+
+Not established:
+- rights or license clearance;
+- accessibility conformance;
+- platform policy or destination processing;
+- upload acceptance or public availability;
+- audience response, inquiry, customer, payment, or revenue result.
+
+======================================================================
+EXAMPLE 2 — A VISUAL CORRECTION SUPERSEDES EARLIER PLAYBACK EVIDENCE
+======================================================================
+
+EXAMPLE STATUS
+
+Scenario type: explicitly fictional method test
+Initial candidate state: synthetic local master reviewed
+Revised candidate state: synthetic local master with changed bytes
+Destination rendition: NOT TESTED
+Upload state: no upload represented
+Public state: not public
+Expected terminal decision: HOLD
+
+A. INITIAL CANDIDATE AND REVIEW
+
+Review ID: FICTIONAL-AV3P-EXAMPLE-02-r1
+Stable candidate ID: SYNTH-VID-B04-r1
+Master filename: synthetic-final-hold-r1.mp4
+Digest algorithm: SHA-256
+Complete master digest:
+7dc9e3dc59fa7aac671eb03b0962e021e184f489e15f686d574be42cdf005d91
+Duration: 00:14.000
+Width x height: 1080 x 1920
+Frame rate: 30 fps
+Container: MP4
+Video codec: H.264
+Audio codec: AAC
+Audio channel layout: stereo
+Approved script identity: SYNTH-SCRIPT-B04-r1
+Caption file identity: SYNTH-CAPTION-B04-r1
+Render specification identity: SYNTH-RENDER-B04-r1
+Rights/provenance record identity: SYNTH-RIGHTS-B04-r1
+Claim-review record identity: SYNTH-CLAIM-B04-r1
+Disclosure text: Alfred is an AI assistant.
+
+Declared local setup:
+- portrait playback at 360 x 640 logical pixels;
+- 1.0x speed;
+- device-confirmed mute for picture-only review;
+- fully hidden picture for audio-only review;
+- authored captions visible for combined review; and
+- complete first and final frames and sounds reachable.
+
+Initial review results:
+- picture-only pass: PASS, 00:00.000–00:14.000;
+- audio-only pass: PASS, first sound through final sound;
+- combined pass: PASS, 00:00.000–00:14.000;
+- authored caption review: PASS;
+- boundary inspection: PASS; and
+- decision: LOCAL PLAYBACK REVIEWED for the complete r1 digest only.
+
+Narrow initial supported statement:
+“The identified r1 local master received complete picture-only, audio-only, and
+combined normal-speed playback passes, plus focused checks at the recorded
+failure boundaries.”
+
+That statement applies only to:
+7dc9e3dc59fa7aac671eb03b0962e021e184f489e15f686d574be42cdf005d91
+
+B. CORRECTION REQUEST
+
+Finding ID: FIND-SYNTH-B04-02
+Source: separate synthetic claim review after playback
+Observed in r1: final card says “Reviewed locally” for 00:13.200–00:14.000
+Expected: final card must say “Local playback reviewed” and remain visible for
+at least 1.200 seconds so the scope is explicit and readable
+Severity: RELEASE_HOLD
+Proposed correction: replace the final-card text and extend the final scene
+Affected evidence predicted before rebuild:
+- picture-only playback;
+- combined playback;
+- authored caption timing if the timeline changes;
+- failure-boundary inspection;
+- render identity;
+- claim identity; and
+- exact candidate identity.
+
+Audio-only evidence may remain historically informative only if the encoded
+audio bytes and timing are independently shown unchanged. It cannot silently
+inherit a pass merely because the narration source filename is unchanged.
+
+C. REVISED SYNTHETIC CANDIDATE
+
+Stable candidate ID: SYNTH-VID-B04-r2
+Master filename: synthetic-final-hold-r2.mp4
+Digest algorithm: SHA-256
+Complete master digest:
+9e738983c81be4754847c891fdcd5b6c4307f29af7d660a980643d34755a944b
+Duration: 00:14.400
+Width x height: 1080 x 1920
+Frame rate: 30 fps
+Container: MP4
+Video codec: H.264
+Audio codec: AAC
+Audio channel layout: stereo
+Approved script identity: SYNTH-SCRIPT-B04-r1
+Caption file identity: SYNTH-CAPTION-B04-r2
+Render specification identity: SYNTH-RENDER-B04-r2
+Rights/provenance record identity: SYNTH-RIGHTS-B04-r1
+Claim-review record identity: SYNTH-CLAIM-B04-r2
+Disclosure text: Alfred is an AI assistant.
+
+Change record:
+- final-card text changed from “Reviewed locally” to “Local playback reviewed”;
+- final scene extended by 0.400 seconds;
+- authored final caption cue extended by 0.400 seconds;
+- encoded master bytes and complete digest changed;
+- picture timing, combined timing, caption timing, and final boundary changed.
+
+D. INVALIDATION RECORD
+
+Previous candidate digest:
+7dc9e3dc59fa7aac671eb03b0962e021e184f489e15f686d574be42cdf005d91
+New candidate digest:
+9e738983c81be4754847c891fdcd5b6c4307f29af7d660a980643d34755a944b
+
+Historical r1 evidence states after correction:
+- r1 picture-only pass: SUPERSEDED for r2;
+- r1 audio-only pass: SUPERSEDED pending exact r2 audio review;
+- r1 combined pass: SUPERSEDED for r2;
+- r1 caption review: SUPERSEDED for r2;
+- r1 boundary inspection: SUPERSEDED for r2;
+- r1 identity result: remains historical evidence about r1 only; and
+- r1 decision: remains historical but cannot name or approve r2.
+
+Required r2 reruns:
+[x] identity and probe agreement
+[x] complete picture-only playback
+[x] complete audio-only playback from the encoded r2 master
+[x] complete combined playback
+[x] authored caption review
+[x] final-frame, final-caption, and final-sound boundary inspection
+
+E. CONVENIENT BUT INVALID SHORTCUT
+
+Shortcut attempt:
+A reviewer opens a still image of the corrected r2 final frame, confirms that
+“Local playback reviewed” is legible, and copies every r1 playback result to r2.
+
+Why it fails:
+- a still does not establish the 1.200-second hold at normal speed;
+- a still does not show whether the timeline introduced a blank or repeated frame;
+- a still does not show whether the final caption and sound finish coherently;
+- the encoded r2 audio has not been listened to from first sound to final sound;
+- the complete r2 digest differs from r1; and
+- no r1 lane observed r2 bytes.
+
+Shortcut result: FAIL
+Overall r2 decision after shortcut: HOLD
+
+F. PARTIAL R2 EVIDENCE
+
+Identity result: PASS
+Evidence: synthetic r2 digest, probe, script, caption, render, rights, claim, and
+disclosure identities agree
+
+Picture-only result: PASS
+Evidence: complete r2 picture played 00:00.000–00:14.400 at 1.0x with mute
+independently confirmed; corrected final text remained readable through the
+complete final frame
+
+Audio-only result: NOT TESTED
+Evidence: blank; the r2 master audio has not been listened to independently
+
+Combined result: NOT TESTED
+Evidence: blank; no complete r2 combined playback has occurred
+
+Caption result: NOT TESTED
+Evidence: source cue timing changed, but the authored r2 presentation has not
+been reviewed through the complete ending
+
+Boundary-inspection result: NOT TESTED
+Evidence: the corrected still does not replace normal-speed final-boundary review
+
+G. DECISION
+
+Picture-only result: PASS
+Audio-only result: NOT TESTED
+Combined result: NOT TESTED
+Boundary-inspection result: NOT TESTED
+Caption result: NOT TESTED
+Identity result: PASS
+Superseded evidence: all r1 playback and caption lanes as applied to r2
+Open finding: FIND-SYNTH-B04-02 remains open until complete r2 reruns finish
+Overall decision: HOLD
+
+Narrow statement currently supportable:
+“The identified r2 local master passed a complete picture-only normal-speed
+playback in the declared setup. Audio-only, combined, caption, and final-boundary
+review remain not tested.”
+
+Statement that is not supportable:
+“The revised video passed three-pass review.”
+
+Why the hold matters:
+The correction improved a real scope label, but it also created new bytes and a
+new timeline. Preserving r1 as historical evidence is honest; assigning r1's
+passes to r2 would claim observations that never occurred.
+
+Not established:
+- complete r2 audiovisual review;
+- caption or accessibility conformance;
+- rights or policy clearance;
+- deterministic reproduction;
+- destination processing or generated captions;
+- upload acceptance, publication, or logged-out availability;
+- audience response, inquiry, customer, payment, or revenue result.
+
+======================================================================
+METHOD OUTCOMES
+======================================================================
+
+Example 1 expected outcome: REVISE
+Example 1 actual outcome: REVISE
+Reason: individually clear picture and audio lanes contradict each other when
+combined; passing presentation quality cannot repair inconsistent claim scope.
+
+Example 2 expected outcome: HOLD
+Example 2 actual outcome: HOLD
+Reason: a correction created a new candidate identity and timeline; r1 evidence
+is historical and superseded for r2, while required r2 lanes remain untested.
+
+The two examples test different controls:
+
+1. Independent lanes must be compared without being collapsed into one score.
+2. Combined meaning can fail even when picture-only and audio-only each pass.
+3. Caption evidence is separate from clean speech.
+4. A complete digest binds a result to exact bytes.
+5. A correction creates a new candidate and invalidates dependent evidence.
+6. A still frame cannot replace complete normal-speed playback.
+7. A source narration file cannot stand in for audio encoded in the master.
+8. Blank evidence remains NOT TESTED.
+9. Local evidence does not transfer to an unobserved destination rendition.
+10. No playback result implies upload, publication, audience, customer, payment,
+    or revenue evidence.
+
+PROVENANCE NOTE
+
+This companion, its candidates, digests, reviews, findings, timestamps, and
+results are original fictional method examples created by Alfred, an AI
+assistant. They contain no real person, customer, account, contact detail,
+private operational material, destination result, upload, public post, audience
+measure, inquiry, payment, or revenue result. No third-party media or copied
+interface is included. The examples exercise a local review method only and do
+not establish legal, rights, policy, accessibility, publication, or performance
+outcomes.

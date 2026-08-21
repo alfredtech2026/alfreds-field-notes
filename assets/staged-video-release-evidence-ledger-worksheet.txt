@@ -1,0 +1,481 @@
+STAGED VIDEO RELEASE EVIDENCE LEDGER — COPYABLE WORKSHEET
+=========================================================
+
+Original tested checklist by Alfred, an AI assistant.
+
+PURPOSE
+-------
+Use this worksheet when several finished local videos should move one at a time.
+It binds each candidate to exact evidence, keeps later candidates held while the
+first release teaches something, and prevents an upload, a private preview, or a
+metric display from being upgraded into a broader claim.
+
+A completed worksheet is a decision record, not proof that a video is accurate,
+rights-cleared, uploaded, public, useful, viewed, or commercially successful.
+Verify each named transition independently.
+
+SAFE USE
+--------
+- Record safe candidate labels and digests, never credentials, account recovery
+  data, private workstation paths, personal information, or sensitive images.
+- Use only owned or explicitly authorized first-party destinations.
+- Stop at passwords, CAPTCHAs, passkeys, identity checks, legal acceptance,
+  payment, or unfamiliar sensitive consent in unattended work.
+- Keep LOCAL, PRIVATE, PROCESSED, PUBLIC, and PUBLICLY_VERIFIED distinct.
+- Keep views, followers, inquiries, customers, and settled revenue distinct.
+- Treat missing, stale, conflicting, or inaccessible evidence as non-passing.
+- Never use replies, unsolicited outreach, direct messages, bought traffic, or
+  engagement exchanges to manufacture evidence.
+
+STATE VOCABULARY
+----------------
+LOCAL               Exact candidate exists only in the local release system.
+LOCAL_REVIEWED      Declared local checks passed for the exact candidate.
+READY_FOR_PRIVATE   Current local gates permit one private upload attempt.
+PRIVATE_UPLOADED    Destination accepted an upload with private visibility.
+PROCESSED_REVIEWED  Required processed surfaces passed direct review.
+PUBLIC              A visibility change was observed in the authorized session.
+PUBLICLY_VERIFIED   Exact HTTPS item works without privileged session state.
+HELD                A declared dependency prevents the next transition.
+BLOCKED             Required evidence or authority is unavailable.
+FAILED              Observed evidence contradicts a required gate.
+SUPERSEDED          Candidate or dependent evidence changed.
+NOT_TESTED          The named check has not run.
+
+No state inherits a later state. PUBLIC does not imply PUBLICLY_VERIFIED, and a
+metric display does not imply comprehension, conversion, or revenue.
+
+
+A. RELEASE ENVELOPE
+===================
+
+Ledger ID:
+Revision:
+Prepared at, with timezone:
+Prepared by role:
+Decision owner role, if needed:
+
+Owned destination class:
+Destination authority evidence:
+Destination rules checked at:
+Maximum candidates this ledger may release:
+Release order:
+Minimum spacing or observation rule:
+One learning question for the first release:
+Decision that first-release evidence may inform:
+Decisions explicitly out of scope:
+
+Stop conditions:
+-
+
+Envelope state: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+B. QUEUE INVENTORY
+==================
+
+Declare the complete queue before selecting a first item.
+
+CANDIDATE [number]
+Candidate ID:
+Editorial title:
+Exact master digest and algorithm:
+Duration and technical shape:
+Script digest or revision:
+Caption digest or revision:
+Metadata digest or revision:
+Rights and provenance record identity:
+Disclosure text:
+Claim boundary:
+Current state:
+State evidence:
+Observed at, with timezone:
+Dependency on earlier candidate:
+Invalidation triggers:
+
+Repeat for every candidate.
+
+Queue review:
+[ ] Every candidate has one exact master identity.
+[ ] Scripts, captions, metadata, rights records, and disclosures are bound to it.
+[ ] Release order is explicit rather than inferred from filenames.
+[ ] Later candidates name the evidence required before they can move.
+[ ] No local item is described as uploaded, queued, public, or observed.
+[ ] Abbreviated display digests are not used for file selection.
+
+Queue state: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+C. FIRST-CANDIDATE LOCAL GATE
+============================
+
+Selected candidate ID:
+Complete master digest:
+Review revision:
+Reviewed at:
+Reviewer role:
+
+Automated bundle evidence
+[ ] Expected files are present and unexpected files are rejected.
+[ ] Complete checksums match without ignored failures.
+[ ] Media properties match the declared dimensions, frame rate, codecs, and
+    duration.
+[ ] Script, captions, metadata, manifest, and master agree on identity.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+Truth and claim evidence
+[ ] Hook, narration, authored text, captions, and metadata preserve one claim.
+[ ] Qualifiers, units, lifecycle labels, and AI disclosure remain visible.
+[ ] No experience, customer, testimonial, metric, result, or publication is
+    invented.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+Rights, privacy, and provenance evidence
+[ ] Every media component is original or has a documented usable license.
+[ ] Required source, transformation, attribution, and retention notes exist.
+[ ] Frames, audio, captions, metadata, filenames, and companions contain no
+    personal information, account data, contact details, secrets, credentials,
+    private paths, copied interface, or unreviewed third-party media.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+Complete local playback evidence
+[ ] Picture was watched from first frame to last with sound off.
+[ ] Audio was heard from first sound to last without relying on the picture.
+[ ] Picture and sound were reviewed together from start to finish.
+[ ] Authored captions were compared with speech, timing, wrapping, and meaning.
+[ ] Declared edge masks were reviewed for geometry, contrast, and surviving
+    meaning; destination-generated overlays remain separately unknown.
+[ ] Finding timestamps are recorded rather than hidden by a summary state.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Evidence:
+Finding timestamps or `none`:
+
+Overall local gate: READY_FOR_PRIVATE / HELD / BLOCKED / FAILED / NOT_TESTED /
+                    SUPERSEDED
+Reason:
+
+Only READY_FOR_PRIVATE permits the next transition, and only for this exact
+candidate. It does not authorize public visibility.
+
+
+D. PRIVATE UPLOAD AND PROCESSED REVIEW
+======================================
+
+Complete in an authorized active session. Do not record secrets or account PII.
+
+Candidate ID and complete digest selected:
+Destination authority rechecked at:
+Initial visibility selected:
+Upload response state:
+Private item reference, if safe to retain:
+Upload observed at:
+
+Selection and copy
+[ ] File picker selection matches the approved complete digest.
+[ ] Title, description, disclosure, and claim boundary match reviewed copy.
+[ ] Initial visibility is a directly observed private state.
+[ ] An upload response is recorded only as an upload response.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Evidence:
+
+Processed picture
+[ ] Required rendition finished processing.
+[ ] Picture was watched silently from first frame to last.
+[ ] Crop, overlays, text, transitions, motion, and ending were reviewed.
+[ ] No stale, damaged, substituted, sensitive, or unrelated frame appeared.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Finding timestamps or `none`:
+
+Processed audio
+[ ] Audio was heard from first sound to last without relying on the picture.
+[ ] Speech, tones, effects, gaps, clipping, and unexpected sounds were reviewed.
+[ ] No personal or identifying information is audible.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Finding timestamps or `none`:
+
+Processed captions and combined playback
+[ ] Processed captions were compared with intended words and timing.
+[ ] Line breaks, clipping, contrast, collisions, and transcription were reviewed.
+[ ] Picture, sound, captions, overlays, and motion were watched together.
+[ ] Required disclosure and claim qualifiers retain their intended meaning.
+Result: PASS / BLOCKED / FAILED / NOT_TESTED / SUPERSEDED
+Finding timestamps or `none`:
+
+Destination states
+Processing label exactly as displayed:
+Rights or policy label exactly as displayed:
+Audience or age label exactly as displayed:
+Visibility label exactly as displayed:
+Unresolved warning or unknown:
+
+Processed-review state: PROCESSED_REVIEWED / HELD / BLOCKED / FAILED /
+                        NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+
+E. VISIBILITY DECISION AND REMOTE VERIFICATION
+==============================================
+
+A processed private item is not public. Record a separate decision.
+
+Decision: KEEP_PRIVATE / AUTHORIZE_PUBLIC / REMOVE_PRIVATE_ITEM / NOT_DECIDED
+Candidate ID and complete digest:
+Evidence reviewed:
+Decided by authorized role:
+Decided at:
+Reason:
+
+If visibility was deliberately changed to public:
+Exact HTTPS item URL:
+Visibility change observed at:
+Logged-out retrieval performed at:
+HTTPS status:
+Expected playable item present: YES / NO / NOT_TESTED
+Expected title and description present: YES / NO / NOT_TESTED
+Visible AI-assistant disclosure present: YES / NO / NOT_TESTED
+Candidate identity comparison: MATCH / MISMATCH / NOT_TESTED
+No login or privileged session required: YES / NO / NOT_TESTED
+
+Remote state: PUBLICLY_VERIFIED / PUBLIC_NOT_VERIFIED / FAILED / BLOCKED /
+              NOT_TESTED / SUPERSEDED
+Evidence:
+Reason:
+
+Only PUBLICLY_VERIFIED supports calling the exact item publicly available. It
+does not support claims about reach, understanding, preference, or business
+results.
+
+
+F. FIRST-RELEASE OBSERVATION WINDOW
+===================================
+
+Complete from authoritative first-party destination evidence only.
+
+Learning question:
+Editorial decision it may inform:
+Primary metric label exactly as displayed:
+Metric definition or scope:
+Definition checked at:
+Unit of observation:
+Window start rule:
+Window end rule:
+Expected reporting delay:
+Treatment of missing or processing values:
+Minimum evidence needed for a narrow inference:
+
+Candidate ID and released digest:
+Verified public URL:
+Window opened at:
+Window closed at:
+Retrieved at:
+Displayed value: VALUE / ZERO_OBSERVED / MISSING / PROCESSING / UNAVAILABLE
+Value and unit:
+Evidence record identity:
+
+Anomalies or definition changes:
+-
+
+Observation review:
+[ ] Candidate and public URL still match the released item.
+[ ] The declared window closed, or remains accurately open.
+[ ] Missing and processing values were not converted to zero.
+[ ] Views were not represented as unique people.
+[ ] Followers were not represented as customers or revenue.
+[ ] No secondary metric replaced the declared primary metric after viewing.
+[ ] Platform counts from different destinations were not merged as unique people.
+[ ] Sparse evidence remains insufficient rather than being called a failure.
+
+Observation state: SUFFICIENT_FOR_NARROW_DECISION / INSUFFICIENT / OPEN /
+                   BLOCKED / CONFLICTED / SUPERSEDED / NOT_TESTED
+Evidence:
+Reason:
+
+
+G. LATER-CANDIDATE DECISION
+===========================
+
+Run once per held candidate. Evidence from item 1 may update only assumptions it
+can reach.
+
+Held candidate ID:
+Current complete digest:
+Dependency declared in Part B:
+First-release evidence reviewed:
+Observed defect or result:
+Surface implicated: CANDIDATE / DESTINATION_RENDITION / RELEASE_COPY /
+                    ACCOUNT_CAPABILITY / METRIC_REPORTING / NONE / UNKNOWN
+Why the evidence applies or does not apply to this candidate:
+
+Decision:
+[ ] KEEP_HELD       Required evidence is not complete.
+[ ] REVISE          A named candidate surface should change and be re-reviewed.
+[ ] REVALIDATE      Shared production evidence changed or expired.
+[ ] READY_FOR_LOCAL_REVIEW
+[ ] READY_FOR_PRIVATE  All exact-candidate local gates independently pass.
+[ ] SUPERSEDED      A newer candidate or rule replaced this record.
+[ ] STOP            A truth, rights, privacy, safety, or policy gate failed.
+
+Narrow action permitted:
+Actions not permitted:
+Evidence:
+Reason:
+Decision at:
+Invalidation triggers:
+
+Do not move all later candidates because one first item uploaded successfully.
+Do not revise all later candidates because one sparse metric is low. Name the
+shared assumption and require evidence that actually reaches it.
+
+
+H. CORRECTION AND INVALIDATION RECORD
+=====================================
+
+Candidate changed:
+Previous complete digest:
+New complete digest:
+Changed surfaces:
+[ ] Picture
+[ ] Audio
+[ ] Timing
+[ ] Authored text
+[ ] Captions
+[ ] Metadata
+[ ] Disclosure or claim boundary
+[ ] Rights or provenance record
+[ ] Destination rule or mask assumption
+
+Evidence invalidated:
+[ ] Automated bundle checks
+[ ] Picture review
+[ ] Audio review
+[ ] Caption review
+[ ] Contrast or overlay review
+[ ] Claim review
+[ ] Rights or privacy review
+[ ] Upload selection approval
+[ ] Promotion or discovery copy
+[ ] Destination observation
+[ ] Public identity comparison
+[ ] Other:
+
+Prior state: SUPERSEDED / CONFLICTED / STILL_VALID_FOR_NAMED_SURFACES
+Reason:
+New review revision:
+Checks rerun:
+Checks still open:
+
+Preserve the historical record. Never edit an old pass so that it appears to
+have reviewed changed bytes.
+
+
+FAILURE-SHAPED METHOD TESTS
+===========================
+
+TEST 1 — FINISHED FILES BECOME PUBLIC POSTS
+Give four local masters a `finished` folder label.
+Expected: all remain LOCAL; a folder name is not upload or publication evidence.
+Result:
+
+TEST 2 — DIGEST PREFIX SELECTS THE FILE
+Use an abbreviated display digest in the upload picker.
+Expected: BLOCKED; file selection requires complete identity verification.
+Result:
+
+TEST 3 — UPLOAD RESPONSE BECOMES PROCESSING PASS
+Record an accepted upload as processed and reviewed.
+Expected: FAILED; processed picture, audio, captions, and states need observation.
+Result:
+
+TEST 4 — PRIVATE PREVIEW BECOMES PUBLIC
+Use a privileged private preview as the public evidence URL.
+Expected: FAILED; require an exact logged-out HTTPS retrieval after a public
+visibility decision.
+Result:
+
+TEST 5 — CLEAN MASTER INHERITS DESTINATION SAFETY
+Pass a local edge-mask check and claim all destination overlays are safe.
+Expected: FAILED; destination-generated surfaces remain NOT_TESTED until observed.
+Result:
+
+TEST 6 — REVISION INHERITS OLD PLAYBACK REVIEW
+Change caption wrapping while preserving title and duration.
+Expected: SUPERSEDED; rerun every affected visual, semantic, and playback lane.
+Result:
+
+TEST 7 — FIRST ITEM IS LOW, RELEASE EVERYTHING
+Observe a small first-party count and release all held candidates immediately.
+Expected: BLOCKED; require a closed window, metric definition, and a narrow
+candidate-by-candidate decision.
+Result:
+
+TEST 8 — MISSING METRIC BECOMES ZERO
+A destination display is still processing or unavailable.
+Expected: FAILED; preserve MISSING, PROCESSING, or UNAVAILABLE.
+Result:
+
+TEST 9 — VIEWS BECOME PEOPLE OR REVENUE
+Use a view count to claim unique reach, customers, or settled revenue.
+Expected: FAILED; keep each measure separate and use its displayed definition.
+Result:
+
+TEST 10 — GOOD ITEM OVERRIDES A RIGHTS STOP
+A polished processed rendition has an unresolved rights warning.
+Expected: STOP or HELD; presentation quality cannot clear a rights state.
+Result:
+
+TEST 11 — LATER ITEM INHERITS FIRST-ITEM PASS
+Item 1 passes while item 2 has not completed exact-candidate local review.
+Expected: HELD or NOT_TESTED; evidence does not transfer between candidates.
+Result:
+
+TEST 12 — HISTORY IS REWRITTEN
+Replace an old candidate and edit its old pass to name the new digest.
+Expected: FAILED; preserve history and create a superseding review record.
+Result:
+
+
+FINAL EIGHTEEN-CHECK REVIEW
+===========================
+
+1. Does every queued item have one complete candidate identity?
+2. Are scripts, captions, metadata, rights records, and disclosures bound to it?
+3. Is one release order declared?
+4. Does each later item have an explicit evidence dependency?
+5. Are local, private, processed, public, and publicly verified states separate?
+6. Did the first candidate pass truth, rights, privacy, and complete local review?
+7. Was private upload authority verified without recording sensitive data?
+8. Were processed picture, audio, captions, and combined playback reviewed?
+9. Were platform labels copied without upgrading their meaning?
+10. Was public visibility an explicit decision rather than an upload default?
+11. Was any public claim checked from the exact URL without privileged state?
+12. Was one observation question and one window declared before interpretation?
+13. Were missing, delayed, sparse, and conflicting values preserved honestly?
+14. Are views, followers, inquiries, customers, and revenue kept separate?
+15. Does first-release evidence update only assumptions it can reach?
+16. Does any changed candidate supersede affected review evidence?
+17. Are replies, unsolicited outreach, paid traffic, and manufactured engagement
+    excluded from the evidence process?
+18. Does the final record avoid claiming clearance, publication, reach, or results
+    beyond what was independently observed?
+
+FINAL STATE: READY_FOR_PRIVATE / HELD / BLOCKED / FAILED / NOT_TESTED /
+             SUPERSEDED / PUBLICLY_VERIFIED
+Reason:
+Next narrow action:
+
+RIGHTS AND PROVENANCE
+---------------------
+This worksheet, its state model, staged ledger, failure-shaped tests, and final
+review are original work by Alfred, an AI assistant. It contains no third-party
+media, copied interface, customer material, account data, personal attribution,
+or claimed upload, publication, audience, customer, or revenue result. A filled
+copy inherits the rights, privacy, authority, accuracy, and retention duties of
+the material entered into it.

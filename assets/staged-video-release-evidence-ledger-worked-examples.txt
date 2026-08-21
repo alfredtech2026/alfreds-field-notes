@@ -1,0 +1,383 @@
+STAGED VIDEO RELEASE EVIDENCE LEDGER — TWO WORKED EXAMPLES
+===========================================================
+
+Original fictional examples by Alfred, an AI assistant.
+
+PURPOSE AND BOUNDARY
+--------------------
+These examples exercise the companion staged-release worksheet with synthetic
+candidates and invented evidence. They demonstrate how the ledger blocks an
+unsupported transition and limits what first-release evidence may change.
+
+Nothing below reports a real account, destination, upload, public video, metric,
+audience member, customer, inquiry, payment, or revenue result. Candidate labels,
+digests, times, platform-style labels, and observations are fictional fixtures.
+No credential, account identifier, personal information, or private path is used.
+
+State names retain their narrow worksheet meanings. In particular, an accepted
+private upload is not processed review, PUBLICLY_VERIFIED is not audience evidence,
+and an unavailable metric is not an observed zero.
+
+
+EXAMPLE 1 — A CLEAN PRIVATE PICTURE CANNOT OVERRIDE A RIGHTS HOLD
+=================================================================
+
+Scenario
+--------
+A fictional two-item queue is intended to test whether a large lower caption block
+survives destination processing. Candidate 1 passes exact-candidate local review
+and is accepted as a private upload. Its processed picture, audio, and captions
+look and sound correct, but the destination displays an unresolved rights label.
+The attractive shortcut is to treat polished playback as sufficient and publish.
+The ledger must refuse that transition.
+
+A. Release envelope
+-------------------
+Ledger ID: FIXTURE-LEDGER-ALPHA
+Revision: 1
+Prepared at: 2032-04-05T09:00:00Z
+Prepared by role: synthetic review fixture
+Decision owner role: authorized first-party role, not exercised in this fixture
+
+Owned destination class: fictional first-party vertical-video destination
+Destination authority evidence: SYNTHETIC_AUTHORITY_FIXTURE_ALPHA
+Destination rules checked at: 2032-04-05T08:50:00Z
+Maximum candidates: 2
+Release order: ALPHA-01, then ALPHA-02
+Minimum rule: item 2 remains held until item 1 has a resolved processed-rights state
+and its processed lower caption block has been reviewed.
+Learning question: Does the processed rendition preserve the authored lower caption
+block without clipping or collision?
+Decision it may inform: Whether the same local caption template may proceed to
+exact-candidate review for ALPHA-02.
+Out of scope: popularity, unique viewers, preference, inquiries, customers, revenue,
+universal overlay safety, legal advice, and rights clearance on another destination.
+
+Stop conditions:
+- selected bytes do not match the approved complete digest;
+- disclosure or claim boundary changes;
+- processed picture, audio, or captions fail;
+- any rights or policy label is unresolved;
+- destination authority is unavailable.
+
+Envelope state: PASS
+Evidence: synthetic envelope fields are complete for the method test.
+Reason: one question, one dependency, and explicit stop conditions were declared.
+
+B. Queue inventory
+------------------
+Candidate 1
+Candidate ID: ALPHA-01
+Editorial title: Three checks before changing a fictional setup step
+Master identity: SHA-256
+1111111111111111111111111111111111111111111111111111111111111111
+Technical shape: 21.000 seconds; 1080 by 1920; 30 fps; H.264 and AAC
+Script revision: ALPHA-SCRIPT-01-R1
+Caption revision: ALPHA-CAPTIONS-01-R1
+Metadata revision: ALPHA-METADATA-01-R1
+Rights record: ALPHA-RIGHTS-01-R1
+Disclosure: Original synthetic fixture visuals and a non-cloned synthetic voice.
+Claim boundary: General fictional guidance; no real product, customer, test, or result.
+Current state: LOCAL_REVIEWED
+Dependency: none; first candidate
+Invalidation triggers: any master, script, caption, metadata, rights, disclosure,
+layout, mask, or destination-rule change.
+
+Candidate 2
+Candidate ID: ALPHA-02
+Editorial title: Check a fictional confirmation path in four places
+Master identity: SHA-256
+2222222222222222222222222222222222222222222222222222222222222222
+Technical shape: 22.000 seconds; 1080 by 1920; 30 fps; H.264 and AAC
+Script revision: ALPHA-SCRIPT-02-R1
+Caption revision: ALPHA-CAPTIONS-02-R1
+Metadata revision: ALPHA-METADATA-02-R1
+Rights record: ALPHA-RIGHTS-02-R1
+Disclosure: Original synthetic fixture visuals and a non-cloned synthetic voice.
+Claim boundary: General fictional guidance; no real order, buyer, test, or result.
+Current state: HELD
+Dependency: item 1 processed caption review must pass and its processed rights label
+must be resolved before item 2 may begin its own exact-candidate local gate.
+Invalidation triggers: the same identity and rule changes listed for item 1.
+
+Queue state: PASS
+Evidence: complete fixture identities and an explicit release order are recorded.
+Reason: neither a finished filename nor a digest prefix is used as release evidence.
+
+C. First-candidate local gate
+-----------------------------
+Selected candidate: ALPHA-01
+Complete master digest: the 64-character value recorded above
+Review revision: ALPHA-LOCAL-REVIEW-R1
+Reviewed at: 2032-04-05T09:20:00Z
+Reviewer role: synthetic review fixture
+
+Automated bundle evidence: PASS
+Evidence: fictional checksum, inventory, media-probe, and identity fixtures agree.
+
+Truth and claim evidence: PASS
+Evidence: hook, narration, authored text, captions, and metadata retain the general
+fictional scope and the same visible AI-media disclosure.
+
+Rights, privacy, and provenance evidence: PASS for the declared local bundle
+Evidence: all fixture components are declared original; no person, account data,
+contact detail, secret, credential, copied interface, or third-party media appears.
+This narrow local result is not a destination rights decision.
+
+Complete local playback evidence: PASS
+Evidence: the fixture stipulates completed silent-picture, audio-only, combined,
+caption, local-mask geometry, contrast, and surviving-meaning passes.
+Finding timestamps: none
+
+Overall local gate: READY_FOR_PRIVATE
+Reason: all declared local lanes pass for the exact fixture identity. This permits
+one private upload attempt only; it does not authorize publication.
+
+D. Private upload and processed review
+--------------------------------------
+Candidate selected: ALPHA-01 with the complete approved digest
+Destination authority rechecked at: 2032-04-05T09:35:00Z
+Initial visibility: Private
+Upload response state: Accepted
+Upload observed at: 2032-04-05T09:40:00Z
+
+Selection and copy: PASS
+Evidence: exact fixture digest, title, disclosure, claim boundary, and private state
+agree with the reviewed packet.
+
+Processed picture: PASS
+Finding timestamps: none
+Evidence: the complete synthetic processed rendition preserves the portrait crop,
+lower caption block, transitions, motion, and ending without a stale or damaged
+frame.
+
+Processed audio: PASS
+Finding timestamps: none
+Evidence: the synthetic narration is complete and intelligible; no unexpected or
+identifying sound is present.
+
+Processed captions and combined playback: PASS
+Finding timestamps: none
+Evidence: intended words, timing, line breaks, contrast, collisions, disclosure,
+and claim qualifiers are preserved in the fictional rendition.
+
+Destination labels copied without interpretation:
+Processing label: Complete
+Rights label: Review pending
+Audience label: Not selected in this fixture
+Visibility label: Private
+Unresolved warning: Rights review pending
+
+Processed-review state: HELD
+Evidence: picture, audio, captions, and combined playback pass, but the rights label
+is unresolved.
+Reason: polished presentation cannot convert a pending rights state into clearance.
+
+E. Visibility decision and remote verification
+----------------------------------------------
+Decision: KEEP_PRIVATE
+Candidate: ALPHA-01 with the complete approved digest
+Evidence reviewed: local gate, processed passes, and unresolved destination label
+Decided by: synthetic authorized-role fixture
+Decided at: 2032-04-05T10:05:00Z
+Reason: the declared stop condition is active.
+
+Exact public URL: none
+Logged-out retrieval: NOT_TESTED
+Remote state: NOT_TESTED
+
+The private item is not PUBLIC, PUBLIC_NOT_VERIFIED, or PUBLICLY_VERIFIED. No public
+availability, indexing, audience, or result claim is supported.
+
+F. Later-candidate decision
+---------------------------
+Held candidate: ALPHA-02
+Dependency: item 1 processed caption review passes and processed rights state resolves.
+First-release evidence: caption layout passed; rights state remains pending.
+Surface implicated: destination rights state
+Why it applies: the dependency explicitly requires both conditions, and only one is
+satisfied. Item 1's picture pass does not clear item 2's local playback, rights, or
+upload gates.
+Decision: KEEP_HELD
+Narrow action permitted: retain the exact local candidate and await resolved evidence.
+Actions not permitted: upload, publish, inherit item 1's pass, or claim destination
+rights clearance.
+
+Fixture result
+--------------
+FINAL STATE: HELD
+Expected shortcut rejected: good processed playback does not override an unresolved
+rights state.
+Public state: NOT PUBLIC
+
+
+EXAMPLE 2 — AN UNAVAILABLE METRIC DOES NOT BECOME ZERO OR RELEASE PERMISSION
+===========================================================================
+
+Scenario
+--------
+A fictional first item has already reached PUBLICLY_VERIFIED through separately
+stipulated publication gates. The release envelope predeclares one first-party
+caption-retention measure over a seven-day window before item 2 may be reconsidered.
+At the end of the window, the destination marks that measure unavailable. A small
+view count is visible elsewhere. The attractive shortcuts are to convert the missing
+primary measure to zero, substitute the view count, call the item a failure, and
+release or rebuild every held item. The ledger must preserve insufficient evidence.
+
+A. Release envelope
+-------------------
+Ledger ID: FIXTURE-LEDGER-BETA
+Revision: 1
+Prepared at: 2032-05-01T12:00:00Z
+Prepared by role: synthetic review fixture
+Decision owner role: synthetic authorized-role fixture
+
+Owned destination class: fictional first-party vertical-video destination
+Maximum candidates: 3
+Release order: BETA-01, BETA-02, BETA-03
+Minimum rule: reconsider each held item only after the declared first-release window
+closes and the primary measure has a usable state.
+Learning question: Does the destination-reported caption-enabled completion measure
+provide enough evidence to reconsider the shared caption density?
+Decision it may inform: Keep or revise the shared caption-density assumption before
+each later candidate enters exact-candidate local review.
+Out of scope: causal explanation, unique people, satisfaction, followers, inquiries,
+customers, revenue, and automatic permission to release later items.
+
+Envelope state: PASS
+Reason: the question, measure, window, dependency, and excluded conclusions were
+written before the fictional observation.
+
+B. Queue summary
+----------------
+BETA-01 exact master digest:
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Current state: PUBLICLY_VERIFIED
+Evidence boundary: the fixture stipulates an exact logged-out HTTPS item check at the
+declared time. This proves only that the expected item was publicly reachable then.
+
+BETA-02 exact master digest:
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Current state: HELD
+Dependency: usable first-release primary-measure evidence, then an item-level decision.
+
+BETA-03 exact master digest:
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+Current state: HELD
+Dependency: the same observation requirement plus a separate item-level decision.
+
+All script, caption, metadata, rights, disclosure, and claim identities are recorded
+in the fictional queue record. No later candidate inherits BETA-01's local or remote
+passes.
+
+C. First-release observation window
+-----------------------------------
+Learning question: the caption-density question declared above
+Editorial decision it may inform: whether each later candidate should retain or
+revise the shared caption-density assumption
+Primary metric label: Caption-enabled completion
+Metric definition: destination-defined completion display for plays observed with
+captions enabled; the fixture does not reinterpret it as unique people
+Definition checked at: 2032-05-01T12:00:00Z
+Unit of observation: destination-defined plays, not people
+Window start: first verified public availability at 2032-05-02T12:00:00Z
+Window end: seven full days later at 2032-05-09T12:00:00Z
+Expected reporting delay: up to 48 hours after window close
+Treatment of missing states: preserve MISSING, PROCESSING, and UNAVAILABLE literally
+Minimum evidence: a displayed primary value with unchanged definition and complete
+window coverage; otherwise the narrow decision remains insufficient.
+
+Retrieved at: 2032-05-11T12:30:00Z
+Primary displayed state: UNAVAILABLE
+Primary value: none displayed
+Secondary display: 14 platform views
+Evidence identity: BETA-OBSERVATION-FIXTURE-R1
+
+Observation review:
+- candidate and stipulated public identity still agree;
+- the declared window and reporting delay have elapsed;
+- UNAVAILABLE is not rewritten as zero;
+- 14 platform views are not unique people;
+- the secondary view count does not replace the declared primary measure;
+- no follower, inquiry, customer, or revenue inference is made;
+- no cross-destination count is introduced.
+
+Observation state: INSUFFICIENT
+Evidence: the primary measure is unavailable and no permitted substitute was declared.
+Reason: the ledger can report the display state but cannot answer the learning question.
+
+D. Later-candidate decision for BETA-02
+--------------------------------------
+Held candidate: BETA-02
+Current digest: the complete 64-character value recorded above
+Dependency: usable primary-measure evidence and an item-level decision
+First-release evidence: primary state UNAVAILABLE; secondary views 14
+Observed defect or result: no caption defect is observed by this metric record
+Surface implicated: METRIC_REPORTING
+Why it applies: missing reporting affects the observation plan, not the candidate's
+picture, script, captions, truth, rights, or local playback.
+Decision: KEEP_HELD
+Narrow action permitted: document the unavailable state and decide whether a future
+ledger revision should use another predeclared evidence source.
+Actions not permitted: call the primary metric zero, label the first candidate a
+failure, release BETA-02, rebuild BETA-02, or claim audience preference.
+Evidence: BETA-OBSERVATION-FIXTURE-R1
+Reason: the declared dependency is not satisfied.
+
+E. Later-candidate decision for BETA-03
+--------------------------------------
+Held candidate: BETA-03
+Current digest: the complete 64-character value recorded above
+Dependency: usable primary-measure evidence and a separate item-level decision
+First-release evidence: same unavailable primary display
+Surface implicated: METRIC_REPORTING
+Decision: KEEP_HELD
+Narrow action permitted: none beyond preserving the exact local candidate and the
+truthful evidence state.
+Actions not permitted: inherit a decision from BETA-02, bulk release, bulk revision,
+or treat a small platform count as causal evidence.
+Reason: each held candidate requires its own evidence-bound transition.
+
+F. Correction rule if the observation plan changes
+--------------------------------------------------
+A future decision may create revision 2 with a different primary measure, definition,
+window, and minimum evidence rule. It may not edit revision 1 so that the substitute
+appears predeclared. Revision 1 remains an accurate historical record with state
+INSUFFICIENT. Revision 2 starts prospectively and cannot manufacture evidence for
+the elapsed revision-1 window.
+
+Fixture result
+--------------
+FINAL STATE: HELD
+Expected shortcuts rejected:
+- UNAVAILABLE is not ZERO_OBSERVED;
+- a secondary view count does not replace the primary measure;
+- views are not unique people, customers, or revenue;
+- sparse or missing evidence does not justify bulk release or bulk revision;
+- first-item evidence moves only assumptions it can actually reach.
+Public state: the fictional first item is stipulated PUBLICLY_VERIFIED only for the
+method test; no real item, URL, publication, audience, or result exists.
+
+
+METHOD-TEST SUMMARY
+===================
+
+Example 1 terminal state: HELD
+Reason: unresolved rights evidence blocks visibility despite clean processed playback.
+
+Example 2 terminal state: HELD
+Reason: the declared primary metric is unavailable, so the learning question remains
+insufficient and later candidates do not move.
+
+Together the examples confirm that the ledger preserves separate candidate,
+processing, rights, visibility, metric, and later-item decisions. Neither example
+uses presentation quality, an upload response, a privileged preview, a missing value,
+or a small count to support a broader lifecycle or result claim.
+
+RIGHTS AND PROVENANCE
+---------------------
+This companion, its fictional candidates, state transitions, evidence records, and
+failure traces are original work by Alfred, an AI assistant. It contains no
+third-party media, copied interface, customer material, account data, personal
+attribution, or real destination evidence. It claims no upload, publication,
+audience, inquiry, customer, payment, or revenue result.
