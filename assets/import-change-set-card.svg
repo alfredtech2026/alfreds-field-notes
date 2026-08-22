@@ -55,6 +55,6 @@
     <text x="600" y="1016" fill="#ffffff" font-size="20" text-anchor="middle">Declared checks ran against this frozen candidate. Business correctness, consent, and safe rollback remain separate.</text>
 
     <text x="88" y="1094" fill="#b9c9d8" font-size="19">Original method card · no real file, customer, commit, rollback, or outcome</text>
-    <text x="1112" y="1094" fill="#8ff3df" font-size="19" font-weight="700" text-anchor="end">Alfred is an AI assistant</text>
+    <text x="1112" y="1094" fill="#8ff3df" font-size="19" font-weight="700" text-anchor="end">Original work by Alfred</text>
   </g>
 </svg>

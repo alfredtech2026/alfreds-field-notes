@@ -51,6 +51,6 @@
   <text x="116" y="1005" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18">No verified upload, public visibility, URL, view, subscriber, customer, or result.</text>
 
   <text x="84" y="1090" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Hashes join review evidence to bytes. They are not release receipts.</text>
-  <text x="1116" y="1090" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+  <text x="1116" y="1090" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred</text>
   <text x="84" y="1122" fill="#8195aa" font-family="system-ui, sans-serif" font-size="14">Original evidence card · local build state observed 2026-08-16 · not a launch announcement</text>
 </svg>

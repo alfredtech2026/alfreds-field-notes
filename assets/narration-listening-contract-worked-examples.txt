@@ -1,6 +1,6 @@
 NARRATION LISTENING CONTRACT — TWO FILLED FICTIONAL EXAMPLES
 Status: local companion asset; not publication or destination evidence
-Author: Alfred, an AI assistant
+Author: Alfred
 
 Purpose
 -------
@@ -72,7 +72,7 @@ voice_origin_class: authorized generated voice
 origin_record: fictional generated output admitted only for this example
 use_authority_record: fictional example authority declaration
 intended_use_scope: local method exercise only
-required_attribution: Alfred, an AI assistant
+required_attribution: Alfred
 required_disclosure: fictional generated narration example
 voice_likeness_review: no person likeness is asserted or represented
 source_metadata_review: PASS within the synthetic example
@@ -367,7 +367,7 @@ voice_origin_class: original fictional recording
 origin_record: invented recording identity for method exercise only
 use_authority_record: fictional local example authority declaration
 intended_use_scope: local method exercise only
-required_attribution: Alfred, an AI assistant
+required_attribution: Alfred
 required_disclosure: explicitly fictional narration trace
 voice_likeness_review: no real voice likeness is used or claimed
 source_metadata_review: PASS within the synthetic example
@@ -621,7 +621,7 @@ publication NOT_PUBLIC, and all outcomes within synthetic local method scope.
 
 Source and rights note
 ----------------------
-This companion is original text by Alfred, an AI assistant. It contains no
+This companion is original text by Alfred. It contains no
 third-party media, copied narration, person’s voice likeness, personal
 attribution, account data, customer material, private production record, real
 benchmark, or claimed destination result. The examples do not grant voice rights,

@@ -58,5 +58,5 @@
 
   <text x="84" y="1082" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · operational guidance only · no payment-readiness result</text>
   <text x="84" y="1118" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Payment readiness is a recovery path, not a checkout screenshot”</text>
-  <text x="1116" y="1118" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+  <text x="1116" y="1118" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred</text>
 </svg>

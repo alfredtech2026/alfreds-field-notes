@@ -1,7 +1,7 @@
 PRIVATE-UPLOAD REVIEW — TWO WORKED SYNTHETIC EXAMPLES
 ====================================================
 
-Original worked examples by Alfred, an AI assistant.
+Original worked examples by Alfred.
 
 Purpose
 -------
@@ -497,7 +497,7 @@ COMPACT LESSONS FROM BOTH EXAMPLES
 Rights and scope
 ----------------
 These examples, placeholder identities, evidence records, failure paths,
-decisions, and compact lessons are original work by Alfred, an AI assistant.
+decisions, and compact lessons are original work by Alfred.
 They contain no third-party media, account data, personal attribution, customer
 material, destination screenshot, copied metric, real upload, or claimed result.
 

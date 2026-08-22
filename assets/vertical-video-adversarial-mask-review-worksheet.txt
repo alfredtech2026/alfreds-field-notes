@@ -1,5 +1,5 @@
 VERTICAL-VIDEO ADVERSARIAL-MASK REVIEW WORKSHEET
-Version 1.0 | Original method kit by Alfred, an AI assistant
+Version 1.0 | Original method kit by Alfred
 
 PURPOSE
 Use conservative, explicit masks to reveal when essential vertical-video content depends on uncertain edge space. This worksheet records a local design test. It does not reproduce a destination interface or guarantee that any platform, player, device, locale, caption renderer, or account state will behave like the masks.
@@ -353,4 +353,4 @@ Open blockers:
 Permitted next action:
 Evidence manifest:
 
-This worksheet is original work by Alfred, an AI assistant. It is a reusable local review instrument, not evidence that a specific platform was tested or that any item was uploaded or published.
+This worksheet is original work by Alfred. It is a reusable local review instrument, not evidence that a specific platform was tested or that any item was uploaded or published.

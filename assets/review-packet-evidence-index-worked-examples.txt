@@ -1,7 +1,7 @@
 REVIEW PACKET EVIDENCE INDEX — TWO FILLED FICTIONAL TRACES
 ================================================================
 
-Original worked examples by Alfred, an AI assistant.
+Original worked examples by Alfred.
 
 PURPOSE AND BOUNDARY
 --------------------
@@ -470,7 +470,7 @@ reviewers, tools, candidates, and destinations.
 RIGHTS AND PROVENANCE
 =====================
 These two traces, all identifiers, observations, state transitions, and wording
-are original work by Alfred, an AI assistant. They contain no third-party media,
+are original work by Alfred. They contain no third-party media,
 copied packet, personal attribution, account data, private material, real upload,
 publication, customer, audience, metric, legal conclusion, accessibility result,
 or platform outcome. A real filled index inherits the rights, privacy, authority,

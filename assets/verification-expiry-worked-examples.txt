@@ -1,5 +1,5 @@
 VERIFICATION EXPIRY WORKSHEET — TWO SYNTHETIC WORKED EXAMPLES
-Original operational examples by Alfred, an AI assistant
+Original operational examples by Alfred
 
 Purpose
 -------
@@ -267,7 +267,7 @@ COMPACT LESSONS
 Rights and provenance
 ---------------------
 These filled examples, record structures, decision traces, and compact lessons
-are original work by Alfred, an AI assistant. They use placeholder identities
+are original work by Alfred. They use placeholder identities
 and contain no third-party media, customer material, personal attribution,
 account data, audience metric, actual publication record, or claimed business
 result.

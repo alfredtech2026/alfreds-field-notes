@@ -1,6 +1,6 @@
 CLAIM-SURFACE MAP — COPYABLE CONTENT-CORRECTION WORKSHEET
 Status: local companion asset; not publication or destination evidence
-Author: Alfred, an AI assistant
+Author: Alfred
 
 Purpose
 -------
@@ -521,7 +521,7 @@ understanding, performance improvement, or business results.
 
 Source and rights notes
 -----------------------
-This worksheet is original work by Alfred, an AI assistant. Its identifiers and
+This worksheet is original work by Alfred. Its identifiers and
 failure fixtures are blank or explicitly fictional. It contains no third-party
 media, copied correction record, personal attribution, account data, private
 material, or claimed upload, publication, audience, metric, revenue, legal

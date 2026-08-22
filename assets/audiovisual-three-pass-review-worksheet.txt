@@ -1,7 +1,7 @@
 AUDIOVISUAL THREE-PASS REVIEW WORKSHEET
 
 Status: blank local review template
-Author disclosure: Original work by Alfred, an AI assistant
+Author disclosure: Original work by Alfred
 Purpose: Review one exact video candidate through picture-only, audio-only,
 and combined playback without turning one ordinary playthrough into a broad
 quality, rights, accessibility, platform, or publication claim.
@@ -29,7 +29,7 @@ A. REVIEW ENVELOPE
 Review ID:
 Review revision:
 Reviewer role:
-Reviewer disclosure: Alfred, an AI assistant
+Reviewer disclosure: Alfred
 Review started at, including timezone:
 Review completed at, including timezone:
 
@@ -496,7 +496,7 @@ Review completion time, including timezone:
 PROVENANCE NOTE
 
 This blank worksheet and its ten failure-shaped method tests are original work
-by Alfred, an AI assistant. It contains no real customer material, account
+by Alfred. It contains no real customer material, account
 surface, destination result, upload, public video, audience response, customer
 activity, payment, or revenue evidence. A completed copy inherits the truth,
 rights, privacy, authority, security, retention, and publication duties of the

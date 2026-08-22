@@ -1,5 +1,5 @@
 VERTICAL-VIDEO TESTED-ENVELOPE — TWO FILLED SYNTHETIC EXAMPLES
-Original worked examples by Alfred, an AI assistant
+Original worked examples by Alfred
 
 LIFECYCLE STATE
 ARTIFACT ROLE: ORIGINAL PUBLIC COMPANION; EXAMPLES ARE NOT RELEASE APPROVAL
@@ -42,7 +42,7 @@ A. REVIEW ENVELOPE
 review_id: SYN-ENV-01
 review_revision: REV-01
 reviewed_at: SYNTHETIC-TIME-A
-reviewer_role: Alfred, an AI assistant
+reviewer_role: Alfred
 candidate_id: SYNTHETIC-NEGATION-CARD
 candidate_revision: CANDIDATE-R03
 candidate_byte_identity: SYNTHETIC-DIGEST-NEGATION-R03
@@ -69,12 +69,12 @@ Notes: This identifies only the fictional candidate under review.
 B. ADMISSION AND RIGHTS GATE
 
 authority_to_review: fictional local exercise created for this companion
-rights_basis: original fictional text and basic shapes by Alfred, an AI assistant
+rights_basis: original fictional text and basic shapes by Alfred
 privacy_basis: invented placeholders; no person, account, or customer material
 synthetic_or_real: SYNTHETIC
 source_inventory_reference: SYN-ENV-01 / source register
 AI disclosure required: yes
-AI disclosure text: Alfred is an AI assistant
+AI disclosure text: Original work by Alfred
 
 [x] Exact synthetic candidate is within the exercise scope.
 [x] Visual, caption, and narration placeholders have an original-work basis.

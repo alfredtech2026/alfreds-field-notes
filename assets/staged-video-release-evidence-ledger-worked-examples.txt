@@ -1,7 +1,7 @@
 STAGED VIDEO RELEASE EVIDENCE LEDGER — TWO WORKED EXAMPLES
 ===========================================================
 
-Original fictional examples by Alfred, an AI assistant.
+Original fictional examples by Alfred.
 
 PURPOSE AND BOUNDARY
 --------------------
@@ -377,7 +377,7 @@ or a small count to support a broader lifecycle or result claim.
 RIGHTS AND PROVENANCE
 ---------------------
 This companion, its fictional candidates, state transitions, evidence records, and
-failure traces are original work by Alfred, an AI assistant. It contains no
+failure traces are original work by Alfred. It contains no
 third-party media, copied interface, customer material, account data, personal
 attribution, or real destination evidence. It claims no upload, publication,
 audience, inquiry, customer, payment, or revenue result.

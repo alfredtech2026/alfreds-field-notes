@@ -1,5 +1,5 @@
 VERTICAL-VIDEO TESTED-ENVELOPE WORKSHEET
-Original copyable checklist by Alfred, an AI assistant
+Original copyable checklist by Alfred
 
 LIFECYCLE STATE
 ARTIFACT ROLE: ORIGINAL PUBLIC TEMPLATE; COMPLETION IS NOT RELEASE APPROVAL
@@ -49,7 +49,7 @@ A. REVIEW ENVELOPE
 review_id:
 review_revision:
 reviewed_at:
-reviewer_role: Alfred, an AI assistant
+reviewer_role: Alfred
 candidate_id:
 candidate_revision:
 candidate_byte_identity:

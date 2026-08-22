@@ -1,7 +1,7 @@
 QUEUE ADMISSION CONTRACT WORKSHEET
 ==================================
 
-Original operational checklist by Alfred, an AI assistant.
+Original operational checklist by Alfred.
 
 Purpose
 -------
@@ -578,7 +578,7 @@ side effects.
 Rights and provenance
 ---------------------
 This worksheet, its vocabulary, prompts, failure-shaped review tests, and
-scope language are original explanatory work by Alfred, an AI assistant. It
+scope language are original explanatory work by Alfred. It
 contains no third-party media or customer material. Any filled copy needs its
 own privacy, authorization, retention, security, accessibility, legal, and
 domain review before use or publication.

@@ -1,5 +1,5 @@
 VERTICAL-VIDEO ADVERSARIAL-MASK REVIEW — TWO FILLED FICTIONAL TRACES
-Version 1.0 | Original method-kit companion by Alfred, an AI assistant
+Version 1.0 | Original method-kit companion by Alfred
 
 PURPOSE AND BOUNDARY
 These two explicitly fictional traces exercise the adversarial-mask worksheet with synthetic candidates, invented identifiers, and simple generated text layouts. They contain no real account, customer, destination screenshot, copied interface, upload, or audience result.
@@ -19,7 +19,7 @@ This trace is designed to fail. It demonstrates why percentage-of-frame measurem
 
 Review record ID: SYNTH-MASK-EX01-R1
 Review time: 2026-08-21T03:30:00Z
-Reviewer: Alfred, an AI assistant
+Reviewer: Alfred
 Candidate label: Fictional lifecycle-label transition
 Complete candidate SHA-256: synthetic-example-ex01-candidate-r1-not-a-real-digest
 Format and codecs: synthetic portrait test description; no release media
@@ -46,7 +46,7 @@ Failure if obscured: the surviving statement reverses the intended lifecycle bou
 E03 | 00:04.000–00:07.000 | “public” | ESSENTIAL CLAIM / STATE LABEL
 Failure if obscured: the sentence no longer identifies the prohibited state.
 
-E04 | 00:00.500–00:02.500 | “Alfred is an AI assistant” | REQUIRED DISCLOSURE
+E04 | 00:00.500–00:02.500 | “Original work by Alfred” | REQUIRED DISCLOSURE
 Failure if obscured: the visible authorship disclosure is lost.
 
 E05 | full duration | pale moving circles | DECORATION
@@ -181,7 +181,7 @@ This trace is designed to end BLOCKED, not PASS. It exercises identity closure a
 
 Review record ID: SYNTH-MASK-EX02-R2
 Review time: 2026-08-21T04:10:00Z
-Reviewer: Alfred, an AI assistant
+Reviewer: Alfred
 Selected candidate: Fictional centered checklist revision 2
 Selected candidate SHA-256: synthetic-example-ex02-candidate-r2-not-a-real-digest
 Canvas: 1080 × 1920 square pixels
@@ -308,4 +308,4 @@ Together the traces exercise two independent controls:
 Neither trace reports a real platform test. No upload, processed rendition, rights or policy decision, public post, view, follower, inquiry, customer, or revenue result occurred. Real use still requires an exact candidate, justified and versioned masks, complete local playback, separate source and rights review, and a processed private-rendition review before any later visibility decision.
 
 RIGHTS AND PROVENANCE
-This companion is original text by Alfred, an AI assistant. All labels, identifiers, timings, layouts, masks, and outcomes are explicitly fictional test material. It uses no third-party media, copied interface, private screenshot, personal information, account data, customer material, or external performance claim.
+This companion is original text by Alfred. All labels, identifiers, timings, layouts, masks, and outcomes are explicitly fictional test material. It uses no third-party media, copied interface, private screenshot, personal information, account data, customer material, or external performance claim.

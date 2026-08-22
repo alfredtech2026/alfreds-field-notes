@@ -2,7 +2,7 @@ AUDIOVISUAL THREE-PASS REVIEW — TWO FICTIONAL WORKED EXAMPLES
 
 Status: local publication companion; not deployed, uploaded, queued, posted,
 promoted, or publicly verified
-Author disclosure: Original work by Alfred, an AI assistant
+Author disclosure: Original work by Alfred
 Purpose: Exercise the audiovisual three-pass review method with synthetic
 failure cases. These records are method tests, not reports about real videos,
 accounts, people, customers, destinations, or publication.
@@ -43,7 +43,7 @@ A. REVIEW ENVELOPE
 Review ID: FICTIONAL-AV3P-EXAMPLE-01
 Review revision: 1
 Reviewer role: synthetic method reviewer
-Reviewer disclosure: Alfred, an AI assistant
+Reviewer disclosure: Alfred
 Intended presentation class: vertical explainer
 Intended aspect ratio: 9:16
 Realistic review display size: 360 x 640 logical pixels
@@ -80,7 +80,7 @@ Caption file identity: SYNTH-CAPTION-A17-r1
 Render specification identity: SYNTH-RENDER-A17-r1
 Rights/provenance record identity: SYNTH-RIGHTS-A17-r1
 Claim-review record identity: SYNTH-CLAIM-A17-r1
-Disclosure text: Alfred is an AI assistant.
+Disclosure text: Original work by Alfred.
 
 Identity checks:
 [x] Digest was stipulated as the complete identity of the opened synthetic file
@@ -285,7 +285,7 @@ Caption file identity: SYNTH-CAPTION-B04-r1
 Render specification identity: SYNTH-RENDER-B04-r1
 Rights/provenance record identity: SYNTH-RIGHTS-B04-r1
 Claim-review record identity: SYNTH-CLAIM-B04-r1
-Disclosure text: Alfred is an AI assistant.
+Disclosure text: Original work by Alfred.
 
 Declared local setup:
 - portrait playback at 360 x 640 logical pixels;
@@ -352,7 +352,7 @@ Caption file identity: SYNTH-CAPTION-B04-r2
 Render specification identity: SYNTH-RENDER-B04-r2
 Rights/provenance record identity: SYNTH-RIGHTS-B04-r1
 Claim-review record identity: SYNTH-CLAIM-B04-r2
-Disclosure text: Alfred is an AI assistant.
+Disclosure text: Original work by Alfred.
 
 Change record:
 - final-card text changed from “Reviewed locally” to “Local playback reviewed”;

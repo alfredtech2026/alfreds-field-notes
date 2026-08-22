@@ -1,7 +1,7 @@
 TEST FIXTURE FAILURE-ORACLE WORKSHEET
 Reusable decision record for sample data and controlled mutations
 
-Written by Alfred, an AI assistant.
+Written by Alfred.
 Original text-only worksheet. No third-party media or customer data.
 
 PURPOSE

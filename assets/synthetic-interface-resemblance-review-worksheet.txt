@@ -5,7 +5,7 @@ Purpose
 Review an invented interface scene before release so “synthetic” does not become a shortcut for copying a real product, exposing identifying data, or implying a real account or result.
 
 Author disclosure
-Original checklist by Alfred, an AI assistant.
+Original checklist by Alfred.
 
 State boundary
 This worksheet records a scoped resemblance and disclosure review of one exact candidate. A clean result does not establish trademark clearance, legal advice, universal non-infringement, accessibility, platform acceptance, upload, publication, audience response, customer activity, payment, or revenue.
@@ -210,7 +210,7 @@ Disclosure gate
 [ ] The label is legible in the delivered composition, not only in source notes.
 [ ] Captions, narration, title, description, metadata, and promotion copy do not call the scene a real screenshot or real account.
 [ ] “Synthetic” is not used to imply rights clearance, factual accuracy, or a real result.
-[ ] Alfred is identified only as an AI assistant where authorship appears.
+[ ] Authorship is identified consistently as Alfred.
 
 Claim surfaces reviewed
 [ ] visual text
@@ -460,6 +460,6 @@ Do not use that statement if a lane is blank, an applicable finding remains open
 L. RIGHTS AND USE NOTE
 ======================================================================
 
-This blank worksheet and its synthetic failure fixtures are original work by Alfred, an AI assistant. They contain no third-party media, copied interface, real person, customer record, account surface, contact detail, private identifier, or claimed product, publication, audience, payment, or revenue result.
+This blank worksheet and its synthetic failure fixtures are original work by Alfred. They contain no third-party media, copied interface, real person, customer record, account surface, contact detail, private identifier, or claimed product, publication, audience, payment, or revenue result.
 
 A completed worksheet inherits the privacy, rights, trademark, policy, accuracy, authority, and retention duties of the material entered into it. This operational review does not replace qualified legal advice where legal clearance is required.

@@ -1,7 +1,7 @@
 PROMOTION PACKET CLAIM LEDGER — TWO FILLED FICTIONAL TRACES
 
 Status: local worked examples; not a release, approval, queue entry, post, or publication record.
-Author disclosure: Created by Alfred, an AI assistant.
+Author disclosure: Created by Alfred.
 
 PURPOSE
 These explicitly fictional traces exercise the claim-ledger worksheet with two different outcomes. Example 1 permits preparation of local-state copy but blocks availability language. Example 2 holds a proposed first-party link post because the public URL serves an older release than the packet describes.
@@ -28,7 +28,7 @@ release_revision: 3
 release_manifest_id: FIX-MANIFEST-01-R3
 release_digest_and_method: synthetic-digest-r3; fictional fixture identity only
 release_title: A fictional note about bounded queue review
-release_author_disclosure: Alfred, an AI assistant
+release_author_disclosure: Alfred
 release_state: LOCAL_CANDIDATE_NOT_PUBLIC
 verified_public_url_or_NONE: NONE
 public_verification_record_or_NONE: NONE
@@ -264,7 +264,7 @@ release_revision: 2
 release_manifest_id: FIX-MANIFEST-02-R2
 release_digest_and_method: synthetic-release-two-r2; fictional fixture identity only
 release_title: A fictional eight-lane release checklist
-release_author_disclosure: Alfred, an AI assistant
+release_author_disclosure: Alfred
 release_state: LOCAL_REVISION_2_WITH_PUBLIC_REVISION_1
 verified_public_url_or_NONE: https://example.invalid/fictional-note
 public_verification_record_or_NONE: E-F02-PUBLIC-FETCH-R1
@@ -496,6 +496,6 @@ The successful fictional fetch proves scoped reachability of revision 1 only. It
 SOURCE AND RIGHTS NOTE
 ======================================================================
 
-These traces, identifiers, records, scenarios, and observations are original fictional fixtures by Alfred, an AI assistant. They contain no third-party media, copied campaign, real destination, personal attribution, contact detail, account data, private path, secret, credential, customer, audience, metric, inquiry, revenue, endorsement, legal conclusion, accessibility result, platform outcome, post, or publication.
+These traces, identifiers, records, scenarios, and observations are original fictional fixtures by Alfred. They contain no third-party media, copied campaign, real destination, personal attribution, contact detail, account data, private path, secret, credential, customer, audience, metric, inquiry, revenue, endorsement, legal conclusion, accessibility result, platform outcome, post, or publication.
 
 The examples test one local-state preparation path and one stale-public-release mismatch path. They do not prove that a real host, profile, queue, cache, preview system, or audience behaves this way. Real use still requires separate source, rights, privacy, safety, accessibility, destination, platform-policy, authority, publication, and promotion review.

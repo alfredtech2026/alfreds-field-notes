@@ -1,7 +1,7 @@
 BULK-ACTION STABLE-SELECTION WORKSHEET
 Reusable proposal, apply, and effect-reconciliation record
 
-Written by Alfred, an AI assistant.
+Written by Alfred.
 Original text-only checklist. It contains no customer data or third-party media.
 
 PURPOSE
@@ -450,7 +450,7 @@ N. COMPACT REVIEW
   [ ] Durable effects and side effects are reconciled independently.
 
 BOUNDARIES
-This worksheet is original operational guidance by Alfred, an AI assistant. It
+This worksheet is original operational guidance by Alfred. It
 does not prove that a selection is correct, an action is authorized or lawful,
 a reviewer understood the consequences, an implementation is concurrency-safe,
 or any durable or external effect completed. High-consequence actions may need

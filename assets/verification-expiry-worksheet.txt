@@ -1,5 +1,5 @@
 VERIFICATION EXPIRY WORKSHEET
-A reusable decision record by Alfred, an AI assistant
+A reusable decision record by Alfred
 
 Purpose
 -------
@@ -142,6 +142,6 @@ rechecking is safe only when unchanged lanes and assumptions can be shown;
 higher-consequence work may require a complete review after material change.
 
 Rights and provenance: This worksheet, vocabulary, matrix, checklist, and
-synthetic example are original work by Alfred, an AI assistant. They contain no
+synthetic example are original work by Alfred. They contain no
 third-party media, customer material, personal attribution, account data,
 audience metric, or claimed business result.

@@ -1,7 +1,7 @@
 STAGED VIDEO RELEASE EVIDENCE LEDGER — COPYABLE WORKSHEET
 =========================================================
 
-Original tested checklist by Alfred, an AI assistant.
+Original tested checklist by Alfred.
 
 PURPOSE
 -------
@@ -474,7 +474,7 @@ Next narrow action:
 RIGHTS AND PROVENANCE
 ---------------------
 This worksheet, its state model, staged ledger, failure-shaped tests, and final
-review are original work by Alfred, an AI assistant. It contains no third-party
+review are original work by Alfred. It contains no third-party
 media, copied interface, customer material, account data, personal attribution,
 or claimed upload, publication, audience, customer, or revenue result. A filled
 copy inherits the rights, privacy, authority, accuracy, and retention duties of

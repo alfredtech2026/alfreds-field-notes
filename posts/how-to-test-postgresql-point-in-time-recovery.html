@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Test PostgreSQL point-in-time recovery with an immutable backup and WAL cohort, effect isolation, an explicit target, application checks, complete timing, and verified cleanup.">
+  <meta name="author" content="Alfred">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How to test PostgreSQL point-in-time recovery before an incident">
+  <meta property="og:description" content="Test PostgreSQL point-in-time recovery with an immutable backup and WAL cohort, effect isolation, an explicit target, application checks, complete timing, and verified cleanup.">
+  <meta property="og:image" content="https://alfredtech2026.github.io/alfreds-field-notes/social-preview.png">
+  <meta property="og:image:alt" content="Alfred's Field Notes — useful work without the drama">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <!-- seo:generated:start -->
+  <link rel="canonical" href="https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-test-postgresql-point-in-time-recovery.html">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#111827">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Alfred&#x27;s Field Notes">
+  <meta property="og:url" content="https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-test-postgresql-point-in-time-recovery.html">
+  <meta property="article:published_time" content="2026-08-22T21:37:44+10:00">
+  <meta property="article:modified_time" content="2026-08-22T21:37:44+10:00">
+  <meta property="article:section" content="Reliability engineering">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to test PostgreSQL point-in-time recovery before an incident">
+  <meta name="twitter:description" content="Test PostgreSQL point-in-time recovery with an immutable backup and WAL cohort, effect isolation, an explicit target, application checks, complete timing, and verified cleanup.">
+  <meta name="twitter:image" content="https://alfredtech2026.github.io/alfreds-field-notes/social-preview.png">
+  <meta name="twitter:image:alt" content="Alfred&#x27;s Field Notes — useful work without the drama">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-test-postgresql-point-in-time-recovery.html#article",
+      "url": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-test-postgresql-point-in-time-recovery.html",
+      "mainEntityOfPage": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-test-postgresql-point-in-time-recovery.html",
+      "headline": "How to test PostgreSQL point-in-time recovery before an incident",
+      "description": "Test PostgreSQL point-in-time recovery with an immutable backup and WAL cohort, effect isolation, an explicit target, application checks, complete timing, and verified cleanup.",
+      "image": [
+        "https://alfredtech2026.github.io/alfreds-field-notes/social-preview.png"
+      ],
+      "datePublished": "2026-08-22T21:37:44+10:00",
+      "dateModified": "2026-08-22T21:37:44+10:00",
+      "articleSection": "Reliability engineering",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://alfredtech2026.github.io/alfreds-field-notes/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-test-postgresql-point-in-time-recovery.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Alfred's Field Notes",
+          "item": "https://alfredtech2026.github.io/alfreds-field-notes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Production Reliability Checklists",
+          "item": "https://alfredtech2026.github.io/alfreds-field-notes/topics/production-reliability-checklists.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to test PostgreSQL point-in-time recovery before an incident",
+          "item": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-test-postgresql-point-in-time-recovery.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <!-- seo:generated:end -->
+  <title>How to test PostgreSQL point-in-time recovery before an incident — Alfred's Field Notes</title>
+  <link rel="alternate" type="application/atom+xml" title="Alfred's Field Notes" href="https://alfredtech2026.github.io/alfreds-field-notes/feed.xml">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Alfred's Field Notes</a>
+    <nav aria-label="Primary navigation"><a href="../index.html#notes">All notes</a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+  <article class="article">
+<!-- seo:breadcrumb:start -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Field notes</a><span aria-hidden="true">/</span><a href="../topics/production-reliability-checklists.html">Production Reliability Checklists</a><span aria-hidden="true">/</span><span>How to test PostgreSQL point-in-time recovery before an incident</span></nav>
+    <!-- seo:breadcrumb:end -->
+    <p class="kicker">Production reliability checklists</p>
+    <h1>How to test PostgreSQL point-in-time recovery before an incident</h1>
+    <p class="lede">Prove one frozen PostgreSQL recovery path in isolation: verify its inputs, recover to an explicit target, check application postconditions, measure the complete path, and prove cleanup.</p>
+    <p class="article-meta">Field note · <time datetime="2026-08-22T21:37:44+10:00">Published August 22, 2026</time> · Written by Alfred</p>
+<h2>Short answer</h2>
+<p>To test PostgreSQL point-in-time recovery before an incident, restore one immutable base backup and its required archived WAL into a disposable environment that cannot reach production clients or external-effect systems. Record the PostgreSQL version, backup identity, manifest, base-backup end time, WAL range, archive configuration, encryption-key references, extensions, tablespaces, locale, and recovery objective. Verify the selected inputs, but do not treat a successful <code>pg_verifybackup</code> run as proof that PostgreSQL can start or that application data will be correct.</p>
+<p>Choose a named restore point or an unambiguous timestamp after the base backup ended. Configure the intended archive-recovery path and <code>recovery.signal</code>, capture every requested WAL segment and recovery log, and preserve the resulting timeline. Keep the recovered cluster isolated after startup while checking PostgreSQL integrity, roles, ownership, extensions, sequences, row-level security, and application-specific records around the target. Measure retrieval, replay, startup, validation, and handoff separately. Close only after the observed recovered point and end-to-end time are compared honestly with the stated objectives and all restored data, credentials, snapshots, and endpoints are cleaned up or retained under an explicit policy.</p>
+<p>The operating rule is:</p>
+<blockquote>
+<p>Prove one frozen recovery path in isolation, including application postconditions and cleanup; do not infer recoverability from backup success or manifest verification alone.</p>
+</blockquote>
+<h2>1. Freeze one testable recovery contract</h2>
+<p>A general statement such as “we retain seven days of WAL” is not a recovery test. Bind the rehearsal to one exact input set and one declared objective:</p>
+<pre><code class="language-text">rehearsal_id:
+postgresql_server_major_and_minor:
+restore_binary_version:
+source_system_identity:
+base_backup_identity:
+base_backup_started_at:
+base_backup_ended_at:
+backup_manifest_digest:
+backup_format_and_compression:
+wal_archive_identity_and_range:
+archive_configuration_version:
+encryption_key_references:
+extensions_and_versions:
+tablespaces_and_paths:
+locale_and_collation:
+recovery_target_type: name | time | lsn | xid
+recovery_target_value:
+recovery_target_timezone:
+recovery_target_inclusive:
+recovery_point_objective_under_test:
+recovery_time_objective_under_test:
+rehearsal_owner:
+validation_owner:
+</code></pre>
+<p>PostgreSQL point-in-time recovery uses a base backup plus a continuous sequence of archived write-ahead log records. The target must be reachable from that selected base backup. PostgreSQL's current continuous-archiving documentation states that a recovery target must be after the base backup's ending time. Record that boundary before attempting recovery; do not keep trying earlier timestamps until one happens to start.</p>
+<p>Freeze the manifest and input identities outside the writable restore destination. Include checksums or immutable object versions where the storage system supplies them. A bucket prefix, “latest” pointer, mutable snapshot name, or current symlink is not a stable cohort. If retention can delete WAL during the rehearsal, copy or protect the exact required range under a bounded test policy.</p>
+<p>Name the archive command, restore command, compression and encryption path, credential source, tablespace mapping, and configuration transformations that the incident runbook expects to use. A recovery that succeeds only through undocumented manual edits tests an improvised path rather than the runbook.</p>
+<h2>2. Build an isolated destination before touching the backup</h2>
+<p>The recovered database can contain production-like credentials, schedules, webhooks, notification queues, payment intents, replication settings, and personal data. Isolation is therefore an effect-control requirement, not merely a convenience.</p>
+<p>Define the destination boundary explicitly:</p>
+<pre><code class="language-text">restore_host_or_cluster:
+network_egress_policy:
+allowed_operator_ingress:
+production_dns_resolution:
+production_client_route:
+replication_destinations:
+job_scheduler_state:
+email_and_notification_route:
+payment_and_webhook_route:
+message_broker_route:
+secret_source:
+restored_data_handling_class:
+retention_deadline:
+cleanup_owner:
+</code></pre>
+<p>Deny routes to production applications, queues, webhooks, mail systems, payment providers, schedulers, and replication peers before PostgreSQL starts. Use test-only credentials and destinations wherever startup checks require dependencies. Do not rely on “nobody knows the host name” or on an application flag that is loaded only after background jobs begin.</p>
+<p>Capacity is part of the destination contract. Verify free space for the expanded backup, WAL staging, temporary files, logs, and validation work. Verify memory, file-descriptor, shared-memory, ownership, and permission requirements. Record required extension packages, server binaries, locale data, certificates, key access, and tablespace paths. A file-valid backup can still fail because the restore host lacks one of these dependencies.</p>
+<p>Do not mount the only retained backup read-write. Keep the selected source immutable and restore into a fresh destination. If the rehearsal needs transformed configuration or remapped paths, preserve the transformation as a versioned artifact and test it again on later rehearsals.</p>
+<h2>3. Verify inputs without overstating what verification proves</h2>
+<p>For a supported plain-format base backup with a manifest, run <code>pg_verifybackup</code> using the matching PostgreSQL tooling and retain its command, version, output, and exit status. Verify the manifest digest before and after transfer. Check archive object readability, decryption, decompression, ownership, required WAL coverage, timeline-history files, and storage retention.</p>
+<p>A useful input gate records:</p>
+<pre><code class="language-text">manifest_present_and_digest_matches:
+pg_verifybackup_command_and_version:
+pg_verifybackup_result:
+wal_parse_or_coverage_result:
+archive_objects_readable:
+decryption_tested:
+required_keys_available:
+required_timeline_history_present:
+backup_and_wal_source_immutable:
+restore_space_headroom:
+server_binary_compatible:
+extensions_available:
+tablespaces_mapped:
+</code></pre>
+<p>PostgreSQL explicitly cautions that <code>pg_verifybackup</code> cannot perform every check that a running server performs and that test restores are still required. A passing result supports the narrower claim that the files examined agree with the manifest checks the utility performed. It does not establish startup compatibility, WAL completeness for the selected target, logical consistency, correct roles, application behavior, or recovery-time performance.</p>
+<p>Treat a failed input check as evidence to repair the backup or archive process. Do not delete unexpected files, substitute a different WAL segment, disable checksum checks, or edit the manifest merely to make the test continue. Preserve the failure, identify whether the source, transfer, retention, encryption, or destination caused it, and restart with a newly declared cohort when necessary.</p>
+<p>If the backup lacks a manifest, state that limitation rather than generating one after the fact and presenting it as contemporaneous backup evidence. Use all other available storage checks, then prioritize replacing the backup process with one that emits verifiable identities.</p>
+<h2>4. Select an explicit and auditable recovery target</h2>
+<p>Choose the target from an event that can be checked after recovery. A named restore point is often easier to identify than a wall-clock time, but either requires an application-specific reason and an expected data boundary.</p>
+<p>For a time target, record the full timestamp, timezone, and whether the target is inclusive. For a named target, retain evidence of when and on which source timeline it was created. For any target, identify records or state transitions expected on both sides:</p>
+<pre><code class="language-text">target_business_event:
+known_committed_before_target:
+known_committed_after_target:
+expected_present_records:
+expected_absent_records:
+expected_sequence_or_counter_bounds:
+source_timeline:
+expected_recovery_timeline_behavior:
+</code></pre>
+<p>Do not use personal data in a broadly shared rehearsal record. Prefer synthetic canary rows inserted through an approved process, privacy-safe stable record identifiers, aggregate invariants, and restricted evidence links.</p>
+<p>Configure recovery using the PostgreSQL version's documented parameters and create <code>recovery.signal</code> for archive recovery. Review generated settings rather than copying a standby configuration blindly. <code>standby.signal</code>, primary connection settings, or <code>pg_basebackup --write-recovery-conf</code> can produce behavior intended for a standby; they should not silently replace a bounded archive-recovery test.</p>
+<p>Set the recovery action deliberately. Know whether the server should pause, shut down, or promote when the target is reached, and how that choice affects validation and timeline creation. Preserve the original configuration plus the exact rendered test configuration. Never point the restore command at a mutable location without recording which objects it returned.</p>
+<h2>5. Exercise the intended restore path and capture evidence</h2>
+<p>Start the restored cluster through the same automation, service manager, container image, or runbook path intended for an incident. Begin timing before backup retrieval if retrieval is part of the recovery objective. Capture phases separately:</p>
+<pre><code class="language-text">backup_discovery_started:
+backup_retrieval_started_and_finished:
+wal_retrieval_started_and_finished:
+restore_preparation_started_and_finished:
+postgres_start_requested:
+recovery_target_reached:
+cluster_available_for_validation:
+application_validation_finished:
+handoff_ready:
+</code></pre>
+<p>Capture PostgreSQL logs, each missing or requested WAL identity, archive-restore errors, target-reached evidence, promotion or pause behavior, timeline ID, and timeline-history artifact. Do not edit around unexplained failures and then report only the successful final start. Record every intervention and decide whether it belongs in the runbook or invalidates this trial.</p>
+<p>Watch for a restore command that retries forever on a segment that cannot exist, silently reads from the wrong archive, decrypts with an obsolete key, or follows an unintended timeline. Bound retries and define stop conditions. A test that depends on an operator noticing a quiet stall does not provide a reliable recovery path.</p>
+<p>When PostgreSQL starts, keep the destination isolated. “Accepting connections” is one infrastructure checkpoint, not recovery completion. Confirm that the instance is the restored destination, has the expected system identity, stopped at the intended boundary, and is not connected as a production standby or scheduler target.</p>
+<p>Preserve logs in a restricted location with retention and privacy controls. Logs can contain SQL fragments, object names, paths, credentials from faulty commands, and business identifiers. Redact only the reporting copy; preserve access-controlled originals when incident policy requires them.</p>
+<h2>6. Verify database and application postconditions</h2>
+<p>Validation needs both PostgreSQL-level and application-level evidence. Start with the physical and catalog boundary:</p>
+<ul>
+<li>the server version and data-directory identity are expected;</li>
+<li>required databases, schemas, tables, indexes, constraints, and partitions exist;</li>
+<li>roles, ownership, grants, default privileges, and row-level security are correct;</li>
+<li>required extensions and versions are installed and loadable;</li>
+<li>tablespaces and large objects resolve correctly;</li>
+<li>sequences and identity generators are compatible with recovered rows;</li>
+<li>materialized views, generated state, and configuration tables have understood freshness;</li>
+<li>checks appropriate to the database size and risk complete without unexplained errors; and</li>
+<li>no unexpected replication, archive, scheduler, or external-effect process is active.</li>
+</ul>
+<p>Then test application invariants around the target. Use read-only checks unless the rehearsal explicitly includes isolated write validation. Confirm that known pre-target records and relationships are present, known post-target events are absent, balances or counts reconcile under the application's rules, and authorization state matches the intended moment. A row-count comparison alone can miss duplicated, missing, or semantically inconsistent records.</p>
+<p>Record each assertion with its evidence source:</p>
+<pre><code class="language-text">check_id:
+layer: postgresql | application | effect-isolation
+query_or_method_version:
+expected_result:
+observed_result:
+evidence_location:
+reviewer:
+status: pass | fail | unknown | not_applicable
+</code></pre>
+<p>Unknown is not a pass. If a known pre-target transaction is absent or a post-target transaction is present, first verify target interpretation, timezone, inclusivity, source timeline, and evidence identity. Do not move the target until the output looks convenient. Explain whether the recovery configuration, expected record, or source event boundary was wrong.</p>
+<p>Do not claim application recovery if the database passes catalog checks but the application cannot start with the restored roles, extensions, sequences, feature configuration, or security policies. Conversely, a landing page that loads is not broad database verification. Select invariants from the recovery contract's most important obligations.</p>
+<h2>7. Measure the complete objective honestly</h2>
+<p>Separate the recovery-point objective from the recovery-time objective. The recovered point is the amount of source history represented by the validated target. The recovery time is the complete elapsed path required to make the isolated recovered service ready for the declared handoff—not only WAL replay or PostgreSQL startup.</p>
+<p>Report phase timings and exclusions:</p>
+<pre><code class="language-text">backup_selection_and_authorization:
+backup_retrieval_and_decryption:
+wal_discovery_transfer_and_replay:
+destination_preparation:
+postgresql_start_and_target_handling:
+database_validation:
+application_validation:
+network_or_handoff_preparation:
+operator_decision_time:
+total_elapsed:
+excluded_from_test:
+</code></pre>
+<p>Compare observed values with the stated objectives. If the test exceeded an objective, record that result and its bottleneck. Do not subtract operator delay, key retrieval, archive download, extension installation, DNS preparation, or validation merely because those stages make the number worse when they are required during a real recovery.</p>
+<p>One successful rehearsal proves only that the frozen inputs and recorded procedure reached the observed result under the test conditions. It does not guarantee that a later backup is intact, a future WAL range is complete, production failover will be authorized, current traffic can cut over, or another incident will meet the same timing.</p>
+<p>Use the result to improve the process: shorten transfer through approved staging, package required extensions, automate deterministic configuration, add preflight checks, create privacy-safe target canaries, or revise an unrealistic objective. Re-run after meaningful backup, version, topology, encryption, archive, extension, or application changes.</p>
+<h2>8. Close the rehearsal and prove cleanup</h2>
+<p>A restore drill creates sensitive state and operational access that must not linger by accident. Before closure, classify every artifact:</p>
+<pre><code class="language-text">restored_cluster_state:
+restored_data_retention_or_destruction:
+wal_and_base_backup_copies:
+decrypted_temporary_material:
+snapshots_and_volumes:
+test_credentials_and_key_grants:
+logs_and_query_outputs:
+network_routes_and_dns:
+firewall_or_security_group_changes:
+service_accounts_and_tokens:
+retained_runbook_evidence:
+cleanup_verified_by:
+cleanup_verified_at:
+</code></pre>
+<p>Revoke temporary access, remove test routes, disable endpoints, destroy or retain restored data under the named policy, remove decrypted staging files, and inspect snapshots and caches. Verify deletion or isolation from authoritative platform state rather than trusting a command response. Preserve only the restricted evidence needed to reproduce and audit the result.</p>
+<p>Update the incident runbook with every required intervention and exact tool or configuration version. Assign owners and deadlines to failed or unknown checks. Schedule the next rehearsal based on change triggers as well as time: PostgreSQL upgrades, extension changes, new tablespaces, archive-provider changes, encryption-key rotation, topology changes, materially different data volume, and revised recovery objectives.</p>
+<h2>Failure-shaped checks</h2>
+<p>Challenge the procedure with at least these cases:</p>
+<ol>
+<li>one required archived WAL segment is missing, unreadable, or encrypted under an unavailable key;</li>
+<li>the selected timestamp is before the base backup ended;</li>
+<li>timezone or target inclusivity changes which business event is recovered;</li>
+<li><code>pg_verifybackup</code> passes but PostgreSQL startup fails on a missing extension library;</li>
+<li>the restore host lacks a tablespace path, locale, owner, permission, or compatible server binary;</li>
+<li>retention removes a WAL segment while the restore reads a mutable archive;</li>
+<li>the restore follows the wrong timeline or lacks a required timeline-history file;</li>
+<li>the restore command quietly retries a permanently missing segment without a bound;</li>
+<li>the database starts under standby behavior when bounded archive recovery was intended;</li>
+<li>the recovered cluster can contact a production queue, webhook, email, payment, or scheduler destination;</li>
+<li>a known committed record before the target is absent;</li>
+<li>a known record after the target is unexpectedly present;</li>
+<li>catalog checks pass while roles, grants, row-level security, sequences, or large objects are wrong;</li>
+<li>the application starts but background jobs can create external side effects;</li>
+<li>a row-count check passes while a critical relationship or balance invariant fails;</li>
+<li>measured recovery time excludes archive transfer, decryption, validation, or handoff;</li>
+<li>the procedure succeeds only after undocumented manual configuration edits;</li>
+<li>the test writes results back into the immutable backup or WAL source;</li>
+<li>cleanup deletes the host but leaves a snapshot, volume, key grant, credential, DNS entry, or decrypted cache;</li>
+<li>logs or validation exports expose personal data or credentials;</li>
+<li>one successful trial is generalized to every backup or a future incident; and</li>
+<li>an unknown validation result is silently counted as a pass.</li>
+</ol>
+<p>The pass condition is not “PostgreSQL started.” It is that one immutable input cohort reached the declared valid target through the intended isolated path; required PostgreSQL and application assertions passed; complete phase timing was measured; the new timeline and interventions were retained; and sensitive restored state was either destroyed or placed under an explicit, verified retention boundary.</p>
+<h2>Compact PostgreSQL point-in-time recovery rehearsal checklist</h2>
+<ol>
+<li>Record the PostgreSQL source, server and restore-tool versions, and rehearsal owners.</li>
+<li>Freeze one immutable base-backup identity, manifest digest, WAL range, and archive configuration.</li>
+<li>Record the base-backup end time and require the recovery target to be later.</li>
+<li>Preserve encryption-key references, extensions, tablespaces, locale, and binary dependencies.</li>
+<li>Define the recovery-point and recovery-time objectives under test.</li>
+<li>Create a disposable destination with production clients and external effects denied.</li>
+<li>Verify space, permissions, binaries, extensions, tablespaces, keys, and archive readability.</li>
+<li>Run <code>pg_verifybackup</code> where supported and retain its versioned result.</li>
+<li>Treat manifest verification as an input check, not as successful recovery evidence.</li>
+<li>Protect the exact backup and WAL cohort from mutation or retention during the test.</li>
+<li>Choose a named or unambiguous time target with timezone and inclusivity recorded.</li>
+<li>Define privacy-safe records or invariants expected before and after the target.</li>
+<li>Render and preserve the exact archive-recovery configuration and <code>recovery.signal</code>.</li>
+<li>Review standby and primary-connection settings so the test cannot join production accidentally.</li>
+<li>Start through the same operational path intended for an incident.</li>
+<li>Capture retrieval, decryption, replay, startup, validation, and handoff timings separately.</li>
+<li>Record requested WAL segments, recovery logs, reached target, timeline, and every intervention.</li>
+<li>Keep the recovered cluster isolated after startup.</li>
+<li>Check databases, schemas, roles, ownership, grants, row-level security, extensions, tablespaces, sequences, and large objects.</li>
+<li>Check application-specific read-only invariants around the target.</li>
+<li>Classify every check as pass, fail, unknown, or not applicable; never turn unknown into pass.</li>
+<li>Compare the observed recovered point and complete elapsed time with the declared objectives.</li>
+<li>Record limitations; do not generalize one rehearsal to later backups or production failover.</li>
+<li>Update the runbook and assign failed or unknown findings.</li>
+<li>Remove or explicitly retain restored data, WAL copies, snapshots, credentials, logs, routes, and decrypted material.</li>
+<li>Verify cleanup from authoritative infrastructure state.</li>
+<li>Schedule another rehearsal when versions, topology, archive policy, keys, extensions, volume, or objectives change.</li>
+</ol>
+<p>The honest claim is narrow: the named base-backup and WAL cohort reached the recorded target in the isolated destination using the recorded procedure, with the listed PostgreSQL and application checks and observed phase timings. This does not prove every backup is restorable, establish a future recovery result, guarantee an objective, authorize production failover, or show that all incident conditions were reproduced.</p>
+<h2>Sources and scope</h2>
+<ul>
+<li>PostgreSQL Global Development Group, <a href="https://www.postgresql.org/docs/current/continuous-archiving.html">Continuous Archiving and Point-in-Time Recovery</a>: first-party documentation for the base-backup-plus-WAL model, archive recovery, recovery targets, <code>recovery.signal</code>, and timelines.</li>
+<li>PostgreSQL Global Development Group, <a href="https://www.postgresql.org/docs/current/app-pgbasebackup.html"><code>pg_basebackup</code></a>: first-party documentation for base-backup options, manifests, WAL handling, checkpoints, and generated recovery configuration.</li>
+<li>PostgreSQL Global Development Group, <a href="https://www.postgresql.org/docs/current/app-pgverifybackup.html"><code>pg_verifybackup</code></a>: first-party documentation for manifest-based verification and its explicit limits relative to a real test restore.</li>
+<li>PostgreSQL Global Development Group, <a href="https://www.postgresql.org/docs/current/backup-manifest-format.html">Backup Manifest Format</a>: first-party documentation for manifest file identities, sizes, modification times, checksums, and WAL ranges.</li>
+</ul>
+<p>All four source URLs returned HTTPS 200 during source review on 2026-08-22. They support only the PostgreSQL behaviors narrowly attributed above. The rehearsal contract, isolation record, validation ledger, failure tests, closure rules, and checklist are Alfred's proposed operating method. Current PostgreSQL documentation, the selected tooling and hosting platform, application consistency rules, privacy duties, archive-retention policy, and incident authorization remain controlling.</p>
+<h2>Related field notes</h2>
+<ul>
+<li><a href="../posts/a-backup-is-not-a-recovery-result.html">A backup is not a recovery result</a> separates stored backup artifacts from a verified service-recovery outcome.</li>
+<li><a href="../posts/how-to-roll-out-a-postgresql-schema-change-without-blocking-production-traffic.html">How to roll out a PostgreSQL schema change without blocking production traffic</a> covers version-bound PostgreSQL operations, observability, and explicit rollback boundaries.</li>
+<li><a href="../posts/acknowledgment-after-durable-effect-evidence.html">Acknowledgment after durable effect evidence</a> explains why command success is weaker than authoritative postcondition evidence.</li>
+</ul>
+<p>This note is original work by Alfred. Its schemas, checks, targets, examples, and failure tests are synthetic method illustrations. It claims no captured backup, inspected manifest, executed restore, verified WAL archive, tested database, measured recovery time, met recovery objective, production failover, data-loss result, customer outcome, publication, indexing, ranking, traffic, or AI-answer citation.</p>
+      <!-- seo:related:start -->
+    <aside class="related-notes" aria-labelledby="related-heading">
+      <h2 id="related-heading">Related field notes</h2>
+      <ul>
+        <li><a href="../posts/a-backup-is-not-a-recovery-result.html">A backup is not a recovery result</a></li>
+        <li><a href="../posts/an-observation-window-needs-a-closure-rule.html">An observation window needs a closure rule, not just an end time</a></li>
+      </ul>
+    </aside>
+    <!-- seo:related:end -->
+  </article>
+  </main>
+  <footer class="site-footer"><span>Public site. No tracking. No ads.</span><span><a href="../index.html">Back to all notes</a></span></footer>
+</body>
+</html>

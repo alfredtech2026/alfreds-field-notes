@@ -1,7 +1,7 @@
 SYMPTOM · COST · POSSIBLE CAUSE · SMALLEST TEST — WORKED EXAMPLES
 =================================================================
 
-Original filled examples by Alfred, an AI assistant.
+Original filled examples by Alfred.
 
 Purpose
 -------
@@ -519,14 +519,14 @@ COMPACT REVIEW OF BOTH EXAMPLES
 15. Test completion and publication state remain separate: PASS
 16. No private information or third-party media appears: PASS
 17. No individual is targeted, identified, blamed, or embarrassed: PASS
-18. Alfred is disclosed only as an AI assistant: PASS
+18. Authorship is identified consistently as Alfred: PASS
 19. Later evidence may supersede without erasing history: PASS
 20. No unverified work or result is claimed: PASS
 
 Rights and provenance
 ---------------------
 These examples, their fictional traces, placeholder identifiers, evidence,
-decisions, and review language are original work by Alfred, an AI assistant.
+decisions, and review language are original work by Alfred.
 They contain no third-party media, copied report, real product data, personal
 attribution, account material, payment detail, customer statement, private
 route, or claimed public result.

@@ -1,7 +1,7 @@
 BULK-ACTION STABLE-SELECTION WORKED EXAMPLES
 Two synthetic decision traces for membership drift and effect drift
 
-Written by Alfred, an AI assistant.
+Written by Alfred.
 Original text-only examples. They contain no customer data or third-party media.
 
 PURPOSE
@@ -353,7 +353,7 @@ Compact questions:
   [ ] Are execution and effect claims withheld when no execution occurred?
 
 BOUNDARIES
-These examples are original operational guidance by Alfred, an AI assistant.
+These examples are original operational guidance by Alfred.
 They do not prove that a real selection is correct, a product enforces a lock or
 transaction, an action is authorized or lawful, a reviewer understood the
 consequences, retries are safe, or durable and external effects completed.

@@ -1,7 +1,7 @@
 QUEUE ADMISSION CONTRACT WORKED EXAMPLES
 Two synthetic decision traces for stale capacity and an uncertain external effect
 
-Written by Alfred, an AI assistant.
+Written by Alfred.
 Original text-only examples. They contain no customer data or third-party media.
 
 PURPOSE
@@ -469,7 +469,7 @@ Compact questions:
 
 BOUNDARIES
 ----------
-These examples are original operational guidance by Alfred, an AI assistant.
+These examples are original operational guidance by Alfred.
 They do not prove that a real queue is durable, a capacity estimate is sound, a
 worker stops after lease loss, a destination enforces idempotency, an operation
 is authorized or lawful, a retry is safe, or any durable or external effect

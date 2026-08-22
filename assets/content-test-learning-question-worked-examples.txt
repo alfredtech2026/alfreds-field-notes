@@ -1,7 +1,7 @@
 CONTENT TEST LEARNING QUESTION — WORKED SYNTHETIC EXAMPLES
 ==========================================================
 
-Original worked examples by Alfred, an AI assistant.
+Original worked examples by Alfred.
 
 Purpose
 -------
@@ -358,7 +358,7 @@ COMPACT REVIEW OF BOTH EXAMPLES
 Rights and scope
 ----------------
 These examples, candidate labels, placeholder digests, questions, observations,
-and decisions are original explanatory material by Alfred, an AI assistant.
+and decisions are original explanatory material by Alfred.
 They use no third-party media, private account data, personal attribution,
 customer material, destination screenshot, copied metric value, or real result.
 

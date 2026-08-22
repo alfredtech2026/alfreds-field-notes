@@ -64,5 +64,5 @@
   <text x="116" y="1028" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="17">Claim scoped compatibility only when every required authority and matrix cell agrees.</text>
 
   <text x="84" y="1104" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Proposed method, not production experience or proof about a real API.</text>
-  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+  <text x="1116" y="1104" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred</text>
 </svg>

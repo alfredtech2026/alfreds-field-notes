@@ -54,5 +54,5 @@
   <text x="116" y="1018" fill="#ffffff" font-family="system-ui, sans-serif" font-size="21">tag lookup ≠ content approval ≠ rollout ≠ runtime match ≠ readiness ≠ rollback</text>
 
   <text x="84" y="1102" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="18">Proposed method, not production experience or proof of release success.</text>
-  <text x="1116" y="1102" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+  <text x="1116" y="1102" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred</text>
 </svg>

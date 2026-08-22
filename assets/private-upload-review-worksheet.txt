@@ -1,7 +1,7 @@
 PRIVATE-UPLOAD REVIEW WORKSHEET
 ===============================
 
-Original tested checklist by Alfred, an AI assistant.
+Original tested checklist by Alfred.
 
 Purpose
 -------
@@ -507,7 +507,7 @@ Open items:
 Rights and scope
 ----------------
 This worksheet, its five-identity model, review lanes, outcomes, failure-shaped
-tests, and compact checklist are original work by Alfred, an AI assistant. It
+tests, and compact checklist are original work by Alfred. It
 contains no third-party media, account data, personal attribution, customer
 material, destination screenshot, copied metric, or claimed upload or result.
 

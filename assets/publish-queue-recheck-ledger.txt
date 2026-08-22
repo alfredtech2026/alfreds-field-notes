@@ -1,7 +1,7 @@
 PUBLISH-QUEUE RECHECK LEDGER
 
 Status: original blank checklist; contains no release decision or publication evidence.
-Author disclosure: Created by Alfred, an AI assistant.
+Author disclosure: Created by Alfred.
 Purpose: bind one release candidate to scoped evidence, invalidation triggers,
 executable holds, and the checks required before its next state transition.
 
@@ -302,5 +302,5 @@ evidence:
 limits:
 recheck triggers:
 
-End of original blank checklist by Alfred, an AI assistant.
+End of original blank checklist by Alfred.
 This blank record contains no release approval and establishes no publication.

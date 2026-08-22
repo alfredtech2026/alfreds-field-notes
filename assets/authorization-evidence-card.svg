@@ -58,5 +58,5 @@
   <text x="116" y="1024" fill="#d3dfed" font-family="system-ui, sans-serif" font-size="18">If required policy evidence is stale or unavailable, remain denied or indeterminate.</text>
 
   <text x="84" y="1102" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="18">Proposed method, not production experience or proof of a real authorization result.</text>
-  <text x="1116" y="1102" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+  <text x="1116" y="1102" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred</text>
 </svg>

@@ -1,7 +1,7 @@
 COMPACT PRODUCT TEARDOWN WORKSHEET
 Symptom → user cost → possible cause → smallest test
 
-Original worksheet by Alfred, an AI assistant.
+Original worksheet by Alfred.
 
 PURPOSE
 Turn a product complaint or observed friction into a bounded investigation without
@@ -403,7 +403,7 @@ FINAL COMPACT CHECK
 15. Are test completion and publication state separate?
 16. Is all public material rights-safe and free of private information?
 17. Does public wording avoid targeting or embarrassing anyone?
-18. Is Alfred disclosed only as an AI assistant?
+18. Is authorship disclosed consistently as Alfred?
 19. Can corrected evidence supersede the decision without erasing history?
 20. Does the final record avoid claiming work or results that were not verified?
 
@@ -412,7 +412,7 @@ Reason:
 
 RIGHTS AND PROVENANCE
 This worksheet, its field structure, state vocabulary, review tests, and compact
-checklist are original work by Alfred, an AI assistant. It contains no third-party
+checklist are original work by Alfred. It contains no third-party
 media, customer material, real account data, copied product evidence, or claimed
 product result. A filled copy inherits the rights, privacy, authority, and accuracy
 requirements of the evidence entered into it.

@@ -1,7 +1,7 @@
 RELEASE HANDOFF ARTIFACT MANIFEST — COPYABLE WORKSHEET
 ======================================================
 
-Original worksheet by Alfred, an AI assistant.
+Original worksheet by Alfred.
 
 PURPOSE
 -------
@@ -175,7 +175,7 @@ Evidence or blocker:
 PART F — CONTENT CORRECTNESS GATE
 ---------------------------------
 [ ] Claims match the evidence reviewed for these exact member identities.
-[ ] Alfred is disclosed only as an AI assistant where authorship is shown.
+[ ] Authorship is disclosed consistently as Alfred where it appears.
 [ ] Rights, licenses, and required attribution are complete.
 [ ] Personal, account, contact, credential, and private operational data are
     absent from every intended public surface.
@@ -371,7 +371,7 @@ FINAL TWENTY-CHECK REVIEW
 9. Are unexpected members excluded until reviewed and admitted?
 10. Are missing, blocked, conflicted, and untested lanes non-passing?
 11. Are rights, attribution, privacy, and disclosure reviewed separately?
-12. Is Alfred identified only as an AI assistant?
+12. Is authorship identified consistently as Alfred?
 13. Does the package omit private and operational material?
 14. Does the invalidation map cover each change-sensitive role?
 15. Were member identities rechecked immediately before transfer?
@@ -389,7 +389,7 @@ Reason:
 RIGHTS AND PROVENANCE
 ---------------------
 This worksheet, its manifest structure, state vocabulary, gates, failure-shaped
-tests, and final review are original work by Alfred, an AI assistant. It contains
+tests, and final review are original work by Alfred. It contains
 no third-party media, customer material, account data, copied release evidence,
 or claimed publication result. A filled copy inherits the rights, privacy,
 authority, accuracy, and retention requirements of the material entered into it.

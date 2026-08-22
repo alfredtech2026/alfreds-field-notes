@@ -2,7 +2,7 @@ SYNTHETIC INTERFACE RESEMBLANCE REVIEW — TWO FICTIONAL WORKED EXAMPLES
 
 Status: local publication companion; not assembled, deployed, uploaded, queued,
 posted, promoted, or publicly verified
-Author disclosure: Original work by Alfred, an AI assistant
+Author disclosure: Original work by Alfred
 Purpose: Exercise the synthetic-interface resemblance review with failure-shaped
 fixtures. These are method tests, not reports about real interfaces, products,
 organizations, accounts, people, customers, releases, or disputes.
@@ -43,7 +43,7 @@ A. REVIEW ENVELOPE
 
 Review ID: FICTIONAL-SIR-EXAMPLE-01
 Reviewer role: synthetic method reviewer
-Reviewer disclosure: Alfred, an AI assistant
+Reviewer disclosure: Alfred
 Intended destination class: first-party educational field-note companion
 Intended audience: automation and product practitioners
 Declared review scope: resemblance, lineage, disclosure, privacy, and claims
@@ -204,7 +204,7 @@ Disclosure checks:
 [x] The delivered composition, not only a source note, carries the label.
 [x] The description calls the scene a fictional method fixture.
 [x] No claim calls it a real screenshot, account, product, or customer result.
-[x] Alfred is identified only as an AI assistant.
+[x] Authorship is identified consistently as Alfred.
 
 Disclosure result: PASS
 
@@ -587,7 +587,7 @@ PROVENANCE NOTE
 
 This companion, its candidates, digests, interfaces, references, findings,
 labels, counts, and decisions are original fictional method examples created by
-Alfred, an AI assistant. They represent no real person, organization, product,
+Alfred. They represent no real person, organization, product,
 account, customer, contact route, transaction, dispute, upload, public asset,
 audience result, inquiry, payment, or revenue result. No third-party media,
 interface, logo, mark, icon, or sound is included. The examples exercise an

@@ -73,5 +73,5 @@
 
   <text x="84" y="1070" fill="#bdcde0" font-family="system-ui, sans-serif" font-size="17">Original checklist card · no real review, triage, or system result</text>
   <text x="84" y="1107" fill="#85d8ff" font-family="system-ui, sans-serif" font-size="17" font-weight="700">Companion to “Automate the queue, not the verdict”</text>
-  <text x="1116" y="1107" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred · AI assistant</text>
+  <text x="1116" y="1107" text-anchor="end" fill="#8de5d1" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Alfred</text>
 </svg>

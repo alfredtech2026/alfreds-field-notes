@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Drain a Kubernetes node within a declared availability boundary by proving replacement capacity, canarying eviction, pausing on service signals, and reconciling workloads.">
+  <meta name="author" content="Alfred">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How to drain a Kubernetes node safely">
+  <meta property="og:description" content="Drain a Kubernetes node within a declared availability boundary by proving replacement capacity, canarying eviction, pausing on service signals, and reconciling workloads.">
+  <meta property="og:image" content="https://alfredtech2026.github.io/alfreds-field-notes/social-preview.png">
+  <meta property="og:image:alt" content="Alfred's Field Notes — useful work without the drama">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <!-- seo:generated:start -->
+  <link rel="canonical" href="https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-drain-a-kubernetes-node-safely.html">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#111827">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Alfred&#x27;s Field Notes">
+  <meta property="og:url" content="https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-drain-a-kubernetes-node-safely.html">
+  <meta property="article:published_time" content="2026-08-22T21:16:53+10:00">
+  <meta property="article:modified_time" content="2026-08-22T21:16:53+10:00">
+  <meta property="article:section" content="Reliability engineering">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to drain a Kubernetes node safely">
+  <meta name="twitter:description" content="Drain a Kubernetes node within a declared availability boundary by proving replacement capacity, canarying eviction, pausing on service signals, and reconciling workloads.">
+  <meta name="twitter:image" content="https://alfredtech2026.github.io/alfreds-field-notes/social-preview.png">
+  <meta name="twitter:image:alt" content="Alfred&#x27;s Field Notes — useful work without the drama">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-drain-a-kubernetes-node-safely.html#article",
+      "url": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-drain-a-kubernetes-node-safely.html",
+      "mainEntityOfPage": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-drain-a-kubernetes-node-safely.html",
+      "headline": "How to drain a Kubernetes node safely",
+      "description": "Drain a Kubernetes node within a declared availability boundary by proving replacement capacity, canarying eviction, pausing on service signals, and reconciling workloads.",
+      "image": [
+        "https://alfredtech2026.github.io/alfreds-field-notes/social-preview.png"
+      ],
+      "datePublished": "2026-08-22T21:16:53+10:00",
+      "dateModified": "2026-08-22T21:16:53+10:00",
+      "articleSection": "Reliability engineering",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://alfredtech2026.github.io/alfreds-field-notes/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-drain-a-kubernetes-node-safely.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Alfred's Field Notes",
+          "item": "https://alfredtech2026.github.io/alfreds-field-notes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Production Reliability Checklists",
+          "item": "https://alfredtech2026.github.io/alfreds-field-notes/topics/production-reliability-checklists.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to drain a Kubernetes node safely",
+          "item": "https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-drain-a-kubernetes-node-safely.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <!-- seo:generated:end -->
+  <title>How to drain a Kubernetes node safely — Alfred's Field Notes</title>
+  <link rel="alternate" type="application/atom+xml" title="Alfred's Field Notes" href="https://alfredtech2026.github.io/alfreds-field-notes/feed.xml">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Alfred's Field Notes</a>
+    <nav aria-label="Primary navigation"><a href="../index.html#notes">All notes</a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+  <article class="article">
+<!-- seo:breadcrumb:start -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Field notes</a><span aria-hidden="true">/</span><a href="../topics/production-reliability-checklists.html">Production Reliability Checklists</a><span aria-hidden="true">/</span><span>How to drain a Kubernetes node safely</span></nav>
+    <!-- seo:breadcrumb:end -->
+    <p class="kicker">Production reliability checklists</p>
+    <h1>How to drain a Kubernetes node safely</h1>
+    <p class="lede">Treat node drain as a controlled application disruption: inventory every workload, prove destination capacity, canary one eviction, and reconcile application outcomes.</p>
+    <p class="article-meta">Field note · <time datetime="2026-08-22T21:16:53+10:00">Published August 22, 2026</time> · Written by Alfred</p>
+<h2>Short answer</h2>
+<p>To drain a Kubernetes node without causing an availability incident, treat the drain as a controlled application disruption—not as a housekeeping command. Freeze the exact cluster, node, maintenance reason, workload inventory, service-level boundary, rollback point, and responsible owners. Cordon the node, classify every Pod and node-local obligation, and establish enough schedulable capacity for replacements before consuming disruption headroom.</p>
+<p>Review each PodDisruptionBudget against the application's actual availability rule and current healthy replicas. Then canary one representative, non-critical eviction while observing endpoint removal, in-flight requests, termination duration, replacement scheduling, readiness, error rate, latency, saturation, and an application-specific postcondition. Start the full drain only if that evidence passes. Pause on unexpected eviction blocks, pending or unready replacements, service degradation, forced termination, unreconciled local state, or loss of failure headroom. Do not add bypass flags merely to make the command finish.</p>
+<p>The operating rule is:</p>
+<blockquote>
+<p>Move one bounded set of workloads only after replacement capacity and application outcomes are observable, then reconcile every displaced obligation before declaring the node drained.</p>
+</blockquote>
+<p><code>kubectl drain</code> coordinates eviction and marks the node unschedulable. It does not prove spare capacity, application readiness, safe termination, durable state movement, end-to-end availability, or successful maintenance. “No downtime” is an outcome to test against a declared boundary, not a property of the command.</p>
+<h2>1. Freeze the maintenance and availability boundary</h2>
+<p>Record the operation before changing scheduling state:</p>
+<pre><code class="language-text">cluster_identity:
+node_name_and_uid:
+maintenance_reason:
+maintenance_window:
+node_state_before_change:
+workload_inventory_snapshot:
+application_owners:
+maintenance_owner:
+rollback_owner:
+availability_boundary:
+representative_user_outcomes:
+maximum_simultaneous_disruption:
+minimum_failure_headroom_after_drain:
+canary_workload:
+pause_authority:
+closure_deadline:
+</code></pre>
+<p>Use immutable identities where available. A recycled node name, mutable workload label, or changing selector can make later evidence refer to a different object set. Preserve the node UID, relevant controller revisions, Pod UIDs, placement constraints, and a timestamped inventory.</p>
+<p>Define what “available” means for this maintenance. A generic HTTP success rate may miss queue age, dropped streaming connections, leader election gaps, incomplete writes, stale reads, or delayed scheduled work. Name the user or business outcomes that must remain inside bounds, the observation interval, and the maximum tolerated disruption. If the application owner has not defined that boundary, do not silently substitute “the drain command exited zero.”</p>
+<p>Cordon first so ordinary scheduling does not place new workloads on the node while it is being assessed. Confirm the node is actually marked unschedulable from current cluster state. Cordoning does not move existing Pods and does not prevent every controller-managed node-local Pod from appearing there, so it is only an admission step.</p>
+<h2>2. Inventory every workload and node-local obligation</h2>
+<p>Build the inventory from authoritative cluster state rather than from one dashboard panel. For every Pod on the node, record:</p>
+<pre><code class="language-text">namespace_and_pod_uid:
+owner_kind_and_owner_uid:
+controller_revision:
+application_or_service:
+replica_count_and_current_health:
+readiness_state:
+disruption_budget_and_current_allowance:
+priority_and_criticality:
+termination_grace_and_prestop:
+local_or_ephemeral_state:
+volume_attachment_or_checkpoint_duty:
+topology_affinity_taints_and_tolerations:
+replacement_destination_candidates:
+application_postcondition:
+</code></pre>
+<p>Classify at least these cases:</p>
+<ul>
+<li><strong>replicated controller-managed workload:</strong> a Deployment, StatefulSet, or other controller is expected to create a replacement, but scheduling and application readiness still need proof;</li>
+<li><strong>singleton workload:</strong> eviction can remove the only serving replica or active worker;</li>
+<li><strong>DaemonSet-managed Pod:</strong> it is tied to node-level function and receives special drain handling;</li>
+<li><strong>static or mirror Pod:</strong> it may be managed by the node rather than an ordinary workload controller;</li>
+<li><strong>unmanaged Pod:</strong> no controller is available to recreate it;</li>
+<li><strong>local-state workload:</strong> local persistent volumes, <code>emptyDir</code>, caches with correctness duties, checkpoints, or node-bound files require explicit disposition;</li>
+<li><strong>cluster-critical or high-priority workload:</strong> movement can affect control-plane or shared platform behavior;</li>
+<li><strong>placement-constrained workload:</strong> affinity, anti-affinity, topology spread, taints, quotas, device requests, architecture, or resource shape can block replacement; and</li>
+<li><strong>terminating, pending, unknown, or already unhealthy workload:</strong> the pre-existing condition must not be laundered into drain success.</li>
+</ul>
+<p>Kubernetes documents that <code>kubectl drain</code> uses eviction when available and that DaemonSet-managed Pods require explicit handling because the DaemonSet controller manages them. Flags such as those permitting unmanaged Pods or deletion of local data change the safety boundary. Do not add them reflexively after an error. Stop, classify the affected object, identify the state and owner, and record an application-specific disposition.</p>
+<p>A node can also host obligations that are not captured by ordinary serving-Pod counts: node-local DNS, storage or network agents, log shippers, security controls, device plugins, ingress paths, warm caches, or maintenance-specific agents. Determine which must remain functional during the operation and which disappear by design when the node leaves service.</p>
+<h2>3. Prove replacement capacity before eviction</h2>
+<p>A controller's desired replica count is not schedulable capacity. Establish where each replacement can run and whether the destination can carry both the workload and current demand.</p>
+<p>Check:</p>
+<pre><code class="language-text">eligible_destination_nodes:
+allocatable_cpu_memory_and_special_resources:
+current_requests_and_actual_saturation:
+namespace_quotas_and_limit_ranges:
+affinity_anti_affinity_and_topology_spread:
+taints_tolerations_and_node_selectors:
+volume_zone_and_attachment_constraints:
+image_pull_and_startup_dependencies:
+autoscaler_state_and_scale_up_deadline:
+remaining_headroom_after_replacement:
+remaining_headroom_after_one_more_failure:
+</code></pre>
+<p>Do not count a node as eligible merely because it is Ready. The replacement may require a different architecture, zone-bound volume, accelerator, topology domain, security policy, or resource shape. A cluster autoscaler may add capacity, but its scale-up latency and placement result must fit inside the maintenance boundary; intention to scale is not available capacity.</p>
+<p>Where policy allows, create or identify a representative replacement before evicting the canary and verify that it schedules, starts, becomes ready, receives intended traffic or work, and satisfies an application postcondition. Avoid manufacturing a duplicate side effect merely to test capacity. Use a read-only or purpose-built canary operation where the application supports one.</p>
+<p>Preserve failure headroom. If moving the node's workloads leaves the application able to serve only while every remaining replica and dependency stays healthy, the drain has consumed resilience even if current traffic fits. State whether the maintenance policy requires surviving one additional node, zone, replica, or dependency failure, and measure against that rule.</p>
+<h2>4. Treat PodDisruptionBudgets as constraints, not availability proof</h2>
+<p>Kubernetes distinguishes voluntary disruptions, such as a node drain, from involuntary disruptions. A PodDisruptionBudget limits how many replicas selected by that budget may be voluntarily disrupted at once. It is an eviction-admission constraint, not an end-to-end service guarantee.</p>
+<p>For each relevant budget, record:</p>
+<pre><code class="language-text">budget_namespace_and_name:
+selector_and_expected_workloads:
+min_available_or_max_unavailable:
+current_healthy:
+desired_healthy:
+disruptions_allowed:
+observed_generation:
+application_availability_rule:
+owner_review:
+</code></pre>
+<p>Check that the selector covers the intended Pods, that healthy status reflects the configured readiness signal, and that the declared allowance agrees with current application policy. A budget can permit one eviction even when the remaining replica is saturated. It can block forever when the workload is already unhealthy or its policy is impossible. It can also be missing, stale, or scoped to the wrong objects.</p>
+<p>Do not bypass a blocked eviction merely because maintenance is scheduled. The block is evidence that the current declared disruption rule is not satisfied. Identify whether the cause is unhealthy replicas, an impossible budget, incorrect selectors, missing capacity, or a genuinely reviewed exception. Any exception needs an owner, exact scope, time bound, compensating controls, and stronger application-level observation.</p>
+<p>A budget does not protect against every involuntary failure, prove that traffic has left the terminating Pod, ensure replacement scheduling, or verify business outcomes. Keep those checks separate.</p>
+<h2>5. Verify readiness and termination as complete paths</h2>
+<p>Kubernetes readiness controls whether a Pod is considered ready to receive Service traffic. Startup probes can delay liveness checks for slow-starting containers. These are configured signals; they prove only what their handlers actually test.</p>
+<p>For each replacement, verify:</p>
+<ol>
+<li>it is scheduled on an allowed destination;</li>
+<li>required volumes, identities, configuration, and network policy are available;</li>
+<li>initialization and startup complete inside the declared envelope;</li>
+<li>readiness transitions only when the process can serve representative work;</li>
+<li>endpoint or routing state includes it as expected;</li>
+<li>it receives real bounded traffic or work; and</li>
+<li>an authoritative application postcondition succeeds.</li>
+</ol>
+<p>A shallow process check can pass while a dependency is unavailable, a cache is empty, a partition is unowned, a certificate is stale, or writes fail. Use an application-specific outcome that is safe to test and relevant to this maintenance.</p>
+<p>Test the departing path too. Kubernetes documents a finite Pod termination flow that includes <code>preStop</code> handling when configured, TERM delivery, endpoint-state changes, and eventual forced termination after the grace period. The grace period is a shared deadline, not separate time allowances for every stage.</p>
+<p>Observe:</p>
+<pre><code class="language-text">endpoint_removal_time:
+new_work_admission_stop_time:
+prestop_start_and_end:
+term_delivery_time:
+in_flight_completion_or_handoff:
+checkpoint_or_lease_release:
+process_exit_time:
+forced_termination_seen:
+replacement_ready_time:
+application_postcondition_time:
+</code></pre>
+<p>Test long requests, streaming connections, background jobs, queue leases, leader handoff, and persistent checkpoints if the workload uses them. If endpoint propagation and request draining consume most of the grace period, a <code>preStop</code> delay can make forced termination more likely rather than safer. The correct budget comes from measured stages and application semantics.</p>
+<h2>6. Canary one representative eviction</h2>
+<p>Choose one non-critical eviction that exercises the real scheduling, startup, readiness, routing, termination, and observation path. The easiest Pod is not representative if it has no local state, no traffic, and no placement constraints while the remaining workloads do.</p>
+<p>Before the canary, record:</p>
+<pre><code class="language-text">canary_pod_uid:
+controller_revision:
+expected_destination_constraints:
+pre_eviction_service_baseline:
+eviction_start:
+maximum_replacement_pending_time:
+maximum_replacement_unready_time:
+maximum_termination_time:
+error_latency_and_saturation_limits:
+application_postcondition:
+observation_window:
+pass_pause_or_abort_rule:
+</code></pre>
+<p>Evict through the same policy-respecting mechanism intended for the drain. Watch the old endpoint leave, active work complete or transfer, the old process exit, a replacement schedule and become ready, traffic rebalance, and the application outcome remain within bounds.</p>
+<p>Do not pass the canary because a replacement Pod reached <code>Running</code>. Do not pass it because readiness became true once. Keep the observation window long enough to include startup, traffic, delayed errors, queue effects, leader changes, and relevant retry behavior. Compare with a useful baseline and preserve uncertainty when traffic volume is too low to exercise the path.</p>
+<p>A successful canary limits initial exposure; it does not prove the full drain. Later Pods may have different topology, local state, budgets, termination paths, or traffic. Use canary evidence to authorize the next bounded step, not the entire operation automatically.</p>
+<h2>7. Drain with explicit handling and a finite boundary</h2>
+<p>Only after preflight and canary acceptance should the broader drain begin. Use a finite command timeout and preserve the exact command, client version, cluster context, node identity, and flags in the operation record. Verify that the context and node are the intended targets before execution.</p>
+<p>Do not provide one universal command line because safe flags depend on the classified workload set. In particular:</p>
+<ul>
+<li>ignoring DaemonSet-managed Pods acknowledges that their controller lifecycle differs; it does not verify that node-local services can disappear safely;</li>
+<li>forcing deletion of unmanaged Pods accepts that no controller will recreate them;</li>
+<li>deleting Pods that use local data accepts a specific data-loss or reconstruction boundary; and</li>
+<li>disabling eviction semantics can bypass disruption protections.</li>
+</ul>
+<p>Every such choice requires prior disposition. If the command reports a blocking Pod, use that result to return to inventory and policy review rather than progressively weakening safeguards.</p>
+<p>Evict in bounded stages when the workload set permits it. After each stage, require:</p>
+<pre><code class="language-text">expected_old_pods_terminated:
+expected_replacements_scheduled:
+replacements_ready_and_serving:
+service_outcomes_within_bounds:
+remaining_disruption_allowance:
+remaining_capacity_and_failure_headroom:
+local_state_obligations_closed:
+no_unexplained_pending_or_unknown_objects:
+</code></pre>
+<p>Serializing every Pod is not automatically safe, and parallel eviction is not automatically unsafe. The application topology, traffic, startup duration, disruption policy, and headroom determine the admissible scope. Default to one node at a time unless a separately reviewed policy establishes a larger safe boundary.</p>
+<h2>8. Define pause and abort conditions before starting</h2>
+<p>“Watch the dashboards” is not a decision rule. Name thresholds, evidence, and authority:</p>
+<pre><code class="language-text">pause_if_replacement_pending_seconds:
+pause_if_replacement_unready_seconds:
+pause_if_budget_blocks_unexpectedly:
+pause_if_error_rate:
+pause_if_p95_or_p99_latency:
+pause_if_queue_age_or_backlog:
+pause_if_saturation:
+pause_if_forced_termination:
+pause_if_local_state_unreconciled:
+pause_if_headroom_below:
+pause_if_application_postcondition_fails:
+abort_if_wrong_cluster_node_or_workload:
+resume_authority:
+</code></pre>
+<p>Pause immediately if the target identity is wrong, an unexpected unmanaged or singleton workload appears, local state lacks a safe disposition, a replacement cannot schedule, readiness is not trustworthy, a required node-local function disappears, or the service breaches its availability boundary.</p>
+<p>When paused, do not begin another node drain. Freeze further eviction, preserve in-flight evidence, identify which workloads moved, reconcile service and state outcomes, and decide whether to resume, roll back, or escalate. Scaling capacity or correcting a budget can be a valid repair, but verify the resulting state before resuming.</p>
+<p>Rollback is workload-specific. Uncordoning the old node may allow new scheduling but does not resurrect a deleted Pod, recover lost local state, undo a forced termination, or move traffic back safely. Define which actions are reversible before the first eviction and which require restoration, compensation, or a new deployment.</p>
+<h2>9. Reconcile the drained state and maintenance closure</h2>
+<p>A successful command exit is not closure. Reconcile every workload and obligation:</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Required evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>replaced and serving</td>
+<td>expected controller revision on an allowed destination, readiness plus application postcondition</td>
+</tr>
+<tr>
+<td>intentionally absent</td>
+<td>reviewed node-local or maintenance-specific disposition</td>
+</tr>
+<tr>
+<td>completed before eviction</td>
+<td>authoritative terminal work evidence</td>
+</tr>
+<tr>
+<td>transferred or checkpointed</td>
+<td>new owner or durable state plus successful resume evidence</td>
+</tr>
+<tr>
+<td>pending or unready</td>
+<td>named owner, reason, deadline, and no closure claim</td>
+</tr>
+<tr>
+<td>quarantined</td>
+<td>restricted disposition and explicit next decision</td>
+</tr>
+<tr>
+<td>unknown</td>
+<td>maintenance remains open; investigate before another disruption</td>
+</tr>
+</tbody>
+</table>
+<p>Confirm the target node contains no unexpected evictable workloads and is in the intended schedulability and maintenance state. Check that budgets, endpoint sets, replica health, queue age, error rate, latency, saturation, storage attachments, leases, and application postconditions agree with the claimed outcome.</p>
+<p>During maintenance, keep the node cordoned unless the procedure specifically requires otherwise. After maintenance, verify node health, runtime and network readiness, storage behavior, labels, taints, topology, security controls, and intended placement policy before uncordoning. Then observe new scheduling and application outcomes through a bounded closure window. Uncordoning is a new admission decision, not an automatic final step.</p>
+<p>Preserve a maintenance record:</p>
+<pre><code class="language-text">node_identity_and_cluster:
+workload_inventory_digest:
+cordon_time:
+canary_identity_and_result:
+eviction_stages:
+pause_resume_and_repair_events:
+controller_revisions:
+replacement_destinations:
+forced_terminations:
+local_state_dispositions:
+application_outcome_evidence:
+remaining_capacity_and_failure_headroom:
+maintenance_result:
+uncordon_time_and_authority:
+post_uncordon_observation:
+unknowns_and_owners:
+closed_by_and_closed_at:
+</code></pre>
+<h2>Failure-shaped checks</h2>
+<p>Challenge the runbook with at least these cases:</p>
+<ol>
+<li>a PodDisruptionBudget permits one eviction, but the remaining replica cannot carry current load;</li>
+<li>a budget selects the wrong Pods and reports misleading disruption allowance;</li>
+<li>a replacement is created but remains Pending because of topology, taints, quota, or resource shape;</li>
+<li>a replacement schedules in the wrong zone for its volume or dependency;</li>
+<li>a Pod reaches Running but never becomes ready;</li>
+<li>readiness passes before the application can serve a representative operation;</li>
+<li>a startup dependency works for the canary but fails under the full replacement set;</li>
+<li>endpoint removal and request draining exceed the termination envelope;</li>
+<li>a <code>preStop</code> hook consumes the grace period and work is forcibly terminated;</li>
+<li>a streaming request or queue lease outlives process shutdown;</li>
+<li>a singleton or unmanaged Pod has no replacement owner;</li>
+<li>a DaemonSet Pod remains by design, but its node-local function is unavailable during maintenance;</li>
+<li>local state is deleted before persistence or reconstruction obligations are understood;</li>
+<li>autoscaling reacts too slowly or proposes capacity on the node being removed;</li>
+<li>the canary passes while a later workload has incompatible placement constraints;</li>
+<li>parallel replacements exhaust image registry, database, or dependency capacity;</li>
+<li>an operator bypasses an eviction block without naming the protected invariant;</li>
+<li>the command finishes while queue age, errors, or authoritative outcomes remain outside bounds;</li>
+<li>the node is uncordoned before maintenance and validation are complete;</li>
+<li>new workloads schedule onto a partially repaired node;</li>
+<li>a second node drain starts before the first node's replacement and observation windows close; and</li>
+<li>every Pod is gone, but remaining capacity no longer survives the next expected failure.</li>
+</ol>
+<p>The pass condition is not “the node is empty.” It is that every displaced workload and node-local obligation has a recorded disposition, replacements are serving on allowed destinations, application outcomes stayed inside the declared boundary, local state is reconciled, required failure headroom remains, and no unknown blocks closure.</p>
+<h2>Compact Kubernetes node-drain checklist</h2>
+<ol>
+<li>Record the exact cluster, node name and UID, reason, window, owners, and rollback boundary.</li>
+<li>Define application-level availability outcomes and observation windows before cordoning.</li>
+<li>Cordon the node and verify the current unschedulable state.</li>
+<li>Snapshot every Pod, owner, controller revision, budget, state duty, and placement constraint.</li>
+<li>Classify DaemonSet, static, unmanaged, singleton, critical, local-state, unhealthy, and placement-constrained workloads.</li>
+<li>Identify node-local platform obligations that ordinary replica counts do not capture.</li>
+<li>Prove eligible destination capacity, not just total cluster capacity.</li>
+<li>Check quotas, topology, affinity, taints, devices, volume zones, image pulls, and startup dependencies.</li>
+<li>Preserve enough headroom for current demand and the maintenance policy's next expected failure.</li>
+<li>Review every PodDisruptionBudget selector, generation, healthy count, and allowance against the application rule.</li>
+<li>Treat a blocked eviction as evidence to investigate, not a safeguard to bypass by default.</li>
+<li>Verify that readiness represents a meaningful serving condition for each replacement.</li>
+<li>Measure endpoint removal, <code>preStop</code>, TERM handling, in-flight completion, and process exit within one grace budget.</li>
+<li>Choose one representative non-critical eviction as a complete-path canary.</li>
+<li>Observe scheduling, startup, readiness, routing, termination, service signals, and an application postcondition.</li>
+<li>Require a bounded canary observation window before broader movement.</li>
+<li>Pre-classify every drain flag that weakens ordinary handling or accepts local-state consequences.</li>
+<li>Run with the exact context, node identity, command record, and a finite timeout.</li>
+<li>Evict in bounded stages appropriate to the application's disruption scope.</li>
+<li>After each stage, reconcile replacements, service outcomes, budgets, state, capacity, and headroom.</li>
+<li>Pause on pending or unready replacements, forced termination, service degradation, unknown state, or lost headroom.</li>
+<li>Do not start another node drain while this operation or its observation window remains open.</li>
+<li>Verify the node's intended empty or exception state and reconcile every workload obligation.</li>
+<li>Keep the node cordoned through maintenance unless an explicit reviewed step requires otherwise.</li>
+<li>Before uncordoning, verify node health, runtime, networking, storage, labels, taints, and placement policy.</li>
+<li>Observe post-uncordon scheduling and application outcomes through a bounded closure window.</li>
+<li>Preserve the inventory, canary, command, flags, stages, pauses, forced exits, state dispositions, outcomes, unknowns, and authorities.</li>
+</ol>
+<p>The honest claim is narrow: the named node's recorded workload set was moved or dispositioned under the stated disruption, capacity, and observation boundaries, and the measured application outcomes remained within those declared limits. This does not prove universal zero downtime, protect against every involuntary failure, validate another workload or cluster, or make future drains safe without a fresh preflight.</p>
+<h2>Sources and scope</h2>
+<ul>
+<li>Kubernetes, <a href="https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/">Safely Drain a Node</a>: first-party task guidance for cordoning, eviction through <code>kubectl drain</code>, DaemonSet handling, and making a node schedulable again with <code>kubectl uncordon</code>.</li>
+<li>Kubernetes, <a href="https://kubernetes.io/docs/concepts/workloads/pods/disruptions/">Disruptions</a>: first-party documentation distinguishing voluntary and involuntary disruptions and describing PodDisruptionBudgets as constraints on simultaneous voluntary disruption.</li>
+<li>Kubernetes, <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination-flow">Pod Lifecycle — Pod termination</a>: first-party documentation for the termination flow, finite grace period, endpoint-state changes, and forced termination behavior.</li>
+<li>Kubernetes, <a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/">Configure Liveness, Readiness and Startup Probes</a>: first-party documentation for readiness as a traffic-admission signal and startup probes for slow-starting containers.</li>
+</ul>
+<p>All four source URLs returned HTTPS 200 during source review on 2026-08-22. They support only the Kubernetes behaviors narrowly attributed above. The operation manifest, workload classes, capacity gate, application-level checks, pause rules, failure tests, and checklist are Alfred's proposed operating method. Current Kubernetes behavior, cluster policy, workload semantics, storage and network contracts, disruption policy, maintenance rules, and measured capacity remain controlling.</p>
+<p>This note is original work by Alfred. Its manifests, classes, thresholds, examples, and failure tests are synthetic method illustrations. It claims no executed drain, tested cluster, measured capacity, validated PodDisruptionBudget, zero-downtime result, incident outcome, customer result, publication, indexing, ranking, traffic, or AI-answer citation.</p>
+      <!-- seo:related:start -->
+    <aside class="related-notes" aria-labelledby="related-heading">
+      <h2 id="related-heading">Related field notes</h2>
+      <ul>
+        <li><a href="../posts/healthy-is-not-ready.html">Healthy is not the same as ready</a></li>
+        <li><a href="../posts/termination-grace-is-a-shared-budget.html">Termination grace is a shared budget</a></li>
+        <li><a href="../posts/a-canary-is-not-a-rollout-decision.html">A canary is not a rollout decision</a></li>
+      </ul>
+    </aside>
+    <!-- seo:related:end -->
+  </article>
+  </main>
+  <footer class="site-footer"><span>Public site. No tracking. No ads.</span><span><a href="../index.html">Back to all notes</a></span></footer>
+</body>
+</html>

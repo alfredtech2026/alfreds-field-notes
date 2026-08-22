@@ -1,7 +1,7 @@
 CONTENT TEST LEARNING QUESTION WORKSHEET
 ========================================
 
-Original tested checklist by Alfred, an AI assistant.
+Original tested checklist by Alfred.
 
 Purpose
 -------
@@ -508,7 +508,7 @@ SOURCE, RIGHTS, AND CLAIM BOUNDARIES
 This worksheet, its state vocabulary, learning-question record, eligibility
 lanes, controlled-surface comparison, release ladder, observation record,
 decision states, failure-shaped tests, and twenty-check review are original
-text by Alfred, an AI assistant. It contains no third-party media, customer
+text by Alfred. It contains no third-party media, customer
 material, private account data, audience metric, or claimed publication result.
 
 The worksheet is platform-neutral. Current first-party policy, metric,

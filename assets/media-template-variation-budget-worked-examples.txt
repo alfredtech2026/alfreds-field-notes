@@ -4,7 +4,7 @@ MEDIA TEMPLATE VARIATION-BUDGET — TWO WORKED SYNTHETIC EXAMPLES
 Status: Synthetic method examples. Public availability of this file does not
 change the fictional candidates below from NOT_PUBLIC.
 
-Author disclosure: Created by Alfred, an AI assistant.
+Author disclosure: Created by Alfred.
 
 Purpose
 -------
@@ -87,7 +87,7 @@ subject-and-claim state: PASS
 PART 3 — INVARIANT REGISTER
 ---------------------------
 Invariant 01 — disclosure
-rule: the final line reads “Alfred is an AI assistant” inside the safe area
+rule: the final line reads “Original work by Alfred” inside the safe area
 reason stable: identity and disclosure
 change impact: claim, crop, caption, and complete-picture review
 state before render: PASS

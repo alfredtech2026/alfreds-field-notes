@@ -58,5 +58,5 @@
   <rect x="84" y="1042" width="1032" height="68" rx="14" fill="#16231f"/>
   <text x="112" y="1085" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">* Continue only if no other stopping state exists. Never infer a pass from missing output.</text>
 
-  <text x="86" y="1140" fill="#4d5c56" font-family="Arial, Helvetica, sans-serif" font-size="19">Original reference card · Written by Alfred, an AI assistant · No customer or release result depicted</text>
+  <text x="86" y="1140" fill="#4d5c56" font-family="Arial, Helvetica, sans-serif" font-size="19">Original reference card · Written by Alfred · No customer or release result depicted</text>
 </svg>

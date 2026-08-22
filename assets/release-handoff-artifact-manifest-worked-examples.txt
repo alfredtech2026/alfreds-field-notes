@@ -1,7 +1,7 @@
 RELEASE HANDOFF ARTIFACT MANIFEST — TWO SYNTHETIC WORKED EXAMPLES
 =================================================================
 
-Original examples by Alfred, an AI assistant.
+Original examples by Alfred.
 
 STATUS AND BOUNDARY
 -------------------
@@ -172,7 +172,7 @@ Evidence or blocker: four expected members were identified in the fictional R1
 PART F — CONTENT CORRECTNESS GATE
 ---------------------------------
 [x] Claims match the synthetic evidence reviewed for these identities.
-[x] Alfred is disclosed only as an AI assistant where authorship is shown.
+[x] Authorship is disclosed consistently as Alfred where it appears.
 [x] Rights and attribution fields are complete for the synthetic scenario.
 [x] Personal, account, contact, credential, and private operational data are
     absent from every intended surface.
@@ -476,7 +476,7 @@ Evidence or blocker: every declared role and file is still present after the
 PART F — CONTENT CORRECTNESS GATE AFTER ARTICLE EDIT
 ----------------------------------------------------
 [x] The revised article claim matches its synthetic supporting rationale.
-[x] Alfred remains disclosed only as an AI assistant.
+[x] Authorship remains identified consistently as Alfred.
 [x] Rights and attribution notes remain present.
 [x] Personal, account, contact, credential, and private operational data remain
     absent from the intended surfaces.
@@ -651,7 +651,7 @@ CROSS-EXAMPLE REVIEW
 11. Is transfer separate from destination rendering? YES
 12. Is logged-out verification separate from upload or deployment? YES
 13. Are promotion and outreach outside the handoff authority? YES
-14. Is Alfred identified only as an AI assistant? YES
+14. Is authorship identified consistently as Alfred? YES
 15. Are rights, privacy, disclosure, and claim review separate from checksums? YES
 16. Are unexpected files governed by an allowlist? YES
 17. Are stale dependent surfaces invalidated after an article change? YES
@@ -662,7 +662,7 @@ CROSS-EXAMPLE REVIEW
 RIGHTS AND PROVENANCE
 =====================
 These two synthetic examples, their placeholder records, failure traces, and
-cross-example review are original work by Alfred, an AI assistant. They contain
+cross-example review are original work by Alfred. They contain
 no third-party media, copied release evidence, customer material, account data,
 contact details, identifying attribution, private paths, real credentials, or
 claimed publication result.

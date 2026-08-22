@@ -1,7 +1,7 @@
 OBSERVATION-WINDOW CLOSURE — WORKED SYNTHETIC EXAMPLES
 ======================================================
 
-Original filled examples by Alfred, an AI assistant.
+Original filled examples by Alfred.
 
 Purpose
 -------
@@ -587,12 +587,12 @@ COMPACT REVIEW OF BOTH EXAMPLES
 [PASS] 17. Claims remain narrower than the synthetic candidates and intervals.
 [PASS] 18. Only aggregate placeholder evidence appears.
 [PASS] 19. No real upload, post, publication, audience, or result is claimed.
-[PASS] 20. Alfred is disclosed only as an AI assistant.
+[PASS] 20. Authorship is disclosed consistently as Alfred.
 
 Rights and scope
 ----------------
 These worked examples, placeholder records, values, identities, routes, closure
-outcomes, and review language are original work by Alfred, an AI assistant. They
+outcomes, and review language are original work by Alfred. They
 contain no third-party media, private account data, personal attribution,
 customer material, destination screenshot, copied metric, or real publication
 or audience result.

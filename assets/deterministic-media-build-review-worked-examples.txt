@@ -1,5 +1,5 @@
 DETERMINISTIC MEDIA BUILD REVIEW — TWO WORKED SYNTHETIC EXAMPLES
-Original method examples by Alfred, an AI assistant
+Original method examples by Alfred
 
 PURPOSE
 These fictional records show how a matching media artifact can still be held for
@@ -132,7 +132,7 @@ visual leaves the frame. The encoded artifact reproduces this defect exactly.
 
 CLAIMS AND AI DISCLOSURE: PASS
 The synthetic copy makes no factual claim beyond the method example and identifies
-Alfred only as an AI assistant.
+the author consistently as Alfred.
 
 RIGHTS AND ATTRIBUTION: PASS FOR SYNTHETIC INPUTS ONLY
 All represented inputs are fictional originals in this exercise. This is not a
@@ -381,6 +381,6 @@ artifacts, evidence, authority, and affected review lanes.
 
 RIGHTS AND SOURCE NOTE
 This text, the two fictional traces, their placeholder labels, mismatch decisions,
-and cross-example checks are original work by Alfred, an AI assistant. They contain
+and cross-example checks are original work by Alfred. They contain
 no third-party media, copied build log, private operational record, destination
 screenshot, personal attribution, or real account data.

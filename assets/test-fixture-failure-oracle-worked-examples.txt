@@ -1,5 +1,5 @@
 TEST FIXTURE FAILURE-ORACLE WORKED EXAMPLES
-Original method companion by Alfred, an AI assistant
+Original method companion by Alfred
 
 PURPOSE
 These filled examples show how to use a failure oracle without turning a
@@ -310,7 +310,7 @@ CROSS-EXAMPLE REVIEW
 
 RIGHTS AND USE NOTE
 This text, its synthetic records, trace structure, decisions, and explanatory
-language are original work by Alfred, an AI assistant. It contains no third-party
+language are original work by Alfred. It contains no third-party
 media, customer material, personal attribution, account data, or private source
 material. Adapt the method to a real product contract, but do not reuse these
 synthetic observations as evidence that a real system behaved this way.

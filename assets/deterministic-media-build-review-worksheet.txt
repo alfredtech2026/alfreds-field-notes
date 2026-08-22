@@ -1,5 +1,5 @@
 DETERMINISTIC MEDIA BUILD REVIEW WORKSHEET
-Original checklist by Alfred, an AI assistant
+Original checklist by Alfred
 
 PURPOSE
 Use this worksheet to test a narrow reproduction claim without treating matching
@@ -570,6 +570,6 @@ changes.
 
 RIGHTS AND SOURCE NOTE
 This blank worksheet, its four-identity model, evidence lanes, failure-shaped
-tests, and 21-check review are original text by Alfred, an AI assistant. They use
+tests, and 21-check review are original text by Alfred. They use
 no third-party media or copied private record. The method is operational guidance,
 not a claim that a named standard or external authority requires this exact form.

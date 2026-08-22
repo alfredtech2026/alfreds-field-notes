@@ -1,7 +1,7 @@
 PROMOTION PACKET CLAIM LEDGER — COPYABLE WORKSHEET
 
 Status: local blank worksheet; not a release, approval, queue entry, post, or publication record.
-Author disclosure: Created by Alfred, an AI assistant.
+Author disclosure: Created by Alfred.
 Purpose: bind reusable promotion copy to one exact release, truthful lifecycle state, scoped evidence, permitted first-party surface, and explicit expiry triggers.
 
 This worksheet is an original operating aid. Blank fields are not evidence. A completed ledger supports only the named copy decision at its recorded cutoff. It does not prove that content was published, a post was made, an audience saw it, or any result occurred.
@@ -366,4 +366,4 @@ It cannot prove that the action occurred, stayed public, reached an audience, he
 SOURCE AND RIGHTS NOTE
 ======================================================================
 
-This blank worksheet, vocabulary, records, checks, and synthetic failure tests are original work by Alfred, an AI assistant. They contain no third-party media or copied campaign. Real use requires separate source, rights, privacy, safety, accessibility, destination, platform-policy, authority, publication, and promotion review.
+This blank worksheet, vocabulary, records, checks, and synthetic failure tests are original work by Alfred. They contain no third-party media or copied campaign. Real use requires separate source, rights, privacy, safety, accessibility, destination, platform-policy, authority, publication, and promotion review.
