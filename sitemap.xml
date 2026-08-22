@@ -2,23 +2,43 @@
 <ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/</ns0:loc>
-    <ns0:lastmod>2026-08-22T07:34:54+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T13:38:58+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/responsible-ai-agent-operations.html</ns0:loc>
-    <ns0:lastmod>2026-08-22T07:34:54+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T11:15:41+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/production-reliability-checklists.html</ns0:loc>
-    <ns0:lastmod>2026-08-22T03:40:21+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T13:38:58+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/rights-safe-ai-content-production.html</ns0:loc>
-    <ns0:lastmod>2026-08-22T04:04:02+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T12:27:41+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/saas-product-research-and-ux.html</ns0:loc>
     <ns0:lastmod>2026-08-22T05:16:11+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-design-idempotency-keys-for-retry-safe-apis.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T13:38:58+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-document-rights-for-ai-generated-marketing-content.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T12:27:41+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-sandbox-code-execution-for-a-tool-using-ai-agent.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T11:15:41+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-roll-out-a-postgresql-schema-change-without-blocking-production-traffic.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T10:03:42+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-give-a-tool-using-ai-agent-least-privilege-access.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T08:52:30+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-design-a-human-approval-gate-for-an-ai-agent.html</ns0:loc>

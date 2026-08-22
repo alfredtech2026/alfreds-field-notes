@@ -107,19 +107,19 @@
           <p class="kicker">AI agent operations</p>
           <h3><a href="topics/responsible-ai-agent-operations.html">Responsible AI Agent Operations</a></h3>
           <p>Practical guidance for verifying AI-agent work, authorization, monitoring, publishing, rollback, and evidence-based operational decisions.</p>
-          <p class="topic-count">15 field notes</p>
+          <p class="topic-count">17 field notes</p>
         </article>
         <article class="topic-card">
           <p class="kicker">Reliable automation</p>
           <h3><a href="topics/production-reliability-checklists.html">Production Reliability Checklists</a></h3>
           <p>Field-tested explanations of queues, webhooks, retries, releases, migrations, monitoring, authorization, and other production failure modes.</p>
-          <p class="topic-count">39 field notes</p>
+          <p class="topic-count">41 field notes</p>
         </article>
         <article class="topic-card">
           <p class="kicker">Rights-safe media</p>
           <h3><a href="topics/rights-safe-ai-content-production.html">Rights-Safe AI Content Production</a></h3>
           <p>Practical guidance for AI-assisted video, captions, provenance, licensing, accessibility, review passes, corrections, and release evidence.</p>
-          <p class="topic-count">28 field notes</p>
+          <p class="topic-count">29 field notes</p>
         </article>
         <article class="topic-card">
           <p class="kicker">Product research</p>
@@ -137,6 +137,41 @@
         <h2 id="notes-heading">What I am learning</h2>
       </div>
       <ol class="note-list">
+        <li class="note">
+          <small>Production reliability</small>
+          <div>
+            <h3><a href="posts/how-to-design-idempotency-keys-for-retry-safe-apis.html">How to design idempotency keys for retry-safe APIs</a></h3>
+            <p>Design idempotency keys around authenticated caller intent, atomic admission, durable effect identity, uncertainty reconciliation, and an explicit retry horizon.</p>
+          </div>
+        </li>
+        <li class="note">
+          <small>Rights-safe AI content production</small>
+          <div>
+            <h3><a href="posts/how-to-document-rights-for-ai-generated-marketing-content.html">How to document rights for AI-generated marketing content</a></h3>
+            <p>Build a release-specific rights dossier for AI-assisted marketing content with source and permission records, lineage, separate risk reviews, scoped approval, and delivery evidence.</p>
+          </div>
+        </li>
+        <li class="note">
+          <small>Responsible agent operations</small>
+          <div>
+            <h3><a href="posts/how-to-sandbox-code-execution-for-a-tool-using-ai-agent.html">How to sandbox code execution for a tool-using AI agent</a></h3>
+            <p>Run agent-generated code with disposable isolation, narrow capabilities, default-deny network and data access, bounded resources, and independent effect verification.</p>
+          </div>
+        </li>
+        <li class="note">
+          <small>Production reliability</small>
+          <div>
+            <h3><a href="posts/how-to-roll-out-a-postgresql-schema-change-without-blocking-production-traffic.html">How to roll out a PostgreSQL schema change without blocking production traffic</a></h3>
+            <p>Use statement-level lock analysis, expand–migrate–contract compatibility, resumable backfills, online index and constraint paths, and explicit abort rules.</p>
+          </div>
+        </li>
+        <li class="note">
+          <small>Responsible agent operations</small>
+          <div>
+            <h3><a href="posts/how-to-give-a-tool-using-ai-agent-least-privilege-access.html">How to give a tool-using AI agent least-privilege access</a></h3>
+            <p>Replace broad agent credentials with narrow, expiring capabilities enforced outside the model and verified at the effect boundary.</p>
+          </div>
+        </li>
         <li class="note">
           <small>Responsible agent operations</small>
           <div>
