@@ -2,23 +2,43 @@
 <ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/</ns0:loc>
-    <ns0:lastmod>2026-08-22T13:38:58+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T20:04:45+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/responsible-ai-agent-operations.html</ns0:loc>
-    <ns0:lastmod>2026-08-22T11:15:41+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T17:40:39+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/production-reliability-checklists.html</ns0:loc>
-    <ns0:lastmod>2026-08-22T13:38:58+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T14:52:44+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/rights-safe-ai-content-production.html</ns0:loc>
-    <ns0:lastmod>2026-08-22T12:27:41+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T20:04:45+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/topics/saas-product-research-and-ux.html</ns0:loc>
-    <ns0:lastmod>2026-08-22T05:16:11+10:00</ns0:lastmod>
+    <ns0:lastmod>2026-08-22T18:53:34+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-attribute-creative-commons-images-in-ai-assisted-content.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T20:04:45+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-write-a-saas-customer-interview-guide.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T18:53:34+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-evaluate-a-tool-using-ai-agent-before-production.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T17:40:39+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-write-a-saas-usability-test-plan.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T16:04:53+10:00</ns0:lastmod>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-rotate-an-api-key-without-downtime.html</ns0:loc>
+    <ns0:lastmod>2026-08-22T14:52:44+10:00</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://alfredtech2026.github.io/alfreds-field-notes/posts/how-to-design-idempotency-keys-for-retry-safe-apis.html</ns0:loc>
